@@ -1,0 +1,967 @@
+2013-05-23 11:37:04	-->	meandave (~meandave@c-71-56-139-32.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-05-23 11:37:04	--	Nicks #sprintly-nerds: [@justinabrahms meandave]
+2013-05-23 11:37:04	--	Channel #sprintly-nerds: 2 nicks (1 op, 0 halfops, 0 voices, 1 normal)
+2013-05-23 11:37:07	--	Mode #sprintly-nerds [+nsk push1tn0w]
+2013-05-23 11:37:07	--	Channel created on Thu, 23 May 2013 11:34:39
+2013-05-23 12:12:45	-->	nicholasserra (~Adium@24.154.8.232) has joined #sprintly-nerds
+2013-05-23 12:12:49	nicholasserra	Beautiful. 
+2013-05-23 12:14:09	@justinabrahms	agreed. So much more convenient for me.
+2013-05-23 12:14:31	@justinabrahms	Though I think it's unlikely we'll get grant/joe on board.
+2013-05-23 12:14:45	nicholasserra	Really, not Joe? I would have thought he'd be all for this.
+2013-05-23 12:15:23	@justinabrahms	he's a weird one. vi user, but likes apple stuff.
+2013-05-23 12:15:54	@justinabrahms	Better stated: doesn't like neckbeardy stuff, but uses vi
+2013-05-23 12:16:28	nicholasserra	Weird. I actually don't enjoy working in vim. I feel like i'm trapped haha
+2013-05-23 15:04:38	<--	nicholasserra (~Adium@24.154.8.232) has quit (Quit: Leaving.)
+2013-05-23 18:44:56	@justinabrahms	my cache settings:
+2013-05-23 18:44:56	@justinabrahms	define(`__CACHE_BACKEND__', `django.core.cache.backends.memcached.MemcachedCache')
+2013-05-23 18:44:56	@justinabrahms	define(`__CACHE_LOCATION__', `"127.0.0.1:11211"')
+2013-05-23 23:28:04	--	irc: disconnected from server
+2013-05-23 23:28:31	-->	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-05-23 23:28:31	--	Nicks #sprintly-nerds: [@justinabrahms meandave nicholasserra]
+2013-05-23 23:28:31	--	Channel #sprintly-nerds: 3 nicks (1 op, 0 halfops, 0 voices, 2 normals)
+2013-05-23 23:28:43	--	Mode #sprintly-nerds [+nsk push1tn0w]
+2013-05-23 23:28:43	--	Channel created on Thu, 23 May 2013 11:34:39
+2013-05-23 23:41:30	<--	nicholasserra (~Adium@dynamic-acs-24-101-140-32.zoominternet.net) has quit (Quit: Leaving.)
+2013-05-24 10:20:49	--	irc: disconnected from server
+2013-05-24 10:21:19	-->	meandave (~meandave@c-71-56-139-32.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-05-24 10:21:19	--	Nicks #sprintly-nerds: [@justinabrahms meandave nicholasserra]
+2013-05-24 10:21:19	--	Channel #sprintly-nerds: 3 nicks (1 op, 0 halfops, 0 voices, 2 normals)
+2013-05-24 10:21:31	--	Mode #sprintly-nerds [+nsk push1tn0w]
+2013-05-24 10:21:31	--	Channel created on Thu, 23 May 2013 11:34:39
+2013-05-24 11:46:08	<--	nicholasserra (~Adium@24.154.8.232) has quit (Quit: Leaving.)
+2013-05-24 12:50:49	-->	nicholasserra (~Adium@cpe-24-93-244-49.neo.res.rr.com) has joined #sprintly-nerds
+2013-05-24 15:36:52	nicholasserra	My pull request description is like ten times larger than the pull itself hah
+2013-05-24 15:49:17	<--	nicholasserra (~Adium@cpe-24-93-244-49.neo.res.rr.com) has quit (Quit: Leaving.)
+2013-05-24 15:52:44	-->	nicholasserra (~Adium@cpe-24-93-244-49.neo.res.rr.com) has joined #sprintly-nerds
+2013-05-24 15:54:25	nicholasserra	justinabrahms: Is there anywhere else besides the team page that you can add "members"? Because it looks like the only way to add a member through the MemberEndpoint is when adding an existing person.
+2013-05-24 15:55:24	@justinabrahms	API?
+2013-05-24 15:55:43	 *	justinabrahms isn't sure.
+2013-05-24 15:55:53	@justinabrahms	just looks weird that you were using one endpoint for some of the tests and another for the other.
+2013-05-24 15:56:26	@justinabrahms	btw, I'm not saying the suggestion was a good idea, just prompting for more info.
+2013-05-24 15:56:27	nicholasserra	Yeah, from what I can tell, the MemberEndpoint is only for adding existing people from other products. The rest is done via inviting.
+2013-05-24 15:56:37	nicholasserra	API docs say you can only invite, not add by ID.
+2013-05-24 15:57:05	nicholasserra	But you bring up a good case that someone might be able to add someone if they hack up that form and inject another user id.
+2013-05-24 15:57:36	nicholasserra	Maybe I'll check for an existing member on another product the Account owns before I just let it happen.
+2013-05-24 16:02:12	<--	nicholasserra (~Adium@cpe-24-93-244-49.neo.res.rr.com) has quit (Quit: Leaving.)
+2013-05-24 18:24:19	--	irc: disconnected from server
+2013-05-24 18:24:48	-->	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-05-24 18:24:48	--	Nicks #sprintly-nerds: [@justinabrahms meandave nicholasserra]
+2013-05-24 18:24:48	--	Channel #sprintly-nerds: 3 nicks (1 op, 0 halfops, 0 voices, 2 normals)
+2013-05-24 18:24:48	--	Notice(hobana.freenode.net): [freenode-info] why register and identify? your IRC nick is how people know you. http://freenode.net/faq.shtml#nicksetup
+2013-05-24 18:25:00	--	Mode #sprintly-nerds [+nsk push1tn0w]
+2013-05-24 18:25:00	--	Channel created on Thu, 23 May 2013 11:34:39
+2013-05-24 18:42:23	nicholasserra	I saw pusher was having problems, but is it actually blocking the UI from loading?
+2013-05-24 18:45:31	<--	nicholasserra (~Adium@cpe-24-93-244-49.neo.res.rr.com) has quit (Quit: Leaving.)
+2013-05-24 23:37:18	--	irc: disconnected from server
+2013-05-24 23:38:16	-->	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-05-24 23:38:16	--	Nicks #sprintly-nerds: [@justinabrahms meandave]
+2013-05-24 23:38:16	--	Channel #sprintly-nerds: 2 nicks (1 op, 0 halfops, 0 voices, 1 normal)
+2013-05-24 23:38:25	--	Mode #sprintly-nerds [+nsk push1tn0w]
+2013-05-24 23:38:26	--	Channel created on Thu, 23 May 2013 11:34:39
+2013-05-25 00:52:14	--	irc: disconnected from server
+2013-05-25 00:52:45	-->	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-05-25 00:52:45	--	Nicks #sprintly-nerds: [@justinabrahms meandave]
+2013-05-25 00:52:45	--	Channel #sprintly-nerds: 2 nicks (1 op, 0 halfops, 0 voices, 1 normal)
+2013-05-25 00:52:57	--	Mode #sprintly-nerds [+nsk push1tn0w]
+2013-05-25 00:52:57	--	Channel created on Thu, 23 May 2013 11:34:39
+2013-05-25 10:32:44	--	irc: disconnected from server
+2013-05-25 10:33:14	-->	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-05-25 10:33:14	--	Nicks #sprintly-nerds: [@justinabrahms meandave nicholasserra]
+2013-05-25 10:33:14	--	Channel #sprintly-nerds: 3 nicks (1 op, 0 halfops, 0 voices, 2 normals)
+2013-05-25 10:33:24	--	Mode #sprintly-nerds [+nsk push1tn0w]
+2013-05-25 10:33:24	--	Channel created on Thu, 23 May 2013 11:34:39
+2013-05-25 11:09:17	meandave	nicholasserra: Have you been able to reproduce this items page being held up locally?
+2013-05-25 11:09:38	nicholasserra	Yeah, i'm getting the same problem locally.
+2013-05-25 11:09:58	meandave	no errors?
+2013-05-25 11:10:26	nicholasserra	No error, no errors on the backend. I'm debugging and it looks like the render() isn't called in the products_items_view
+2013-05-25 11:10:47	nicholasserra	But the only thing in there that should have changed that was 25 days ago with tim's commit.
+2013-05-25 11:11:38	meandave	weird
+2013-05-25 11:12:14	nicholasserra	It was merged in with 1.5, but there's no way nobody noticed that problem until today. I've been reverting back every commit one by one and the same problem is going back pretty far.
+2013-05-25 11:12:36	meandave	doesn't make sense
+2013-05-25 11:12:49	meandave	I can't get the problem locally, only on production
+2013-05-25 11:15:17	nicholasserra	Do you have DEBUG_JS True in your settings.py?
+2013-05-25 11:15:27	nicholasserra	Also clear all cache 
+2013-05-25 11:16:20	meandave	yeah, so it has happened now that i've cleared local storage
+2013-05-25 11:16:58	meandave	I know what it is
+2013-05-25 11:20:16	nicholasserra	What are ya thinking?
+2013-05-25 11:20:49	meandave	it was this new localstorage settings thing
+2013-05-25 11:21:14	meandave	it was setting this.stageView to "null" instead of the default.
+2013-05-25 11:21:40	nicholasserra	Which commit? I reverted things back to like a week ago and was still seeing the problem.
+2013-05-25 11:21:40	meandave	I was gunna add null as a string the the helpers yesterday, should have.
+2013-05-25 11:22:02	meandave	that is because it is already set in local storage
+2013-05-25 11:22:05	meandave	i presume
+2013-05-25 11:22:29	nicholasserra	Weird. I was clearing everything. 
+2013-05-25 11:22:40	nicholasserra	Maybe firefox doesn't clear local storage when you clear everything.
+2013-05-25 11:22:58	meandave	*shrug
+2013-05-25 11:23:07	meandave	I pushed the fix to master
+2013-05-25 11:23:32	meandave	you wanna pull it and test? and I'll deploy after that
+2013-05-25 11:23:55	nicholasserra	Yeah I will now. But is this going to fix it for people that already have the bad local storage entry in?
+2013-05-25 11:24:03	meandave	yeah
+2013-05-25 11:24:44	meandave	it will still be "null" until they choose load the items page, but it now sets to default it ==="null"
+2013-05-25 11:25:35	nicholasserra	Yup that fixes it for me. I guess lesson learned for me is that local storage isn't cleared when you reset everything in firefox. What a load of shit. Good look
+2013-05-25 11:25:46	meandave	:)
+2013-05-25 11:28:35	nicholasserra	Let Joe know it's good, he was worried about it.
+2013-05-25 11:35:13	meandave	i sent him an email
+2013-05-25 13:03:46	<--	nicholasserra (~Adium@cpe-24-93-244-49.neo.res.rr.com) has quit (Quit: Leaving.)
+2013-05-25 17:13:21	--	irc: disconnected from server
+2013-05-26 01:27:25	-->	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-05-26 01:27:25	--	Nicks #sprintly-nerds: [@justinabrahms meandave]
+2013-05-26 01:27:25	--	Channel #sprintly-nerds: 2 nicks (1 op, 0 halfops, 0 voices, 1 normal)
+2013-05-26 01:27:35	--	Mode #sprintly-nerds [+nsk push1tn0w]
+2013-05-26 01:27:35	--	Channel created on Thu, 23 May 2013 11:34:39
+2013-05-26 13:30:52	--	irc: disconnected from server
+2013-06-03 11:20:12	-->	meandave (~meandave@c-71-56-139-32.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-03 11:20:12	--	Nicks #sprintly-nerds: [@justinabrahms meandave nicholasserra]
+2013-06-03 11:20:12	--	Channel #sprintly-nerds: 3 nicks (1 op, 0 halfops, 0 voices, 2 normals)
+2013-06-03 11:20:14	--	Mode #sprintly-nerds [+ns]
+2013-06-03 11:20:14	--	Channel created on Sat, 01 Jun 2013 11:33:33
+2013-06-03 15:44:31	<--	nicholasserra (~Adium@24.154.8.232) has quit (Quit: Leaving.)
+2013-06-03 16:05:11	@justinabrahms	meandave: can you look at https://github.com/sprintly/sprint.ly/pull/356 when you have a second?
+2013-06-03 16:05:26	@justinabrahms	errr.. just saw comments from nick...
+2013-06-03 18:25:58	--	irc: disconnected from server
+2013-06-03 18:57:47	-->	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-03 18:57:47	--	Nicks #sprintly-nerds: [@justinabrahms meandave]
+2013-06-03 18:57:47	--	Channel #sprintly-nerds: 2 nicks (1 op, 0 halfops, 0 voices, 1 normal)
+2013-06-03 18:57:48	--	Mode #sprintly-nerds [+ns]
+2013-06-03 18:57:48	--	Channel created on Sat, 01 Jun 2013 11:33:33
+2013-06-03 19:44:06	--	irc: disconnected from server
+2013-06-03 19:45:24	-->	meandave1 (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-03 19:45:24	--	Nicks #sprintly-nerds: [@justinabrahms meandave meandave1]
+2013-06-03 19:45:24	--	Channel #sprintly-nerds: 3 nicks (1 op, 0 halfops, 0 voices, 2 normals)
+2013-06-03 19:45:25	--	Mode #sprintly-nerds [+ns]
+2013-06-03 19:45:25	--	Channel created on Sat, 01 Jun 2013 11:33:33
+2013-06-03 19:46:03	<--	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has quit (Ping timeout: 256 seconds)
+2013-06-03 20:23:48	--	You are now known as meandave
+2013-06-03 23:29:20	--	irc: disconnected from server
+2013-06-03 23:36:46	-->	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-03 23:36:47	--	Nicks #sprintly-nerds: [@justinabrahms meandave]
+2013-06-03 23:36:47	--	Channel #sprintly-nerds: 2 nicks (1 op, 0 halfops, 0 voices, 1 normal)
+2013-06-03 23:36:47	--	Mode #sprintly-nerds [+ns]
+2013-06-03 23:36:47	--	Channel created on Sat, 01 Jun 2013 11:33:33
+2013-06-04 09:25:36	--	irc: disconnected from server
+2013-06-04 09:26:00	-->	meandave (~meandave@c-71-56-139-32.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-04 09:26:00	--	Nicks #sprintly-nerds: [@justinabrahms meandave nicholasserra]
+2013-06-04 09:26:00	--	Channel #sprintly-nerds: 3 nicks (1 op, 0 halfops, 0 voices, 2 normals)
+2013-06-04 09:26:02	--	Mode #sprintly-nerds [+ns]
+2013-06-04 09:26:02	--	Channel created on Sat, 01 Jun 2013 11:33:33
+2013-06-04 10:04:00	<--	nicholasserra (~Adium@24.154.8.232) has quit (Quit: Leaving.)
+2013-06-04 10:53:50	-->	nicholasserra (~Adium@24.154.8.232) has joined #sprintly-nerds
+2013-06-04 11:08:03	-->	nicholasserra1 (~Adium@24.154.8.232) has joined #sprintly-nerds
+2013-06-04 11:08:05	<--	nicholasserra (~Adium@24.154.8.232) has quit (Ping timeout: 252 seconds)
+2013-06-04 11:14:01	nicholasserra1	Hai guise
+2013-06-04 11:14:07	nicholasserra1	XD
+2013-06-04 11:14:32	<--	nicholasserra1 (~Adium@24.154.8.232) has left #sprintly-nerds
+2013-06-04 11:14:43	-->	nicholasserra1 (~Adium@24.154.8.232) has joined #sprintly-nerds
+2013-06-04 11:16:46	<--	nicholasserra1 (~Adium@24.154.8.232) has left #sprintly-nerds
+2013-06-04 11:17:00	-->	nicholasserra1 (~Adium@24.154.8.232) has joined #sprintly-nerds
+2013-06-04 11:17:25	--	nicholasserra1 is now known as nicholasserra
+2013-06-04 12:08:24	<--	nicholasserra (~Adium@24.154.8.232) has quit (Quit: Leaving.)
+2013-06-04 12:38:59	-->	nicholasserra (~Adium@24.154.8.232) has joined #sprintly-nerds
+2013-06-04 12:47:45	<--	nicholasserra (~Adium@24.154.8.232) has quit (Ping timeout: 248 seconds)
+2013-06-04 13:18:45	-->	nicholasserra (~Adium@24.154.8.232) has joined #sprintly-nerds
+2013-06-04 13:49:11	@justinabrahms	nicholasserra: ohai.
+2013-06-04 13:49:31	@justinabrahms	Don't be alarmed at the tickets I'm assigning to you. Just writing out all the grand plans I have in my head. :)
+2013-06-04 14:05:59	nicholasserra	justinabrahms: Hah okay good. Looks like I need to dive into some more dev-ops asap
+2013-06-04 14:07:21	@justinabrahms	Either that or javascript. Do you have a preference?
+2013-06-04 14:08:57	nicholasserra	If it's dev ops i'll need to get up to speed, but it shouldn't be a problem. I'm fine with diving in the JS too, I've been in and out of it already.
+2013-06-04 14:10:15	nicholasserra	I've been looking for a good reason to dive hard into Chef, etc. This should do it :D
+2013-06-04 14:11:10	<--	nicholasserra (~Adium@24.154.8.232) has quit (Quit: Leaving.)
+2013-06-04 19:25:19	--	irc: disconnected from server
+2013-06-04 19:25:43	-->	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-04 19:25:43	--	Nicks #sprintly-nerds: [@justinabrahms meandave]
+2013-06-04 19:25:43	--	Channel #sprintly-nerds: 2 nicks (1 op, 0 halfops, 0 voices, 1 normal)
+2013-06-04 19:25:45	--	Mode #sprintly-nerds [+ns]
+2013-06-04 19:25:45	--	Channel created on Sat, 01 Jun 2013 11:33:33
+2013-06-04 20:53:39	--	irc: disconnected from server
+2013-06-04 20:54:05	-->	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-04 20:54:05	--	Nicks #sprintly-nerds: [@justinabrahms meandave]
+2013-06-04 20:54:05	--	Channel #sprintly-nerds: 2 nicks (1 op, 0 halfops, 0 voices, 1 normal)
+2013-06-04 20:54:07	--	Mode #sprintly-nerds [+ns]
+2013-06-04 20:54:07	--	Channel created on Sat, 01 Jun 2013 11:33:33
+2013-06-04 21:38:58	--	irc: disconnected from server
+2013-06-04 21:39:23	-->	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-04 21:39:23	--	Nicks #sprintly-nerds: [@justinabrahms meandave]
+2013-06-04 21:39:23	--	Channel #sprintly-nerds: 2 nicks (1 op, 0 halfops, 0 voices, 1 normal)
+2013-06-04 21:39:25	--	Mode #sprintly-nerds [+ns]
+2013-06-04 21:39:26	--	Channel created on Sat, 01 Jun 2013 11:33:33
+2013-06-04 23:34:13	--	irc: disconnected from server
+2013-06-04 23:34:37	-->	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-04 23:34:37	--	Nicks #sprintly-nerds: [@justinabrahms meandave]
+2013-06-04 23:34:37	--	Channel #sprintly-nerds: 2 nicks (1 op, 0 halfops, 0 voices, 1 normal)
+2013-06-04 23:34:39	--	Mode #sprintly-nerds [+ns]
+2013-06-04 23:34:39	--	Channel created on Sat, 01 Jun 2013 11:33:33
+2013-06-05 09:05:56	--	irc: disconnected from server
+2013-06-05 09:06:20	-->	meandave (~meandave@c-71-56-139-32.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-05 09:06:20	--	Mode #sprintly-nerds [+ns] by hobana.freenode.net
+2013-06-05 09:06:20	--	Nicks #sprintly-nerds: [@meandave]
+2013-06-05 09:06:20	--	Channel #sprintly-nerds: 1 nick (1 op, 0 halfops, 0 voices, 0 normals)
+2013-06-05 09:06:20	--	Mode #sprintly-nerds [+ns]
+2013-06-05 09:06:21	--	Channel created on Wed, 05 Jun 2013 09:06:18
+2013-06-05 09:13:23	--	Mode #sprintly-nerds [-o meandave] by hobana.freenode.net
+2013-06-05 09:13:23	--	Notice(hobana.freenode.net): *** Notice -- TS for #sprintly-nerds changed from 1370448378 to 1370445214
+2013-06-05 09:13:23	-->	justinabrahms (uid11033@gateway/web/irccloud.com/x-uuwoededoxlyyvlr) has joined #sprintly-nerds
+2013-06-05 09:13:23	--	Mode #sprintly-nerds [+o justinabrahms] by hobana.freenode.net
+2013-06-05 11:46:37	-->	nicholasserra (~Adium@24.154.8.232) has joined #sprintly-nerds
+2013-06-05 11:51:47	<--	nicholasserra (~Adium@24.154.8.232) has quit (Quit: Leaving.)
+2013-06-05 12:01:33	-->	nicholasserra (~Adium@24.154.8.232) has joined #sprintly-nerds
+2013-06-05 12:16:26	-->	nicholasserra1 (~Adium@24.154.8.232) has joined #sprintly-nerds
+2013-06-05 12:18:07	<--	nicholasserra (~Adium@24.154.8.232) has quit (Ping timeout: 245 seconds)
+2013-06-05 12:39:04	--	irc: disconnected from server
+2013-06-05 12:39:31	-->	meandave (~meandave@c-71-56-139-32.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-05 12:39:31	--	Nicks #sprintly-nerds: [@justinabrahms meandave nicholasserra]
+2013-06-05 12:39:31	--	Channel #sprintly-nerds: 3 nicks (1 op, 0 halfops, 0 voices, 2 normals)
+2013-06-05 12:39:33	--	Mode #sprintly-nerds [+ns]
+2013-06-05 12:39:33	--	Channel created on Wed, 05 Jun 2013 08:13:34
+2013-06-05 13:02:30	<--	nicholasserra (~Adium@24.154.8.232) has quit (*.net *.split)
+2013-06-05 13:08:12	-->	nicholasserra (~Adium@24.154.8.232) has joined #sprintly-nerds
+2013-06-05 13:08:55	<--	nicholasserra (~Adium@24.154.8.232) has quit (Quit: Leaving.)
+2013-06-05 13:11:38	-->	nicholasserra (~Adium@24.154.8.232) has joined #sprintly-nerds
+2013-06-05 14:02:07	<--	nicholasserra (~Adium@24.154.8.232) has quit (Quit: Leaving.)
+2013-06-05 18:13:11	--	irc: disconnected from server
+2013-06-05 18:13:37	-->	meandave (~meandave@c-71-56-139-32.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-05 18:13:37	--	Nicks #sprintly-nerds: [@justinabrahms meandave]
+2013-06-05 18:13:37	--	Channel #sprintly-nerds: 2 nicks (1 op, 0 halfops, 0 voices, 1 normal)
+2013-06-05 18:13:40	--	Mode #sprintly-nerds [+ns]
+2013-06-05 18:13:40	--	Channel created on Wed, 05 Jun 2013 08:13:34
+2013-06-05 19:08:09	--	irc: disconnected from server
+2013-06-05 22:06:46	-->	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-05 22:06:46	--	Nicks #sprintly-nerds: [@justinabrahms meandave]
+2013-06-05 22:06:46	--	Channel #sprintly-nerds: 2 nicks (1 op, 0 halfops, 0 voices, 1 normal)
+2013-06-05 22:06:48	--	Mode #sprintly-nerds [+ns]
+2013-06-05 22:06:48	--	Channel created on Wed, 05 Jun 2013 08:13:34
+2013-06-06 00:09:02	--	irc: disconnected from server
+2013-06-06 00:09:26	-->	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-06 00:09:26	--	Nicks #sprintly-nerds: [@justinabrahms meandave]
+2013-06-06 00:09:26	--	Channel #sprintly-nerds: 2 nicks (1 op, 0 halfops, 0 voices, 1 normal)
+2013-06-06 00:09:26	--	Notice(calvino.freenode.net): [freenode-info] channel trolls and no channel staff around to help? please check with freenode support: http://freenode.net/faq.shtml#gettinghelp
+2013-06-06 00:09:28	--	Mode #sprintly-nerds [+ns]
+2013-06-06 00:09:28	--	Channel created on Wed, 05 Jun 2013 08:13:34
+2013-06-06 10:20:40	--	irc: disconnected from server
+2013-06-06 10:21:03	-->	meandave (~meandave@c-71-56-139-32.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-06 10:21:04	--	Nicks #sprintly-nerds: [meandave nicholasserra]
+2013-06-06 10:21:04	--	Channel #sprintly-nerds: 2 nicks (0 ops, 0 halfops, 0 voices, 2 normals)
+2013-06-06 10:21:05	--	Mode #sprintly-nerds [+ns]
+2013-06-06 10:21:05	--	Channel created on Thu, 06 Jun 2013 06:19:09
+2013-06-06 10:36:11	<--	nicholasserra (~Adium@24.154.8.232) has quit (Quit: Leaving.)
+2013-06-06 10:47:10	-->	nicholasserra (~Adium@24.154.8.232) has joined #sprintly-nerds
+2013-06-06 11:53:05	-->	justinabrahms (uid11033@gateway/web/irccloud.com/x-cxouyxecoxgbyxon) has joined #sprintly-nerds
+2013-06-06 15:17:54	<--	nicholasserra (~Adium@24.154.8.232) has quit (Quit: Leaving.)
+2013-06-06 16:03:55	--	irc: disconnected from server
+2013-06-06 16:04:18	-->	meandave (~meandave@c-71-56-139-32.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-06 16:04:18	--	Nicks #sprintly-nerds: [justinabrahms meandave]
+2013-06-06 16:04:18	--	Channel #sprintly-nerds: 2 nicks (0 ops, 0 halfops, 0 voices, 2 normals)
+2013-06-06 16:04:18	--	Mode #sprintly-nerds [+ns]
+2013-06-06 16:04:18	--	Channel created on Thu, 06 Jun 2013 06:19:09
+2013-06-06 19:27:11	--	irc: disconnected from server
+2013-06-06 19:27:35	-->	meandave (~meandave@67-133-40-251.dia.static.qwest.net) has joined #sprintly-nerds
+2013-06-06 19:27:35	--	Nicks #sprintly-nerds: [justinabrahms meandave]
+2013-06-06 19:27:35	--	Channel #sprintly-nerds: 2 nicks (0 ops, 0 halfops, 0 voices, 2 normals)
+2013-06-06 19:27:37	--	Mode #sprintly-nerds [+ns]
+2013-06-06 19:27:37	--	Channel created on Thu, 06 Jun 2013 06:19:09
+2013-06-06 19:27:49	--	meandave has changed topic for #sprintly-nerds to "ten-ants"
+2013-06-06 21:49:48	--	irc: disconnected from server
+2013-06-06 21:50:17	-->	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-06 21:50:17	--	Topic for #sprintly-nerds is "ten-ants"
+2013-06-06 21:50:17	--	Topic set by meandave (~meandave@67-133-40-251.dia.static.qwest.net) on Thu, 06 Jun 2013 19:27:49
+2013-06-06 21:50:17	--	Nicks #sprintly-nerds: [justinabrahms meandave]
+2013-06-06 21:50:17	--	Channel #sprintly-nerds: 2 nicks (0 ops, 0 halfops, 0 voices, 2 normals)
+2013-06-06 21:50:18	--	Mode #sprintly-nerds [+ns]
+2013-06-06 21:50:18	--	Channel created on Thu, 06 Jun 2013 06:19:09
+2013-06-06 23:15:35	--	irc: disconnected from server
+2013-06-06 23:16:02	-->	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-06 23:16:02	--	Topic for #sprintly-nerds is "ten-ants"
+2013-06-06 23:16:02	--	Topic set by meandave (~meandave@67-133-40-251.dia.static.qwest.net) on Thu, 06 Jun 2013 19:27:49
+2013-06-06 23:16:02	--	Nicks #sprintly-nerds: [justinabrahms meandave]
+2013-06-06 23:16:02	--	Channel #sprintly-nerds: 2 nicks (0 ops, 0 halfops, 0 voices, 2 normals)
+2013-06-06 23:16:04	--	Mode #sprintly-nerds [+ns]
+2013-06-06 23:16:04	--	Channel created on Thu, 06 Jun 2013 06:19:09
+2013-06-06 23:58:19	--	irc: disconnected from server
+2013-06-06 23:58:46	-->	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-06 23:58:46	--	Topic for #sprintly-nerds is "ten-ants"
+2013-06-06 23:58:46	--	Topic set by meandave (~meandave@67-133-40-251.dia.static.qwest.net) on Thu, 06 Jun 2013 19:27:49
+2013-06-06 23:58:46	--	Nicks #sprintly-nerds: [justinabrahms meandave]
+2013-06-06 23:58:46	--	Channel #sprintly-nerds: 2 nicks (0 ops, 0 halfops, 0 voices, 2 normals)
+2013-06-06 23:58:48	--	Mode #sprintly-nerds [+ns]
+2013-06-06 23:58:49	--	Channel created on Thu, 06 Jun 2013 06:19:09
+2013-06-07 02:54:30	--	irc: disconnected from server
+2013-06-07 02:54:52	-->	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-07 02:54:52	--	Topic for #sprintly-nerds is "ten-ants"
+2013-06-07 02:54:52	--	Topic set by meandave (~meandave@67-133-40-251.dia.static.qwest.net) on Thu, 06 Jun 2013 19:27:49
+2013-06-07 02:54:52	--	Nicks #sprintly-nerds: [justinabrahms meandave]
+2013-06-07 02:54:52	--	Channel #sprintly-nerds: 2 nicks (0 ops, 0 halfops, 0 voices, 2 normals)
+2013-06-07 02:54:52	--	Notice(rajaniemi.freenode.net): [freenode-info] if you're at a conference and other people are having trouble connecting, please mention it to staff: http://freenode.net/faq.shtml#gettinghelp
+2013-06-07 02:54:54	--	Mode #sprintly-nerds [+ns]
+2013-06-07 02:54:54	--	Channel created on Thu, 06 Jun 2013 06:19:09
+2013-06-07 10:03:49	--	irc: disconnected from server
+2013-06-07 10:04:15	-->	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-07 10:04:15	--	Topic for #sprintly-nerds is "ten-ants"
+2013-06-07 10:04:15	--	Topic set by meandave (~meandave@67-133-40-251.dia.static.qwest.net) on Thu, 06 Jun 2013 19:27:49
+2013-06-07 10:04:15	--	Nicks #sprintly-nerds: [justinabrahms meandave]
+2013-06-07 10:04:15	--	Channel #sprintly-nerds: 2 nicks (0 ops, 0 halfops, 0 voices, 2 normals)
+2013-06-07 10:04:18	--	Mode #sprintly-nerds [+ns]
+2013-06-07 10:04:19	--	Channel created on Thu, 06 Jun 2013 06:19:09
+2013-06-07 10:31:36	--	irc: disconnected from server
+2013-06-07 10:32:01	-->	meandave (~meandave@c-71-56-139-32.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-07 10:32:01	--	Topic for #sprintly-nerds is "ten-ants"
+2013-06-07 10:32:01	--	Topic set by meandave (~meandave@67-133-40-251.dia.static.qwest.net) on Thu, 06 Jun 2013 19:27:49
+2013-06-07 10:32:01	--	Nicks #sprintly-nerds: [justinabrahms meandave]
+2013-06-07 10:32:01	--	Channel #sprintly-nerds: 2 nicks (0 ops, 0 halfops, 0 voices, 2 normals)
+2013-06-07 10:32:03	--	Mode #sprintly-nerds [+ns]
+2013-06-07 10:32:03	--	Channel created on Thu, 06 Jun 2013 06:19:09
+2013-06-07 13:11:25	--	irc: disconnected from server
+2013-06-07 13:11:47	-->	meandave (~meandave@c-71-56-139-32.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-07 13:11:47	--	Topic for #sprintly-nerds is "ten-ants"
+2013-06-07 13:11:47	--	Topic set by meandave (~meandave@67-133-40-251.dia.static.qwest.net) on Thu, 06 Jun 2013 19:27:49
+2013-06-07 13:11:47	--	Nicks #sprintly-nerds: [justinabrahms meandave]
+2013-06-07 13:11:47	--	Channel #sprintly-nerds: 2 nicks (0 ops, 0 halfops, 0 voices, 2 normals)
+2013-06-07 13:11:49	--	Mode #sprintly-nerds [+ns]
+2013-06-07 13:11:49	--	Channel created on Thu, 06 Jun 2013 06:19:09
+2013-06-07 19:08:52	--	irc: disconnected from server
+2013-06-07 19:09:17	-->	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-07 19:09:17	--	Topic for #sprintly-nerds is "ten-ants"
+2013-06-07 19:09:17	--	Topic set by meandave (~meandave@67-133-40-251.dia.static.qwest.net) on Thu, 06 Jun 2013 19:27:49
+2013-06-07 19:09:17	--	Nicks #sprintly-nerds: [justinabrahms meandave]
+2013-06-07 19:09:17	--	Channel #sprintly-nerds: 2 nicks (0 ops, 0 halfops, 0 voices, 2 normals)
+2013-06-07 19:09:19	--	Mode #sprintly-nerds [+ns]
+2013-06-07 19:09:19	--	Channel created on Thu, 06 Jun 2013 06:19:09
+2013-06-07 19:38:27	--	irc: disconnected from server
+2013-06-07 19:38:49	-->	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-07 19:38:49	--	Topic for #sprintly-nerds is "ten-ants"
+2013-06-07 19:38:49	--	Topic set by meandave (~meandave@67-133-40-251.dia.static.qwest.net) on Thu, 06 Jun 2013 19:27:49
+2013-06-07 19:38:49	--	Nicks #sprintly-nerds: [justinabrahms meandave]
+2013-06-07 19:38:49	--	Channel #sprintly-nerds: 2 nicks (0 ops, 0 halfops, 0 voices, 2 normals)
+2013-06-07 19:38:51	--	Mode #sprintly-nerds [+ns]
+2013-06-07 19:38:51	--	Channel created on Thu, 06 Jun 2013 06:19:09
+2013-06-07 21:02:46	--	irc: disconnected from server
+2013-06-07 21:03:12	-->	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-07 21:03:12	--	Topic for #sprintly-nerds is "ten-ants"
+2013-06-07 21:03:12	--	Topic set by meandave (~meandave@67-133-40-251.dia.static.qwest.net) on Thu, 06 Jun 2013 19:27:49
+2013-06-07 21:03:12	--	Nicks #sprintly-nerds: [justinabrahms meandave]
+2013-06-07 21:03:12	--	Channel #sprintly-nerds: 2 nicks (0 ops, 0 halfops, 0 voices, 2 normals)
+2013-06-07 21:03:15	--	Mode #sprintly-nerds [+ns]
+2013-06-07 21:03:15	--	Channel created on Thu, 06 Jun 2013 06:19:09
+2013-06-10 10:18:11	-->	meandave (~meandave@c-71-56-139-32.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-10 10:18:11	--	Topic for #sprintly-nerds is "ten-ants"
+2013-06-10 10:18:11	--	Topic set by meandave (~meandave@67-133-40-251.dia.static.qwest.net) on Thu, 06 Jun 2013 19:27:49
+2013-06-10 10:18:11	--	Nicks #sprintly-nerds: [justinabrahms meandave nicholasserra]
+2013-06-10 10:18:11	--	Channel #sprintly-nerds: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-06-10 10:18:11	--	Notice(card.freenode.net): [freenode-info] channel trolls and no channel staff around to help? please check with freenode support: http://freenode.net/faq.shtml#gettinghelp
+2013-06-10 10:18:13	--	Mode #sprintly-nerds [+ns]
+2013-06-10 10:18:13	--	Channel created on Thu, 06 Jun 2013 06:19:09
+2013-06-10 12:35:04	--	irc: disconnected from server
+2013-06-10 12:35:27	-->	meandave (~meandave@c-71-56-139-32.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-10 12:35:27	--	Topic for #sprintly-nerds is "ten-ants"
+2013-06-10 12:35:27	--	Topic set by meandave (~meandave@67-133-40-251.dia.static.qwest.net) on Thu, 06 Jun 2013 19:27:49
+2013-06-10 12:35:27	--	Nicks #sprintly-nerds: [justinabrahms meandave nicholasserra]
+2013-06-10 12:35:27	--	Channel #sprintly-nerds: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-06-10 12:35:27	--	Mode #sprintly-nerds [+ns]
+2013-06-10 12:35:28	--	Channel created on Thu, 06 Jun 2013 06:19:09
+2013-06-10 13:13:25	<--	nicholasserra (~Adium@24.154.8.232) has quit (Read error: Connection reset by peer)
+2013-06-10 13:13:30	-->	nicholasserra1 (~Adium@24.154.8.232) has joined #sprintly-nerds
+2013-06-10 13:13:43	--	nicholasserra1 is now known as nicholasserra
+2013-06-10 13:19:50	nicholasserra	justinabrahms: How do you run the js test suite? I don't think i've really looked at it before.
+2013-06-10 13:20:19	justinabrahms	nicholasserra: grunt test
+2013-06-10 13:20:39	justinabrahms	will need to npm install grunt (-g if you want it globally accessible, otherwise its node_modules/grunt/bin/grunt)
+2013-06-10 13:23:09	nicholasserra	Hm. Do I run it from the root directory. I'm a n00b with js testing.
+2013-06-10 13:24:08	justinabrahms	yep
+2013-06-10 13:24:14	justinabrahms	same place as the Gruntfile
+2013-06-10 13:24:26	justinabrahms	errr. grunt.js
+2013-06-10 13:26:17	nicholasserra	I've gotta be missing a package. Npm installed the full package json. "grunt test" gives no command not found. "node grunt test"?
+2013-06-10 13:27:39	nicholasserra	Got it, I needed the grunt-cli package.
+2013-06-10 13:28:14	nicholasserra	Although "Running "test" task" didn't really say anything.
+2013-06-10 13:30:53	justinabrahms	hrm. it should.
+2013-06-10 13:31:40	nicholasserra	I think we're just outdated. My new grunt-cli is looking for a Gruntfile, but we're still using grunt.js
+2013-06-10 13:31:44	nicholasserra	I might have to install an old version.
+2013-06-10 13:41:08	justinabrahms	you can probably just specify with a flag the right location
+2013-06-10 13:41:34	justinabrahms	fwiw, I'm using v0.3.17
+2013-06-10 13:48:05	nicholasserra	Yah i'll figure it out.
+2013-06-10 14:10:52	nicholasserra	We might want to merge that in in the meantime. I apparently don't have anything installed to run any of these tests.
+2013-06-10 14:12:48	justinabrahms	fun!
+2013-06-10 14:12:56	nicholasserra	Running http://127.0.0.1:8000/static/test/index.html works and passes though hah
+2013-06-10 14:13:01	justinabrahms	that works!
+2013-06-10 14:13:13	nicholasserra	Guess i'm on the right track XD
+2013-06-10 14:13:31	nicholasserra	Are the phantom-js tests the preferred test suite?
+2013-06-10 14:13:38	justinabrahms	I don't run those.
+2013-06-10 14:13:50	justinabrahms	I usually run the index.html ones /cc meandave 
+2013-06-10 14:14:22	nicholasserra	The grunt task for phantom just opens up the index. At least that's what the task looks like.
+2013-06-10 14:14:26	nicholasserra	meandave:  save me
+2013-06-10 14:15:03	justinabrahms	nicholasserra: you can just run tests by refreshing that index page
+2013-06-10 14:15:09	justinabrahms	that should be good enough.
+2013-06-10 14:15:32	nicholasserra	That's what it looks like. So when adding a test, just add to that?
+2013-06-10 14:15:45	justinabrahms	when adding a test, it'll automatically add it to that
+2013-06-10 14:15:57	justinabrahms	you just need to make your new test file (if appropriate) and add it to the suites.js in that directory
+2013-06-10 14:17:17	justinabrahms	meandave: https://github.com/mythmon/page
+2013-06-10 14:20:39	meandave	nicholasserra: yeah so the phantom stuff is just functional tests, shouldn't be necessary for any of the stuff you'll be touching
+2013-06-10 14:20:50	meandave	opening that index.html should be all you need
+2013-06-10 14:21:06	nicholasserra	Is there any kind of test that I should be adding for that pull request?
+2013-06-10 14:22:16	meandave	right now testing views is kinda hard, but we are trying to include some kind of test in each pr even if they are unrelated.
+2013-06-10 14:22:49	meandave	you could try expanding on one of the tests we already have, or adding a new file to tests
+2013-06-10 14:23:04	nicholasserra	:(
+2013-06-10 14:23:04	nicholasserra	I'll check out some old pulls for direction.
+2013-06-10 14:23:30	meandave	basically just write a simple unit test
+2013-06-10 14:23:45	meandave	you can look at the last pr i did on friday for an example
+2013-06-10 14:25:27	justinabrahms	nicholasserra: https://github.com/sprintly/sprint.ly/commit/24d56ae4d6887419061ac6289fa6753e846f25a5 -- see test there
+2013-06-10 14:26:31	justinabrahms	happy to do a google hangout w/ screenshare if you want me to help you debug somethin.
+2013-06-10 14:27:27	nicholasserra	Awesome, thank you. I should be able to get something simple in.
+2013-06-10 14:31:20	meandave	sounds good
+2013-06-10 14:31:36	meandave	I know its a pain, but this just seems like the best way to expand our coverage
+2013-06-10 14:38:29	nicholasserra	meandave: For this little pull though, it's so specific, that a broad test isn't really going to cut it. I'll just write a test that the item team view is working.
+2013-06-10 14:45:30	<--	nicholasserra (~Adium@24.154.8.232) has quit (Quit: Leaving.)
+2013-06-10 15:10:34	-->	nicholasserra (~Adium@cpe-24-93-244-49.neo.res.rr.com) has joined #sprintly-nerds
+2013-06-10 15:13:18	<--	nicholasserra (~Adium@cpe-24-93-244-49.neo.res.rr.com) has quit (Client Quit)
+2013-06-10 17:26:11	-->	nicholasserra (~Adium@cpe-24-93-244-49.neo.res.rr.com) has joined #sprintly-nerds
+2013-06-10 18:29:30	--	irc: disconnected from server
+2013-06-10 18:29:52	-->	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-10 18:29:52	--	Topic for #sprintly-nerds is "ten-ants"
+2013-06-10 18:29:52	--	Topic set by meandave (~meandave@67-133-40-251.dia.static.qwest.net) on Thu, 06 Jun 2013 19:27:49
+2013-06-10 18:29:52	--	Nicks #sprintly-nerds: [justinabrahms meandave nicholasserra]
+2013-06-10 18:29:52	--	Channel #sprintly-nerds: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-06-10 18:29:52	--	Mode #sprintly-nerds [+ns]
+2013-06-10 18:29:52	--	Channel created on Thu, 06 Jun 2013 06:19:09
+2013-06-10 19:46:48	--	irc: disconnected from server
+2013-06-10 19:47:13	-->	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-10 19:47:13	--	Topic for #sprintly-nerds is "ten-ants"
+2013-06-10 19:47:13	--	Topic set by meandave (~meandave@67-133-40-251.dia.static.qwest.net) on Thu, 06 Jun 2013 19:27:49
+2013-06-10 19:47:13	--	Nicks #sprintly-nerds: [justinabrahms meandave]
+2013-06-10 19:47:13	--	Channel #sprintly-nerds: 2 nicks (0 ops, 0 halfops, 0 voices, 2 normals)
+2013-06-10 19:47:13	--	Mode #sprintly-nerds [+ns]
+2013-06-10 19:47:13	--	Channel created on Thu, 06 Jun 2013 06:19:09
+2013-06-10 21:10:06	-->	nicholasserra (~Adium@dynamic-acs-24-239-83-49.zoominternet.net) has joined #sprintly-nerds
+2013-06-10 21:17:07	<--	nicholasserra (~Adium@dynamic-acs-24-239-83-49.zoominternet.net) has quit (Ping timeout: 246 seconds)
+2013-06-10 21:33:27	-->	nicholasserra (~Adium@dynamic-acs-24-239-83-49.zoominternet.net) has joined #sprintly-nerds
+2013-06-10 22:27:29	--	irc: disconnected from server
+2013-06-10 22:27:53	-->	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-10 22:27:53	--	Topic for #sprintly-nerds is "ten-ants"
+2013-06-10 22:27:53	--	Topic set by meandave (~meandave@67-133-40-251.dia.static.qwest.net) on Thu, 06 Jun 2013 19:27:49
+2013-06-10 22:27:53	--	Nicks #sprintly-nerds: [justinabrahms meandave nicholasserra]
+2013-06-10 22:27:53	--	Channel #sprintly-nerds: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-06-10 22:27:53	--	Mode #sprintly-nerds [+ns]
+2013-06-10 22:27:53	--	Channel created on Thu, 06 Jun 2013 06:19:09
+2013-06-10 22:35:09	--	You are now known as JSONvoorhees
+2013-06-10 22:37:26	<--	nicholasserra (~Adium@dynamic-acs-24-239-83-49.zoominternet.net) has quit (Quit: Leaving.)
+2013-06-10 23:16:22	-->	nicholasserra (~Adium@dynamic-acs-24-239-83-49.zoominternet.net) has joined #sprintly-nerds
+2013-06-10 23:22:59	<--	nicholasserra (~Adium@dynamic-acs-24-239-83-49.zoominternet.net) has quit (Read error: Connection reset by peer)
+2013-06-10 23:23:19	-->	nicholasserra (~Adium@dynamic-acs-24-239-83-49.zoominternet.net) has joined #sprintly-nerds
+2013-06-11 00:19:21	--	irc: disconnected from server
+2013-06-11 00:19:46	-->	JSONvoorhees (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-11 00:19:46	--	Topic for #sprintly-nerds is "ten-ants"
+2013-06-11 00:19:46	--	Topic set by meandave (~meandave@67-133-40-251.dia.static.qwest.net) on Thu, 06 Jun 2013 19:27:49
+2013-06-11 00:19:46	--	Nicks #sprintly-nerds: [JSONvoorhees justinabrahms nicholasserra]
+2013-06-11 00:19:46	--	Channel #sprintly-nerds: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-06-11 00:19:48	--	Mode #sprintly-nerds [+ns]
+2013-06-11 00:19:48	--	Channel created on Thu, 06 Jun 2013 06:19:09
+2013-06-11 00:36:12	<--	nicholasserra (~Adium@dynamic-acs-24-239-83-49.zoominternet.net) has quit (Quit: Leaving.)
+2013-06-11 10:49:01	--	irc: disconnected from server
+2013-06-11 10:49:24	-->	JSONvoorhees (~meandave@c-71-56-139-32.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-11 10:49:24	--	Topic for #sprintly-nerds is "ten-ants"
+2013-06-11 10:49:24	--	Topic set by meandave (~meandave@67-133-40-251.dia.static.qwest.net) on Thu, 06 Jun 2013 19:27:49
+2013-06-11 10:49:24	--	Nicks #sprintly-nerds: [JSONvoorhees justinabrahms nicholasserra]
+2013-06-11 10:49:24	--	Channel #sprintly-nerds: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-06-11 10:49:28	--	Mode #sprintly-nerds [+ns]
+2013-06-11 10:49:28	--	Channel created on Thu, 06 Jun 2013 06:19:09
+2013-06-11 10:50:11	nicholasserra	justinabrahms JSONvoorhees :  I'm trying to do a view test where it makes sure adding followers works. I'm checking the ItemTeamView with a mock follow request. Not sure where my disconnect is, but i'm trying to assert that the onFollowSuccess_ has been called. 
+2013-06-11 10:50:13	nicholasserra	https://gist.github.com/nicholasserra/42efa9b274cb51e6d84a
+2013-06-11 10:50:38	nicholasserra	I'm confused on how the mock requests actually connect with the view itself.
+2013-06-11 11:15:58	nicholasserra	Stepping out for a bit.
+2013-06-11 11:16:07	<--	nicholasserra (~Adium@24.154.8.232) has quit (Quit: Leaving.)
+2013-06-11 12:31:50	-->	nicholasserra (~Adium@cpe-24-93-244-49.neo.res.rr.com) has joined #sprintly-nerds
+2013-06-11 12:43:17	<--	nicholasserra (~Adium@cpe-24-93-244-49.neo.res.rr.com) has quit (Quit: Leaving.)
+2013-06-11 12:47:58	-->	nicholasserra (~Adium@cpe-24-93-244-49.neo.res.rr.com) has joined #sprintly-nerds
+2013-06-11 13:45:14	justinabrahms	nicholasserra: can you estimate your tasks when you have a chance?
+2013-06-11 13:46:17	nicholasserra	Yes, will do. Did you happen to see that gist I posted?
+2013-06-11 13:56:06	justinabrahms	oh, the test?
+2013-06-11 13:56:08	justinabrahms	does it fail?
+2013-06-11 14:02:52	nicholasserra	Yeah, i'm just having a disconnect on how the mock server actually interacts with the view. 
+2013-06-11 14:03:21	nicholasserra	I think I have everything set up correctly, but the response from the fake server isn't triggering anything.
+2013-06-11 14:04:02	nicholasserra	I pushed it to a branch in my fork. https://github.com/nicholasserra/sprint.ly/tree/dev/js-itemteamview-test
+2013-06-11 14:13:50	justinabrahms	nicholasserra: ahh. you're not actually doing anything
+2013-06-11 14:14:21	nicholasserra	I kinda ported over from the request manager one. So that makes sense. What did I forget to connect?
+2013-06-11 14:14:36	justinabrahms	so in the "Arrange; Act; Assert" method of writing tests, you've done the arranging (constructed objects, wired up various things to listen for actions).. then asserted, but no action
+2013-06-11 14:14:44	justinabrahms	I think you want something like this.itemTeamView.onFollowClicked_();
+2013-06-11 14:15:10	justinabrahms	which gives a few errors b/c the data isn't set up 100%, but is on the right track.
+2013-06-11 14:15:41	nicholasserra	But then what is the point of the "this.server.respondWith" call? I thought that was supposed to trigger something like the server would.
+2013-06-11 14:15:48	justinabrahms	its mocking the request
+2013-06-11 14:16:32	nicholasserra	I guess I thought that the mock would somehow trigger the FollowClick as If I had clicked it. 
+2013-06-11 14:16:39	justinabrahms	http://sinonjs.org/
+2013-06-11 14:16:42	nicholasserra	In that case, is the server mock still necessary?
+2013-06-11 14:17:04	nicholasserra	Oh.
+2013-06-11 14:17:08	nicholasserra	It's a mock.
+2013-06-11 14:17:21	nicholasserra	So I need to call the click, the mock grabs it and returns what I want, then I assert.
+2013-06-11 14:17:30	justinabrahms	yup
+2013-06-11 14:18:01	nicholasserra	Gotcha, that's what i'm missing. I somehow thought the mock was actually triggering something. 
+2013-06-11 14:18:08	nicholasserra	This isn't that bad then.
+2013-06-11 14:18:21	justinabrahms	yea, its fairly sane.
+2013-06-11 14:18:46	nicholasserra	Awesome, thanks for clearing that up. I'll be tossing tests in wherever I can.
+2013-06-11 14:21:38	justinabrahms	Wee!
+2013-06-11 15:41:04	nicholasserra	justinabrahms: Is there anything else special with sinon.spy that i'm missing? My test is completely working, and onFollowSuccess is definitely being called, but sinon doesn't seem to think so.
+2013-06-11 15:41:40	nicholasserra	var callback = sinon.spy(this.itemTeamView, "onFollowSuccess_"); expect(callback.called).to.be.true;
+2013-06-11 15:42:44	nicholasserra	Also, a bit of rearranging had to be done to get HandlebarsHelpers to play nice with the test. So if you run into a problem with that, this could be a good reference.
+2013-06-11 15:45:35	nicholasserra	I think i'm having a binding issue.
+2013-06-11 15:49:43	nicholasserra	Fixed
+2013-06-11 16:06:48	justinabrahms	so all good?
+2013-06-11 16:08:52	nicholasserra	All good except my test is somehow causing the one next to it to fail. So it's leaking something. Trying to debug that now. 
+2013-06-11 16:09:14	nicholasserra	Passes on its own and in the suite, but breaks something else.
+2013-06-11 16:09:26	nicholasserra	My branch is up to date if you're curious.
+2013-06-11 16:14:10	nicholasserra	justinabrahms: actually it looks like the test fails in master right now, but only if you run it on its own. The "row highlighting" test. So I think i'm solid.
+2013-06-11 16:14:26	justinabrahms	hrm.
+2013-06-11 16:24:07	justinabrahms	pushing a fix.
+2013-06-11 16:30:53	nicholasserra	That fixed it for me, nice.
+2013-06-11 16:31:05	nicholasserra	I have a PR out for that branch.
+2013-06-11 16:36:53	justinabrahms	merged.
+2013-06-11 16:47:42	<--	nicholasserra (~Adium@cpe-24-93-244-49.neo.res.rr.com) has quit (Quit: Leaving.)
+2013-06-11 18:41:31	--	irc: disconnected from server
+2013-06-11 18:42:00	-->	JSONvoorhees (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-11 18:42:00	--	Topic for #sprintly-nerds is "ten-ants"
+2013-06-11 18:42:00	--	Topic set by meandave (~meandave@67-133-40-251.dia.static.qwest.net) on Thu, 06 Jun 2013 19:27:49
+2013-06-11 18:42:00	--	Nicks #sprintly-nerds: [JSONvoorhees justinabrahms]
+2013-06-11 18:42:00	--	Channel #sprintly-nerds: 2 nicks (0 ops, 0 halfops, 0 voices, 2 normals)
+2013-06-11 18:42:02	--	Mode #sprintly-nerds [+ns]
+2013-06-11 18:42:02	--	Channel created on Thu, 06 Jun 2013 06:19:09
+2013-06-13 10:33:31	-->	JSONvoorhees (~meandave@67.23.197.94) has joined #sprintly-nerds
+2013-06-13 10:33:32	--	Topic for #sprintly-nerds is "ten-ants"
+2013-06-13 10:33:32	--	Topic set by meandave (~meandave@67-133-40-251.dia.static.qwest.net) on Thu, 06 Jun 2013 19:27:43
+2013-06-13 10:33:32	--	Nicks #sprintly-nerds: [JSONvoorhees justinabrahms nicholasserra]
+2013-06-13 10:33:32	--	Channel #sprintly-nerds: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-06-13 10:33:33	--	Mode #sprintly-nerds [+ns]
+2013-06-13 10:33:33	--	Channel created on Thu, 06 Jun 2013 06:19:09
+2013-06-13 10:42:50	--	irc: disconnected from server
+2013-06-13 10:43:16	-->	JSONvoorhees (~meandave@67.23.197.94) has joined #sprintly-nerds
+2013-06-13 10:43:16	--	Topic for #sprintly-nerds is "ten-ants"
+2013-06-13 10:43:16	--	Topic set by meandave (~meandave@67-133-40-251.dia.static.qwest.net) on Thu, 06 Jun 2013 19:27:49
+2013-06-13 10:43:16	--	Nicks #sprintly-nerds: [JSONvoorhees justinabrahms nicholasserra]
+2013-06-13 10:43:16	--	Channel #sprintly-nerds: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-06-13 10:43:28	--	Mode #sprintly-nerds [+ns]
+2013-06-13 10:43:32	--	Channel created on Thu, 06 Jun 2013 06:19:09
+2013-06-13 11:17:28	nicholasserra	@justinabrahms any input on what kind of test I should write for that PR I just did?
+2013-06-13 11:17:50	justinabrahms	taking a look
+2013-06-13 11:19:10	justinabrahms	yes. extract out "getOrderKey" method, test that.
+2013-06-13 11:26:58	--	irc: disconnected from server
+2013-06-13 11:27:27	-->	JSONvoorhees (~meandave@67.23.197.94) has joined #sprintly-nerds
+2013-06-13 11:27:27	--	Topic for #sprintly-nerds is "ten-ants"
+2013-06-13 11:27:27	--	Topic set by meandave (~meandave@67-133-40-251.dia.static.qwest.net) on Thu, 06 Jun 2013 19:27:49
+2013-06-13 11:27:27	--	Nicks #sprintly-nerds: [JSONvoorhees justinabrahms nicholasserra]
+2013-06-13 11:27:27	--	Channel #sprintly-nerds: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-06-13 11:27:36	--	Mode #sprintly-nerds [+ns]
+2013-06-13 11:27:36	--	Channel created on Thu, 06 Jun 2013 06:19:09
+2013-06-13 12:56:47	--	irc: disconnected from server
+2013-06-13 12:57:14	-->	JSONvoorhees (~meandave@67.23.197.94) has joined #sprintly-nerds
+2013-06-13 12:57:14	--	Topic for #sprintly-nerds is "ten-ants"
+2013-06-13 12:57:14	--	Topic set by meandave (~meandave@67-133-40-251.dia.static.qwest.net) on Thu, 06 Jun 2013 19:27:49
+2013-06-13 12:57:14	--	Nicks #sprintly-nerds: [JSONvoorhees justinabrahms nicholasserra]
+2013-06-13 12:57:14	--	Channel #sprintly-nerds: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-06-13 12:57:22	--	Mode #sprintly-nerds [+ns]
+2013-06-13 12:57:22	--	Channel created on Thu, 06 Jun 2013 06:19:09
+2013-06-13 13:20:49	--	irc: disconnected from server
+2013-06-13 13:21:15	-->	JSONvoorhees (~meandave@c-71-56-139-32.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-13 13:21:15	--	Topic for #sprintly-nerds is "ten-ants"
+2013-06-13 13:21:15	--	Topic set by meandave (~meandave@67-133-40-251.dia.static.qwest.net) on Thu, 06 Jun 2013 19:27:49
+2013-06-13 13:21:15	--	Nicks #sprintly-nerds: [JSONvoorhees justinabrahms nicholasserra]
+2013-06-13 13:21:15	--	Channel #sprintly-nerds: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-06-13 13:21:25	--	Mode #sprintly-nerds [+ns]
+2013-06-13 13:21:25	--	Channel created on Thu, 06 Jun 2013 06:19:09
+2013-06-13 14:59:22	--	irc: disconnected from server
+2013-06-13 14:59:51	-->	JSONvoorhees (~meandave@67.23.197.94) has joined #sprintly-nerds
+2013-06-13 14:59:51	--	Topic for #sprintly-nerds is "ten-ants"
+2013-06-13 14:59:51	--	Topic set by meandave (~meandave@67-133-40-251.dia.static.qwest.net) on Thu, 06 Jun 2013 19:27:49
+2013-06-13 14:59:51	--	Nicks #sprintly-nerds: [JSONvoorhees justinabrahms nicholasserra]
+2013-06-13 14:59:51	--	Channel #sprintly-nerds: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-06-13 14:59:51	--	Notice(moorcock.freenode.net): [freenode-info] please register your nickname...don't forget to auto-identify! http://freenode.net/faq.shtml#nicksetup
+2013-06-13 15:00:13	--	Mode #sprintly-nerds [+ns]
+2013-06-13 15:00:13	--	Channel created on Thu, 06 Jun 2013 06:19:09
+2013-06-13 15:27:03	--	irc: disconnected from server
+2013-06-13 15:27:33	-->	JSONvoorhees (~meandave@67.23.197.94) has joined #sprintly-nerds
+2013-06-13 15:27:33	--	Topic for #sprintly-nerds is "ten-ants"
+2013-06-13 15:27:33	--	Topic set by meandave (~meandave@67-133-40-251.dia.static.qwest.net) on Thu, 06 Jun 2013 19:27:49
+2013-06-13 15:27:33	--	Nicks #sprintly-nerds: [JSONvoorhees justinabrahms nicholasserra]
+2013-06-13 15:27:33	--	Channel #sprintly-nerds: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-06-13 15:27:41	--	Mode #sprintly-nerds [+ns]
+2013-06-13 15:27:41	--	Channel created on Thu, 06 Jun 2013 06:19:09
+2013-06-13 15:44:24	--	irc: disconnected from server
+2013-06-13 15:44:56	-->	JSONvoorhees (~meandave@67.23.197.94) has joined #sprintly-nerds
+2013-06-13 15:44:56	--	Topic for #sprintly-nerds is "ten-ants"
+2013-06-13 15:44:56	--	Topic set by meandave (~meandave@67-133-40-251.dia.static.qwest.net) on Thu, 06 Jun 2013 19:27:43
+2013-06-13 15:44:56	--	Nicks #sprintly-nerds: [JSONvoorhees justinabrahms nicholasserra]
+2013-06-13 15:44:56	--	Channel #sprintly-nerds: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-06-13 15:45:04	--	Mode #sprintly-nerds [+ns]
+2013-06-13 15:45:04	--	Channel created on Thu, 06 Jun 2013 06:19:09
+2013-06-13 16:14:41	--	irc: disconnected from server
+2013-06-13 16:15:09	-->	JSONvoorhees (~meandave@67.23.197.94) has joined #sprintly-nerds
+2013-06-13 16:15:09	--	Topic for #sprintly-nerds is "ten-ants"
+2013-06-13 16:15:09	--	Topic set by meandave (~meandave@67-133-40-251.dia.static.qwest.net) on Thu, 06 Jun 2013 19:27:49
+2013-06-13 16:15:09	--	Nicks #sprintly-nerds: [JSONvoorhees justinabrahms nicholasserra]
+2013-06-13 16:15:09	--	Channel #sprintly-nerds: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-06-13 16:15:19	--	Mode #sprintly-nerds [+ns]
+2013-06-13 16:15:19	--	Channel created on Thu, 06 Jun 2013 06:19:09
+2013-06-13 17:00:58	--	irc: disconnected from server
+2013-06-13 17:01:23	-->	JSONvoorhees (~meandave@67.23.197.94) has joined #sprintly-nerds
+2013-06-13 17:01:23	--	Topic for #sprintly-nerds is "ten-ants"
+2013-06-13 17:01:23	--	Topic set by meandave (~meandave@67-133-40-251.dia.static.qwest.net) on Thu, 06 Jun 2013 19:27:49
+2013-06-13 17:01:23	--	Nicks #sprintly-nerds: [JSONvoorhees justinabrahms nicholasserra]
+2013-06-13 17:01:23	--	Channel #sprintly-nerds: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-06-13 17:01:33	--	Mode #sprintly-nerds [+ns]
+2013-06-13 17:01:33	--	Channel created on Thu, 06 Jun 2013 06:19:09
+2013-06-14 13:24:28	--	irc: disconnected from server
+2013-06-14 13:24:52	-->	JSONvoorhees (~meandave@67.23.197.94) has joined #sprintly-nerds
+2013-06-14 13:24:52	--	Nicks #sprintly-nerds: [@justinabrahms JSONvoorhees]
+2013-06-14 13:24:52	--	Channel #sprintly-nerds: 2 nicks (1 op, 0 halfops, 0 voices, 1 normal)
+2013-06-14 13:25:02	--	Mode #sprintly-nerds [+ns]
+2013-06-14 13:25:02	--	Channel created on Fri, 14 Jun 2013 07:23:06
+2013-06-14 14:15:11	--	irc: disconnected from server
+2013-06-14 14:15:38	-->	JSONvoorhees (~meandave@67.23.197.94) has joined #sprintly-nerds
+2013-06-14 14:15:38	--	Nicks #sprintly-nerds: [@justinabrahms JSONvoorhees]
+2013-06-14 14:15:38	--	Channel #sprintly-nerds: 2 nicks (1 op, 0 halfops, 0 voices, 1 normal)
+2013-06-14 14:15:46	--	Mode #sprintly-nerds [+ns]
+2013-06-14 14:15:46	--	Channel created on Fri, 14 Jun 2013 07:23:06
+2013-06-14 15:10:42	--	irc: disconnected from server
+2013-06-14 15:11:13	-->	JSONvoorhees (~meandave@67.23.197.94) has joined #sprintly-nerds
+2013-06-14 15:11:13	--	Nicks #sprintly-nerds: [@justinabrahms JSONvoorhees]
+2013-06-14 15:11:13	--	Channel #sprintly-nerds: 2 nicks (1 op, 0 halfops, 0 voices, 1 normal)
+2013-06-14 15:11:21	--	Mode #sprintly-nerds [+ns]
+2013-06-14 15:11:22	--	Channel created on Fri, 14 Jun 2013 07:23:06
+2013-06-14 16:02:05	--	irc: disconnected from server
+2013-06-14 16:02:31	-->	JSONvoorhees (~meandave@67.23.197.94) has joined #sprintly-nerds
+2013-06-14 16:02:31	--	Nicks #sprintly-nerds: [@justinabrahms JSONvoorhees]
+2013-06-14 16:02:31	--	Channel #sprintly-nerds: 2 nicks (1 op, 0 halfops, 0 voices, 1 normal)
+2013-06-14 16:02:41	--	Mode #sprintly-nerds [+ns]
+2013-06-14 16:02:41	--	Channel created on Fri, 14 Jun 2013 07:23:06
+2013-06-14 22:30:48	--	irc: disconnected from server
+2013-06-14 23:07:03	-->	JSONvoorhees (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-14 23:07:04	--	Nicks #sprintly-nerds: [@justinabrahms JSONvoorhees]
+2013-06-14 23:07:04	--	Channel #sprintly-nerds: 2 nicks (1 op, 0 halfops, 0 voices, 1 normal)
+2013-06-14 23:07:13	--	Mode #sprintly-nerds [+ns]
+2013-06-14 23:07:14	--	Channel created on Fri, 14 Jun 2013 07:23:06
+2013-06-15 04:11:49	--	irc: disconnected from server
+2013-06-15 04:12:17	-->	JSONvoorhees (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-15 04:12:18	--	Nicks #sprintly-nerds: [@justinabrahms JSONvoorhees]
+2013-06-15 04:12:18	--	Channel #sprintly-nerds: 2 nicks (1 op, 0 halfops, 0 voices, 1 normal)
+2013-06-15 04:12:25	--	Mode #sprintly-nerds [+ns]
+2013-06-15 04:12:26	--	Channel created on Fri, 14 Jun 2013 07:23:06
+2013-06-15 20:27:35	--	irc: disconnected from server
+2013-06-15 20:28:01	-->	JSONvoorhees (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-15 20:28:01	--	Nicks #sprintly-nerds: [@justinabrahms JSONvoorhees]
+2013-06-15 20:28:01	--	Channel #sprintly-nerds: 2 nicks (1 op, 0 halfops, 0 voices, 1 normal)
+2013-06-15 20:28:11	--	Mode #sprintly-nerds [+ns]
+2013-06-15 20:28:11	--	Channel created on Fri, 14 Jun 2013 07:23:06
+2013-06-15 22:46:52	--	irc: disconnected from server
+2013-06-15 22:47:19	-->	JSONvoorhees (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-15 22:47:20	--	Nicks #sprintly-nerds: [@justinabrahms JSONvoorhees]
+2013-06-15 22:47:20	--	Channel #sprintly-nerds: 2 nicks (1 op, 0 halfops, 0 voices, 1 normal)
+2013-06-15 22:47:27	--	Mode #sprintly-nerds [+ns]
+2013-06-15 22:47:28	--	Channel created on Fri, 14 Jun 2013 07:23:06
+2013-06-16 18:12:57	--	irc: disconnected from server
+2013-06-16 18:13:25	-->	JSONvoorhees (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-16 18:13:25	--	Nicks #sprintly-nerds: [@justinabrahms JSONvoorhees nicholasserra]
+2013-06-16 18:13:25	--	Channel #sprintly-nerds: 3 nicks (1 op, 0 halfops, 0 voices, 2 normals)
+2013-06-16 18:13:35	--	Mode #sprintly-nerds [+ns]
+2013-06-16 18:13:35	--	Channel created on Fri, 14 Jun 2013 07:23:06
+2013-06-17 11:15:36	--	irc: disconnected from server
+2013-06-17 11:16:04	-->	JSONvoorhees (~meandave@c-71-56-139-32.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-17 11:16:04	--	Nicks #sprintly-nerds: [@justinabrahms JSONvoorhees nicholasserra]
+2013-06-17 11:16:04	--	Channel #sprintly-nerds: 3 nicks (1 op, 0 halfops, 0 voices, 2 normals)
+2013-06-17 11:16:14	--	Mode #sprintly-nerds [+ns]
+2013-06-17 11:16:14	--	Channel created on Fri, 14 Jun 2013 07:23:06
+2013-06-17 11:16:18	@justinabrahms	then we either tell recurly at the month mark of the change, or it asks us.
+2013-06-17 11:16:22	@justinabrahms	I'd have to look at code to see which.
+2013-06-17 11:16:43	nicholasserra	I know there's that billing script. That probably does it
+2013-06-17 11:16:52	@justinabrahms	bill.py is authorize.net only
+2013-06-17 11:16:58	nicholasserra	Oh
+2013-06-17 11:17:17	@justinabrahms	would it be helpful if I sketched out a bunch of acceptance tests and a rough responsibility diagram?
+2013-06-17 11:17:29	nicholasserra	Sure, anything would help. 
+2013-06-17 11:17:34	@justinabrahms	okay. I'll do that today.
+2013-06-17 11:17:42	nicholasserra	So we should switch to updating the subscription plan on any seat change.
+2013-06-17 11:17:57	nicholasserra	I thought django_recurly kept that stuff in sync automatically.
+2013-06-17 11:24:05	nicholasserra	Also, justinabrahms, you said on the ticket that you want to backfill authorize.net CC details into recurly?
+2013-06-17 11:27:44	@justinabrahms	yea, we can pay some $ and get that fixed
+2013-06-17 11:28:14	nicholasserra	Is it possible to do that? I know that once you put CC details into authorize you can't get them back out via the API.
+2013-06-17 11:28:34	@justinabrahms	its possible. requires manual stuff on their end, hence the $
+2013-06-17 11:28:54	nicholasserra	Gotcha
+2013-06-17 11:31:32	nicholasserra	justinabrahms: So for this 2 commit race condition thing. I'm still exploring whether transactions are going to work. It seems like it needs some kind of table lock. But if that's not gonna cut it i'm going to have to set unique_hash to unique=True and backfill those comments with no hash, and just enforce that every comment has a hash.
+2013-06-17 11:31:59	@justinabrahms	I think I'm fine with requiring every comment to have a hash.
+2013-06-17 11:32:42	@justinabrahms	though that means people can't say "Sounds good" twice.
+2013-06-17 11:33:03	nicholasserra	I'm not going to calculate it from anything. I'll just generate a random one when a comment is left.
+2013-06-17 11:33:14	nicholasserra	But comments from commits will take the commit hash
+2013-06-17 11:33:21	nicholasserra	I'll have to see how unique that is.
+2013-06-17 11:33:35	@justinabrahms	sha should be unique.
+2013-06-17 11:33:44	nicholasserra	Is that what github commits are?
+2013-06-17 11:33:47	@justinabrahms	esp if you do product_id-hash
+2013-06-17 11:33:50	@justinabrahms	yes.
+2013-06-17 11:34:18	nicholasserra	Or even enforce unique_together with author and hash?
+2013-06-17 11:34:37	nicholasserra	So we don't have to piece together anything.
+2013-06-17 11:35:15	@justinabrahms	http://stackoverflow.com/questions/2479348/is-it-possible-to-get-identical-sha1-hash -- relevant
+2013-06-17 11:35:26	@justinabrahms	probably product_id and hash would be fine, I'd guess.
+2013-06-17 11:36:12	nicholasserra	Does comment have product_id?
+2013-06-17 11:36:15	nicholasserra	I think item_id.
+2013-06-17 11:36:32	nicholasserra	Concatenated or unique_together?
+2013-06-17 11:36:41	@justinabrahms	implementors choice :)
+2013-06-17 11:36:45	nicholasserra	:)
+2013-06-17 11:37:12	@justinabrahms	fwiw, I'm happy to defer to you on basically everything then just discuss it in code review.
+2013-06-17 11:37:26	nicholasserra	Sounds good
+2013-06-17 11:37:37	@justinabrahms	the only time you should ask for any sort of consensus beforehand is when catching it during code review is going to be too big of an issue
+2013-06-17 11:37:54	@justinabrahms	ie: if you rebuilt all of billing in a PR and I question a base assumption you had, then you had to re-implement
+2013-06-17 11:38:17	nicholasserra	Yeah. I just didn't want to get too deep into the data migration without talking about it.
+2013-06-17 11:55:14	<--	nicholasserra (~Adium@24.154.8.232) has quit (Quit: Leaving.)
+2013-06-17 11:57:01	<--	justinabrahms (uid11033@gateway/web/irccloud.com/x-aqofwzhhtwkdnlfa) has quit (Ping timeout: 264 seconds)
+2013-06-17 12:05:16	-->	nicholasserra (~Adium@24.154.8.232) has joined #sprintly-nerds
+2013-06-17 12:48:13	-->	justinabrahms (uid11033@gateway/web/irccloud.com/x-bpgwppnyhswiowtr) has joined #sprintly-nerds
+2013-06-17 12:48:44	justinabrahms	not sure if that came through...
+2013-06-17 12:48:45	justinabrahms	https://sprint.ly/product/1/#!/item/4758 -- boomtown. sketch done.
+2013-06-17 12:51:57	nicholasserra	"1.Move the following fields to accounts app: Account, AccountNote, FreeMonth (maybe delete this one?), Statistic, Transaction"
+2013-06-17 12:52:02	nicholasserra	fields == models?
+2013-06-17 12:53:11	justinabrahms	err. models. yes.
+2013-06-17 12:53:18	nicholasserra	Looks good.
+2013-06-17 12:53:57	justinabrahms	not 100% sure on what the API for billing looks like.
+2013-06-17 12:54:05	justinabrahms	I did a sketch a month or two back that I'll push up to github now
+2013-06-17 12:54:07	nicholasserra	I think to start we need to get details on that migration Authorize -> Recurly. It might be as simple as them handling it and we map account_codes for them. So right away we can just delete all the Authorize code paths.
+2013-06-17 12:54:26	justinabrahms	yea, I'm going to follow up on that today.
+2013-06-17 12:55:08	justinabrahms	tracked in #4762
+2013-06-17 12:59:14	justinabrahms	https://github.com/sprintly/sprint.ly/compare/billing-complexity-at-edges
+2013-06-17 12:59:30	justinabrahms	that was my attempt of a few months back.
+2013-06-17 12:59:42	justinabrahms	got hung up b/c recurly and authorize have fundamentally different semantics.
+2013-06-17 13:01:54	nicholasserra	Once it's all over to Recurly it really shouldn't be too bad. Just that initial switch is going to suck. Not sure how we're going to link our Account.recurly_account to the new subscriptions in Recurly, if they port them over for us.
+2013-06-17 13:02:40	nicholasserra	What if we do it manually? Like, send out an email that says we're changing billing and everyone has three weeks to enter in new payment info?
+2013-06-17 13:03:01	justinabrahms	what do you do with the folks who don't? Cancel them? That has $$$ implications. :)
+2013-06-17 16:49:26	--	irc: disconnected from server
+2013-06-17 16:49:56	-->	JSONvoorhees (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-17 16:49:57	--	Nicks #sprintly-nerds: [JSONvoorhees justinabrahms]
+2013-06-17 16:49:57	--	Channel #sprintly-nerds: 2 nicks (0 ops, 0 halfops, 0 voices, 2 normals)
+2013-06-17 16:50:04	--	Mode #sprintly-nerds [+ns]
+2013-06-17 16:50:05	--	Channel created on Fri, 14 Jun 2013 07:23:06
+2013-06-17 16:58:32	-->	nicholasserra (~Adium@cpe-24-93-244-49.neo.res.rr.com) has joined #sprintly-nerds
+2013-06-17 17:00:39	<--	nicholasserra (~Adium@cpe-24-93-244-49.neo.res.rr.com) has quit (Client Quit)
+2013-06-17 17:42:58	--	irc: disconnected from server
+2013-06-17 17:43:26	-->	JSONvoorhees (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-17 17:43:26	--	Nicks #sprintly-nerds: [JSONvoorhees justinabrahms nicholasserra]
+2013-06-17 17:43:26	--	Channel #sprintly-nerds: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-06-17 17:43:34	--	Mode #sprintly-nerds [+ns]
+2013-06-17 17:43:34	--	Channel created on Fri, 14 Jun 2013 07:23:06
+2013-06-17 19:13:29	nicholasserra	There's a lot of comments O_O
+2013-06-17 19:35:02	<--	nicholasserra (~Adium@cpe-24-93-244-49.neo.res.rr.com) has quit (Quit: Leaving.)
+2013-06-17 19:35:27	-->	nicholasserra (~Adium@cpe-24-93-244-49.neo.res.rr.com) has joined #sprintly-nerds
+2013-06-17 20:39:30	<--	nicholasserra (~Adium@cpe-24-93-244-49.neo.res.rr.com) has quit (Quit: Leaving.)
+2013-06-17 22:32:35	--	irc: disconnected from server
+2013-06-17 22:33:02	-->	JSONvoorhees (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-17 22:33:02	--	Nicks #sprintly-nerds: [JSONvoorhees justinabrahms]
+2013-06-17 22:33:02	--	Channel #sprintly-nerds: 2 nicks (0 ops, 0 halfops, 0 voices, 2 normals)
+2013-06-17 22:33:10	--	Mode #sprintly-nerds [+ns]
+2013-06-17 22:33:10	--	Channel created on Fri, 14 Jun 2013 07:23:06
+2013-06-18 00:17:23	--	irc: disconnected from server
+2013-06-18 00:36:46	-->	JSONvoorhees (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-18 00:36:46	--	Nicks #sprintly-nerds: [JSONvoorhees justinabrahms]
+2013-06-18 00:36:46	--	Channel #sprintly-nerds: 2 nicks (0 ops, 0 halfops, 0 voices, 2 normals)
+2013-06-18 00:36:56	--	Mode #sprintly-nerds [+ns]
+2013-06-18 00:36:56	--	Channel created on Fri, 14 Jun 2013 07:23:06
+2013-06-18 08:50:55	--	irc: disconnected from server
+2013-06-18 08:51:23	-->	JSONvoorhees (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-18 08:51:23	--	Nicks #sprintly-nerds: [JSONvoorhees justinabrahms]
+2013-06-18 08:51:23	--	Channel #sprintly-nerds: 2 nicks (0 ops, 0 halfops, 0 voices, 2 normals)
+2013-06-18 08:51:33	--	Mode #sprintly-nerds [+ns]
+2013-06-18 08:51:33	--	Channel created on Fri, 14 Jun 2013 07:23:06
+2013-06-18 09:27:25	--	irc: disconnected from server
+2013-06-18 09:28:57	-->	JSONvoorhees (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-18 09:28:57	--	Nicks #sprintly-nerds: [JSONvoorhees justinabrahms]
+2013-06-18 09:28:57	--	Channel #sprintly-nerds: 2 nicks (0 ops, 0 halfops, 0 voices, 2 normals)
+2013-06-18 09:29:05	--	Mode #sprintly-nerds [+ns]
+2013-06-18 09:29:05	--	Channel created on Fri, 14 Jun 2013 07:23:06
+2013-06-18 09:34:17	-->	nicholasserra (~Adium@24.154.8.232) has joined #sprintly-nerds
+2013-06-18 10:02:47	--	irc: disconnected from server
+2013-06-18 10:03:15	-->	JSONvoorhees (~meandave@c-71-56-139-32.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-18 10:03:15	--	Nicks #sprintly-nerds: [JSONvoorhees justinabrahms nicholasserra]
+2013-06-18 10:03:15	--	Channel #sprintly-nerds: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-06-18 10:03:25	--	Mode #sprintly-nerds [+ns]
+2013-06-18 10:03:25	--	Channel created on Fri, 14 Jun 2013 07:23:06
+2013-06-18 10:19:11	<--	nicholasserra (~Adium@24.154.8.232) has quit (Quit: Leaving.)
+2013-06-18 10:31:47	-->	nicholasserra (~Adium@24.154.8.232) has joined #sprintly-nerds
+2013-06-18 11:10:06	<--	nicholasserra (~Adium@24.154.8.232) has quit (Quit: Leaving.)
+2013-06-18 11:10:25	-->	nicholasserra (~Adium@24.154.8.232) has joined #sprintly-nerds
+2013-06-18 11:14:33	<--	nicholasserra (~Adium@24.154.8.232) has quit (Client Quit)
+2013-06-18 11:17:44	-->	nicholasserra (~Adium@24.154.8.232) has joined #sprintly-nerds
+2013-06-18 11:20:07	<--	nicholasserra (~Adium@24.154.8.232) has quit (Client Quit)
+2013-06-18 11:53:07	-->	nicholasserra (~Adium@24.154.8.232) has joined #sprintly-nerds
+2013-06-18 11:57:16	<--	nicholasserra (~Adium@24.154.8.232) has quit (Client Quit)
+2013-06-18 11:59:13	-->	nicholasserra (~Adium@24.154.8.232) has joined #sprintly-nerds
+2013-06-18 12:06:10	<--	nicholasserra (~Adium@24.154.8.232) has quit (Quit: Leaving.)
+2013-06-18 13:27:46	--	irc: disconnected from server
+2013-06-18 13:28:12	-->	JSONvoorhees (~meandave@c-71-56-139-32.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-18 13:28:12	--	Nicks #sprintly-nerds: [JSONvoorhees justinabrahms nicholasserra]
+2013-06-18 13:28:12	--	Channel #sprintly-nerds: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-06-18 13:28:20	--	Mode #sprintly-nerds [+ns]
+2013-06-18 13:28:20	--	Channel created on Fri, 14 Jun 2013 07:23:06
+2013-06-18 13:46:15	justinabrahms	nicholasserra: aside from small utils comment, that migration is fine to merge.
+2013-06-18 13:46:35	nicholasserra	Okay. Which method were you referring to?
+2013-06-18 13:46:38	nicholasserra	justinabrahms
+2013-06-18 13:47:05	justinabrahms	log_to_sentry(name="dupe-cache-commits")
+2013-06-18 13:48:38	nicholasserra	Sounds good, i'll do that. I'm gonna check the migrations a few more times too.
+2013-06-18 13:51:11	justinabrahms	nicholasserra: it occurs to me that I don't think there's a need for backwards compatible unique_hashes are ther?
+2013-06-18 13:51:24	justinabrahms	can we just skip migration #1 (dedupe) and just re-hash all of them?
+2013-06-18 13:52:30	nicholasserra	We could, but that first migration is pretty fast, and the second is pretty slow. I think like 2/3 of the comments don't have hashes, so the way it's set up now saves some time.
+2013-06-18 13:52:37	justinabrahms	got it.
+2013-06-18 14:01:05	justinabrahms	https://github.com/sprintly/sprint.ly/pull/400 -- when you have a moment.
+2013-06-18 14:01:38	nicholasserra	Will do.
+2013-06-18 14:01:57	nicholasserra	Just made a pull to fix the UV sign on. I think. So we can try that out.
+2013-06-18 14:08:06	justinabrahms	one of those things that's hard to test, eh?
+2013-06-18 14:11:13	nicholasserra	Lol yup. Although testing locally and hitting the live UV site signed me in. So we'll see hah
+2013-06-18 14:18:11	-->	jstump (~jstump@c-71-56-139-32.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-18 14:21:51	nicholasserra	Uh oh
+2013-06-18 14:21:59	nicholasserra	We have Joe in.
+2013-06-18 14:34:02	<--	nicholasserra (~Adium@24.154.8.232) has quit (Quit: Leaving.)
+2013-06-18 14:34:44	-->	nicholasserra (~Adium@24.154.8.232) has joined #sprintly-nerds
+2013-06-18 14:37:40	<--	nicholasserra (~Adium@24.154.8.232) has quit (Client Quit)
+2013-06-18 14:38:38	-->	nicholasserra (~Adium@24.154.8.232) has joined #sprintly-nerds
+2013-06-18 14:46:14	nicholasserra	justinabrahms: I'm making a log_known_problem method. Should I toss it in utils.tracking or make a new file? utils.sentry?
+2013-06-18 14:48:42	nicholasserra	Leaning towards sentry
+2013-06-18 14:49:56	justinabrahms	sentry
+2013-06-18 14:59:58	<--	nicholasserra (~Adium@24.154.8.232) has quit (Quit: Leaving.)
+2013-06-18 15:10:59	-->	nicholasserra (~Adium@24.154.8.232) has joined #sprintly-nerds
+2013-06-18 15:15:20	<--	nicholasserra (~Adium@24.154.8.232) has quit (Client Quit)
+2013-06-18 15:15:36	-->	nicholasserra (~Adium@24.154.8.232) has joined #sprintly-nerds
+2013-06-18 15:16:48	<--	nicholasserra (~Adium@24.154.8.232) has quit (Client Quit)
+2013-06-18 16:56:58	-->	nicholasserra (~Adium@cpe-24-93-244-49.neo.res.rr.com) has joined #sprintly-nerds
+2013-06-18 17:07:38	<--	nicholasserra (~Adium@cpe-24-93-244-49.neo.res.rr.com) has quit (Quit: Leaving.)
+2013-06-18 19:03:14	--	irc: disconnected from server
+2013-06-18 19:03:42	-->	JSONvoorhees (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-18 19:03:43	--	Nicks #sprintly-nerds: [JSONvoorhees jstump justinabrahms]
+2013-06-18 19:03:43	--	Channel #sprintly-nerds: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-06-18 19:03:52	--	Mode #sprintly-nerds [+ns]
+2013-06-18 19:03:53	--	Channel created on Fri, 14 Jun 2013 07:23:06
+2013-06-18 19:14:45	--	irc: disconnected from server
+2013-06-18 19:22:13	-->	JSONvoorhees (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-18 19:22:14	--	Nicks #sprintly-nerds: [JSONvoorhees jstump justinabrahms]
+2013-06-18 19:22:14	--	Channel #sprintly-nerds: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-06-18 19:22:23	--	Mode #sprintly-nerds [+ns]
+2013-06-18 19:22:24	--	Channel created on Fri, 14 Jun 2013 07:23:06
+2013-06-18 20:13:48	--	irc: disconnected from server
+2013-06-18 20:50:44	-->	JSONvoorhees (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-18 20:50:44	--	Nicks #sprintly-nerds: [JSONvoorhees jstump justinabrahms]
+2013-06-18 20:50:44	--	Channel #sprintly-nerds: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-06-18 20:50:54	--	Mode #sprintly-nerds [+ns]
+2013-06-18 20:50:54	--	Channel created on Fri, 14 Jun 2013 07:23:06
+2013-06-18 20:53:42	-->	nicholasserra1 (~Adium@cpe-24-93-244-49.neo.res.rr.com) has joined #sprintly-nerds
+2013-06-18 20:58:39	--	nicholasserra1 is now known as nicholasserra
+2013-06-18 21:16:12	--	irc: disconnected from server
+2013-06-18 21:46:57	-->	JSONvoorhees (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-18 21:46:57	--	Nicks #sprintly-nerds: [JSONvoorhees jstump justinabrahms]
+2013-06-18 21:46:57	--	Channel #sprintly-nerds: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-06-18 21:47:07	--	Mode #sprintly-nerds [+ns]
+2013-06-18 21:47:07	--	Channel created on Fri, 14 Jun 2013 07:23:06
+2013-06-18 22:16:46	-->	nicholasserra (~Adium@cpe-24-93-244-49.neo.res.rr.com) has joined #sprintly-nerds
+2013-06-18 22:21:36	<--	nicholasserra (~Adium@cpe-24-93-244-49.neo.res.rr.com) has quit (Client Quit)
+2013-06-19 08:00:16	--	irc: disconnected from server
+2013-06-19 08:00:44	-->	JSONvoorhees (~meandave@c-71-56-139-32.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-19 08:00:44	--	Nicks #sprintly-nerds: [JSONvoorhees jstump justinabrahms]
+2013-06-19 08:00:44	--	Channel #sprintly-nerds: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-06-19 08:00:54	--	Mode #sprintly-nerds [+ns]
+2013-06-19 08:00:54	--	Channel created on Fri, 14 Jun 2013 07:23:06
+2013-06-19 08:03:37	-->	nicholasserra (~Adium@24.154.8.232) has joined #sprintly-nerds
+2013-06-19 09:16:50	nicholasserra	No wonder we were getting some dupes on commits, github must really hit those commit webhooks.
+2013-06-19 09:16:50	nicholasserra	https://app.getsentry.com/sprintly-1/sprintly-1/group/6126248/
+2013-06-19 09:17:27	nicholasserra	It took a second for me to realize that this was a "known problem" log. It still looks like a real integrity error
+2013-06-19 09:20:42	justinabrahms	:)
+2013-06-19 09:21:11	nicholasserra	That "extra 4" is baffling me haha
+2013-06-19 09:42:49	justinabrahms	he uses an ide, so I'm guessing it was some keyboard shortcut gone awry
+2013-06-19 09:45:08	nicholasserra	justinabrahms: Did you happen to reorder my backlog? Should I wrap up that move items between products branch that was started?
+2013-06-19 09:54:29	justinabrahms	nicholasserra: your sort order in the backlog is backwards :-/
+2013-06-19 09:55:14	justinabrahms	I see the next thing on your plate as being chef-client work.
+2013-06-19 09:55:25	nicholasserra	O_o
+2013-06-19 09:55:26	nicholasserra	:(
+2013-06-19 09:55:31	nicholasserra	I'm making noob moves.
+2013-06-19 09:55:37	nicholasserra	Thanks hah
+2013-06-19 09:55:40	justinabrahms	np.
+2013-06-19 09:56:07	justinabrahms	I'm following up with billing folk again today.
+2013-06-19 09:57:13	nicholasserra	Good deal
+2013-06-19 11:24:03	<--	nicholasserra (~Adium@24.154.8.232) has quit (Quit: Leaving.)
+2013-06-19 11:28:11	-->	nicholasserra (~Adium@24.154.8.232) has joined #sprintly-nerds
+2013-06-19 11:32:06	<--	nicholasserra (~Adium@24.154.8.232) has quit (Client Quit)
+2013-06-19 11:33:07	-->	nicholasserra (~Adium@24.154.8.232) has joined #sprintly-nerds
+2013-06-19 11:39:31	<--	nicholasserra (~Adium@24.154.8.232) has quit (Quit: Leaving.)
+2013-06-19 11:42:41	-->	nicholasserra (~Adium@24.154.8.232) has joined #sprintly-nerds
+2013-06-19 12:57:26	--	irc: disconnected from server
+2013-06-19 12:57:56	-->	JSONvoorhees (~meandave@c-71-56-139-32.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-19 12:57:57	--	Nicks #sprintly-nerds: [JSONvoorhees jstump justinabrahms]
+2013-06-19 12:57:57	--	Channel #sprintly-nerds: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-06-19 12:58:08	--	Mode #sprintly-nerds [+ns]
+2013-06-19 12:58:09	--	Channel created on Fri, 14 Jun 2013 07:23:06
+2013-06-19 13:00:43	-->	nicholasserra (~Adium@24.154.8.232) has joined #sprintly-nerds
+2013-06-19 13:11:27	<--	nicholasserra (~Adium@24.154.8.232) has quit (Quit: Leaving.)
+2013-06-19 13:20:46	-->	nicholasserra (~Adium@24.154.8.232) has joined #sprintly-nerds
+2013-06-19 13:43:07	<--	nicholasserra (~Adium@24.154.8.232) has quit (Quit: Leaving.)
+2013-06-19 13:45:28	-->	nicholasserra (~Adium@24.154.8.232) has joined #sprintly-nerds
+2013-06-19 14:13:39	<--	jstump (~jstump@c-71-56-139-32.hsd1.or.comcast.net) has quit (Ping timeout: 252 seconds)
+2013-06-19 14:32:59	<--	nicholasserra (~Adium@24.154.8.232) has quit (Quit: Leaving.)
+2013-06-19 14:34:47	-->	nicholasserra (~Adium@24.154.8.232) has joined #sprintly-nerds
+2013-06-19 14:42:56	<--	nicholasserra (~Adium@24.154.8.232) has quit (Quit: Leaving.)
+2013-06-19 18:02:15	--	irc: disconnected from server
+2013-06-19 18:02:40	-->	JSONvoorhees (~meandave@c-71-56-139-32.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-19 18:02:40	--	Nicks #sprintly-nerds: [JSONvoorhees justinabrahms]
+2013-06-19 18:02:40	--	Channel #sprintly-nerds: 2 nicks (0 ops, 0 halfops, 0 voices, 2 normals)
+2013-06-19 18:02:52	--	Mode #sprintly-nerds [+ns]
+2013-06-19 18:02:52	--	Channel created on Fri, 14 Jun 2013 07:23:06
+2013-06-19 19:27:01	--	irc: disconnected from server
+2013-06-19 19:27:30	-->	JSONvoorhees (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-19 19:27:30	--	Nicks #sprintly-nerds: [JSONvoorhees justinabrahms]
+2013-06-19 19:27:30	--	Channel #sprintly-nerds: 2 nicks (0 ops, 0 halfops, 0 voices, 2 normals)
+2013-06-19 19:27:42	--	Mode #sprintly-nerds [+ns]
+2013-06-19 19:27:42	--	Channel created on Fri, 14 Jun 2013 07:23:06
+2013-06-19 21:08:37	-->	nicholasserra (~Adium@cpe-24-93-244-49.neo.res.rr.com) has joined #sprintly-nerds
+2013-06-19 22:56:37	--	irc: disconnected from server
+2013-06-19 22:57:04	-->	JSONvoorhees (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-19 22:57:04	--	Nicks #sprintly-nerds: [JSONvoorhees justinabrahms]
+2013-06-19 22:57:04	--	Channel #sprintly-nerds: 2 nicks (0 ops, 0 halfops, 0 voices, 2 normals)
+2013-06-19 22:57:16	--	Mode #sprintly-nerds [+ns]
+2013-06-19 22:57:16	--	Channel created on Fri, 14 Jun 2013 07:23:06
+2013-06-20 01:41:35	--	irc: disconnected from server
+2013-06-20 01:42:01	-->	JSONvoorhees (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-20 01:42:01	--	Nicks #sprintly-nerds: [JSONvoorhees justinabrahms]
+2013-06-20 01:42:01	--	Channel #sprintly-nerds: 2 nicks (0 ops, 0 halfops, 0 voices, 2 normals)
+2013-06-20 01:42:13	--	Mode #sprintly-nerds [+ns]
+2013-06-20 01:42:13	--	Channel created on Fri, 14 Jun 2013 07:23:06
+2013-06-20 08:47:51	--	irc: disconnected from server
+2013-06-20 08:48:16	-->	JSONvoorhees (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-20 08:48:16	--	Nicks #sprintly-nerds: [@justinabrahms JSONvoorhees nicholasserra]
+2013-06-20 08:48:16	--	Channel #sprintly-nerds: 3 nicks (1 op, 0 halfops, 0 voices, 2 normals)
+2013-06-20 08:48:28	--	Mode #sprintly-nerds [+ns]
+2013-06-20 08:48:28	--	Channel created on Thu, 20 Jun 2013 05:29:48
+2013-06-20 09:54:14	--	irc: disconnected from server
+2013-06-20 09:54:41	-->	JSONvoorhees (~meandave@c-71-56-139-32.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-20 09:54:41	--	Nicks #sprintly-nerds: [@justinabrahms JSONvoorhees nicholasserra]
+2013-06-20 09:54:41	--	Channel #sprintly-nerds: 3 nicks (1 op, 0 halfops, 0 voices, 2 normals)
+2013-06-20 09:54:53	--	Mode #sprintly-nerds [+ns]
+2013-06-20 09:54:53	--	Channel created on Thu, 20 Jun 2013 05:29:48
+2013-06-20 10:20:27	@justinabrahms	nicholasserra: so re: https://github.com/sprintly/sprint.ly/pull/400 , the issue was attachment fetching failed so it killed the entire process. I think emailyak then re-sent it.
+2013-06-20 10:20:37	@justinabrahms	(attachment fetching is after the item is created)
+2013-06-20 10:22:15	nicholasserra	Ohh. That'll do it. Was there an initial error in sentry that showed the timeout? I thought our email parsing was just screwed up with fwds.
+2013-06-20 10:25:51	@justinabrahms	yes, not that sentry allows you to search. >:[
+2013-06-20 10:26:41	@justinabrahms	https://app.getsentry.com/sprintly-1/sprintly-1/group/2556502/
+2013-06-20 10:27:06	@justinabrahms	merge that PR if you're satisfied w/ it.
+2013-06-20 14:12:02	--	irc: disconnected from server
+2013-06-20 14:12:27	-->	JSONvoorhees (~meandave@c-71-56-139-32.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-20 14:12:27	--	Nicks #sprintly-nerds: [@justinabrahms JSONvoorhees]
+2013-06-20 14:12:27	--	Channel #sprintly-nerds: 2 nicks (1 op, 0 halfops, 0 voices, 1 normal)
+2013-06-20 14:12:39	--	Mode #sprintly-nerds [+ns]
+2013-06-20 14:12:39	--	Channel created on Thu, 20 Jun 2013 05:29:48
+2013-06-20 14:33:26	--	irc: disconnected from server
+2013-06-20 14:33:54	-->	JSONvoorhees (~meandave@c-71-56-139-32.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-20 14:33:55	--	Nicks #sprintly-nerds: [@justinabrahms JSONvoorhees]
+2013-06-20 14:33:55	--	Channel #sprintly-nerds: 2 nicks (1 op, 0 halfops, 0 voices, 1 normal)
+2013-06-20 14:34:04	--	Mode #sprintly-nerds [+ns]
+2013-06-20 14:34:05	--	Channel created on Thu, 20 Jun 2013 05:29:48
+2013-06-20 18:26:29	--	irc: disconnected from server
+2013-06-20 18:26:54	-->	JSONvoorhees (~meandave@75-164-216-219.ptld.qwest.net) has joined #sprintly-nerds
+2013-06-20 18:26:54	--	Nicks #sprintly-nerds: [@justinabrahms JSONvoorhees]
+2013-06-20 18:26:54	--	Channel #sprintly-nerds: 2 nicks (1 op, 0 halfops, 0 voices, 1 normal)
+2013-06-20 18:26:54	--	URL for #sprintly-nerds: https://sprint.ly/
+2013-06-20 18:27:06	--	Mode #sprintly-nerds [+cntk push1tn0w]
+2013-06-20 18:27:06	--	Channel created on Thu, 20 Jun 2013 05:29:48
+2013-06-20 20:55:51	--	irc: disconnected from server
+2013-06-20 20:56:18	-->	JSONvoorhees (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-20 20:56:19	--	Nicks #sprintly-nerds: [@justinabrahms JSONvoorhees]
+2013-06-20 20:56:19	--	Channel #sprintly-nerds: 2 nicks (1 op, 0 halfops, 0 voices, 1 normal)
+2013-06-20 20:56:19	--	URL for #sprintly-nerds: https://sprint.ly/
+2013-06-20 20:56:28	--	Mode #sprintly-nerds [+cntk push1tn0w]
+2013-06-20 20:56:29	--	Channel created on Thu, 20 Jun 2013 05:29:48
+2013-06-21 05:25:42	--	irc: disconnected from server
+2013-06-21 05:26:07	-->	JSONvoorhees (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #sprintly-nerds
+2013-06-21 05:26:07	--	Nicks #sprintly-nerds: [@justinabrahms JSONvoorhees]
+2013-06-21 05:26:07	--	Channel #sprintly-nerds: 2 nicks (1 op, 0 halfops, 0 voices, 1 normal)
+2013-06-21 05:26:07	--	URL for #sprintly-nerds: https://sprint.ly/
+2013-06-21 05:26:19	--	Mode #sprintly-nerds [+cntk push1tn0w]
+2013-06-21 05:26:19	--	Channel created on Thu, 20 Jun 2013 05:29:48

@@ -1,0 +1,105 @@
+2014-01-17 10:49:40	-->	JSON_voorhees (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has joined #chrome-devtools
+2014-01-17 10:49:40	--	Topic for #chrome-devtools is "Chrome DevTools discussion. Docs: http://developers.google.com/chrome-developer-tools/ · The Breakpoint video series: http://goo.gl/AZRNE · Google I/O 2013 video: http://youtu.be/x6qe_kVaBpg ·•· bugs & feature requests go here: http://crbug.com · StackOverflow: http://stackoverflow.com/questions/tagged/google-chrome-devtools"
+2014-01-17 10:49:40	--	Topic set by paul_irish (~paul_iris@ve.hsh6wjwx.vesrv.com) on Mon, 24 Jun 2013 11:45:36
+2014-01-17 10:49:40	--	Nicks #chrome-devtools: [addyosmani__ AndrewF brianarn iamstef jory JSON_voorhees miketaylr paul_irish trodrigues umaar]
+2014-01-17 10:49:40	--	Channel #chrome-devtools: 10 nicks (0 ops, 0 voices, 10 normals)
+2014-01-17 10:49:41	--	Mode #chrome-devtools [+cnt]
+2014-01-17 10:49:41	--	Channel created on Fri, 26 Apr 2013 12:19:54
+2014-01-17 11:10:46	AndrewF	\bA\b regex imo
+2014-01-17 11:10:55	AndrewF	@ jory
+2014-01-17 11:14:52	jory	This is a pretty nice interface, with all the search results. It's a bit iffy with the pretty-printed code (sometimes returning the unpretty-printed version in the results, other times giving you the.... 'logical line numbers?).
+2014-01-17 11:15:43	jory	Oh no wait, that's just the unminified code at the head of the file...
+2014-01-17 11:16:03	jory	Is there any where in particular I should file bug reports / feature requests?
+2014-01-17 11:17:20	AndrewF	To submit a bug or a feature request on DevTools, please use issue tracker at http://crbug.com. Please also mention "DevTools" in the bug summary.
+2014-01-17 11:17:28	AndrewF	according to https://developers.google.com/chrome-developer-tools/ anyway
+2014-01-17 11:18:08	paul_irish	bingo
+2014-01-17 11:27:30	jory	Cool, thanks guys.
+2014-01-17 11:39:31	jory	Re-ported. https://code.google.com/p/chromium/issues/detail?can=2&q=search%20sources&colspec=ID%20Pri%20M%20Iteration%20ReleaseBlock%20Cr%20Status%20Owner%20Summary%20OS%20Modified&id=335654&thanks=335654&ts=1389987526
+2014-01-17 19:01:34	--	irc: disconnected from server
+2014-01-17 19:02:11	-->	JSON_voorhees (~JSON_voor@c-98-246-113-149.hsd1.or.comcast.net) has joined #chrome-devtools
+2014-01-17 19:02:11	--	Topic for #chrome-devtools is "Chrome DevTools discussion. Docs: http://developers.google.com/chrome-developer-tools/ · The Breakpoint video series: http://goo.gl/AZRNE · Google I/O 2013 video: http://youtu.be/x6qe_kVaBpg ·•· bugs & feature requests go here: http://crbug.com · StackOverflow: http://stackoverflow.com/questions/tagged/google-chrome-devtools"
+2014-01-17 19:02:11	--	Topic set by paul_irish (~paul_iris@ve.hsh6wjwx.vesrv.com) on Mon, 24 Jun 2013 11:45:36
+2014-01-17 19:02:11	--	Nicks #chrome-devtools: [addyosmani__ AndrewF brianarn iamstef jory JSON_voorhees miketaylr paul_irish trodrigues umaar]
+2014-01-17 19:02:11	--	Channel #chrome-devtools: 10 nicks (0 ops, 0 voices, 10 normals)
+2014-01-17 19:02:23	--	You are now known as Guest92619
+2014-01-17 19:02:35	--	Mode #chrome-devtools [+cnt]
+2014-01-17 19:02:35	--	Channel created on Fri, 26 Apr 2013 12:19:54
+2014-01-17 19:37:25	--	irc: disconnected from server
+2014-01-17 19:37:59	-->	Guest92619 (~JSON_voor@c-98-246-113-149.hsd1.or.comcast.net) has joined #chrome-devtools
+2014-01-17 19:37:59	--	Topic for #chrome-devtools is "Chrome DevTools discussion. Docs: http://developers.google.com/chrome-developer-tools/ · The Breakpoint video series: http://goo.gl/AZRNE · Google I/O 2013 video: http://youtu.be/x6qe_kVaBpg ·•· bugs & feature requests go here: http://crbug.com · StackOverflow: http://stackoverflow.com/questions/tagged/google-chrome-devtools"
+2014-01-17 19:37:59	--	Topic set by paul_irish (~paul_iris@ve.hsh6wjwx.vesrv.com) on Mon, 24 Jun 2013 11:45:36
+2014-01-17 19:37:59	--	Nicks #chrome-devtools: [addyosmani__ AndrewF brianarn Guest92619 iamstef jory miketaylr paul_irish trodrigues umaar]
+2014-01-17 19:37:59	--	Channel #chrome-devtools: 10 nicks (0 ops, 0 voices, 10 normals)
+2014-01-17 19:38:23	--	Mode #chrome-devtools [+cnt]
+2014-01-17 19:38:23	--	Channel created on Fri, 26 Apr 2013 12:19:54
+2014-01-17 19:57:13	--	irc: disconnected from server
+2014-01-17 19:57:51	-->	Guest92619 (~JSON_voor@c-98-246-113-149.hsd1.or.comcast.net) has joined #chrome-devtools
+2014-01-17 19:57:51	--	Topic for #chrome-devtools is "Chrome DevTools discussion. Docs: http://developers.google.com/chrome-developer-tools/ · The Breakpoint video series: http://goo.gl/AZRNE · Google I/O 2013 video: http://youtu.be/x6qe_kVaBpg ·•· bugs & feature requests go here: http://crbug.com · StackOverflow: http://stackoverflow.com/questions/tagged/google-chrome-devtools"
+2014-01-17 19:57:52	--	Topic set by paul_irish (~paul_iris@ve.hsh6wjwx.vesrv.com) on Mon, 24 Jun 2013 11:45:36
+2014-01-17 19:57:52	--	Nicks #chrome-devtools: [addyosmani__ AndrewF brianarn Guest92619 iamstef jory miketaylr paul_irish trodrigues umaar]
+2014-01-17 19:57:52	--	Channel #chrome-devtools: 10 nicks (0 ops, 0 voices, 10 normals)
+2014-01-17 19:58:14	--	Mode #chrome-devtools [+cnt]
+2014-01-17 19:58:14	--	Channel created on Fri, 26 Apr 2013 12:19:54
+2014-01-17 20:07:01	-->	hoobdeebla (~hoobdeebl@72.44.240.228) has joined #chrome-devtools
+2014-01-17 20:32:47	<--	hoobdeebla (~hoobdeebl@72.44.240.228) has quit
+2014-01-18 02:08:51	<--	brianarn (~brianarn@198.199.96.28) has quit (Ping timeout: 272 seconds)
+2014-01-18 02:13:17	-->	brianarn (~brianarn@198.199.96.28) has joined #chrome-devtools
+2014-01-18 10:06:55	--	irc: disconnected from server
+2014-01-18 10:07:30	-->	Guest92619 (~JSON_voor@c-98-246-113-149.hsd1.or.comcast.net) has joined #chrome-devtools
+2014-01-18 10:07:30	--	Topic for #chrome-devtools is "Chrome DevTools discussion. Docs: http://developers.google.com/chrome-developer-tools/ · The Breakpoint video series: http://goo.gl/AZRNE · Google I/O 2013 video: http://youtu.be/x6qe_kVaBpg ·•· bugs & feature requests go here: http://crbug.com · StackOverflow: http://stackoverflow.com/questions/tagged/google-chrome-devtools"
+2014-01-18 10:07:30	--	Topic set by paul_irish (~paul_iris@ve.hsh6wjwx.vesrv.com) on Mon, 24 Jun 2013 11:45:36
+2014-01-18 10:07:30	--	Nicks #chrome-devtools: [addyosmani__ AndrewF brianarn Guest92619 iamstef jory miketaylr paul_irish trodrigues umaar]
+2014-01-18 10:07:30	--	Channel #chrome-devtools: 10 nicks (0 ops, 0 voices, 10 normals)
+2014-01-18 10:07:54	--	Mode #chrome-devtools [+cnt]
+2014-01-18 10:07:54	--	Channel created on Fri, 26 Apr 2013 12:19:54
+2014-01-18 11:38:26	--	irc: disconnected from server
+2014-01-18 11:39:05	-->	Guest92619 (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #chrome-devtools
+2014-01-18 11:39:05	--	Topic for #chrome-devtools is "Chrome DevTools discussion. Docs: http://developers.google.com/chrome-developer-tools/ · The Breakpoint video series: http://goo.gl/AZRNE · Google I/O 2013 video: http://youtu.be/x6qe_kVaBpg ·•· bugs & feature requests go here: http://crbug.com · StackOverflow: http://stackoverflow.com/questions/tagged/google-chrome-devtools"
+2014-01-18 11:39:05	--	Topic set by paul_irish (~paul_iris@ve.hsh6wjwx.vesrv.com) on Mon, 24 Jun 2013 11:45:36
+2014-01-18 11:39:05	--	Nicks #chrome-devtools: [addyosmani__ AndrewF brianarn Guest92619 iamstef jory miketaylr paul_irish trodrigues umaar]
+2014-01-18 11:39:05	--	Channel #chrome-devtools: 10 nicks (0 ops, 0 voices, 10 normals)
+2014-01-18 11:39:29	--	Mode #chrome-devtools [+cnt]
+2014-01-18 11:39:29	--	Channel created on Fri, 26 Apr 2013 12:19:54
+2014-01-18 12:37:21	--	irc: disconnected from server
+2014-01-18 12:37:54	-->	JSON_voorhees (~JSON_voor@c-71-237-213-89.hsd1.or.comcast.net) has joined #chrome-devtools
+2014-01-18 12:37:54	--	Topic for #chrome-devtools is "Chrome DevTools discussion. Docs: http://developers.google.com/chrome-developer-tools/ · The Breakpoint video series: http://goo.gl/AZRNE · Google I/O 2013 video: http://youtu.be/x6qe_kVaBpg ·•· bugs & feature requests go here: http://crbug.com · StackOverflow: http://stackoverflow.com/questions/tagged/google-chrome-devtools"
+2014-01-18 12:37:54	--	Topic set by paul_irish (~paul_iris@ve.hsh6wjwx.vesrv.com) on Mon, 24 Jun 2013 11:45:36
+2014-01-18 12:37:54	--	Nicks #chrome-devtools: [addyosmani__ AndrewF brianarn iamstef jory JSON_voorhees miketaylr paul_irish trodrigues umaar]
+2014-01-18 12:37:54	--	Channel #chrome-devtools: 10 nicks (0 ops, 0 voices, 10 normals)
+2014-01-18 12:38:22	--	Mode #chrome-devtools [+cnt]
+2014-01-18 12:38:22	--	Channel created on Fri, 26 Apr 2013 12:19:54
+2014-01-18 16:15:39	--	irc: disconnected from server
+2014-01-18 16:16:32	-->	JSON_voorhees (~JSON_voor@c-71-237-213-89.hsd1.or.comcast.net) has joined #chrome-devtools
+2014-01-18 16:16:32	--	Topic for #chrome-devtools is "Chrome DevTools discussion. Docs: http://developers.google.com/chrome-developer-tools/ · The Breakpoint video series: http://goo.gl/AZRNE · Google I/O 2013 video: http://youtu.be/x6qe_kVaBpg ·•· bugs & feature requests go here: http://crbug.com · StackOverflow: http://stackoverflow.com/questions/tagged/google-chrome-devtools"
+2014-01-18 16:16:32	--	Topic set by paul_irish (~paul_iris@ve.hsh6wjwx.vesrv.com) on Mon, 24 Jun 2013 11:45:36
+2014-01-18 16:16:32	--	Nicks #chrome-devtools: [addyosmani__ AndrewF brianarn iamstef jory JSON_voorhees miketaylr paul_irish trodrigues umaar]
+2014-01-18 16:16:32	--	Channel #chrome-devtools: 10 nicks (0 ops, 0 voices, 10 normals)
+2014-01-18 16:16:41	--	You are now known as Guest78498
+2014-01-18 16:16:54	--	Mode #chrome-devtools [+cnt]
+2014-01-18 16:16:54	--	Channel created on Fri, 26 Apr 2013 12:19:54
+2014-01-18 17:06:58	--	irc: disconnected from server
+2014-01-18 17:07:34	-->	Guest78498 (~JSON_voor@c-71-237-213-89.hsd1.or.comcast.net) has joined #chrome-devtools
+2014-01-18 17:07:34	--	Topic for #chrome-devtools is "Chrome DevTools discussion. Docs: http://developers.google.com/chrome-developer-tools/ · The Breakpoint video series: http://goo.gl/AZRNE · Google I/O 2013 video: http://youtu.be/x6qe_kVaBpg ·•· bugs & feature requests go here: http://crbug.com · StackOverflow: http://stackoverflow.com/questions/tagged/google-chrome-devtools"
+2014-01-18 17:07:34	--	Topic set by paul_irish (~paul_iris@ve.hsh6wjwx.vesrv.com) on Mon, 24 Jun 2013 11:45:36
+2014-01-18 17:07:34	--	Nicks #chrome-devtools: [addyosmani__ AndrewF brianarn Guest78498 iamstef jory miketaylr paul_irish trodrigues umaar]
+2014-01-18 17:07:34	--	Channel #chrome-devtools: 10 nicks (0 ops, 0 voices, 10 normals)
+2014-01-18 17:07:58	--	Mode #chrome-devtools [+cnt]
+2014-01-18 17:07:58	--	Channel created on Fri, 26 Apr 2013 12:19:54
+2014-01-18 17:28:09	-->	santiissopasse (~santiisop@91-64-74-61-dynip.superkabel.de) has joined #chrome-devtools
+2014-01-18 17:38:52	<--	santiissopasse (~santiisop@91-64-74-61-dynip.superkabel.de) has quit (Quit: santiissopasse)
+2014-01-18 17:40:05	--	irc: disconnected from server
+2014-01-18 17:40:37	-->	JSON_voorhees (~JSON_voor@c-71-237-213-89.hsd1.or.comcast.net) has joined #chrome-devtools
+2014-01-18 17:40:37	--	Topic for #chrome-devtools is "Chrome DevTools discussion. Docs: http://developers.google.com/chrome-developer-tools/ · The Breakpoint video series: http://goo.gl/AZRNE · Google I/O 2013 video: http://youtu.be/x6qe_kVaBpg ·•· bugs & feature requests go here: http://crbug.com · StackOverflow: http://stackoverflow.com/questions/tagged/google-chrome-devtools"
+2014-01-18 17:40:37	--	Topic set by paul_irish (~paul_iris@ve.hsh6wjwx.vesrv.com) on Mon, 24 Jun 2013 11:45:36
+2014-01-18 17:40:37	--	Nicks #chrome-devtools: [addyosmani__ AndrewF brianarn iamstef jory JSON_voorhees miketaylr paul_irish trodrigues umaar]
+2014-01-18 17:40:37	--	Channel #chrome-devtools: 10 nicks (0 ops, 0 voices, 10 normals)
+2014-01-18 17:40:49	--	You are now known as Guest49675
+2014-01-18 17:40:59	--	irc: disconnected from server
+2014-01-18 17:41:29	-->	JSON_voorheez (~JSON_voor@c-71-237-213-89.hsd1.or.comcast.net) has joined #chrome-devtools
+2014-01-18 17:41:29	--	Topic for #chrome-devtools is "Chrome DevTools discussion. Docs: http://developers.google.com/chrome-developer-tools/ · The Breakpoint video series: http://goo.gl/AZRNE · Google I/O 2013 video: http://youtu.be/x6qe_kVaBpg ·•· bugs & feature requests go here: http://crbug.com · StackOverflow: http://stackoverflow.com/questions/tagged/google-chrome-devtools"
+2014-01-18 17:41:29	--	Topic set by paul_irish (~paul_iris@ve.hsh6wjwx.vesrv.com) on Mon, 24 Jun 2013 11:45:36
+2014-01-18 17:41:29	--	Nicks #chrome-devtools: [addyosmani__ AndrewF brianarn iamstef jory JSON_voorheez miketaylr paul_irish trodrigues umaar]
+2014-01-18 17:41:29	--	Channel #chrome-devtools: 10 nicks (0 ops, 0 voices, 10 normals)
+2014-01-18 17:41:55	--	Mode #chrome-devtools [+cnt]
+2014-01-18 17:41:55	--	Channel created on Fri, 26 Apr 2013 12:19:54
+2014-01-18 17:42:08	--	irc: disconnected from server

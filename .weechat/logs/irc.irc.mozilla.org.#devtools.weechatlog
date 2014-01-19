@@ -1,0 +1,749 @@
+2014-01-17 10:45:33	-->	JSON_voorhees (JSON_voorh@moz-9210A3AD.hsd1.or.comcast.net) has joined #devtools
+2014-01-17 10:45:33	--	Topic for #devtools is "Use this: http://bugmotodo.org - next uplift 2014-02-03 - contribute: https://wiki.mozilla.org/DevTools/GetInvolved - meeting thursdays at 9am pacific: https://etherpad.mozilla.org/devtools-meeting2 - checkin-needed keyword is the new [land-in-fx-team] whiteboard flag."
+2014-01-17 10:45:33	--	Topic set by paul on Thu, 02 Jan 2014 08:30:11
+2014-01-17 10:45:33	--	Nicks #devtools: [@dcamp @robcee [p_q] _wirepair abacus andreeapopescu angelina anton Anupkumar arc arroway AutomatedTester axel benvie BenWa bgrins bkelly bkerensa bmaggs Bohemian Boopathi_K brambles brendan buzz bwalker bz canuckistani ckoehler cruxeternus cstipkovic D4N3 daleharvey darrin dashbot davida dchan decode__ dew dietrich digitarald djvj ebryn ehsan ejpbruel equiet erikvold evilpie ewong|away ewong|sleep Fallen|away felipe firebot fitzgen freddyb fredy gabor gavin GeekShadow glob|away gluong gozala gregglind hardfire harth ircloggr IRCMonkey292711 ivan janx Jasper jaws jedp Jesse johankj johnath johns jonasac jorendorff_away joshua-s jryans jsantell JSON_voorhees juanb jwalker karim khuey KWierso|afk margaret MattN mayanktg mcav mgoodwin mitsuhiko Mossop mrshu msucan myk mythmon naveed NeilAway nikola not_gavin oal ochameau offSchub Optimizer panaggio past paul pbrosset|afk philor pmcclard potch quentin r1cky Raynos rbelouin RealRaven reed ria Rik robarnold robhudson rricard rricard1 rtnpro seocam serge sfink sfink|log sfoster sheppy shu smaug snorp sole sterling TimAbraldes timeless tofumatt Tomcat|afk tomdale tsmuse tw2113 Unfocused victorporof wenzel wesj wycats_ Yoric zaach ZER0]
+2014-01-17 10:45:33	--	Channel #devtools: 151 nicks (2 ops, 0 halfops, 0 voices, 149 normals)
+2014-01-17 10:45:35	--	Mode #devtools [+n]
+2014-01-17 10:45:35	--	Channel created on Mon, 12 Aug 2013 21:00:21
+2014-01-17 10:45:44	victorporof	benvie: land away
+2014-01-17 10:47:30	<--	Mossop (dtownsend@53343B0D.8DCA2D5.5E2862A8.IP) has quit (Quit: Leaving)
+2014-01-17 10:48:14	<--	jedp (jedp@moz-89599B04.dsl.dynamic.sonic.net) has quit (Quit: Computer has gone to sleep.)
+2014-01-17 10:54:57	<--	offSchub (DenSchub@moz-E69EBC28.org) has quit (Ping timeout)
+2014-01-17 10:55:11	jryans	Boopathi_K: pong. not sure what to say about the troubles you are having :(
+2014-01-17 10:56:41	benvie	ejpbruel: when I tried to move Promise.jsm into a script that runs in a worker (so it could be used in the devtools server) a test which does Cu.forceGC/CC/shrinkingGC causes a crash. Does this sound related to wha you're working on?
+2014-01-17 10:57:03	benvie	(just saw your last tweet and sounded familiar)
+2014-01-17 10:57:04	ejpbruel	benvie: well, you don't *have* Cu/CC in a Worker
+2014-01-17 10:57:10	benvie	haha ok
+2014-01-17 10:57:15	benvie	well that makes a whole bunch of sense
+2014-01-17 10:57:29	benvie	hmm
+2014-01-17 10:57:54	benvie	ejpbruel: well wait. When you do something like... loadSubScript and load it
+2014-01-17 10:58:04	benvie	I guess it's not a worker then
+2014-01-17 10:58:25	benvie	changing from normal loading to loading using loadSubScript causes the crash
+2014-01-17 10:58:27	-->	offSchub (DenSchub@moz-E69EBC28.org) has joined #devtools
+2014-01-17 10:58:32	<--	pmcclard (pmcclard@moz-DFAA4E15.p2p.sfo1.mozilla.com) has quit (Input/output error)
+2014-01-17 10:58:51	-->	Mossop (dtownsend@53343B0D.8DCA2D5.5E2862A8.IP) has joined #devtools
+2014-01-17 10:59:01	<--	Mossop (dtownsend@53343B0D.8DCA2D5.5E2862A8.IP) has quit (Input/output error)
+2014-01-17 11:00:29	ejpbruel	benvie: what is normal loading?
+2014-01-17 11:01:10	-->	jedp (jedp@moz-89599B04.dsl.dynamic.sonic.net) has joined #devtools
+2014-01-17 11:01:38	-->	pmcclard (pmcclard@moz-DFAA4E15.p2p.sfo1.mozilla.com) has joined #devtools
+2014-01-17 11:02:24	benvie	ejpbruel: well right now Promise.jsm is just a normal jsm. All the code is in that file, so it runs and exports its stuff
+2014-01-17 11:02:55	benvie	ejpbruel: the change is to make Promise.jsm a stub basically, that uses loadSubScript to load promise.js, which is capable of running in a worker
+2014-01-17 11:03:15	ejpbruel	benvie: we don't have loadSubScript in a worker either, afaik
+2014-01-17 11:03:19	ejpbruel	benvie: don't you mean importscripts?
+2014-01-17 11:03:50	benvie	ejpbruel: I mean like http://mxr.mozilla.org/mozilla-central/source/toolkit/devtools/DevToolsUtils.jsm#17
+2014-01-17 11:04:28	benvie	so you can load the same file using a worker or Cu.import
+2014-01-17 11:04:51	-->	Mossop (dtownsend@53343B0D.8DCA2D5.5E2862A8.IP) has joined #devtools
+2014-01-17 11:05:46	benvie	you can either to Cu.import("...DevToolsUtils.jsm") from chrome code, or do importScripts("...DevToolsUtils.js") from a worker
+2014-01-17 11:06:06	-->	tantek (tantek@moz-DFAA4E15.p2p.sfo1.mozilla.com) has joined #devtools
+2014-01-17 11:06:40	benvie	when I convert Promise.jsm to be able to do that it causes cycle collector crashes
+2014-01-17 11:07:10	--	BenWa is now known as BenWa|email
+2014-01-17 11:08:31	--	BenWa|email is now known as BenWa
+2014-01-17 11:13:25	fitzgen	is wiki.m.o down for anyone else?
+2014-01-17 11:13:38	fitzgen	just timing out
+2014-01-17 11:15:18	<--	zaach (zaach@moz-9E403A70.dsl.static.sonic.net) has quit (Quit: zaach)
+2014-01-17 11:15:37	benvie	fitzgen: no it's normal for me
+2014-01-17 11:15:40	fitzgen	hrm
+2014-01-17 11:15:43	fitzgen	:(
+2014-01-17 11:22:40	<--	jedp (jedp@moz-89599B04.dsl.dynamic.sonic.net) has quit (Connection reset by peer)
+2014-01-17 11:22:59	--	jorendorff_away is now known as jorendorff
+2014-01-17 11:25:51	<--	rricard1 (rricard@moz-81756BE1.insa-lyon.fr) has quit (Connection reset by peer)
+2014-01-17 11:26:21	-->	rricard1 (rricard@1CF74E07.91EE0513.EC2613E4.IP) has joined #devtools
+2014-01-17 11:26:47	-->	twi (Adium@moz-512229A7.lns9.lon.bigpond.net.au) has joined #devtools
+2014-01-17 11:27:02	-->	jedp (jedp@moz-89599B04.dsl.dynamic.sonic.net) has joined #devtools
+2014-01-17 11:27:09	-->	rricard2 (rricard@moz-81756BE1.insa-lyon.fr) has joined #devtools
+2014-01-17 11:28:04	<--	rricard1 (rricard@1CF74E07.91EE0513.EC2613E4.IP) has quit (Ping timeout)
+2014-01-17 11:28:28	<--	twi (Adium@moz-512229A7.lns9.lon.bigpond.net.au) has quit (Ping timeout)
+2014-01-17 11:28:54	<--	rricard2 (rricard@moz-81756BE1.insa-lyon.fr) has quit (Ping timeout)
+2014-01-17 11:30:08	-->	jviereck (Adium@moz-56DDD13.dip0.t-ipconnect.de) has joined #devtools
+2014-01-17 11:30:14	-->	jviereck1 (Adium@moz-56DDD13.dip0.t-ipconnect.de) has joined #devtools
+2014-01-17 11:30:16	<--	jviereck (Adium@moz-56DDD13.dip0.t-ipconnect.de) has quit (Connection reset by peer)
+2014-01-17 11:32:58	-->	rricard1 (rricard@moz-81756BE1.insa-lyon.fr) has joined #devtools
+2014-01-17 11:34:05	-->	jimb (user@125EF623.B2666F0E.66399531.IP) has joined #devtools
+2014-01-17 11:34:55	--	khuey is now known as khuey|away
+2014-01-17 11:36:05	benvie	bgrins: scratchpad.xul has some inline js. Do you want me to open a bug for it?
+2014-01-17 11:36:41	--	arroway is now known as arroway|away
+2014-01-17 11:36:48	<--	ZER0 (ZER0@moz-AB9DF7.dynamic.upc.nl) has quit (Quit: Leaving)
+2014-01-17 11:39:26	bgrins	benvie: yes, please.  Could you mark it as blocks 960728?
+2014-01-17 11:39:34	benvie	bgrins: yep!
+2014-01-17 11:43:38	<--	brendan (brendaneic@moz-BBE3ABD.mv.mozilla.com) has quit (Quit: brendan)
+2014-01-17 11:44:06	-->	brendan (brendaneic@moz-BBE3ABD.mv.mozilla.com) has joined #devtools
+2014-01-17 11:44:24	--	juanb is now known as juanb|brb
+2014-01-17 11:45:55	<--	pmcclard (pmcclard@moz-DFAA4E15.p2p.sfo1.mozilla.com) has quit (Input/output error)
+2014-01-17 11:48:48	<--	equiet (Adium@moz-9CAAD9F2.pks.muni.cz) has left #devtools
+2014-01-17 11:49:35	--	juanb|brb is now known as juanb
+2014-01-17 11:50:19	<--	Mossop (dtownsend@53343B0D.8DCA2D5.5E2862A8.IP) has quit (Quit: Leaving)
+2014-01-17 11:50:30	--	juanb is now known as juanb|afk
+2014-01-17 11:52:18	jimb	fitzgen: http://www.infoq.com/presentations/Simple-Made-Easy
+2014-01-17 11:53:26	<--	dashbot (nodebot@moz-77EB2E05.compute-1.amazonaws.com) has quit (Connection reset by peer)
+2014-01-17 11:53:33	-->	dashbot1 (nodebot@moz-E57853D9.compute-1.amazonaws.com) has joined #devtools
+2014-01-17 12:00:37	--	bz is now known as bz_away
+2014-01-17 12:01:15	fitzgen	Optimizer: in the future, when you need sec stuff, it is probably easier and faster to just needinfo mgoodwin
+2014-01-17 12:01:54	janx	in toolkit/devtools/server/main.js, how can I know if we're running B2G?
+2014-01-17 12:02:19	<--	bz_away (bzbarsky@moz-72881629.bstnma.fios.verizon.net) has quit (Ping timeout)
+2014-01-17 12:02:45	jryans	janx: well, first i am curious why you want to know, to suggest a good answer :)
+2014-01-17 12:04:22	janx	jryans: there is code duplication between DebuggerServer.addBrowserActors and b2g/chrome/content/shell.js RemoteDebugger.start(), and I can fix it with a simple if (!b2g) { /* add actors for webgl and tracer */ } in main.js
+2014-01-17 12:04:52	janx	I know that in b2g, this != global scope, maybe there's a trick there?
+2014-01-17 12:05:15	jryans	janx: hmm, i believe paul is working on similar things to unify how the server is started... or are you helping him?
+2014-01-17 12:05:57	janx	jryans: hm, might be a collision with paul then, I was reading code to understand RemoteDebugger and DebuggerServer, and the duplication bugged me
+2014-01-17 12:06:35	jryans	janx: understood. i would double-check with his work before changing much of that for now.
+2014-01-17 12:07:34	janx	jryans: actually apart from that b2g check, my patch is small and finished, so I'd like to upload it even if it goes nowhere
+2014-01-17 12:08:05	-->	zaach (zaach@moz-DFAA4E15.p2p.sfo1.mozilla.com) has joined #devtools
+2014-01-17 12:08:30	jryans	janx: it is *possible* to test things like Services.appinfo.name or .id to do this, but it's a better design to keep product specific code out of toolkit entirely.
+2014-01-17 12:09:06	janx	jryans: ok, thanks! noted
+2014-01-17 12:09:26	<--	rricard1 (rricard@moz-81756BE1.insa-lyon.fr) has quit (Connection reset by peer)
+2014-01-17 12:09:28	-->	rricard2 (rricard@moz-81756BE1.insa-lyon.fr) has joined #devtools
+2014-01-17 12:09:55	msucan	janx: see bug 942756
+2014-01-17 12:09:58	firebot	Bug https://bugzilla.mozilla.org/show_bug.cgi?id=942756 nor, --, ---, paul, NEW, Unify the different ways we start the debugger server
+2014-01-17 12:10:11	<--	rricard2 (rricard@moz-81756BE1.insa-lyon.fr) has quit (Connection reset by peer)
+2014-01-17 12:10:12	-->	rricard1 (rricard@moz-81756BE1.insa-lyon.fr) has joined #devtools
+2014-01-17 12:10:24	<--	RealRaven (Thunderbir@81D02F11.E00866EC.C3498625.IP) has quit (Quit: RealRaven)
+2014-01-17 12:10:43	janx	msucan: was about to look for it, thanks!
+2014-01-17 12:10:57	-->	RealRaven (Thunderbir@81D02F11.E00866EC.C3498625.IP) has joined #devtools
+2014-01-17 12:14:09	<--	brendan (brendaneic@moz-BBE3ABD.mv.mozilla.com) has quit (Quit: brendan)
+2014-01-17 12:14:41	jryans	janx: in that bug you'll see this problem affects not just b2g at the moment. i am sure paul has had tons of fun with this... ;)
+2014-01-17 12:15:05	janx	jryans: also I was worried about DebuggerServer because from what I just read it looks tailored for a single debugger connection, however where I'm going the DebuggerServer could serve both a remote debugger like AppManager and a local on-device debugger, alternatively or at the same time
+2014-01-17 12:15:29	-->	bz_away (bzbarsky@moz-D9C25B3C.hsd1.ma.comcast.net) has joined #devtools
+2014-01-17 12:15:30	janx	jryans: I don't doubt that
+2014-01-17 12:16:36	-->	Mossop (dtownsend@53343B0D.8DCA2D5.5E2862A8.IP) has joined #devtools
+2014-01-17 12:17:39	<--	ehsan (ehsan@13F2CEC5.7672369.D8E68FF6.IP) has quit (Input/output error)
+2014-01-17 12:17:42	<--	myk (myk@moz-BBE3ABD.mv.mozilla.com) has quit (Ping timeout)
+2014-01-17 12:18:05	jryans	janx: no, it's possible for one server to local and remote at the same time
+2014-01-17 12:19:31	jryans	janx: you can trigger this in desktop firefox via the developer toolbar: "listen" and then it's now listen on a port, as well as doing local at the same time
+2014-01-17 12:22:26	janx	jryans: in shell.js, RemoteDebugger starts the DebuggerServer by initializing it with a custom set of actors, and later stops it by calling closeListener. 1) what if, during such a session, someone else wants to connect to the debugger, maybe with a different set of actors? 2) if the first session stops, closing the unique listener, what happens to the
+2014-01-17 12:22:27	janx	second concurrent debugging session?
+2014-01-17 12:22:32	--	juanb|afk is now known as juanb
+2014-01-17 12:24:15	jryans	janx: the list of actors is meant to be set up globally for all sessions... we don't, at least today, have a case where different lists are used for different sessions. also, the actor are only instantiated when first used, so it should be fine to add all the ones you expect to need
+2014-01-17 12:25:17	jryans	janx: closeListener should only be called when you don't want anymore connections at all. a single listener accepts multiple connects, like most servers would do
+2014-01-17 12:26:07	<--	seocam (sid7251@moz-5F4AA75A.irccloud.com) has quit (Ping timeout)
+2014-01-17 12:26:07	<--	wycats_ (sid79@moz-5F4AA75A.irccloud.com) has quit (Ping timeout)
+2014-01-17 12:26:07	<--	timeless (sid4015@moz-5F4AA75A.irccloud.com) has quit (Ping timeout)
+2014-01-17 12:26:18	<--	mcav (sid13462@moz-5F4AA75A.irccloud.com) has quit (Ping timeout)
+2014-01-17 12:26:23	janx	jryans: ok, that does simplify things for 1). does that mean that registering webgl and tracer modules in B2G won't cause problems?
+2014-01-17 12:26:58	<--	jryans (sid12941@moz-5F4AA75A.irccloud.com) has quit (Ping timeout)
+2014-01-17 12:27:10	past	janx: I'm adding those in bug 933212
+2014-01-17 12:27:14	firebot	Bug https://bugzilla.mozilla.org/show_bug.cgi?id=933212 nor, P1, ---, past, ASSI, Debugger can only be opened once per app per connection
+2014-01-17 12:27:38	-->	twi (Adium@moz-512229A7.lns9.lon.bigpond.net.au) has joined #devtools
+2014-01-17 12:28:04	<--	mayanktg (mayanktg@9254762.F92BC525.1CF8924A.IP) has quit (Ping timeout)
+2014-01-17 12:28:33	-->	wycats_ (sid79@moz-5F4AA75A.irccloud.com) has joined #devtools
+2014-01-17 12:28:33	-->	seocam (sid7251@moz-5F4AA75A.irccloud.com) has joined #devtools
+2014-01-17 12:28:43	-->	mcav (sid13462@moz-5F4AA75A.irccloud.com) has joined #devtools
+2014-01-17 12:29:21	<--	twi (Adium@moz-512229A7.lns9.lon.bigpond.net.au) has quit (Ping timeout)
+2014-01-17 12:29:50	-->	timeless (sid4015@moz-5F4AA75A.irccloud.com) has joined #devtools
+2014-01-17 12:30:11	--	bz_away is now known as bz
+2014-01-17 12:30:22	-->	kaustavdm (kaustavdm@C1C16485.EA96A5C6.4BFBD933.IP) has joined #devtools
+2014-01-17 12:31:24	-->	ehsan (ehsan@13F2CEC5.7672369.D8E68FF6.IP) has joined #devtools
+2014-01-17 12:33:30	janx	past: indeed, thanks
+2014-01-17 12:33:33	<--	ehsan (ehsan@13F2CEC5.7672369.D8E68FF6.IP) has quit (Input/output error)
+2014-01-17 12:34:33	-->	ehsan (ehsan@13F2CEC5.7672369.D8E68FF6.IP) has joined #devtools
+2014-01-17 12:35:29	-->	ivanovpavel (pivanov@moz-88F5E032.spectrumnet.bg) has joined #devtools
+2014-01-17 12:35:40	<--	ivanovpavel (pivanov@moz-88F5E032.spectrumnet.bg) has quit (Quit: Linkinus - http://linkinus.com)
+2014-01-17 12:35:58	-->	jryans (sid12941@moz-5F4AA75A.irccloud.com) has joined #devtools
+2014-01-17 12:36:35	-->	jwatt (roslea@jwatt.irc.users.mozilla.org) has joined #devtools
+2014-01-17 12:37:27	janx	past: will that also enable multiple debuggers to arbitrarily attach to / detach from a single debuggee, or is that something crazy I'm inventing?
+2014-01-17 12:38:42	--	KWierso|afk is now known as KWierso
+2014-01-17 12:41:42	janx	jryans: about 2), when an AppManager disconnects from FxOS, it looks like RemoteDebugger will call DebuggerServer.closeListener() and will cause trouble to any other DebuggerServer connection e.g. an on-device debugging tool
+2014-01-17 12:43:09	--	jedp is now known as jedp|foody
+2014-01-17 12:44:59	jryans	janx: are you sure? where is this call to RemoteDebugger to do this? i only see calls to RemoteDebugger.stop when the debugger settings are changed
+2014-01-17 12:45:49	<--	rricard (rricard@moz-60A084A0.insa-lyon.fr) has quit (Quit: rricard)
+2014-01-17 12:46:54	past	janx: multiple debuggers to the same debuggee is already supported (via separate connections)
+2014-01-17 12:47:36	-->	myk (myk@moz-BBE3ABD.mv.mozilla.com) has joined #devtools
+2014-01-17 12:48:10	-->	rricard (rricard@BA854F73.1D218E3C.EC2613E4.IP) has joined #devtools
+2014-01-17 12:49:11	<--	rricard1 (rricard@moz-81756BE1.insa-lyon.fr) has quit (Ping timeout)
+2014-01-17 12:53:43	janx	Right, my mistake, so once the RemoteDebugger is started and authorized, it lives on forever and doesn't close DebuggerServer's listener, which continues to accept multiple connections. Thanks jryans and past!
+2014-01-17 12:54:00	jryans	yep, should be fine!
+2014-01-17 12:56:22	-->	pmcclard (pmcclard@moz-DFAA4E15.p2p.sfo1.mozilla.com) has joined #devtools
+2014-01-17 12:57:47	<--	rricard (rricard@BA854F73.1D218E3C.EC2613E4.IP) has quit (Ping timeout)
+2014-01-17 12:57:49	-->	rricard1 (rricard@moz-3F437612.rev.numericable.fr) has joined #devtools
+2014-01-17 12:58:02	<--	ria (Adium@moz-B45E21AF.hsd1.wa.comcast.net) has quit (Quit: Leaving.)
+2014-01-17 12:58:14	<--	pmcclard (pmcclard@moz-DFAA4E15.p2p.sfo1.mozilla.com) has quit (Ping timeout)
+2014-01-17 12:59:08	<--	jedp|foody (jedp@moz-89599B04.dsl.dynamic.sonic.net) has quit (Quit: Computer has gone to sleep.)
+2014-01-17 12:59:24	<--	davida (sid14473@moz-E77DEB21.irccloud.com) has quit (Ping timeout)
+2014-01-17 12:59:38	-->	rricard (rricard@moz-3F437612.rev.numericable.fr) has joined #devtools
+2014-01-17 13:00:16	<--	evilpie (sid7877@moz-E77DEB21.irccloud.com) has quit (Ping timeout)
+2014-01-17 13:00:28	<--	rricard1 (rricard@moz-3F437612.rev.numericable.fr) has quit (Ping timeout)
+2014-01-17 13:00:51	-->	davida (sid14473@moz-E77DEB21.irccloud.com) has joined #devtools
+2014-01-17 13:01:05	ejpbruel	jimb: ping
+2014-01-17 13:01:14	--	philor is now known as philor|away
+2014-01-17 13:01:16	-->	rricard1 (rricard@49F3A2D9.8C22DD8.96B18764.IP) has joined #devtools
+2014-01-17 13:01:31	-->	evilpie (sid7877@moz-E77DEB21.irccloud.com) has joined #devtools
+2014-01-17 13:02:44	<--	rricard1 (rricard@49F3A2D9.8C22DD8.96B18764.IP) has quit (Connection reset by peer)
+2014-01-17 13:02:47	ejpbruel	ochameau: ping
+2014-01-17 13:03:01	jimb	ejpbruel: pong
+2014-01-17 13:03:09	ejpbruel	jimb; hey jim
+2014-01-17 13:03:19	ejpbruel	we should talk about how were going to deal with child workers at some point
+2014-01-17 13:03:28	jimb	ejpbruel: Okay!
+2014-01-17 13:03:37	ejpbruel	so far the debugger server has been designed with the assumption that it can observe the entire system
+2014-01-17 13:03:42	ejpbruel	but thats not true for workers
+2014-01-17 13:03:49	jimb	ejpbruel: Where does it make that assumption?
+2014-01-17 13:03:51	-->	rricard1 (rricard@moz-3F437612.rev.numericable.fr) has joined #devtools
+2014-01-17 13:03:52	ejpbruel	jimb: so we need some way for servers to talk to other servers
+2014-01-17 13:04:05	jimb	ejpbruel: I would say "designed with the assumption" is a bit unfair
+2014-01-17 13:04:12	jimb	(I didn't design it, tho)
+2014-01-17 13:04:16	<--	harth (harth@moz-42412102.hsd1.ca.comcast.net) has quit (Input/output error)
+2014-01-17 13:04:28	ejpbruel	jimb; fair enough. forgive my inaccurate phrasing
+2014-01-17 13:04:42	ejpbruel	jimb: but concretely, the server is not able to talk to other servers at this point
+2014-01-17 13:04:45	jimb	:D
+2014-01-17 13:04:48	jimb	right
+2014-01-17 13:04:59	ejpbruel	jimb: how do you think we should go about that?
+2014-01-17 13:05:31	ejpbruel	jimb: perhaps we want some kind of routing mechanism, where the client only talks to one server, and it handles communication with any child servers
+2014-01-17 13:05:48	jimb	ejpbruel: Well, for e10s and b2g we have this weird way where we create a server that has no root actor, only a TabActor and its accompanying ThreadActor.
+2014-01-17 13:06:11	ejpbruel	jimb: that would be the child server in that scenario?
+2014-01-17 13:06:16	jimb	right
+2014-01-17 13:06:32	jimb	ejpbruel: The server has this thing called "prefix forwarding" that forwards packets to a different transport, based on the actor's name.
+2014-01-17 13:06:50	<--	bgrins (Adium@2E6E9164.E6468DB3.BAB75B95.IP) has quit (Quit: Leaving.)
+2014-01-17 13:06:55	ejpbruel	jimb: i see. so we do have *some* provisions for this. thats good news
+2014-01-17 13:07:23	jimb	ejpbruel: http://dxr.mozilla.org/mozilla-central/source/toolkit/devtools/server/main.js#927
+2014-01-17 13:07:24	ejpbruel	jimb: i should refresh my knowledge of the server code and then get back with further questions
+2014-01-17 13:07:53	jimb	ejpbruel: check out that link; that's what you want to use.
+2014-01-17 13:08:11	ejpbruel	jmib: \O/
+2014-01-17 13:08:12	ejpbruel	awesome
+2014-01-17 13:08:12	<--	bz (bzbarsky@moz-D9C25B3C.hsd1.ma.comcast.net) has quit (Ping timeout)
+2014-01-17 13:08:16	jimb	yay
+2014-01-17 13:08:17	ejpbruel	I'm so glad we already have something for this
+2014-01-17 13:08:28	ejpbruel	i spontaneously forget how to spell your name correctly
+2014-01-17 13:08:33	jimb	lol
+2014-01-17 13:09:08	fitzgen	he isn't laughing out loud, he's quiet as a mouse
+2014-01-17 13:09:11	fitzgen	just FYI
+2014-01-17 13:09:29	jimb	I did so
+2014-01-17 13:09:38	ejpbruel	jimb: fitzgen: http://media.tumblr.com/tumblr_lngmitqbPY1qcc8ul.jpg
+2014-01-17 13:09:55	jimb	no, in real life, I did grin
+2014-01-17 13:09:58	<--	bmaggs (Adium@moz-7F480DF8.hsd1.ca.comcast.net) has quit (Quit: Leaving.)
+2014-01-17 13:09:58	jimb	sheesh
+2014-01-17 13:10:01	<--	rricard1 (rricard@moz-3F437612.rev.numericable.fr) has quit (Ping timeout)
+2014-01-17 13:10:14	ejpbruel	jimb: :D
+2014-01-17 13:10:25	--	khuey|away is now known as khuey
+2014-01-17 13:10:33	jimb	(and then when fitzgen outed me, I did do the upper half, for good form)
+2014-01-17 13:11:04	fitzgen	(form was good)
+2014-01-17 13:11:09	ejpbruel	fitzgen: kind of a dick move to expose jim like ?that though ;)
+2014-01-17 13:11:36	fitzgen	;)
+2014-01-17 13:11:54	jimb	ejpbruel: I had originally specified something where you'd have a complete server with its own root actor in the child. But ochameau felt like that was total overkill, and so for e10s the tab actor (I think?) is the first actor that gets a prefix. I feel really weird having a server with a variant structure like that; people might not be expecting it.
+2014-01-17 13:12:02	jimb	But! What works is what works...
+2014-01-17 13:12:45	jimb	ejpbruel: So anyway, you should consider whether you want to imitate that, or what.
+2014-01-17 13:15:03	jimb	ejpbruel: http://www.red-bean.com/jimb/lol.jpg
+2014-01-17 13:15:21	-->	Gijs (gijs@87C1F78E.1DE10CA8.D8E68FF6.IP) has joined #devtools
+2014-01-17 13:19:18	<--	ejpbruel (mozilla@moz-366E8346.cm-11-1b.dynamic.ziggo.nl) has quit (Quit: ejpbruel)
+2014-01-17 13:20:05	-->	ejpbruel (mozilla@moz-366E8346.cm-11-1b.dynamic.ziggo.nl) has joined #devtools
+2014-01-17 13:20:11	<--	andreeapopescu (andreeapop@E8417859.ADED4010.2B3D3D4.IP) has quit (Quit: andreeapopescu)
+2014-01-17 13:21:05	ejpbruel	jimb: is that sad jim?
+2014-01-17 13:21:20	ejpbruel	jimb: thats how you will look when i finally beat your ass at go :D
+2014-01-17 13:23:39	-->	harth (harth@moz-377BE2CD.hsd1.ca.comcast.net) has joined #devtools
+2014-01-17 13:25:00	<--	rricard (rricard@moz-3F437612.rev.numericable.fr) has quit (Ping timeout)
+2014-01-17 13:26:00	khuey	hah
+2014-01-17 13:26:59	--	KWierso is now known as KWierso|sheriffduty
+2014-01-17 13:28:15	-->	twi (Adium@moz-512229A7.lns9.lon.bigpond.net.au) has joined #devtools
+2014-01-17 13:28:21	-->	ria (Adium@moz-B45E21AF.hsd1.wa.comcast.net) has joined #devtools
+2014-01-17 13:29:56	<--	twi (Adium@moz-512229A7.lns9.lon.bigpond.net.au) has quit (Ping timeout)
+2014-01-17 13:30:12	<--	ria (Adium@moz-B45E21AF.hsd1.wa.comcast.net) has quit (Ping timeout)
+2014-01-17 13:31:44	<--	arc (arc@9FEFBD28.DD0AE82.BCAA4F0F.IP) has left #devtools
+2014-01-17 13:31:49	-->	bmaggs (Adium@moz-7F480DF8.hsd1.ca.comcast.net) has joined #devtools
+2014-01-17 13:31:53	-->	willianveiga (Mibbit@moz-74D1E91D.jvece702.dsl.brasiltelecom.net.br) has joined #devtools
+2014-01-17 13:38:10	-->	arc (arc@9FEFBD28.DD0AE82.BCAA4F0F.IP) has joined #devtools
+2014-01-17 13:38:50	<--	jwatt (roslea@jwatt.irc.users.mozilla.org) has quit (Ping timeout)
+2014-01-17 13:39:15	-->	jedp (jedp@moz-89599B04.dsl.dynamic.sonic.net) has joined #devtools
+2014-01-17 13:39:19	jimb	ejpbruel: that was my rendition of screenface
+2014-01-17 13:39:56	-->	jwatt (roslea@jwatt.irc.users.mozilla.org) has joined #devtools
+2014-01-17 13:40:50	<--	msucan (mihai@AE2D47E9.F755B635.C0E37CF3.IP) has quit (Quit: Leaving.)
+2014-01-17 13:42:26	-->	bz (bzbarsky@moz-72881629.bstnma.fios.verizon.net) has joined #devtools
+2014-01-17 13:44:55	ejpbruel	jimb: well done ^^
+2014-01-17 13:51:50	<--	jwatt (roslea@jwatt.irc.users.mozilla.org) has quit (Ping timeout)
+2014-01-17 13:52:43	-->	jwatt (roslea@jwatt.irc.users.mozilla.org) has joined #devtools
+2014-01-17 13:52:58	<--	sterling (sterling@2521BE69.43D8265F.6CC942F9.IP) has quit (Ping timeout)
+2014-01-17 13:58:07	-->	rricard (rricard@C7CEDF7F.81DFF2C5.96B18764.IP) has joined #devtools
+2014-01-17 13:58:23	-->	rricard1 (rricard@moz-3F437612.rev.numericable.fr) has joined #devtools
+2014-01-17 13:58:24	<--	rricard (rricard@C7CEDF7F.81DFF2C5.96B18764.IP) has quit (Connection reset by peer)
+2014-01-17 13:59:09	<--	smaug (chatzilla@moz-9E0B1701.pp.htv.fi) has quit (Input/output error)
+2014-01-17 13:59:33	-->	shorlander (shorlander@87C1F78E.1DE10CA8.D8E68FF6.IP) has joined #devtools
+2014-01-17 13:59:51	-->	smaug (chatzilla@moz-9E0B1701.pp.htv.fi) has joined #devtools
+2014-01-17 14:02:44	--	gregglind is now known as gregglind_afk
+2014-01-17 14:02:47	<--	kaustavdm (kaustavdm@C1C16485.EA96A5C6.4BFBD933.IP) has quit (Quit: This computer has gone to sleep)
+2014-01-17 14:06:02	<--	karim (karim@moz-6A962873.fr) has quit (Ping timeout)
+2014-01-17 14:06:05	-->	karim (karim@moz-6A962873.fr) has joined #devtools
+2014-01-17 14:06:37	<--	jwatt (roslea@jwatt.irc.users.mozilla.org) has quit (Ping timeout)
+2014-01-17 14:07:44	<--	smaug (chatzilla@moz-9E0B1701.pp.htv.fi) has quit (Input/output error)
+2014-01-17 14:07:45	-->	jwatt (roslea@jwatt.irc.users.mozilla.org) has joined #devtools
+2014-01-17 14:10:49	-->	smaug (chatzilla@moz-9E0B1701.pp.htv.fi) has joined #devtools
+2014-01-17 14:11:30	<--	tw2113 (tw2113@moz-B9D45EC1.midco.net) has quit (Quit: There are two major products that come out of Berkeley: LSD and UNIX. We don't believe this to be a coincidence.)
+2014-01-17 14:15:59	--	jorendorff is now known as jorendorff_away
+2014-01-17 14:17:50	<--	jwatt (roslea@jwatt.irc.users.mozilla.org) has quit (Ping timeout)
+2014-01-17 14:19:21	-->	jwatt (roslea@jwatt.irc.users.mozilla.org) has joined #devtools
+2014-01-17 14:20:06	<--	jviereck1 (Adium@moz-56DDD13.dip0.t-ipconnect.de) has quit (Quit: Leaving.)
+2014-01-17 14:20:21	<--	bmaggs (Adium@moz-7F480DF8.hsd1.ca.comcast.net) has quit (Quit: Leaving.)
+2014-01-17 14:22:54	<--	firebot (firebot@moz-F8C1AF63.carolina.res.rr.com) has quit (Ping timeout)
+2014-01-17 14:23:16	<--	rricard1 (rricard@moz-3F437612.rev.numericable.fr) has quit (Ping timeout)
+2014-01-17 14:27:13	-->	rricard (rricard@919466B8.31EE1C55.96B18764.IP) has joined #devtools
+2014-01-17 14:27:29	-->	rricard1 (rricard@moz-3F437612.rev.numericable.fr) has joined #devtools
+2014-01-17 14:27:30	<--	rricard (rricard@919466B8.31EE1C55.96B18764.IP) has quit (Connection reset by peer)
+2014-01-17 14:27:57	<--	rtnpro (rtnpro@moz-E0F149F7.members.linode.com) has quit (Input/output error)
+2014-01-17 14:28:05	-->	rtnpro (rtnpro@moz-E0F149F7.members.linode.com) has joined #devtools
+2014-01-17 14:28:07	-->	rricard (rricard@919466B8.31EE1C55.96B18764.IP) has joined #devtools
+2014-01-17 14:28:12	-->	bmaggs (Adium@moz-7F480DF8.hsd1.ca.comcast.net) has joined #devtools
+2014-01-17 14:28:12	<--	rricard (rricard@919466B8.31EE1C55.96B18764.IP) has quit (Connection reset by peer)
+2014-01-17 14:28:24	<--	rricard1 (rricard@moz-3F437612.rev.numericable.fr) has quit (Connection reset by peer)
+2014-01-17 14:28:24	-->	rricard (rricard@moz-3F437612.rev.numericable.fr) has joined #devtools
+2014-01-17 14:28:42	--	philor|away is now known as philor
+2014-01-17 14:28:53	-->	rricard1 (rricard@919466B8.31EE1C55.96B18764.IP) has joined #devtools
+2014-01-17 14:28:54	<--	rricard1 (rricard@919466B8.31EE1C55.96B18764.IP) has quit (Connection reset by peer)
+2014-01-17 14:29:05	-->	twi (Adium@moz-512229A7.lns9.lon.bigpond.net.au) has joined #devtools
+2014-01-17 14:29:05	<--	rricard (rricard@moz-3F437612.rev.numericable.fr) has quit (Connection reset by peer)
+2014-01-17 14:29:08	-->	rricard1 (rricard@moz-3F437612.rev.numericable.fr) has joined #devtools
+2014-01-17 14:29:51	-->	rricard (rricard@moz-3F437612.rev.numericable.fr) has joined #devtools
+2014-01-17 14:29:51	<--	rricard1 (rricard@moz-3F437612.rev.numericable.fr) has quit (Connection reset by peer)
+2014-01-17 14:30:33	-->	rricard1 (rricard@919466B8.31EE1C55.96B18764.IP) has joined #devtools
+2014-01-17 14:30:35	<--	rricard1 (rricard@919466B8.31EE1C55.96B18764.IP) has quit (Connection reset by peer)
+2014-01-17 14:30:36	<--	rricard (rricard@moz-3F437612.rev.numericable.fr) has quit (Connection reset by peer)
+2014-01-17 14:30:47	-->	rricard (rricard@moz-3F437612.rev.numericable.fr) has joined #devtools
+2014-01-17 14:30:56	<--	twi (Adium@moz-512229A7.lns9.lon.bigpond.net.au) has quit (Ping timeout)
+2014-01-17 14:31:08	-->	rricard1 (rricard@919466B8.31EE1C55.96B18764.IP) has joined #devtools
+2014-01-17 14:31:21	<--	rricard (rricard@moz-3F437612.rev.numericable.fr) has quit (Connection reset by peer)
+2014-01-17 14:31:21	<--	rricard1 (rricard@919466B8.31EE1C55.96B18764.IP) has quit (Connection reset by peer)
+2014-01-17 14:31:23	-->	rricard2 (rricard@moz-3F437612.rev.numericable.fr) has joined #devtools
+2014-01-17 14:32:34	<--	harth (harth@moz-377BE2CD.hsd1.ca.comcast.net) has quit (Input/output error)
+2014-01-17 14:33:49	<--	jwatt (roslea@jwatt.irc.users.mozilla.org) has quit (Ping timeout)
+2014-01-17 14:34:37	-->	brendan (brendaneic@moz-BBE3ABD.mv.mozilla.com) has joined #devtools
+2014-01-17 14:37:29	<--	angelina (angelina@moz-788A7A01.hfc.comcastbusiness.net) has quit (Quit: Nap time?)
+2014-01-17 14:38:16	<--	dashbot1 (nodebot@moz-E57853D9.compute-1.amazonaws.com) has quit (Input/output error)
+2014-01-17 14:38:30	-->	dashbot (nodebot@moz-3FECB0BF.compute-1.amazonaws.com) has joined #devtools
+2014-01-17 14:39:06	-->	firebot (firebot@moz-F8C1AF63.carolina.res.rr.com) has joined #devtools
+2014-01-17 14:41:15	-->	angelina (angelina@moz-788A7A01.hfc.comcastbusiness.net) has joined #devtools
+2014-01-17 14:42:04	-->	harth (harth@moz-377BE2CD.hsd1.ca.comcast.net) has joined #devtools
+2014-01-17 14:42:11	<--	RealRaven (Thunderbir@81D02F11.E00866EC.C3498625.IP) has quit (Quit: RealRaven)
+2014-01-17 14:42:41	<--	Bohemian (Bohemian@18026C4B.B9129A5A.451258F0.IP) has quit (Ping timeout)
+2014-01-17 14:42:45	-->	RealRaven (Thunderbir@81D02F11.E00866EC.C3498625.IP) has joined #devtools
+2014-01-17 14:44:09	<--	smaug (chatzilla@moz-9E0B1701.pp.htv.fi) has quit (Quit: ChatZilla 0.9.90.1 [Firefox 29.0a1/20140117151514])
+2014-01-17 14:46:21	-->	Bohemian (Bohemian@18026C4B.B9129A5A.451258F0.IP) has joined #devtools
+2014-01-17 14:47:13	-->	smaug (chatzilla@moz-9E0B1701.pp.htv.fi) has joined #devtools
+2014-01-17 14:49:14	<--	smaug (chatzilla@moz-9E0B1701.pp.htv.fi) has quit (Input/output error)
+2014-01-17 14:51:02	<--	RealRaven (Thunderbir@81D02F11.E00866EC.C3498625.IP) has quit (Quit: RealRaven)
+2014-01-17 14:51:28	-->	rricard (rricard@moz-3F437612.rev.numericable.fr) has joined #devtools
+2014-01-17 14:51:37	-->	RealRaven (Thunderbir@81D02F11.E00866EC.C3498625.IP) has joined #devtools
+2014-01-17 14:52:37	<--	gabor (gabor@moz-F5994963.dip0.t-ipconnect.de) has quit (Ping timeout)
+2014-01-17 14:53:21	<--	ewong|sleep (chatzilla@moz-772F27FF.netvigator.com) has quit (Ping timeout)
+2014-01-17 14:53:24	<--	RealRaven (Thunderbir@81D02F11.E00866EC.C3498625.IP) has quit (Quit: RealRaven)
+2014-01-17 14:53:58	-->	RealRaven (Thunderbir@81D02F11.E00866EC.C3498625.IP) has joined #devtools
+2014-01-17 14:54:08	-->	smaug (chatzilla@moz-9E0B1701.pp.htv.fi) has joined #devtools
+2014-01-17 14:54:27	-->	ewong|sleep (chatzilla@moz-772F27FF.netvigator.com) has joined #devtools
+2014-01-17 14:54:53	--	jorendorff_away is now known as jorendorff
+2014-01-17 14:55:24	--	philor is now known as philor|away
+2014-01-17 14:57:17	<--	rtnpro (rtnpro@moz-E0F149F7.members.linode.com) has quit (Input/output error)
+2014-01-17 14:57:23	-->	rtnpro (rtnpro@moz-E0F149F7.members.linode.com) has joined #devtools
+2014-01-17 14:58:15	-->	sterling (sterling@moz-1E7EC97F.ubcsecure.wireless.ubc.ca) has joined #devtools
+2014-01-17 15:00:43	<--	sterling (sterling@moz-1E7EC97F.ubcsecure.wireless.ubc.ca) has quit (Ping timeout)
+2014-01-17 15:02:03	-->	gabor (gabor@moz-F5994963.dip0.t-ipconnect.de) has joined #devtools
+2014-01-17 15:02:49	<--	smaug (chatzilla@moz-9E0B1701.pp.htv.fi) has quit (Input/output error)
+2014-01-17 15:04:46	<--	RealRaven (Thunderbir@81D02F11.E00866EC.C3498625.IP) has quit (Quit: RealRaven)
+2014-01-17 15:05:20	-->	RealRaven (Thunderbir@81D02F11.E00866EC.C3498625.IP) has joined #devtools
+2014-01-17 15:06:36	--	sheppy is now known as sheppy-offline
+2014-01-17 15:06:57	<--	serge (Thunderbir@D7996845.25D4C006.97F07BE5.IP) has quit (Ping timeout)
+2014-01-17 15:08:25	--	jorendorff is now known as jorendorff_away
+2014-01-17 15:09:16	-->	rricard1 (rricard@D6304B54.933F4730.96B18764.IP) has joined #devtools
+2014-01-17 15:09:19	<--	rricard2 (rricard@moz-3F437612.rev.numericable.fr) has quit (Connection reset by peer)
+2014-01-17 15:09:20	<--	rricard1 (rricard@D6304B54.933F4730.96B18764.IP) has quit (Connection reset by peer)
+2014-01-17 15:09:31	-->	rricard1 (rricard@moz-3F437612.rev.numericable.fr) has joined #devtools
+2014-01-17 15:10:14	<--	RealRaven (Thunderbir@81D02F11.E00866EC.C3498625.IP) has quit (Quit: RealRaven)
+2014-01-17 15:10:48	-->	RealRaven (Thunderbir@81D02F11.E00866EC.C3498625.IP) has joined #devtools
+2014-01-17 15:12:43	-->	rricard2 (rricard@D6304B54.933F4730.96B18764.IP) has joined #devtools
+2014-01-17 15:12:47	<--	rricard1 (rricard@moz-3F437612.rev.numericable.fr) has quit (Connection reset by peer)
+2014-01-17 15:12:47	<--	rricard2 (rricard@D6304B54.933F4730.96B18764.IP) has quit (Connection reset by peer)
+2014-01-17 15:12:57	-->	rricard1 (rricard@moz-3F437612.rev.numericable.fr) has joined #devtools
+2014-01-17 15:14:04	<--	brendan (brendaneic@moz-BBE3ABD.mv.mozilla.com) has quit (Quit: brendan)
+2014-01-17 15:14:56	jimb	fitzgen: http://dxr.mozilla.org/mozilla-central/source/js/src/jsfriendapi.h#1733
+2014-01-17 15:16:36	-->	smaug (chatzilla@moz-9E0B1701.pp.htv.fi) has joined #devtools
+2014-01-17 15:16:42	-->	brendan (brendaneic@moz-BBE3ABD.mv.mozilla.com) has joined #devtools
+2014-01-17 15:17:37	<--	smaug (chatzilla@moz-9E0B1701.pp.htv.fi) has quit (Input/output error)
+2014-01-17 15:17:42	--	philor|away is now known as philor
+2014-01-17 15:18:06	<--	bmaggs (Adium@moz-7F480DF8.hsd1.ca.comcast.net) has quit (Quit: Leaving.)
+2014-01-17 15:18:51	<--	RealRaven (Thunderbir@81D02F11.E00866EC.C3498625.IP) has quit (Client exited)
+2014-01-17 15:19:18	-->	smaug (chatzilla@moz-9E0B1701.pp.htv.fi) has joined #devtools
+2014-01-17 15:19:24	-->	RealRaven (Thunderbir@81D02F11.E00866EC.C3498625.IP) has joined #devtools
+2014-01-17 15:21:02	<--	rricard (rricard@moz-3F437612.rev.numericable.fr) has quit (Quit: rricard)
+2014-01-17 15:22:47	<--	smaug (chatzilla@moz-9E0B1701.pp.htv.fi) has quit (Input/output error)
+2014-01-17 15:23:28	-->	smaug (chatzilla@moz-9E0B1701.pp.htv.fi) has joined #devtools
+2014-01-17 15:23:34	<--	sole (sole@moz-1F6B75B7.zone16.bethere.co.uk) has quit (Input/output error)
+2014-01-17 15:40:08	--	jorendorff_away is now known as jorendorff
+2014-01-17 15:48:25	-->	jhugman (Instantbir@1E10C980.B16DB0F7.F594618C.IP) has joined #devtools
+2014-01-17 15:48:30	-->	bmaggs (Adium@moz-7F480DF8.hsd1.ca.comcast.net) has joined #devtools
+2014-01-17 15:50:39	-->	twi (Adium@moz-512229A7.lns9.lon.bigpond.net.au) has joined #devtools
+2014-01-17 15:50:40	<--	ehsan (ehsan@13F2CEC5.7672369.D8E68FF6.IP) has quit (Input/output error)
+2014-01-17 15:51:00	<--	bmaggs (Adium@moz-7F480DF8.hsd1.ca.comcast.net) has quit (Ping timeout)
+2014-01-17 15:51:44	willianveiga	\whois anton
+2014-01-17 15:52:00	anton	wut
+2014-01-17 15:52:00	willianveiga	damm it
+2014-01-17 15:52:01	anton	willianveiga: sup
+2014-01-17 15:52:10	willianveiga	hey anton, how are you?
+2014-01-17 15:52:13	anton	good
+2014-01-17 15:52:23	willianveiga	great
+2014-01-17 15:52:49	-->	bgrins (Adium@2E6E9164.E6468DB3.BAB75B95.IP) has joined #devtools
+2014-01-17 15:53:33	anton	what's up? :)
+2014-01-17 15:54:11	willianveiga	so, i've returned to https://bugzilla.mozilla.org/show_bug.cgi?id=953206 ... i need to change the CodeMirror's font size. Are there any method to do that, anton?
+2014-01-17 15:54:14	firebot	Bug 953206 nor, --, ---, nobody, NEW, Implement a View menu in Scratchpad
+2014-01-17 15:55:05	<--	shorlander (shorlander@87C1F78E.1DE10CA8.D8E68FF6.IP) has quit (Input/output error)
+2014-01-17 15:55:31	anton	willianveiga: i don't think so, you'll have to change CSS rules
+2014-01-17 15:55:37	-->	jwatt (roslea@jwatt.irc.users.mozilla.org) has joined #devtools
+2014-01-17 15:55:43	-->	shorlander (shorlander@87C1F78E.1DE10CA8.D8E68FF6.IP) has joined #devtools
+2014-01-17 15:56:09	-->	sterling (sterling@BAB9EFA2.3080E738.F239D495.IP) has joined #devtools
+2014-01-17 15:57:00	willianveiga	anton, i see ...
+2014-01-17 15:57:16	willianveiga	I didn't understand your comment: https://bugzilla.mozilla.org/show_bug.cgi?id=953206#c12
+2014-01-17 15:57:29	willianveiga	Isn't it already fixed, anton?
+2014-01-17 15:57:30	<--	shorlander (shorlander@87C1F78E.1DE10CA8.D8E68FF6.IP) has quit (Ping timeout)
+2014-01-17 15:58:02	anton	willianveiga: well, there's a pref but there is no GUI option in the View menu (which is what that bug is about)
+2014-01-17 15:59:56	<--	rricard1 (rricard@moz-3F437612.rev.numericable.fr) has quit (Ping timeout)
+2014-01-17 16:00:02	--	jorendorff is now known as jorendorff_away
+2014-01-17 16:01:34	willianveiga	oh, i see anton ...
+2014-01-17 16:01:51	willianveiga	i'll fix this then anton ...
+2014-01-17 16:01:58	anton	sweet, thanks!
+2014-01-17 16:01:58	anton	i gotta go now, email me if you have more questions!
+2014-01-17 16:02:16	willianveiga	ok, thank you very much
+2014-01-17 16:02:19	willianveiga	see you
+2014-01-17 16:03:10	-->	rricard (rricard@A277BE07.894B67CE.96B18764.IP) has joined #devtools
+2014-01-17 16:04:51	<--	rricard (rricard@A277BE07.894B67CE.96B18764.IP) has quit (Ping timeout)
+2014-01-17 16:06:13	<--	brendan (brendaneic@moz-BBE3ABD.mv.mozilla.com) has quit (Quit: brendan)
+2014-01-17 16:08:03	-->	brendan (brendaneic@moz-BBE3ABD.mv.mozilla.com) has joined #devtools
+2014-01-17 16:08:15	<--	RealRaven (Thunderbir@81D02F11.E00866EC.C3498625.IP) has quit (Ping timeout)
+2014-01-17 16:18:15	-->	shorlander (shorlander@7BE54F67.5E1E8109.198A214C.IP) has joined #devtools
+2014-01-17 16:19:34	<--	brendan (brendaneic@moz-BBE3ABD.mv.mozilla.com) has quit (Quit: brendan)
+2014-01-17 16:23:52	<--	harth (harth@moz-377BE2CD.hsd1.ca.comcast.net) has quit (Input/output error)
+2014-01-17 16:31:12	-->	harth (harth@moz-377BE2CD.hsd1.ca.comcast.net) has joined #devtools
+2014-01-17 16:32:21	<--	willianveiga (Mibbit@moz-74D1E91D.jvece702.dsl.brasiltelecom.net.br) has quit (Quit: http://www.mibbit.com ajax IRC Client)
+2014-01-17 16:32:57	--	ewong|away is now known as ewong
+2014-01-17 16:33:58	<--	bgrins (Adium@2E6E9164.E6468DB3.BAB75B95.IP) has quit (Quit: Leaving.)
+2014-01-17 16:40:32	--	jorendorff_away is now known as jorendorff
+2014-01-17 16:41:35	<--	shorlander (shorlander@7BE54F67.5E1E8109.198A214C.IP) has quit (Quit: )
+2014-01-17 16:43:09	-->	ally1 (Adium@moz-C07D5168.p2p.sfo1.mozilla.com) has joined #devtools
+2014-01-17 16:43:41	<--	myk (myk@moz-BBE3ABD.mv.mozilla.com) has quit (Ping timeout)
+2014-01-17 16:47:26	--	jorendorff is now known as jorendorff_away
+2014-01-17 16:47:26	-->	bgrins (Adium@2E6E9164.E6468DB3.BAB75B95.IP) has joined #devtools
+2014-01-17 16:49:14	--	joshua-s is now known as joshua-s|usnscc
+2014-01-17 16:49:15	<--	Gijs (gijs@87C1F78E.1DE10CA8.D8E68FF6.IP) has quit (Ping timeout)
+2014-01-17 16:49:25	-->	bmaggs (Adium@moz-7F480DF8.hsd1.ca.comcast.net) has joined #devtools
+2014-01-17 16:50:02	<--	angelina (angelina@moz-788A7A01.hfc.comcastbusiness.net) has quit (Quit: Nap time?)
+2014-01-17 16:51:51	<--	bmaggs (Adium@moz-7F480DF8.hsd1.ca.comcast.net) has quit (Ping timeout)
+2014-01-17 16:59:54	<--	arc (arc@9FEFBD28.DD0AE82.BCAA4F0F.IP) has quit (Quit: arc)
+2014-01-17 17:00:54	harth	anyone here, thoughts about adding patches recently r+ by you (not necessarily *by* you) to the To Checkin tab on http://harthur.github.io/bugzilla-todos/
+2014-01-17 17:01:12	harth	?
+2014-01-17 17:01:43	-->	arc (arc@9FEFBD28.DD0AE82.BCAA4F0F.IP) has joined #devtools
+2014-01-17 17:05:31	<--	ally1 (Adium@moz-C07D5168.p2p.sfo1.mozilla.com) has quit (Quit: Leaving.)
+2014-01-17 17:06:31	<--	smaug (chatzilla@moz-9E0B1701.pp.htv.fi) has quit (Input/output error)
+2014-01-17 17:06:31	-->	serge (Thunderbir@D7996845.25D4C006.97F07BE5.IP) has joined #devtools
+2014-01-17 17:07:34	-->	smaug (chatzilla@moz-9E0B1701.pp.htv.fi) has joined #devtools
+2014-01-17 17:12:53	<--	TimAbraldes (quassel@125EF623.B2666F0E.66399531.IP) has quit (Connection reset by peer)
+2014-01-17 17:13:45	<--	gabor (gabor@moz-F5994963.dip0.t-ipconnect.de) has quit (Ping timeout)
+2014-01-17 17:15:28	<--	wesj (wesj@moz-DFAA4E15.p2p.sfo1.mozilla.com) has quit (Quit: ZNC - http://znc.in)
+2014-01-17 17:16:32	<--	jhugman (Instantbir@1E10C980.B16DB0F7.F594618C.IP) has quit (Ping timeout)
+2014-01-17 17:19:03	<--	arc (arc@9FEFBD28.DD0AE82.BCAA4F0F.IP) has quit (Ping timeout)
+2014-01-17 17:26:09	-->	tw2113 (tw2113@2091EF67.CDF9DF02.6A3E51FB.IP) has joined #devtools
+2014-01-17 17:28:52	<--	twi (Adium@moz-512229A7.lns9.lon.bigpond.net.au) has quit (Quit: Leaving.)
+2014-01-17 17:36:51	<--	tsmuse (tsmuse@moz-C07D5168.p2p.sfo1.mozilla.com) has quit (Input/output error)
+2014-01-17 17:38:19	<--	bgrins (Adium@2E6E9164.E6468DB3.BAB75B95.IP) has quit (Quit: Leaving.)
+2014-01-17 17:41:45	<--	r1cky (r1cky@moz-5351E215.slicehost.net) has quit (Quit: Bye!)
+2014-01-17 17:46:05	<--	jsantell (jsantell@8584D17B.BB711C03.D4A9B473.IP) has quit (Quit: jsantell)
+2014-01-17 17:50:10	-->	bmaggs (Adium@moz-7F480DF8.hsd1.ca.comcast.net) has joined #devtools
+2014-01-17 17:50:31	--	philor is now known as philor|away
+2014-01-17 17:51:08	-->	jhugman (Instantbir@1E10C980.B16DB0F7.F594618C.IP) has joined #devtools
+2014-01-17 17:51:48	<--	juanb (jbecerra@moz-BBE3ABD.mv.mozilla.com) has quit (Quit: juanb)
+2014-01-17 17:52:46	<--	jedp (jedp@moz-89599B04.dsl.dynamic.sonic.net) has quit (Quit: Computer has gone to sleep.)
+2014-01-17 17:52:48	<--	bmaggs (Adium@moz-7F480DF8.hsd1.ca.comcast.net) has quit (Ping timeout)
+2014-01-17 17:54:53	<--	jhugman (Instantbir@1E10C980.B16DB0F7.F594618C.IP) has quit (Ping timeout)
+2014-01-17 17:56:47	<--	Optimizer (Optimizer@427AFFD2.934006A1.D2D1FAF0.IP) has quit (Ping timeout)
+2014-01-17 17:57:12	--	bz is now known as bz_sleep
+2014-01-17 17:58:15	-->	Optimizer (Optimizer@427AFFD2.934006A1.D2D1FAF0.IP) has joined #devtools
+2014-01-17 17:59:23	--	khuey is now known as khuey|away
+2014-01-17 18:01:10	--	BenWa is now known as BenWa|email
+2014-01-17 18:02:40	-->	lpy (lpy@7360AA58.F09091A8.1348A864.IP) has joined #devtools
+2014-01-17 18:12:46	<--	jimb (user@125EF623.B2666F0E.66399531.IP) has quit (Ping timeout)
+2014-01-17 18:14:06	-->	darkowlzz (sunny@2646424B.DC59492C.A35A6174.IP) has joined #devtools
+2014-01-17 18:14:23	<--	darkowlzz (sunny@2646424B.DC59492C.A35A6174.IP) has left #devtools (Leaving)
+2014-01-17 18:15:57	--	KWierso|sheriffduty is now known as KWierso|
+2014-01-17 18:16:04	--	KWierso| is now known as KWierso|afk
+2014-01-17 18:17:33	<--	smaug (chatzilla@moz-9E0B1701.pp.htv.fi) has quit (Ping timeout)
+2014-01-17 18:17:33	<--	sfink|log (sfink@moz-BBE3ABD.mv.mozilla.com) has quit (Ping timeout)
+2014-01-17 18:18:52	-->	sfink|log (sfink@moz-BBE3ABD.mv.mozilla.com) has joined #devtools
+2014-01-17 18:22:38	<--	zaach (zaach@moz-DFAA4E15.p2p.sfo1.mozilla.com) has quit (Quit: zaach)
+2014-01-17 18:23:03	--	philor|away is now known as philor
+2014-01-17 18:28:35	<--	tantek (tantek@moz-DFAA4E15.p2p.sfo1.mozilla.com) has quit (Quit: tantek)
+2014-01-17 19:01:14	--	irc: disconnected from server
+2014-01-17 19:01:24	-->	JSON_voorhees (JSON_voorh@moz-FC0AF85F.hsd1.or.comcast.net) has joined #devtools
+2014-01-17 19:01:24	--	Topic for #devtools is "Use this: http://bugmotodo.org - next uplift 2014-02-03 - contribute: https://wiki.mozilla.org/DevTools/GetInvolved - meeting thursdays at 9am pacific: https://etherpad.mozilla.org/devtools-meeting2 - checkin-needed keyword is the new [land-in-fx-team] whiteboard flag."
+2014-01-17 19:01:24	--	Topic set by paul on Thu, 02 Jan 2014 08:30:11
+2014-01-17 19:01:24	--	Nicks #devtools: [@dcamp @robcee [p_q] _wirepair abacus anton Anupkumar arroway|away AutomatedTester axel benvie BenWa|email bkelly bkerensa Bohemian Boopathi_K brambles buzz bwalker bz_sleep canuckistani ckoehler cruxeternus cstipkovic D4N3 daleharvey darrin dashbot davida dchan decode__ dew dietrich digitarald djvj ebryn ejpbruel erikvold evilpie ewong ewong|sleep Fallen|away felipe firebot fitzgen freddyb fredy gavin GeekShadow glob|away gluong gozala gregglind_afk hardfire iamdustan ircloggr IRCMonkey292711 ivan janx Jasper jaws Jesse jhugman johankj johnath johns jonasac jorendorff joshua-s|usnscc jryans JSON_voorhees jwalker jwatt karim khuey|away KWierso|afk lpy margaret MattN mcav mgoodwin mitsuhiko mrshu mythmon naveed NeilAway nikola not_gavin oal ochameau offSchub panaggio past paul pbrosset|afk philor potch quentin Raynos rbelouin reed Rik robarnold robhudson rtnpro seocam serge sfink sfink|log sfoster sheppy-offline shu snorp sterling timeless tofumatt Tomcat|afk tomdale Unfocused victorporof wenzel wycats_ Yoric]
+2014-01-17 19:01:24	--	Channel #devtools: 123 nicks (2 ops, 0 halfops, 0 voices, 121 normals)
+2014-01-17 19:01:26	--	Mode #devtools [+n]
+2014-01-17 19:01:26	--	Channel created on Mon, 12 Aug 2013 21:00:21
+2014-01-17 19:04:15	--	jorendorff is now known as jorendorff_away
+2014-01-17 19:37:47	--	irc: disconnected from server
+2014-01-17 19:37:57	-->	JSON_voorhees (JSON_voorh@moz-FC0AF85F.hsd1.or.comcast.net) has joined #devtools
+2014-01-17 19:37:57	--	Topic for #devtools is "Use this: http://bugmotodo.org - next uplift 2014-02-03 - contribute: https://wiki.mozilla.org/DevTools/GetInvolved - meeting thursdays at 9am pacific: https://etherpad.mozilla.org/devtools-meeting2 - checkin-needed keyword is the new [land-in-fx-team] whiteboard flag."
+2014-01-17 19:37:57	--	Topic set by paul on Thu, 02 Jan 2014 08:30:11
+2014-01-17 19:37:58	--	Nicks #devtools: [@dcamp @robcee [p_q] _wirepair abacus anton Anupkumar arroway|away AutomatedTester axel benvie BenWa bkelly bkerensa bmaggs Bohemian Boopathi_K brambles buzz bwalker bz_sleep canuckistani ckoehler cruxeternus cstipkovic D4N3 daleharvey darrin dashbot davida dchan decode__ dew dietrich digitarald djvj ebryn ejpbruel erikvold evilpie ewong ewong|sleep Fallen|away felipe firebot fitzgen freddyb fredy gavin GeekShadow glob|away gluong gozala gregglind_afk hardfire ircloggr IRCMonkey292711 ivan janx Jasper jaws Jesse jhugman johankj johnath johns jonasac jorendorff_away joshua-s|usnscc jryans JSON_voorhees jwalker jwatt karim khuey|away KWierso|afk lpy margaret MattN mcav mgoodwin mitsuhiko mrshu mythmon naveed NeilAway nikola not_gavin oal ochameau offSchub panaggio past paul pbrosset|afk philor potch quentin Raynos rbelouin reed Rik robarnold robhudson rtnpro seocam serge sfink sfink|log sfoster sheppy-offline shu snorp sterling timeless tofumatt Tomcat|afk tomdale Unfocused victorporof wenzel wycats_ Yoric zaach]
+2014-01-17 19:37:58	--	Channel #devtools: 124 nicks (2 ops, 0 halfops, 0 voices, 122 normals)
+2014-01-17 19:37:59	--	Mode #devtools [+n]
+2014-01-17 19:37:59	--	Channel created on Mon, 12 Aug 2013 21:00:21
+2014-01-17 19:39:07	-->	tw2113 (tw2113@moz-B9D45EC1.midco.net) has joined #devtools
+2014-01-17 19:39:40	<--	tw2113 (tw2113@moz-B9D45EC1.midco.net) has quit (Quit: yar! I be gone quit!)
+2014-01-17 19:39:44	-->	tw2113 (tw2113@moz-B9D45EC1.midco.net) has joined #devtools
+2014-01-17 19:43:55	<--	sfoster (sfoster@moz-961AB6F2.hsd1.or.comcast.net) has quit (Quit: Leaving)
+2014-01-17 19:45:51	-->	hexman (hexman@moz-27F37946.net55.n37.ru) has joined #devtools
+2014-01-17 19:45:54	<--	hexman (hexman@moz-27F37946.net55.n37.ru) has left #devtools
+2014-01-17 19:47:57	<--	ejpbruel (mozilla@moz-366E8346.cm-11-1b.dynamic.ziggo.nl) has quit (Quit: ejpbruel)
+2014-01-17 19:57:40	--	irc: disconnected from server
+2014-01-17 19:57:50	-->	JSON_voorhees (JSON_voorh@moz-FC0AF85F.hsd1.or.comcast.net) has joined #devtools
+2014-01-17 19:57:50	--	Topic for #devtools is "Use this: http://bugmotodo.org - next uplift 2014-02-03 - contribute: https://wiki.mozilla.org/DevTools/GetInvolved - meeting thursdays at 9am pacific: https://etherpad.mozilla.org/devtools-meeting2 - checkin-needed keyword is the new [land-in-fx-team] whiteboard flag."
+2014-01-17 19:57:50	--	Topic set by paul on Thu, 02 Jan 2014 08:30:11
+2014-01-17 19:57:50	--	Nicks #devtools: [@dcamp @robcee [p_q] _wirepair abacus anton Anupkumar arroway|away AutomatedTester axel benvie BenWa bkelly bkerensa bmaggs Bohemian Boopathi_K brambles buzz bwalker bz_sleep canuckistani ckoehler cruxeternus cstipkovic D4N3 daleharvey darrin dashbot davida dchan decode__ dew dietrich digitarald djvj ebryn erikvold evilpie ewong ewong|sleep Fallen|away felipe firebot fitzgen freddyb fredy gavin GeekShadow glob|away gluong gozala gregglind_afk hardfire ircloggr IRCMonkey292711 ivan janx Jasper jaws Jesse jhugman johankj johnath johns jonasac jorendorff_away joshua-s|usnscc jryans JSON_voorhees jwalker jwatt karim khuey|away KWierso|afk lpy margaret MattN mcav mgoodwin mitsuhiko mrshu mythmon naveed NeilAway nikola not_gavin oal ochameau offSchub panaggio past paul pbrosset|afk philor potch quentin Raynos rbelouin reed Rik robarnold robhudson rtnpro seocam serge sfink sfink|log sheppy-offline shu snorp sterling timeless tofumatt Tomcat|afk tomdale tw2113 Unfocused victorporof wenzel wycats_ Yoric zaach]
+2014-01-17 19:57:50	--	Channel #devtools: 123 nicks (2 ops, 0 halfops, 0 voices, 121 normals)
+2014-01-17 19:57:52	--	Mode #devtools [+n]
+2014-01-17 19:57:52	--	Channel created on Mon, 12 Aug 2013 21:00:21
+2014-01-17 20:01:59	--	BenWa is now known as BenWa|email
+2014-01-17 20:02:09	-->	darkowlzz (sunny@482AA819.D192B685.F2AF99E1.IP) has joined #devtools
+2014-01-17 20:05:17	<--	Jesse (jruderman@moz-9754CB0.hsd1.ca.comcast.net) has quit (Connection reset by peer)
+2014-01-17 20:05:22	-->	Jesse_ (jruderman@moz-9754CB0.hsd1.ca.comcast.net) has joined #devtools
+2014-01-17 20:08:16	-->	Optimizer (Optimizer@427AFFD2.934006A1.D2D1FAF0.IP) has joined #devtools
+2014-01-17 20:09:36	-->	bgrins (Adium@2E6E9164.E6468DB3.BAB75B95.IP) has joined #devtools
+2014-01-17 20:09:36	-->	harth (harth@moz-42412102.hsd1.ca.comcast.net) has joined #devtools
+2014-01-17 20:09:58	<--	bgrins (Adium@2E6E9164.E6468DB3.BAB75B95.IP) has quit (Quit: Leaving.)
+2014-01-17 20:10:02	-->	timdream (timdream@moz-A25EA385.dynamic.hinet.net) has joined #devtools
+2014-01-17 20:11:40	<--	harth (harth@moz-42412102.hsd1.ca.comcast.net) has quit (Ping timeout)
+2014-01-17 20:11:49	<--	bmaggs (Adium@moz-7F480DF8.hsd1.ca.comcast.net) has quit (Quit: Leaving.)
+2014-01-17 20:12:01	<--	Optimizer (Optimizer@427AFFD2.934006A1.D2D1FAF0.IP) has quit (Ping timeout)
+2014-01-17 20:13:31	<--	darkowlzz (sunny@482AA819.D192B685.F2AF99E1.IP) has quit (Quit: This computer has gone to sleep)
+2014-01-17 20:19:41	-->	iamdustan (iamdustan@moz-EF43EE29.dynamic.ip.windstream.net) has joined #devtools
+2014-01-17 20:25:24	<--	ewong|sleep (chatzilla@moz-772F27FF.netvigator.com) has quit (Ping timeout)
+2014-01-17 20:26:28	-->	ewong|sleep (chatzilla@moz-772F27FF.netvigator.com) has joined #devtools
+2014-01-17 20:30:27	-->	bmaggs (Adium@moz-7F480DF8.hsd1.ca.comcast.net) has joined #devtools
+2014-01-17 20:30:35	<--	bmaggs (Adium@moz-7F480DF8.hsd1.ca.comcast.net) has quit (Input/output error)
+2014-01-17 20:30:47	-->	Optimizer (Optimizer@427AFFD2.934006A1.D2D1FAF0.IP) has joined #devtools
+2014-01-17 20:33:03	-->	bmaggs (Adium@moz-7F480DF8.hsd1.ca.comcast.net) has joined #devtools
+2014-01-17 20:33:09	<--	bmaggs (Adium@moz-7F480DF8.hsd1.ca.comcast.net) has quit (Input/output error)
+2014-01-17 20:34:01	<--	jhugman (Instantbir@1E10C980.B16DB0F7.F594618C.IP) has quit (Ping timeout)
+2014-01-17 20:34:02	-->	bmaggs (Adium@moz-7F480DF8.hsd1.ca.comcast.net) has joined #devtools
+2014-01-17 20:35:48	<--	bmaggs (Adium@moz-7F480DF8.hsd1.ca.comcast.net) has quit (Ping timeout)
+2014-01-17 20:38:56	<--	iamdustan (iamdustan@moz-EF43EE29.dynamic.ip.windstream.net) has quit (Ping timeout)
+2014-01-17 20:39:30	-->	axel1 (Adium@moz-FD568D3A.hsd1.ca.comcast.net) has joined #devtools
+2014-01-17 20:39:34	<--	axel (Adium@moz-FD568D3A.hsd1.ca.comcast.net) has quit (NickServ (GHOST command used by axel1))
+2014-01-17 20:39:36	--	axel1 is now known as axel
+2014-01-17 20:42:39	-->	darkowlzz (sunny@93B7E80E.F803E7F1.98B19923.IP) has joined #devtools
+2014-01-17 20:51:44	<--	sterling (sterling@BAB9EFA2.3080E738.F239D495.IP) has quit (Connection reset by peer)
+2014-01-17 20:51:55	-->	sterling (sterling@BAB9EFA2.3080E738.F239D495.IP) has joined #devtools
+2014-01-17 20:57:47	--	BenWa|email is now known as BenWa
+2014-01-17 20:58:40	--	ewong is now known as ewong|away
+2014-01-17 20:59:36	--	khuey|away is now known as khuey
+2014-01-17 21:00:06	--	khuey is now known as khuey|away
+2014-01-17 21:01:26	<--	darkowlzz (sunny@93B7E80E.F803E7F1.98B19923.IP) has quit (Quit: This computer has gone to sleep)
+2014-01-17 21:03:37	<--	serge (Thunderbir@D7996845.25D4C006.97F07BE5.IP) has quit (Ping timeout)
+2014-01-17 21:16:26	-->	pnkfelix (pnkfelix@moz-43495417.fbx.proxad.net) has joined #devtools
+2014-01-17 21:21:48	<--	axel (Adium@moz-FD568D3A.hsd1.ca.comcast.net) has quit (Quit: Leaving.)
+2014-01-17 21:23:50	--	BenWa is now known as BenWa|email
+2014-01-17 21:25:36	<--	Optimizer (Optimizer@427AFFD2.934006A1.D2D1FAF0.IP) has quit (Ping timeout)
+2014-01-17 21:25:46	--	BenWa|email is now known as BenWa
+2014-01-17 21:34:28	-->	bmaggs (Adium@moz-7F480DF8.hsd1.ca.comcast.net) has joined #devtools
+2014-01-17 21:36:59	<--	bmaggs (Adium@moz-7F480DF8.hsd1.ca.comcast.net) has quit (Ping timeout)
+2014-01-17 21:40:38	<--	zaach (zaach@moz-9E403A70.dsl.static.sonic.net) has quit (Quit: zaach)
+2014-01-17 21:43:34	-->	jhk (jigneshkak@3A9E2D59.ACD9C904.BE90E62C.IP) has joined #devtools
+2014-01-17 21:44:29	-->	Optimizer (Optimizer@427AFFD2.934006A1.D2D1FAF0.IP) has joined #devtools
+2014-01-17 21:47:18	<--	Optimizer (Optimizer@427AFFD2.934006A1.D2D1FAF0.IP) has quit (Ping timeout)
+2014-01-17 21:51:18	--	BenWa is now known as BenWa|email
+2014-01-17 21:53:24	<--	tw2113 (tw2113@moz-B9D45EC1.midco.net) has quit (Ping timeout)
+2014-01-17 21:53:25	-->	tw2113 (tw2113@moz-B9D45EC1.midco.net) has joined #devtools
+2014-01-17 21:57:47	-->	sfoster (sfoster@moz-42779C46.hsd1.wa.comcast.net) has joined #devtools
+2014-01-17 22:06:09	-->	Optimizer (Optimizer@427AFFD2.934006A1.D2D1FAF0.IP) has joined #devtools
+2014-01-17 22:43:51	-->	axel (Adium@moz-FD568D3A.hsd1.ca.comcast.net) has joined #devtools
+2014-01-17 23:01:19	<--	sterling (sterling@BAB9EFA2.3080E738.F239D495.IP) has quit (Connection reset by peer)
+2014-01-17 23:01:55	-->	sterling (sterling@BAB9EFA2.3080E738.F239D495.IP) has joined #devtools
+2014-01-17 23:08:48	<--	axel (Adium@moz-FD568D3A.hsd1.ca.comcast.net) has quit (Quit: Leaving.)
+2014-01-17 23:21:37	<--	tw2113 (tw2113@moz-B9D45EC1.midco.net) has quit (Quit: yar! I be gone quit!)
+2014-01-17 23:27:15	-->	axel (Adium@moz-FD568D3A.hsd1.ca.comcast.net) has joined #devtools
+2014-01-17 23:27:41	<--	axel (Adium@moz-FD568D3A.hsd1.ca.comcast.net) has quit (Input/output error)
+2014-01-17 23:57:48	-->	axel (Adium@moz-FD568D3A.hsd1.ca.comcast.net) has joined #devtools
+2014-01-18 00:04:01	<--	axel (Adium@moz-FD568D3A.hsd1.ca.comcast.net) has quit (Ping timeout)
+2014-01-18 00:19:46	-->	andreeapopescu (andreeapop@E8417859.ADED4010.2B3D3D4.IP) has joined #devtools
+2014-01-18 00:20:50	<--	sfoster (sfoster@moz-42779C46.hsd1.wa.comcast.net) has quit (Quit: Leaving)
+2014-01-18 00:28:13	--	philor is now known as philor|away
+2014-01-18 00:34:03	<--	Optimizer (Optimizer@427AFFD2.934006A1.D2D1FAF0.IP) has quit (Ping timeout)
+2014-01-18 00:38:51	<--	ewong|away (chatzilla@moz-20A71729.net) has quit (Connection reset by peer)
+2014-01-18 00:38:51	<--	benvie (bbenvie@5FD20F9A.53D07D95.EFF8B7BF.IP) has quit (Ping timeout)
+2014-01-18 00:38:51	<--	NeilAway (neil@moz-32AA0D01.in-addr.btopenworld.com) has quit (Ping timeout)
+2014-01-18 00:39:03	-->	jviereck (Adium@moz-56DDD13.dip0.t-ipconnect.de) has joined #devtools
+2014-01-18 00:39:07	-->	Benvie (bbenvie@5FD20F9A.53D07D95.EFF8B7BF.IP) has joined #devtools
+2014-01-18 00:39:45	-->	ewong|away (chatzilla@moz-20A71729.net) has joined #devtools
+2014-01-18 00:40:24	-->	NeilAway (neil@moz-32AA0D01.in-addr.btopenworld.com) has joined #devtools
+2014-01-18 00:44:47	-->	darkowlzz (sunny@49D5EA61.1522A761.EACE93BE.IP) has joined #devtools
+2014-01-18 00:48:59	-->	Optimizer (Optimizer@2432B254.E26B7A67.BE4CF869.IP) has joined #devtools
+2014-01-18 00:50:05	-->	jsantell (jsantell@8584D17B.BB711C03.D4A9B473.IP) has joined #devtools
+2014-01-18 00:55:14	<--	jsantell (jsantell@8584D17B.BB711C03.D4A9B473.IP) has quit (Quit: jsantell)
+2014-01-18 00:55:19	<--	darkowlzz (sunny@49D5EA61.1522A761.EACE93BE.IP) has quit (Ping timeout)
+2014-01-18 00:55:42	<--	jviereck (Adium@moz-56DDD13.dip0.t-ipconnect.de) has quit (Quit: Leaving.)
+2014-01-18 00:57:28	-->	gabor (gabor@moz-F5994963.dip0.t-ipconnect.de) has joined #devtools
+2014-01-18 00:57:59	-->	angelina (angelina@3AF16508.190A4B5D.348B849.IP) has joined #devtools
+2014-01-18 01:00:06	<--	angelina (angelina@3AF16508.190A4B5D.348B849.IP) has quit (Ping timeout)
+2014-01-18 01:01:35	<--	Optimizer (Optimizer@2432B254.E26B7A67.BE4CF869.IP) has quit (Ping timeout)
+2014-01-18 01:02:26	-->	axel (Adium@moz-FD568D3A.hsd1.ca.comcast.net) has joined #devtools
+2014-01-18 01:04:08	<--	axel (Adium@moz-FD568D3A.hsd1.ca.comcast.net) has quit (Ping timeout)
+2014-01-18 01:05:44	-->	Optimizer (Optimizer@8BC1EAF3.49B08F68.BE4CF869.IP) has joined #devtools
+2014-01-18 01:06:15	<--	andreeapopescu (andreeapop@E8417859.ADED4010.2B3D3D4.IP) has quit (Quit: andreeapopescu)
+2014-01-18 01:08:27	<--	jhk (jigneshkak@3A9E2D59.ACD9C904.BE90E62C.IP) has quit (Ping timeout)
+2014-01-18 01:11:32	-->	jhk (jigneshkak@4B6E4205.2A346C5D.8B6C1D65.IP) has joined #devtools
+2014-01-18 01:19:52	-->	rricard (rricard@moz-3F437612.rev.numericable.fr) has joined #devtools
+2014-01-18 01:20:06	<--	Optimizer (Optimizer@8BC1EAF3.49B08F68.BE4CF869.IP) has quit (Ping timeout)
+2014-01-18 01:26:09	<--	sterling (sterling@BAB9EFA2.3080E738.F239D495.IP) has quit (Ping timeout)
+2014-01-18 01:26:32	-->	mmargoliono (min@moz-9DBD522D.static.internode.on.net) has joined #devtools
+2014-01-18 01:30:32	<--	gabor (gabor@moz-F5994963.dip0.t-ipconnect.de) has quit (Ping timeout)
+2014-01-18 01:30:33	-->	jviereck (Adium@moz-56DDD13.dip0.t-ipconnect.de) has joined #devtools
+2014-01-18 01:36:52	<--	rricard (rricard@moz-3F437612.rev.numericable.fr) has quit (Quit: rricard)
+2014-01-18 01:40:33	-->	Optimizer (Optimizer@9D0FF6C5.13A3D53C.BE4CF869.IP) has joined #devtools
+2014-01-18 01:41:59	-->	msucan (mihai@4E238594.E32FACE5.7C5F70AF.IP) has joined #devtools
+2014-01-18 01:42:51	<--	jhk (jigneshkak@4B6E4205.2A346C5D.8B6C1D65.IP) has quit (Quit: jhk)
+2014-01-18 01:53:46	-->	jhk (jigneshkak@4B6E4205.2A346C5D.8B6C1D65.IP) has joined #devtools
+2014-01-18 01:55:12	-->	rricard (rricard@moz-3F437612.rev.numericable.fr) has joined #devtools
+2014-01-18 02:00:11	-->	gabor (gabor@moz-F5994963.dip0.t-ipconnect.de) has joined #devtools
+2014-01-18 02:00:28	-->	sterling (sterling@2521BE69.43D8265F.6CC942F9.IP) has joined #devtools
+2014-01-18 02:02:48	-->	axel (Adium@moz-FD568D3A.hsd1.ca.comcast.net) has joined #devtools
+2014-01-18 02:04:34	<--	axel (Adium@moz-FD568D3A.hsd1.ca.comcast.net) has quit (Ping timeout)
+2014-01-18 02:07:06	<--	Optimizer (Optimizer@9D0FF6C5.13A3D53C.BE4CF869.IP) has quit (Ping timeout)
+2014-01-18 02:08:05	-->	axel (Adium@moz-FD568D3A.hsd1.ca.comcast.net) has joined #devtools
+2014-01-18 02:08:32	<--	axel (Adium@moz-FD568D3A.hsd1.ca.comcast.net) has quit (Input/output error)
+2014-01-18 02:12:16	<--	timdream (timdream@moz-A25EA385.dynamic.hinet.net) has quit (Connection reset by peer)
+2014-01-18 02:12:28	-->	timdream (timdream@moz-A25EA385.dynamic.hinet.net) has joined #devtools
+2014-01-18 02:18:30	-->	darkowlzz (sunny@5F572B1F.1D862F58.EACE93BE.IP) has joined #devtools
+2014-01-18 10:02:04	--	irc: disconnected from server
+2014-01-18 10:02:14	-->	JSON_voorhees (JSON_voorh@moz-FC0AF85F.hsd1.or.comcast.net) has joined #devtools
+2014-01-18 10:02:14	--	Topic for #devtools is "Use this: http://bugmotodo.org - next uplift 2014-02-03 - contribute: https://wiki.mozilla.org/DevTools/GetInvolved - meeting thursdays at 9am pacific: https://etherpad.mozilla.org/devtools-meeting2 - checkin-needed keyword is the new [land-in-fx-team] whiteboard flag."
+2014-01-18 10:02:14	--	Topic set by paul on Thu, 02 Jan 2014 08:30:11
+2014-01-18 10:02:14	--	Nicks #devtools: [@dcamp @robcee [p_q] _wirepair abacus andreeapopescu anton Anupkumar arroway|away AutomatedTester axel Benvie BenWa|email bkelly bkerensa bmaggs Bohemian Boopathi_K brambles buzz bwalker bz canuckistani cers_ ckoehler cruxeternus cstipkovic D4N3 daleharvey darrin dashbot davida dchan decode__ dew dietrich digitarald djvj ebryn ejpbruel erikvold evilpie ewong|away ewong|sleep Fallen|away felipe firebot fitzgen freddyb fredy gabor gargsms gavin glob|away gluong gozala gregglind_afk hardfire ircloggr IRCMonkey292711 ivan janx Jasper jaws Jesse_ jhugman johankj johnath johns jonasac jorendorff_away joshua-s|USNSCC jryans JSON_voorhees jwalker jwatt karim khuey|away KWierso|afk margaret Mathnerd314 MattN mcav mgoodwin mitsuhiko mrshu msucan mythmon naveed NeilAway nikola not_gavin oal ochameau offSchub Optimizer panaggio past paul pbrosset|afk philor|away potch quentin Raynos rbelouin recursive reed Rik robarnold robhudson rricard rtnpro sankha93 seocam sfink sfink|log sheppy-offline shu smaug snorp sterling timdream timeless tofumatt Tomcat|afk tomdale Unfocused wenzel wycats_ Yoric ZER0]
+2014-01-18 10:02:14	--	Channel #devtools: 131 nicks (2 ops, 0 halfops, 0 voices, 129 normals)
+2014-01-18 10:02:16	--	Mode #devtools [+n]
+2014-01-18 10:02:16	--	Channel created on Mon, 12 Aug 2013 21:00:21
+2014-01-18 10:02:37	paul	janx: it's already the case.
+2014-01-18 10:02:42	<--	gabor (gabor@moz-F5994963.dip0.t-ipconnect.de) has quit (Ping timeout)
+2014-01-18 10:02:49	paul	Apps are supported on Desktop as well (webrt)
+2014-01-18 10:08:13	-->	darkowlzz (sunny@D9E35369.685AC50C.27560D6E.IP) has joined #devtools
+2014-01-18 10:11:00	-->	jdm (jdm@CAB30FBD.8F96AEA7.2D179A7D.IP) has joined #devtools
+2014-01-18 10:20:05	<--	bmaggs (Adium@moz-7A24A0C8.lightspeed.frokca.sbcglobal.net) has quit (Connection reset by peer)
+2014-01-18 10:20:06	-->	bmaggs1 (Adium@moz-7A24A0C8.lightspeed.frokca.sbcglobal.net) has joined #devtools
+2014-01-18 10:20:54	-->	RealRaven (Thunderbir@207AAB0A.E7D0AD74.C3498625.IP) has joined #devtools
+2014-01-18 10:21:30	<--	cers_ (csonne@moz-AB43C754.fullrate.dk) has quit (Quit: Computer has gone to sleep.)
+2014-01-18 11:38:44	--	irc: disconnected from server
+2014-01-18 11:38:55	-->	JSON_voorhees (JSON_voorh@moz-72648943.hsd1.or.comcast.net) has joined #devtools
+2014-01-18 11:38:55	--	Topic for #devtools is "Use this: http://bugmotodo.org - next uplift 2014-02-03 - contribute: https://wiki.mozilla.org/DevTools/GetInvolved - meeting thursdays at 9am pacific: https://etherpad.mozilla.org/devtools-meeting2 - checkin-needed keyword is the new [land-in-fx-team] whiteboard flag."
+2014-01-18 11:38:55	--	Topic set by paul on Thu, 02 Jan 2014 08:30:11
+2014-01-18 11:38:55	--	Nicks #devtools: [@dcamp [p_q] _wirepair abacus anton Anupkumar arroway|away AutomatedTester Benvie BenWa|email bkelly bkerensa Bohemian Boopathi_K brambles buzz bwalker bz canuckistani ckoehler cruxeternus cstipkovic D4N3 daleharvey darrin dashbot davida dchan decode__ dew dietrich digitarald djvj ebryn erikvold evilpie ewong|away ewong|sleep Fallen|away felipe firebot fitzgen freddyb fredy gargsms gavin glob|away gluong gozala gregglind_afk hardfire ircloggr IRCMonkey292711 ivan janx Jasper jaws jdm Jesse_ johankj johnath johns jonasac jorendorff_away joshua-s|USNSCC jryans JSON_voorhees jwalker jwatt karim khuey|away KWierso|afk margaret Mathnerd314 MattN mcav mgoodwin mitsuhiko mrshu msucan mythmon naveed nikola not_gavin oal ochameau offSchub Optimizer panaggio past paul pbrosset|afk philor potch quentin Raynos rbelouin RealRaven reed Rik robarnold robhudson rricard rtnpro sankha93 seocam serge sfink sfink|log sheppy-offline shu smaug snorp sterling timdream timeless tofumatt Tomcat|afk tomdale tw2113 twi1 Unfocused wenzel wycats_ Yoric ZER0]
+2014-01-18 11:38:55	--	Channel #devtools: 126 nicks (1 ops, 0 halfops, 0 voices, 125 normals)
+2014-01-18 11:38:57	--	Mode #devtools [+n]
+2014-01-18 11:38:57	--	Channel created on Mon, 12 Aug 2013 21:00:21
+2014-01-18 11:39:03	<--	twi1 (Adium@moz-512229A7.lns9.lon.bigpond.net.au) has quit (Ping timeout)
+2014-01-18 11:55:24	<--	ewong|sleep (chatzilla@moz-772F27FF.netvigator.com) has quit (Ping timeout)
+2014-01-18 11:56:30	-->	ewong|sleep (chatzilla@moz-772F27FF.netvigator.com) has joined #devtools
+2014-01-18 11:57:24	<--	sankha93 (Instantbir@7061CD01.D6BD0D91.22D41759.IP) has quit (Connection reset by peer)
+2014-01-18 11:59:41	<--	tw2113 (tw2113@moz-C6A0E4B5.midco.net) has quit (Quit: yar! I be gone quit!)
+2014-01-18 12:41:05	--	irc: disconnected from server
+2014-01-18 12:41:15	-->	JSON_voorhees (JSON_voorh@moz-18B65BD4.hsd1.or.comcast.net) has joined #devtools
+2014-01-18 12:41:15	--	Topic for #devtools is "Use this: http://bugmotodo.org - next uplift 2014-02-03 - contribute: https://wiki.mozilla.org/DevTools/GetInvolved - meeting thursdays at 9am pacific: https://etherpad.mozilla.org/devtools-meeting2 - checkin-needed keyword is the new [land-in-fx-team] whiteboard flag."
+2014-01-18 12:41:15	--	Topic set by paul on Thu, 02 Jan 2014 08:30:11
+2014-01-18 12:41:15	--	Nicks #devtools: [@dcamp [p_q] _wirepair abacus anton Anupkumar arroway|away AutomatedTester Benvie BenWa|email bkelly bkerensa Bohemian Boopathi_K brambles buzz bwalker bz canuckistani ckoehler cruxeternus cstipkovic D4N3 daleharvey darrin dashbot davida dchan decode__ DenSchub dew dietrich digitarald djvj ebryn erikvold evilpie ewong|away ewong|sleep Fallen|away felipe firebot fitzgen freddyb fredy gargsms gavin glob|away gluong gozala gregglind_afk hardfire iamdustan ircloggr IRCMonkey292711 ivan janx Jasper jaws jdm Jesse_ jhugman johankj johnath johns jonasac jorendorff_away joshua-s|USNSCC jryans JSON_voorhees jwalker jwatt karim khuey|away KWierso|afk margaret Mathnerd314 MattN mcav mgoodwin mitsuhiko mrshu msucan mythmon naveed NeilAway nikola not_gavin oal ochameau Optimizer panaggio past paul pbrosset|afk philor potch quentin Raynos rbelouin RealRaven reed Rik robarnold robhudson rricard rtnpro sankha93 seocam serge sfink sfink|log sheppy-offline shu smaug snorp sole sterling timdream timeless tofumatt Tomcat|afk tomdale Unfocused wenzel wycats_ Yoric ZER0]
+2014-01-18 12:41:15	--	Channel #devtools: 128 nicks (1 ops, 0 halfops, 0 voices, 127 normals)
+2014-01-18 12:41:17	--	Mode #devtools [+n]
+2014-01-18 12:41:17	--	Channel created on Mon, 12 Aug 2013 21:00:21
+2014-01-18 12:45:54	<--	iamdustan (iamdustan@moz-EF43EE29.dynamic.ip.windstream.net) has quit (Ping timeout)
+2014-01-18 12:46:03	-->	harth (heather@moz-42412102.hsd1.ca.comcast.net) has joined #devtools
+2014-01-18 12:51:27	<--	smaug (chatzilla@moz-9E0B1701.pp.htv.fi) has quit (Quit: ChatZilla 0.9.90.1 [Firefox 29.0a1/20140118024847])
+2014-01-18 12:52:26	 *	dcamp closes his last spammer window
+2014-01-18 12:54:17	--	philor is now known as philor|away
+2014-01-18 13:05:14	-->	axel (Adium@moz-FD568D3A.hsd1.ca.comcast.net) has joined #devtools
+2014-01-18 13:06:56	<--	axel (Adium@moz-FD568D3A.hsd1.ca.comcast.net) has quit (Ping timeout)
+2014-01-18 13:07:23	<--	jdm (jdm@CAB30FBD.8F96AEA7.2D179A7D.IP) has quit (Connection reset by peer)
+2014-01-18 13:07:30	-->	jdm (jdm@CAB30FBD.8F96AEA7.2D179A7D.IP) has joined #devtools
+2014-01-18 13:09:28	--	DenSchub is now known as offSchub
+2014-01-18 13:10:33	<--	gargsms (gargsms@71CBC134.DEBD96D2.1C37C358.IP) has quit (Client exited)
+2014-01-18 13:11:19	-->	gargsms (gargsms@71CBC134.DEBD96D2.1C37C358.IP) has joined #devtools
+2014-01-18 13:14:30	<--	gargsms (gargsms@71CBC134.DEBD96D2.1C37C358.IP) has left #devtools (Leaving)
+2014-01-18 13:14:45	-->	gargsms (gargsms@71CBC134.DEBD96D2.1C37C358.IP) has joined #devtools
+2014-01-18 13:17:26	<--	gargsms (gargsms@71CBC134.DEBD96D2.1C37C358.IP) has quit (Client exited)
+2014-01-18 13:20:33	<--	ZER0 (ZER0@moz-AB9DF7.dynamic.upc.nl) has quit (Quit: Leaving)
+2014-01-18 13:21:38	<--	jdm (jdm@CAB30FBD.8F96AEA7.2D179A7D.IP) has quit (Input/output error)
+2014-01-18 13:23:52	-->	jdm (jdm@CAB30FBD.8F96AEA7.2D179A7D.IP) has joined #devtools
+2014-01-18 13:26:16	-->	haksoldier (isLamattaC@66B0F092.E3C010D8.782529C2.IP) has joined #devtools
+2014-01-18 13:26:21	<--	haksoldier (isLamattaC@66B0F092.E3C010D8.782529C2.IP) has quit (User has been banned from Mozilla (no spamming here))
+2014-01-18 13:29:26	-->	axel (Adium@moz-FD568D3A.hsd1.ca.comcast.net) has joined #devtools
+2014-01-18 13:29:26	-->	andreio (andrei@moz-C133775.eregie.pub.ro) has joined #devtools
+2014-01-18 13:34:52	<--	RealRaven (Thunderbir@207AAB0A.E7D0AD74.C3498625.IP) has quit (Client exited)
+2014-01-18 13:34:56	-->	RealRaven (Thunderbir@207AAB0A.E7D0AD74.C3498625.IP) has joined #devtools
+2014-01-18 13:36:55	<--	jwatt (roslea@jwatt.irc.users.mozilla.org) has quit (Client exited)
+2014-01-18 13:36:55	<--	joshua-s|USNSCC (Thunderbir@moz-EA74D128.syrcny.east.verizon.net) has quit (Client exited)
+2014-01-18 13:37:49	-->	joshua-s|USNSCC (Thunderbir@moz-EA74D128.syrcny.east.verizon.net) has joined #devtools
+2014-01-18 13:37:53	-->	jwatt (roslea@jwatt.irc.users.mozilla.org) has joined #devtools
+2014-01-18 13:38:16	<--	joshua-s|USNSCC (Thunderbir@moz-EA74D128.syrcny.east.verizon.net) has quit (Client exited)
+2014-01-18 13:38:18	<--	brambles (xymox@moz-969AAE9B.barwen.ch) has quit (Client exited)
+2014-01-18 13:38:32	-->	brambles (xymox@moz-969AAE9B.barwen.ch) has joined #devtools
+2014-01-18 13:39:03	-->	twi (Adium@moz-512229A7.lns9.lon.bigpond.net.au) has joined #devtools
+2014-01-18 13:39:10	-->	joshua-s|USNSCC (Thunderbir@moz-EA74D128.syrcny.east.verizon.net) has joined #devtools
+2014-01-18 13:39:59	<--	twi (Adium@moz-512229A7.lns9.lon.bigpond.net.au) has quit (Client exited)
+2014-01-18 13:41:15	<--	jdm (jdm@CAB30FBD.8F96AEA7.2D179A7D.IP) has quit (Input/output error)
+2014-01-18 13:45:49	<--	serge (Thunderbir@moz-34BED61C.dsl.teksavvy.com) has quit (Ping timeout)
+2014-01-18 13:46:28	-->	smaug (chatzilla@moz-9E0B1701.pp.htv.fi) has joined #devtools
+2014-01-18 13:51:26	<--	sankha93 (Instantbir@7061CD01.D6BD0D91.22D41759.IP) has quit (Connection reset by peer)
+2014-01-18 13:57:10	<--	msucan (mihai@4E238594.E32FACE5.7C5F70AF.IP) has quit (Quit: Leaving.)
+2014-01-18 14:03:05	<--	rricard (rricard@moz-3F437612.rev.numericable.fr) has quit (Ping timeout)
+2014-01-18 14:15:59	-->	agoforth (agoforth@moz-62B68114.pool.mediaways.net) has joined #devtools
+2014-01-18 14:16:14	<--	decode__ (agoforth@moz-3EBD8E44.pool.mediaways.net) has quit (Ping timeout)
+2014-01-18 14:16:28	--	philor|away is now known as philor
+2014-01-18 14:16:47	<--	rtnpro (rtnpro@moz-E0F149F7.members.linode.com) has quit (Input/output error)
+2014-01-18 14:16:52	-->	rtnpro (rtnpro@moz-E0F149F7.members.linode.com) has joined #devtools
+2014-01-18 14:18:20	<--	RealRaven (Thunderbir@207AAB0A.E7D0AD74.C3498625.IP) has quit (Quit: RealRaven)
+2014-01-18 14:19:22	-->	gabor (gabor@moz-F5994963.dip0.t-ipconnect.de) has joined #devtools
+2014-01-18 14:25:35	<--	rtnpro (rtnpro@moz-E0F149F7.members.linode.com) has quit (Input/output error)
+2014-01-18 14:29:35	-->	imjacobclark (imjacobcla@moz-430E4CD9.dynamic.dsl.as9105.com) has joined #devtools
+2014-01-18 14:31:51	<--	andreio (andrei@moz-C133775.eregie.pub.ro) has quit (Ping timeout)
+2014-01-18 14:32:47	-->	rtnpro (rtnpro@moz-E0F149F7.members.linode.com) has joined #devtools
+2014-01-18 14:41:13	-->	tw2113 (tw2113@moz-B9D45EC1.midco.net) has joined #devtools
+2014-01-18 14:58:37	-->	Gijs (gijs@moz-86762AC2.range86-164.btcentralplus.com) has joined #devtools
+2014-01-18 15:08:57	<--	dashbot (nodebot@moz-3FECB0BF.compute-1.amazonaws.com) has quit (Input/output error)
+2014-01-18 15:09:07	-->	dashbot (nodebot@moz-38E1E7DD.compute-1.amazonaws.com) has joined #devtools
+2014-01-18 15:20:44	<--	rtnpro (rtnpro@moz-E0F149F7.members.linode.com) has quit (Input/output error)
+2014-01-18 15:20:47	-->	rtnpro (rtnpro@moz-E0F149F7.members.linode.com) has joined #devtools
+2014-01-18 15:22:56	<--	rtnpro (rtnpro@moz-E0F149F7.members.linode.com) has quit (Input/output error)
+2014-01-18 15:23:05	-->	rtnpro (rtnpro@moz-E0F149F7.members.linode.com) has joined #devtools
+2014-01-18 15:25:13	<--	Jesse_ (jruderman@moz-9754CB0.hsd1.ca.comcast.net) has quit (Quit: Jesse_)
+2014-01-18 15:26:17	-->	Jesse (jruderman@moz-9754CB0.hsd1.ca.comcast.net) has joined #devtools
+2014-01-18 15:45:58	<--	jhugman (Instantbir@1E10C980.B16DB0F7.F594618C.IP) has quit (Ping timeout)
+2014-01-18 15:55:05	<--	harth (heather@moz-42412102.hsd1.ca.comcast.net) has quit (Client exited)
+2014-01-18 15:55:26	-->	jviereck (Adium@moz-56DDD13.dip0.t-ipconnect.de) has joined #devtools
+2014-01-18 15:55:29	-->	harth (heather@moz-42412102.hsd1.ca.comcast.net) has joined #devtools
+2014-01-18 15:56:14	<--	Gijs (gijs@moz-86762AC2.range86-164.btcentralplus.com) has quit (Quit: sleep)
+2014-01-18 15:57:24	<--	harth (heather@moz-42412102.hsd1.ca.comcast.net) has quit (Ping timeout)
+2014-01-18 15:58:32	-->	cers_ (csonne@moz-39FBFF3C.cpe.webspeed.dk) has joined #devtools
+2014-01-18 16:17:26	--	irc: disconnected from server
+2014-01-18 16:17:38	-->	JSON_voorhees (JSON_voorh@moz-18B65BD4.hsd1.or.comcast.net) has joined #devtools
+2014-01-18 16:17:38	--	Topic for #devtools is "Use this: http://bugmotodo.org - next uplift 2014-02-03 - contribute: https://wiki.mozilla.org/DevTools/GetInvolved - meeting thursdays at 9am pacific: https://etherpad.mozilla.org/devtools-meeting2 - checkin-needed keyword is the new [land-in-fx-team] whiteboard flag."
+2014-01-18 16:17:38	--	Topic set by paul on Thu, 02 Jan 2014 08:30:11
+2014-01-18 16:17:39	--	Nicks #devtools: [@dcamp [p_q] _wirepair abacus agoforth anton Anupkumar arroway|away AutomatedTester axel Benvie BenWa|email bkelly bkerensa Bohemian Boopathi_K brambles buzz bwalker bz canuckistani cers_ ckoehler cruxeternus cstipkovic D4N3 daleharvey darrin dashbot davida dchan dew dietrich digitarald djvj ebryn erikvold evilpie ewong|away ewong|sleep Fallen|away felipe firebot fitzgen freddyb fredy gabor gavin glob|away gluong gozala gregglind_afk hardfire imjacobclark ircloggr IRCMonkey292711 ivan janx Jasper jaws Jesse johankj johnath johns jonasac jorendorff_away joshua-s|USNSCC jryans JSON_voorhees jviereck jwalker jwatt karim khuey|away KWierso|afk margaret Mathnerd314 MattN mcav mgoodwin mitsuhiko mrshu mythmon naveed NeilAway nikola not_gavin oal ochameau offSchub Optimizer panaggio past paul pbrosset|afk philor potch quentin Raynos rbelouin reed Rik robarnold robhudson rtnpro seocam sfink sfink|log sheppy-offline shu smaug snorp sterling timdream timeless tofumatt Tomcat|afk tomdale tw2113 Unfocused wenzel wycats_ Yoric]
+2014-01-18 16:17:39	--	Channel #devtools: 123 nicks (1 ops, 0 halfops, 0 voices, 122 normals)
+2014-01-18 16:17:39	--	Mode #devtools [+n]
+2014-01-18 16:17:39	--	Channel created on Mon, 12 Aug 2013 21:00:21
+2014-01-18 16:29:27	<--	gabor (gabor@moz-F5994963.dip0.t-ipconnect.de) has quit (Ping timeout)
+2014-01-18 16:32:56	-->	jhugman (Instantbir@1E10C980.B16DB0F7.F594618C.IP) has joined #devtools
+2014-01-18 16:35:28	<--	jviereck (Adium@moz-56DDD13.dip0.t-ipconnect.de) has quit (Quit: Leaving.)
+2014-01-18 16:35:49	<--	jhugman (Instantbir@1E10C980.B16DB0F7.F594618C.IP) has quit (Ping timeout)
+2014-01-18 16:48:59	<--	cers_ (csonne@moz-39FBFF3C.cpe.webspeed.dk) has quit (Ping timeout)
+2014-01-18 16:50:49	-->	cers_ (csonne@moz-39FBFF3C.cpe.webspeed.dk) has joined #devtools
+2014-01-18 17:05:14	--	irc: disconnected from server
+2014-01-18 17:05:25	-->	JSON_voorhees (JSON_voorh@moz-18B65BD4.hsd1.or.comcast.net) has joined #devtools
+2014-01-18 17:05:25	--	Topic for #devtools is "Use this: http://bugmotodo.org - next uplift 2014-02-03 - contribute: https://wiki.mozilla.org/DevTools/GetInvolved - meeting thursdays at 9am pacific: https://etherpad.mozilla.org/devtools-meeting2 - checkin-needed keyword is the new [land-in-fx-team] whiteboard flag."
+2014-01-18 17:05:25	--	Topic set by paul on Thu, 02 Jan 2014 08:30:11
+2014-01-18 17:05:25	--	Nicks #devtools: [@dcamp [p_q] _wirepair abacus agoforth anton Anupkumar arroway|away AutomatedTester axel Benvie BenWa|email bkelly bkerensa Bohemian Boopathi_K brambles buzz bwalker bz canuckistani cers_ ckoehler cruxeternus cstipkovic D4N3 daleharvey darrin dashbot davida dchan dew dietrich digitarald djvj ebryn erikvold evilpie ewong|away ewong|sleep Fallen|away felipe firebot fitzgen freddyb fredy gavin glob|away gluong gozala gregglind_afk hardfire imjacobclark ircloggr IRCMonkey292711 ivan janx Jasper jaws Jesse johankj johnath johns jonasac jorendorff_away joshua-s|USNSCC jryans JSON_voorhees jwalker jwatt karim khuey|away KWierso|afk lpy margaret Mathnerd314 MattN mcav mgoodwin mitsuhiko mrshu mythmon naveed NeilAway nikola not_gavin oal ochameau offSchub panaggio past paul pbrosset|afk philor potch quentin Raynos rbelouin reed Rik robarnold robhudson rtnpro seocam sfink sfink|log sheppy-offline shu smaug snorp sterling timdream timeless tofumatt Tomcat|afk tomdale tw2113 Unfocused wenzel wycats_ Yoric]
+2014-01-18 17:05:25	--	Channel #devtools: 121 nicks (1 ops, 0 halfops, 0 voices, 120 normals)
+2014-01-18 17:05:26	--	Mode #devtools [+n]
+2014-01-18 17:05:26	--	Channel created on Mon, 12 Aug 2013 21:00:21
+2014-01-18 17:05:32	<--	sterling (sterling@2521BE69.43D8265F.6CC942F9.IP) has quit (Ping timeout)
+2014-01-18 17:21:14	-->	sterling (sterling@BAB9EFA2.3080E738.F239D495.IP) has joined #devtools
+2014-01-18 17:23:15	-->	Optimizer (Optimizer@E5878690.ECDC8956.BE90E62C.IP) has joined #devtools
+2014-01-18 17:40:55	-->	jhugman (Instantbir@1E10C980.B16DB0F7.F594618C.IP) has joined #devtools
+2014-01-18 18:33:39	--	irc: disconnected from server
+2014-01-18 18:33:50	-->	JSON_voorhees (JSON_voorh@moz-72648943.hsd1.or.comcast.net) has joined #devtools
+2014-01-18 18:33:50	--	Topic for #devtools is "Use this: http://bugmotodo.org - next uplift 2014-02-03 - contribute: https://wiki.mozilla.org/DevTools/GetInvolved - meeting thursdays at 9am pacific: https://etherpad.mozilla.org/devtools-meeting2 - checkin-needed keyword is the new [land-in-fx-team] whiteboard flag."
+2014-01-18 18:33:50	--	Topic set by paul on Thu, 02 Jan 2014 08:30:11
+2014-01-18 18:33:50	--	Nicks #devtools: [@dcamp [p_q] _wirepair abacus agoforth anton Anupkumar arroway|away AutomatedTester axel Benvie BenWa|email bkelly bkerensa Bohemian Boopathi_K brambles buzz bwalker bz canuckistani cers_ ckoehler cruxeternus cstipkovic D4N3 daleharvey darrin dashbot davida dchan dew dietrich digitarald djvj ebryn erikvold evilpie ewong|away ewong|sleep Fallen|away felipe firebot fitzgen freddyb fredy gavin glob|away gluong gozala gregglind_afk hardfire ircloggr IRCMonkey292711 ivan janx Jasper jaws Jesse jhugman johankj johnath johns jonasac jorendorff_away joshua-s|USNSCC jryans JSON_voorhees jwalker jwatt karim khuey|away KWierso|afk margaret Mathnerd314 MattN mcav mgoodwin mitsuhiko mrshu mythmon naveed NeilAway nikola not_gavin oal ochameau offSchub Optimizer panaggio past paul pbrosset|afk philor potch quentin Raynos reed Rik robarnold robhudson rtnpro seocam sfink sfink|log sheppy-offline shu snorp timdream timeless tofumatt Tomcat|afk tomdale tw2113_too Unfocused wenzel wycats_ Yoric]
+2014-01-18 18:33:50	--	Channel #devtools: 118 nicks (1 ops, 0 halfops, 0 voices, 117 normals)
+2014-01-18 18:33:51	--	Mode #devtools [+n]
+2014-01-18 18:33:51	--	Channel created on Mon, 12 Aug 2013 21:00:21
+2014-01-18 18:58:55	<--	Mathnerd314 (Mibbit@moz-B67EC266.cos.dyn.pcisys.net) has quit (Quit: http://www.mibbit.com ajax IRC Client)
+2014-01-18 18:59:47	--	jorendorff_away is now known as jorendorff
+2014-01-18 19:00:22	-->	darkowlzz (sunny@3C584144.AE087544.25B273F5.IP) has joined #devtools
+2014-01-18 19:02:21	<--	darkowlzz (sunny@3C584144.AE087544.25B273F5.IP) has quit (Quit: This computer has gone to sleep)

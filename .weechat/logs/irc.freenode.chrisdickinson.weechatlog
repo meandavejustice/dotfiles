@@ -1,0 +1,81 @@
+2013-07-29 16:34:32	chrisdickinson	yep
+2013-07-29 16:35:08	JSON_voorheez	dope
+2013-07-29 16:35:29	JSON_voorheez	sux that breakfast with wil weaton didnt happen, haha
+2013-07-29 16:36:16	chrisdickinson	hah, yeah
+2013-07-29 16:36:22	chrisdickinson	maybe he's more of a late lunch person
+2013-07-29 21:46:09	--	irc: disconnected from server
+2013-07-30 10:57:07	--	irc: disconnected from server
+2013-07-30 18:49:12	--	irc: disconnected from server
+2013-07-30 19:56:23	--	irc: disconnected from server
+2013-09-12 12:38:12	chrisdickinson	exciting but somewhat secret news!
+2013-09-12 12:38:47	chrisdickinson	https://tito.io/event-loop/cascadiajs-2013/registrations/pyr6srgld9uycs1h you should be able to edit this
+2013-09-12 12:38:59	chrisdickinson	if you're still interested in cascadia
+2013-09-12 18:16:15	JSON_voorhees	wow thanks dude!
+2013-09-12 18:16:31	chrisdickinson	no prob!
+2013-09-12 18:16:43	JSON_voorhees	want me to paypal u that cash or just meet up sometime this week?
+2013-09-12 18:16:59	chrisdickinson	we can just meet up if that's cool
+2013-09-12 18:17:28	chrisdickinson	0% rush
+2013-09-12 18:17:34	JSON_voorhees	word
+2013-09-12 18:18:52	JSON_voorhees	updated. let me know when you wanna meet up
+2013-09-12 18:19:10	chrisdickinson	cool. i'll be at the pyladies hack day this weekend if that works for you
+2013-09-12 18:34:05	JSON_voorhees	yeah i can do that :)
+2013-09-12 19:31:08	--	irc: disconnected from server
+2013-09-12 21:29:23	--	irc: disconnected from server
+2013-09-12 23:27:08	--	irc: disconnected from server
+2013-09-13 09:22:08	--	irc: disconnected from server
+2013-09-13 10:41:04	--	irc: disconnected from server
+2013-09-13 18:16:09	--	irc: disconnected from server
+2013-09-14 11:02:44	--	irc: disconnected from server
+2013-09-14 17:24:33	--	irc: disconnected from server
+2013-09-14 20:19:07	--	irc: disconnected from server
+2013-09-15 00:04:05	--	irc: disconnected from server
+2013-09-15 09:11:35	--	irc: disconnected from server
+2013-09-15 13:59:27	--	irc: disconnected from server
+2013-09-15 16:38:57	--	irc: disconnected from server
+2013-09-15 19:04:31	--	irc: disconnected from server
+2013-09-15 21:21:40	--	irc: disconnected from server
+2013-09-16 09:48:24	--	irc: disconnected from server
+2013-09-16 10:47:10	--	irc: disconnected from server
+2013-09-16 18:50:15	--	irc: disconnected from server
+2013-09-17 00:33:04	--	irc: disconnected from server
+2013-09-17 08:25:23	--	irc: disconnected from server
+2013-09-17 10:57:28	--	irc: disconnected from server
+2013-09-17 12:32:15	<--	chrisdickinson (~chrisdick@192.241.193.154) has quit (Ping timeout: 268 seconds)
+2013-09-17 12:36:30	-->	chrisdickinson (~chrisdick@192.241.193.154) is back on server
+2013-09-17 16:21:45	JSON_voorhees	you gunna be at the hack night this thursday?
+2013-09-18 02:34:25	--	irc: disconnected from server
+2013-09-18 08:25:13	--	irc: disconnected from server
+2013-11-14 21:50:40	chrisdickinson	https://gist.github.com/chrisdickinson/6a21417461a5e169706a
+2013-11-15 02:31:46	--	irc: disconnected from server
+2013-11-15 11:05:00	--	irc: disconnected from server
+2013-11-15 11:56:06	--	irc: disconnected from server
+2013-11-15 12:53:49	--	irc: disconnected from server
+2013-11-15 15:03:51	--	irc: disconnected from server
+2013-11-15 16:33:41	--	irc: disconnected from server
+2013-11-15 17:30:40	--	irc: disconnected from server
+2013-11-16 12:05:42	--	irc: disconnected from server
+2014-01-18 13:50:04	chrisdickinson	possibly! what's up?
+2014-01-18 13:50:09	chrisdickinson	yep
+2014-01-18 13:50:29	JSON_voorhees	It's just a bit harder to parse without headings and stuff
+2014-01-18 13:50:51	JSON_voorhees	also suprised marked isn't picking out ![]() as an img
+2014-01-18 13:51:07	chrisdickinson	yeah it does some odd stuff with inline text
+2014-01-18 13:51:17	chrisdickinson	rather, the lexer seems to only work on block scoped things and then it does the rest later, when it feels like it :P
+2014-01-18 13:51:24	JSON_voorhees	aahh
+2014-01-18 13:51:53	JSON_voorhees	so You cool with me changing that template a bit?
+2014-01-18 13:53:32	chrisdickinson	what would you change (out of curiosity?)
+2014-01-18 13:54:00	chrisdickinson	(also justin's is a bit odd compared to the base template: https://github.com/knode/speakers/blob/master/templates/your-name.md)
+2014-01-18 13:54:00	JSON_voorhees	ehh I think i just need to run this against the actual template instead of justin's stuff
+2014-01-18 13:54:11	JSON_voorhees	haha yeah that's what I just noticed
+2014-01-18 13:54:25	JSON_voorhees	Gunna write this so I works with the actual template then fix his to match :)
+2014-01-18 13:54:31	chrisdickinson	rad :D
+2014-01-18 14:54:34	JSON_voorhees	almost there... https://gist.github.com/meandavejustice/54605756efafb2bef85e
+2014-01-18 14:54:51	JSON_voorhees	just wanna parse out the avatar url
+2014-01-18 14:55:03	chrisdickinson	!m
+2014-01-18 14:55:05	JSON_voorhees	This may actually be able to be used elsewhere if I clean it up a bit more
+2014-01-18 14:55:09	JSON_voorhees	:)
+2014-01-18 14:55:10	chrisdickinson	awesome :D
+2014-01-18 16:15:39	--	irc: disconnected from server
+2014-01-18 17:06:58	--	irc: disconnected from server
+2014-01-18 17:40:05	--	irc: disconnected from server
+2014-01-18 17:40:59	--	irc: disconnected from server
+2014-01-18 17:42:08	--	irc: disconnected from server

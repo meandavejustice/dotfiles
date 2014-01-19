@@ -1,0 +1,33 @@
+[user]
+	name = David Adam Justice
+	email = david@outthinkgroup.com
+[push]
+        default = current
+
+[color]
+  ui = auto
+  diff = auto
+  status = auto
+  branch = auto
+  interactive = auto
+  pager = true
+[color "branch"]
+  current = yellow reverse
+  local = yellow
+  remote = green
+[color "diff"]
+  meta = yellow bold
+  frag = magenta bold
+  old = red bold
+  new = green bold
+  whitespace = red reverse
+[color "status"]
+  added = yellow
+  changed = green
+  untracked = cyan
+[core]
+	excludesfile = /Users/meandave/.gitignore
+[pager]
+	log = /usr/local/share/git-core/contrib/diff-highlight/diff-highlight
+	show = /usr/local/share/git-core/contrib/diff-highlight/diff-highlight
+	diff = /usr/local/share/git-core/contrib/diff-highlight/diff-highlight

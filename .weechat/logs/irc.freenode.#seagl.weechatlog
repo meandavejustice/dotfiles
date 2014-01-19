@@ -1,0 +1,284 @@
+2013-09-13 11:36:57	-->	JSON_voorhees (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has joined #seagl
+2013-09-13 11:36:57	--	Topic for #seagl is "Welcome to the Seattle GNU/Linux conference, Scheduled for October 11th and 12th at SCCC"
+2013-09-13 11:36:57	--	Topic set by kormoc (~kormoc@mythtv/developer/kormoc) on Mon, 22 Jul 2013 20:13:00
+2013-09-13 11:36:57	--	Nicks #seagl: [@ChanServ Anarch auviga Dan68 elcaset ilan jlk JSON_voorhees justinabrahms jxself kormoc meonkeys mjevans Salt seattlegaucho valorie xris]
+2013-09-13 11:36:57	--	Channel #seagl: 17 nicks (1 op, 0 halfops, 0 voices, 16 normals)
+2013-09-13 11:36:57	--	Notice(wolfe.freenode.net): [freenode-info] channel trolls and no channel staff around to help? please check with freenode support: http://freenode.net/faq.shtml#gettinghelp
+2013-09-13 11:36:57	--	URL for #seagl: http://www.seagl.org
+2013-09-13 11:36:59	--	Mode #seagl [+cnt]
+2013-09-13 11:36:59	--	Channel created on Sun, 03 May 2009 07:08:26
+2013-09-13 11:43:57	xris	meonkeys: awesome
+2013-09-13 11:44:30	meonkeys	justinabrahms: welcome!
+2013-09-13 11:47:24	justinabrahms	How is everyone enjoying their Friday?
+2013-09-13 11:49:34	jxself	It's already Saturday for some. :)
+2013-09-13 18:16:09	--	irc: disconnected from server
+2013-09-13 18:16:40	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #seagl
+2013-09-13 18:16:41	--	Topic for #seagl is "Welcome to the Seattle GNU/Linux conference, Scheduled for October 11th and 12th at SCCC"
+2013-09-13 18:16:41	--	Topic set by kormoc (~kormoc@mythtv/developer/kormoc) on Mon, 22 Jul 2013 20:13:00
+2013-09-13 18:16:41	--	Nicks #seagl: [@ChanServ Anarch auviga Dan68 elcaset ilan jlk JSON_voorhees justinabrahms jxself kormoc meonkeys mjevans Salt seattlegaucho valorie xris]
+2013-09-13 18:16:41	--	Channel #seagl: 17 nicks (1 op, 0 halfops, 0 voices, 16 normals)
+2013-09-13 18:16:41	--	URL for #seagl: http://www.seagl.org
+2013-09-13 18:16:52	--	Mode #seagl [+cnt]
+2013-09-13 18:16:53	--	Channel created on Sun, 03 May 2009 07:08:26
+2013-09-14 11:02:44	--	irc: disconnected from server
+2013-09-14 11:03:12	-->	JSON_voorhees (~JSON_voor@206.169.237.185) has joined #seagl
+2013-09-14 11:03:12	--	Topic for #seagl is "Welcome to the Seattle GNU/Linux conference, Scheduled for October 11th and 12th at SCCC"
+2013-09-14 11:03:12	--	Topic set by kormoc (~kormoc@mythtv/developer/kormoc) on Mon, 22 Jul 2013 20:13:00
+2013-09-14 11:03:12	--	Nicks #seagl: [@ChanServ Anarch auviga Dan68 elcaset ilan jlk JSON_voorhees justinabrahms jxself kormoc meonkeys mjevans Salt seattlegaucho valorie xris]
+2013-09-14 11:03:12	--	Channel #seagl: 17 nicks (1 op, 0 halfops, 0 voices, 16 normals)
+2013-09-14 11:03:12	--	URL for #seagl: http://www.seagl.org
+2013-09-14 11:03:23	--	Mode #seagl [+cnt]
+2013-09-14 11:03:23	--	Channel created on Sun, 03 May 2009 07:08:26
+2013-09-14 11:20:22	Salt	gslug today for the few of you who aren't in the other channels I've plastered
+2013-09-14 11:21:52	kormoc	I'm doing on call work :(
+2013-09-14 11:23:14	Salt	darn, at least you'll make the one next month ;)
+2013-09-14 11:30:05	kormoc	Yup!
+2013-09-14 15:46:41	-->	revert (~revert@192.241.236.209) has joined #seagl
+2013-09-14 17:24:33	--	irc: disconnected from server
+2013-09-14 17:25:00	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #seagl
+2013-09-14 17:25:00	--	Topic for #seagl is "Welcome to the Seattle GNU/Linux conference, Scheduled for October 11th and 12th at SCCC"
+2013-09-14 17:25:00	--	Topic set by kormoc (~kormoc@mythtv/developer/kormoc) on Mon, 22 Jul 2013 20:13:00
+2013-09-14 17:25:00	--	Nicks #seagl: [@ChanServ Anarch auviga Dan68 elcaset ilan jlk JSON_voorhees justinabrahms jxself kormoc meonkeys mjevans revert Salt seattlegaucho valorie xris]
+2013-09-14 17:25:00	--	Channel #seagl: 18 nicks (1 op, 0 halfops, 0 voices, 17 normals)
+2013-09-14 17:25:00	--	URL for #seagl: http://www.seagl.org
+2013-09-14 17:25:15	--	Mode #seagl [+cnt]
+2013-09-14 17:25:15	--	Channel created on Sun, 03 May 2009 07:08:26
+2013-09-14 20:19:07	--	irc: disconnected from server
+2013-09-14 20:19:34	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #seagl
+2013-09-14 20:19:34	--	Topic for #seagl is "Welcome to the Seattle GNU/Linux conference, Scheduled for October 11th and 12th at SCCC"
+2013-09-14 20:19:34	--	Topic set by kormoc (~kormoc@mythtv/developer/kormoc) on Mon, 22 Jul 2013 20:13:00
+2013-09-14 20:19:34	--	Nicks #seagl: [@ChanServ Anarch auviga Dan68 elcaset ilan jlk JSON_voorhees justinabrahms jxself kormoc lcafiero meonkeys mjevans revert Salt seattlegaucho valorie xris]
+2013-09-14 20:19:34	--	Channel #seagl: 19 nicks (1 op, 0 halfops, 0 voices, 18 normals)
+2013-09-14 20:19:34	--	URL for #seagl: http://www.seagl.org
+2013-09-14 20:19:46	--	Mode #seagl [+cnt]
+2013-09-14 20:19:46	--	Channel created on Sun, 03 May 2009 07:08:26
+2013-09-14 22:00:45	<--	lcafiero (d1cb4502@gateway/web/freenode/ip.209.203.69.2) has quit (Quit: Page closed)
+2013-09-14 22:07:07	<--	jlk (~jkeating@fedora/ender) has quit (Ping timeout: 261 seconds)
+2013-09-14 22:07:24	-->	jlk (~jkeating@2001:4801:7817:72:b0bd:7e63:ff10:35a9) has joined #seagl
+2013-09-14 22:07:25	<--	jlk (~jkeating@2001:4801:7817:72:b0bd:7e63:ff10:35a9) has quit (Changing host)
+2013-09-14 22:07:25	-->	jlk (~jkeating@fedora/ender) has joined #seagl
+2013-09-15 00:04:05	--	irc: disconnected from server
+2013-09-15 00:04:31	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #seagl
+2013-09-15 00:04:31	--	Topic for #seagl is "Welcome to the Seattle GNU/Linux conference, Scheduled for October 11th and 12th at SCCC"
+2013-09-15 00:04:31	--	Topic set by kormoc (~kormoc@mythtv/developer/kormoc) on Mon, 22 Jul 2013 20:13:00
+2013-09-15 00:04:31	--	Nicks #seagl: [@ChanServ Anarch auviga Dan68 elcaset ilan jlk JSON_voorhees justinabrahms jxself kormoc meonkeys mjevans revert Salt seattlegaucho valorie xris]
+2013-09-15 00:04:31	--	Channel #seagl: 18 nicks (1 op, 0 halfops, 0 voices, 17 normals)
+2013-09-15 00:04:31	--	URL for #seagl: http://www.seagl.org
+2013-09-15 00:04:43	--	Mode #seagl [+cnt]
+2013-09-15 00:04:43	--	Channel created on Sun, 03 May 2009 07:08:26
+2013-09-15 09:11:35	--	irc: disconnected from server
+2013-09-15 09:12:04	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #seagl
+2013-09-15 09:12:04	--	Topic for #seagl is "Welcome to the Seattle GNU/Linux conference, Scheduled for October 11th and 12th at SCCC"
+2013-09-15 09:12:04	--	Topic set by kormoc (~kormoc@mythtv/developer/kormoc) on Mon, 22 Jul 2013 20:13:00
+2013-09-15 09:12:04	--	Nicks #seagl: [@ChanServ Anarch auviga Dan68 elcaset ilan jlk JSON_voorhees justinabrahms jxself kormoc meonkeys mjevans revert Salt seattlegaucho valorie xris]
+2013-09-15 09:12:04	--	Channel #seagl: 18 nicks (1 op, 0 halfops, 0 voices, 17 normals)
+2013-09-15 09:12:04	--	URL for #seagl: http://www.seagl.org
+2013-09-15 09:12:16	--	Mode #seagl [+cnt]
+2013-09-15 09:12:16	--	Channel created on Sun, 03 May 2009 07:08:26
+2013-09-15 13:59:27	--	irc: disconnected from server
+2013-09-15 13:59:55	-->	JSON_voorhees (~JSON_voor@c-24-21-166-2.hsd1.or.comcast.net) has joined #seagl
+2013-09-15 13:59:55	--	Topic for #seagl is "Welcome to the Seattle GNU/Linux conference, Scheduled for October 11th and 12th at SCCC"
+2013-09-15 13:59:55	--	Topic set by kormoc (~kormoc@mythtv/developer/kormoc) on Mon, 22 Jul 2013 20:13:00
+2013-09-15 13:59:55	--	Nicks #seagl: [@ChanServ Anarch auviga Dan68 elcaset ilan jlk JSON_voorhees justinabrahms jxself kormoc meonkeys mjevans revert Salt seattlegaucho valorie xris]
+2013-09-15 13:59:55	--	Channel #seagl: 18 nicks (1 op, 0 halfops, 0 voices, 17 normals)
+2013-09-15 13:59:55	--	Notice(rajaniemi.freenode.net): [freenode-info] channel flooding and no channel staff around to help? Please check with freenode support: http://freenode.net/faq.shtml#gettinghelp
+2013-09-15 13:59:55	--	URL for #seagl: http://www.seagl.org
+2013-09-15 14:00:07	--	Mode #seagl [+cnt]
+2013-09-15 14:00:08	--	Channel created on Sun, 03 May 2009 07:08:26
+2013-09-15 14:29:46	elcaset	definetely
+2013-09-15 15:05:16	-->	lcafiero (~lcafiero@173-228-66-239.dsl.got.net) has joined #seagl
+2013-09-15 16:38:57	--	irc: disconnected from server
+2013-09-15 16:39:25	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #seagl
+2013-09-15 16:39:25	--	Topic for #seagl is "Welcome to the Seattle GNU/Linux conference, Scheduled for October 11th and 12th at SCCC"
+2013-09-15 16:39:25	--	Topic set by kormoc (~kormoc@mythtv/developer/kormoc) on Mon, 22 Jul 2013 20:13:00
+2013-09-15 16:39:25	--	Nicks #seagl: [@ChanServ Anarch auviga Dan68 elcaset ilan jlk JSON_voorhees justinabrahms jxself kormoc meonkeys mjevans revert Salt seattlegaucho valorie xris]
+2013-09-15 16:39:25	--	Channel #seagl: 18 nicks (1 op, 0 halfops, 0 voices, 17 normals)
+2013-09-15 16:39:25	--	URL for #seagl: http://www.seagl.org
+2013-09-15 16:39:37	--	Mode #seagl [+cnt]
+2013-09-15 16:39:37	--	Channel created on Sun, 03 May 2009 07:08:26
+2013-09-15 19:04:31	--	irc: disconnected from server
+2013-09-15 19:05:00	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #seagl
+2013-09-15 19:05:00	--	Topic for #seagl is "Welcome to the Seattle GNU/Linux conference, Scheduled for October 11th and 12th at SCCC"
+2013-09-15 19:05:00	--	Topic set by kormoc (~kormoc@mythtv/developer/kormoc) on Mon, 22 Jul 2013 20:13:00
+2013-09-15 19:05:00	--	Nicks #seagl: [@ChanServ Anarch auviga Dan68 elcaset ilan jlk JSON_voorhees justinabrahms jxself kormoc meonkeys mjevans revert Salt seattlegaucho valorie xris]
+2013-09-15 19:05:00	--	Channel #seagl: 18 nicks (1 op, 0 halfops, 0 voices, 17 normals)
+2013-09-15 19:05:00	--	URL for #seagl: http://www.seagl.org
+2013-09-15 19:05:12	--	Mode #seagl [+cnt]
+2013-09-15 19:05:12	--	Channel created on Sun, 03 May 2009 07:08:26
+2013-09-15 21:21:40	--	irc: disconnected from server
+2013-09-15 21:22:12	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #seagl
+2013-09-15 21:22:13	--	Topic for #seagl is "Welcome to the Seattle GNU/Linux conference, Scheduled for October 11th and 12th at SCCC"
+2013-09-15 21:22:13	--	Topic set by kormoc (~kormoc@mythtv/developer/kormoc) on Mon, 22 Jul 2013 20:13:00
+2013-09-15 21:22:13	--	Nicks #seagl: [@ChanServ Anarch auviga Dan68 elcaset ilan jlk JSON_voorhees justinabrahms jxself kormoc meonkeys mjevans revert Salt seattlegaucho valorie xris]
+2013-09-15 21:22:13	--	Channel #seagl: 18 nicks (1 op, 0 halfops, 0 voices, 17 normals)
+2013-09-15 21:22:13	--	URL for #seagl: http://www.seagl.org
+2013-09-15 21:22:22	--	Mode #seagl [+cnt]
+2013-09-15 21:22:23	--	Channel created on Sun, 03 May 2009 07:08:26
+2013-09-15 22:44:04	-->	lcafiero (~lcafiero@adsl-76-254-64-179.dsl.pltn13.sbcglobal.net) has joined #seagl
+2013-09-15 22:47:08	lcafiero	Hey, are there any hotels near the college?
+2013-09-15 23:02:08	valorie	lcafiero: google maps says yes
+2013-09-15 23:02:18	valorie	I've been in the Sorrento and it's really nice
+2013-09-15 23:03:20	valorie	sounds like the boylston hotel isn't well thought of
+2013-09-15 23:03:26	valorie	but heck, try yelp
+2013-09-15 23:10:13	lcafiero	OK, will check it out. I've  been going to the chain hotel sites.
+2013-09-15 23:10:17	lcafiero	Thanks.
+2013-09-15 23:14:50	<--	lcafiero (~lcafiero@adsl-76-254-64-179.dsl.pltn13.sbcglobal.net) has quit (Quit: Leaving)
+2013-09-16 01:55:09	xris	if/when lcafiero comes back (or anyone else looking for a place to stay), my wife used to be the chef at http://www.11thavenueinn.com/ and they're a pretty nice place to stay (about 1/3 mile from the college)
+2013-09-16 01:55:19	xris	no clue on availability, but worth looking into.
+2013-09-16 09:48:24	--	irc: disconnected from server
+2013-09-16 09:48:57	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #seagl
+2013-09-16 09:48:57	--	Topic for #seagl is "Welcome to the Seattle GNU/Linux conference, Scheduled for October 11th and 12th at SCCC"
+2013-09-16 09:48:57	--	Topic set by kormoc (~kormoc@mythtv/developer/kormoc) on Mon, 22 Jul 2013 20:13:00
+2013-09-16 09:48:57	--	Nicks #seagl: [@ChanServ Anarch auviga Dan68 elcaset ilan jlk JSON_voorhees justinabrahms jxself kormoc meonkeys mjevans revert Salt seattlegaucho valorie xris]
+2013-09-16 09:48:57	--	Channel #seagl: 18 nicks (1 op, 0 halfops, 0 voices, 17 normals)
+2013-09-16 09:48:57	--	URL for #seagl: http://www.seagl.org
+2013-09-16 09:49:07	--	Mode #seagl [+cnt]
+2013-09-16 09:49:07	--	Channel created on Sun, 03 May 2009 07:08:26
+2013-09-16 10:47:10	--	irc: disconnected from server
+2013-09-16 10:47:40	-->	JSON_voorhees (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has joined #seagl
+2013-09-16 10:47:41	--	Topic for #seagl is "Welcome to the Seattle GNU/Linux conference, Scheduled for October 11th and 12th at SCCC"
+2013-09-16 10:47:41	--	Topic set by kormoc (~kormoc@mythtv/developer/kormoc) on Mon, 22 Jul 2013 20:13:00
+2013-09-16 10:47:41	--	Nicks #seagl: [@ChanServ Anarch auviga Dan68 elcaset ilan jlk JSON_voorhees justinabrahms jxself kormoc meonkeys mjevans revert Salt valorie xris]
+2013-09-16 10:47:41	--	Channel #seagl: 17 nicks (1 op, 0 halfops, 0 voices, 16 normals)
+2013-09-16 10:47:41	--	URL for #seagl: http://www.seagl.org
+2013-09-16 10:47:50	--	Mode #seagl [+cnt]
+2013-09-16 10:47:50	--	Channel created on Sun, 03 May 2009 07:08:26
+2013-09-16 11:07:32	-->	freedeb (~deb@24.61.8.180) has joined #seagl
+2013-09-16 11:11:40	<--	freedeb (~deb@24.61.8.180) has quit (Changing host)
+2013-09-16 11:11:40	-->	freedeb (~deb@fsf/emeritus/deborah) has joined #seagl
+2013-09-16 11:40:47	xris	kormoc, freedeb: we apparently have a number of people waiting to hear back about talk proposals.  thoughts on how to rearrange things?  are we still waiting to hear from more possible female speakers?
+2013-09-16 11:44:22	freedeb	yes, I am pinging a couple people to day
+2013-09-16 12:03:50	xris	we also need to decide what we want to charge simech for a full page ad sponsorship level (or if we even want to allow it)
+2013-09-16 12:04:23	xris	right now I'm leaning toward $3000 just because it sounds reasonable
+2013-09-16 12:04:26	xris	kormoc: ^^
+2013-09-16 12:06:46	kormoc	do it
+2013-09-16 13:51:33	justinabrahms	Do you guys have hard costs? Or is sponsorship ~= food?
+2013-09-16 13:55:06	kormoc	some hard costs, but we're hopefully going to save a good bit of money for the venue next year
+2013-09-16 13:57:51	xris	yeah, next year will be interesting..  hopefully get a regular venue, and that'll need at least $$$$$ down payment
+2013-09-16 13:58:58	kormoc	I would love to get into http://broadwayperfhall.com/ next year
+2013-09-16 14:00:00	kormoc	but that might be too costly for us so soon
+2013-09-16 14:01:50	<--	freedeb (~deb@fsf/emeritus/deborah) has quit (Ping timeout: 240 seconds)
+2013-09-16 14:12:32	-->	lcafiero (~lcafiero@dsl-63-249-119-95.static.cruzio.com) has joined #seagl
+2013-09-16 14:18:26	<--	lcafiero (~lcafiero@dsl-63-249-119-95.static.cruzio.com) has quit (Quit: Leaving)
+2013-09-16 14:19:34	xris	kormoc: does that place have more than the main room?
+2013-09-16 14:19:42	kormoc	4 floors worth
+2013-09-16 14:20:15	xris	$900/day + labor/etc
+2013-09-16 14:20:31	kormoc	for public, donno if lisa can get it cheaper
+2013-09-16 14:20:44	xris	that's not bad, though
+2013-09-16 14:21:08	xris	weren't we looking at like $20k/weekend for one of the bigger venues?
+2013-09-16 14:23:19	kormoc	yup
+2013-09-16 14:23:26	kormoc	+labor
+2013-09-16 15:09:49	-->	freedeb (~deb@24.61.8.180) has joined #seagl
+2013-09-16 15:19:35	xris	geesch, now simech wants the full page ad to be 2 separate half-page ads
+2013-09-16 15:19:50	<--	freedeb (~deb@24.61.8.180) has quit (Ping timeout: 240 seconds)
+2013-09-16 15:29:02	xris	geesch, and just emailed me their logos.  does no one respect small emails these days?  At least it's under a meg.
+2013-09-16 15:35:36	-->	freedeb (~deb@c-76-118-182-165.hsd1.ma.comcast.net) has joined #seagl
+2013-09-16 17:22:06	<--	freedeb (~deb@c-76-118-182-165.hsd1.ma.comcast.net) has quit (Ping timeout: 245 seconds)
+2013-09-16 18:50:15	--	irc: disconnected from server
+2013-09-16 18:50:44	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #seagl
+2013-09-16 18:50:44	--	Topic for #seagl is "Welcome to the Seattle GNU/Linux conference, Scheduled for October 11th and 12th at SCCC"
+2013-09-16 18:50:44	--	Topic set by kormoc (~kormoc@mythtv/developer/kormoc) on Mon, 22 Jul 2013 20:13:00
+2013-09-16 18:50:44	--	Nicks #seagl: [@ChanServ Anarch auviga Dan68 elcaset ilan jlk JSON_voorhees justinabrahms jxself kormoc meonkeys mjevans revert Salt valorie xris]
+2013-09-16 18:50:44	--	Channel #seagl: 17 nicks (1 op, 0 halfops, 0 voices, 16 normals)
+2013-09-16 18:50:44	--	URL for #seagl: http://www.seagl.org
+2013-09-16 18:50:54	--	Mode #seagl [+cnt]
+2013-09-16 18:50:54	--	Channel created on Sun, 03 May 2009 07:08:26
+2013-09-16 19:50:54	-->	bneg (~AndChat34@65.243.148.48) has joined #seagl
+2013-09-16 20:05:32	<--	bneg (~AndChat34@65.243.148.48) has quit (Quit: Bye)
+2013-09-17 00:33:04	--	irc: disconnected from server
+2013-09-17 00:33:35	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #seagl
+2013-09-17 00:33:36	--	Topic for #seagl is "Welcome to the Seattle GNU/Linux conference, Scheduled for October 11th and 12th at SCCC"
+2013-09-17 00:33:36	--	Topic set by kormoc (~kormoc@mythtv/developer/kormoc) on Mon, 22 Jul 2013 20:13:00
+2013-09-17 00:33:36	--	Nicks #seagl: [@ChanServ Anarch auviga Dan68 elcaset ilan jlk JSON_voorhees justinabrahms jxself kormoc meonkeys mjevans revert Salt valorie xris]
+2013-09-17 00:33:36	--	Channel #seagl: 17 nicks (1 op, 0 halfops, 0 voices, 16 normals)
+2013-09-17 00:33:36	--	URL for #seagl: http://www.seagl.org
+2013-09-17 00:33:47	--	Mode #seagl [+cnt]
+2013-09-17 00:33:48	--	Channel created on Sun, 03 May 2009 07:08:26
+2013-09-17 08:25:23	--	irc: disconnected from server
+2013-09-17 08:25:55	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #seagl
+2013-09-17 08:25:56	--	Topic for #seagl is "Welcome to the Seattle GNU/Linux conference, Scheduled for October 11th and 12th at SCCC"
+2013-09-17 08:25:56	--	Topic set by kormoc (~kormoc@mythtv/developer/kormoc) on Mon, 22 Jul 2013 20:13:00
+2013-09-17 08:25:56	--	Nicks #seagl: [@ChanServ Anarch auviga Dan68 elcaset ilan jlk JSON_voorhees justinabrahms jxself kormoc meonkeys mjevans revert Salt valorie xris]
+2013-09-17 08:25:56	--	Channel #seagl: 17 nicks (1 op, 0 halfops, 0 voices, 16 normals)
+2013-09-17 08:25:57	--	URL for #seagl: http://www.seagl.org
+2013-09-17 08:26:07	--	Mode #seagl [+cnt]
+2013-09-17 08:26:08	--	Channel created on Sun, 03 May 2009 07:08:26
+2013-09-17 10:57:28	--	irc: disconnected from server
+2013-09-17 10:57:57	-->	JSON_voorhees (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has joined #seagl
+2013-09-17 10:57:57	--	Topic for #seagl is "Welcome to the Seattle GNU/Linux conference, Scheduled for October 11th and 12th at SCCC"
+2013-09-17 10:57:57	--	Topic set by kormoc (~kormoc@mythtv/developer/kormoc) on Mon, 22 Jul 2013 20:13:00
+2013-09-17 10:57:57	--	Nicks #seagl: [@ChanServ Anarch auviga Dan68 elcaset freedeb ilan jlk JSON_voorhees justinabrahms jxself kormoc meonkeys mjevans revert Salt valorie xris]
+2013-09-17 10:57:57	--	Channel #seagl: 18 nicks (1 op, 0 halfops, 0 voices, 17 normals)
+2013-09-17 10:57:57	--	URL for #seagl: http://www.seagl.org
+2013-09-17 10:58:09	--	Mode #seagl [+cnt]
+2013-09-17 10:58:09	--	Channel created on Sun, 03 May 2009 07:08:26
+2013-09-17 11:12:29	<--	freedeb (~deb@c-76-118-182-165.hsd1.ma.comcast.net) has quit (Changing host)
+2013-09-17 11:12:29	-->	freedeb (~deb@fsf/emeritus/deborah) has joined #seagl
+2013-09-17 11:12:49	freedeb	is that in Gdocs or on email?
+2013-09-17 11:17:12	meonkeys	github: https://github.com/SeaGL/seagl.github.io/pull/1
+2013-09-17 12:00:16	<--	freedeb (~deb@fsf/emeritus/deborah) has quit (Ping timeout: 264 seconds)
+2013-09-17 12:14:21	meonkeys	my Dad volunteered to get the t-shirts made
+2013-09-17 12:14:30	kormoc	oh awesome!
+2013-09-17 12:34:16	<--	revert (~revert@192.241.236.209) has quit (Ping timeout: 260 seconds)
+2013-09-17 12:37:49	-->	revert (~revert@192.241.236.209) has joined #seagl
+2013-09-17 12:45:42	meonkeys	new website is live
+2013-09-17 12:46:19	meonkeys	check out the new schedule styling
+2013-09-17 12:46:52	Salt	looking good
+2013-09-17 12:48:45	Salt	like the tilt
+2013-09-17 12:58:21	meonkeys	aye
+2013-09-17 14:09:59	meonkeys	staff: go ahead and plug in your shirt size here: https://docs.google.com/a/seagl.org/spreadsheet/ccc?key=0Avuvk-xd4eykdFY4UW9ubHZYVFJMS05ub2VBVC0yZnc#gid=0
+2013-09-17 14:10:12	meonkeys	(not sure yet if we're doing attendee shirts)
+2013-09-17 14:10:27	meonkeys	you'll know if you're staff if you can access that spreadsheet. :)
+2013-09-17 14:11:59	-->	freedeb (~deb@c-76-118-182-165.hsd1.ma.comcast.net) has joined #seagl
+2013-09-17 14:26:31	<--	freedeb (~deb@c-76-118-182-165.hsd1.ma.comcast.net) has quit (Ping timeout: 264 seconds)
+2013-09-17 14:39:27	-->	freedeb (~deb@c-24-61-8-180.hsd1.ma.comcast.net) has joined #seagl
+2013-09-17 14:43:02	freedeb	xris, the website looks awesome!
+2013-09-17 14:43:09	freedeb	fantastic work!
+2013-09-17 14:46:20	freedeb	meonkeys, the sizing may depend on the shirt brand, especially for women
+2013-09-17 14:46:41	freedeb	once we know what brand we're getting, let us all know
+2013-09-17 14:46:54	freedeb	so we can give you the correct size
+2013-09-17 14:47:13	freedeb	BTW, it is super cool that your dad is doing the shirts. :)
+2013-09-17 14:58:05	<--	freedeb (~deb@c-24-61-8-180.hsd1.ma.comcast.net) has quit (Ping timeout: 256 seconds)
+2013-09-17 15:48:39	xris	freenode: I didn't do the website.  but yeah, looks good.
+2013-09-17 15:49:23	xris	different chris.  :)
+2013-09-17 16:30:20	ilan	xris: sponsorship docs look ok?
+2013-09-17 16:30:29	xris	haven't had a chance to look
+2013-09-17 16:30:32	xris	too much real work
+2013-09-17 16:30:56	ilan	i figured :)
+2013-09-17 16:31:02	ilan	just trying to make sure im not the blocker anywhere :)
+2013-09-17 16:31:16	xris	heh
+2013-09-17 16:31:19	xris	we appreciate that
+2013-09-17 16:31:25	ilan	i know you mentioned have sponsors booked and waiting.
+2013-09-17 16:31:35	xris	did you happen to get the Platinum level added in that I added yesterday?
+2013-09-17 16:32:12	xris	I may need to change the wording on that one, actually..  add the "or" to "full page add or two half-page ads"
+2013-09-17 16:35:25	ilan	yes
+2013-09-17 16:35:42	ilan	xris: ok. feel free to modify that part. really only the terms and CC pages need to say as is
+2013-09-17 16:45:56	kormoc	I'll get to look at it tonight after I get home
+2013-09-17 17:05:52	justinabrahms	Do I need to do anything special to update my talk title/description? Or will it eventually auto-sync?
+2013-09-17 17:05:58	justinabrahms	I've edited it in lanyrd.
+2013-09-17 17:08:01	kormoc	it should sync in a few minutes
+2013-09-17 17:08:32	kormoc	"EMACS VS VIM: SIMILARITIES VS DIFFERENCES" is what I see now
+2013-09-17 17:08:43	justinabrahms	that's it (save the edit I just made) :)
+2013-09-17 17:08:54	justinabrahms	Description sound reasonable?
+2013-09-17 17:09:16	kormoc	Very
+2013-09-17 17:09:36	justinabrahms	:)
+2013-09-17 17:37:49	xris	justinabrahms: I'm going to go to that just so I can say stuff like "but nano is easier!"  ;)
+2013-09-18 02:34:25	--	irc: disconnected from server
+2013-09-18 02:34:55	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #seagl
+2013-09-18 02:34:55	--	Topic for #seagl is "Welcome to the Seattle GNU/Linux conference, Scheduled for October 11th and 12th at SCCC | SeaGL.org"
+2013-09-18 02:34:55	--	Topic set by kormoc (~kormoc@mythtv/developer/kormoc) on Tue, 17 Sep 2013 20:57:34
+2013-09-18 02:34:55	--	Nicks #seagl: [@ChanServ @kormoc Anarch auviga Dan68 elcaset ilan jlk JSON_voorhees justinabrahms jxself meonkeys mjevans revert Salt valorie xris]
+2013-09-18 02:34:55	--	Channel #seagl: 17 nicks (2 ops, 0 halfops, 0 voices, 15 normals)
+2013-09-18 02:34:56	--	URL for #seagl: http://www.seagl.org
+2013-09-18 02:35:05	--	Mode #seagl [+cnt]
+2013-09-18 02:35:06	--	Channel created on Sun, 03 May 2009 07:08:26
+2013-09-18 08:25:13	--	irc: disconnected from server
+2013-09-18 08:25:43	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #seagl
+2013-09-18 08:25:43	--	Topic for #seagl is "Welcome to the Seattle GNU/Linux conference, Scheduled for October 11th and 12th at SCCC | SeaGL.org"
+2013-09-18 08:25:43	--	Topic set by kormoc (~kormoc@mythtv/developer/kormoc) on Tue, 17 Sep 2013 20:57:35
+2013-09-18 08:25:43	--	Nicks #seagl: [@ChanServ @kormoc auviga elcaset freedeb ilan jlk JSON_voorhees justinabrahms jxself meonkeys mjevans revert Salt valorie]
+2013-09-18 08:25:43	--	Channel #seagl: 15 nicks (2 ops, 0 halfops, 0 voices, 13 normals)
+2013-09-18 08:25:44	--	URL for #seagl: http://www.seagl.org
+2013-09-18 08:25:53	--	Mode #seagl [+cnt]
+2013-09-18 08:25:53	--	Channel created on Sun, 03 May 2009 07:08:26
+2013-09-18 09:19:22	-->	xris (~xris@xris.forevermore.net) has joined #seagl

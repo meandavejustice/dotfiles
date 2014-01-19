@@ -1,0 +1,577 @@
+2014-01-17 10:45:27	--	irc: connecting to server irc.mozilla.org/6667...
+2014-01-17 10:45:27	--	irc: connected to irc.mozilla.org/6667 (63.245.216.214)
+2014-01-17 10:45:27	--	concrete.mozilla.org (concrete.mozilla.org): *** Looking up your hostname...
+2014-01-17 10:45:27	--	concrete.mozilla.org (concrete.mozilla.org): *** Found your hostname
+2014-01-17 10:45:28	--	Welcome to the Mozilla IRC Network JSON_voorhees!JSON_voorh@c-71-56-139-32.hsd1.or.comcast.net
+2014-01-17 10:45:28	--	Your host is concrete.mozilla.org, running version Unreal3.2.8
+2014-01-17 10:45:28	--	This server was created Tue Mar 24 2009 at 19:56:50 PDT
+2014-01-17 10:45:28	--	concrete.mozilla.org Unreal3.2.8 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGj
+2014-01-17 10:45:28	--	CMDS=KNOCK,MAP,DCCALLOW,USERIP UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=100 CHANLIMIT=#:100 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 :are supported by this server
+2014-01-17 10:45:28	--	MAXTARGETS=20 WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(ohv)@%+ CHANMODES=beIqa,kfL,lj,psmntirRcOAQKVCuzNSMTG NETWORK=Mozilla CASEMAPPING=ascii EXTBAN=~,cqnr ELIST=MNUCT :are supported by this server
+2014-01-17 10:45:28	--	STATUSMSG=@%+ EXCEPTS INVEX :are supported by this server
+2014-01-17 10:45:28	--	There are 23 users and 2904 invisible on 4 servers
+2014-01-17 10:45:28	--	19 :operator(s) online
+2014-01-17 10:45:28	--	4 :unknown connection(s)
+2014-01-17 10:45:28	--	942 :channels formed
+2014-01-17 10:45:28	--	I have 2907 clients and 2 servers
+2014-01-17 10:45:28	--	Current Local Users: 2907  Max: 3221
+2014-01-17 10:45:28	--	Current Global Users: 2927  Max: 3831
+2014-01-17 10:45:28	--	- concrete.mozilla.org Message of the Day -
+2014-01-17 10:45:28	--	- 13/2/2013 22:16
+2014-01-17 10:45:28	--	- ____________________________________________________________________
+2014-01-17 10:45:28	--	-           |          |  _        |      :    |           |
+2014-01-17 10:45:28	--	-  __ ___ _ _  __ _ _ ___| |_ ___  |      ,    |           |
+2014-01-17 10:45:28	--	- / _/ _ \ ' \/ _| '_/ -_)  _/ -_) |      ,'   |           |
+2014-01-17 10:45:28	--	- \__\___/_||_\__|_| \___|\__\___| |    ,'     |           |
+2014-01-17 10:45:28	--	-           |          |           |    :      |           |
+2014-01-17 10:45:28	--	- __________|__________|___________|___________|___________|__________
+2014-01-17 10:45:28	--	-                  M O Z I L L A   D O T   O R G
+2014-01-17 10:45:28	--	-                     http://www.mozilla.org/
+2014-01-17 10:45:28	--	-
+2014-01-17 10:45:28	--	- =================================================================
+2014-01-17 10:45:28	--	-  This server is for use by Mozilla developers, testers, and
+2014-01-17 10:45:28	--	-  users. If you are not one, please find another server.
+2014-01-17 10:45:28	--	-
+2014-01-17 10:45:28	--	-  NOTICE: Your IP address will be portscanned by our open
+2014-01-17 10:45:28	--	-  proxy tester.  See http://irc.mozilla.org/ for details.
+2014-01-17 10:45:28	--	-
+2014-01-17 10:45:28	--	- =================================================================
+2014-01-17 10:45:28	--	- Project information:
+2014-01-17 10:45:28	--	-  Firefox                #firefox     http://support.mozilla.org
+2014-01-17 10:45:28	--	-  Mobile                 #mobile      http://support.mozilla.org/mobile
+2014-01-17 10:45:28	--	-  Thunderbird            #thunderbird http://support.mozillamessaging.com
+2014-01-17 10:45:28	--	-  Boot2Gecko (FirefoxOS) #b2g         https://www.mozilla.org/firefoxos/
+2014-01-17 10:45:28	--	-
+2014-01-17 10:45:28	--	- Help for new contributors:
+2014-01-17 10:45:28	--	-    #introduction     http://developer.mozilla.org/En/Introduction
+2014-01-17 10:45:28	--	- =================================================================
+2014-01-17 10:45:28	--	-
+2014-01-17 10:45:28	--	-  For a list of other helpful channels please visit
+2014-01-17 10:45:28	--	-  http://irc.mozilla.org/ or use the /list command.
+2014-01-17 10:45:28	--	-  Additional help with IRC at http://www.irchelp.org/
+2014-01-17 10:45:28	--	End of /MOTD command.
+2014-01-17 10:45:28	--	User mode [+ix] by JSON_voorhees
+2014-01-17 19:01:14	=!=	irc: reading data on socket: error 60 Operation timed out
+2014-01-17 19:01:14	--	irc: disconnecting from server...
+2014-01-17 19:01:14	--	irc: disconnected from server
+2014-01-17 19:01:14	--	irc: reconnecting to server in 10 seconds
+2014-01-17 19:01:24	--	irc: reconnecting to server...
+2014-01-17 19:01:24	--	irc: connecting to server irc.mozilla.org/6667...
+2014-01-17 19:01:24	--	irc: connected to irc.mozilla.org/6667 (63.245.216.214)
+2014-01-17 19:01:24	--	concrete.mozilla.org (concrete.mozilla.org): *** Looking up your hostname...
+2014-01-17 19:01:24	--	concrete.mozilla.org (concrete.mozilla.org): *** Found your hostname
+2014-01-17 19:01:24	--	Welcome to the Mozilla IRC Network JSON_voorhees!JSON_voorh@c-98-246-113-149.hsd1.or.comcast.net
+2014-01-17 19:01:24	--	Your host is concrete.mozilla.org, running version Unreal3.2.8
+2014-01-17 19:01:24	--	This server was created Tue Mar 24 2009 at 19:56:50 PDT
+2014-01-17 19:01:24	--	concrete.mozilla.org Unreal3.2.8 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGj
+2014-01-17 19:01:24	--	CMDS=KNOCK,MAP,DCCALLOW,USERIP UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=100 CHANLIMIT=#:100 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 :are supported by this server
+2014-01-17 19:01:24	--	MAXTARGETS=20 WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(ohv)@%+ CHANMODES=beIqa,kfL,lj,psmntirRcOAQKVCuzNSMTG NETWORK=Mozilla CASEMAPPING=ascii EXTBAN=~,cqnr ELIST=MNUCT :are supported by this server
+2014-01-17 19:01:24	--	STATUSMSG=@%+ EXCEPTS INVEX :are supported by this server
+2014-01-17 19:01:24	--	There are 23 users and 2350 invisible on 4 servers
+2014-01-17 19:01:24	--	19 :operator(s) online
+2014-01-17 19:01:24	--	6 :unknown connection(s)
+2014-01-17 19:01:24	--	893 :channels formed
+2014-01-17 19:01:24	--	I have 2353 clients and 2 servers
+2014-01-17 19:01:24	--	Current Local Users: 2353  Max: 3221
+2014-01-17 19:01:24	--	Current Global Users: 2373  Max: 3831
+2014-01-17 19:01:24	--	- concrete.mozilla.org Message of the Day -
+2014-01-17 19:01:24	--	- 13/2/2013 22:16
+2014-01-17 19:01:24	--	- ____________________________________________________________________
+2014-01-17 19:01:24	--	-           |          |  _        |      :    |           |
+2014-01-17 19:01:24	--	-  __ ___ _ _  __ _ _ ___| |_ ___  |      ,    |           |
+2014-01-17 19:01:24	--	- / _/ _ \ ' \/ _| '_/ -_)  _/ -_) |      ,'   |           |
+2014-01-17 19:01:24	--	- \__\___/_||_\__|_| \___|\__\___| |    ,'     |           |
+2014-01-17 19:01:24	--	-           |          |           |    :      |           |
+2014-01-17 19:01:24	--	- __________|__________|___________|___________|___________|__________
+2014-01-17 19:01:24	--	-                  M O Z I L L A   D O T   O R G
+2014-01-17 19:01:24	--	-                     http://www.mozilla.org/
+2014-01-17 19:01:24	--	-
+2014-01-17 19:01:24	--	- =================================================================
+2014-01-17 19:01:24	--	-  This server is for use by Mozilla developers, testers, and
+2014-01-17 19:01:24	--	-  users. If you are not one, please find another server.
+2014-01-17 19:01:24	--	-
+2014-01-17 19:01:24	--	-  NOTICE: Your IP address will be portscanned by our open
+2014-01-17 19:01:24	--	-  proxy tester.  See http://irc.mozilla.org/ for details.
+2014-01-17 19:01:24	--	-
+2014-01-17 19:01:24	--	- =================================================================
+2014-01-17 19:01:24	--	- Project information:
+2014-01-17 19:01:24	--	-  Firefox                #firefox     http://support.mozilla.org
+2014-01-17 19:01:24	--	-  Mobile                 #mobile      http://support.mozilla.org/mobile
+2014-01-17 19:01:24	--	-  Thunderbird            #thunderbird http://support.mozillamessaging.com
+2014-01-17 19:01:24	--	-  Boot2Gecko (FirefoxOS) #b2g         https://www.mozilla.org/firefoxos/
+2014-01-17 19:01:24	--	-
+2014-01-17 19:01:24	--	- Help for new contributors:
+2014-01-17 19:01:24	--	-    #introduction     http://developer.mozilla.org/En/Introduction
+2014-01-17 19:01:24	--	- =================================================================
+2014-01-17 19:01:24	--	-
+2014-01-17 19:01:24	--	-  For a list of other helpful channels please visit
+2014-01-17 19:01:24	--	-  http://irc.mozilla.org/ or use the /list command.
+2014-01-17 19:01:24	--	-  Additional help with IRC at http://www.irchelp.org/
+2014-01-17 19:01:24	--	End of /MOTD command.
+2014-01-17 19:01:24	--	User mode [+ix] by JSON_voorhees
+2014-01-17 19:37:47	=!=	irc: reading data on socket: error 60 Operation timed out
+2014-01-17 19:37:47	--	irc: disconnecting from server...
+2014-01-17 19:37:47	--	irc: disconnected from server
+2014-01-17 19:37:47	--	irc: reconnecting to server in 10 seconds
+2014-01-17 19:37:57	--	irc: reconnecting to server...
+2014-01-17 19:37:57	--	irc: connecting to server irc.mozilla.org/6667...
+2014-01-17 19:37:57	--	irc: connected to irc.mozilla.org/6667 (63.245.216.214)
+2014-01-17 19:37:57	--	concrete.mozilla.org (concrete.mozilla.org): *** Looking up your hostname...
+2014-01-17 19:37:57	--	concrete.mozilla.org (concrete.mozilla.org): *** Found your hostname
+2014-01-17 19:37:57	--	Welcome to the Mozilla IRC Network JSON_voorhees!JSON_voorh@c-98-246-113-149.hsd1.or.comcast.net
+2014-01-17 19:37:57	--	Your host is concrete.mozilla.org, running version Unreal3.2.8
+2014-01-17 19:37:57	--	This server was created Tue Mar 24 2009 at 19:56:50 PDT
+2014-01-17 19:37:57	--	concrete.mozilla.org Unreal3.2.8 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGj
+2014-01-17 19:37:57	--	CMDS=KNOCK,MAP,DCCALLOW,USERIP UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=100 CHANLIMIT=#:100 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 :are supported by this server
+2014-01-17 19:37:57	--	MAXTARGETS=20 WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(ohv)@%+ CHANMODES=beIqa,kfL,lj,psmntirRcOAQKVCuzNSMTG NETWORK=Mozilla CASEMAPPING=ascii EXTBAN=~,cqnr ELIST=MNUCT :are supported by this server
+2014-01-17 19:37:57	--	STATUSMSG=@%+ EXCEPTS INVEX :are supported by this server
+2014-01-17 19:37:57	--	There are 23 users and 2347 invisible on 4 servers
+2014-01-17 19:37:57	--	19 :operator(s) online
+2014-01-17 19:37:57	--	1 :unknown connection(s)
+2014-01-17 19:37:57	--	864 :channels formed
+2014-01-17 19:37:57	--	I have 2351 clients and 2 servers
+2014-01-17 19:37:57	--	Current Local Users: 2351  Max: 3221
+2014-01-17 19:37:57	--	Current Global Users: 2370  Max: 3831
+2014-01-17 19:37:57	--	- concrete.mozilla.org Message of the Day -
+2014-01-17 19:37:57	--	- 13/2/2013 22:16
+2014-01-17 19:37:57	--	- ____________________________________________________________________
+2014-01-17 19:37:57	--	-           |          |  _        |      :    |           |
+2014-01-17 19:37:57	--	-  __ ___ _ _  __ _ _ ___| |_ ___  |      ,    |           |
+2014-01-17 19:37:57	--	- / _/ _ \ ' \/ _| '_/ -_)  _/ -_) |      ,'   |           |
+2014-01-17 19:37:57	--	- \__\___/_||_\__|_| \___|\__\___| |    ,'     |           |
+2014-01-17 19:37:57	--	-           |          |           |    :      |           |
+2014-01-17 19:37:57	--	- __________|__________|___________|___________|___________|__________
+2014-01-17 19:37:57	--	-                  M O Z I L L A   D O T   O R G
+2014-01-17 19:37:57	--	-                     http://www.mozilla.org/
+2014-01-17 19:37:57	--	-
+2014-01-17 19:37:57	--	- =================================================================
+2014-01-17 19:37:57	--	-  This server is for use by Mozilla developers, testers, and
+2014-01-17 19:37:57	--	-  users. If you are not one, please find another server.
+2014-01-17 19:37:57	--	-
+2014-01-17 19:37:57	--	-  NOTICE: Your IP address will be portscanned by our open
+2014-01-17 19:37:57	--	-  proxy tester.  See http://irc.mozilla.org/ for details.
+2014-01-17 19:37:57	--	-
+2014-01-17 19:37:57	--	- =================================================================
+2014-01-17 19:37:57	--	- Project information:
+2014-01-17 19:37:57	--	-  Firefox                #firefox     http://support.mozilla.org
+2014-01-17 19:37:57	--	-  Mobile                 #mobile      http://support.mozilla.org/mobile
+2014-01-17 19:37:57	--	-  Thunderbird            #thunderbird http://support.mozillamessaging.com
+2014-01-17 19:37:57	--	-  Boot2Gecko (FirefoxOS) #b2g         https://www.mozilla.org/firefoxos/
+2014-01-17 19:37:57	--	-
+2014-01-17 19:37:57	--	- Help for new contributors:
+2014-01-17 19:37:57	--	-    #introduction     http://developer.mozilla.org/En/Introduction
+2014-01-17 19:37:57	--	- =================================================================
+2014-01-17 19:37:57	--	-
+2014-01-17 19:37:57	--	-  For a list of other helpful channels please visit
+2014-01-17 19:37:57	--	-  http://irc.mozilla.org/ or use the /list command.
+2014-01-17 19:37:57	--	-  Additional help with IRC at http://www.irchelp.org/
+2014-01-17 19:37:57	--	End of /MOTD command.
+2014-01-17 19:37:57	--	User mode [+ix] by JSON_voorhees
+2014-01-17 19:57:40	=!=	irc: reading data on socket: error 60 Operation timed out
+2014-01-17 19:57:40	--	irc: disconnecting from server...
+2014-01-17 19:57:40	--	irc: disconnected from server
+2014-01-17 19:57:40	--	irc: reconnecting to server in 10 seconds
+2014-01-17 19:57:50	--	irc: reconnecting to server...
+2014-01-17 19:57:50	--	irc: connecting to server irc.mozilla.org/6667...
+2014-01-17 19:57:50	--	irc: connected to irc.mozilla.org/6667 (63.245.216.214)
+2014-01-17 19:57:50	--	concrete.mozilla.org (concrete.mozilla.org): *** Looking up your hostname...
+2014-01-17 19:57:50	--	concrete.mozilla.org (concrete.mozilla.org): *** Found your hostname
+2014-01-17 19:57:50	--	Welcome to the Mozilla IRC Network JSON_voorhees!JSON_voorh@c-98-246-113-149.hsd1.or.comcast.net
+2014-01-17 19:57:50	--	Your host is concrete.mozilla.org, running version Unreal3.2.8
+2014-01-17 19:57:50	--	This server was created Tue Mar 24 2009 at 19:56:50 PDT
+2014-01-17 19:57:50	--	concrete.mozilla.org Unreal3.2.8 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGj
+2014-01-17 19:57:50	--	CMDS=KNOCK,MAP,DCCALLOW,USERIP UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=100 CHANLIMIT=#:100 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 :are supported by this server
+2014-01-17 19:57:50	--	MAXTARGETS=20 WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(ohv)@%+ CHANMODES=beIqa,kfL,lj,psmntirRcOAQKVCuzNSMTG NETWORK=Mozilla CASEMAPPING=ascii EXTBAN=~,cqnr ELIST=MNUCT :are supported by this server
+2014-01-17 19:57:50	--	STATUSMSG=@%+ EXCEPTS INVEX :are supported by this server
+2014-01-17 19:57:50	--	There are 23 users and 2345 invisible on 4 servers
+2014-01-17 19:57:50	--	19 :operator(s) online
+2014-01-17 19:57:50	--	1 :unknown connection(s)
+2014-01-17 19:57:50	--	864 :channels formed
+2014-01-17 19:57:50	--	I have 2348 clients and 2 servers
+2014-01-17 19:57:50	--	Current Local Users: 2348  Max: 3221
+2014-01-17 19:57:50	--	Current Global Users: 2368  Max: 3831
+2014-01-17 19:57:50	--	- concrete.mozilla.org Message of the Day -
+2014-01-17 19:57:50	--	- 13/2/2013 22:16
+2014-01-17 19:57:50	--	- ____________________________________________________________________
+2014-01-17 19:57:50	--	-           |          |  _        |      :    |           |
+2014-01-17 19:57:50	--	-  __ ___ _ _  __ _ _ ___| |_ ___  |      ,    |           |
+2014-01-17 19:57:50	--	- / _/ _ \ ' \/ _| '_/ -_)  _/ -_) |      ,'   |           |
+2014-01-17 19:57:50	--	- \__\___/_||_\__|_| \___|\__\___| |    ,'     |           |
+2014-01-17 19:57:50	--	-           |          |           |    :      |           |
+2014-01-17 19:57:50	--	- __________|__________|___________|___________|___________|__________
+2014-01-17 19:57:50	--	-                  M O Z I L L A   D O T   O R G
+2014-01-17 19:57:50	--	-                     http://www.mozilla.org/
+2014-01-17 19:57:50	--	-
+2014-01-17 19:57:50	--	- =================================================================
+2014-01-17 19:57:50	--	-  This server is for use by Mozilla developers, testers, and
+2014-01-17 19:57:50	--	-  users. If you are not one, please find another server.
+2014-01-17 19:57:50	--	-
+2014-01-17 19:57:50	--	-  NOTICE: Your IP address will be portscanned by our open
+2014-01-17 19:57:50	--	-  proxy tester.  See http://irc.mozilla.org/ for details.
+2014-01-17 19:57:50	--	-
+2014-01-17 19:57:50	--	- =================================================================
+2014-01-17 19:57:50	--	- Project information:
+2014-01-17 19:57:50	--	-  Firefox                #firefox     http://support.mozilla.org
+2014-01-17 19:57:50	--	-  Mobile                 #mobile      http://support.mozilla.org/mobile
+2014-01-17 19:57:50	--	-  Thunderbird            #thunderbird http://support.mozillamessaging.com
+2014-01-17 19:57:50	--	-  Boot2Gecko (FirefoxOS) #b2g         https://www.mozilla.org/firefoxos/
+2014-01-17 19:57:50	--	-
+2014-01-17 19:57:50	--	- Help for new contributors:
+2014-01-17 19:57:50	--	-    #introduction     http://developer.mozilla.org/En/Introduction
+2014-01-17 19:57:50	--	- =================================================================
+2014-01-17 19:57:50	--	-
+2014-01-17 19:57:50	--	-  For a list of other helpful channels please visit
+2014-01-17 19:57:50	--	-  http://irc.mozilla.org/ or use the /list command.
+2014-01-17 19:57:50	--	-  Additional help with IRC at http://www.irchelp.org/
+2014-01-17 19:57:50	--	End of /MOTD command.
+2014-01-17 19:57:50	--	User mode [+ix] by JSON_voorhees
+2014-01-18 10:02:04	=!=	irc: reading data on socket: error 60 Operation timed out
+2014-01-18 10:02:04	--	irc: disconnecting from server...
+2014-01-18 10:02:04	--	irc: disconnected from server
+2014-01-18 10:02:04	--	irc: reconnecting to server in 10 seconds
+2014-01-18 10:02:14	--	irc: reconnecting to server...
+2014-01-18 10:02:14	--	irc: connecting to server irc.mozilla.org/6667...
+2014-01-18 10:02:14	--	irc: connected to irc.mozilla.org/6667 (63.245.216.214)
+2014-01-18 10:02:14	--	concrete.mozilla.org (concrete.mozilla.org): *** Looking up your hostname...
+2014-01-18 10:02:14	--	concrete.mozilla.org (concrete.mozilla.org): *** Found your hostname
+2014-01-18 10:02:14	--	Welcome to the Mozilla IRC Network JSON_voorhees!JSON_voorh@c-98-246-113-149.hsd1.or.comcast.net
+2014-01-18 10:02:14	--	Your host is concrete.mozilla.org, running version Unreal3.2.8
+2014-01-18 10:02:14	--	This server was created Tue Mar 24 2009 at 19:56:50 PDT
+2014-01-18 10:02:14	--	concrete.mozilla.org Unreal3.2.8 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGj
+2014-01-18 10:02:14	--	CMDS=KNOCK,MAP,DCCALLOW,USERIP UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=100 CHANLIMIT=#:100 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 :are supported by this server
+2014-01-18 10:02:14	--	MAXTARGETS=20 WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(ohv)@%+ CHANMODES=beIqa,kfL,lj,psmntirRcOAQKVCuzNSMTG NETWORK=Mozilla CASEMAPPING=ascii EXTBAN=~,cqnr ELIST=MNUCT :are supported by this server
+2014-01-18 10:02:14	--	STATUSMSG=@%+ EXCEPTS INVEX :are supported by this server
+2014-01-18 10:02:14	--	There are 24 users and 2477 invisible on 4 servers
+2014-01-18 10:02:14	--	19 :operator(s) online
+2014-01-18 10:02:14	--	6 :unknown connection(s)
+2014-01-18 10:02:14	--	880 :channels formed
+2014-01-18 10:02:14	--	I have 2480 clients and 2 servers
+2014-01-18 10:02:14	--	Current Local Users: 2480  Max: 3221
+2014-01-18 10:02:14	--	Current Global Users: 2501  Max: 3831
+2014-01-18 10:02:14	--	- concrete.mozilla.org Message of the Day -
+2014-01-18 10:02:14	--	- 13/2/2013 22:16
+2014-01-18 10:02:14	--	- ____________________________________________________________________
+2014-01-18 10:02:14	--	-           |          |  _        |      :    |           |
+2014-01-18 10:02:14	--	-  __ ___ _ _  __ _ _ ___| |_ ___  |      ,    |           |
+2014-01-18 10:02:14	--	- / _/ _ \ ' \/ _| '_/ -_)  _/ -_) |      ,'   |           |
+2014-01-18 10:02:14	--	- \__\___/_||_\__|_| \___|\__\___| |    ,'     |           |
+2014-01-18 10:02:14	--	-           |          |           |    :      |           |
+2014-01-18 10:02:14	--	- __________|__________|___________|___________|___________|__________
+2014-01-18 10:02:14	--	-                  M O Z I L L A   D O T   O R G
+2014-01-18 10:02:14	--	-                     http://www.mozilla.org/
+2014-01-18 10:02:14	--	-
+2014-01-18 10:02:14	--	- =================================================================
+2014-01-18 10:02:14	--	-  This server is for use by Mozilla developers, testers, and
+2014-01-18 10:02:14	--	-  users. If you are not one, please find another server.
+2014-01-18 10:02:14	--	-
+2014-01-18 10:02:14	--	-  NOTICE: Your IP address will be portscanned by our open
+2014-01-18 10:02:14	--	-  proxy tester.  See http://irc.mozilla.org/ for details.
+2014-01-18 10:02:14	--	-
+2014-01-18 10:02:14	--	- =================================================================
+2014-01-18 10:02:14	--	- Project information:
+2014-01-18 10:02:14	--	-  Firefox                #firefox     http://support.mozilla.org
+2014-01-18 10:02:14	--	-  Mobile                 #mobile      http://support.mozilla.org/mobile
+2014-01-18 10:02:14	--	-  Thunderbird            #thunderbird http://support.mozillamessaging.com
+2014-01-18 10:02:14	--	-  Boot2Gecko (FirefoxOS) #b2g         https://www.mozilla.org/firefoxos/
+2014-01-18 10:02:14	--	-
+2014-01-18 10:02:14	--	- Help for new contributors:
+2014-01-18 10:02:14	--	-    #introduction     http://developer.mozilla.org/En/Introduction
+2014-01-18 10:02:14	--	- =================================================================
+2014-01-18 10:02:14	--	-
+2014-01-18 10:02:14	--	-  For a list of other helpful channels please visit
+2014-01-18 10:02:14	--	-  http://irc.mozilla.org/ or use the /list command.
+2014-01-18 10:02:14	--	-  Additional help with IRC at http://www.irchelp.org/
+2014-01-18 10:02:14	--	End of /MOTD command.
+2014-01-18 10:02:14	--	User mode [+ix] by JSON_voorhees
+2014-01-18 11:38:44	=!=	irc: reading data on socket: error 60 Operation timed out
+2014-01-18 11:38:44	--	irc: disconnecting from server...
+2014-01-18 11:38:44	--	irc: disconnected from server
+2014-01-18 11:38:44	--	irc: reconnecting to server in 10 seconds
+2014-01-18 11:38:54	--	irc: reconnecting to server...
+2014-01-18 11:38:54	--	irc: connecting to server irc.mozilla.org/6667...
+2014-01-18 11:38:54	--	irc: connected to irc.mozilla.org/6667 (63.245.216.214)
+2014-01-18 11:38:54	--	concrete.mozilla.org (concrete.mozilla.org): *** Looking up your hostname...
+2014-01-18 11:38:54	--	concrete.mozilla.org (concrete.mozilla.org): *** Found your hostname
+2014-01-18 11:38:55	--	Welcome to the Mozilla IRC Network JSON_voorhees!JSON_voorh@c-76-115-14-93.hsd1.or.comcast.net
+2014-01-18 11:38:55	--	Your host is concrete.mozilla.org, running version Unreal3.2.8
+2014-01-18 11:38:55	--	This server was created Tue Mar 24 2009 at 19:56:50 PDT
+2014-01-18 11:38:55	--	concrete.mozilla.org Unreal3.2.8 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGj
+2014-01-18 11:38:55	--	CMDS=KNOCK,MAP,DCCALLOW,USERIP UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=100 CHANLIMIT=#:100 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 :are supported by this server
+2014-01-18 11:38:55	--	MAXTARGETS=20 WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(ohv)@%+ CHANMODES=beIqa,kfL,lj,psmntirRcOAQKVCuzNSMTG NETWORK=Mozilla CASEMAPPING=ascii EXTBAN=~,cqnr ELIST=MNUCT :are supported by this server
+2014-01-18 11:38:55	--	STATUSMSG=@%+ EXCEPTS INVEX :are supported by this server
+2014-01-18 11:38:55	--	There are 24 users and 2869 invisible on 4 servers
+2014-01-18 11:38:55	--	19 :operator(s) online
+2014-01-18 11:38:55	--	91 :unknown connection(s)
+2014-01-18 11:38:55	--	868 :channels formed
+2014-01-18 11:38:55	--	I have 2873 clients and 2 servers
+2014-01-18 11:38:55	--	Current Local Users: 2873  Max: 3221
+2014-01-18 11:38:55	--	Current Global Users: 2893  Max: 3831
+2014-01-18 11:38:55	--	- concrete.mozilla.org Message of the Day -
+2014-01-18 11:38:55	--	- 13/2/2013 22:16
+2014-01-18 11:38:55	--	- ____________________________________________________________________
+2014-01-18 11:38:55	--	-           |          |  _        |      :    |           |
+2014-01-18 11:38:55	--	-  __ ___ _ _  __ _ _ ___| |_ ___  |      ,    |           |
+2014-01-18 11:38:55	--	- / _/ _ \ ' \/ _| '_/ -_)  _/ -_) |      ,'   |           |
+2014-01-18 11:38:55	--	- \__\___/_||_\__|_| \___|\__\___| |    ,'     |           |
+2014-01-18 11:38:55	--	-           |          |           |    :      |           |
+2014-01-18 11:38:55	--	- __________|__________|___________|___________|___________|__________
+2014-01-18 11:38:55	--	-                  M O Z I L L A   D O T   O R G
+2014-01-18 11:38:55	--	-                     http://www.mozilla.org/
+2014-01-18 11:38:55	--	-
+2014-01-18 11:38:55	--	- =================================================================
+2014-01-18 11:38:55	--	-  This server is for use by Mozilla developers, testers, and
+2014-01-18 11:38:55	--	-  users. If you are not one, please find another server.
+2014-01-18 11:38:55	--	-
+2014-01-18 11:38:55	--	-  NOTICE: Your IP address will be portscanned by our open
+2014-01-18 11:38:55	--	-  proxy tester.  See http://irc.mozilla.org/ for details.
+2014-01-18 11:38:55	--	-
+2014-01-18 11:38:55	--	- =================================================================
+2014-01-18 11:38:55	--	- Project information:
+2014-01-18 11:38:55	--	-  Firefox                #firefox     http://support.mozilla.org
+2014-01-18 11:38:55	--	-  Mobile                 #mobile      http://support.mozilla.org/mobile
+2014-01-18 11:38:55	--	-  Thunderbird            #thunderbird http://support.mozillamessaging.com
+2014-01-18 11:38:55	--	-  Boot2Gecko (FirefoxOS) #b2g         https://www.mozilla.org/firefoxos/
+2014-01-18 11:38:55	--	-
+2014-01-18 11:38:55	--	- Help for new contributors:
+2014-01-18 11:38:55	--	-    #introduction     http://developer.mozilla.org/En/Introduction
+2014-01-18 11:38:55	--	- =================================================================
+2014-01-18 11:38:55	--	-
+2014-01-18 11:38:55	--	-  For a list of other helpful channels please visit
+2014-01-18 11:38:55	--	-  http://irc.mozilla.org/ or use the /list command.
+2014-01-18 11:38:55	--	-  Additional help with IRC at http://www.irchelp.org/
+2014-01-18 11:38:55	--	End of /MOTD command.
+2014-01-18 11:38:55	--	User mode [+ix] by JSON_voorhees
+2014-01-18 12:41:05	=!=	irc: reading data on socket: error 60 Operation timed out
+2014-01-18 12:41:05	--	irc: disconnecting from server...
+2014-01-18 12:41:05	--	irc: disconnected from server
+2014-01-18 12:41:05	--	irc: reconnecting to server in 10 seconds
+2014-01-18 12:41:15	--	irc: reconnecting to server...
+2014-01-18 12:41:15	--	irc: connecting to server irc.mozilla.org/6667...
+2014-01-18 12:41:15	--	irc: connected to irc.mozilla.org/6667 (63.245.216.214)
+2014-01-18 12:41:15	--	concrete.mozilla.org (concrete.mozilla.org): *** Looking up your hostname...
+2014-01-18 12:41:15	--	concrete.mozilla.org (concrete.mozilla.org): *** Found your hostname
+2014-01-18 12:41:15	--	Welcome to the Mozilla IRC Network JSON_voorhees!JSON_voorh@c-71-237-213-89.hsd1.or.comcast.net
+2014-01-18 12:41:15	--	Your host is concrete.mozilla.org, running version Unreal3.2.8
+2014-01-18 12:41:15	--	This server was created Tue Mar 24 2009 at 19:56:50 PDT
+2014-01-18 12:41:15	--	concrete.mozilla.org Unreal3.2.8 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGj
+2014-01-18 12:41:15	--	CMDS=KNOCK,MAP,DCCALLOW,USERIP UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=100 CHANLIMIT=#:100 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 :are supported by this server
+2014-01-18 12:41:15	--	MAXTARGETS=20 WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(ohv)@%+ CHANMODES=beIqa,kfL,lj,psmntirRcOAQKVCuzNSMTG NETWORK=Mozilla CASEMAPPING=ascii EXTBAN=~,cqnr ELIST=MNUCT :are supported by this server
+2014-01-18 12:41:15	--	STATUSMSG=@%+ EXCEPTS INVEX :are supported by this server
+2014-01-18 12:41:15	--	There are 24 users and 2666 invisible on 4 servers
+2014-01-18 12:41:15	--	19 :operator(s) online
+2014-01-18 12:41:15	--	104 :unknown connection(s)
+2014-01-18 12:41:15	--	872 :channels formed
+2014-01-18 12:41:15	--	I have 2670 clients and 2 servers
+2014-01-18 12:41:15	--	Current Local Users: 2670  Max: 3221
+2014-01-18 12:41:15	--	Current Global Users: 2690  Max: 3831
+2014-01-18 12:41:15	--	- concrete.mozilla.org Message of the Day -
+2014-01-18 12:41:15	--	- 13/2/2013 22:16
+2014-01-18 12:41:15	--	- ____________________________________________________________________
+2014-01-18 12:41:15	--	-           |          |  _        |      :    |           |
+2014-01-18 12:41:15	--	-  __ ___ _ _  __ _ _ ___| |_ ___  |      ,    |           |
+2014-01-18 12:41:15	--	- / _/ _ \ ' \/ _| '_/ -_)  _/ -_) |      ,'   |           |
+2014-01-18 12:41:15	--	- \__\___/_||_\__|_| \___|\__\___| |    ,'     |           |
+2014-01-18 12:41:15	--	-           |          |           |    :      |           |
+2014-01-18 12:41:15	--	- __________|__________|___________|___________|___________|__________
+2014-01-18 12:41:15	--	-                  M O Z I L L A   D O T   O R G
+2014-01-18 12:41:15	--	-                     http://www.mozilla.org/
+2014-01-18 12:41:15	--	-
+2014-01-18 12:41:15	--	- =================================================================
+2014-01-18 12:41:15	--	-  This server is for use by Mozilla developers, testers, and
+2014-01-18 12:41:15	--	-  users. If you are not one, please find another server.
+2014-01-18 12:41:15	--	-
+2014-01-18 12:41:15	--	-  NOTICE: Your IP address will be portscanned by our open
+2014-01-18 12:41:15	--	-  proxy tester.  See http://irc.mozilla.org/ for details.
+2014-01-18 12:41:15	--	-
+2014-01-18 12:41:15	--	- =================================================================
+2014-01-18 12:41:15	--	- Project information:
+2014-01-18 12:41:15	--	-  Firefox                #firefox     http://support.mozilla.org
+2014-01-18 12:41:15	--	-  Mobile                 #mobile      http://support.mozilla.org/mobile
+2014-01-18 12:41:15	--	-  Thunderbird            #thunderbird http://support.mozillamessaging.com
+2014-01-18 12:41:15	--	-  Boot2Gecko (FirefoxOS) #b2g         https://www.mozilla.org/firefoxos/
+2014-01-18 12:41:15	--	-
+2014-01-18 12:41:15	--	- Help for new contributors:
+2014-01-18 12:41:15	--	-    #introduction     http://developer.mozilla.org/En/Introduction
+2014-01-18 12:41:15	--	- =================================================================
+2014-01-18 12:41:15	--	-
+2014-01-18 12:41:15	--	-  For a list of other helpful channels please visit
+2014-01-18 12:41:15	--	-  http://irc.mozilla.org/ or use the /list command.
+2014-01-18 12:41:15	--	-  Additional help with IRC at http://www.irchelp.org/
+2014-01-18 12:41:15	--	End of /MOTD command.
+2014-01-18 12:41:15	--	User mode [+ix] by JSON_voorhees
+2014-01-18 16:17:26	=!=	irc: reading data on socket: error 50 Network is down
+2014-01-18 16:17:26	--	irc: disconnecting from server...
+2014-01-18 16:17:26	--	irc: disconnected from server
+2014-01-18 16:17:26	--	irc: reconnecting to server in 10 seconds
+2014-01-18 16:17:36	--	irc: reconnecting to server...
+2014-01-18 16:17:36	--	irc: connecting to server irc.mozilla.org/6667...
+2014-01-18 16:17:37	--	irc: connected to irc.mozilla.org/6667 (63.245.216.214)
+2014-01-18 16:17:37	--	concrete.mozilla.org (concrete.mozilla.org): *** Looking up your hostname...
+2014-01-18 16:17:37	--	concrete.mozilla.org (concrete.mozilla.org): *** Found your hostname
+2014-01-18 16:17:37	--	Welcome to the Mozilla IRC Network JSON_voorhees!JSON_voorh@c-71-237-213-89.hsd1.or.comcast.net
+2014-01-18 16:17:37	--	Your host is concrete.mozilla.org, running version Unreal3.2.8
+2014-01-18 16:17:37	--	This server was created Tue Mar 24 2009 at 19:56:50 PDT
+2014-01-18 16:17:37	--	concrete.mozilla.org Unreal3.2.8 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGj
+2014-01-18 16:17:37	--	CMDS=KNOCK,MAP,DCCALLOW,USERIP UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=100 CHANLIMIT=#:100 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 :are supported by this server
+2014-01-18 16:17:37	--	MAXTARGETS=20 WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(ohv)@%+ CHANMODES=beIqa,kfL,lj,psmntirRcOAQKVCuzNSMTG NETWORK=Mozilla CASEMAPPING=ascii EXTBAN=~,cqnr ELIST=MNUCT :are supported by this server
+2014-01-18 16:17:37	--	STATUSMSG=@%+ EXCEPTS INVEX :are supported by this server
+2014-01-18 16:17:37	--	There are 23 users and 2402 invisible on 4 servers
+2014-01-18 16:17:37	--	19 :operator(s) online
+2014-01-18 16:17:37	--	6 :unknown connection(s)
+2014-01-18 16:17:37	--	873 :channels formed
+2014-01-18 16:17:37	--	I have 2405 clients and 2 servers
+2014-01-18 16:17:37	--	Current Local Users: 2405  Max: 3221
+2014-01-18 16:17:37	--	Current Global Users: 2425  Max: 3831
+2014-01-18 16:17:37	--	- concrete.mozilla.org Message of the Day -
+2014-01-18 16:17:37	--	- 13/2/2013 22:16
+2014-01-18 16:17:37	--	- ____________________________________________________________________
+2014-01-18 16:17:37	--	-           |          |  _        |      :    |           |
+2014-01-18 16:17:37	--	-  __ ___ _ _  __ _ _ ___| |_ ___  |      ,    |           |
+2014-01-18 16:17:37	--	- / _/ _ \ ' \/ _| '_/ -_)  _/ -_) |      ,'   |           |
+2014-01-18 16:17:37	--	- \__\___/_||_\__|_| \___|\__\___| |    ,'     |           |
+2014-01-18 16:17:38	--	-           |          |           |    :      |           |
+2014-01-18 16:17:38	--	- __________|__________|___________|___________|___________|__________
+2014-01-18 16:17:38	--	-                  M O Z I L L A   D O T   O R G
+2014-01-18 16:17:38	--	-                     http://www.mozilla.org/
+2014-01-18 16:17:38	--	-
+2014-01-18 16:17:38	--	- =================================================================
+2014-01-18 16:17:38	--	-  This server is for use by Mozilla developers, testers, and
+2014-01-18 16:17:38	--	-  users. If you are not one, please find another server.
+2014-01-18 16:17:38	--	-
+2014-01-18 16:17:38	--	-  NOTICE: Your IP address will be portscanned by our open
+2014-01-18 16:17:38	--	-  proxy tester.  See http://irc.mozilla.org/ for details.
+2014-01-18 16:17:38	--	-
+2014-01-18 16:17:38	--	- =================================================================
+2014-01-18 16:17:38	--	- Project information:
+2014-01-18 16:17:38	--	-  Firefox                #firefox     http://support.mozilla.org
+2014-01-18 16:17:38	--	-  Mobile                 #mobile      http://support.mozilla.org/mobile
+2014-01-18 16:17:38	--	-  Thunderbird            #thunderbird http://support.mozillamessaging.com
+2014-01-18 16:17:38	--	-  Boot2Gecko (FirefoxOS) #b2g         https://www.mozilla.org/firefoxos/
+2014-01-18 16:17:38	--	-
+2014-01-18 16:17:38	--	- Help for new contributors:
+2014-01-18 16:17:38	--	-    #introduction     http://developer.mozilla.org/En/Introduction
+2014-01-18 16:17:38	--	- =================================================================
+2014-01-18 16:17:38	--	-
+2014-01-18 16:17:38	--	-  For a list of other helpful channels please visit
+2014-01-18 16:17:38	--	-  http://irc.mozilla.org/ or use the /list command.
+2014-01-18 16:17:38	--	-  Additional help with IRC at http://www.irchelp.org/
+2014-01-18 16:17:38	--	End of /MOTD command.
+2014-01-18 16:17:38	--	User mode [+ix] by JSON_voorhees
+2014-01-18 17:05:14	=!=	irc: reading data on socket: error 54 Connection reset by peer
+2014-01-18 17:05:14	--	irc: disconnecting from server...
+2014-01-18 17:05:14	--	irc: disconnected from server
+2014-01-18 17:05:14	--	irc: reconnecting to server in 10 seconds
+2014-01-18 17:05:24	--	irc: reconnecting to server...
+2014-01-18 17:05:24	--	irc: connecting to server irc.mozilla.org/6667...
+2014-01-18 17:05:24	--	irc: connected to irc.mozilla.org/6667 (63.245.216.214)
+2014-01-18 17:05:24	--	concrete.mozilla.org (concrete.mozilla.org): *** Looking up your hostname...
+2014-01-18 17:05:24	--	concrete.mozilla.org (concrete.mozilla.org): *** Found your hostname
+2014-01-18 17:05:24	--	Welcome to the Mozilla IRC Network JSON_voorhees!JSON_voorh@c-71-237-213-89.hsd1.or.comcast.net
+2014-01-18 17:05:24	--	Your host is concrete.mozilla.org, running version Unreal3.2.8
+2014-01-18 17:05:24	--	This server was created Tue Mar 24 2009 at 19:56:50 PDT
+2014-01-18 17:05:24	--	concrete.mozilla.org Unreal3.2.8 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGj
+2014-01-18 17:05:24	--	CMDS=KNOCK,MAP,DCCALLOW,USERIP UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=100 CHANLIMIT=#:100 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 :are supported by this server
+2014-01-18 17:05:24	--	MAXTARGETS=20 WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(ohv)@%+ CHANMODES=beIqa,kfL,lj,psmntirRcOAQKVCuzNSMTG NETWORK=Mozilla CASEMAPPING=ascii EXTBAN=~,cqnr ELIST=MNUCT :are supported by this server
+2014-01-18 17:05:24	--	STATUSMSG=@%+ EXCEPTS INVEX :are supported by this server
+2014-01-18 17:05:24	--	There are 23 users and 2359 invisible on 4 servers
+2014-01-18 17:05:24	--	19 :operator(s) online
+2014-01-18 17:05:24	--	7 :unknown connection(s)
+2014-01-18 17:05:24	--	865 :channels formed
+2014-01-18 17:05:24	--	I have 2362 clients and 2 servers
+2014-01-18 17:05:24	--	Current Local Users: 2362  Max: 3221
+2014-01-18 17:05:24	--	Current Global Users: 2382  Max: 3831
+2014-01-18 17:05:24	--	- concrete.mozilla.org Message of the Day -
+2014-01-18 17:05:24	--	- 13/2/2013 22:16
+2014-01-18 17:05:24	--	- ____________________________________________________________________
+2014-01-18 17:05:24	--	-           |          |  _        |      :    |           |
+2014-01-18 17:05:24	--	-  __ ___ _ _  __ _ _ ___| |_ ___  |      ,    |           |
+2014-01-18 17:05:24	--	- / _/ _ \ ' \/ _| '_/ -_)  _/ -_) |      ,'   |           |
+2014-01-18 17:05:24	--	- \__\___/_||_\__|_| \___|\__\___| |    ,'     |           |
+2014-01-18 17:05:24	--	-           |          |           |    :      |           |
+2014-01-18 17:05:24	--	- __________|__________|___________|___________|___________|__________
+2014-01-18 17:05:24	--	-                  M O Z I L L A   D O T   O R G
+2014-01-18 17:05:24	--	-                     http://www.mozilla.org/
+2014-01-18 17:05:24	--	-
+2014-01-18 17:05:24	--	- =================================================================
+2014-01-18 17:05:24	--	-  This server is for use by Mozilla developers, testers, and
+2014-01-18 17:05:24	--	-  users. If you are not one, please find another server.
+2014-01-18 17:05:24	--	-
+2014-01-18 17:05:24	--	-  NOTICE: Your IP address will be portscanned by our open
+2014-01-18 17:05:24	--	-  proxy tester.  See http://irc.mozilla.org/ for details.
+2014-01-18 17:05:24	--	-
+2014-01-18 17:05:24	--	- =================================================================
+2014-01-18 17:05:24	--	- Project information:
+2014-01-18 17:05:24	--	-  Firefox                #firefox     http://support.mozilla.org
+2014-01-18 17:05:24	--	-  Mobile                 #mobile      http://support.mozilla.org/mobile
+2014-01-18 17:05:24	--	-  Thunderbird            #thunderbird http://support.mozillamessaging.com
+2014-01-18 17:05:24	--	-  Boot2Gecko (FirefoxOS) #b2g         https://www.mozilla.org/firefoxos/
+2014-01-18 17:05:24	--	-
+2014-01-18 17:05:24	--	- Help for new contributors:
+2014-01-18 17:05:24	--	-    #introduction     http://developer.mozilla.org/En/Introduction
+2014-01-18 17:05:24	--	- =================================================================
+2014-01-18 17:05:24	--	-
+2014-01-18 17:05:24	--	-  For a list of other helpful channels please visit
+2014-01-18 17:05:24	--	-  http://irc.mozilla.org/ or use the /list command.
+2014-01-18 17:05:24	--	-  Additional help with IRC at http://www.irchelp.org/
+2014-01-18 17:05:24	--	End of /MOTD command.
+2014-01-18 17:05:24	--	User mode [+ix] by JSON_voorhees
+2014-01-18 17:40:34	--	MSG(NickServ): identify Newport13
+2014-01-18 17:40:34	--	NickServ (services@mozilla.org): Your nick isn't registered.
+2014-01-18 18:33:39	=!=	irc: reading data on socket: error 60 Operation timed out
+2014-01-18 18:33:39	--	irc: disconnecting from server...
+2014-01-18 18:33:39	--	irc: disconnected from server
+2014-01-18 18:33:39	--	irc: reconnecting to server in 10 seconds
+2014-01-18 18:33:49	--	irc: reconnecting to server...
+2014-01-18 18:33:49	--	irc: connecting to server irc.mozilla.org/6667...
+2014-01-18 18:33:49	--	irc: connected to irc.mozilla.org/6667 (63.245.216.214)
+2014-01-18 18:33:49	--	concrete.mozilla.org (concrete.mozilla.org): *** Looking up your hostname...
+2014-01-18 18:33:49	--	concrete.mozilla.org (concrete.mozilla.org): *** Found your hostname
+2014-01-18 18:33:49	--	Welcome to the Mozilla IRC Network JSON_voorhees!JSON_voorh@c-76-115-14-93.hsd1.or.comcast.net
+2014-01-18 18:33:49	--	Your host is concrete.mozilla.org, running version Unreal3.2.8
+2014-01-18 18:33:49	--	This server was created Tue Mar 24 2009 at 19:56:50 PDT
+2014-01-18 18:33:49	--	concrete.mozilla.org Unreal3.2.8 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGj
+2014-01-18 18:33:49	--	CMDS=KNOCK,MAP,DCCALLOW,USERIP UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=100 CHANLIMIT=#:100 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 :are supported by this server
+2014-01-18 18:33:49	--	MAXTARGETS=20 WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(ohv)@%+ CHANMODES=beIqa,kfL,lj,psmntirRcOAQKVCuzNSMTG NETWORK=Mozilla CASEMAPPING=ascii EXTBAN=~,cqnr ELIST=MNUCT :are supported by this server
+2014-01-18 18:33:49	--	STATUSMSG=@%+ EXCEPTS INVEX :are supported by this server
+2014-01-18 18:33:49	--	There are 23 users and 2331 invisible on 4 servers
+2014-01-18 18:33:49	--	19 :operator(s) online
+2014-01-18 18:33:49	--	2 :unknown connection(s)
+2014-01-18 18:33:49	--	863 :channels formed
+2014-01-18 18:33:49	--	I have 2334 clients and 2 servers
+2014-01-18 18:33:49	--	Current Local Users: 2334  Max: 3221
+2014-01-18 18:33:49	--	Current Global Users: 2354  Max: 3831
+2014-01-18 18:33:49	--	- concrete.mozilla.org Message of the Day -
+2014-01-18 18:33:49	--	- 13/2/2013 22:16
+2014-01-18 18:33:49	--	- ____________________________________________________________________
+2014-01-18 18:33:49	--	-           |          |  _        |      :    |           |
+2014-01-18 18:33:49	--	-  __ ___ _ _  __ _ _ ___| |_ ___  |      ,    |           |
+2014-01-18 18:33:49	--	- / _/ _ \ ' \/ _| '_/ -_)  _/ -_) |      ,'   |           |
+2014-01-18 18:33:49	--	- \__\___/_||_\__|_| \___|\__\___| |    ,'     |           |
+2014-01-18 18:33:49	--	-           |          |           |    :      |           |
+2014-01-18 18:33:49	--	- __________|__________|___________|___________|___________|__________
+2014-01-18 18:33:49	--	-                  M O Z I L L A   D O T   O R G
+2014-01-18 18:33:49	--	-                     http://www.mozilla.org/
+2014-01-18 18:33:49	--	-
+2014-01-18 18:33:49	--	- =================================================================
+2014-01-18 18:33:49	--	-  This server is for use by Mozilla developers, testers, and
+2014-01-18 18:33:49	--	-  users. If you are not one, please find another server.
+2014-01-18 18:33:49	--	-
+2014-01-18 18:33:49	--	-  NOTICE: Your IP address will be portscanned by our open
+2014-01-18 18:33:49	--	-  proxy tester.  See http://irc.mozilla.org/ for details.
+2014-01-18 18:33:49	--	-
+2014-01-18 18:33:49	--	- =================================================================
+2014-01-18 18:33:49	--	- Project information:
+2014-01-18 18:33:49	--	-  Firefox                #firefox     http://support.mozilla.org
+2014-01-18 18:33:49	--	-  Mobile                 #mobile      http://support.mozilla.org/mobile
+2014-01-18 18:33:49	--	-  Thunderbird            #thunderbird http://support.mozillamessaging.com
+2014-01-18 18:33:49	--	-  Boot2Gecko (FirefoxOS) #b2g         https://www.mozilla.org/firefoxos/
+2014-01-18 18:33:49	--	-
+2014-01-18 18:33:49	--	- Help for new contributors:
+2014-01-18 18:33:49	--	-    #introduction     http://developer.mozilla.org/En/Introduction
+2014-01-18 18:33:49	--	- =================================================================
+2014-01-18 18:33:49	--	-
+2014-01-18 18:33:49	--	-  For a list of other helpful channels please visit
+2014-01-18 18:33:49	--	-  http://irc.mozilla.org/ or use the /list command.
+2014-01-18 18:33:49	--	-  Additional help with IRC at http://www.irchelp.org/
+2014-01-18 18:33:49	--	End of /MOTD command.
+2014-01-18 18:33:49	--	User mode [+ix] by JSON_voorhees

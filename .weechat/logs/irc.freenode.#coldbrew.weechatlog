@@ -1,0 +1,676 @@
+2013-09-18 15:43:43	-->	JSON_voorhees (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has joined #coldbrew
+2013-09-18 15:43:48	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-09-18 15:43:48	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-09-18 15:43:48	--	Nicks #coldbrew: [@Wraithan chrisdickinson JSON_voorhees ZenWraithBot]
+2013-09-18 15:43:48	--	Channel #coldbrew: 4 nicks (1 op, 0 halfops, 0 voices, 3 normals)
+2013-09-18 15:43:50	--	Mode #coldbrew [+ns]
+2013-09-18 15:43:53	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-09-18 19:27:23	JSON_voorhees	would you guys be down to do a collaborative music sequencer?
+2013-09-18 19:27:46	JSON_voorhees	err wait, we can discuss _ideas_ right haha
+2013-09-18 19:31:35	@Wraithan	Yeah, idea are fine
+2013-09-18 22:14:37	--	irc: disconnected from server
+2013-09-18 22:15:06	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #coldbrew
+2013-09-18 22:15:06	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-09-18 22:15:06	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-09-18 22:15:06	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan ZenWraithBot]
+2013-09-18 22:15:06	--	Channel #coldbrew: 4 nicks (0 ops, 0 halfops, 0 voices, 4 normals)
+2013-09-18 22:15:18	--	Mode #coldbrew [+ns]
+2013-09-18 22:15:18	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-09-19 00:03:34	--	irc: disconnected from server
+2013-09-19 00:04:03	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #coldbrew
+2013-09-19 00:04:03	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-09-19 00:04:03	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-09-19 00:04:03	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan ZenWraithBot]
+2013-09-19 00:04:03	--	Channel #coldbrew: 4 nicks (0 ops, 0 halfops, 0 voices, 4 normals)
+2013-09-19 00:04:15	--	Mode #coldbrew [+ns]
+2013-09-19 00:04:15	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-09-19 09:02:07	--	irc: disconnected from server
+2013-09-19 09:02:37	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #coldbrew
+2013-09-19 09:02:38	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-09-19 09:02:38	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:23:43
+2013-09-19 09:02:38	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan ZenWraithBot]
+2013-09-19 09:02:38	--	Channel #coldbrew: 4 nicks (0 ops, 0 halfops, 0 voices, 4 normals)
+2013-09-19 09:02:49	--	Mode #coldbrew [+ns]
+2013-09-19 09:02:50	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-09-19 10:21:29	--	irc: disconnected from server
+2013-09-19 10:22:21	-->	JSON_voorhees (~JSON_voor@71.56.139.32) has joined #coldbrew
+2013-09-19 10:22:21	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-09-19 10:22:21	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-09-19 10:22:21	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan ZenWraithBot]
+2013-09-19 10:22:21	--	Channel #coldbrew: 4 nicks (0 ops, 0 halfops, 0 voices, 4 normals)
+2013-09-19 10:22:32	--	Mode #coldbrew [+ns]
+2013-09-19 10:22:32	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-09-19 10:46:38	chrisdickinson	o/
+2013-09-19 10:46:49	chrisdickinson	sorry all of yesterday was taken up by an engineering offsite
+2013-09-19 10:53:46	Wraithan	omg you jerk
+2013-09-19 10:54:16	Wraithan	right after I got this all setup, our staging server blew up and I ended up patching like 3 bugs in 2 hours
+2013-09-19 10:54:23	Wraithan	and being late to the gym
+2013-09-19 10:54:25	Wraithan	so I was busy too
+2013-09-19 10:54:40	JSON_voorhees	woahh
+2013-09-19 10:54:57	JSON_voorhees	i just played grand theft auto last night
+2013-09-19 10:55:06	JSON_voorhees	thaz all
+2013-09-19 10:55:28	Wraithan	I played some sc2 last night
+2013-09-19 10:55:29	Wraithan	it was nice
+2013-09-19 10:55:34	Wraithan	JSON_voorhees: you playing the new one?
+2013-09-19 11:02:19	JSON_voorhees	Wraithan: yeah me and my roommate went halfsiez on it
+2013-09-19 11:02:29	Wraithan	ncie
+2013-09-19 11:02:31	Wraithan	nice
+2013-09-19 11:02:50	Wraithan	So the topic has the only idea I've come up with so far and I am very open to other ideas
+2013-09-19 11:03:59	Wraithan	Oh and chrisdickinson added one
+2013-09-19 11:04:08	Wraithan	chrisderkinsern
+2013-09-19 11:04:21	chrisdickinson	yerp
+2013-09-19 11:07:18	Wraithan	JSON_voorhees: I don't know anything music and sequencing it and such, but you can try to teach me a bit about it
+2013-09-19 11:08:01	Wraithan	I've been learning about how to demux audio signals
+2013-09-19 11:08:08	Wraithan	I guess technically it is summing them
+2013-09-19 11:08:09	Wraithan	but yea
+2013-09-19 11:08:29	Wraithan	but that was all hardware, not software
+2013-09-19 11:27:05	Wraithan	both of you going to be at hack night tonight?
+2013-09-19 11:34:01	chrisdickinson	i may not be, or if i am, i'll be in later
+2013-09-19 11:34:09	chrisdickinson	overboozed last night
+2013-09-19 11:46:42	Wraithan	ok
+2013-09-19 12:16:40	Wraithan	Well I'll be working on webgl-tactics but down to discuss ideas
+2013-09-19 12:16:59	Wraithan	Limiting myself to 2 drinks but I will save them for when we discuss ideas if we are going to do that
+2013-09-19 12:17:10	Wraithan	booze makes any competition like this better
+2013-09-19 12:17:29	Wraithan	JSON_voorhees: warning, there is a good chance you'll be drunk for half of this competition
+2013-09-19 12:17:40	Wraithan	if you are sober the whole time you are doing it wrong
+2013-09-19 18:57:52	--	irc: disconnected from server
+2013-09-19 18:58:18	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #coldbrew
+2013-09-19 18:58:18	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-09-19 18:58:18	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-09-19 18:58:18	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan ZenWraithBot]
+2013-09-19 18:58:18	--	Channel #coldbrew: 4 nicks (0 ops, 0 halfops, 0 voices, 4 normals)
+2013-09-19 18:58:30	--	Mode #coldbrew [+ns]
+2013-09-19 18:58:31	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-09-19 19:03:47	JSON_voorhees	Wraithan: good to know
+2013-09-19 19:04:20	JSON_voorhees	damn i forgot about hacknight, im going to holocene tonight for xoxo tho, if either of u will be there?
+2013-09-19 19:05:45	JSON_voorhees	really like voxel meets gary busey i have an idea who added that one
+2013-09-19 19:05:56	JSON_voorhees	+ the node copter one, cept we need a node copter
+2013-09-19 19:10:24	JSON_voorhees	on that collabo tip... https://togetherjs.com/
+2013-09-19 19:10:38	JSON_voorhees	Wraithan prolly knows about that thouhgh
+2013-09-19 21:38:29	--	irc: disconnected from server
+2013-09-19 21:38:58	-->	JSON_voorhees (~JSON_voor@c-98-246-113-149.hsd1.or.comcast.net) has joined #coldbrew
+2013-09-19 21:38:58	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-09-19 21:38:58	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-09-19 21:38:58	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan ZenWraithBot]
+2013-09-19 21:38:58	--	Channel #coldbrew: 4 nicks (0 ops, 0 halfops, 0 voices, 4 normals)
+2013-09-19 21:39:10	--	Mode #coldbrew [+ns]
+2013-09-19 21:39:10	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-09-19 22:01:53	--	irc: disconnected from server
+2013-09-19 22:02:20	-->	JSON_voorhees (~JSON_voor@c-98-246-113-149.hsd1.or.comcast.net) has joined #coldbrew
+2013-09-19 22:02:20	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-09-19 22:02:20	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-09-19 22:02:20	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan ZenWraithBot]
+2013-09-19 22:02:20	--	Channel #coldbrew: 4 nicks (0 ops, 0 halfops, 0 voices, 4 normals)
+2013-09-19 22:02:32	--	Mode #coldbrew [+ns]
+2013-09-19 22:02:32	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-09-19 23:49:25	--	irc: disconnected from server
+2013-09-19 23:49:54	-->	JSON_voorhees (~JSON_voor@c-98-246-113-149.hsd1.or.comcast.net) has joined #coldbrew
+2013-09-19 23:49:54	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-09-19 23:49:54	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-09-19 23:49:54	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan ZenWraithBot]
+2013-09-19 23:49:54	--	Channel #coldbrew: 4 nicks (0 ops, 0 halfops, 0 voices, 4 normals)
+2013-09-19 23:50:04	--	Mode #coldbrew [+ns]
+2013-09-19 23:50:04	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-09-20 00:29:57	--	irc: disconnected from server
+2013-09-20 00:30:27	-->	JSON_voorhees (~JSON_voor@c-98-246-113-149.hsd1.or.comcast.net) has joined #coldbrew
+2013-09-20 00:30:27	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-09-20 00:30:27	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-09-20 00:30:27	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan ZenWraithBot]
+2013-09-20 00:30:27	--	Channel #coldbrew: 4 nicks (0 ops, 0 halfops, 0 voices, 4 normals)
+2013-09-20 00:30:36	--	Mode #coldbrew [+ns]
+2013-09-20 00:30:37	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-09-20 01:34:29	--	irc: disconnected from server
+2013-09-20 01:35:03	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #coldbrew
+2013-09-20 01:35:03	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-09-20 01:35:03	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-09-20 01:35:03	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan ZenWraithBot]
+2013-09-20 01:35:03	--	Channel #coldbrew: 4 nicks (0 ops, 0 halfops, 0 voices, 4 normals)
+2013-09-20 01:35:14	--	Mode #coldbrew [+ns]
+2013-09-20 01:35:15	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-09-20 10:19:09	--	irc: disconnected from server
+2013-09-20 10:19:39	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #coldbrew
+2013-09-20 10:19:39	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-09-20 10:19:39	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:23:43
+2013-09-20 10:19:39	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan ZenWraithBot]
+2013-09-20 10:19:39	--	Channel #coldbrew: 4 nicks (0 ops, 0 halfops, 0 voices, 4 normals)
+2013-09-20 10:19:49	--	Mode #coldbrew [+ns]
+2013-09-20 10:19:49	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-09-20 14:42:45	--	irc: disconnected from server
+2013-09-20 14:43:17	-->	JSON_voorhees (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has joined #coldbrew
+2013-09-20 14:43:17	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-09-20 14:43:17	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-09-20 14:43:17	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan ZenWraithBot]
+2013-09-20 14:43:17	--	Channel #coldbrew: 4 nicks (0 ops, 0 halfops, 0 voices, 4 normals)
+2013-09-20 14:43:27	--	Mode #coldbrew [+ns]
+2013-09-20 14:43:27	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-09-20 15:40:04	--	irc: disconnected from server
+2013-09-20 15:40:35	-->	JSON_voorhees (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has joined #coldbrew
+2013-09-20 15:40:35	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-09-20 15:40:35	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-09-20 15:40:35	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan ZenWraithBot]
+2013-09-20 15:40:35	--	Channel #coldbrew: 4 nicks (0 ops, 0 halfops, 0 voices, 4 normals)
+2013-09-20 15:40:47	--	Mode #coldbrew [+ns]
+2013-09-20 15:40:47	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-09-20 16:33:32	--	irc: disconnected from server
+2013-09-20 16:34:01	-->	JSON_voorhees (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has joined #coldbrew
+2013-09-20 16:34:01	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-09-20 16:34:01	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-09-20 16:34:01	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan ZenWraithBot]
+2013-09-20 16:34:01	--	Channel #coldbrew: 4 nicks (0 ops, 0 halfops, 0 voices, 4 normals)
+2013-09-20 16:34:13	--	Mode #coldbrew [+ns]
+2013-09-20 16:34:13	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-09-20 16:43:21	--	irc: disconnected from server
+2013-09-20 16:43:50	-->	JSON_voorhees (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has joined #coldbrew
+2013-09-20 16:43:51	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-09-20 16:43:51	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-09-20 16:43:51	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan ZenWraithBot]
+2013-09-20 16:43:51	--	Channel #coldbrew: 4 nicks (0 ops, 0 halfops, 0 voices, 4 normals)
+2013-09-20 16:44:03	--	Mode #coldbrew [+ns]
+2013-09-20 16:44:03	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-09-21 03:38:42	--	irc: disconnected from server
+2013-09-21 03:39:09	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #coldbrew
+2013-09-21 03:39:10	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-09-21 03:39:10	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:23:43
+2013-09-21 03:39:10	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan ZenWraithBot]
+2013-09-21 03:39:10	--	Channel #coldbrew: 4 nicks (0 ops, 0 halfops, 0 voices, 4 normals)
+2013-09-21 03:39:21	--	Mode #coldbrew [+ns]
+2013-09-21 03:39:22	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-09-21 12:57:38	--	irc: disconnected from server
+2013-09-21 12:58:09	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #coldbrew
+2013-09-21 12:58:09	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-09-21 12:58:09	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-09-21 12:58:09	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan ZenWraithBot]
+2013-09-21 12:58:09	--	Channel #coldbrew: 4 nicks (0 ops, 0 halfops, 0 voices, 4 normals)
+2013-09-21 12:58:19	--	Mode #coldbrew [+ns]
+2013-09-21 12:58:19	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-09-22 14:19:03	-->	JSON_voorhees (~JSON_voor@c-24-20-145-95.hsd1.or.comcast.net) has joined #coldbrew
+2013-09-22 14:19:04	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-09-22 14:19:04	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-09-22 14:19:04	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan ZenWraithBot]
+2013-09-22 14:19:04	--	Channel #coldbrew: 4 nicks (0 ops, 0 halfops, 0 voices, 4 normals)
+2013-09-22 14:19:06	--	Mode #coldbrew [+ns]
+2013-09-22 14:19:06	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-09-22 14:40:16	--	irc: disconnected from server
+2013-09-22 14:40:44	-->	JSON_voorhees (~JSON_voor@c-24-20-145-95.hsd1.or.comcast.net) has joined #coldbrew
+2013-09-22 14:40:44	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-09-22 14:40:44	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-09-22 14:40:44	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan ZenWraithBot]
+2013-09-22 14:40:44	--	Channel #coldbrew: 4 nicks (0 ops, 0 halfops, 0 voices, 4 normals)
+2013-09-22 14:40:55	--	Mode #coldbrew [+ns]
+2013-09-22 14:40:56	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-09-22 15:24:39	--	irc: disconnected from server
+2013-09-22 15:25:08	-->	JSON_voorhees (~JSON_voor@c-24-21-54-182.hsd1.or.comcast.net) has joined #coldbrew
+2013-09-22 15:25:09	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-09-22 15:25:09	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-09-22 15:25:09	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan ZenWraithBot]
+2013-09-22 15:25:09	--	Channel #coldbrew: 4 nicks (0 ops, 0 halfops, 0 voices, 4 normals)
+2013-09-22 15:25:20	--	Mode #coldbrew [+ns]
+2013-09-22 15:25:21	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-09-22 16:34:02	--	irc: disconnected from server
+2013-09-22 16:34:29	-->	JSON_voorhees (~JSON_voor@c-24-21-54-182.hsd1.or.comcast.net) has joined #coldbrew
+2013-09-22 16:34:29	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-09-22 16:34:29	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-09-22 16:34:29	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan ZenWraithBot]
+2013-09-22 16:34:29	--	Channel #coldbrew: 4 nicks (0 ops, 0 halfops, 0 voices, 4 normals)
+2013-09-22 16:34:41	--	Mode #coldbrew [+ns]
+2013-09-22 16:34:41	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-10-07 09:58:53	-->	JSON_voorhees (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has joined #coldbrew
+2013-10-07 09:58:53	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-10-07 09:58:53	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-10-07 09:58:53	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan]
+2013-10-07 09:58:53	--	Channel #coldbrew: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-10-07 09:58:55	--	Mode #coldbrew [+ns]
+2013-10-07 09:58:55	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-10-08 01:44:28	--	irc: disconnected from server
+2013-10-08 01:45:02	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #coldbrew
+2013-10-08 01:45:02	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-10-08 01:45:02	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-10-08 01:45:02	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan]
+2013-10-08 01:45:02	--	Channel #coldbrew: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-10-08 01:45:18	--	Mode #coldbrew [+ns]
+2013-10-08 01:45:18	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-10-08 10:25:47	--	irc: disconnected from server
+2013-10-08 10:26:18	-->	JSON_voorhees (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has joined #coldbrew
+2013-10-08 10:26:18	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-10-08 10:26:18	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-10-08 10:26:18	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan]
+2013-10-08 10:26:18	--	Channel #coldbrew: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-10-08 10:26:34	--	Mode #coldbrew [+ns]
+2013-10-08 10:26:34	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-10-08 22:41:51	--	irc: disconnected from server
+2013-10-08 22:42:25	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #coldbrew
+2013-10-08 22:42:25	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-10-08 22:42:25	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-10-08 22:42:25	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan]
+2013-10-08 22:42:25	--	Channel #coldbrew: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-10-08 22:42:41	--	Mode #coldbrew [+ns]
+2013-10-08 22:42:41	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-10-09 10:33:56	--	irc: disconnected from server
+2013-10-09 10:34:32	-->	JSON_voorhees (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has joined #coldbrew
+2013-10-09 10:34:32	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-10-09 10:34:32	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-10-09 10:34:32	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan]
+2013-10-09 10:34:32	--	Channel #coldbrew: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-10-09 10:34:46	--	Mode #coldbrew [+ns]
+2013-10-09 10:34:46	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-10-10 00:45:15	--	irc: disconnected from server
+2013-10-10 00:46:18	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #coldbrew
+2013-10-10 00:46:18	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-10-10 00:46:18	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-10-10 00:46:18	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan]
+2013-10-10 00:46:18	--	Channel #coldbrew: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-10-10 00:46:50	--	Mode #coldbrew [+ns]
+2013-10-10 00:46:50	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-11-03 15:05:36	-->	JSON_voorhees (~JSON_voor@c-24-20-192-253.hsd1.or.comcast.net) has joined #coldbrew
+2013-11-03 15:05:36	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-11-03 15:05:36	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-11-03 15:05:36	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan]
+2013-11-03 15:05:36	--	Channel #coldbrew: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-11-03 15:05:44	--	Mode #coldbrew [+ns]
+2013-11-03 15:05:44	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-11-03 15:05:50	JSON_voorhees	GUYS WE GOTTA COME UP WITH AN IDEA!
+2013-11-03 15:05:56	JSON_voorhees	Wraithan chrisdickinson 
+2013-11-03 15:09:39	Wraithan	JSON_voorhees, chrisdickinson: I was just thinking that a little bit ago
+2013-11-03 15:09:49	Wraithan	I have plans with my gf tonight at like 8
+2013-11-03 15:09:57	Wraithan	but I could hang out before then for idea storming
+2013-11-03 15:10:26	Wraithan	We are hanging out at Bare Bones Cafe right now, working on some blog posts and such
+2013-11-03 15:10:42	JSON_voorhees	oh nice, I'm actually about to ride to that neighborhood
+2013-11-03 15:10:53	JSON_voorhees	I'll probably drop in and grab a sandwich
+2013-11-03 15:10:59	JSON_voorhees	have'nt eaten all day
+2013-11-03 15:34:37	--	irc: disconnected from server
+2013-11-03 15:45:28	-->	JSON_voorhees (~JSON_voor@c-71-237-213-89.hsd1.or.comcast.net) has joined #coldbrew
+2013-11-03 15:45:28	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-11-03 15:45:28	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-11-03 15:45:28	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan]
+2013-11-03 15:45:28	--	Channel #coldbrew: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-11-03 15:45:42	--	Mode #coldbrew [+ns]
+2013-11-03 15:45:42	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-11-03 16:50:51	--	irc: disconnected from server
+2013-11-03 16:51:21	-->	JSON_voorhees (~JSON_voor@c-76-27-213-74.hsd1.or.comcast.net) has joined #coldbrew
+2013-11-03 16:51:21	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-11-03 16:51:21	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-11-03 16:51:21	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan]
+2013-11-03 16:51:21	--	Channel #coldbrew: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-11-03 16:51:35	--	Mode #coldbrew [+ns]
+2013-11-03 16:51:35	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-11-03 17:48:35	--	irc: disconnected from server
+2013-11-03 17:51:07	-->	JSON_voorhees (~JSON_voor@c-76-27-213-74.hsd1.or.comcast.net) has joined #coldbrew
+2013-11-03 17:51:07	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-11-03 17:51:07	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-11-03 17:51:07	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan]
+2013-11-03 17:51:07	--	Channel #coldbrew: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-11-03 17:51:21	--	Mode #coldbrew [+ns]
+2013-11-03 17:51:21	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-11-03 18:48:10	--	irc: disconnected from server
+2013-11-03 18:48:44	-->	JSON_voorhees (~JSON_voor@c-76-27-213-74.hsd1.or.comcast.net) has joined #coldbrew
+2013-11-03 18:48:44	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-11-03 18:48:44	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-11-03 18:48:44	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan]
+2013-11-03 18:48:44	--	Channel #coldbrew: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-11-03 18:48:56	--	Mode #coldbrew [+ns]
+2013-11-03 18:48:56	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-11-03 22:07:38	--	irc: disconnected from server
+2013-11-03 22:08:10	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #coldbrew
+2013-11-03 22:08:10	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-11-03 22:08:10	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-11-03 22:08:10	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan]
+2013-11-03 22:08:10	--	Channel #coldbrew: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-11-03 22:08:24	--	Mode #coldbrew [+ns]
+2013-11-03 22:08:24	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-11-04 01:58:53	--	irc: disconnected from server
+2013-11-04 01:59:28	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #coldbrew
+2013-11-04 01:59:28	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-11-04 01:59:28	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-11-04 01:59:28	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan]
+2013-11-04 01:59:28	--	Channel #coldbrew: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-11-04 01:59:40	--	Mode #coldbrew [+ns]
+2013-11-04 01:59:40	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-11-04 03:47:10	--	irc: disconnected from server
+2013-11-04 03:47:38	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #coldbrew
+2013-11-04 03:47:38	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-11-04 03:47:38	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-11-04 03:47:38	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan]
+2013-11-04 03:47:38	--	Channel #coldbrew: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-11-04 03:47:52	--	Mode #coldbrew [+ns]
+2013-11-04 03:47:52	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-11-04 05:35:27	--	irc: disconnected from server
+2013-11-04 05:35:59	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #coldbrew
+2013-11-04 05:36:00	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-11-04 05:36:00	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-11-04 05:36:00	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan]
+2013-11-04 05:36:00	--	Channel #coldbrew: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-11-04 05:36:13	--	Mode #coldbrew [+ns]
+2013-11-04 05:36:14	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-11-04 07:23:47	--	irc: disconnected from server
+2013-11-04 07:24:19	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #coldbrew
+2013-11-04 07:24:19	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-11-04 07:24:19	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-11-04 07:24:19	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan]
+2013-11-04 07:24:19	--	Channel #coldbrew: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-11-04 07:24:19	--	Notice(rothfuss.freenode.net): [freenode-info] please register your nickname...don't forget to auto-identify! http://freenode.net/faq.shtml#nicksetup
+2013-11-04 07:24:33	--	Mode #coldbrew [+ns]
+2013-11-04 07:24:33	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-11-04 09:09:31	--	irc: disconnected from server
+2013-11-04 09:10:00	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #coldbrew
+2013-11-04 09:10:00	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-11-04 09:10:00	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-11-04 09:10:00	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan]
+2013-11-04 09:10:00	--	Channel #coldbrew: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-11-04 09:10:14	--	Mode #coldbrew [+ns]
+2013-11-04 09:10:14	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-11-04 09:43:48	--	irc: disconnected from server
+2013-11-04 09:44:18	-->	JSON_voorhees (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has joined #coldbrew
+2013-11-04 09:44:18	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-11-04 09:44:18	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-11-04 09:44:18	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan]
+2013-11-04 09:44:18	--	Channel #coldbrew: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-11-04 09:44:32	--	Mode #coldbrew [+ns]
+2013-11-04 09:44:32	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-11-04 19:03:22	--	irc: disconnected from server
+2013-11-04 19:03:53	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #coldbrew
+2013-11-04 19:03:53	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-11-04 19:03:53	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-11-04 19:03:53	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan]
+2013-11-04 19:03:53	--	Channel #coldbrew: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-11-04 19:04:06	--	Mode #coldbrew [+ns]
+2013-11-04 19:04:06	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-11-04 23:30:38	--	irc: disconnected from server
+2013-11-04 23:31:10	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #coldbrew
+2013-11-04 23:31:10	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-11-04 23:31:10	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-11-04 23:31:10	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan]
+2013-11-04 23:31:10	--	Channel #coldbrew: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-11-04 23:31:24	--	Mode #coldbrew [+ns]
+2013-11-04 23:31:24	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-11-06 19:04:40	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #coldbrew
+2013-11-06 19:04:40	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-11-06 19:04:40	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-11-06 19:04:40	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan]
+2013-11-06 19:04:40	--	Channel #coldbrew: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-11-06 19:04:40	--	Notice(moorcock.freenode.net): [freenode-info] channel trolls and no channel staff around to help? please check with freenode support: http://freenode.net/faq.shtml#gettinghelp
+2013-11-06 19:04:42	--	Mode #coldbrew [+ns]
+2013-11-06 19:04:42	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-11-06 22:47:12	--	irc: disconnected from server
+2013-11-06 22:47:44	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #coldbrew
+2013-11-06 22:47:44	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-11-06 22:47:44	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-11-06 22:47:44	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan]
+2013-11-06 22:47:44	--	Channel #coldbrew: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-11-06 22:47:58	--	Mode #coldbrew [+ns]
+2013-11-06 22:47:58	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-11-06 22:55:56	--	irc: disconnected from server
+2013-11-06 22:56:26	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #coldbrew
+2013-11-06 22:56:26	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-11-06 22:56:26	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-11-06 22:56:26	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan]
+2013-11-06 22:56:26	--	Channel #coldbrew: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-11-06 22:56:40	--	Mode #coldbrew [+ns]
+2013-11-06 22:56:40	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-11-07 01:49:53	--	irc: disconnected from server
+2013-11-07 01:50:24	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #coldbrew
+2013-11-07 01:50:24	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-11-07 01:50:24	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-11-07 01:50:24	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan]
+2013-11-07 01:50:24	--	Channel #coldbrew: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-11-07 01:50:24	--	Notice(morgan.freenode.net): [freenode-info] please register your nickname...don't forget to auto-identify! http://freenode.net/faq.shtml#nicksetup
+2013-11-07 01:50:36	--	Mode #coldbrew [+ns]
+2013-11-07 01:50:36	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-11-07 03:50:47	--	irc: disconnected from server
+2013-11-07 03:51:20	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #coldbrew
+2013-11-07 03:51:21	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-11-07 03:51:21	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-11-07 03:51:21	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan]
+2013-11-07 03:51:21	--	Channel #coldbrew: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-11-07 03:51:34	--	Mode #coldbrew [+ns]
+2013-11-07 03:51:35	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-11-07 05:04:12	--	irc: disconnected from server
+2013-11-07 05:04:41	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #coldbrew
+2013-11-07 05:04:41	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-11-07 05:04:41	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-11-07 05:04:41	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan]
+2013-11-07 05:04:41	--	Channel #coldbrew: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-11-07 05:04:55	--	Mode #coldbrew [+ns]
+2013-11-07 05:04:55	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-11-07 10:15:41	--	irc: disconnected from server
+2013-11-07 10:16:12	-->	JSON_voorhees (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has joined #coldbrew
+2013-11-07 10:16:12	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-11-07 10:16:12	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-11-07 10:16:12	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan]
+2013-11-07 10:16:12	--	Channel #coldbrew: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-11-07 10:16:26	--	Mode #coldbrew [+ns]
+2013-11-07 10:16:26	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-11-07 12:57:51	<--	Wraithan (~wraithan@216.151.13.75) has quit (Ping timeout: 264 seconds)
+2013-11-07 13:53:01	-->	Wraithan (~wraithan@216.151.13.75) has joined #coldbrew
+2013-11-07 18:32:08	--	irc: disconnected from server
+2013-11-07 18:32:39	-->	JSON_voorhees (~JSON_voor@206.169.237.185) has joined #coldbrew
+2013-11-07 18:32:39	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-11-07 18:32:39	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-11-07 18:32:39	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan]
+2013-11-07 18:32:39	--	Channel #coldbrew: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-11-07 18:32:53	--	Mode #coldbrew [+ns]
+2013-11-07 18:32:53	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-11-07 21:44:20	--	irc: disconnected from server
+2013-11-07 21:44:51	-->	JSON_voorhees (~JSON_voor@71-20-35-93.war.clearwire-wmx.net) has joined #coldbrew
+2013-11-07 21:44:51	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-11-07 21:44:51	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-11-07 21:44:51	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan]
+2013-11-07 21:44:51	--	Channel #coldbrew: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-11-07 21:45:05	--	Mode #coldbrew [+ns]
+2013-11-07 21:45:05	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-11-07 22:56:57	--	irc: disconnected from server
+2013-11-07 22:57:29	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #coldbrew
+2013-11-07 22:57:29	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-11-07 22:57:29	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-11-07 22:57:29	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan]
+2013-11-07 22:57:29	--	Channel #coldbrew: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-11-07 22:57:43	--	Mode #coldbrew [+ns]
+2013-11-07 22:57:43	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-11-08 10:32:48	--	irc: disconnected from server
+2013-11-08 10:33:20	-->	JSON_voorhees (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has joined #coldbrew
+2013-11-08 10:33:20	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-11-08 10:33:20	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-11-08 10:33:20	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan]
+2013-11-08 10:33:20	--	Channel #coldbrew: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-11-08 10:33:34	--	Mode #coldbrew [+ns]
+2013-11-08 10:33:34	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-11-08 10:44:54	chrisdickinson	haha
+2013-11-08 10:52:13	chrisdickinson	nothing quite like taking a training lap
+2013-11-08 10:53:46	Wraithan	haha
+2013-11-08 10:54:01	Wraithan	needed to feel out my alcohol tolerence
+2013-11-08 10:54:06	Wraithan	<.<
+2013-11-08 11:01:51	--	Wraithan is now known as robotwraithan
+2013-11-08 11:02:23	--	robotwraithan is now known as Wraithan
+2013-11-08 11:09:25	chrisdickinson	i am going to be so tired by the end of this month
+2013-11-08 11:09:25	chrisdickinson	so
+2013-11-08 11:09:27	chrisdickinson	so tired
+2013-11-08 11:09:50	chrisdickinson	i owe 2 blog posts, 1 nko, 1 talk, about 30-40 thank you cards
+2013-11-08 11:10:15	chrisdickinson	welp, time to amazon mechanical turk
+2013-11-08 11:15:37	Wraithan	yeah, I have 1.5 more posts to write this week, nko, and have to write my slides/talk for dec pdx node
+2013-11-08 11:16:13	Wraithan	and cjs next week
+2013-11-08 11:33:11	chrisdickinson	WTB: hyperbolic time chamber. 20 SoJs
+2013-11-08 15:43:57	Wraithan	just woke up, heading to side door shortly
+2013-11-08 16:11:15	JSON_voorhees	Wraithan: I'll be seeing you as soon as I finish up this PR
+2013-11-08 17:01:13	chrisdickinson	about to be headed
+2013-11-08 17:01:30	JSON_voorhees	word me too, once justin finishes reviewing this pr
+2013-11-08 17:08:35	Wraithan	Cool, just chillin out since I didn't know what to work on (just got here about 10 minutes ago)
+2013-11-08 17:48:57	chrisdickinson	Wraithan: https://gist.github.com/chrisdickinson/5d7b29c8915efcfb92db
+2013-11-08 17:58:49	--	irc: disconnected from server
+2013-11-08 17:59:21	-->	JSON_voorhees (~JSON_voor@71-20-35-93.war.clearwire-wmx.net) has joined #coldbrew
+2013-11-08 17:59:21	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-11-08 17:59:21	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-11-08 17:59:21	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan]
+2013-11-08 17:59:21	--	Channel #coldbrew: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-11-08 17:59:39	--	Mode #coldbrew [+ns]
+2013-11-08 17:59:39	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-11-08 18:01:29	chrisdickinson	https://github.com/gwjjeff/cryptojs/blob/master/lib/AES.js
+2013-11-08 18:06:47	Wraithan	JSON_voorhees: chmod 600 ./id_deploy
+2013-11-08 18:06:53	Wraithan	JSON_voorhees: run that in the checkout of the repo
+2013-11-08 18:06:55	Wraithan	so you can deploy
+2013-11-08 18:07:14	Wraithan	`./deploy nko` is how you deploy
+2013-11-08 19:20:16	JSON_voorhees	http://www.soulseekqt.net/news/sites/default/files/slsk_bird.jpg
+2013-11-08 19:26:25	-->	DatRocketFuel (~DatRocket@192.30.252.48) has joined #coldbrew
+2013-11-08 19:26:25	DatRocketFuel	[brew-rocket-fuel] chrisdickinson pushed 1 new commit to master: http://git.io/NqLQdQ
+2013-11-08 19:26:25	DatRocketFuel	brew-rocket-fuel/master dad85bf Chris Dickinson: add deps
+2013-11-08 19:26:25	<--	DatRocketFuel (~DatRocket@192.30.252.48) has left #coldbrew
+2013-11-08 19:27:00	-->	DatRocketFuel (~DatRocket@192.30.252.53) has joined #coldbrew
+2013-11-08 19:27:00	DatRocketFuel	[brew-rocket-fuel] chrisdickinson pushed 1 new commit to master: http://git.io/mNdpUg
+2013-11-08 19:27:00	DatRocketFuel	brew-rocket-fuel/master a1d3257 Chris Dickinson: add sass because sass
+2013-11-08 19:27:00	<--	DatRocketFuel (~DatRocket@192.30.252.53) has left #coldbrew
+2013-11-08 19:40:22	Wraithan	https://github.com/nko4/brew-rocket-fuel/issues/2#issuecomment-28115275
+2013-11-08 19:40:28	Wraithan	chrisdickinson, JSON_voorhees ^
+2013-11-08 20:27:56	chrisdickinson	Wraithan: relevant: https://github.com/peers/peerjs-server/blob/master/lib/server.js#L172
+2013-11-08 20:45:12	chrisdickinson	Wraithan: https://gist.github.com/chrisdickinson/fb82d7ffbf42ac70f089
+2013-11-08 20:45:46	-->	DatRocketFuel (~DatRocket@192.30.252.55) has joined #coldbrew
+2013-11-08 20:45:46	DatRocketFuel	[brew-rocket-fuel] meandavejustice pushed 1 new commit to master: http://git.io/5dETlQ
+2013-11-08 20:45:46	DatRocketFuel	brew-rocket-fuel/master f526528 David Adam Justice: adding in base for frontend
+2013-11-08 20:45:46	<--	DatRocketFuel (~DatRocket@192.30.252.55) has left #coldbrew
+2013-11-08 21:26:19	-->	DatRocketFuel (~DatRocket@192.30.252.55) has joined #coldbrew
+2013-11-08 21:26:19	DatRocketFuel	[brew-rocket-fuel] meandavejustice pushed 1 new commit to master: http://git.io/10LPew
+2013-11-08 21:26:19	DatRocketFuel	brew-rocket-fuel/master 8c94e8d David Adam Justice: add iframe iframe to index.html
+2013-11-08 21:26:19	<--	DatRocketFuel (~DatRocket@192.30.252.55) has left #coldbrew
+2013-11-08 21:52:19	chrisdickinson	JSON_voorhees: https://npmjs.org/package/level-js
+2013-11-08 21:53:16	chrisdickinson	level("path", function(err, db))
+2013-11-08 22:07:39	Wraithan	chrisdickinson: wanna look over: https://github.com/nko4/brew-rocket-fuel/commit/ad33452bb3fe1edbb04756e211163da103c75133
+2013-11-08 22:07:40	-->	DatRocketFuel (~DatRocket@192.30.252.49) has joined #coldbrew
+2013-11-08 22:07:40	DatRocketFuel	[brew-rocket-fuel] wraithan pushed 1 new commit to master: http://git.io/gVWYKw
+2013-11-08 22:07:40	DatRocketFuel	brew-rocket-fuel/master ad33452 Wraithan (Chris McDonald): init the server
+2013-11-08 22:07:40	<--	DatRocketFuel (~DatRocket@192.30.252.49) has left #coldbrew
+2013-11-08 22:07:47	 *	chrisdickinson reads
+2013-11-08 22:52:12	-->	DatRocketFuel (~DatRocket@192.30.252.53) has joined #coldbrew
+2013-11-08 22:52:12	DatRocketFuel	[brew-rocket-fuel] wraithan pushed 1 new commit to master: http://git.io/lGK7SQ
+2013-11-08 22:52:12	DatRocketFuel	brew-rocket-fuel/master d0b0515 Wraithan (Chris McDonald): catch root
+2013-11-08 22:52:12	<--	DatRocketFuel (~DatRocket@192.30.252.53) has left #coldbrew
+2013-11-08 22:52:30	Wraithan	JSON_voorhees: https://github.com/nko4/brew-rocket-fuel/blob/master/server.js#L19
+2013-11-08 23:21:44	Wraithan	chrisdickinson: https://twitter.com/ataraxia_status
+2013-11-09 02:04:36	--	irc: disconnected from server
+2013-11-09 02:05:07	-->	JSON_voorhees (~JSON_voor@75-92-170-26.war.clearwire-wmx.net) has joined #coldbrew
+2013-11-09 02:05:07	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-11-09 02:05:07	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-11-09 02:05:07	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan]
+2013-11-09 02:05:07	--	Channel #coldbrew: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-11-09 02:05:25	--	Mode #coldbrew [+ns]
+2013-11-09 02:05:25	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-11-09 02:22:17	--	irc: disconnected from server
+2013-11-09 02:22:49	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #coldbrew
+2013-11-09 02:22:49	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-11-09 02:22:49	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-11-09 02:22:49	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan]
+2013-11-09 02:22:49	--	Channel #coldbrew: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-11-09 02:23:07	--	Mode #coldbrew [+ns]
+2013-11-09 02:23:07	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-11-09 10:24:10	--	irc: disconnected from server
+2013-11-09 10:24:41	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #coldbrew
+2013-11-09 10:24:41	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-11-09 10:24:41	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-11-09 10:24:41	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan]
+2013-11-09 10:24:41	--	Channel #coldbrew: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-11-09 10:24:59	--	Mode #coldbrew [+ns]
+2013-11-09 10:24:59	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-11-09 11:42:29	--	irc: disconnected from server
+2013-11-09 11:43:00	-->	JSON_voorhees (~JSON_voor@c-24-21-166-2.hsd1.or.comcast.net) has joined #coldbrew
+2013-11-09 11:43:00	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-11-09 11:43:00	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-11-09 11:43:00	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan]
+2013-11-09 11:43:00	--	Channel #coldbrew: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-11-09 11:43:18	--	Mode #coldbrew [+ns]
+2013-11-09 11:43:18	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-11-09 13:15:59	--	irc: disconnected from server
+2013-11-09 13:16:31	-->	JSON_voorhees (~JSON_voor@75-92-170-26.war.clearwire-wmx.net) has joined #coldbrew
+2013-11-09 13:16:31	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-11-09 13:16:31	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-11-09 13:16:31	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan]
+2013-11-09 13:16:31	--	Channel #coldbrew: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-11-09 13:16:49	--	Mode #coldbrew [+ns]
+2013-11-09 13:16:49	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-11-09 13:30:38	chrisdickinson	JSON_voorhees: welp that comment got out of hand, haha
+2013-11-09 13:30:42	chrisdickinson	https://github.com/nko4/brew-rocket-fuel/commit/516fcd18061443507c910e5deb30fddf79dfc4ba#commitcomment-4556801
+2013-11-09 13:31:17	chrisdickinson	that should (with tweaking) be enough to automatically send any files dropped onto the window into level-js, keyed by the hash of their contents
+2013-11-09 13:31:23	chrisdickinson	with a metadata value stored at <hash>:meta
+2013-11-09 13:31:39	chrisdickinson	(we may also want to update some sort of file list on the db elsewhere
+2013-11-09 13:31:43	chrisdickinson	)
+2013-11-09 13:48:46	--	irc: disconnected from server
+2013-11-09 13:49:18	-->	JSON_voorhees (~JSON_voor@71-20-35-93.war.clearwire-wmx.net) has joined #coldbrew
+2013-11-09 13:49:18	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-11-09 13:49:18	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-11-09 13:49:18	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan]
+2013-11-09 13:49:18	--	Channel #coldbrew: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-11-09 13:49:36	--	Mode #coldbrew [+ns]
+2013-11-09 13:49:36	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-11-09 16:02:15	-->	DatRocketFuel (~DatRocket@192.30.252.53) has joined #coldbrew
+2013-11-09 16:02:15	DatRocketFuel	[brew-rocket-fuel] meandavejustice pushed 1 new commit to master: http://git.io/iJ-eeg
+2013-11-09 16:02:15	DatRocketFuel	brew-rocket-fuel/master 5a53865 David Adam Justice: adding bootstrap and ms styles
+2013-11-09 16:02:15	<--	DatRocketFuel (~DatRocket@192.30.252.53) has left #coldbrew
+2013-11-09 16:10:10	Wraithan	JSON_voorhees: https://github.com/nko4/brew-rocket-fuel/commit/516fcd18061443507c910e5deb30fddf79dfc4ba#commitcomment-4556801
+2013-11-09 16:10:12	chrisdickinson	ah yeah
+2013-11-09 16:10:16	chrisdickinson	also `npm install --save through`
+2013-11-09 16:10:20	chrisdickinson	<3 <3 <3
+2013-11-09 16:10:48	Wraithan	chrisdickinson: already done, just haven't commited
+2013-11-09 16:10:52	Wraithan	:)
+2013-11-09 16:10:57	chrisdickinson	:D
+2013-11-09 16:12:33	-->	DatRocketFuel (~DatRocket@192.30.252.52) has joined #coldbrew
+2013-11-09 16:12:33	DatRocketFuel	[brew-rocket-fuel] wraithan pushed 1 new commit to master: http://git.io/q5-IQQ
+2013-11-09 16:12:33	DatRocketFuel	brew-rocket-fuel/master 64d2fba Wraithan (Chris McDonald): update requirements
+2013-11-09 16:12:33	<--	DatRocketFuel (~DatRocket@192.30.252.52) has left #coldbrew
+2013-11-09 18:18:25	-->	DatRocketFuel (~DatRocket@192.30.252.49) has joined #coldbrew
+2013-11-09 18:18:26	DatRocketFuel	[brew-rocket-fuel] meandavejustice pushed 1 new commit to master: http://git.io/D3FNQA
+2013-11-09 18:18:26	DatRocketFuel	brew-rocket-fuel/master 1bc7b9d David Adam Justice: got uploading to level-js working yay
+2013-11-09 18:18:26	<--	DatRocketFuel (~DatRocket@192.30.252.49) has left #coldbrew
+2013-11-09 19:40:29	-->	DatRocketFuel (~DatRocket@192.30.252.49) has joined #coldbrew
+2013-11-09 19:40:29	DatRocketFuel	[brew-rocket-fuel] meandavejustice pushed 1 new commit to master: http://git.io/BC3m2Q
+2013-11-09 19:40:29	DatRocketFuel	brew-rocket-fuel/master 3b85596 David Adam Justice: adding clientdb index, starting to add support for deleting from db
+2013-11-09 19:40:29	<--	DatRocketFuel (~DatRocket@192.30.252.49) has left #coldbrew
+2013-11-09 19:46:16	-->	DatRocketFuel (~DatRocket@192.30.252.51) has joined #coldbrew
+2013-11-09 19:46:16	DatRocketFuel	[brew-rocket-fuel] meandavejustice pushed 1 new commit to master: http://git.io/BCBbTQ
+2013-11-09 19:46:16	DatRocketFuel	brew-rocket-fuel/master 594fcc9 David Adam Justice: tabs in my code, WHY
+2013-11-09 19:46:16	<--	DatRocketFuel (~DatRocket@192.30.252.51) has left #coldbrew
+2013-11-09 20:09:27	JSON_voorhees	chrisdickinson: what do we want to name this?
+2013-11-09 20:09:35	chrisdickinson	this project?
+2013-11-09 20:09:59	JSON_voorhees	yess
+2013-11-09 20:10:40	Wraithan	spiritscout
+2013-11-09 20:11:32	JSON_voorhees	slskr
+2013-11-09 20:12:10	JSON_voorhees	daggr.io
+2013-11-09 20:13:25	Wraithan	haha
+2013-11-09 20:14:08	Wraithan	http://www.cursor.cc/cursor3d/1085.png
+2013-11-10 08:29:53	--	irc: disconnected from server
+2013-11-10 08:30:22	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #coldbrew
+2013-11-10 08:30:22	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-11-10 08:30:22	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-11-10 08:30:22	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan]
+2013-11-10 08:30:22	--	Channel #coldbrew: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-11-10 08:30:22	--	Notice(hitchcock.freenode.net): [freenode-info] channel flooding and no channel staff around to help? Please check with freenode support: http://freenode.net/faq.shtml#gettinghelp
+2013-11-10 08:30:40	--	Mode #coldbrew [+ns]
+2013-11-10 08:30:40	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-11-10 11:26:38	--	irc: disconnected from server
+2013-11-10 12:51:03	-->	JSON_voorhees (~JSON_voor@c-71-237-213-89.hsd1.or.comcast.net) has joined #coldbrew
+2013-11-10 12:51:04	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-11-10 12:51:04	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-11-10 12:51:04	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan]
+2013-11-10 12:51:04	--	Channel #coldbrew: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-11-10 12:51:21	--	Mode #coldbrew [+ns]
+2013-11-10 12:51:22	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-11-10 13:21:40	-->	DatRocketFuel (~DatRocket@192.30.252.49) has joined #coldbrew
+2013-11-10 13:21:40	DatRocketFuel	[brew-rocket-fuel] meandavejustice pushed 2 new commits to master: http://git.io/FciagQ
+2013-11-10 13:21:40	DatRocketFuel	brew-rocket-fuel/master 85ac836 David Adam Justice: adding dist files from tb
+2013-11-10 13:21:40	DatRocketFuel	brew-rocket-fuel/master 7685292 David Adam Justice: Merge branch 'master' of github.com:nko4/brew-rocket-fuel
+2013-11-10 13:21:40	<--	DatRocketFuel (~DatRocket@192.30.252.49) has left #coldbrew
+2013-11-10 13:45:24	-->	DatRocketFuel (~DatRocket@192.30.252.53) has joined #coldbrew
+2013-11-10 13:45:25	DatRocketFuel	[brew-rocket-fuel] wraithan pushed 1 new commit to master: http://git.io/3y7VhA
+2013-11-10 13:45:25	DatRocketFuel	brew-rocket-fuel/master 048f828 Wraithan (Chris McDonald): comments
+2013-11-10 13:45:25	<--	DatRocketFuel (~DatRocket@192.30.252.53) has left #coldbrew
+2013-11-10 13:57:14	-->	DatRocketFuel (~DatRocket@192.30.252.48) has joined #coldbrew
+2013-11-10 13:57:14	DatRocketFuel	[brew-rocket-fuel] meandavejustice pushed 2 new commits to master: http://git.io/5F_JJg
+2013-11-10 13:57:14	DatRocketFuel	brew-rocket-fuel/master b62423c David Adam Justice: bootstrapping the ui on load
+2013-11-10 13:57:14	DatRocketFuel	brew-rocket-fuel/master f55ef29 David Adam Justice: Merge branch 'master' of github.com:nko4/brew-rocket-fuel
+2013-11-10 13:57:14	<--	DatRocketFuel (~DatRocket@192.30.252.48) has left #coldbrew
+2013-11-10 14:51:40	--	irc: disconnected from server
+2013-11-10 14:52:09	-->	JSON_voorhees (~JSON_voor@c-71-237-213-89.hsd1.or.comcast.net) has joined #coldbrew
+2013-11-10 14:52:09	--	Topic for #coldbrew is "Dat Rocket Fuel | http://pad.wraithan.net/p/coldbrew-ideas"
+2013-11-10 14:52:09	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Wed, 18 Sep 2013 11:24:03
+2013-11-10 14:52:09	--	Nicks #coldbrew: [chrisdickinson JSON_voorhees Wraithan]
+2013-11-10 14:52:09	--	Channel #coldbrew: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-11-10 14:52:27	--	Mode #coldbrew [+ns]
+2013-11-10 14:52:27	--	Channel created on Wed, 18 Sep 2013 11:19:17
+2013-11-10 15:08:52	Wraithan	192.168.1.38
+2013-11-10 15:08:54	Wraithan	8000
+2013-11-10 15:09:00	Wraithan	chrisdickinson: 
+2013-11-10 15:09:16	chrisdickinson	hiii

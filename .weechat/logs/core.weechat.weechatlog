@@ -1,0 +1,1629 @@
+2012-11-26 22:42:35		Plugins loaded: alias, fifo, irc, logger, relay, rmodifier, tcl, xfer
+2012-11-26 22:42:56		[startup] (weechat.conf)
+2012-11-26 22:42:56		  weechat.startup.command_after_plugins = ""
+2012-11-26 22:42:56		  weechat.startup.command_before_plugins = ""
+2012-11-26 22:42:56		  weechat.startup.display_logo = on
+2012-11-26 22:42:56		  weechat.startup.display_version = on
+2012-11-26 22:42:56		[look] (weechat.conf)
+2012-11-26 22:42:56		  weechat.look.align_end_of_lines = message
+2012-11-26 22:42:56		  weechat.look.bar_more_down = "++"
+2012-11-26 22:42:56		  weechat.look.bar_more_left = "<<"
+2012-11-26 22:42:56		  weechat.look.bar_more_right = ">>"
+2012-11-26 22:42:56		  weechat.look.bar_more_up = "--"
+2012-11-26 22:42:56		  weechat.look.buffer_notify_default = all
+2012-11-26 22:42:56		  weechat.look.buffer_time_format = "%H:%M:%S"
+2012-11-26 22:42:56		  weechat.look.color_basic_force_bold = off
+2012-11-26 22:42:56		  weechat.look.color_inactive_buffer = off
+2012-11-26 22:42:56		  weechat.look.color_inactive_message = on
+2012-11-26 22:42:56		  weechat.look.color_inactive_prefix = on
+2012-11-26 22:42:56		  weechat.look.color_inactive_prefix_buffer = on
+2012-11-26 22:42:56		  weechat.look.color_inactive_time = off
+2012-11-26 22:42:56		  weechat.look.color_inactive_window = off
+2012-11-26 22:42:56		  weechat.look.color_pairs_auto_reset = 5
+2012-11-26 22:42:56		  weechat.look.color_real_white = off
+2012-11-26 22:42:56		  weechat.look.command_chars = ""
+2012-11-26 22:42:56		  weechat.look.confirm_quit = off
+2012-11-26 22:42:56		  weechat.look.day_change = on
+2012-11-26 22:42:56		  weechat.look.day_change_time_format = "%a, %d %b %Y"
+2012-11-26 22:42:56		  weechat.look.eat_newline_glitch = off
+2012-11-26 22:42:56		  weechat.look.highlight = ""
+2012-11-26 22:42:56		  weechat.look.highlight_regex = ""
+2012-11-26 22:42:56		  weechat.look.highlight_tags = ""
+2012-11-26 22:42:56		  weechat.look.hotlist_add_buffer_if_away = on
+2012-11-26 22:42:56		  weechat.look.hotlist_buffer_separator = ", "
+2012-11-26 22:42:56		  weechat.look.hotlist_count_max = 2
+2012-11-26 22:42:56		  weechat.look.hotlist_count_min_msg = 2
+2012-11-26 22:42:56		  weechat.look.hotlist_names_count = 3
+2012-11-26 22:42:56		  weechat.look.hotlist_names_length = 0
+2012-11-26 22:42:56		  weechat.look.hotlist_names_level = 12
+2012-11-26 22:42:56		  weechat.look.hotlist_names_merged_buffers = off
+2012-11-26 22:42:56		  weechat.look.hotlist_short_names = on
+2012-11-26 22:42:56		  weechat.look.hotlist_sort = group_time_asc
+2012-11-26 22:42:56		  weechat.look.hotlist_unique_numbers = on
+2012-11-26 22:42:56		  weechat.look.input_cursor_scroll = 20
+2012-11-26 22:42:56		  weechat.look.input_share = none
+2012-11-26 22:42:56		  weechat.look.input_share_overwrite = off
+2012-11-26 22:42:56		  weechat.look.input_undo_max = 32
+2012-11-26 22:42:56		  weechat.look.item_buffer_filter = "*"
+2012-11-26 22:42:56		  weechat.look.item_time_format = "%H:%M"
+2012-11-26 22:42:56		  weechat.look.jump_current_to_previous_buffer = on
+2012-11-26 22:42:56		  weechat.look.jump_previous_buffer_when_closing = on
+2012-11-26 22:42:56		  weechat.look.mouse = off
+2012-11-26 22:42:56		  weechat.look.mouse_timer_delay = 100
+2012-11-26 22:42:56		  weechat.look.nickmode = on
+2012-11-26 22:42:56		  weechat.look.nickmode_empty = off
+2012-11-26 22:42:56		  weechat.look.paste_bracketed = off
+2012-11-26 22:42:56		  weechat.look.paste_bracketed_timer_delay = 10
+2012-11-26 22:42:56		  weechat.look.paste_max_lines = 1
+2012-11-26 22:42:56		  weechat.look.prefix_action = " *"
+2012-11-26 22:42:56		  weechat.look.prefix_align = right
+2012-11-26 22:42:56		  weechat.look.prefix_align_max = 0
+2012-11-26 22:42:56		  weechat.look.prefix_align_min = 0
+2012-11-26 22:42:56		  weechat.look.prefix_align_more = "+"
+2012-11-26 22:42:56		  weechat.look.prefix_buffer_align = right
+2012-11-26 22:42:56		  weechat.look.prefix_buffer_align_max = 0
+2012-11-26 22:42:56		  weechat.look.prefix_buffer_align_more = "+"
+2012-11-26 22:42:56		  weechat.look.prefix_error = "=!="
+2012-11-26 22:42:56		  weechat.look.prefix_join = "-->"
+2012-11-26 22:42:56		  weechat.look.prefix_network = "--"
+2012-11-26 22:42:56		  weechat.look.prefix_quit = "<--"
+2012-11-26 22:42:56		  weechat.look.prefix_same_nick = ""
+2012-11-26 22:42:56		  weechat.look.prefix_suffix = "|"
+2012-11-26 22:42:56		  weechat.look.read_marker = line
+2012-11-26 22:42:56		  weechat.look.read_marker_always_show = off
+2012-11-26 22:42:56		  weechat.look.read_marker_string = "- "
+2012-11-26 22:42:56		  weechat.look.save_config_on_exit = on
+2012-11-26 22:42:56		  weechat.look.save_layout_on_exit = none
+2012-11-26 22:42:56		  weechat.look.scroll_amount = 3
+2012-11-26 22:42:56		  weechat.look.scroll_bottom_after_switch = off
+2012-11-26 22:42:56		  weechat.look.scroll_page_percent = 100
+2012-11-26 22:42:56		  weechat.look.search_text_not_found_alert = on
+2012-11-26 22:42:56		  weechat.look.separator_horizontal = "-"
+2012-11-26 22:42:56		  weechat.look.separator_vertical = ""
+2012-11-26 22:42:56		  weechat.look.set_title = on
+2012-11-26 22:42:56		  weechat.look.time_format = "%a, %d %b %Y %T"
+2012-11-26 22:42:56		[color] (weechat.conf)
+2012-11-26 22:42:56		  weechat.color.bar_more = lightmagenta
+2012-11-26 22:42:56		  weechat.color.chat = default
+2012-11-26 22:42:56		  weechat.color.chat_bg = default
+2012-11-26 22:42:56		  weechat.color.chat_buffer = white
+2012-11-26 22:42:56		  weechat.color.chat_channel = white
+2012-11-26 22:42:56		  weechat.color.chat_delimiters = green
+2012-11-26 22:42:56		  weechat.color.chat_highlight = yellow
+2012-11-26 22:42:56		  weechat.color.chat_highlight_bg = magenta
+2012-11-26 22:42:56		  weechat.color.chat_host = cyan
+2012-11-26 22:42:56		  weechat.color.chat_inactive_buffer = darkgray
+2012-11-26 22:42:56		  weechat.color.chat_inactive_window = darkgray
+2012-11-26 22:42:56		  weechat.color.chat_nick = lightcyan
+2012-11-26 22:42:56		  weechat.color.chat_nick_colors = "cyan,magenta,green,brown,lightblue,default,lightcyan,lightmagenta,lightgreen,blue"
+2012-11-26 22:42:56		  weechat.color.chat_nick_other = cyan
+2012-11-26 22:42:56		  weechat.color.chat_nick_self = white
+2012-11-26 22:42:56		  weechat.color.chat_prefix_action = white
+2012-11-26 22:42:56		  weechat.color.chat_prefix_buffer = brown
+2012-11-26 22:42:56		  weechat.color.chat_prefix_buffer_inactive_buffer = darkgray
+2012-11-26 22:42:56		  weechat.color.chat_prefix_error = yellow
+2012-11-26 22:42:56		  weechat.color.chat_prefix_join = lightgreen
+2012-11-26 22:42:56		  weechat.color.chat_prefix_more = lightmagenta
+2012-11-26 22:42:56		  weechat.color.chat_prefix_network = magenta
+2012-11-26 22:42:56		  weechat.color.chat_prefix_quit = lightred
+2012-11-26 22:42:56		  weechat.color.chat_prefix_suffix = green
+2012-11-26 22:42:56		  weechat.color.chat_read_marker = magenta
+2012-11-26 22:42:56		  weechat.color.chat_read_marker_bg = default
+2012-11-26 22:42:56		  weechat.color.chat_server = brown
+2012-11-26 22:42:56		  weechat.color.chat_tags = red
+2012-11-26 22:42:56		  weechat.color.chat_text_found = yellow
+2012-11-26 22:42:56		  weechat.color.chat_text_found_bg = lightmagenta
+2012-11-26 22:42:56		  weechat.color.chat_time = default
+2012-11-26 22:42:56		  weechat.color.chat_time_delimiters = brown
+2012-11-26 22:42:56		  weechat.color.chat_value = cyan
+2012-11-26 22:42:56		  weechat.color.input_actions = lightgreen
+2012-11-26 22:42:56		  weechat.color.input_text_not_found = red
+2012-11-26 22:42:56		  weechat.color.nicklist_away = cyan
+2012-11-26 22:42:56		  weechat.color.nicklist_group = green
+2012-11-26 22:42:56		  weechat.color.nicklist_offline = blue
+2012-11-26 22:42:56		  weechat.color.separator = blue
+2012-11-26 22:42:56		  weechat.color.status_count_highlight = magenta
+2012-11-26 22:42:56		  weechat.color.status_count_msg = brown
+2012-11-26 22:42:56		  weechat.color.status_count_other = default
+2012-11-26 22:42:56		  weechat.color.status_count_private = green
+2012-11-26 22:42:56		  weechat.color.status_data_highlight = lightmagenta
+2012-11-26 22:42:56		  weechat.color.status_data_msg = yellow
+2012-11-26 22:42:56		  weechat.color.status_data_other = default
+2012-11-26 22:42:56		  weechat.color.status_data_private = lightgreen
+2012-11-26 22:42:56		  weechat.color.status_filter = green
+2012-11-26 22:42:56		  weechat.color.status_more = yellow
+2012-11-26 22:42:56		  weechat.color.status_name = white
+2012-11-26 22:42:56		  weechat.color.status_name_ssl = lightgreen
+2012-11-26 22:42:56		  weechat.color.status_number = yellow
+2012-11-26 22:42:56		  weechat.color.status_time = default
+2012-11-26 22:42:56		[completion] (weechat.conf)
+2012-11-26 22:42:56		  weechat.completion.base_word_until_cursor = on
+2012-11-26 22:42:56		  weechat.completion.default_template = "%(nicks)|%(irc_channels)"
+2012-11-26 22:42:56		  weechat.completion.nick_add_space = on
+2012-11-26 22:42:56		  weechat.completion.nick_completer = ":"
+2012-11-26 22:42:56		  weechat.completion.nick_first_only = off
+2012-11-26 22:42:56		  weechat.completion.nick_ignore_chars = "[]`_-^"
+2012-11-26 22:42:56		  weechat.completion.partial_completion_alert = on
+2012-11-26 22:42:56		  weechat.completion.partial_completion_command = off
+2012-11-26 22:42:56		  weechat.completion.partial_completion_command_arg = off
+2012-11-26 22:42:56		  weechat.completion.partial_completion_count = on
+2012-11-26 22:42:56		  weechat.completion.partial_completion_other = off
+2012-11-26 22:42:56		[history] (weechat.conf)
+2012-11-26 22:42:56		  weechat.history.display_default = 5
+2012-11-26 22:42:56		  weechat.history.max_buffer_lines_minutes = 0
+2012-11-26 22:42:56		  weechat.history.max_buffer_lines_number = 4096
+2012-11-26 22:42:56		  weechat.history.max_commands = 100
+2012-11-26 22:42:56		  weechat.history.max_visited_buffers = 50
+2012-11-26 22:42:56		[network] (weechat.conf)
+2012-11-26 22:42:56		  weechat.network.connection_timeout = 60
+2012-11-26 22:42:56		  weechat.network.gnutls_ca_file = "/etc/ssl/certs/ca-certificates.crt"
+2012-11-26 22:42:56		  weechat.network.gnutls_handshake_timeout = 30
+2012-11-26 22:42:56		[plugin] (weechat.conf)
+2012-11-26 22:42:56		  weechat.plugin.autoload = "*"
+2012-11-26 22:42:56		  weechat.plugin.debug = off
+2012-11-26 22:42:56		  weechat.plugin.extension = ".so,.dll"
+2012-11-26 22:42:56		  weechat.plugin.path = "%h/plugins"
+2012-11-26 22:42:56		  weechat.plugin.save_config_on_unload = on
+2012-11-26 22:42:56		[bar] (weechat.conf)
+2012-11-26 22:42:56		  weechat.bar.input.color_bg = default
+2012-11-26 22:42:56		  weechat.bar.input.color_delim = cyan
+2012-11-26 22:42:56		  weechat.bar.input.color_fg = default
+2012-11-26 22:42:56		  weechat.bar.input.conditions = ""
+2012-11-26 22:42:56		  weechat.bar.input.filling_left_right = vertical
+2012-11-26 22:42:56		  weechat.bar.input.filling_top_bottom = horizontal
+2012-11-26 22:42:56		  weechat.bar.input.hidden = off
+2012-11-26 22:42:56		  weechat.bar.input.items = "[input_prompt]+(away),[input_search],[input_paste],input_text"
+2012-11-26 22:42:56		  weechat.bar.input.position = bottom
+2012-11-26 22:42:56		  weechat.bar.input.priority = 1000
+2012-11-26 22:42:56		  weechat.bar.input.separator = off
+2012-11-26 22:42:56		  weechat.bar.input.size = 1
+2012-11-26 22:42:56		  weechat.bar.input.size_max = 0
+2012-11-26 22:42:56		  weechat.bar.input.type = window
+2012-11-26 22:42:56		  weechat.bar.nicklist.color_bg = default
+2012-11-26 22:42:56		  weechat.bar.nicklist.color_delim = cyan
+2012-11-26 22:42:56		  weechat.bar.nicklist.color_fg = default
+2012-11-26 22:42:56		  weechat.bar.nicklist.conditions = "nicklist"
+2012-11-26 22:42:56		  weechat.bar.nicklist.filling_left_right = vertical
+2012-11-26 22:42:56		  weechat.bar.nicklist.filling_top_bottom = columns_vertical
+2012-11-26 22:42:56		  weechat.bar.nicklist.hidden = off
+2012-11-26 22:42:56		  weechat.bar.nicklist.items = "buffer_nicklist"
+2012-11-26 22:42:56		  weechat.bar.nicklist.position = right
+2012-11-26 22:42:56		  weechat.bar.nicklist.priority = 200
+2012-11-26 22:42:56		  weechat.bar.nicklist.separator = on
+2012-11-26 22:42:56		  weechat.bar.nicklist.size = 0
+2012-11-26 22:42:56		  weechat.bar.nicklist.size_max = 0
+2012-11-26 22:42:56		  weechat.bar.nicklist.type = window
+2012-11-26 22:42:56		  weechat.bar.status.color_bg = blue
+2012-11-26 22:42:56		  weechat.bar.status.color_delim = cyan
+2012-11-26 22:42:56		  weechat.bar.status.color_fg = default
+2012-11-26 22:42:56		  weechat.bar.status.conditions = ""
+2012-11-26 22:42:56		  weechat.bar.status.filling_left_right = vertical
+2012-11-26 22:42:56		  weechat.bar.status.filling_top_bottom = horizontal
+2012-11-26 22:42:56		  weechat.bar.status.hidden = off
+2012-11-26 22:42:56		  weechat.bar.status.items = "[time],[buffer_count],[buffer_plugin],buffer_number+:+buffer_name+{buffer_nicklist_count}+buffer_filter,[lag],[hotlist],completion,scroll"
+2012-11-26 22:42:56		  weechat.bar.status.position = bottom
+2012-11-26 22:42:56		  weechat.bar.status.priority = 500
+2012-11-26 22:42:56		  weechat.bar.status.separator = off
+2012-11-26 22:42:56		  weechat.bar.status.size = 1
+2012-11-26 22:42:56		  weechat.bar.status.size_max = 0
+2012-11-26 22:42:56		  weechat.bar.status.type = window
+2012-11-26 22:42:56		  weechat.bar.title.color_bg = blue
+2012-11-26 22:42:56		  weechat.bar.title.color_delim = cyan
+2012-11-26 22:42:56		  weechat.bar.title.color_fg = default
+2012-11-26 22:42:56		  weechat.bar.title.conditions = ""
+2012-11-26 22:42:56		  weechat.bar.title.filling_left_right = vertical
+2012-11-26 22:42:56		  weechat.bar.title.filling_top_bottom = horizontal
+2012-11-26 22:42:56		  weechat.bar.title.hidden = off
+2012-11-26 22:42:56		  weechat.bar.title.items = "buffer_title"
+2012-11-26 22:42:56		  weechat.bar.title.position = top
+2012-11-26 22:42:56		  weechat.bar.title.priority = 500
+2012-11-26 22:42:56		  weechat.bar.title.separator = off
+2012-11-26 22:42:56		  weechat.bar.title.size = 1
+2012-11-26 22:42:56		  weechat.bar.title.size_max = 0
+2012-11-26 22:42:56		  weechat.bar.title.type = window
+2012-11-26 22:42:56		[var] (plugins.conf)
+2012-11-26 22:42:56		  plugins.var.fifo.fifo = "on"
+2012-11-26 22:42:56		  plugins.var.tcl.check_license = "on"
+2012-11-26 22:42:56		[cmd] (alias.conf)
+2012-11-26 22:42:56		  alias.cmd.AAWAY = "allserv /away"
+2012-11-26 22:42:56		  alias.cmd.AME = "allchan /me"
+2012-11-26 22:42:56		  alias.cmd.AMSG = "allchan /msg *"
+2012-11-26 22:42:56		  alias.cmd.ANICK = "allserv /nick"
+2012-11-26 22:42:56		  alias.cmd.BYE = "quit"
+2012-11-26 22:42:56		  alias.cmd.C = "buffer clear"
+2012-11-26 22:42:56		  alias.cmd.CHAT = "dcc chat"
+2012-11-26 22:42:56		  alias.cmd.CL = "buffer clear"
+2012-11-26 22:42:56		  alias.cmd.CLOSE = "buffer close"
+2012-11-26 22:42:56		  alias.cmd.EXIT = "quit"
+2012-11-26 22:42:56		  alias.cmd.IG = "ignore"
+2012-11-26 22:42:56		  alias.cmd.J = "join"
+2012-11-26 22:42:56		  alias.cmd.K = "kick"
+2012-11-26 22:42:56		  alias.cmd.KB = "kickban"
+2012-11-26 22:42:56		  alias.cmd.LEAVE = "part"
+2012-11-26 22:42:56		  alias.cmd.M = "msg"
+2012-11-26 22:42:56		  alias.cmd.MUB = "unban *"
+2012-11-26 22:42:56		  alias.cmd.N = "names"
+2012-11-26 22:42:56		  alias.cmd.Q = "query"
+2012-11-26 22:42:56		  alias.cmd.REDRAW = "window refresh"
+2012-11-26 22:42:56		  alias.cmd.SAY = "msg *"
+2012-11-26 22:42:56		  alias.cmd.SIGNOFF = "quit"
+2012-11-26 22:42:56		  alias.cmd.T = "topic"
+2012-11-26 22:42:56		  alias.cmd.UB = "unban"
+2012-11-26 22:42:56		  alias.cmd.UMODE = "mode $nick"
+2012-11-26 22:42:56		  alias.cmd.V = "command core version"
+2012-11-26 22:42:56		  alias.cmd.W = "who"
+2012-11-26 22:42:56		  alias.cmd.WC = "window merge"
+2012-11-26 22:42:56		  alias.cmd.WI = "whois"
+2012-11-26 22:42:56		  alias.cmd.WII = "whois $1 $1"
+2012-11-26 22:42:56		  alias.cmd.WW = "whowas"
+2012-11-26 22:42:56		[look] (irc.conf)
+2012-11-26 22:42:56		  irc.look.buffer_switch_autojoin = on
+2012-11-26 22:42:56		  irc.look.buffer_switch_join = on
+2012-11-26 22:42:56		  irc.look.color_nicks_in_names = off
+2012-11-26 22:42:56		  irc.look.color_nicks_in_nicklist = off
+2012-11-26 22:42:56		  irc.look.color_nicks_in_server_messages = on
+2012-11-26 22:42:56		  irc.look.color_pv_nick_like_channel = on
+2012-11-26 22:42:56		  irc.look.display_away = local
+2012-11-26 22:42:56		  irc.look.display_ctcp_blocked = on
+2012-11-26 22:42:56		  irc.look.display_ctcp_reply = on
+2012-11-26 22:42:56		  irc.look.display_ctcp_unknown = on
+2012-11-26 22:42:56		  irc.look.display_host_join = on
+2012-11-26 22:42:56		  irc.look.display_host_join_local = on
+2012-11-26 22:42:56		  irc.look.display_host_quit = on
+2012-11-26 22:42:56		  irc.look.display_old_topic = on
+2012-11-26 22:42:56		  irc.look.display_pv_away_once = on
+2012-11-26 22:42:56		  irc.look.display_pv_back = on
+2012-11-26 22:42:56		  irc.look.hide_nickserv_pwd = on
+2012-11-26 22:42:56		  irc.look.highlight_channel = "$nick"
+2012-11-26 22:42:56		  irc.look.highlight_pv = "$nick"
+2012-11-26 22:42:56		  irc.look.highlight_server = "$nick"
+2012-11-26 22:42:56		  irc.look.highlight_tags = "irc_privmsg,irc_notice"
+2012-11-26 22:42:56		  irc.look.item_away_message = on
+2012-11-26 22:42:56		  irc.look.item_channel_modes = on
+2012-11-26 22:42:56		  irc.look.item_channel_modes_hide_key = off
+2012-11-26 22:42:56		  irc.look.item_display_server = buffer_plugin
+2012-11-26 22:42:56		  irc.look.item_nick_modes = on
+2012-11-26 22:42:56		  irc.look.item_nick_prefix = on
+2012-11-26 22:42:56		  irc.look.msgbuffer_fallback = current
+2012-11-26 22:42:56		  irc.look.new_channel_position = none
+2012-11-26 22:42:56		  irc.look.new_pv_position = none
+2012-11-26 22:42:56		  irc.look.nick_color_force = ""
+2012-11-26 22:42:56		  irc.look.nick_color_stop_chars = "_|["
+2012-11-26 22:42:56		  irc.look.nick_completion_smart = speakers
+2012-11-26 22:42:56		  irc.look.nick_prefix = ""
+2012-11-26 22:42:56		  irc.look.nick_suffix = ""
+2012-11-26 22:42:56		  irc.look.notice_as_pv = auto
+2012-11-26 22:42:56		  irc.look.notify_tags_ison = "notify_message"
+2012-11-26 22:42:56		  irc.look.notify_tags_whois = "notify_message"
+2012-11-26 22:42:56		  irc.look.part_closes_buffer = off
+2012-11-26 22:42:56		  irc.look.raw_messages = 256
+2012-11-26 22:42:56		  irc.look.server_buffer = merge_with_core
+2012-11-26 22:42:56		  irc.look.smart_filter = on
+2012-11-26 22:42:56		  irc.look.smart_filter_delay = 5
+2012-11-26 22:42:56		  irc.look.smart_filter_join = on
+2012-11-26 22:42:56		  irc.look.smart_filter_nick = on
+2012-11-26 22:42:56		  irc.look.smart_filter_quit = on
+2012-11-26 22:42:56		  irc.look.topic_strip_colors = off
+2012-11-26 22:42:56		[color] (irc.conf)
+2012-11-26 22:42:56		  irc.color.input_nick = lightcyan
+2012-11-26 22:42:56		  irc.color.item_away = yellow
+2012-11-26 22:42:56		  irc.color.item_channel_modes = default
+2012-11-26 22:42:56		  irc.color.item_lag_counting = default
+2012-11-26 22:42:56		  irc.color.item_lag_finished = yellow
+2012-11-26 22:42:56		  irc.color.message_join = green
+2012-11-26 22:42:56		  irc.color.message_quit = red
+2012-11-26 22:42:56		  irc.color.mirc_remap = "1,-1:darkgray"
+2012-11-26 22:42:56		  irc.color.nick_prefix = green
+2012-11-26 22:42:56		  irc.color.nick_prefixes = "q:lightred;a:lightcyan;o:lightgreen;h:lightmagenta;v:yellow;*:lightblue"
+2012-11-26 22:42:56		  irc.color.nick_suffix = green
+2012-11-26 22:42:56		  irc.color.notice = green
+2012-11-26 22:42:56		  irc.color.reason_quit = default
+2012-11-26 22:42:56		  irc.color.topic_new = white
+2012-11-26 22:42:56		  irc.color.topic_old = darkgray
+2012-11-26 22:42:56		[network] (irc.conf)
+2012-11-26 22:42:56		  irc.network.autoreconnect_delay_growing = 2
+2012-11-26 22:42:56		  irc.network.autoreconnect_delay_max = 1800
+2012-11-26 22:42:56		  irc.network.colors_receive = on
+2012-11-26 22:42:56		  irc.network.colors_send = on
+2012-11-26 22:42:56		  irc.network.lag_check = 60
+2012-11-26 22:42:56		  irc.network.lag_disconnect = 0
+2012-11-26 22:42:56		  irc.network.lag_min_show = 500
+2012-11-26 22:42:56		  irc.network.lag_refresh_interval = 1
+2012-11-26 22:42:56		  irc.network.notify_check_ison = 1
+2012-11-26 22:42:56		  irc.network.notify_check_whois = 5
+2012-11-26 22:42:56		  irc.network.send_unknown_commands = off
+2012-11-26 22:42:56		[server_default] (irc.conf)
+2012-11-26 22:42:56		  irc.server_default.addresses = ""
+2012-11-26 22:42:56		  irc.server_default.anti_flood_prio_high = 2
+2012-11-26 22:42:56		  irc.server_default.anti_flood_prio_low = 2
+2012-11-26 22:42:56		  irc.server_default.autoconnect = off
+2012-11-26 22:42:56		  irc.server_default.autojoin = ""
+2012-11-26 22:42:56		  irc.server_default.autoreconnect = on
+2012-11-26 22:42:56		  irc.server_default.autoreconnect_delay = 10
+2012-11-26 22:42:56		  irc.server_default.autorejoin = off
+2012-11-26 22:42:56		  irc.server_default.autorejoin_delay = 30
+2012-11-26 22:42:56		  irc.server_default.away_check = 0
+2012-11-26 22:42:56		  irc.server_default.away_check_max_nicks = 25
+2012-11-26 22:42:56		  irc.server_default.capabilities = ""
+2012-11-26 22:42:56		  irc.server_default.command = ""
+2012-11-26 22:42:56		  irc.server_default.command_delay = 0
+2012-11-26 22:42:56		  irc.server_default.connection_timeout = 60
+2012-11-26 22:42:56		  irc.server_default.default_msg_part = "WeeChat %v"
+2012-11-26 22:42:56		  irc.server_default.default_msg_quit = "WeeChat %v"
+2012-11-26 22:42:56		  irc.server_default.ipv6 = off
+2012-11-26 22:42:56		  irc.server_default.local_hostname = ""
+2012-11-26 22:42:56		  irc.server_default.nicks = "meandave,meandave1,meandave2,meandave3,meandave4"
+2012-11-26 22:42:56		  irc.server_default.notify = ""
+2012-11-26 22:42:56		  irc.server_default.password = ""
+2012-11-26 22:42:56		  irc.server_default.proxy = ""
+2012-11-26 22:42:56		  irc.server_default.realname = ""
+2012-11-26 22:42:56		  irc.server_default.sasl_mechanism = plain
+2012-11-26 22:42:56		  irc.server_default.sasl_password = ""
+2012-11-26 22:42:56		  irc.server_default.sasl_timeout = 15
+2012-11-26 22:42:56		  irc.server_default.sasl_username = ""
+2012-11-26 22:42:56		  irc.server_default.ssl = off
+2012-11-26 22:42:56		  irc.server_default.ssl_cert = ""
+2012-11-26 22:42:56		  irc.server_default.ssl_dhkey_size = 2048
+2012-11-26 22:42:56		  irc.server_default.ssl_priorities = "NORMAL"
+2012-11-26 22:42:56		  irc.server_default.ssl_verify = on
+2012-11-26 22:42:56		  irc.server_default.username = "meandave"
+2012-11-26 22:42:56		[server] (irc.conf)
+2012-11-26 22:42:56		  irc.server.freenode.addresses = "chat.freenode.net/6667"
+2012-11-26 22:42:56		  irc.server.freenode.anti_flood_prio_high
+2012-11-26 22:42:56		  irc.server.freenode.anti_flood_prio_low
+2012-11-26 22:42:56		  irc.server.freenode.autoconnect
+2012-11-26 22:42:56		  irc.server.freenode.autojoin
+2012-11-26 22:42:56		  irc.server.freenode.autoreconnect
+2012-11-26 22:42:56		  irc.server.freenode.autoreconnect_delay
+2012-11-26 22:42:56		  irc.server.freenode.autorejoin
+2012-11-26 22:42:56		  irc.server.freenode.autorejoin_delay
+2012-11-26 22:42:56		  irc.server.freenode.away_check
+2012-11-26 22:42:56		  irc.server.freenode.away_check_max_nicks
+2012-11-26 22:42:56		  irc.server.freenode.capabilities
+2012-11-26 22:42:56		  irc.server.freenode.command
+2012-11-26 22:42:56		  irc.server.freenode.command_delay
+2012-11-26 22:42:56		  irc.server.freenode.connection_timeout
+2012-11-26 22:42:56		  irc.server.freenode.default_msg_part
+2012-11-26 22:42:56		  irc.server.freenode.default_msg_quit
+2012-11-26 22:42:56		  irc.server.freenode.ipv6
+2012-11-26 22:42:56		  irc.server.freenode.local_hostname
+2012-11-26 22:42:56		  irc.server.freenode.nicks
+2012-11-26 22:42:56		  irc.server.freenode.notify
+2012-11-26 22:42:56		  irc.server.freenode.password
+2012-11-26 22:42:56		  irc.server.freenode.proxy
+2012-11-26 22:42:56		  irc.server.freenode.realname
+2012-11-26 22:42:56		  irc.server.freenode.sasl_mechanism
+2012-11-26 22:42:56		  irc.server.freenode.sasl_password
+2012-11-26 22:42:56		  irc.server.freenode.sasl_timeout
+2012-11-26 22:42:56		  irc.server.freenode.sasl_username
+2012-11-26 22:42:56		  irc.server.freenode.ssl
+2012-11-26 22:42:56		  irc.server.freenode.ssl_cert
+2012-11-26 22:42:56		  irc.server.freenode.ssl_dhkey_size
+2012-11-26 22:42:56		  irc.server.freenode.ssl_priorities
+2012-11-26 22:42:56		  irc.server.freenode.ssl_verify
+2012-11-26 22:42:56		  irc.server.freenode.username
+2012-11-26 22:42:56		[look] (logger.conf)
+2012-11-26 22:42:56		  logger.look.backlog = 20
+2012-11-26 22:42:56		[color] (logger.conf)
+2012-11-26 22:42:56		  logger.color.backlog_end = darkgray
+2012-11-26 22:42:56		  logger.color.backlog_line = darkgray
+2012-11-26 22:42:56		[file] (logger.conf)
+2012-11-26 22:42:56		  logger.file.auto_log = on
+2012-11-26 22:42:56		  logger.file.flush_delay = 120
+2012-11-26 22:42:56		  logger.file.info_lines = off
+2012-11-26 22:42:56		  logger.file.mask = "$plugin.$name.weechatlog"
+2012-11-26 22:42:56		  logger.file.name_lower_case = on
+2012-11-26 22:42:56		  logger.file.path = "%h/logs/"
+2012-11-26 22:42:56		  logger.file.replacement_char = "_"
+2012-11-26 22:42:56		  logger.file.time_format = "%Y-%m-%d %H:%M:%S"
+2012-11-26 22:42:56		[look] (relay.conf)
+2012-11-26 22:42:56		  relay.look.auto_open_buffer = on
+2012-11-26 22:42:56		  relay.look.raw_messages = 256
+2012-11-26 22:42:56		[color] (relay.conf)
+2012-11-26 22:42:56		  relay.color.status_active = lightblue
+2012-11-26 22:42:56		  relay.color.status_auth_failed = lightred
+2012-11-26 22:42:56		  relay.color.status_connecting = yellow
+2012-11-26 22:42:56		  relay.color.status_disconnected = lightred
+2012-11-26 22:42:56		  relay.color.status_waiting_auth = brown
+2012-11-26 22:42:56		  relay.color.text = default
+2012-11-26 22:42:56		  relay.color.text_bg = default
+2012-11-26 22:42:56		  relay.color.text_selected = white
+2012-11-26 22:42:56		[network] (relay.conf)
+2012-11-26 22:42:56		  relay.network.allowed_ips = ""
+2012-11-26 22:42:56		  relay.network.bind_address = ""
+2012-11-26 22:42:56		  relay.network.compression_level = 6
+2012-11-26 22:42:56		  relay.network.max_clients = 5
+2012-11-26 22:42:56		  relay.network.password = ""
+2012-11-26 22:42:56		[look] (rmodifier.conf)
+2012-11-26 22:42:56		  rmodifier.look.hide_char = "*"
+2012-11-26 22:42:56		[modifier] (rmodifier.conf)
+2012-11-26 22:42:56		  rmodifier.modifier.nickserv = "history_add,input_text_display;^(/(msg|quote) +nickserv +(id|identify|ghost \S+|release \S+) +)(.*);1,4*"
+2012-11-26 22:42:56		  rmodifier.modifier.oper = "history_add,input_text_display;^(/oper +\S+ +)(.*);1,2*"
+2012-11-26 22:42:56		  rmodifier.modifier.quote_pass = "history_add,input_text_display;^(/quote pass +)(.*);1,2*"
+2012-11-26 22:42:56		  rmodifier.modifier.server = "history_add,input_text_display;^(/(server|connect) .*-(sasl_)?password=)(\S+)(.*);1,4*,5"
+2012-11-26 22:42:56		  rmodifier.modifier.set_pass = "history_add;^(/set +\S*password\S* +)(.*);1,2*"
+2012-11-26 22:42:56		[look] (xfer.conf)
+2012-11-26 22:42:56		  xfer.look.auto_open_buffer = on
+2012-11-26 22:42:56		  xfer.look.progress_bar_size = 20
+2012-11-26 22:42:56		[color] (xfer.conf)
+2012-11-26 22:42:56		  xfer.color.status_aborted = lightred
+2012-11-26 22:42:56		  xfer.color.status_active = lightblue
+2012-11-26 22:42:56		  xfer.color.status_connecting = yellow
+2012-11-26 22:42:56		  xfer.color.status_done = lightgreen
+2012-11-26 22:42:56		  xfer.color.status_failed = lightred
+2012-11-26 22:42:56		  xfer.color.status_waiting = lightcyan
+2012-11-26 22:42:56		  xfer.color.text = default
+2012-11-26 22:42:56		  xfer.color.text_bg = default
+2012-11-26 22:42:56		  xfer.color.text_selected = white
+2012-11-26 22:42:56		[network] (xfer.conf)
+2012-11-26 22:42:56		  xfer.network.blocksize = 65536
+2012-11-26 22:42:56		  xfer.network.fast_send = on
+2012-11-26 22:42:56		  xfer.network.own_ip = ""
+2012-11-26 22:42:56		  xfer.network.port_range = ""
+2012-11-26 22:42:56		  xfer.network.speed_limit = 0
+2012-11-26 22:42:56		  xfer.network.timeout = 300
+2012-11-26 22:42:56		[file] (xfer.conf)
+2012-11-26 22:42:56		  xfer.file.auto_accept_chats = off
+2012-11-26 22:42:56		  xfer.file.auto_accept_files = off
+2012-11-26 22:42:56		  xfer.file.auto_rename = on
+2012-11-26 22:42:56		  xfer.file.auto_resume = on
+2012-11-26 22:42:56		  xfer.file.convert_spaces = on
+2012-11-26 22:42:56		  xfer.file.download_path = "%h/xfer"
+2012-11-26 22:42:56		  xfer.file.upload_path = "~"
+2012-11-26 22:42:56		  xfer.file.use_nick_in_filename = on
+2012-11-26 22:42:56		445 configuration options found
+2012-11-26 22:43:11	=!=	Error: configuration option "weechat" not found
+2012-11-26 22:43:21	=!=	Error: configuration option "WeeChat" not found
+2012-11-26 22:43:34		[startup] (weechat.conf)
+2012-11-26 22:43:34		  weechat.startup.command_after_plugins = ""
+2012-11-26 22:43:34		  weechat.startup.command_before_plugins = ""
+2012-11-26 22:43:34		  weechat.startup.display_logo = on
+2012-11-26 22:43:34		  weechat.startup.display_version = on
+2012-11-26 22:43:34		[look] (weechat.conf)
+2012-11-26 22:43:34		  weechat.look.align_end_of_lines = message
+2012-11-26 22:43:34		  weechat.look.bar_more_down = "++"
+2012-11-26 22:43:34		  weechat.look.bar_more_left = "<<"
+2012-11-26 22:43:34		  weechat.look.bar_more_right = ">>"
+2012-11-26 22:43:34		  weechat.look.bar_more_up = "--"
+2012-11-26 22:43:34		  weechat.look.buffer_notify_default = all
+2012-11-26 22:43:34		  weechat.look.buffer_time_format = "%H:%M:%S"
+2012-11-26 22:43:34		  weechat.look.color_basic_force_bold = off
+2012-11-26 22:43:34		  weechat.look.color_inactive_buffer = off
+2012-11-26 22:43:34		  weechat.look.color_inactive_message = on
+2012-11-26 22:43:34		  weechat.look.color_inactive_prefix = on
+2012-11-26 22:43:34		  weechat.look.color_inactive_prefix_buffer = on
+2012-11-26 22:43:34		  weechat.look.color_inactive_time = off
+2012-11-26 22:43:34		  weechat.look.color_inactive_window = off
+2012-11-26 22:43:34		  weechat.look.color_pairs_auto_reset = 5
+2012-11-26 22:43:34		  weechat.look.color_real_white = off
+2012-11-26 22:43:34		  weechat.look.command_chars = ""
+2012-11-26 22:43:34		  weechat.look.confirm_quit = off
+2012-11-26 22:43:34		  weechat.look.day_change = on
+2012-11-26 22:43:34		  weechat.look.day_change_time_format = "%a, %d %b %Y"
+2012-11-26 22:43:34		  weechat.look.eat_newline_glitch = off
+2012-11-26 22:43:34		  weechat.look.highlight = ""
+2012-11-26 22:43:34		  weechat.look.highlight_regex = ""
+2012-11-26 22:43:34		  weechat.look.highlight_tags = ""
+2012-11-26 22:43:34		  weechat.look.hotlist_add_buffer_if_away = on
+2012-11-26 22:43:34		  weechat.look.hotlist_buffer_separator = ", "
+2012-11-26 22:43:34		  weechat.look.hotlist_count_max = 2
+2012-11-26 22:43:34		  weechat.look.hotlist_count_min_msg = 2
+2012-11-26 22:43:34		  weechat.look.hotlist_names_count = 3
+2012-11-26 22:43:34		  weechat.look.hotlist_names_length = 0
+2012-11-26 22:43:34		  weechat.look.hotlist_names_level = 12
+2012-11-26 22:43:34		  weechat.look.hotlist_names_merged_buffers = off
+2012-11-26 22:43:34		  weechat.look.hotlist_short_names = on
+2012-11-26 22:43:34		  weechat.look.hotlist_sort = group_time_asc
+2012-11-26 22:43:34		  weechat.look.hotlist_unique_numbers = on
+2012-11-26 22:43:34		  weechat.look.input_cursor_scroll = 20
+2012-11-26 22:43:34		  weechat.look.input_share = none
+2012-11-26 22:43:34		  weechat.look.input_share_overwrite = off
+2012-11-26 22:43:34		  weechat.look.input_undo_max = 32
+2012-11-26 22:43:34		  weechat.look.item_buffer_filter = "*"
+2012-11-26 22:43:34		  weechat.look.item_time_format = "%H:%M"
+2012-11-26 22:43:34		  weechat.look.jump_current_to_previous_buffer = on
+2012-11-26 22:43:34		  weechat.look.jump_previous_buffer_when_closing = on
+2012-11-26 22:43:34		  weechat.look.mouse = off
+2012-11-26 22:43:34		  weechat.look.mouse_timer_delay = 100
+2012-11-26 22:43:34		  weechat.look.nickmode = on
+2012-11-26 22:43:34		  weechat.look.nickmode_empty = off
+2012-11-26 22:43:34		  weechat.look.paste_bracketed = off
+2012-11-26 22:43:34		  weechat.look.paste_bracketed_timer_delay = 10
+2012-11-26 22:43:34		  weechat.look.paste_max_lines = 1
+2012-11-26 22:43:34		  weechat.look.prefix_action = " *"
+2012-11-26 22:43:34		  weechat.look.prefix_align = right
+2012-11-26 22:43:34		  weechat.look.prefix_align_max = 0
+2012-11-26 22:43:34		  weechat.look.prefix_align_min = 0
+2012-11-26 22:43:34		  weechat.look.prefix_align_more = "+"
+2012-11-26 22:43:34		  weechat.look.prefix_buffer_align = right
+2012-11-26 22:43:34		  weechat.look.prefix_buffer_align_max = 0
+2012-11-26 22:43:34		  weechat.look.prefix_buffer_align_more = "+"
+2012-11-26 22:43:34		  weechat.look.prefix_error = "=!="
+2012-11-26 22:43:34		  weechat.look.prefix_join = "-->"
+2012-11-26 22:43:34		  weechat.look.prefix_network = "--"
+2012-11-26 22:43:34		  weechat.look.prefix_quit = "<--"
+2012-11-26 22:43:34		  weechat.look.prefix_same_nick = ""
+2012-11-26 22:43:34		  weechat.look.prefix_suffix = "|"
+2012-11-26 22:43:34		  weechat.look.read_marker = line
+2012-11-26 22:43:34		  weechat.look.read_marker_always_show = off
+2012-11-26 22:43:34		  weechat.look.read_marker_string = "- "
+2012-11-26 22:43:34		  weechat.look.save_config_on_exit = on
+2012-11-26 22:43:34		  weechat.look.save_layout_on_exit = none
+2012-11-26 22:43:34		  weechat.look.scroll_amount = 3
+2012-11-26 22:43:34		  weechat.look.scroll_bottom_after_switch = off
+2012-11-26 22:43:34		  weechat.look.scroll_page_percent = 100
+2012-11-26 22:43:34		  weechat.look.search_text_not_found_alert = on
+2012-11-26 22:43:34		  weechat.look.separator_horizontal = "-"
+2012-11-26 22:43:34		  weechat.look.separator_vertical = ""
+2012-11-26 22:43:34		  weechat.look.set_title = on
+2012-11-26 22:43:34		  weechat.look.time_format = "%a, %d %b %Y %T"
+2012-11-26 22:43:34		[color] (weechat.conf)
+2012-11-26 22:43:34		  weechat.color.bar_more = lightmagenta
+2012-11-26 22:43:34		  weechat.color.chat = default
+2012-11-26 22:43:34		  weechat.color.chat_bg = default
+2012-11-26 22:43:34		  weechat.color.chat_buffer = white
+2012-11-26 22:43:34		  weechat.color.chat_channel = white
+2012-11-26 22:43:34		  weechat.color.chat_delimiters = green
+2012-11-26 22:43:34		  weechat.color.chat_highlight = yellow
+2012-11-26 22:43:34		  weechat.color.chat_highlight_bg = magenta
+2012-11-26 22:43:34		  weechat.color.chat_host = cyan
+2012-11-26 22:43:34		  weechat.color.chat_inactive_buffer = darkgray
+2012-11-26 22:43:34		  weechat.color.chat_inactive_window = darkgray
+2012-11-26 22:43:34		  weechat.color.chat_nick = lightcyan
+2012-11-26 22:43:34		  weechat.color.chat_nick_colors = "cyan,magenta,green,brown,lightblue,default,lightcyan,lightmagenta,lightgreen,blue"
+2012-11-26 22:43:34		  weechat.color.chat_nick_other = cyan
+2012-11-26 22:43:34		  weechat.color.chat_nick_self = white
+2012-11-26 22:43:34		  weechat.color.chat_prefix_action = white
+2012-11-26 22:43:34		  weechat.color.chat_prefix_buffer = brown
+2012-11-26 22:43:34		  weechat.color.chat_prefix_buffer_inactive_buffer = darkgray
+2012-11-26 22:43:34		  weechat.color.chat_prefix_error = yellow
+2012-11-26 22:43:34		  weechat.color.chat_prefix_join = lightgreen
+2012-11-26 22:43:34		  weechat.color.chat_prefix_more = lightmagenta
+2012-11-26 22:43:34		  weechat.color.chat_prefix_network = magenta
+2012-11-26 22:43:34		  weechat.color.chat_prefix_quit = lightred
+2012-11-26 22:43:34		  weechat.color.chat_prefix_suffix = green
+2012-11-26 22:43:34		  weechat.color.chat_read_marker = magenta
+2012-11-26 22:43:34		  weechat.color.chat_read_marker_bg = default
+2012-11-26 22:43:34		  weechat.color.chat_server = brown
+2012-11-26 22:43:34		  weechat.color.chat_tags = red
+2012-11-26 22:43:34		  weechat.color.chat_text_found = yellow
+2012-11-26 22:43:34		  weechat.color.chat_text_found_bg = lightmagenta
+2012-11-26 22:43:34		  weechat.color.chat_time = default
+2012-11-26 22:43:34		  weechat.color.chat_time_delimiters = brown
+2012-11-26 22:43:34		  weechat.color.chat_value = cyan
+2012-11-26 22:43:34		  weechat.color.input_actions = lightgreen
+2012-11-26 22:43:34		  weechat.color.input_text_not_found = red
+2012-11-26 22:43:34		  weechat.color.nicklist_away = cyan
+2012-11-26 22:43:34		  weechat.color.nicklist_group = green
+2012-11-26 22:43:34		  weechat.color.nicklist_offline = blue
+2012-11-26 22:43:34		  weechat.color.separator = blue
+2012-11-26 22:43:34		  weechat.color.status_count_highlight = magenta
+2012-11-26 22:43:34		  weechat.color.status_count_msg = brown
+2012-11-26 22:43:34		  weechat.color.status_count_other = default
+2012-11-26 22:43:34		  weechat.color.status_count_private = green
+2012-11-26 22:43:34		  weechat.color.status_data_highlight = lightmagenta
+2012-11-26 22:43:34		  weechat.color.status_data_msg = yellow
+2012-11-26 22:43:34		  weechat.color.status_data_other = default
+2012-11-26 22:43:34		  weechat.color.status_data_private = lightgreen
+2012-11-26 22:43:34		  weechat.color.status_filter = green
+2012-11-26 22:43:34		  weechat.color.status_more = yellow
+2012-11-26 22:43:34		  weechat.color.status_name = white
+2012-11-26 22:43:34		  weechat.color.status_name_ssl = lightgreen
+2012-11-26 22:43:34		  weechat.color.status_number = yellow
+2012-11-26 22:43:34		  weechat.color.status_time = default
+2012-11-26 22:43:34		[completion] (weechat.conf)
+2012-11-26 22:43:34		  weechat.completion.base_word_until_cursor = on
+2012-11-26 22:43:34		  weechat.completion.default_template = "%(nicks)|%(irc_channels)"
+2012-11-26 22:43:34		  weechat.completion.nick_add_space = on
+2012-11-26 22:43:34		  weechat.completion.nick_completer = ":"
+2012-11-26 22:43:34		  weechat.completion.nick_first_only = off
+2012-11-26 22:43:34		  weechat.completion.nick_ignore_chars = "[]`_-^"
+2012-11-26 22:43:34		  weechat.completion.partial_completion_alert = on
+2012-11-26 22:43:34		  weechat.completion.partial_completion_command = off
+2012-11-26 22:43:34		  weechat.completion.partial_completion_command_arg = off
+2012-11-26 22:43:34		  weechat.completion.partial_completion_count = on
+2012-11-26 22:43:34		  weechat.completion.partial_completion_other = off
+2012-11-26 22:43:34		[history] (weechat.conf)
+2012-11-26 22:43:34		  weechat.history.display_default = 5
+2012-11-26 22:43:34		  weechat.history.max_buffer_lines_minutes = 0
+2012-11-26 22:43:34		  weechat.history.max_buffer_lines_number = 4096
+2012-11-26 22:43:34		  weechat.history.max_commands = 100
+2012-11-26 22:43:34		  weechat.history.max_visited_buffers = 50
+2012-11-26 22:43:34		[network] (weechat.conf)
+2012-11-26 22:43:34		  weechat.network.connection_timeout = 60
+2012-11-26 22:43:34		  weechat.network.gnutls_ca_file = "/etc/ssl/certs/ca-certificates.crt"
+2012-11-26 22:43:34		  weechat.network.gnutls_handshake_timeout = 30
+2012-11-26 22:43:34		[plugin] (weechat.conf)
+2012-11-26 22:43:34		  weechat.plugin.autoload = "*"
+2012-11-26 22:43:34		  weechat.plugin.debug = off
+2012-11-26 22:43:34		  weechat.plugin.extension = ".so,.dll"
+2012-11-26 22:43:34		  weechat.plugin.path = "%h/plugins"
+2012-11-26 22:43:34		  weechat.plugin.save_config_on_unload = on
+2012-11-26 22:43:34		[bar] (weechat.conf)
+2012-11-26 22:43:34		  weechat.bar.input.color_bg = default
+2012-11-26 22:43:34		  weechat.bar.input.color_delim = cyan
+2012-11-26 22:43:34		  weechat.bar.input.color_fg = default
+2012-11-26 22:43:34		  weechat.bar.input.conditions = ""
+2012-11-26 22:43:34		  weechat.bar.input.filling_left_right = vertical
+2012-11-26 22:43:34		  weechat.bar.input.filling_top_bottom = horizontal
+2012-11-26 22:43:34		  weechat.bar.input.hidden = off
+2012-11-26 22:43:34		  weechat.bar.input.items = "[input_prompt]+(away),[input_search],[input_paste],input_text"
+2012-11-26 22:43:34		  weechat.bar.input.position = bottom
+2012-11-26 22:43:34		  weechat.bar.input.priority = 1000
+2012-11-26 22:43:34		  weechat.bar.input.separator = off
+2012-11-26 22:43:34		  weechat.bar.input.size = 1
+2012-11-26 22:43:34		  weechat.bar.input.size_max = 0
+2012-11-26 22:43:34		  weechat.bar.input.type = window
+2012-11-26 22:43:34		  weechat.bar.nicklist.color_bg = default
+2012-11-26 22:43:34		  weechat.bar.nicklist.color_delim = cyan
+2012-11-26 22:43:34		  weechat.bar.nicklist.color_fg = default
+2012-11-26 22:43:34		  weechat.bar.nicklist.conditions = "nicklist"
+2012-11-26 22:43:34		  weechat.bar.nicklist.filling_left_right = vertical
+2012-11-26 22:43:34		  weechat.bar.nicklist.filling_top_bottom = columns_vertical
+2012-11-26 22:43:34		  weechat.bar.nicklist.hidden = off
+2012-11-26 22:43:34		  weechat.bar.nicklist.items = "buffer_nicklist"
+2012-11-26 22:43:34		  weechat.bar.nicklist.position = right
+2012-11-26 22:43:34		  weechat.bar.nicklist.priority = 200
+2012-11-26 22:43:34		  weechat.bar.nicklist.separator = on
+2012-11-26 22:43:34		  weechat.bar.nicklist.size = 0
+2012-11-26 22:43:34		  weechat.bar.nicklist.size_max = 0
+2012-11-26 22:43:34		  weechat.bar.nicklist.type = window
+2012-11-26 22:43:34		  weechat.bar.status.color_bg = blue
+2012-11-26 22:43:34		  weechat.bar.status.color_delim = cyan
+2012-11-26 22:43:34		  weechat.bar.status.color_fg = default
+2012-11-26 22:43:34		  weechat.bar.status.conditions = ""
+2012-11-26 22:43:34		  weechat.bar.status.filling_left_right = vertical
+2012-11-26 22:43:34		  weechat.bar.status.filling_top_bottom = horizontal
+2012-11-26 22:43:34		  weechat.bar.status.hidden = off
+2012-11-26 22:43:34		  weechat.bar.status.items = "[time],[buffer_count],[buffer_plugin],buffer_number+:+buffer_name+{buffer_nicklist_count}+buffer_filter,[lag],[hotlist],completion,scroll"
+2012-11-26 22:43:34		  weechat.bar.status.position = bottom
+2012-11-26 22:43:34		  weechat.bar.status.priority = 500
+2012-11-26 22:43:34		  weechat.bar.status.separator = off
+2012-11-26 22:43:34		  weechat.bar.status.size = 1
+2012-11-26 22:43:34		  weechat.bar.status.size_max = 0
+2012-11-26 22:43:34		  weechat.bar.status.type = window
+2012-11-26 22:43:34		  weechat.bar.title.color_bg = blue
+2012-11-26 22:43:34		  weechat.bar.title.color_delim = cyan
+2012-11-26 22:43:34		  weechat.bar.title.color_fg = default
+2012-11-26 22:43:34		  weechat.bar.title.conditions = ""
+2012-11-26 22:43:34		  weechat.bar.title.filling_left_right = vertical
+2012-11-26 22:43:34		  weechat.bar.title.filling_top_bottom = horizontal
+2012-11-26 22:43:34		  weechat.bar.title.hidden = off
+2012-11-26 22:43:34		  weechat.bar.title.items = "buffer_title"
+2012-11-26 22:43:34		  weechat.bar.title.position = top
+2012-11-26 22:43:34		  weechat.bar.title.priority = 500
+2012-11-26 22:43:34		  weechat.bar.title.separator = off
+2012-11-26 22:43:34		  weechat.bar.title.size = 1
+2012-11-26 22:43:34		  weechat.bar.title.size_max = 0
+2012-11-26 22:43:34		  weechat.bar.title.type = window
+2012-11-26 22:43:34		214 configuration options found matching with "weechat.*"
+2012-11-26 22:43:58		[look] (irc.conf)
+2012-11-26 22:43:58		  irc.look.buffer_switch_autojoin = on
+2012-11-26 22:43:58		  irc.look.buffer_switch_join = on
+2012-11-26 22:43:58		  irc.look.color_nicks_in_names = off
+2012-11-26 22:43:58		  irc.look.color_nicks_in_nicklist = off
+2012-11-26 22:43:58		  irc.look.color_nicks_in_server_messages = on
+2012-11-26 22:43:58		  irc.look.color_pv_nick_like_channel = on
+2012-11-26 22:43:58		  irc.look.display_away = local
+2012-11-26 22:43:58		  irc.look.display_ctcp_blocked = on
+2012-11-26 22:43:58		  irc.look.display_ctcp_reply = on
+2012-11-26 22:43:58		  irc.look.display_ctcp_unknown = on
+2012-11-26 22:43:58		  irc.look.display_host_join = on
+2012-11-26 22:43:58		  irc.look.display_host_join_local = on
+2012-11-26 22:43:58		  irc.look.display_host_quit = on
+2012-11-26 22:43:58		  irc.look.display_old_topic = on
+2012-11-26 22:43:58		  irc.look.display_pv_away_once = on
+2012-11-26 22:43:58		  irc.look.display_pv_back = on
+2012-11-26 22:43:58		  irc.look.hide_nickserv_pwd = on
+2012-11-26 22:43:58		  irc.look.highlight_channel = "$nick"
+2012-11-26 22:43:58		  irc.look.highlight_pv = "$nick"
+2012-11-26 22:43:58		  irc.look.highlight_server = "$nick"
+2012-11-26 22:43:58		  irc.look.highlight_tags = "irc_privmsg,irc_notice"
+2012-11-26 22:43:58		  irc.look.item_away_message = on
+2012-11-26 22:43:58		  irc.look.item_channel_modes = on
+2012-11-26 22:43:58		  irc.look.item_channel_modes_hide_key = off
+2012-11-26 22:43:58		  irc.look.item_display_server = buffer_plugin
+2012-11-26 22:43:58		  irc.look.item_nick_modes = on
+2012-11-26 22:43:58		  irc.look.item_nick_prefix = on
+2012-11-26 22:43:58		  irc.look.msgbuffer_fallback = current
+2012-11-26 22:43:58		  irc.look.new_channel_position = none
+2012-11-26 22:43:58		  irc.look.new_pv_position = none
+2012-11-26 22:43:58		  irc.look.nick_color_force = ""
+2012-11-26 22:43:58		  irc.look.nick_color_stop_chars = "_|["
+2012-11-26 22:43:58		  irc.look.nick_completion_smart = speakers
+2012-11-26 22:43:58		  irc.look.nick_prefix = ""
+2012-11-26 22:43:58		  irc.look.nick_suffix = ""
+2012-11-26 22:43:58		  irc.look.notice_as_pv = auto
+2012-11-26 22:43:58		  irc.look.notify_tags_ison = "notify_message"
+2012-11-26 22:43:58		  irc.look.notify_tags_whois = "notify_message"
+2012-11-26 22:43:58		  irc.look.part_closes_buffer = off
+2012-11-26 22:43:58		  irc.look.raw_messages = 256
+2012-11-26 22:43:58		  irc.look.server_buffer = merge_with_core
+2012-11-26 22:43:58		  irc.look.smart_filter = on
+2012-11-26 22:43:58		  irc.look.smart_filter_delay = 5
+2012-11-26 22:43:58		  irc.look.smart_filter_join = on
+2012-11-26 22:43:58		  irc.look.smart_filter_nick = on
+2012-11-26 22:43:58		  irc.look.smart_filter_quit = on
+2012-11-26 22:43:58		  irc.look.topic_strip_colors = off
+2012-11-26 22:43:58		[color] (irc.conf)
+2012-11-26 22:43:58		  irc.color.input_nick = lightcyan
+2012-11-26 22:43:58		  irc.color.item_away = yellow
+2012-11-26 22:43:58		  irc.color.item_channel_modes = default
+2012-11-26 22:43:58		  irc.color.item_lag_counting = default
+2012-11-26 22:43:58		  irc.color.item_lag_finished = yellow
+2012-11-26 22:43:58		  irc.color.message_join = green
+2012-11-26 22:43:58		  irc.color.message_quit = red
+2012-11-26 22:43:58		  irc.color.mirc_remap = "1,-1:darkgray"
+2012-11-26 22:43:58		  irc.color.nick_prefix = green
+2012-11-26 22:43:58		  irc.color.nick_prefixes = "q:lightred;a:lightcyan;o:lightgreen;h:lightmagenta;v:yellow;*:lightblue"
+2012-11-26 22:43:58		  irc.color.nick_suffix = green
+2012-11-26 22:43:58		  irc.color.notice = green
+2012-11-26 22:43:58		  irc.color.reason_quit = default
+2012-11-26 22:43:58		  irc.color.topic_new = white
+2012-11-26 22:43:58		  irc.color.topic_old = darkgray
+2012-11-26 22:43:58		[network] (irc.conf)
+2012-11-26 22:43:58		  irc.network.autoreconnect_delay_growing = 2
+2012-11-26 22:43:58		  irc.network.autoreconnect_delay_max = 1800
+2012-11-26 22:43:58		  irc.network.colors_receive = on
+2012-11-26 22:43:58		  irc.network.colors_send = on
+2012-11-26 22:43:58		  irc.network.lag_check = 60
+2012-11-26 22:43:58		  irc.network.lag_disconnect = 0
+2012-11-26 22:43:58		  irc.network.lag_min_show = 500
+2012-11-26 22:43:58		  irc.network.lag_refresh_interval = 1
+2012-11-26 22:43:58		  irc.network.notify_check_ison = 1
+2012-11-26 22:43:58		  irc.network.notify_check_whois = 5
+2012-11-26 22:43:58		  irc.network.send_unknown_commands = off
+2012-11-26 22:43:58		[server_default] (irc.conf)
+2012-11-26 22:43:58		  irc.server_default.addresses = ""
+2012-11-26 22:43:58		  irc.server_default.anti_flood_prio_high = 2
+2012-11-26 22:43:58		  irc.server_default.anti_flood_prio_low = 2
+2012-11-26 22:43:58		  irc.server_default.autoconnect = off
+2012-11-26 22:43:58		  irc.server_default.autojoin = ""
+2012-11-26 22:43:58		  irc.server_default.autoreconnect = on
+2012-11-26 22:43:58		  irc.server_default.autoreconnect_delay = 10
+2012-11-26 22:43:58		  irc.server_default.autorejoin = off
+2012-11-26 22:43:58		  irc.server_default.autorejoin_delay = 30
+2012-11-26 22:43:58		  irc.server_default.away_check = 0
+2012-11-26 22:43:58		  irc.server_default.away_check_max_nicks = 25
+2012-11-26 22:43:58		  irc.server_default.capabilities = ""
+2012-11-26 22:43:58		  irc.server_default.command = ""
+2012-11-26 22:43:58		  irc.server_default.command_delay = 0
+2012-11-26 22:43:58		  irc.server_default.connection_timeout = 60
+2012-11-26 22:43:58		  irc.server_default.default_msg_part = "WeeChat %v"
+2012-11-26 22:43:58		  irc.server_default.default_msg_quit = "WeeChat %v"
+2012-11-26 22:43:58		  irc.server_default.ipv6 = off
+2012-11-26 22:43:58		  irc.server_default.local_hostname = ""
+2012-11-26 22:43:58		  irc.server_default.nicks = "meandave,meandave1,meandave2,meandave3,meandave4"
+2012-11-26 22:43:58		  irc.server_default.notify = ""
+2012-11-26 22:43:58		  irc.server_default.password = ""
+2012-11-26 22:43:58		  irc.server_default.proxy = ""
+2012-11-26 22:43:58		  irc.server_default.realname = ""
+2012-11-26 22:43:58		  irc.server_default.sasl_mechanism = plain
+2012-11-26 22:43:58		  irc.server_default.sasl_password = ""
+2012-11-26 22:43:58		  irc.server_default.sasl_timeout = 15
+2012-11-26 22:43:58		  irc.server_default.sasl_username = ""
+2012-11-26 22:43:58		  irc.server_default.ssl = off
+2012-11-26 22:43:58		  irc.server_default.ssl_cert = ""
+2012-11-26 22:43:58		  irc.server_default.ssl_dhkey_size = 2048
+2012-11-26 22:43:58		  irc.server_default.ssl_priorities = "NORMAL"
+2012-11-26 22:43:58		  irc.server_default.ssl_verify = on
+2012-11-26 22:43:58		  irc.server_default.username = "meandave"
+2012-11-26 22:43:58		[server] (irc.conf)
+2012-11-26 22:43:58		  irc.server.freenode.addresses = "chat.freenode.net/6667"
+2012-11-26 22:43:58		  irc.server.freenode.anti_flood_prio_high
+2012-11-26 22:43:58		  irc.server.freenode.anti_flood_prio_low
+2012-11-26 22:43:58		  irc.server.freenode.autoconnect
+2012-11-26 22:43:58		  irc.server.freenode.autojoin
+2012-11-26 22:43:58		  irc.server.freenode.autoreconnect
+2012-11-26 22:43:58		  irc.server.freenode.autoreconnect_delay
+2012-11-26 22:43:58		  irc.server.freenode.autorejoin
+2012-11-26 22:43:58		  irc.server.freenode.autorejoin_delay
+2012-11-26 22:43:58		  irc.server.freenode.away_check
+2012-11-26 22:43:58		  irc.server.freenode.away_check_max_nicks
+2012-11-26 22:43:58		  irc.server.freenode.capabilities
+2012-11-26 22:43:58		  irc.server.freenode.command
+2012-11-26 22:43:58		  irc.server.freenode.command_delay
+2012-11-26 22:43:58		  irc.server.freenode.connection_timeout
+2012-11-26 22:43:58		  irc.server.freenode.default_msg_part
+2012-11-26 22:43:58		  irc.server.freenode.default_msg_quit
+2012-11-26 22:43:58		  irc.server.freenode.ipv6
+2012-11-26 22:43:58		  irc.server.freenode.local_hostname
+2012-11-26 22:43:58		  irc.server.freenode.nicks
+2012-11-26 22:43:58		  irc.server.freenode.notify
+2012-11-26 22:43:58		  irc.server.freenode.password
+2012-11-26 22:43:58		  irc.server.freenode.proxy
+2012-11-26 22:43:58		  irc.server.freenode.realname
+2012-11-26 22:43:58		  irc.server.freenode.sasl_mechanism
+2012-11-26 22:43:58		  irc.server.freenode.sasl_password
+2012-11-26 22:43:58		  irc.server.freenode.sasl_timeout
+2012-11-26 22:43:58		  irc.server.freenode.sasl_username
+2012-11-26 22:43:58		  irc.server.freenode.ssl
+2012-11-26 22:43:58		  irc.server.freenode.ssl_cert
+2012-11-26 22:43:58		  irc.server.freenode.ssl_dhkey_size
+2012-11-26 22:43:58		  irc.server.freenode.ssl_priorities
+2012-11-26 22:43:58		  irc.server.freenode.ssl_verify
+2012-11-26 22:43:58		  irc.server.freenode.username
+2012-11-26 22:43:58		141 configuration options found matching with "irc.*"
+2012-11-26 22:44:29		Plugins loaded:
+2012-11-26 22:44:29		  alias: Alias plugin for WeeChat
+2012-11-26 22:44:29		  fifo: Fifo plugin for WeeChat
+2012-11-26 22:44:29		  irc: IRC (Internet Relay Chat) plugin for WeeChat
+2012-11-26 22:44:29		  logger: Logger plugin for WeeChat
+2012-11-26 22:44:29		  relay: Network communication between WeeChat and remote application
+2012-11-26 22:44:29		  rmodifier: Regex modifier plugin for WeeChat
+2012-11-26 22:44:29		  tcl: Tcl plugin for WeeChat
+2012-11-26 22:44:29		  xfer: Xfer (file transfer and direct chat) plugin for WeeChat
+2012-11-26 22:45:21		irc: server -SSL created
+2012-11-26 22:46:36	=!=	Error: unknown command "irc" (type /help for help)
+2012-11-26 22:46:43	=!=	Error: unknown command "weechat" (type /help for help)
+2012-11-26 22:49:00		irc: server tixie.irc.grove.io created (temporary server, NOT SAVED!)
+2012-11-26 22:49:00		irc: server 6697 created (temporary server, NOT SAVED!)
+2012-11-26 22:49:00		irc: server tixie created (temporary server, NOT SAVED!)
+2012-11-26 22:49:00		irc: server meandavejustice created (temporary server, NOT SAVED!)
+2012-11-26 22:50:26		Plugins loaded: alias, fifo, irc, logger, relay, rmodifier, tcl, xfer
+2012-11-26 22:51:13		irc: server irc.grove.io created (temporary server, NOT SAVED!)
+2012-11-26 22:51:36	=!=	irc: currently connecting to server "irc.grove.io"!
+2012-11-26 22:51:36		irc: server 6697 created (temporary server, NOT SAVED!)
+2012-11-26 22:51:36	=!=	Error with command "CONNECT" (try /help CONNECT)
+2012-11-27 11:31:22		Plugins loaded: alias, fifo, irc, logger, relay, rmodifier, tcl, xfer
+2013-05-17 22:11:11		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-05-17 22:11:27		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-05-18 11:11:06		irc: server irc.hunie.net created (temporary server, NOT SAVED!)
+2013-05-18 11:11:06		irc: server 6697 created (temporary server, NOT SAVED!)
+2013-05-18 11:14:36	=!=	Error: configuration option "irc.server.hunie.ssl_verify" not found
+2013-05-18 11:16:04	=!=	Error: configuration option "irc.server.hunie.ssl_verify" not found
+2013-05-18 11:16:21	=!=	Error: configuration option "irc.hunie.ssl_verify" not found
+2013-05-18 11:16:26	=!=	Error: configuration option "irc.hunie.net" not found
+2013-05-18 11:17:53	=!=	Error: unknown command "stop" (type /help for help)
+2013-05-18 11:18:00		[core]
+2013-05-18 11:18:00		  away    buffer  command debug   help    input   layout  mute    proxy   reload  save    unset   uptime  wait   
+2013-05-18 11:18:00		  bar     color   cursor  filter  history key     mouse   plugin  quit    repeat  set     upgrade version window 
+2013-05-18 11:18:00		[alias]
+2013-05-18 11:18:00		  AAWAY   AME     ANICK   C       CL      EXIT    J       KB      M       N       REDRAW  SIGNOFF UB      unalias W       WI      WW     
+2013-05-18 11:18:00		  alias   AMSG    BYE     CHAT    CLOSE   IG      K       LEAVE   MUB     Q       SAY     T       UMODE   V       WC      WII    
+2013-05-18 11:18:00		[charset]
+2013-05-18 11:18:00		  charset
+2013-05-18 11:18:00		[irc]
+2013-05-18 11:18:00		  admin      ctcp       devoice    info       kickban    map        names      oper       quote      samode     service    summon     userhost   wallops   
+2013-05-18 11:18:00		  allchan    cycle      die        invite     kill       me         nick       part       reconnect  sanick     servlist   time       users      who       
+2013-05-18 11:18:00		  allserv    dcc        disconnect ison       links      mode       notice     ping       rehash     sapart     squery     topic      version    whois     
+2013-05-18 11:18:00		  ban        dehalfop   halfop     join       list       motd       notify     pong       restart    saquit     squit      trace      voice      whowas    
+2013-05-18 11:18:00		  connect    deop       ignore     kick       lusers     msg        op         query      sajoin     server     stats      unban      wallchops 
+2013-05-18 11:18:00		[logger]
+2013-05-18 11:18:00		  logger
+2013-05-18 11:18:00		[relay]
+2013-05-18 11:18:00		  relay
+2013-05-18 11:18:00		[rmodifier]
+2013-05-18 11:18:00		  rmodifier
+2013-05-18 11:18:00		[script]
+2013-05-18 11:18:00		  script
+2013-05-18 11:18:00		[tcl]
+2013-05-18 11:18:00		  tcl
+2013-05-18 11:18:00		[xfer]
+2013-05-18 11:18:00		  me   xfer
+2013-05-18 23:19:10		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-05-18 23:19:21		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-05-22 09:02:40		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-05-22 09:02:51		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-05-26 14:31:42		Options reloaded from weechat.conf
+2013-05-26 14:31:42		Options reloaded from plugins.conf
+2013-05-26 14:31:42		Options reloaded from alias.conf
+2013-05-26 14:31:42		Options reloaded from charset.conf
+2013-05-26 14:31:42		Options reloaded from irc.conf
+2013-05-26 14:31:42		Options reloaded from logger.conf
+2013-05-26 14:31:42		Options reloaded from relay.conf
+2013-05-26 14:31:42		Options reloaded from rmodifier.conf
+2013-05-26 14:31:42		Options reloaded from script.conf
+2013-05-26 14:31:42		Options reloaded from xfer.conf
+2013-06-03 11:19:33		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-06-03 11:19:44		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-06-10 10:10:58		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-06-10 10:15:59		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-06-10 10:17:34		Options reloaded from weechat.conf
+2013-06-10 10:17:34		Options reloaded from plugins.conf
+2013-06-10 10:17:34		Options reloaded from alias.conf
+2013-06-10 10:17:34		Options reloaded from charset.conf
+2013-06-10 10:17:34	=!=	irc: warning: server "irc.freenode.net" not found in configuration file, not deleted in memory because it's currently used
+2013-06-10 10:17:34		Options reloaded from irc.conf
+2013-06-10 10:17:34		Options reloaded from logger.conf
+2013-06-10 10:17:34		Options reloaded from relay.conf
+2013-06-10 10:17:34		Options reloaded from rmodifier.conf
+2013-06-10 10:17:34		Options reloaded from script.conf
+2013-06-10 10:17:34		Options reloaded from xfer.conf
+2013-06-10 10:17:41		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-06-10 10:17:50		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-06-10 10:17:57	=!=	irc: command "join" must be executed on connected irc server
+2013-06-13 08:53:09		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-06-13 08:53:18		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-06-24 10:49:39		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-06-26 10:39:06		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-06-26 10:39:38		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-06-26 20:38:41		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-06-26 20:39:01	=!=	irc: command "join" must be executed on irc buffer (server or channel)
+2013-06-26 20:41:15	=!=	Error: configuration option "irc.server.oftc.autojoin" not found
+2013-06-26 20:42:21		Options reloaded from weechat.conf
+2013-06-26 20:42:21		Options reloaded from plugins.conf
+2013-06-26 20:42:21		Options reloaded from alias.conf
+2013-06-26 20:42:21		Options reloaded from charset.conf
+2013-06-26 20:42:21		Options reloaded from irc.conf
+2013-06-26 20:42:21		Options reloaded from logger.conf
+2013-06-26 20:42:21		Options reloaded from relay.conf
+2013-06-26 20:42:21		Options reloaded from rmodifier.conf
+2013-06-26 20:42:21		Options reloaded from script.conf
+2013-06-26 20:42:21		Options reloaded from xfer.conf
+2013-06-26 20:53:49		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-06-26 20:54:03		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-06-28 14:07:34		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-06-28 14:07:41		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-07-07 14:08:40		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-07-07 14:08:50		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-07-07 14:09:28	=!=	Error: unknown command "#pdxnode" (type /help for help)
+2013-07-08 23:49:32	=!=	Error: unknown command "action" (type /help for help)
+2013-07-08 23:50:04	=!=	Error: unknown command "action" (type /help for help)
+2013-07-08 23:50:17	=!=	Error: unknown command "action" (type /help for help)
+2013-07-12 11:53:44		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-07-12 11:53:53		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-07-12 12:36:34		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-07-12 12:36:40		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-07-14 15:39:13		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-07-14 15:39:29		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-07-14 15:39:35	=!=	irc: command "join" must be executed on connected irc server
+2013-07-15 23:40:34		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-07-15 23:40:42		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-07-16 09:24:44	=!=	irc: already connected to server "irc.freenode.net"!
+2013-07-16 09:24:44	=!=	Error with command "connect" (try /help connect)
+2013-07-16 09:24:54		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-07-16 09:25:02		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-07-17 00:00:08		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-07-17 00:00:15		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-07-17 00:00:21	=!=	irc: command "join" must be executed on connected irc server
+2013-07-24 19:00:05		Options reloaded from weechat.conf
+2013-07-24 19:00:05		Options reloaded from plugins.conf
+2013-07-24 19:00:05		Options reloaded from alias.conf
+2013-07-24 19:00:05		Options reloaded from charset.conf
+2013-07-24 19:00:05	=!=	irc: warning: server "irc.freenode.net" not found in configuration file, not deleted in memory because it's currently used
+2013-07-24 19:00:05		Options reloaded from irc.conf
+2013-07-24 19:00:05		Options reloaded from logger.conf
+2013-07-24 19:00:05		Options reloaded from relay.conf
+2013-07-24 19:00:05		Options reloaded from rmodifier.conf
+2013-07-24 19:00:05		Options reloaded from script.conf
+2013-07-24 19:00:05		Options reloaded from xfer.conf
+2013-07-24 19:06:15		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-07-24 19:09:03		irc: server BNC created
+2013-07-24 19:09:12		Options saved to weechat.conf
+2013-07-24 19:09:12		Options saved to plugins.conf
+2013-07-24 19:09:12		Options saved to alias.conf
+2013-07-24 19:09:12		Options saved to charset.conf
+2013-07-24 19:09:12		Options saved to irc.conf
+2013-07-24 19:09:12		Options saved to logger.conf
+2013-07-24 19:09:12		Options saved to relay.conf
+2013-07-24 19:09:12		Options saved to rmodifier.conf
+2013-07-24 19:09:12		Options saved to script.conf
+2013-07-24 19:09:12		Options saved to xfer.conf
+2013-07-24 19:09:31	=!=	You can not write text in this buffer
+2013-07-24 19:09:33	=!=	You can not write text in this buffer
+2013-07-24 19:35:08		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-07-24 19:36:01		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-07-24 19:36:34		irc: server 192.241.221.28:6667 created (temporary server, NOT SAVED!)
+2013-07-24 19:36:45		irc: server 192.241.221.28 created (temporary server, NOT SAVED!)
+2013-07-24 19:36:58		irc: server 192.241.221.28:6666 created (temporary server, NOT SAVED!)
+2013-07-24 19:38:10		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-07-24 19:38:30		irc: server irc.jsonvoorhees.net created (temporary server, NOT SAVED!)
+2013-07-24 19:38:30		irc: server 6666 created (temporary server, NOT SAVED!)
+2013-07-24 19:38:30		irc: server Newport13 created (temporary server, NOT SAVED!)
+2013-07-24 19:48:37		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-07-24 19:48:45		irc: server irc.freenode.net created (temporary server, NOT SAVED!)
+2013-07-24 19:48:51	=!=	irc: command "join" must be executed on connected irc server
+2013-07-25 11:09:45		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-07-25 11:09:57	=!=	irc: command "join" must be executed on connected irc server
+2013-07-25 11:44:35		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-07-25 11:44:41		irc: server #freenode created (temporary server, NOT SAVED!)
+2013-07-26 13:41:17		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-07-29 11:39:31		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-07-29 11:39:42		irc: server freenode3 created (temporary server, NOT SAVED!)
+2013-07-30 21:52:55		Options reloaded from weechat.conf
+2013-07-30 21:52:55		Options reloaded from plugins.conf
+2013-07-30 21:52:55		Options reloaded from alias.conf
+2013-07-30 21:52:55		Options reloaded from charset.conf
+2013-07-30 21:52:55		Options reloaded from irc.conf
+2013-07-30 21:52:55		Options reloaded from logger.conf
+2013-07-30 21:52:55		Options reloaded from relay.conf
+2013-07-30 21:52:55		Options reloaded from rmodifier.conf
+2013-07-30 21:52:55		Options reloaded from script.conf
+2013-07-30 21:52:55		Options reloaded from xfer.conf
+2013-07-31 09:30:41		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-08-02 13:35:19		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-08-05 11:05:33		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-08-12 10:55:59		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-08-12 10:56:16	=!=	Error: unknown command "channel" (type /help for help)
+2013-08-12 10:56:29	=!=	irc: command "join" must be executed on irc buffer (server or channel)
+2013-08-12 10:56:40	=!=	irc: unknown option for "server" command
+2013-08-14 12:15:40		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-08-14 22:12:21		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-08-18 12:59:05		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-08-20 20:10:49		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-08-21 09:44:22		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-08-25 15:32:43		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-08-26 23:08:30		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-09-03 13:33:14		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-09-04 08:53:04		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-09-08 22:23:17		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-09-08 22:23:29	=!=	Error: unknown command "conenct" (type /help for help)
+2013-09-11 22:16:46		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-09-12 22:18:32	=!=	irc: already connected to server "freenode"!
+2013-09-12 22:18:32	=!=	Error with command "connect" (try /help connect)
+2013-09-18 10:30:26		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-09-22 12:57:04		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-09-22 18:09:48		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-09-22 18:09:57	=!=	irc: command "join" must be executed on connected irc server
+2013-10-01 10:42:16		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-10-07 09:49:09		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-10-10 15:47:02		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-10-14 13:29:31		Options reloaded from weechat.conf
+2013-10-14 13:29:31		Options reloaded from plugins.conf
+2013-10-14 13:29:31		Options reloaded from alias.conf
+2013-10-14 13:29:31		Options reloaded from charset.conf
+2013-10-14 13:29:31		Options reloaded from irc.conf
+2013-10-14 13:29:31		Options reloaded from logger.conf
+2013-10-14 13:29:31		Options reloaded from relay.conf
+2013-10-14 13:29:31		Options reloaded from rmodifier.conf
+2013-10-14 13:29:31		Options reloaded from script.conf
+2013-10-14 13:29:31		Options reloaded from xfer.conf
+2013-10-15 12:07:32		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-10-16 11:06:13		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-10-16 16:54:45	=!=	irc: command "msg" must be executed on connected irc server
+2013-10-17 18:41:40	=!=	irc: already connected to server "freenode"!
+2013-10-17 18:41:40	=!=	Error with command "connect" (try /help connect)
+2013-10-20 15:22:53		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-10-20 18:20:58		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-10-20 18:24:25		Option changed: irc.look.smart_filter = on
+2013-10-20 18:24:39		Filter "irc_smart" added:
+2013-10-20 18:24:39		  [irc_smart] buffer: * / tags: irc_smart_filter / regex: * 
+2013-10-23 16:30:22		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-10-29 10:03:10		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-10-30 10:16:15		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-10-31 11:11:56		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-11-02 21:06:42		Options reloaded from weechat.conf
+2013-11-02 21:06:42		Options reloaded from plugins.conf
+2013-11-02 21:06:42		Options reloaded from alias.conf
+2013-11-02 21:06:42		Options reloaded from charset.conf
+2013-11-02 21:06:42		Options reloaded from irc.conf
+2013-11-02 21:06:42		Options reloaded from logger.conf
+2013-11-02 21:06:42		Options reloaded from relay.conf
+2013-11-02 21:06:42		Options reloaded from rmodifier.conf
+2013-11-02 21:06:42		Options reloaded from script.conf
+2013-11-02 21:06:42		Options reloaded from xfer.conf
+2013-11-03 13:30:20		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-11-03 15:05:09		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-11-04 15:35:58		script: plugin "python" is not loaded
+2013-11-04 15:36:38	=!=	Error: unknown command "python" (type /help for help)
+2013-11-04 15:36:44	=!=	Error: unknown command "python" (type /help for help)
+2013-11-04 15:37:33		[core]
+2013-11-04 15:37:33		  away    bar     buffer  color   command cursor  debug   filter  help    history input   key     layout  mouse   mute    plugin  proxy   quit    reload  repeat  save    set     unset   upgrade uptime  version wait    window 
+2013-11-04 15:37:33		[alias]
+2013-11-04 15:37:33		  AAWAY   AME     ANICK   C       CL      EXIT    J       KB      M       N       REDRAW  SIGNOFF UB      unalias W       WI      WW     
+2013-11-04 15:37:33		  alias   AMSG    BYE     CHAT    CLOSE   IG      K       LEAVE   MUB     Q       SAY     T       UMODE   V       WC      WII    
+2013-11-04 15:37:33		[charset]
+2013-11-04 15:37:33		  charset
+2013-11-04 15:37:33		[irc]
+2013-11-04 15:37:33		  admin      connect    dehalfop   disconnect invite     kickban    lusers     motd       notice     part       quote      sajoin     saquit     squery     time       userhost   wallchops  whowas    
+2013-11-04 15:37:33		  allchan    ctcp       deop       halfop     ison       kill       map        msg        notify     ping       reconnect  samode     server     squit      topic      users      wallops   
+2013-11-04 15:37:33		  allserv    cycle      devoice    ignore     join       links      me         names      op         pong       rehash     sanick     service    stats      trace      version    who       
+2013-11-04 15:37:33		  ban        dcc        die        info       kick       list       mode       nick       oper       query      restart    sapart     servlist   summon     unban      voice      whois     
+2013-11-04 15:37:33		[logger]
+2013-11-04 15:37:33		  logger
+2013-11-04 15:37:33		[relay]
+2013-11-04 15:37:33		  relay
+2013-11-04 15:37:33		[rmodifier]
+2013-11-04 15:37:33		  rmodifier
+2013-11-04 15:37:33		[script]
+2013-11-04 15:37:33		  script
+2013-11-04 15:37:33		[tcl]
+2013-11-04 15:37:33		  tcl
+2013-11-04 15:37:33		[xfer]
+2013-11-04 15:37:33		  me   xfer
+2013-11-04 15:37:48		[core]  /plugin  list|listfull [<name>]
+2013-11-04 15:37:48		                 load <filename> [<arguments>]
+2013-11-04 15:37:48		                 autoload [<arguments>]
+2013-11-04 15:37:48		                 reload [<name> [<arguments>]]
+2013-11-04 15:37:48		                 unload [<name>]
+2013-11-04 15:37:48		list/load/unload plugins
+2013-11-04 15:37:48		     list: list loaded plugins
+2013-11-04 15:37:48		 listfull: list loaded plugins (verbose)
+2013-11-04 15:37:48		     load: load a plugin
+2013-11-04 15:37:48		 autoload: autoload plugins in system or user directory
+2013-11-04 15:37:48		   reload: reload a plugin (if no name given, unload all plugins, then autoload plugins)
+2013-11-04 15:37:48		   unload: unload a plugin (if no name given, unload all plugins)
+2013-11-04 15:37:48		 filename: plugin (file) to load
+2013-11-04 15:37:48		     name: a plugin name
+2013-11-04 15:37:48		arguments: arguments given to plugin on load
+2013-11-04 15:37:48		Without argument, this command lists loaded plugins.
+2013-11-04 15:37:58		Plugins loaded:
+2013-11-04 15:37:58		  alias: Alias commands
+2013-11-04 15:37:58		  charset: Charset conversions
+2013-11-04 15:37:58		  fifo: FIFO pipe for remote control
+2013-11-04 15:37:58		  irc: IRC (Internet Relay Chat) protocol
+2013-11-04 15:37:58		  logger: Log buffers to files
+2013-11-04 15:37:58		  relay: Relay WeeChat data to remote application (irc/weechat protocols)
+2013-11-04 15:37:58		  rmodifier: String modifier with regular expressions
+2013-11-04 15:37:58		  script: Scripts manager
+2013-11-04 15:37:58		  tcl: Support of tcl scripts
+2013-11-04 15:37:58		  xfer: DCC file transfer and direct chat
+2013-11-04 15:38:06	=!=	Error: unable to load plugin "python": dlopen(python, 10): image not found
+2013-11-04 15:38:06	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-11-05 17:29:13		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-11-10 15:18:37		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-11-10 21:17:37		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-11-11 13:46:55		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-11-13 12:20:32		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-11-14 00:25:31		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-11-14 20:13:49		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-11-17 17:04:43		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-11-17 21:47:07	=!=	Error: unknown command "iset" (type /help for help)
+2013-11-17 21:47:15	=!=	Error: unknown command "scripts" (type /help for help)
+2013-11-17 21:47:29		script: downloading list of scripts...
+2013-11-17 21:48:34		Option changed: irc.look.smart_filter = on
+2013-11-17 21:48:34		Filter "irc_smart" added:
+2013-11-17 21:48:34		  [irc_smart] buffer: * / tags: irc_smart_filter / regex: * 
+2013-11-17 21:49:39		script: downloading list of scripts...
+2013-11-17 21:49:41		script: 256 scripts for WeeChat 0.3.9.2
+2013-11-17 21:49:41		script: script "iset" not found
+2013-11-17 21:49:52		script: script "iset.pl" can not be installed because plugin "perl" is not loaded
+2013-11-17 22:24:39		Upgrading WeeChat with binary file: "weechat-curses"...
+2013-11-17 22:55:03		growl: GNTP bindings are not installed
+2013-11-17 22:55:03	=!=	python: function "register" not found (or failed) in file "/Users/meandave/.weechat/python/autoload/growl.py"
+2013-11-17 22:55:03		script: downloading list of scripts...
+2013-11-17 22:55:03		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2013-11-17 22:55:04		script: 261 scripts for WeeChat 0.4.2
+2013-11-17 22:55:27		New key binding (context "mouse"): @item(buffers):button2* => hsignal:buffers_mouse
+2013-11-17 22:55:27		New key binding (context "mouse"): @item(buffers):button1* => hsignal:buffers_mouse
+2013-11-17 22:55:33		New key binding (context "mouse"): @chat(perl.iset):button1 => hsignal:iset_mouse
+2013-11-17 22:55:33		New key binding (context "mouse"): @chat(perl.iset):button2* => hsignal:iset_mouse
+2013-11-17 22:55:33		New key binding (context "mouse"): @chat(perl.iset):wheeldown => /repeat 5 /iset **down
+2013-11-17 22:55:33		New key binding (context "mouse"): @chat(perl.iset):wheelup => /repeat 5 /iset **up
+2013-11-17 22:59:14		growl: GNTP bindings are not installed
+2013-11-17 22:59:14	=!=	python: function "register" not found (or failed) in file "/Users/meandave/.weechat/python/growl.py"
+2013-11-17 23:08:38		python: stdout/stderr: No handlers could be found for logger "gntp.notifier"
+2013-11-18 14:54:53		New key binding (context "mouse"): @item(buffers):button2* => hsignal:buffers_mouse
+2013-11-18 14:54:53		New key binding (context "mouse"): @item(buffers):button1* => hsignal:buffers_mouse
+2013-11-18 14:54:53		New key binding (context "mouse"): @chat(perl.iset):button1 => hsignal:iset_mouse
+2013-11-18 14:54:53		New key binding (context "mouse"): @chat(perl.iset):button2* => hsignal:iset_mouse
+2013-11-18 14:54:53		New key binding (context "mouse"): @chat(perl.iset):wheeldown => /repeat 5 /iset **down
+2013-11-18 14:54:53		New key binding (context "mouse"): @chat(perl.iset):wheelup => /repeat 5 /iset **up
+2013-11-18 14:54:53		perl scripts loaded: beep, buffers, iset
+2013-11-18 14:54:53		python scripts loaded: growl
+2013-11-18 14:54:53		script: downloading list of scripts...
+2013-11-18 14:54:53		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2013-11-18 14:54:56		script: 261 scripts for WeeChat 0.4.2
+2013-11-18 14:55:00	=!=	Error: unknown command "clear" (type /help for help)
+2013-11-18 14:55:19		python: stdout/stderr: No handlers could be found for logger "gntp.notifier"
+2013-11-26 14:56:16	=!=	Error: unknown command "clear" (type /help for help)
+2013-11-26 14:56:19		[core]
+2013-11-26 14:56:19		  away     buffer   command  debug    filter   history  key      mouse    plugin   quit     repeat   secure   unset    uptime   wait   
+2013-11-26 14:56:19		  bar      color    cursor   eval     help     input    layout   mute     proxy    reload   save     set      upgrade  version  window 
+2013-11-26 14:56:19		[alias]
+2013-11-26 14:56:19		  AAWAY    AME      ANICK    C        CL       EXIT     J        KB       M        N        REDRAW   SIGNOFF  UB       unalias  W        WI       WW     
+2013-11-26 14:56:19		  alias    AMSG     BYE      CHAT     CLOSE    IG       K        LEAVE    MUB      Q        SAY      T        UMODE    V        WC       WII    
+2013-11-26 14:56:19		[aspell]
+2013-11-26 14:56:19		  aspell
+2013-11-26 14:56:19		[charset]
+2013-11-26 14:56:19		  charset
+2013-11-26 14:56:19		[irc]
+2013-11-26 14:56:19		  admin       connect     dehalfop    disconnect  invite      kickban     lusers      motd        notice      part        quiet       restart     sapart      servlist    summon      unban       voice       whois     
+2013-11-26 14:56:19		  allchan     ctcp        deop        halfop      ison        kill        map         msg         notify      ping        quote       sajoin      saquit      squery      time        userhost    wallchops   whowas    
+2013-11-26 14:56:19		  allserv     cycle       devoice     ignore      join        links       me          names       op          pong        reconnect   samode      server      squit       topic       users       wallops   
+2013-11-26 14:56:19		  ban         dcc         die         info        kick        list        mode        nick        oper        query       rehash      sanick      service     stats       trace       version     who       
+2013-11-26 14:56:19		[logger]
+2013-11-26 14:56:19		  logger
+2013-11-26 14:56:19		[perl]
+2013-11-26 14:56:19		  buffers_detach  buffers_whitelist  iset  perl
+2013-11-26 14:56:19		[python]
+2013-11-26 14:56:19		  python
+2013-11-26 14:56:19		[relay]
+2013-11-26 14:56:19		  relay
+2013-11-26 14:56:19		[rmodifier]
+2013-11-26 14:56:19		  rmodifier
+2013-11-26 14:56:19		[ruby]
+2013-11-26 14:56:19		  ruby
+2013-11-26 14:56:19		[script]
+2013-11-26 14:56:19		  script
+2013-11-26 14:56:19		[tcl]
+2013-11-26 14:56:19		  tcl
+2013-11-26 14:56:19		[xfer]
+2013-11-26 14:56:19		  me  xfer
+2013-11-27 10:51:32		New key binding (context "mouse"): @item(buffers):button2* => hsignal:buffers_mouse
+2013-11-27 10:51:32		New key binding (context "mouse"): @item(buffers):button1* => hsignal:buffers_mouse
+2013-11-27 10:51:32		New key binding (context "mouse"): @chat(perl.iset):button1 => hsignal:iset_mouse
+2013-11-27 10:51:32		New key binding (context "mouse"): @chat(perl.iset):button2* => hsignal:iset_mouse
+2013-11-27 10:51:32		New key binding (context "mouse"): @chat(perl.iset):wheeldown => /repeat 5 /iset **down
+2013-11-27 10:51:32		New key binding (context "mouse"): @chat(perl.iset):wheelup => /repeat 5 /iset **up
+2013-11-27 10:51:32		perl scripts loaded: beep, buffers, iset
+2013-11-27 10:51:32		python scripts loaded: growl
+2013-11-27 10:51:33		script: downloading list of scripts...
+2013-11-27 10:51:33		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2013-11-27 10:51:35		script: 261 scripts for WeeChat 0.4.2
+2013-11-27 10:51:57		python: stdout/stderr: No handlers could be found for logger "gntp.notifier"
+2013-11-29 21:47:36		New key binding (context "mouse"): @item(buffers):button2* => hsignal:buffers_mouse
+2013-11-29 21:47:36		New key binding (context "mouse"): @item(buffers):button1* => hsignal:buffers_mouse
+2013-11-29 21:47:36		New key binding (context "mouse"): @chat(perl.iset):button1 => hsignal:iset_mouse
+2013-11-29 21:47:36		New key binding (context "mouse"): @chat(perl.iset):button2* => hsignal:iset_mouse
+2013-11-29 21:47:36		New key binding (context "mouse"): @chat(perl.iset):wheeldown => /repeat 5 /iset **down
+2013-11-29 21:47:36		New key binding (context "mouse"): @chat(perl.iset):wheelup => /repeat 5 /iset **up
+2013-11-29 21:47:36		perl scripts loaded: beep, buffers, iset
+2013-11-29 21:47:36		python scripts loaded: growl
+2013-11-29 21:47:38		script: downloading list of scripts...
+2013-11-29 21:47:38		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2013-11-29 21:47:40		script: 261 scripts for WeeChat 0.4.2
+2013-11-29 21:47:54		python: stdout/stderr: No handlers could be found for logger "gntp.notifier"
+2013-11-30 12:10:35		New key binding (context "mouse"): @item(buffers):button2* => hsignal:buffers_mouse
+2013-11-30 12:10:35		New key binding (context "mouse"): @item(buffers):button1* => hsignal:buffers_mouse
+2013-11-30 12:10:35		New key binding (context "mouse"): @chat(perl.iset):button1 => hsignal:iset_mouse
+2013-11-30 12:10:35		New key binding (context "mouse"): @chat(perl.iset):button2* => hsignal:iset_mouse
+2013-11-30 12:10:35		New key binding (context "mouse"): @chat(perl.iset):wheeldown => /repeat 5 /iset **down
+2013-11-30 12:10:35		New key binding (context "mouse"): @chat(perl.iset):wheelup => /repeat 5 /iset **up
+2013-11-30 12:10:35		perl scripts loaded: beep, buffers, iset
+2013-11-30 12:10:36		python scripts loaded: growl
+2013-11-30 12:10:37		script: downloading list of scripts...
+2013-11-30 12:10:37		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2013-11-30 12:10:39		script: 261 scripts for WeeChat 0.4.2
+2013-11-30 12:12:15		python: stdout/stderr: No handlers could be found for logger "gntp.notifier"
+2013-12-01 21:31:48		New key binding (context "mouse"): @item(buffers):button2* => hsignal:buffers_mouse
+2013-12-01 21:31:48		New key binding (context "mouse"): @item(buffers):button1* => hsignal:buffers_mouse
+2013-12-01 21:31:48		New key binding (context "mouse"): @chat(perl.iset):button1 => hsignal:iset_mouse
+2013-12-01 21:31:48		New key binding (context "mouse"): @chat(perl.iset):button2* => hsignal:iset_mouse
+2013-12-01 21:31:48		New key binding (context "mouse"): @chat(perl.iset):wheeldown => /repeat 5 /iset **down
+2013-12-01 21:31:48		New key binding (context "mouse"): @chat(perl.iset):wheelup => /repeat 5 /iset **up
+2013-12-01 21:31:48		perl scripts loaded: beep, buffers, iset
+2013-12-01 21:31:48		python scripts loaded: growl
+2013-12-01 21:31:50		script: downloading list of scripts...
+2013-12-01 21:31:50		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2013-12-01 21:31:52		script: 261 scripts for WeeChat 0.4.2
+2013-12-01 21:32:07		python: stdout/stderr: No handlers could be found for logger "gntp.notifier"
+2013-12-02 22:13:22	=!=	Error: unknown command "scripts" (type /help for help)
+2013-12-02 22:13:32		script: downloading list of scripts...
+2013-12-02 22:13:34		script: 264 scripts for WeeChat 0.4.2
+2013-12-05 20:00:58	=!=	irc: already connected to server "freenode"!
+2013-12-05 20:00:58	=!=	Error with command "connect" (try /help connect)
+2013-12-06 10:22:53	=!=	irc: already connected to server "freenode"!
+2013-12-06 10:22:53	=!=	Error with command "connect" (try /help connect)
+2013-12-09 11:10:38		New key binding (context "mouse"): @item(buffers):button2* => hsignal:buffers_mouse
+2013-12-09 11:10:38		New key binding (context "mouse"): @item(buffers):button1* => hsignal:buffers_mouse
+2013-12-09 11:10:38		New key binding (context "mouse"): @chat(perl.iset):button1 => hsignal:iset_mouse
+2013-12-09 11:10:38		New key binding (context "mouse"): @chat(perl.iset):button2* => hsignal:iset_mouse
+2013-12-09 11:10:38		New key binding (context "mouse"): @chat(perl.iset):wheeldown => /repeat 5 /iset **down
+2013-12-09 11:10:38		New key binding (context "mouse"): @chat(perl.iset):wheelup => /repeat 5 /iset **up
+2013-12-09 11:10:38		perl scripts loaded: beep, buffers, iset
+2013-12-09 11:10:39		python scripts loaded: growl
+2013-12-09 11:10:40		script: downloading list of scripts...
+2013-12-09 11:10:40		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2013-12-09 11:10:42		script: 264 scripts for WeeChat 0.4.2
+2013-12-09 11:10:55		python: stdout/stderr: No handlers could be found for logger "gntp.notifier"
+2013-12-15 19:24:44		New key binding (context "mouse"): @item(buffers):button2* => hsignal:buffers_mouse
+2013-12-15 19:24:44		New key binding (context "mouse"): @item(buffers):button1* => hsignal:buffers_mouse
+2013-12-15 19:24:44		New key binding (context "mouse"): @chat(perl.iset):button1 => hsignal:iset_mouse
+2013-12-15 19:24:44		New key binding (context "mouse"): @chat(perl.iset):button2* => hsignal:iset_mouse
+2013-12-15 19:24:44		New key binding (context "mouse"): @chat(perl.iset):wheeldown => /repeat 5 /iset **down
+2013-12-15 19:24:44		New key binding (context "mouse"): @chat(perl.iset):wheelup => /repeat 5 /iset **up
+2013-12-15 19:24:44		perl scripts loaded: beep, buffers, iset
+2013-12-15 19:24:44		python scripts loaded: growl
+2013-12-15 19:24:46		script: downloading list of scripts...
+2013-12-15 19:24:46		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2013-12-15 19:24:47		script: 264 scripts for WeeChat 0.4.2
+2013-12-16 10:06:59		python: stdout/stderr: No handlers could be found for logger "gntp.notifier"
+2013-12-27 15:27:30		New key binding (context "mouse"): @item(buffers):button2* => hsignal:buffers_mouse
+2013-12-27 15:27:31		New key binding (context "mouse"): @item(buffers):button1* => hsignal:buffers_mouse
+2013-12-27 15:27:31		New key binding (context "mouse"): @chat(perl.iset):button1 => hsignal:iset_mouse
+2013-12-27 15:27:31		New key binding (context "mouse"): @chat(perl.iset):button2* => hsignal:iset_mouse
+2013-12-27 15:27:31		New key binding (context "mouse"): @chat(perl.iset):wheeldown => /repeat 5 /iset **down
+2013-12-27 15:27:31		New key binding (context "mouse"): @chat(perl.iset):wheelup => /repeat 5 /iset **up
+2013-12-27 15:27:31		perl scripts loaded: beep, buffers, iset
+2013-12-27 15:27:31		growl: [Errno 61] Connection refused
+2013-12-27 15:27:31		python scripts loaded: growl
+2013-12-27 15:27:32		script: downloading list of scripts...
+2013-12-27 15:27:32		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2013-12-27 15:27:34		script: 264 scripts for WeeChat 0.4.2
+2013-12-27 15:27:52		growl: [Errno 61] Connection refused
+2013-12-27 15:47:37		python: stdout/stderr: No handlers could be found for logger "gntp.notifier"
+2013-12-30 10:30:59		New key binding (context "mouse"): @item(buffers):button2* => hsignal:buffers_mouse
+2013-12-30 10:30:59		New key binding (context "mouse"): @item(buffers):button1* => hsignal:buffers_mouse
+2013-12-30 10:30:59		New key binding (context "mouse"): @chat(perl.iset):button1 => hsignal:iset_mouse
+2013-12-30 10:30:59		New key binding (context "mouse"): @chat(perl.iset):button2* => hsignal:iset_mouse
+2013-12-30 10:30:59		New key binding (context "mouse"): @chat(perl.iset):wheeldown => /repeat 5 /iset **down
+2013-12-30 10:30:59		New key binding (context "mouse"): @chat(perl.iset):wheelup => /repeat 5 /iset **up
+2013-12-30 10:30:59		perl scripts loaded: beep, buffers, iset
+2013-12-30 10:30:59		python scripts loaded: growl
+2013-12-30 10:31:00		script: downloading list of scripts...
+2013-12-30 10:31:00		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2013-12-30 10:31:07		script: 264 scripts for WeeChat 0.4.2
+2013-12-30 10:32:00		python: stdout/stderr: No handlers could be found for logger "gntp.notifier"
+2013-12-30 23:56:01		New key binding (context "mouse"): @item(buffers):button2* => hsignal:buffers_mouse
+2013-12-30 23:56:01		New key binding (context "mouse"): @item(buffers):button1* => hsignal:buffers_mouse
+2013-12-30 23:56:01		New key binding (context "mouse"): @chat(perl.iset):button1 => hsignal:iset_mouse
+2013-12-30 23:56:01		New key binding (context "mouse"): @chat(perl.iset):button2* => hsignal:iset_mouse
+2013-12-30 23:56:01		New key binding (context "mouse"): @chat(perl.iset):wheeldown => /repeat 5 /iset **down
+2013-12-30 23:56:01		New key binding (context "mouse"): @chat(perl.iset):wheelup => /repeat 5 /iset **up
+2013-12-30 23:56:01		perl scripts loaded: beep, buffers, iset
+2013-12-30 23:56:01		growl: [Errno 61] Connection refused
+2013-12-30 23:56:01		python scripts loaded: growl
+2013-12-30 23:56:02		script: downloading list of scripts...
+2013-12-30 23:56:02		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2013-12-30 23:56:05		script: 264 scripts for WeeChat 0.4.2
+2013-12-30 23:56:33		python: stdout/stderr: No handlers could be found for logger "gntp.notifier"
+2013-12-31 12:36:42		python: scripts unloaded
+2013-12-31 12:36:42		perl: scripts unloaded
+2013-12-31 15:39:46		perl scripts loaded: beep, buffers, iset
+2013-12-31 15:39:46		python scripts loaded: growl
+2013-12-31 15:39:47		script: downloading list of scripts...
+2013-12-31 15:39:47		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2013-12-31 15:39:49		script: 264 scripts for WeeChat 0.4.2
+2013-12-31 15:44:29		python: stdout/stderr: No handlers could be found for logger "gntp.notifier"
+2014-01-02 18:02:06	=!=	Error: unknown command "jion" (type /help for help)
+2014-01-04 13:42:58	=!=	Error: unknown command "scripts" (type /help for help)
+2014-01-04 13:43:01		script: downloading list of scripts...
+2014-01-04 13:43:04		script: 264 scripts for WeeChat 0.4.2
+2014-01-06 18:16:24		perl scripts loaded: beep, buffers, iset, stats_bar
+2014-01-06 18:16:25		python scripts loaded: colorize_nicks, growl, pagetitle
+2014-01-06 18:16:25		script: downloading list of scripts...
+2014-01-06 18:16:25		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-01-06 18:16:28	=!=	Error with command "connect" (try /help connect)
+2014-01-06 18:16:28		script: 264 scripts for WeeChat 0.4.2
+2014-01-06 18:16:52		python: stdout/stderr: No handlers could be found for logger "gntp.notifier"
+2014-01-08 10:03:00	=!=	Error: unknown command "NickServ" (type /help for help)
+2014-01-08 10:03:12	=!=	irc: unknown option for "server" command
+2014-01-08 10:03:20		irc: server irc.bahane.net created (temporary server, NOT SAVED!)
+2014-01-08 10:04:01	=!=	irc: already connected to server "freenode"!
+2014-01-08 10:04:01	=!=	Error with command "connect" (try /help connect)
+2014-01-08 10:04:33	--	irc: reconnecting to server...
+2014-01-08 10:43:33		python: scripts unloaded
+2014-01-08 10:43:33		perl: scripts unloaded
+2014-01-08 10:43:43		perl scripts loaded: beep, buffers, iset, stats_bar
+2014-01-08 10:43:43		python scripts loaded: colorize_nicks, growl, pagetitle
+2014-01-08 10:43:43		script: downloading list of scripts...
+2014-01-08 10:43:43		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-01-08 10:43:45		script: 264 scripts for WeeChat 0.4.2
+2014-01-08 10:44:10		python: stdout/stderr: No handlers could be found for logger "gntp.notifier"
+2014-01-10 14:31:16		python: scripts unloaded
+2014-01-10 14:31:16		perl: scripts unloaded
+2014-01-10 14:31:23		perl scripts loaded: beep, buffers, iset, stats_bar
+2014-01-10 14:31:23		python scripts loaded: colorize_nicks, growl, pagetitle
+2014-01-10 14:31:23		script: downloading list of scripts...
+2014-01-10 14:31:24		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-01-10 14:31:25		script: 264 scripts for WeeChat 0.4.2
+2014-01-10 14:31:37		python: stdout/stderr: No handlers could be found for logger "gntp.notifier"
+2014-01-13 10:24:29		perl scripts loaded: beep, buffers, iset, stats_bar
+2014-01-13 10:24:30		python scripts loaded: colorize_nicks, growl, pagetitle
+2014-01-13 10:24:34		script: downloading list of scripts...
+2014-01-13 10:24:34		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-01-13 10:24:36		script: 264 scripts for WeeChat 0.4.2
+2014-01-13 10:46:40		python: scripts unloaded
+2014-01-13 10:46:40		perl: scripts unloaded
+2014-01-13 10:46:41		perl scripts loaded: beep, buffers, iset, stats_bar
+2014-01-13 10:46:42		python scripts loaded: colorize_nicks, growl, pagetitle
+2014-01-13 10:46:42		script: 264 scripts for WeeChat 0.4.2
+2014-01-13 10:46:42		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-01-13 10:46:45	=!=	Error with command "connect" (try /help connect)
+2014-01-13 10:47:06		python: stdout/stderr: No handlers could be found for logger "gntp.notifier"
+2014-01-14 11:00:46		perl scripts loaded: beep, buffers, iset, stats_bar
+2014-01-14 11:00:46		python scripts loaded: colorize_nicks, growl, pagetitle
+2014-01-14 11:00:47		script: downloading list of scripts...
+2014-01-14 11:00:47		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-01-14 11:00:50		script: 267 scripts for WeeChat 0.4.2
+2014-01-14 13:00:20		python: stdout/stderr: No handlers could be found for logger "gntp.notifier"
+2014-01-15 15:48:16		python: scripts unloaded
+2014-01-15 15:48:16		perl: scripts unloaded
+2014-01-15 15:48:29		perl scripts loaded: beep, buffers, iset, stats_bar
+2014-01-15 15:48:29		python scripts loaded: colorize_nicks, growl, pagetitle
+2014-01-15 15:48:29		script: downloading list of scripts...
+2014-01-15 15:48:29		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-01-15 15:48:32		script: 269 scripts for WeeChat 0.4.2
+2014-01-15 15:48:45		python: stdout/stderr: No handlers could be found for logger "gntp.notifier"
+2014-01-15 17:19:08		irc: server grove created
+2014-01-15 17:19:32	=!=	Error: option "irc.server.sprintly.password" not found
+2014-01-15 17:19:38	=!=	Error: option "irc.server.sprintly.password" not found
+2014-01-15 17:20:40	=!=	Error: option "sprintly.irc.grove.io.password" not found
+2014-01-15 17:21:17	=!=	Error: unknown command "NickServ" (type /help for help)
+2014-01-15 17:21:31	=!=	Error: unknown command "NickServ" (type /help for help)
+2014-01-15 17:21:38	=!=	Error: unknown command "NickServ" (type /help for help)
+2014-01-15 17:22:45	=!=	Error: option "irc.server.sprintly.password" not found
+2014-01-15 17:23:00	=!=	Error: option "irc.server.sprintly.username" not found
+2014-01-15 17:23:15		Option changed: irc.server.grove.username = "meandavejustice"  (default: (undefined))
+2014-01-15 17:23:31		Option changed: irc.server.grove.password = "sprintly"  (default: (undefined))
+2014-01-15 17:23:50		Option changed: irc.server.grove.nicks = "JSON_voorhees"  (default: (undefined))
+2014-01-15 17:24:11		Option changed: irc.server.grove.command = "/msg NickServ identify Newport13"  (default: (undefined))
+2014-01-15 17:24:17	=!=	irc: already connected to server "grove"!
+2014-01-15 17:24:17	=!=	Error with command "connect" (try /help connect)
+2014-01-15 17:25:51	=!=	irc: already connected to server "grove"!
+2014-01-15 17:25:51		irc: server sprintly created (temporary server, NOT SAVED!)
+2014-01-15 17:25:51	=!=	Error with command "connect" (try /help connect)
+2014-01-15 17:29:07	=!=	irc: server "grove" already exists, can't create it!
+2014-01-15 17:29:23		[irc]  /server  list|listfull [<server>]
+2014-01-15 17:29:23		                add <server> <hostname>[/<port>] [-temp] [-<option>[=<value>]] [-no<option>]
+2014-01-15 17:29:23		                copy|rename <server> <new_name>
+2014-01-15 17:29:23		                del|keep <server>
+2014-01-15 17:29:23		                deloutq|jump|raw
+2014-01-15 17:29:23		list, add or remove IRC servers
+2014-01-15 17:29:23		    list: list servers (without argument, this list is displayed)
+2014-01-15 17:29:23		listfull: list servers with detailed info for each server
+2014-01-15 17:29:23		     add: create a new server
+2014-01-15 17:29:23		  server: server name, for internal and display use
+2014-01-15 17:29:23		hostname: name or IP address of server, with optional port (default: 6667), many addresses can be separated by a comma
+2014-01-15 17:29:23		    temp: create temporary server (not saved)
+2014-01-15 17:29:23		  option: set option for server (for boolean option, value can be omitted)
+2014-01-15 17:29:23		nooption: set boolean option to 'off' (for example: -nossl)
+2014-01-15 17:29:23		    copy: duplicate a server
+2014-01-15 17:29:23		  rename: rename a server
+2014-01-15 17:29:23		    keep: keep server in config file (for temporary servers only)
+2014-01-15 17:29:23		     del: delete a server
+2014-01-15 17:29:23		 deloutq: delete messages out queue for all servers (all messages WeeChat is currently sending)
+2014-01-15 17:29:23		    jump: jump to server buffer
+2014-01-15 17:29:23		     raw: open buffer with raw IRC data
+2014-01-15 17:29:23		Examples:
+2014-01-15 17:29:23		  /server listfull
+2014-01-15 17:29:23		  /server add oftc irc.oftc.net/6697 -ssl -autoconnect
+2014-01-15 17:29:23		  /server add oftc6 irc6.oftc.net/6697 -ipv6 -ssl
+2014-01-15 17:29:23		  /server add freenode2 chat.eu.freenode.net/6667,chat.us.freenode.net/6667
+2014-01-15 17:29:23		  /server add freenode3 irc.freenode.net -password=mypass
+2014-01-15 17:29:23		  /server copy oftc oftcbis
+2014-01-15 17:29:23		  /server rename oftc newoftc
+2014-01-15 17:29:23		  /server del freenode
+2014-01-15 17:29:23		  /server deloutq
+2014-01-15 17:29:34		irc: server grove has been deleted
+2014-01-15 17:29:39		irc: server grove created
+2014-01-15 17:30:10		Option changed: irc.server.grove.password = "sprintly"  (default: (undefined))
+2014-01-15 17:30:28		Option changed: irc.server.grove.username = "meandavejustice"  (default: (undefined))
+2014-01-15 17:30:37		Option changed: irc.server.grove.nicks = "meandavejustice"  (default: (undefined))
+2014-01-15 17:31:03		Option changed: irc.server.grove.command = "/msg NickServ identify Newport13"  (default: (undefined))
+2014-01-15 17:33:04		irc: server grove has been deleted
+2014-01-15 17:33:40		irc: server sprintly-grove created
+2014-01-15 17:34:13		Option changed: irc.server.sprintly-grove.password = "sprintly"  (default: (undefined))
+2014-01-15 17:34:36		Option changed: irc.server.sprintly-grove.username = "meandavejustice"  (default: (undefined))
+2014-01-15 17:34:54		Option changed: irc.server.sprintly-grove.ssl_verify = off  (default: (undefined))
+2014-01-15 17:35:12		Option changed: irc.server.sprintly-grove.command = "/msg NickServ identify Newport13"  (default: (undefined))
+2014-01-15 17:38:51		Option changed: irc.server.sprintly-grove.ssl_verify = on  (default: (undefined))
+2014-01-15 17:39:16		Option changed: irc.server.sprintly-grove.ssl_verify = off  (default: (undefined))
+2014-01-15 17:40:24		Option changed: irc.server.sprintly-grove.nicks = "meandavejustice"  (default: (undefined))
+2014-01-15 17:54:31		python: scripts unloaded
+2014-01-15 17:54:32		perl: scripts unloaded
+2014-01-15 17:54:37		perl scripts loaded: beep, buffers, iset, stats_bar
+2014-01-15 17:54:37		python scripts loaded: colorize_nicks, growl, pagetitle
+2014-01-15 17:54:37		script: downloading list of scripts...
+2014-01-15 17:54:37		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-01-15 17:54:39		script: 269 scripts for WeeChat 0.4.2
+2014-01-15 17:54:50		python: stdout/stderr: No handlers could be found for logger "gntp.notifier"
+2014-01-15 22:00:23	=!=	irc: command "msg" must be executed on connected irc server
+2014-01-15 22:00:35	=!=	irc: command "msg" must be executed on connected irc server
+2014-01-15 22:01:42	=!=	irc: command "msg" must be executed on connected irc server
+2014-01-16 10:25:05		[core]
+2014-01-16 10:25:05		  away     buffer   command  debug    filter   history  key      mouse    plugin   quit     repeat   secure   unset    uptime   wait   
+2014-01-16 10:25:05		  bar      color    cursor   eval     help     input    layout   mute     proxy    reload   save     set      upgrade  version  window 
+2014-01-16 10:25:05		[alias]
+2014-01-16 10:25:05		  AAWAY    AME      ANICK    C        CL       EXIT     J        KB       M        N        REDRAW   SIGNOFF  UB       unalias  W        WI       WW     
+2014-01-16 10:25:05		  alias    AMSG     BYE      CHAT     CLOSE    IG       K        LEAVE    MUB      Q        SAY      T        UMODE    V        WC       WII    
+2014-01-16 10:25:05		[aspell]
+2014-01-16 10:25:05		  aspell
+2014-01-16 10:25:05		[charset]
+2014-01-16 10:25:05		  charset
+2014-01-16 10:25:05		[irc]
+2014-01-16 10:25:05		  admin       connect     dehalfop    disconnect  invite      kickban     lusers      motd        notice      part        quiet       restart     sapart      servlist    summon      unban       voice       whois     
+2014-01-16 10:25:05		  allchan     ctcp        deop        halfop      ison        kill        map         msg         notify      ping        quote       sajoin      saquit      squery      time        userhost    wallchops   whowas    
+2014-01-16 10:25:05		  allserv     cycle       devoice     ignore      join        links       me          names       op          pong        reconnect   samode      server      squit       topic       users       wallops   
+2014-01-16 10:25:05		  ban         dcc         die         info        kick        list        mode        nick        oper        query       rehash      sanick      service     stats       trace       version     who       
+2014-01-16 10:25:05		[logger]
+2014-01-16 10:25:05		  logger
+2014-01-16 10:25:05		[perl]
+2014-01-16 10:25:05		  buffers_detach  buffers_whitelist  iset  perl
+2014-01-16 10:25:05		[python]
+2014-01-16 10:25:05		  pt  python
+2014-01-16 10:25:05		[relay]
+2014-01-16 10:25:05		  relay
+2014-01-16 10:25:05		[rmodifier]
+2014-01-16 10:25:05		  rmodifier
+2014-01-16 10:25:05		[ruby]
+2014-01-16 10:25:05		  ruby
+2014-01-16 10:25:05		[script]
+2014-01-16 10:25:05		  script
+2014-01-16 10:25:05		[tcl]
+2014-01-16 10:25:05		  tcl
+2014-01-16 10:25:05		[xfer]
+2014-01-16 10:25:05		  me  xfer
+2014-01-16 10:25:18		All servers:
+2014-01-16 10:25:18		 * freenode [connected], 8 channels, 0 pv
+2014-01-16 10:25:18		   -SSL
+2014-01-16 10:25:18		 * sprintly-grove [connected], 1 channels, 0 pv
+2014-01-16 10:25:25	=!=	irc: unknown option for "server" command
+2014-01-16 10:25:37	=!=	irc: unknown option for "server" command
+2014-01-16 10:28:01		[irc]  /server  list|listfull [<server>]
+2014-01-16 10:28:01		                add <server> <hostname>[/<port>] [-temp] [-<option>[=<value>]] [-no<option>]
+2014-01-16 10:28:01		                copy|rename <server> <new_name>
+2014-01-16 10:28:01		                del|keep <server>
+2014-01-16 10:28:01		                deloutq|jump|raw
+2014-01-16 10:28:01		list, add or remove IRC servers
+2014-01-16 10:28:01		    list: list servers (without argument, this list is displayed)
+2014-01-16 10:28:01		listfull: list servers with detailed info for each server
+2014-01-16 10:28:01		     add: create a new server
+2014-01-16 10:28:01		  server: server name, for internal and display use
+2014-01-16 10:28:01		hostname: name or IP address of server, with optional port (default: 6667), many addresses can be separated by a comma
+2014-01-16 10:28:01		    temp: create temporary server (not saved)
+2014-01-16 10:28:01		  option: set option for server (for boolean option, value can be omitted)
+2014-01-16 10:28:01		nooption: set boolean option to 'off' (for example: -nossl)
+2014-01-16 10:28:01		    copy: duplicate a server
+2014-01-16 10:28:01		  rename: rename a server
+2014-01-16 10:28:01		    keep: keep server in config file (for temporary servers only)
+2014-01-16 10:28:01		     del: delete a server
+2014-01-16 10:28:01		 deloutq: delete messages out queue for all servers (all messages WeeChat is currently sending)
+2014-01-16 10:28:01		    jump: jump to server buffer
+2014-01-16 10:28:01		     raw: open buffer with raw IRC data
+2014-01-16 10:28:01		Examples:
+2014-01-16 10:28:01		  /server listfull
+2014-01-16 10:28:01		  /server add oftc irc.oftc.net/6697 -ssl -autoconnect
+2014-01-16 10:28:01		  /server add oftc6 irc6.oftc.net/6697 -ipv6 -ssl
+2014-01-16 10:28:01		  /server add freenode2 chat.eu.freenode.net/6667,chat.us.freenode.net/6667
+2014-01-16 10:28:01		  /server add freenode3 irc.freenode.net -password=mypass
+2014-01-16 10:28:01		  /server copy oftc oftcbis
+2014-01-16 10:28:01		  /server rename oftc newoftc
+2014-01-16 10:28:01		  /server del freenode
+2014-01-16 10:28:01		  /server deloutq
+2014-01-16 10:29:25	=!=	Error: unknown command "jump" (type /help for help)
+2014-01-16 10:29:32		[irc]  /server  list|listfull [<server>]
+2014-01-16 10:29:32		                add <server> <hostname>[/<port>] [-temp] [-<option>[=<value>]] [-no<option>]
+2014-01-16 10:29:32		                copy|rename <server> <new_name>
+2014-01-16 10:29:32		                del|keep <server>
+2014-01-16 10:29:32		                deloutq|jump|raw
+2014-01-16 10:29:32		list, add or remove IRC servers
+2014-01-16 10:29:32		    list: list servers (without argument, this list is displayed)
+2014-01-16 10:29:32		listfull: list servers with detailed info for each server
+2014-01-16 10:29:32		     add: create a new server
+2014-01-16 10:29:32		  server: server name, for internal and display use
+2014-01-16 10:29:32		hostname: name or IP address of server, with optional port (default: 6667), many addresses can be separated by a comma
+2014-01-16 10:29:32		    temp: create temporary server (not saved)
+2014-01-16 10:29:32		  option: set option for server (for boolean option, value can be omitted)
+2014-01-16 10:29:32		nooption: set boolean option to 'off' (for example: -nossl)
+2014-01-16 10:29:32		    copy: duplicate a server
+2014-01-16 10:29:32		  rename: rename a server
+2014-01-16 10:29:32		    keep: keep server in config file (for temporary servers only)
+2014-01-16 10:29:32		     del: delete a server
+2014-01-16 10:29:32		 deloutq: delete messages out queue for all servers (all messages WeeChat is currently sending)
+2014-01-16 10:29:32		    jump: jump to server buffer
+2014-01-16 10:29:32		     raw: open buffer with raw IRC data
+2014-01-16 10:29:32		Examples:
+2014-01-16 10:29:32		  /server listfull
+2014-01-16 10:29:32		  /server add oftc irc.oftc.net/6697 -ssl -autoconnect
+2014-01-16 10:29:32		  /server add oftc6 irc6.oftc.net/6697 -ipv6 -ssl
+2014-01-16 10:29:32		  /server add freenode2 chat.eu.freenode.net/6667,chat.us.freenode.net/6667
+2014-01-16 10:29:32		  /server add freenode3 irc.freenode.net -password=mypass
+2014-01-16 10:29:32		  /server copy oftc oftcbis
+2014-01-16 10:29:32		  /server rename oftc newoftc
+2014-01-16 10:29:32		  /server del freenode
+2014-01-16 10:29:32		  /server deloutq
+2014-01-16 10:29:46	=!=	irc: unknown option for "server" command
+2014-01-16 10:29:56	=!=	irc: unknown option for "server" command
+2014-01-16 10:30:07	=!=	irc: unknown option for "server" command
+2014-01-16 10:30:29	=!=	Error: unknown command "jump" (type /help for help)
+2014-01-16 10:30:37	=!=	Error: unknown command "jump" (type /help for help)
+2014-01-16 10:30:44	=!=	Error: unknown command "raw" (type /help for help)
+2014-01-16 10:30:54	=!=	irc: unknown option for "server" command
+2014-01-16 10:34:10	=!=	Error: unknown option for "buffer" command
+2014-01-16 10:34:18		Buffers list:
+2014-01-16 10:34:18		  [1] (core) weechat (notify: all)
+2014-01-16 10:34:18		  [1] (irc) server.freenode (notify: all)
+2014-01-16 10:34:18		  [1] (irc) server.sprintly-grove (notify: all)
+2014-01-16 10:34:18		  [2] (irc) freenode.#fatlab (notify: all)
+2014-01-16 10:34:18		  [3] (irc) freenode.##javascript (notify: all)
+2014-01-16 10:34:18		  [4] (irc) freenode.#Node.js (notify: all)
+2014-01-16 10:34:18		  [5] (irc) freenode.#pdxnode (notify: all)
+2014-01-16 10:34:18		  [6] (irc) freenode.#sprint.ly (notify: all)
+2014-01-16 10:34:18		  [7] (irc) freenode.#documentcloud (notify: all)
+2014-01-16 10:34:18		  [8] (irc) sprintly-grove.#sprintly (notify: all)
+2014-01-16 10:34:18		  [9] (irc) freenode.#emacs (notify: all)
+2014-01-16 10:34:18		  [10] (irc) freenode.##inane (notify: all)
+2014-01-16 10:36:07		Windows list:
+2014-01-16 10:36:07		[1] (18:0;254x66) 
+2014-01-17 09:33:15		perl scripts loaded: beep, buffers, iset, stats_bar
+2014-01-17 09:33:15		python scripts loaded: colorize_nicks, growl, pagetitle
+2014-01-17 09:33:17		script: downloading list of scripts...
+2014-01-17 09:33:17		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-01-17 09:33:18		script: 269 scripts for WeeChat 0.4.2
+2014-01-17 09:35:00		python: stdout/stderr: No handlers could be found for logger "gntp.notifier"
+2014-01-17 10:45:27		irc: server irc.mozilla.org created (temporary server, NOT SAVED!)
+2014-01-18 17:41:16	=!=	irc: command "msg" must be executed on irc buffer (server or channel)
+2014-01-18 18:42:10	=!=	Error with command "disconnect" (try /help disconnect)

@@ -1,0 +1,614 @@
+2014-01-17 10:49:44	-->	JSON_voorhees (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has joined #blink
+2014-01-17 10:49:45	--	Topic for #blink is "chromium.org/blink -- https://groups.google.com/a/chromium.org/group/blink-dev/ (blink-dev@chromium.org) -- Public logs: echelog.com/?blink""
+2014-01-17 10:49:45	--	Topic set by abarth (uid5294@gateway/web/irccloud.com/x-xnmijfmhathnkmyv) on Tue, 16 Apr 2013 21:41:32
+2014-01-17 10:49:45	--	Nicks #blink: [+abarth +abinader +achicu +ajuma +alecf +alph +apavlov +beng__ +betravis +beverloo +bokan_ +brianderson +bryeung +cjhopman_ +danakj +darktears +davidben +dcheng +dglazkov +dj2 +dstockwell +fsamuel +hartmanng +iannucci|trooper +ilevy +jochen__ +jorgelo +justincohen +jww__ +kenrb +krit +lazyboy_ +loislo +marja___ +mohsen +motownavi +mvanouwerkerk +paul_irish +piman_ +rbyers__ +rouslan +rsesek +rtoyg +sadrulhc +scherkus +skyostil +slightlyoff +spang +tdanderson +tdresser +thakis +trungl-bot` +vegorov +vollick +wfh +wibling +wjia +wjmaclean +yhirano +yoichio +yurys_ +zeeshanq +zerny +Zoltan AaronMT abucur ager ahf aklein alex-abreu amtiskaw Ancil__ AndrewF anssik_ arielserafini arno_ arpitab__ arunprasadr arv_ astearns babu bauerb_ bbandix bdholt1 bemjb benvanik beverloo- bhthompson_ bratell brson c4milo cbiesinger__ cdumez__ changseok chrisdickinson ckocagil cks cmp commit-bot cwhong_ cying cysm danneh_ dant__ davve delvinj dfreedm dmazzoni___ dmikurube dnomi dominicc drott dshwang dturner_ dwim dydz eae ebryn echelog-1 ed efidler ehsan elproxy enne epoc9 ericwilligers_ ErikCorry eroman eseidel eskimo espadrine esprehn falken flackr fmalita foolip fsod g_byers^ gavin__ gavinp gnanasekar_ greenspa groby__ gsnedders gyuyoung gyuyoung_home hansmuller hansmuller2 haraken_ harrow hashimoto hayato Himanshu_ Hixie iamstef igoroliveira igrigorik ilevy__ ingemara jab416171 jacobg jadahl jaepark JakeSays jamesr__ janx_ japhet jbauman jbroman jchaffraix jeez_ jgjeong jiangj_ jinwoo jkjiang_ jkjiang_desk jkomoros jl jleclanche joone jrogers JSON_voorhees junov kangil kanzure Karliky kbalazs kenneth_ kinuko kiyun_ kochi kochi1 Kolombiken kouhei kphanee kpiascik kpiascik_ lacerda largenocream_ leoyang- leviw liyin1 llee lukegb maheshkk maheshkk_ Martijnc mathiasbynens Mek mfenton_ mibrunin_ michou mihnea mike5w3c mikesherov mkwst mmaerean molsson morrita mounir mpakula mrobinson mrunal muelli mvujovic_ mxie nasko_ nitish__ nyquist ojan ostap paracyst pavane pdr pilgrim_1oogle pinage404 pprabhu prashant__ pwnall qrwteyrutiyoup R2R_ rakuco rchl2 rego reveman rgabor ricea rjwright robbiet480 rperier rramachandra rschoen_ rsleevi rtoyg_ rude rwlbuis ryuan_away sanjoy_ sanjoy___ scheib schenney scottmg SeanWang seokju_ SeoZ-work[AWAY] sgkim sherlock shyamp Sikugu_ silverroots_ skobes smaug____ sof sohan sosby spartha spenap stromsund suchit_ sudarshanCP_ suyash911 suzak svillar szager__ TabAtkins tabbott tabbott- tanty Tigge_ timloh1 timloh_ tnoleto toyoshim tullio tyoshino_ ulriksorber vanihegde_ vcarbune vitalybuka vivekg WanderingGlitch wibling_ wibling__ wilmoore wolanski wolenetz xan_ yhsiangCloud yoav Yomi yoz--_ YukiSeki_ yury`m yusukesuzuki yutak zeno zimmerle]
+2014-01-17 10:49:45	--	Channel #blink: 317 nicks (0 ops, 64 voices, 253 normals)
+2014-01-17 10:49:46	--	Mode #blink [+nt]
+2014-01-17 10:49:46	--	Channel created on Tue, 02 Apr 2013 09:39:10
+2014-01-17 10:50:52	commit-bot	bajones@chromium.org committed "Removed the last of the GL function calls from GC3D" http://crrev.com/137853002 https://src.chromium.org/viewvc/blink?view=revision&revision=165325
+2014-01-17 10:52:33	arno_	Hi, I don't understand why my patch didn't apply: https://codereview.chromium.org/73493002
+2014-01-17 10:52:52	arno_	http://build.chromium.org/p/tryserver.chromium/builders/blink_presubmit/builds/14030/steps/apply_issue/logs/stdio LayoutTests/animations/3d/transform-perspective-expected.txt No file to patch. what's wrong with the patch ?
+2014-01-17 10:53:30	pdr	arno_, looking
+2014-01-17 10:54:30	-->	kbrgg (~kbrgg@216.239.45.83) has joined #blink
+2014-01-17 10:55:16	pdr	arno_, I'm not sure what's up. I wonder if the diff is relative to the wrong directory? How did you upload this patch?
+2014-01-17 10:56:20	commit-bot	dongseong.hwang@intel.com committed "WebGL: Insert a sync point on DrawingBuffer::prepareMailbox()" http://crrev.com/105813014 https://src.chromium.org/viewvc/blink?view=revision&revision=165326
+2014-01-17 10:57:05	arno_	pdr: I think it was with git cl upload
+2014-01-17 10:57:20	arno_	from third_party/WebKit/ directory
+2014-01-17 10:58:58	<--	jochen__ (jochen@nat/google/x-usbehxonpjzkflez) has quit (Ping timeout: 272 seconds)
+2014-01-17 10:59:16	pdr	arno_, yeah, this looks fine. I don't think the files moved, but the patch is 1 week old. Can you update, rebase the patch, and re-upload?
+2014-01-17 10:59:17	<--	marja___ (marja@nat/google/x-cglpwuspatqzlnzi) has quit (Ping timeout: 276 seconds)
+2014-01-17 11:02:31	<--	stromsund (~stromsund@5.255.234.161-red.dhcp.yndx.net) has quit (Ping timeout: 252 seconds)
+2014-01-17 11:03:06	--	pdr is now known as pdr|brb
+2014-01-17 11:03:21	-->	thakis_ (~thakis@216.239.55.196) has joined #blink
+2014-01-17 11:04:22	arno_	pdr|brb: thanks, I'll do that
+2014-01-17 11:06:31	-->	mmorais (~Marcelo@63.124.79.253) has joined #blink
+2014-01-17 11:09:51	<--	hansmuller2 (~HansMulle@192.150.10.203) has quit (Quit: Leaving.)
+2014-01-17 11:10:11	<--	pwnall (~pwnall@2001:470:8b2d:7d4:79da:143:7ff4:aaf8) has quit (Quit: Leaving.)
+2014-01-17 11:10:52	-->	tonikitoo (~Antonio@187.2.147.195) has joined #blink
+2014-01-17 11:15:08	-->	rafaelbrandao (~rafael@177.40.251.96) has joined #blink
+2014-01-17 11:19:00	<--	lacerda (~thiagolac@200.167.249.18) has quit (Quit: Konversation terminated!)
+2014-01-17 11:19:02	<--	c4milo (~c4milo@201.232.195.255) has quit (Remote host closed the connection)
+2014-01-17 11:19:18	-->	jyasskin (~jyasskin@216.239.55.138) has joined #blink
+2014-01-17 11:20:26	commit-bot	ch.dumez@samsung.com committed "Update more platform classes to use OVERRIDE / FINAL when needed" http://crrev.com/137933002 https://src.chromium.org/viewvc/blink?view=revision&revision=165327
+2014-01-17 11:21:35	<--	kbalazs (~balazs@63.166.156.144) has quit (Remote host closed the connection)
+2014-01-17 11:25:50	<--	svillar (~sergio@20.Red-83-61-144.dynamicIP.rima-tde.net) has quit (Ping timeout: 245 seconds)
+2014-01-17 11:26:09	-->	litherum (~Litherum@c-50-184-87-84.hsd1.ca.comcast.net) has joined #blink
+2014-01-17 11:27:16	<--	darktears (darktears@kde/developer/menard) has quit (Ping timeout: 265 seconds)
+2014-01-17 11:31:53	-->	sadrul (sadrul@nat/google/session) has joined #blink
+2014-01-17 11:31:53	--	Mode #blink [+v sadrul] by ChanServ
+2014-01-17 11:32:28	<--	sadrul (sadrul@nat/google/session) has quit (Changing host)
+2014-01-17 11:32:29	-->	sadrul (sadrul@nat/google/x-znlxjwcatbndhkih) has joined #blink
+2014-01-17 11:32:29	--	Mode #blink [+v sadrul] by kornbluth.freenode.net
+2014-01-17 11:33:15	--	pdr|brb is now known as pdr
+2014-01-17 11:33:25	commit-bot	sergeyv@chromium.org committed "Devtools: CanSetScriptSource was removed from DebuggerModel" http://crrev.com/141873002 https://src.chromium.org/viewvc/blink?view=revision&revision=165328
+2014-01-17 11:34:42	<--	Yomi (user@xenomorph.exovenom.net) has left #blink ("I thought what I'd do was, I'd pretend I was one of those deaf-mutes...")
+2014-01-17 11:39:14	--	arv_ is now known as arv
+2014-01-17 11:40:44	<--	pinage404 (~pinage404@2a01:e35:8b86:e330:260a:64ff:fe63:69ab) has quit (Quit: Screw you guys i'm going home ! KMP !)
+2014-01-17 11:44:35	<--	sadrul (sadrul@nat/google/x-znlxjwcatbndhkih) has quit (Ping timeout: 252 seconds)
+2014-01-17 11:48:08	<--	thakis_ (~thakis@216.239.55.196) has quit (Quit: thakis_)
+2014-01-17 11:52:54	-->	lajava (~javi@185.148.27.77.dynamic.mundo-r.com) has joined #blink
+2014-01-17 11:54:28	commit-bot	pilgrim@chromium.org committed "Move V8-specific methods out of WebArrayBuffer" http://crrev.com/130833003 https://src.chromium.org/viewvc/blink?view=revision&revision=165330
+2014-01-17 11:54:37	lajava	hi leviw: would you mind to take a look at https://codereview.chromium.org/83793002/ please ? thanks
+2014-01-17 11:56:11	-->	pwnall (~pwnall@2001:470:8b2d:7d4:79c8:8fc9:45a1:b569) has joined #blink
+2014-01-17 12:02:18	pdr	50 bots on the chromium.webkit waterfall. ALL GREEN
+2014-01-17 12:04:36	<--	joone (joone@nat/intel/x-mvylignvnpcmhtxs) has quit (Quit: Ex-Chat)
+2014-01-17 12:10:33	-->	hansmuller1 (~HansMulle@192.150.10.203) has joined #blink
+2014-01-17 12:11:11	-->	relix (~relix@91.46.46.176.dyn.estpak.ee) has joined #blink
+2014-01-17 12:12:20	commit-bot	jl@opera.com committed "Don't support mixed dashed/camel-cased CSS property names" http://crrev.com/141693002 https://src.chromium.org/viewvc/blink?view=revision&revision=165331
+2014-01-17 12:12:48	-->	rniwa (~rniwa@c-71-202-160-119.hsd1.ca.comcast.net) has joined #blink
+2014-01-17 12:13:09	-->	rniwa_ (~rniwa@c-71-202-160-119.hsd1.ca.comcast.net) has joined #blink
+2014-01-17 12:13:46	<--	rniwa (~rniwa@c-71-202-160-119.hsd1.ca.comcast.net) has quit (Client Quit)
+2014-01-17 12:13:46	--	rniwa_ is now known as rniwa
+2014-01-17 12:13:50	-->	c4milo (~c4milo@201.232.195.255) has joined #blink
+2014-01-17 12:14:44	<--	pwnall (~pwnall@2001:470:8b2d:7d4:79c8:8fc9:45a1:b569) has quit (Quit: Leaving.)
+2014-01-17 12:16:18	-->	joone (joone@nat/intel/x-mnhgdeuazbiqtskw) has joined #blink
+2014-01-17 12:16:53	commit-bot	vsevik@chromium.org committed "DevTools: Consume handled key down events in code mirror" http://crrev.com/135553003 https://src.chromium.org/viewvc/blink?view=revision&revision=165332
+2014-01-17 12:17:05	-->	stromsund (~stromsund@broadband-37-110-118-111.nationalcablenetworks.ru) has joined #blink
+2014-01-17 12:17:39	<--	ehsan (~ehsan@66.207.208.102) has quit (Remote host closed the connection)
+2014-01-17 12:18:17	-->	lamarque (~lamarque@177.19.33.147) has joined #blink
+2014-01-17 12:18:48	commit-bot	wjmaclean@chromium.org committed "Main frame scroll layer bounds should be updated after layout." http://crrev.com/138963002 https://src.chromium.org/viewvc/blink?view=revision&revision=165333
+2014-01-17 12:19:05	-->	marja___ (marja@nat/google/session) has joined #blink
+2014-01-17 12:19:06	--	Mode #blink [+v marja___] by ChanServ
+2014-01-17 12:20:04	<--	marja___ (marja@nat/google/session) has quit (Changing host)
+2014-01-17 12:20:04	-->	marja___ (marja@nat/google/x-jhxbsmtkgfqumgsq) has joined #blink
+2014-01-17 12:20:04	--	Mode #blink [+v marja___] by dickson.freenode.net
+2014-01-17 12:22:59	-->	jochen__ (jochen@nat/google/x-iwqqlqstvitkepad) has joined #blink
+2014-01-17 12:22:59	--	Mode #blink [+v jochen__] by ChanServ
+2014-01-17 12:27:21	<--	hansmuller1 (~HansMulle@192.150.10.203) has quit (Quit: Leaving.)
+2014-01-17 12:27:27	-->	pwnall (~pwnall@18.111.18.222) has joined #blink
+2014-01-17 12:27:28	<--	muelli (~muelli@cryptobitch.de) has quit (Remote host closed the connection)
+2014-01-17 12:30:20	-->	lmclister (~lmclister@sjfw1-b.adobe.com) has joined #blink
+2014-01-17 12:31:29	-->	ehsan (~ehsan@66.207.208.102) has joined #blink
+2014-01-17 12:32:15	-->	futhark1 (~rune@cm-84.209.181.243.getinternet.no) has joined #blink
+2014-01-17 12:33:22	-->	AaronMT_ (~AaronMT@CPE602ad0738a5f-CM602ad0738a5c.cpe.net.cable.rogers.com) has joined #blink
+2014-01-17 12:33:33	<--	ehsan (~ehsan@66.207.208.102) has quit (Remote host closed the connection)
+2014-01-17 12:34:38	-->	ehsan (~ehsan@66.207.208.102) has joined #blink
+2014-01-17 12:34:42	commit-bot	thakis@chromium.org committed "Add a .clang-format file to Blink." http://crrev.com/23503027 https://src.chromium.org/viewvc/blink?view=revision&revision=165335 NOTRY=true
+2014-01-17 12:35:44	-->	hansmuller1 (~HansMulle@192.150.10.209) has joined #blink
+2014-01-17 12:35:45	<--	hansmuller1 (~HansMulle@192.150.10.209) has quit (Client Quit)
+2014-01-17 12:36:02	-->	hansmuller1 (~HansMulle@192.150.10.209) has joined #blink
+2014-01-17 12:36:21	<--	AaronMT (~AaronMT@CPE602ad0738a5f-CM602ad0738a5c.cpe.net.cable.rogers.com) has quit (Read error: Connection reset by peer)
+2014-01-17 12:37:08	-->	alexg__ (~alex@84.125.188.244.dyn.user.ono.com) has joined #blink
+2014-01-17 12:37:56	commit-bot	dsinclair@chromium.org committed "Delay parent repaint when changing scroll offset." http://crrev.com/139303017 https://src.chromium.org/viewvc/blink?view=revision&revision=165336
+2014-01-17 12:39:04	-->	eddyb (~eddy@unaffiliated/eddyb) has joined #blink
+2014-01-17 12:40:47	commit-bot	leviw@chromium.org committed "Revert "Track intruding and overhanging floats"" http://crrev.com/141953002 https://src.chromium.org/viewvc/blink?view=revision&revision=165338 TBR=bemjb@chromium.org
+2014-01-17 12:43:18	<--	eddyb (~eddy@unaffiliated/eddyb) has quit (Read error: Operation timed out)
+2014-01-17 12:44:20	-->	eddyb (~eddy@unaffiliated/eddyb) has joined #blink
+2014-01-17 12:48:47	-->	cshu (~cshu@63.166.156.254) has joined #blink
+2014-01-17 12:50:33	<--	pwnall (~pwnall@18.111.18.222) has quit (Quit: Leaving.)
+2014-01-17 12:51:04	<--	eddyb (~eddy@unaffiliated/eddyb) has quit (Quit: Konversation terminated!)
+2014-01-17 12:51:20	-->	eddyb (~eddy@unaffiliated/eddyb) has joined #blink
+2014-01-17 12:55:55	<--	dnomi (~d.nomiyam@82.43.26.66) has quit (Quit: dnomi)
+2014-01-17 12:56:17	<--	ajuma (ajuma@nat/google/x-zrvsgglxdmhmdoqr) has quit (Quit: Konversation terminated!)
+2014-01-17 12:59:53	-->	pwnall (~pwnall@2001:470:8b2d:7d4:834:12a:68b8:269) has joined #blink
+2014-01-17 13:04:41	-->	pwnall1 (~pwnall@2001:470:8b2d:82c:943b:fcde:8539:525a) has joined #blink
+2014-01-17 13:05:43	-->	cshu_ (~cshu@71.174.125.163) has joined #blink
+2014-01-17 13:05:52	<--	kpiascik_ (~quassel@c73-215.rim.net) has quit (Ping timeout: 246 seconds)
+2014-01-17 13:06:54	<--	lazyboy_ (lazyboy@nat/google/x-wlbaphmxvzhbedrw) has quit (Quit: Leaving)
+2014-01-17 13:07:05	gsnedders	abarth: I'd CC you, but, well, yeah, I can't: https://code.google.com/p/chromium/issues/detail?id=335691
+2014-01-17 13:08:31	-->	AaronMT (~AaronMT@CPE602ad0738a5f-CM602ad0738a5c.cpe.net.cable.rogers.com) has joined #blink
+2014-01-17 13:08:37	<--	pwnall (~pwnall@2001:470:8b2d:7d4:834:12a:68b8:269) has quit (Ping timeout: 264 seconds)
+2014-01-17 13:08:52	<--	cshu (~cshu@63.166.156.254) has quit (Ping timeout: 272 seconds)
+2014-01-17 13:09:08	<--	AaronMT_ (~AaronMT@CPE602ad0738a5f-CM602ad0738a5c.cpe.net.cable.rogers.com) has quit (Read error: Connection reset by peer)
+2014-01-17 13:09:59	<--	relix (~relix@91.46.46.176.dyn.estpak.ee) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2014-01-17 13:11:17	-->	shaunbaker (~shaunbake@97e69e6b.skybroadband.com) has joined #blink
+2014-01-17 13:11:58	-->	jaehun (~jaehun@210.94.41.89) has joined #blink
+2014-01-17 13:12:36	<--	dj2 (dj2@nat/google/x-uxnukkpdsrfhfsbb) has quit (Quit: Leaving)
+2014-01-17 13:15:22	-->	thakis_ (~thakis@216.239.55.195) has joined #blink
+2014-01-17 13:19:57	thakis_	any platform/OWNERS around to stamp https://codereview.chromium.org/140793008/ ? (just a couple lines)
+2014-01-17 13:20:05	thakis_	(and it deletes code!)
+2014-01-17 13:20:36	<--	alex-abreu (~alex@modemcable127.80-201-24.mc.videotron.ca) has quit (Ping timeout: 252 seconds)
+2014-01-17 13:21:00	pdr	thankis for this great patch. LGTM'd
+2014-01-17 13:23:51	thakis_	pdnr for the lgtm!
+2014-01-17 13:24:31	commit-bot	pdr@chromium.org committed "Garden-o-matic: Stop the tab explosion!" http://crrev.com/135303006 https://src.chromium.org/viewvc/blink?view=revision&revision=165341
+2014-01-17 13:25:18	commit-bot	thakis@chromium.org committed "Remove an unused field found by scythe. NOTRY=true" http://crrev.com/140793008 https://src.chromium.org/viewvc/blink?view=revision&revision=165342
+2014-01-17 13:30:24	-->	pkasting (pkasting@nat/google/session) has joined #blink
+2014-01-17 13:30:24	--	Mode #blink [+v pkasting] by ChanServ
+2014-01-17 13:31:00	<--	pkasting (pkasting@nat/google/session) has quit (Changing host)
+2014-01-17 13:31:01	-->	pkasting (pkasting@nat/google/x-fibbhxeipvgkyyxf) has joined #blink
+2014-01-17 13:31:01	--	Mode #blink [+v pkasting] by dickson.freenode.net
+2014-01-17 13:35:15	<--	jeez_ (~jeez@177.19.52.19) has quit (Ping timeout: 246 seconds)
+2014-01-17 13:38:16	commit-bot	pdr@chromium.org committed "Mark 2d.text.draw.fontface.notinpage.html as flaky on all platforms" http://crrev.com/131523004 https://src.chromium.org/viewvc/blink?view=revision&revision=165343 NOTRY=true TBR=dstockwell
+2014-01-17 13:40:46	+rsesek	any public/OWNERS around? I have two-sided patch prep: https://codereview.chromium.org/142033003/
+2014-01-17 13:45:56	<--	stromsund (~stromsund@broadband-37-110-118-111.nationalcablenetworks.ru) has quit (Ping timeout: 252 seconds)
+2014-01-17 13:46:30	<--	lajava (~javi@185.148.27.77.dynamic.mundo-r.com) has quit (Remote host closed the connection)
+2014-01-17 13:47:34	-->	pinage404 (~pinage404@2a01:e35:8b86:e330:260a:64ff:fe63:69ab) has joined #blink
+2014-01-17 13:47:59	-->	lajava (~javi@185.148.27.77.dynamic.mundo-r.com) has joined #blink
+2014-01-17 13:50:56	-->	lazyboy_ (lazyboy@nat/google/x-hlabwfxscyrfkrbr) has joined #blink
+2014-01-17 13:50:56	--	Mode #blink [+v lazyboy_] by ChanServ
+2014-01-17 13:51:53	<--	pinage404 (~pinage404@2a01:e35:8b86:e330:260a:64ff:fe63:69ab) has quit (Client Quit)
+2014-01-17 13:53:52	<--	Hixie (~ianh@178.255.149.100) has quit (Quit: brb)
+2014-01-17 13:54:00	-->	Hixie (~ianh@178.255.149.100) has joined #blink
+2014-01-17 13:56:20	+trungl-bot`	Tree closed by buildbot@chromium.org: Tree is closed (Automatic: "compile" on "WebKit Win x64 Builder (dbg)" from 245620: sergeyu@chromium.org, sky@chromium.org)
+2014-01-17 13:56:46	<--	shaunbaker (~shaunbake@97e69e6b.skybroadband.com) has quit (Remote host closed the connection)
+2014-01-17 13:59:09	<--	smaug____ (~chatzilla@cs78246079.pp.htv.fi) has quit (Remote host closed the connection)
+2014-01-17 13:59:22	+trungl-bot`	Tree opened by pdr@google.com: Tree is open ♪ (ﾉ´▽｀)ﾉ♪
+2014-01-17 13:59:43	-->	smaug____ (~chatzilla@cs78246079.pp.htv.fi) has joined #blink
+2014-01-17 14:01:54	<--	AaronMT (~AaronMT@CPE602ad0738a5f-CM602ad0738a5c.cpe.net.cable.rogers.com) has quit (Remote host closed the connection)
+2014-01-17 14:02:31	-->	AaronMT (~AaronMT@CPE602ad0738a5f-CM602ad0738a5c.cpe.net.cable.rogers.com) has joined #blink
+2014-01-17 14:03:26	commit-bot	thakis@chromium.org committed "Remove two unused fields found by scythe." http://crrev.com/139003003 https://src.chromium.org/viewvc/blink?view=revision&revision=165344
+2014-01-17 14:05:37	-->	pducks (~pducks@205-178-102-181.c3-0.stk-ubr1.chi-stk.il.cable.rcn.com) has joined #blink
+2014-01-17 14:07:04	<--	pducks (~pducks@205-178-102-181.c3-0.stk-ubr1.chi-stk.il.cable.rcn.com) has quit
+2014-01-17 14:07:45	<--	smaug____ (~chatzilla@cs78246079.pp.htv.fi) has quit (Remote host closed the connection)
+2014-01-17 14:10:41	-->	smaug____ (~chatzilla@cs78246079.pp.htv.fi) has joined #blink
+2014-01-17 14:13:49	commit-bot	dpranke@chromium.org committed "Re-implement --coverage in test-webkitpy to work properly." http://crrev.com/134643017 https://src.chromium.org/viewvc/blink?view=revision&revision=165345
+2014-01-17 14:17:48	commit-bot	zoltan@adobe.com committed "Move TrailingObjets class into its own file" http://crrev.com/134313009 https://src.chromium.org/viewvc/blink?view=revision&revision=165346
+2014-01-17 14:17:50	-->	slobo (~slobo@72.2.54.194) has joined #blink
+2014-01-17 14:18:18	<--	wilmoore (~wilmoore@2001:1998:6f1:12:3823:ba60:7763:c622) has quit (Ping timeout: 245 seconds)
+2014-01-17 14:20:20	-->	wilmoore (~wilmoore@vlandnat.mystrotv.com) has joined #blink
+2014-01-17 14:20:37	<--	AaronMT (~AaronMT@CPE602ad0738a5f-CM602ad0738a5c.cpe.net.cable.rogers.com) has quit (Ping timeout: 264 seconds)
+2014-01-17 14:22:30	-->	AaronMT (~AaronMT@CPE602ad0738a5f-CM602ad0738a5c.cpe.net.cable.rogers.com) has joined #blink
+2014-01-17 14:25:46	-->	kbalazs (~balazs@63.166.156.144) has joined #blink
+2014-01-17 14:26:18	<--	jkjiang_ (~jkjiang@c73-215.rim.net) has quit (Read error: Connection reset by peer)
+2014-01-17 14:26:38	-->	jkjiang (~jkjiang@c73-215.rim.net) has joined #blink
+2014-01-17 14:27:45	<--	jkjiang (~jkjiang@c73-215.rim.net) has quit (Read error: Connection reset by peer)
+2014-01-17 14:28:08	-->	jkjiang (~jkjiang@c73-215.rim.net) has joined #blink
+2014-01-17 14:29:09	-->	jkjiang_ (~jkjiang@c73-215.rim.net) has joined #blink
+2014-01-17 14:29:09	<--	jkjiang (~jkjiang@c73-215.rim.net) has quit (Read error: Connection reset by peer)
+2014-01-17 14:29:14	-->	alex-abreu (~alex@modemcable127.80-201-24.mc.videotron.ca) has joined #blink
+2014-01-17 14:37:41	-->	shaunbaker (~shaunbake@97e69e6b.skybroadband.com) has joined #blink
+2014-01-17 14:38:22	<--	AaronMT (~AaronMT@CPE602ad0738a5f-CM602ad0738a5c.cpe.net.cable.rogers.com) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2014-01-17 14:38:55	<--	thakis_ (~thakis@216.239.55.195) has quit (Quit: thakis_)
+2014-01-17 14:39:11	-->	AaronMT (~AaronMT@CPE602ad0738a5f-CM602ad0738a5c.cpe.net.cable.rogers.com) has joined #blink
+2014-01-17 14:39:25	<--	eddyb (~eddy@unaffiliated/eddyb) has quit (Ping timeout: 272 seconds)
+2014-01-17 14:44:09	<--	smaug____ (~chatzilla@cs78246079.pp.htv.fi) has quit (Quit: ChatZilla 0.9.90.1 [Firefox 29.0a1/20140117151514])
+2014-01-17 14:45:57	<--	futhark1 (~rune@cm-84.209.181.243.getinternet.no) has left #blink
+2014-01-17 14:46:59	-->	thakis_ (~thakis@216.239.55.195) has joined #blink
+2014-01-17 14:47:03	-->	smaug____ (~chatzilla@cs78246079.pp.htv.fi) has joined #blink
+2014-01-17 14:49:14	<--	smaug____ (~chatzilla@cs78246079.pp.htv.fi) has quit (Remote host closed the connection)
+2014-01-17 14:50:28	<--	wilmoore (~wilmoore@vlandnat.mystrotv.com) has quit (Ping timeout: 252 seconds)
+2014-01-17 14:54:01	-->	smaug____ (~chatzilla@cs78246079.pp.htv.fi) has joined #blink
+2014-01-17 14:56:26	<--	alexg__ (~alex@84.125.188.244.dyn.user.ono.com) has quit (Ping timeout: 272 seconds)
+2014-01-17 15:02:49	<--	smaug____ (~chatzilla@cs78246079.pp.htv.fi) has quit (Remote host closed the connection)
+2014-01-17 15:05:44	<--	mxie (~mxie@c73-215.rim.net) has quit (Remote host closed the connection)
+2014-01-17 15:15:30	-->	wilmoore (~wilmoore@vlandnat.mystrotv.com) has joined #blink
+2014-01-17 15:16:28	-->	smaug____ (~chatzilla@cs78246079.pp.htv.fi) has joined #blink
+2014-01-17 15:17:37	<--	smaug____ (~chatzilla@cs78246079.pp.htv.fi) has quit (Remote host closed the connection)
+2014-01-17 15:17:55	<--	gyuyoung_home (~gyuyoung@114.206.230.147) has quit (Ping timeout: 248 seconds)
+2014-01-17 15:18:12	<--	jrogers (~jrogers@c73-215.rim.net) has quit (Remote host closed the connection)
+2014-01-17 15:18:48	-->	jrogers (~jrogers@c73-215.rim.net) has joined #blink
+2014-01-17 15:19:08	-->	smaug____ (~chatzilla@cs78246079.pp.htv.fi) has joined #blink
+2014-01-17 15:20:30	commit-bot	leviw@chromium.org committed "Cache SkTypeface in FontPlatformData on Mac" http://crrev.com/141413002 https://src.chromium.org/viewvc/blink?view=revision&revision=165347
+2014-01-17 15:22:07	-->	vitalybuka_ (~vitalybuk@216.239.45.91) has joined #blink
+2014-01-17 15:22:47	<--	smaug____ (~chatzilla@cs78246079.pp.htv.fi) has quit (Remote host closed the connection)
+2014-01-17 15:23:02	<--	jrogers (~jrogers@c73-215.rim.net) has quit (Ping timeout: 246 seconds)
+2014-01-17 15:23:21	-->	smaug____ (~chatzilla@cs78246079.pp.htv.fi) has joined #blink
+2014-01-17 15:24:08	--	toyoshim is now known as toyoshiAw
+2014-01-17 15:24:18	<--	vitalybuka (~vitalybuk@216.239.45.66) has quit (Ping timeout: 272 seconds)
+2014-01-17 15:26:51	eseidel	inspector is failign to open in tip of tree?
+2014-01-17 15:26:54	eseidel	known regression?
+2014-01-17 15:28:10	pdr	eseidel, works for me
+2014-01-17 15:28:17	eseidel	pdr: built from source?
+2014-01-17 15:28:29	pdr	eseidel, yessir. Let me double check
+2014-01-17 15:28:33	eseidel	looks like pfeldman has changed inspector.js very recently
+2014-01-17 15:28:44	eseidel	pdr: abarth and I are both getting "can't call createView on null"
+2014-01-17 15:29:13	eseidel	pdr: it's possible I need to regyp
+2014-01-17 15:30:05	-->	jrogers (~jrogers@c73-215.rim.net) has joined #blink
+2014-01-17 15:31:06	eseidel	holy .gn batman
+2014-01-17 15:31:26	<--	cshu_ (~cshu@71.174.125.163) has quit (Quit: This computer has gone to sleep)
+2014-01-17 15:31:30	pdr	eseidel, rebuilding (I had local changes to floatrect so... 2 minutes)
+2014-01-17 15:31:37	eseidel	pdr: i'm rebuilding too
+2014-01-17 15:33:22	<--	jyasskin (~jyasskin@216.239.55.138) has quit (Quit: My computer has gone to sleep. ZZZzzz…)
+2014-01-17 15:33:23	eseidel	[7043:7043:0117/153305:ERROR:CONSOLE(9655)] "Uncaught TypeError: Cannot call method 'createView' of null", source: chrome-devtools://devtools/bundled/inspector.js (9655)
+2014-01-17 15:34:20	eseidel	that file must be partially generated
+2014-01-17 15:34:32	eseidel	since it's only 900 lines in the repo
+2014-01-17 15:34:51	<--	vitalybuka_ (~vitalybuk@216.239.45.91) has quit
+2014-01-17 15:34:52	pdr	eseidel, things are working here :(
+2014-01-17 15:35:01	eseidel	maybe I'll nuke from orbit
+2014-01-17 15:35:22	pdr	eseidel, let me get all the way to ToT first
+2014-01-17 15:36:26	eseidel	pdr: i'm nuking gen/devtools
+2014-01-17 15:36:30	eseidel	seeing if that fixes
+2014-01-17 15:36:32	-->	AaronMT_ (~AaronMT@CPE602ad0738a5f-CM602ad0738a5c.cpe.net.cable.rogers.com) has joined #blink
+2014-01-17 15:36:39	<--	litherum (~Litherum@c-50-184-87-84.hsd1.ca.comcast.net) has quit (Quit: Leaving.)
+2014-01-17 15:36:39	eseidel	i suspect it may be a dependency tracking problem on that file
+2014-01-17 15:37:09	<--	jrogers (~jrogers@c73-215.rim.net) has quit (Quit: Leaving...)
+2014-01-17 15:37:16	-->	vitalybuka (~vitalybuk@216.239.45.91) has joined #blink
+2014-01-17 15:37:23	<--	AaronMT (~AaronMT@CPE602ad0738a5f-CM602ad0738a5c.cpe.net.cable.rogers.com) has quit (Ping timeout: 246 seconds)
+2014-01-17 15:37:43	eseidel	nope, still busted
+2014-01-17 15:37:44	eseidel	:(
+2014-01-17 15:37:49	eseidel	nuking from high
+2014-01-17 15:39:29	-->	dpranke (~Adium@c-24-5-3-162.hsd1.ca.comcast.net) has joined #blink
+2014-01-17 15:39:30	--	Mode #blink [+v dpranke] by ChanServ
+2014-01-17 15:40:40	-->	jyasskin (jyasskin@nat/google/x-yvryytxgfiryhzgd) has joined #blink
+2014-01-17 15:40:41	--	Mode #blink [+v jyasskin] by ChanServ
+2014-01-17 15:45:31	-->	litherum (~Litherum@c-50-184-87-84.hsd1.ca.comcast.net) has joined #blink
+2014-01-17 15:46:23	-->	relix (~relix@91.46.46.176.dyn.estpak.ee) has joined #blink
+2014-01-17 15:47:29	pdr	eseidel, now every pages crashes in debug (crbug.com/335782). Building release to try to repro your issue, then I'll look into this assert
+2014-01-17 15:47:41	eseidel	pdr: clean build no workie
+2014-01-17 15:47:54	pdr	:<
+2014-01-17 15:48:00	eseidel	pdr: roll out all the things!
+2014-01-17 15:48:06	eseidel	pdr: are you gardenator?
+2014-01-17 15:48:22	eseidel	lord high wielder of the shovel of rollout?
+2014-01-17 15:48:41	pdr	eseidel, I am! Even though the browser is completely busted, the tree is green!
+2014-01-17 15:49:52	eseidel	pdr: excellent testing!  carry on.
+2014-01-17 15:50:40	<--	ehsan (~ehsan@66.207.208.102) has quit (Remote host closed the connection)
+2014-01-17 15:52:55	pdr	eseidel, I'm at ToT and my inspector works in release. Where are you seeing this error?
+2014-01-17 15:54:06	eseidel	pdr: localhost:8000/demo.html :)
+2014-01-17 15:54:10	eseidel	pdr: I can try other sites
+2014-01-17 15:54:12	<--	pwnall1 (~pwnall@2001:470:8b2d:82c:943b:fcde:8539:525a) has quit (Ping timeout: 264 seconds)
+2014-01-17 15:54:33	eseidel	pdr: same problem.
+2014-01-17 15:54:36	eseidel	pdr: on google.com
+2014-01-17 15:54:41	eseidel	pdr: I have nexus 4 emulation turned on
+2014-01-17 15:54:43	pdr	eseidel, this is odd :(
+2014-01-17 15:54:57	eseidel	pdr: i don't have any way to turn it off since I can't get the inspectxor open :(
+2014-01-17 15:55:06	eseidel	pdr: but i turnd it on before quiting/rebuilding chrome
+2014-01-17 15:55:12	pdr	aha!
+2014-01-17 15:55:14	eseidel	and it gets far enough to show me the touch cursor
+2014-01-17 15:55:21	thakis_	eseidel: --user-data-dir=/foo
+2014-01-17 15:55:21	eseidel	pdr: fiery death?
+2014-01-17 15:55:30	thakis_	eseidel: rm -rf ~/Library/Application\ Support/Chromium
+2014-01-17 15:55:33	pdr	I enabled emulation and things worked, then I closed and re-opened the inspector and now I'm getting the createView issue
+2014-01-17 15:55:40	eseidel	AND HOW.
+2014-01-17 15:55:54	eseidel	pdr: autobots, rollout!
+2014-01-17 15:56:06	pdr	let the debugging commence
+2014-01-17 15:56:51	<--	AaronMT_ (~AaronMT@CPE602ad0738a5f-CM602ad0738a5c.cpe.net.cable.rogers.com) has quit (Ping timeout: 248 seconds)
+2014-01-17 15:58:17	<--	jyasskin (jyasskin@nat/google/x-yvryytxgfiryhzgd) has quit (Quit: My computer has gone to sleep. ZZZzzz…)
+2014-01-17 15:58:41	eseidel	pdr: filed crbug.com/335790
+2014-01-17 16:02:12	pdr	eseidel, found it. Preparing fix
+2014-01-17 16:02:39	eseidel	pdr: even if you don't test, please assign to the author to add one :)
+2014-01-17 16:02:52	<--	thakis_ (~thakis@216.239.55.195) has quit (Quit: thakis_)
+2014-01-17 16:03:30	commit-bot	dglazkov@chromium.org committed "Remove indirection plumbing in CSSFontSelector." http://crrev.com/141553003 https://src.chromium.org/viewvc/blink?view=revision&revision=165348
+2014-01-17 16:04:05	-->	gyuyoung_home (~gyuyoung@114.206.230.147) has joined #blink
+2014-01-17 16:05:16	<--	shaunbaker (~shaunbake@97e69e6b.skybroadband.com) has quit (Remote host closed the connection)
+2014-01-17 16:05:52	-->	shaunbaker (~shaunbake@195.69.155.61) has joined #blink
+2014-01-17 16:09:12	<--	shaunbaker (~shaunbake@195.69.155.61) has quit (Client Quit)
+2014-01-17 16:12:55	commit-bot	dsinclair@chromium.org committed "Defer renderer repaint when filters change." http://crrev.com/140773003 https://src.chromium.org/viewvc/blink?view=revision&revision=165349
+2014-01-17 16:14:33	<--	rafaelbrandao (~rafael@177.40.251.96) has quit (Ping timeout: 245 seconds)
+2014-01-17 16:14:53	-->	ajuma (~ajuma@d24-150-138-32.home.cgocable.net) has joined #blink
+2014-01-17 16:16:35	<--	lajava (~javi@185.148.27.77.dynamic.mundo-r.com) has quit (Ping timeout: 272 seconds)
+2014-01-17 16:18:27	<--	litherum (~Litherum@c-50-184-87-84.hsd1.ca.comcast.net) has quit (Quit: Leaving.)
+2014-01-17 16:20:35	eseidel	pdr: halp/
+2014-01-17 16:21:15	pdr	eseidel, sync before https://codereview.chromium.org/139263004
+2014-01-17 16:21:42	pdr	eseidel, it's going to take me a minute because this change description is the worst
+2014-01-17 16:24:23	commit-bot	jshin@chromium.org committed "Hex-escape raw UTF-8 strings in the source." http://crrev.com/136293005 https://src.chromium.org/viewvc/blink?view=revision&revision=165350 TBR=abarth
+2014-01-17 16:24:46	<--	c4milo (~c4milo@201.232.195.255) has quit (Remote host closed the connection)
+2014-01-17 16:25:43	-->	litherum (~Litherum@c-50-184-87-84.hsd1.ca.comcast.net) has joined #blink
+2014-01-17 16:28:07	<--	lamarque (~lamarque@177.19.33.147) has quit (Quit: Konversation terminated!)
+2014-01-17 16:30:41	-->	c4milo (~c4milo@201.232.195.255) has joined #blink
+2014-01-17 16:32:11	pdr	eseidel, I'm punting on that for the moment to look at the assertion. Is this blocking you, or can you roll back before that patch?
+2014-01-17 16:33:12	<--	largenocream_ (~largenocr@stjhnbsu0ww-142134158159.dhcp-dynamic.FibreOP.nb.bellaliant.net) has quit (Ping timeout: 264 seconds)
+2014-01-17 16:34:32	<--	ajuma (~ajuma@d24-150-138-32.home.cgocable.net) has quit (Quit: ajuma)
+2014-01-17 16:37:02	<--	mmaerean (~Adium@193.104.215.11) has quit (Ping timeout: 245 seconds)
+2014-01-17 16:39:33	<--	relix (~relix@91.46.46.176.dyn.estpak.ee) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2014-01-17 16:43:00	<--	tdanderson (tdanderson@nat/google/x-bscopkrfpneesqgr) has quit (Remote host closed the connection)
+2014-01-17 16:43:12	<--	lmclister (~lmclister@sjfw1-b.adobe.com) has quit
+2014-01-17 16:44:17	-->	lmclister (~lmclister@sjfw1-b.adobe.com) has joined #blink
+2014-01-17 16:45:13	pdr	leviw, your patch hits asserts (though it does it really fast! :) crbug.com/335782
+2014-01-17 16:46:51	<--	ulriksorber (~ulriksorb@194.239.141.34) has quit (Quit: ulriksorber)
+2014-01-17 16:46:56	commit-bot	dglazkov@chromium.org committed "Trim FontSelector interface a bit." http://crrev.com/140913011 https://src.chromium.org/viewvc/blink?view=revision&revision=165351
+2014-01-17 16:48:22	-->	largenocream_ (~largenocr@stjhnbsu0ww-142134158159.dhcp-dynamic.FibreOP.nb.bellaliant.net) has joined #blink
+2014-01-17 16:49:09	<--	lmclister (~lmclister@sjfw1-b.adobe.com) has quit (Ping timeout: 272 seconds)
+2014-01-17 16:52:31	<--	c4milo (~c4milo@201.232.195.255) has quit (Remote host closed the connection)
+2014-01-17 16:52:39	<--	mmorais (~Marcelo@63.124.79.253) has quit (Quit: Saindo)
+2014-01-17 16:53:00	leviw	pdr: go go fast crashing!
+2014-01-17 16:55:48	commit-bot	pdr@chromium.org committed "Revert "Cache SkTypeface in FontPlatformData on Mac"" http://crrev.com/140913012 https://src.chromium.org/viewvc/blink?view=revision&revision=165352 TBR=leviw NOTRY=true
+2014-01-17 16:58:42	<--	hansmuller1 (~HansMulle@192.150.10.209) has quit (Quit: Leaving.)
+2014-01-17 16:58:49	leviw	ty pdr
+2014-01-17 16:59:14	pdr	leviw, I should be thanking you! Gardening is so boring now that the infrastructure rocks :)
+2014-01-17 16:59:32	leviw	pdr: happy to inject some excitement into your life!
+2014-01-17 16:59:38	pdr	:P
+2014-01-17 16:59:42	leviw	and likely easy-to-diagnose excitement
+2014-01-17 16:59:56	leviw	I can dcommit it again if you'd like ;)
+2014-01-17 17:02:33	eseidel	Pdr, I'm effectively done coding for the day, so no rush. 
+2014-01-17 17:03:04	pdr	eseidel, ok, enjoy your night! Now that my debug build works I'm going to look into the inspector issue again, but it's not an easy fix.
+2014-01-17 17:03:55	commit-bot	fmalita@chromium.org committed "Suppress some no-op GraphicsContext calls" http://crrev.com/136583009 https://src.chromium.org/viewvc/blink?view=revision&revision=165353
+2014-01-17 17:04:35	<--	wilmoore (~wilmoore@vlandnat.mystrotv.com) has quit (Ping timeout: 265 seconds)
+2014-01-17 17:05:54	-->	jyasskin (jyasskin@nat/google/x-zifuoybeogavwlom) has joined #blink
+2014-01-17 17:05:54	--	Mode #blink [+v jyasskin] by ChanServ
+2014-01-17 17:06:31	<--	smaug____ (~chatzilla@cs78246079.pp.htv.fi) has quit (Remote host closed the connection)
+2014-01-17 17:07:26	-->	smaug____ (~chatzilla@cs78246079.pp.htv.fi) has joined #blink
+2014-01-17 17:09:14	-->	jshin (jshin@nat/google/x-vuzskybruscxsrpf) has joined #blink
+2014-01-17 17:09:14	--	Mode #blink [+v jshin] by ChanServ
+2014-01-17 17:09:24	-->	sadrul (sadrul@nat/google/x-hmivtnukvwbusrbq) has joined #blink
+2014-01-17 17:09:24	--	Mode #blink [+v sadrul] by ChanServ
+2014-01-17 17:16:19	-->	dstockwell_ (~dstockwel@101.175.92.147) has joined #blink
+2014-01-17 17:25:51	<--	brson (~brson@nat/mozilla/x-bvxozmidrzvhdpfu) has quit (Quit: leaving)
+2014-01-17 17:26:21	-->	brson (~brson@184.75.221.3) has joined #blink
+2014-01-17 17:27:45	<--	dstockwell_ (~dstockwel@101.175.92.147) has quit (Remote host closed the connection)
+2014-01-17 17:30:03	<--	rtoyg_ (~rtoyg@216.239.45.130) has quit (Ping timeout: 272 seconds)
+2014-01-17 17:32:05	<--	jshin (jshin@nat/google/x-vuzskybruscxsrpf) has quit (Remote host closed the connection)
+2014-01-17 17:33:00	-->	thakis_ (~thakis@216.239.55.193) has joined #blink
+2014-01-17 17:34:29	-->	pwnall (~pwnall@c-76-24-19-202.hsd1.ma.comcast.net) has joined #blink
+2014-01-17 17:37:04	<--	thakis_ (~thakis@216.239.55.193) has quit (Ping timeout: 246 seconds)
+2014-01-17 17:41:27	-->	rtoyg_ (~rtoyg@216.239.45.130) has joined #blink
+2014-01-17 17:46:43	<--	kbalazs (~balazs@63.166.156.144) has quit (Quit: Konversation terminated!)
+2014-01-17 17:47:51	commit-bot	eae@chromium.org committed "Use synthetic bold/italic terminology consistently" http://crrev.com/138273018 https://src.chromium.org/viewvc/blink?view=revision&revision=165354
+2014-01-17 17:49:47	commit-bot	ojan@chromium.org committed "Get rid of the StyleResolver throwaway timer." http://crrev.com/139153013 https://src.chromium.org/viewvc/blink?view=revision&revision=165355
+2014-01-17 17:56:55	<--	cdumez__ (~chris@63.166.115.40) has quit (Ping timeout: 272 seconds)
+2014-01-17 17:59:25	<--	jchaffraix (~julien@pdpc/supporter/bronze/jchaffraix) has quit (Quit: leaving)
+2014-01-17 18:02:47	<--	dpranke (~Adium@c-24-5-3-162.hsd1.ca.comcast.net) has quit (Quit: Leaving.)
+2014-01-17 18:13:27	-->	cdumez__ (~chris@63.166.156.138) has joined #blink
+2014-01-17 18:18:22	<--	smaug____ (~chatzilla@cs78246079.pp.htv.fi) has quit (Ping timeout: 246 seconds)
+2014-01-17 18:19:22	-->	pwnall1 (~pwnall@c-76-24-19-202.hsd1.ma.comcast.net) has joined #blink
+2014-01-17 18:19:22	<--	pwnall (~pwnall@c-76-24-19-202.hsd1.ma.comcast.net) has quit (Read error: Connection reset by peer)
+2014-01-17 18:19:51	commit-bot	japhet@chromium.org committed "Remove children from HistoryNodes that redirect during back/forward navigation" http://crrev.com/141013013 https://src.chromium.org/viewvc/blink?view=revision&revision=165356
+2014-01-17 18:22:26	<--	litherum (~Litherum@c-50-184-87-84.hsd1.ca.comcast.net) has quit (Quit: Leaving.)
+2014-01-17 18:25:09	<--	rniwa (~rniwa@c-71-202-160-119.hsd1.ca.comcast.net) has quit (Quit: rniwa)
+2014-01-17 19:01:34	--	irc: disconnected from server
+2014-01-17 19:02:13	-->	JSON_voorhees (~JSON_voor@c-98-246-113-149.hsd1.or.comcast.net) has joined #blink
+2014-01-17 19:02:13	--	Topic for #blink is "chromium.org/blink -- https://groups.google.com/a/chromium.org/group/blink-dev/ (blink-dev@chromium.org) -- Public logs: echelog.com/?blink""
+2014-01-17 19:02:13	--	Topic set by abarth (uid5294@gateway/web/irccloud.com/x-xnmijfmhathnkmyv) on Tue, 16 Apr 2013 21:41:32
+2014-01-17 19:02:13	--	Nicks #blink: [+abarth +abinader +achicu +alecf +alph +apavlov +beng__ +betravis +beverloo +bokan_ +brianderson +bryeung +cjhopman_ +danakj +davidben +dcheng +dglazkov +dstockwell +fsamuel +hartmanng +iannucci|trooper +ilevy +jochen__ +jorgelo +justincohen +jww__ +jyasskin +kenrb +krit +lazyboy_ +loislo +marja___ +mohsen +motownavi +mvanouwerkerk +paul_irish +piman_ +pkasting +rbyers__ +rouslan +rsesek +rtoyg +sadrul +sadrulhc +scherkus +skyostil +slightlyoff +spang +tdresser +thakis +trungl-bot` +vegorov +vollick +wfh +wibling +wjia +wjmaclean +yhirano +yoichio +yurys_ +zeeshanq +zerny +Zoltan abucur ager ahf aklein alex-abreu amtiskaw Ancil__ AndrewF anssik_ arielserafini arno_ arpitab__ arunprasadr arv astearns babu bauerb_ bbandix bdholt1 bemjb benvanik beverloo- bhthompson_ bratell brson cbiesinger__ cdumez__ changseok chrisdickinson ckocagil cks cmp commit-bot cwhong_ cying cysm danneh_ dant__ davve delvinj dfreedm dmazzoni___ dmikurube dominicc drott dshwang dturner_ dwim dydz eae ebryn echelog-1 ed efidler elproxy enne epoc9 ericwilligers_ ErikCorry eroman eseidel eskimo espadrine esprehn falken flackr fmalita foolip fsod g_byers^ gavin__ gavinp gnanasekar_ greenspa groby__ gsnedders gyuyoung gyuyoung_home hansmuller haraken_ harrow hashimoto hayato Himanshu_ Hixie iamdustan iamstef igoroliveira igrigorik ilevy__ ingemara jab416171 jacobg jadahl jaehun jaepark JakeSays jamesr__ janx_ japhet jbauman jbroman jgjeong jiangj_ jinwoo jkjiang_ jkjiang_desk jkomoros jl jleclanche joone JSON_voorhees junov kangil kanzure Karliky kenneth_ kinuko kishorags kiyun_ kochi kochi1 Kolombiken kouhei kphanee kpiascik largenocream_ leoyang- leviw liyin1 llee lukegb maheshkk maheshkk_ Martijnc mathiasbynens Mek mfenton_ mibrunin_ michou mihnea mike5w3c mikesherov mkwst molsson morrita mounir mpakula mrobinson mrunal mvujovic_ nasko_ nitish__ nyquist ojan ostap paracyst pavane pdr pilgrim_1oogle pprabhu prashant__ pwnall1 qrwteyrutiyoup R2R_ rakuco rchl2 rego reveman rgabor ricea rjwright robbiet480 rperier rramachandra rschoen_ rsleevi rude rwlbuis ryuan_away sanjoy_ sanjoy___ scheib schenney scottmg SeanWang seokju_ SeoZ-work[AWAY] sgkim sherlock shyamp Sikugu_ silverroots_ skobes slobo sof sohan sosby spartha spenap suchit_ sudarshanCP_ suyash911 suzak szager__ TabAtkins tabbott tabbott- tanty thakis_ Tigge_ timloh1 timloh_ tnoleto tonikitoo toyoshiAw tullio tyoshino_ vanihegde_ vcarbune vitalybuka vivekg WanderingGlitch wibling_ wibling__ wilmoore wolanski wolenetz xan_ yhsiangCloud yoav yoz--_ YukiSeki_ yury`m yusukesuzuki yutak zeno zimmerle]
+2014-01-17 19:02:13	--	Channel #blink: 301 nicks (0 ops, 63 voices, 238 normals)
+2014-01-17 19:02:23	--	You are now known as Guest92619
+2014-01-17 19:02:37	--	Mode #blink [+nt]
+2014-01-17 19:02:37	--	Channel created on Tue, 02 Apr 2013 09:39:10
+2014-01-17 19:06:25	<--	dydz (~dydz@76-220-18-65.lightspeed.sntcca.sbcglobal.net) has quit (Quit: dydz)
+2014-01-17 19:07:20	commit-bot	eae@chromium.org committed "Fix synthetic bold/italic for webfonts on windows" http://crrev.com/135903012 https://src.chromium.org/viewvc/blink?view=revision&revision=165359
+2014-01-17 19:37:25	--	irc: disconnected from server
+2014-01-17 19:38:01	-->	Guest92619 (~JSON_voor@c-98-246-113-149.hsd1.or.comcast.net) has joined #blink
+2014-01-17 19:38:01	--	Topic for #blink is "chromium.org/blink -- https://groups.google.com/a/chromium.org/group/blink-dev/ (blink-dev@chromium.org) -- Public logs: echelog.com/?blink""
+2014-01-17 19:38:01	--	Topic set by abarth (uid5294@gateway/web/irccloud.com/x-xnmijfmhathnkmyv) on Tue, 16 Apr 2013 21:41:32
+2014-01-17 19:38:01	--	Nicks #blink: [+abarth +abinader +achicu +alecf +alph +apavlov +beng__ +betravis +beverloo +bokan_ +brianderson +bryeung +cjhopman_ +danakj +davidben +dcheng +dglazkov +dstockwell +fsamuel +hartmanng +iannucci|trooper +ilevy +jochen__ +jorgelo +justincohen +jww__ +jyasskin +kenrb +krit +lazyboy_ +lgombos +loislo +marja___ +mohsen +motownavi +mvanouwerkerk +paul_irish +piman_ +rbyers__ +rouslan +rsesek +rtoyg +sadrul +sadrulhc +scherkus +skyostil +slightlyoff +spang +tdresser +thakis +trungl-bot` +vegorov +vollick +wfh +wibling +wjia +wjmaclean +yhirano +yoichio +yurys_ +zeeshanq +zerny +Zoltan abucur ager ahf aklein alex-abreu amtiskaw Ancil__ AndrewF anssik_ arielserafini arno_ arpitab__ arunprasadr arv astearns babu bauerb_ bbandix bdholt1 bemjb benvanik beverloo- bhthompson_ bratell brson cbiesinger__ cdumez__ changseok chrisdickinson ckocagil cks cmp commit-bot cwhong_ cying cysm danneh_ dant__ davve delvinj dfreedm dmazzoni___ dmikurube dominicc drott dshwang dturner_ dwim eae ebryn echelog-1 ed efidler elproxy enne epoc9 ericwilligers_ ErikCorry eroman eseidel eskimo espadrine esprehn falken flackr fmalita foolip fsod g_byers^ gavin__ gavinp gnanasekar_ greenspa groby__ gsnedders Guest92619 gyuyoung gyuyoung_home hansmuller haraken_ harrow hashimoto hayato Himanshu_ Hixie iamstef igoroliveira igrigorik ilevy__ ingemara jab416171 jacobg jadahl jaehun jaepark JakeSays jamesr__ janx_ japhet jbauman jbroman jgjeong jiangj_ jinwoo jkjiang_ jkjiang_desk jkomoros jl jleclanche joone junov kangil kanzure Karliky kenneth_ kinuko kishorags kiyun_ kochi kochi1 Kolombiken kouhei kphanee kpiascik largenocream_ leoyang- leviw liyin1 llee lukegb maheshkk maheshkk_ Martijnc mathiasbynens Mek mfenton_ mibrunin_ michou mihnea mike5w3c mikesherov mkwst molsson morrita mounir mpakula mrobinson mrunal mvujovic_ nasko_ nitish__ nyquist ojan ostap paracyst pavane pdr pilgrim_1oogle pprabhu prashant__ pwnall1 qrwteyrutiyoup R2R_ rakuco rchl2 rego reveman rgabor ricea rjwright robbiet480 rperier rramachandra rschoen_ rsleevi rude rwlbuis ryuan sanjoy_ sanjoy___ scheib schenney scottmg SeanWang seokju_ SeoZ-work[AWAY] sgkim sherlock shyamp Sikugu_ silverroots_ skobes slobo sof sohan sosby spartha spenap suchit_ sudarshanCP_ suyash911 suzak szager__ TabAtkins tabbott tabbott- tanty thakis_ Tigge_ timloh1 timloh_ tnoleto toyoshiAw tullio tyoshino_ vanihegde_ vcarbune vitalybuka vivekg WanderingGlitch wibling_ wibling__ wilmoore wolanski wolenetz xan_ yhsiangCloud yoav yoz--_ YukiSeki_ yury`m yusukesuzuki yutak zeno zimmerle]
+2014-01-17 19:38:01	--	Channel #blink: 298 nicks (0 ops, 63 voices, 235 normals)
+2014-01-17 19:38:19	<--	wilmoore (~wilmoore@c-67-190-17-108.hsd1.co.comcast.net) has quit (Ping timeout: 265 seconds)
+2014-01-17 19:38:25	--	Mode #blink [+nt]
+2014-01-17 19:38:25	--	Channel created on Tue, 02 Apr 2013 09:39:10
+2014-01-17 19:46:01	-->	litherum (~Litherum@c-50-184-87-84.hsd1.ca.comcast.net) has joined #blink
+2014-01-17 19:46:32	<--	lgombos (~gombos@210.94.41.89) has quit (Remote host closed the connection)
+2014-01-17 19:46:54	<--	kishorags (~androirc@84.64.61.170) has quit (Read error: Connection reset by peer)
+2014-01-17 19:47:28	<--	jyasskin (jyasskin@nat/google/x-zifuoybeogavwlom) has quit (Quit: My computer has gone to sleep. ZZZzzz…)
+2014-01-17 19:50:01	-->	AndroUser2 (~androirc@84.64.61.170) has joined #blink
+2014-01-17 19:57:13	--	irc: disconnected from server
+2014-01-17 19:57:53	-->	Guest92619 (~JSON_voor@c-98-246-113-149.hsd1.or.comcast.net) has joined #blink
+2014-01-17 19:57:53	--	Topic for #blink is "chromium.org/blink -- https://groups.google.com/a/chromium.org/group/blink-dev/ (blink-dev@chromium.org) -- Public logs: echelog.com/?blink""
+2014-01-17 19:57:53	--	Topic set by abarth (uid5294@gateway/web/irccloud.com/x-xnmijfmhathnkmyv) on Tue, 16 Apr 2013 21:41:32
+2014-01-17 19:57:54	--	Nicks #blink: [+abarth +abinader +achicu +alecf +alph +apavlov +beng__ +betravis +beverloo +bokan_ +brianderson +bryeung +cjhopman_ +danakj +davidben +dcheng +dglazkov +dstockwell +fsamuel +hartmanng +iannucci|trooper +ilevy +jochen__ +jorgelo +justincohen +jww__ +kenrb +krit +lazyboy_ +loislo +marja___ +mohsen +motownavi +mvanouwerkerk +paul_irish +piman_ +rbyers__ +rouslan +rsesek +rtoyg +sadrul +sadrulhc +scherkus +skyostil +slightlyoff +spang +tdresser +thakis +trungl-bot` +vegorov +vollick +wfh +wibling +wjia +wjmaclean +yhirano +yoichio +yurys_ +zeeshanq +zerny +Zoltan abucur ager ahf aklein alex-abreu amtiskaw Ancil__ AndrewF AndroUser2 anssik_ arielserafini arno_ arpitab__ arunprasadr arv astearns babu bauerb_ bbandix bdholt1 bemjb benvanik beverloo- bhthompson_ bratell brson cbiesinger__ cdumez__ changseok chrisdickinson ckocagil cks cmp commit-bot cwhong_ cying cysm danneh_ dant__ davve delvinj dfreedm dmazzoni___ dmikurube dominicc drott dshwang dturner_ dwim eae ebryn echelog-1 ed efidler elproxy enne epoc9 ericwilligers_ ErikCorry eroman eseidel eskimo espadrine esprehn falken flackr fmalita foolip fsod g_byers^ gavin__ gavinp gnanasekar_ greenspa groby__ gsnedders Guest92619 gyuyoung gyuyoung_home hansmuller haraken_ harrow hashimoto hayato Himanshu_ Hixie iamstef igoroliveira igrigorik ilevy__ ingemara jab416171 jacobg jadahl jaehun jaepark JakeSays jamesr__ janx_ japhet jbauman jbroman jgjeong jiangj_ jinwoo jkjiang_ jkjiang_desk jkomoros jl jleclanche joone junov kangil kanzure Karliky kenneth_ kinuko kiyun_ kochi kochi1 Kolombiken kouhei kphanee kpiascik largenocream_ leoyang- leviw litherum liyin1 llee lukegb maheshkk maheshkk_ Martijnc mathiasbynens Mek mfenton_ mibrunin_ michou mihnea mike5w3c mikesherov mkwst molsson morrita mounir mpakula mrobinson mrunal mvujovic_ nasko_ nitish__ nyquist ojan ostap paracyst pavane pdr pilgrim_1oogle pprabhu prashant__ pwnall1 qrwteyrutiyoup R2R_ rakuco rchl2 rego reveman rgabor ricea rjwright robbiet480 rperier rramachandra rschoen_ rsleevi rude rwlbuis ryuan sanjoy_ sanjoy___ scheib schenney scottmg SeanWang seokju_ SeoZ-work[AWAY] sgkim sherlock shyamp Sikugu_ silverroots_ skobes slobo sof sohan sosby spartha spenap suchit_ sudarshanCP_ suyash911 suzak szager__ TabAtkins tabbott tabbott- tanty Tigge_ timloh1 timloh_ tnoleto toyoshiAw tullio tyoshino_ vanihegde_ vcarbune vitalybuka vivekg WanderingGlitch wibling_ wibling__ wolanski wolenetz xan_ yhsiangCloud yoav yoz--_ YukiSeki_ yury`m yusukesuzuki yutak zeno zimmerle]
+2014-01-17 19:57:54	--	Channel #blink: 295 nicks (0 ops, 61 voices, 234 normals)
+2014-01-17 19:58:15	--	Mode #blink [+nt]
+2014-01-17 19:58:16	--	Channel created on Tue, 02 Apr 2013 09:39:10
+2014-01-17 20:00:23	<--	xan_ (~xan@80.174.78.248.dyn.user.ono.com) has quit (Ping timeout: 252 seconds)
+2014-01-17 20:04:06	-->	lgombos (~gombos@210.94.41.89) has joined #blink
+2014-01-17 20:04:06	--	Mode #blink [+v lgombos] by ChanServ
+2014-01-17 20:06:04	-->	davedes (~davedes@72.15.63.157) has joined #blink
+2014-01-17 20:06:35	davedes	anyone here savvy with how blink/skia handles canvas blend modes with GLSL?
+2014-01-17 20:13:42	-->	dstockwell_ (~dstockwel@101.175.92.147) has joined #blink
+2014-01-17 20:18:23	-->	lgombos_ (~gombos@210.94.41.89) has joined #blink
+2014-01-17 20:19:55	-->	iamdustan (~iamdustan@h234.182.188.173.dynamic.ip.windstream.net) has joined #blink
+2014-01-17 20:21:50	<--	lgombos (~gombos@210.94.41.89) has quit (Ping timeout: 264 seconds)
+2014-01-17 20:24:54	<--	AndroUser2 (~androirc@84.64.61.170) has quit (Ping timeout: 272 seconds)
+2014-01-17 20:41:44	<--	iamdustan (~iamdustan@h234.182.188.173.dynamic.ip.windstream.net) has quit (Ping timeout: 260 seconds)
+2014-01-17 21:00:51	commit-bot	rbyers@chromium.org committed "Fix conditional TouchEvent creation support" http://crrev.com/137313004 https://src.chromium.org/viewvc/blink?view=revision&revision=165361
+2014-01-17 21:07:51	commit-bot	ojan@chromium.org committed "Auto-rebaseline for r165359" http://crrev.com/142333002 https://src.chromium.org/viewvc/blink?view=revision&revision=165362 TBR=eae@chromium.org
+2014-01-17 21:11:34	<--	dstockwell_ (~dstockwel@101.175.92.147) has quit (Ping timeout: 252 seconds)
+2014-01-17 21:26:27	<--	jaehun (~jaehun@210.94.41.89) has quit (Quit: Leaving)
+2014-01-17 21:40:17	<--	scottmg (~Scott@S01067cb21bc99134.vc.shawcable.net) has quit (Ping timeout: 272 seconds)
+2014-01-17 21:49:23	-->	nick_46_2 (~nick_46_2@thames.mum.edu) has joined #blink
+2014-01-17 21:49:33	-->	thakis_ (~thakis@c-50-174-12-111.hsd1.ca.comcast.net) has joined #blink
+2014-01-17 21:53:28	-->	lgombos__ (~gombos@210.94.41.89) has joined #blink
+2014-01-17 21:57:00	<--	gyuyoung_home (~gyuyoung@114.206.230.147) has quit (Ping timeout: 272 seconds)
+2014-01-17 21:57:18	<--	lgombos_ (~gombos@210.94.41.89) has quit (Ping timeout: 252 seconds)
+2014-01-17 21:57:34	<--	thakis_ (~thakis@c-50-174-12-111.hsd1.ca.comcast.net) has quit (Quit: thakis_)
+2014-01-17 22:02:15	-->	wilmoore (~wilmoore@c-67-190-17-108.hsd1.co.comcast.net) has joined #blink
+2014-01-17 22:11:40	<--	ostap (~sl@63.166.115.40) has quit (Ping timeout: 264 seconds)
+2014-01-17 22:12:06	<--	nick_46_2 (~nick_46_2@thames.mum.edu) has quit (Remote host closed the connection)
+2014-01-17 22:25:36	<--	litherum (~Litherum@c-50-184-87-84.hsd1.ca.comcast.net) has left #blink
+2014-01-17 22:26:44	-->	tonikitoo (~Antonio@187.2.147.195) has joined #blink
+2014-01-17 22:27:35	<--	davedes (~davedes@72.15.63.157) has quit (Quit: davedes)
+2014-01-17 22:45:47	-->	nick_46_2 (~nick_46_2@thames.mum.edu) has joined #blink
+2014-01-17 22:45:53	-->	stromsund (~stromsund@broadband-37-110-118-111.nationalcablenetworks.ru) has joined #blink
+2014-01-17 22:56:04	-->	jyasskin (~jyasskin@c-24-6-8-97.hsd1.ca.comcast.net) has joined #blink
+2014-01-17 22:57:07	-->	gyuyoung_home (~gyuyoung@114.206.230.147) has joined #blink
+2014-01-17 23:16:46	<--	lgombos__ (~gombos@210.94.41.89) has quit (Read error: Connection reset by peer)
+2014-01-17 23:16:56	-->	lgombos (~gombos@210.94.41.89) has joined #blink
+2014-01-17 23:16:57	--	Mode #blink [+v lgombos] by ChanServ
+2014-01-17 23:26:25	<--	delvinj (~delvinj@173-160-116-46-Minnesota.hfc.comcastbusiness.net) has quit (Ping timeout: 252 seconds)
+2014-01-17 23:35:21	<--	dmikurube (~dmikurube@2401:fa00:4:1000:26be:5ff:fe0d:e39f) has quit (Ping timeout: 240 seconds)
+2014-01-17 23:38:01	-->	dmikurube (~dmikurube@2401:fa00:4:1000:26be:5ff:fe0d:e39f) has joined #blink
+2014-01-17 23:39:49	--	ryuan is now known as ryuan_away
+2014-01-17 23:42:05	<--	pwnall1 (~pwnall@c-76-24-19-202.hsd1.ma.comcast.net) has quit (Quit: Leaving.)
+2014-01-17 23:54:07	<--	nick_46_2 (~nick_46_2@thames.mum.edu) has quit (Ping timeout: 246 seconds)
+2014-01-18 00:00:30	commit-bot	pfeldman@chromium.org committed "DevTools: register panels prior to opening views in drawer." http://crrev.com/133273034 https://src.chromium.org/viewvc/blink?view=revision&revision=165364 TBR=vsevik
+2014-01-18 00:02:40	<--	jyasskin (~jyasskin@c-24-6-8-97.hsd1.ca.comcast.net) has quit (Quit: My computer has gone to sleep. ZZZzzz…)
+2014-01-18 00:10:49	-->	svillar (~sergio@102.Red-88-15-58.dynamicIP.rima-tde.net) has joined #blink
+2014-01-18 00:24:54	<--	stromsund (~stromsund@broadband-37-110-118-111.nationalcablenetworks.ru) has quit (Ping timeout: 260 seconds)
+2014-01-18 00:32:44	-->	xan_ (~xan@80.174.78.230.dyn.user.ono.com) has joined #blink
+2014-01-18 00:42:11	-->	thakis_ (~thakis@c-50-174-12-111.hsd1.ca.comcast.net) has joined #blink
+2014-01-18 00:42:14	<--	brson (~brson@184.75.221.3) has quit (Quit: leaving)
+2014-01-18 01:01:11	-->	nick_46_2 (~nick_46_2@thames.mum.edu) has joined #blink
+2014-01-18 01:02:30	-->	eddyb (~eddy@unaffiliated/eddyb) has joined #blink
+2014-01-18 01:11:36	<--	eddyb (~eddy@unaffiliated/eddyb) has quit (Ping timeout: 248 seconds)
+2014-01-18 01:17:34	-->	relix (~relix@91.46.46.176.dyn.estpak.ee) has joined #blink
+2014-01-18 01:21:44	<--	wilmoore (~wilmoore@c-67-190-17-108.hsd1.co.comcast.net) has quit (Ping timeout: 248 seconds)
+2014-01-18 01:22:19	-->	ryuan_home (~ryuan@121.168.62.38) has joined #blink
+2014-01-18 01:29:44	-->	eddyb (~eddy@unaffiliated/eddyb) has joined #blink
+2014-01-18 01:32:08	<--	svillar (~sergio@102.Red-88-15-58.dynamicIP.rima-tde.net) has quit (Ping timeout: 245 seconds)
+2014-01-18 01:38:19	-->	_eddyb_ (~eddy@unaffiliated/eddyb) has joined #blink
+2014-01-18 01:38:20	<--	eddyb (~eddy@unaffiliated/eddyb) has quit (Remote host closed the connection)
+2014-01-18 01:39:04	-->	svillar (~sergio@102.Red-88-15-58.dynamicIP.rima-tde.net) has joined #blink
+2014-01-18 01:43:42	-->	wilmoore (~wilmoore@c-67-190-17-108.hsd1.co.comcast.net) has joined #blink
+2014-01-18 01:44:27	-->	drott_ (~drott@dsl-hkibrasgw3-58c021-244.dhcp.inet.fi) has joined #blink
+2014-01-18 01:54:30	<--	ryuan_home (~ryuan@121.168.62.38) has quit (Remote host closed the connection)
+2014-01-18 01:57:39	<--	maheshkk_ (~maheshkk@c-76-19-41-133.hsd1.ma.comcast.net) has quit (Read error: Connection reset by peer)
+2014-01-18 01:57:41	<--	wilmoore (~wilmoore@c-67-190-17-108.hsd1.co.comcast.net) has quit (Ping timeout: 252 seconds)
+2014-01-18 01:58:04	-->	maheshkk_ (~maheshkk@c-76-19-41-133.hsd1.ma.comcast.net) has joined #blink
+2014-01-18 01:58:05	-->	rhogan (~robert@79.97.134.198) has joined #blink
+2014-01-18 01:59:36	<--	nick_46_2 (~nick_46_2@thames.mum.edu) has quit (Remote host closed the connection)
+2014-01-18 01:59:55	-->	nick_46_2 (~nick_46_2@mum.fw.natel.net) has joined #blink
+2014-01-18 02:01:12	-->	jgjeong_ (~jgjeong@211.51.232.231) has joined #blink
+2014-01-18 02:02:31	<--	dturner_ (~dturner@ve.5xzksgst.vesrv.com) has quit (Ping timeout: 272 seconds)
+2014-01-18 02:02:31	<--	pilgrim_1oogle (~pilgrim@cpe-075-177-135-032.nc.res.rr.com) has quit (Ping timeout: 272 seconds)
+2014-01-18 02:02:31	<--	enne (~enne@mity.quisquo.us) has quit (Ping timeout: 272 seconds)
+2014-01-18 02:02:55	-->	enne (~enne@mity.quisquo.us) has joined #blink
+2014-01-18 02:03:03	<--	jgjeong (~jgjeong@211.51.232.231) has quit (Remote host closed the connection)
+2014-01-18 02:03:04	-->	pilgrim_google (~pilgrim@cpe-075-177-135-032.nc.res.rr.com) has joined #blink
+2014-01-18 02:03:26	-->	dturner (~dturner@ve.5xzksgst.vesrv.com) has joined #blink
+2014-01-18 02:04:38	<--	svillar (~sergio@102.Red-88-15-58.dynamicIP.rima-tde.net) has quit (Ping timeout: 245 seconds)
+2014-01-18 02:10:43	<--	thakis_ (~thakis@c-50-174-12-111.hsd1.ca.comcast.net) has quit (Quit: thakis_)
+2014-01-18 02:11:13	-->	thakis_ (~thakis@c-50-174-12-111.hsd1.ca.comcast.net) has joined #blink
+2014-01-18 02:11:23	<--	dturner (~dturner@ve.5xzksgst.vesrv.com) has quit (Ping timeout: 272 seconds)
+2014-01-18 02:12:29	-->	dturner (~dturner@ve.5xzksgst.vesrv.com) has joined #blink
+2014-01-18 02:20:24	<--	yusukesuzuki (~yusukesuz@23.net218219047.t-com.ne.jp) has quit (Quit: Tiarra 0.1+svn-39209: SIGINT received; exit)
+2014-01-18 02:20:51	-->	yusukesuzuki (~yusukesuz@23.net218219047.t-com.ne.jp) has joined #blink
+2014-01-18 02:21:55	<--	yusukesuzuki (~yusukesuz@23.net218219047.t-com.ne.jp) has quit (Client Quit)
+2014-01-18 02:22:31	-->	yusukesuzuki (~yusukesuz@23.net218219047.t-com.ne.jp) has joined #blink
+2014-01-18 10:06:55	--	irc: disconnected from server
+2014-01-18 10:07:32	-->	Guest92619 (~JSON_voor@c-98-246-113-149.hsd1.or.comcast.net) has joined #blink
+2014-01-18 10:07:32	--	Topic for #blink is "chromium.org/blink -- https://groups.google.com/a/chromium.org/group/blink-dev/ (blink-dev@chromium.org) -- Public logs: echelog.com/?blink""
+2014-01-18 10:07:32	--	Topic set by abarth (uid5294@gateway/web/irccloud.com/x-xnmijfmhathnkmyv) on Tue, 16 Apr 2013 21:41:32
+2014-01-18 10:07:32	--	Nicks #blink: [+abarth +abinader +achicu +alecf +alph +apavlov +beng__ +betravis +beverloo +bokan_ +brianderson +bryeung +cjhopman_ +danakj +davidben +dcheng +dglazkov +dstockwell +fsamuel +hartmanng +iannucci|trooper +ilevy +jochen__ +jorgelo +justincohen +jww__ +kenrb +krit +lazyboy_ +loislo +marja___ +mohsen +motownavi +mvanouwerkerk +paul_irish +piman_ +rbyers__ +rouslan +rsesek +rtoyg +sadrul +sadrulhc +scherkus +skyostil +slightlyoff +spang +tdresser +thakis +trungl-bot` +vegorov +vollick +wfh +wibling +wjia +wjmaclean +yhirano +yoichio +yurys_ +zeeshanq +zerny +Zoltan abucur ager ahf ahmedelgabri aklein alexg__ amtiskaw Ancil__ AndrewF anssik_ arielserafini arno_ arpitab__ arunprasadr arv astearns babu bauerb_ bbandix bdholt1 bemjb benvanik beverloo- bhthompson_ bratell c4milo_ cbiesinger__ cdumez__ changseok chrisdickinson ckocagil cks cmp commit-bot cwhong_ cying cysm danneh_ dant__ davve delvinj dfreedm dmazzoni___ dmikurube dominicc drott dshwang dturner dwim eae ebryn echelog-1 ed eddyb efidler elproxy enne epoc9 ericwilligers_ ErikCorry eroman eseidel eskimo espadrine esprehn falken flackr fmalita foolip fsod g_byers^ gavin__ gavinp gnanasekar_ greenspa groby__ gsnedders Guest92619 gyuyoung gyuyoung_home hansmuller haraken_ harrow hashimoto hayato Himanshu_ Hixie iamstef igoroliveira igrigorik ilevy__ ingemara jab416171 jacobg jadahl jaepark JakeSays jamesr__ janx japhet jbauman jbroman jgjeong_ jiangj_ jinwoo jkjiang_ jkjiang_desk jkomoros jl jleclanche joone junov kangil kanzure Karliky kenneth_ kinuko kiyun_ kochi kochi1 Kolombiken kouhei kphanee kpiascik lamarque largenocream_ leoyang- leviw liyin1 llee lukegb maheshkk Martijnc mathiasbynens Mek mfenton_ mibrunin_ michou mihnea mike5w3c mikesherov mkwst molsson morrita mounir mpakula mrobinson mrunal mvujovic_ nasko_ nick_46_2 nitish__ nyquist ojan paracyst pavane pdr pilgrim_google pprabhu prashant__ qrwteyrutiyoup R2R_ rakuco rchl2 rego relix reveman rgabor rhogan ricea rjwright robbiet480 rperier rramachandra rschoen_ rsleevi rude rwlbuis ryuan_away sanjoy_ sanjoy___ scheib schenney SeanWang seokju_ SeoZ-work[AWAY] sgkim sherlock shyamp Sikugu_ silverroots_ skobes slobo smaug____ sof sohan sosby spartha spenap stromsund suchit_ sudarshanCP_ suyash911 suzak szager__ TabAtkins tabbott tabbott- tanty Tigge_ timloh1 timloh_ tnoleto tonikitoo toyoshiAw tullio tyoshino_ vanihegde_ vcarbune vitalybuka vivekg WanderingGlitch wibling_ wibling__ wolanski wolenetz xan_ yhsiangCloud yoav yoz--_ YukiSeki_ yury`m yusukesuzuki yutak zeno zimmerle]
+2014-01-18 10:07:32	--	Channel #blink: 297 nicks (0 ops, 61 voices, 236 normals)
+2014-01-18 10:07:56	--	Mode #blink [+nt]
+2014-01-18 10:07:56	--	Channel created on Tue, 02 Apr 2013 09:39:10
+2014-01-18 10:15:02	<--	relix (~relix@91.46.46.176.dyn.estpak.ee) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2014-01-18 10:21:21	<--	ahmedelgabri (~gabri@91.72.64.50) has quit
+2014-01-18 10:22:16	<--	SeanWang (~SeanWang@123.121.8.92) has quit (Read error: Connection reset by peer)
+2014-01-18 10:22:56	-->	SeanWang (~SeanWang@123.121.8.92) has joined #blink
+2014-01-18 11:38:26	--	irc: disconnected from server
+2014-01-18 11:39:07	-->	Guest92619 (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #blink
+2014-01-18 11:39:07	--	Topic for #blink is "chromium.org/blink -- https://groups.google.com/a/chromium.org/group/blink-dev/ (blink-dev@chromium.org) -- Public logs: echelog.com/?blink""
+2014-01-18 11:39:07	--	Topic set by abarth (uid5294@gateway/web/irccloud.com/x-xnmijfmhathnkmyv) on Tue, 16 Apr 2013 21:41:32
+2014-01-18 11:39:07	--	Nicks #blink: [+abarth +abinader +achicu +alecf +alph +apavlov +beng__ +betravis +beverloo +bokan_ +brianderson +bryeung +cjhopman_ +danakj +davidben +dcheng +dglazkov +dstockwell +fsamuel +hartmanng +iannucci|trooper +ilevy +jochen__ +jorgelo +justincohen +jww__ +kenrb +krit +lazyboy_ +loislo +marja___ +mohsen +motownavi +mvanouwerkerk +paul_irish +piman_ +rbyers__ +rouslan +rsesek +rtoyg +sadrul +sadrulhc +scherkus +skyostil +slightlyoff +spang +tdresser +thakis +trungl-bot` +vegorov +vollick +wfh +wibling +wjia +wjmaclean +yhirano +yoichio +yurys_ +zeeshanq +zerny +Zoltan abucur ager ahf aklein alexg__ amtiskaw Ancil__ AndrewF anssik_ arielserafini arno_ arpitab__ arunprasadr arv astearns babu bauerb_ bbandix bdholt1 bemjb benvanik beverloo- bhthompson_ bratell c4milo_ cbiesinger__ cdumez__ changseok chrisdickinson ckocagil cks cmp commit-bot cwhong_ cying cysm danneh_ dant__ davedes davve delvinj dfreedm dmazzoni___ dmikurube dominicc drott dshwang dturner dwim eae ebryn echelog-1 ed eddyb efidler elproxy enne epoc9 ericwilligers_ ErikCorry eroman eseidel eskimo espadrine esprehn falken flackr fmalita foolip fsod g_byers^ gavin__ gavinp gnanasekar_ greenspa groby__ gsnedders Guest92619 gyuyoung gyuyoung_home hansmuller haraken_ harrow hashimoto hayato Himanshu_ Hixie iamstef igoroliveira igrigorik ilevy__ ingemara jab416171 jacobg jadahl jaepark JakeSays jamesr__ janx japhet jbauman jbroman jgjeong_ jiangj_ jinwoo jkjiang_ jkjiang_desk jkomoros jl jleclanche joone junov kangil kanzure Karliky kenneth_ kinuko kiyun_ kochi kochi1 Kolombiken kouhei kphanee kpiascik lamarque largenocream_ leoyang- leviw liyin1 llee lukegb maheshkk Martijnc mathiasbynens Mek mfenton_ mibrunin_ michou mihnea mike5w3c mikesherov mkwst molsson morrita mounir mpakula mrobinson mrunal mvujovic_ nasko_ nick_46_2 nitish__ nyquist ojan paracyst pavane pdr pilgrim_google pprabhu prashant__ pwnall qrwteyrutiyoup R2R_ rakuco rchl2 rego reveman rgabor rhogan ricea rjwright robbiet480 rperier rramachandra rschoen_ rsleevi rude rwlbuis ryuan_away sanjoy_ sanjoy___ scheib schenney seokju_ SeoZ-work[AWAY] sgkim sherlock shyamp Sikugu_ silverroots_ skobes slobo smaug____ sof sohan sosby spartha spenap stromsund suchit_ sudarshanCP_ suyash911 suzak szager__ TabAtkins tabbott tabbott- tanty thakis_ Tigge_ timloh1 timloh_ tnoleto tonikitoo toyoshiAw tullio tyoshino_ vanihegde_ vcarbune vitalybuka vivekg WanderingGlitch wibling_ wibling__ wolanski wolenetz xan_ yhsiangCloud yoav yoz--_ YukiSeki_ yury`m yusukesuzuki yutak zeno zimmerle]
+2014-01-18 11:39:07	--	Channel #blink: 297 nicks (0 ops, 61 voices, 236 normals)
+2014-01-18 11:39:31	--	Mode #blink [+nt]
+2014-01-18 11:39:31	--	Channel created on Tue, 02 Apr 2013 09:39:10
+2014-01-18 11:43:56	-->	jyasskin (~jyasskin@c-24-6-8-97.hsd1.ca.comcast.net) has joined #blink
+2014-01-18 11:44:45	<--	thakis_ (~thakis@c-50-174-12-111.hsd1.ca.comcast.net) has quit (Quit: thakis_)
+2014-01-18 11:54:43	-->	jbauman_ (~jbauman@108-214-96-152.lightspeed.sntcca.sbcglobal.net) has joined #blink
+2014-01-18 11:57:58	<--	jbauman (~jbauman@108-214-96-152.lightspeed.sntcca.sbcglobal.net) has quit (Ping timeout: 248 seconds)
+2014-01-18 12:37:21	--	irc: disconnected from server
+2014-01-18 12:37:56	-->	JSON_voorhees (~JSON_voor@c-71-237-213-89.hsd1.or.comcast.net) has joined #blink
+2014-01-18 12:37:56	--	Topic for #blink is "chromium.org/blink -- https://groups.google.com/a/chromium.org/group/blink-dev/ (blink-dev@chromium.org) -- Public logs: echelog.com/?blink""
+2014-01-18 12:37:56	--	Topic set by abarth (uid5294@gateway/web/irccloud.com/x-xnmijfmhathnkmyv) on Tue, 16 Apr 2013 21:41:32
+2014-01-18 12:37:56	--	Nicks #blink: [+abarth +abinader +achicu +alecf +alph +apavlov +beng__ +betravis +beverloo +bokan_ +brianderson +bryeung +cjhopman_ +danakj +davidben +dcheng +dglazkov +dstockwell +fsamuel +hartmanng +iannucci|trooper +ilevy +jochen__ +jorgelo +justincohen +jww__ +kenrb +krit +lazyboy_ +loislo +marja___ +mohsen +motownavi +mvanouwerkerk +paul_irish +piman_ +rbyers__ +rouslan +rsesek +rtoyg +sadrul +sadrulhc +scherkus +skyostil +slightlyoff +spang +tdresser +thakis +trungl-bot` +vegorov +vollick +wfh +wibling +wjia +wjmaclean +yhirano +yoichio +yurys_ +zeeshanq +zerny +Zoltan abucur ager ahf aklein alexg__ amtiskaw Ancil__ AndrewF anssik_ arielserafini arno_ arpitab__ arunprasadr arv astearns babu bauerb_ bbandix bdholt1 bemjb benvanik beverloo- bhthompson_ bratell c4milo_ cbiesinger__ cdumez__ changseok chrisdickinson ckocagil cks cmp commit-bot cwhong_ cying cysm danneh_ dant__ davve delvinj dfreedm dmazzoni___ dmikurube dominicc drott dshwang dturner dwim eae ebryn echelog-1 ed eddyb efidler elproxy enne epoc9 ericwilligers_ ErikCorry eroman eseidel eskimo espadrine esprehn falken flackr fmalita foolip fsod g_byers^ gavin__ gavinp gnanasekar_ greenspa groby__ gsnedders gyuyoung gyuyoung_home hansmuller haraken_ harrow hashimoto hayato Himanshu_ Hixie iamdustan iamstef igoroliveira igrigorik ilevy__ ingemara jab416171 jacobg jadahl jaepark JakeSays jamesr__ janx japhet jbauman_ jbroman jgjeong_ jiangj_ jinwoo jkjiang_ jkjiang_desk jkomoros jl jleclanche joone JSON_voorhees junov kangil kanzure Karliky kenneth_ kinuko kiyun_ kochi kochi1 Kolombiken kouhei kphanee kpiascik lamarque largenocream_ leoyang- leviw liyin1 llee lukegb maheshkk Martijnc mathiasbynens Mek mfenton_ mibrunin_ michou mihnea mike5w3c mikesherov mkwst molsson morrita mounir mpakula mrobinson mrunal mvujovic_ nasko_ nick_46_2 nitish__ nyquist ojan paracyst pavane pdr pilgrim_google pprabhu prashant__ pwnall qrwteyrutiyoup R2R_ rakuco rchl2 rego reveman rgabor rhogan ricea rjwright robbiet480 rperier rramachandra rschoen_ rsleevi rude rwlbuis ryuan_away sanjoy_ sanjoy___ scheib schenney seokju_ SeoZ-work[AWAY] sgkim sherlock shyamp Sikugu_ silverroots_ skobes slobo smaug____ sof sohan sosby spartha spenap stromsund suchit_ sudarshanCP_ suyash911 suzak szager__ TabAtkins tabbott tabbott- tanty Tigge_ timloh1 timloh_ tnoleto tonikitoo toyoshiAw tullio tyoshino_ vanihegde_ vcarbune vitalybuka vivekg WanderingGlitch wibling_ wibling__ wolanski wolenetz xan_ yhsiangCloud yoav yoz--_ YukiSeki_ yury`m yusukesuzuki yutak zeno zimmerle]
+2014-01-18 12:37:56	--	Channel #blink: 296 nicks (0 ops, 61 voices, 235 normals)
+2014-01-18 12:38:24	--	Mode #blink [+nt]
+2014-01-18 12:38:24	--	Channel created on Tue, 02 Apr 2013 09:39:10
+2014-01-18 12:43:23	-->	hansmuller1 (~HansMulle@c-67-169-100-209.hsd1.ca.comcast.net) has joined #blink
+2014-01-18 12:47:45	<--	iamdustan (~iamdustan@h234.182.188.173.dynamic.ip.windstream.net) has quit (Ping timeout: 261 seconds)
+2014-01-18 12:48:28	<--	hansmuller1 (~HansMulle@c-67-169-100-209.hsd1.ca.comcast.net) has quit (Ping timeout: 272 seconds)
+2014-01-18 12:51:27	<--	smaug____ (~chatzilla@cs78246079.pp.htv.fi) has quit (Quit: ChatZilla 0.9.90.1 [Firefox 29.0a1/20140118024847])
+2014-01-18 12:54:51	-->	thakis_ (~thakis@c-50-131-196-48.hsd1.ca.comcast.net) has joined #blink
+2014-01-18 12:57:44	-->	jyasskin (~jyasskin@173-228-80-34.dsl.static.sonic.net) has joined #blink
+2014-01-18 12:58:36	<--	tonikitoo (~Antonio@187.2.147.195) has quit (Ping timeout: 272 seconds)
+2014-01-18 13:08:14	<--	jyasskin (~jyasskin@173-228-80-34.dsl.static.sonic.net) has quit (Ping timeout: 246 seconds)
+2014-01-18 13:08:52	-->	jyasskin (~jyasskin@216.239.45.130) has joined #blink
+2014-01-18 13:19:11	<--	eskimo (~ttoth@54030970.catv.pool.telekom.hu) has quit (*.net *.split)
+2014-01-18 13:19:11	<--	gyuyoung (~gyuyoung@210.94.41.89) has quit (*.net *.split)
+2014-01-18 13:19:11	<--	wolanski (~wolanski@217-67-201-162.itsa.net.pl) has quit (*.net *.split)
+2014-01-18 13:19:11	<--	mfenton_ (~mfenton@S0106c0c1c0ea4d73.tb.shawcable.net) has quit (*.net *.split)
+2014-01-18 13:19:11	<--	cbiesinger__ (sid8099@gateway/web/irccloud.com/x-taawwisxkggeijak) has quit (*.net *.split)
+2014-01-18 13:19:11	<--	babu (babu@nat/intel/x-aeyqeebcbprplnmj) has quit (*.net *.split)
+2014-01-18 13:19:11	<--	harrow (~harrow@li125-242.members.linode.com) has quit (*.net *.split)
+2014-01-18 13:19:11	<--	fmalita (~fmalita@c-76-97-183-159.hsd1.ga.comcast.net) has quit (*.net *.split)
+2014-01-18 13:19:11	<--	kangil (~kangil@210.94.41.89) has quit (*.net *.split)
+2014-01-18 13:19:11	<--	jinwoo (~jinwoo@210.94.41.89) has quit (*.net *.split)
+2014-01-18 13:19:11	<--	molsson (~molsson@83.218.67.123) has quit (*.net *.split)
+2014-01-18 13:19:11	<--	JakeSays (~quassel@chat.thatswhatjakesaid.com) has quit (*.net *.split)
+2014-01-18 13:19:11	<--	yhirano (yhirano@nat/google/x-zgmnwtawswvosnbj) has quit (*.net *.split)
+2014-01-18 13:19:11	<--	dcheng (dcheng@nat/google/x-mpgtpenlmujdooat) has quit (*.net *.split)
+2014-01-18 13:20:02	-->	wilmoore (~wilmoore@c-67-190-17-108.hsd1.co.comcast.net) has joined #blink
+2014-01-18 13:20:48	-->	eskimo (~ttoth@54030970.catv.pool.telekom.hu) has joined #blink
+2014-01-18 13:20:48	-->	gyuyoung (~gyuyoung@210.94.41.89) has joined #blink
+2014-01-18 13:20:48	-->	wolanski (~wolanski@217-67-201-162.itsa.net.pl) has joined #blink
+2014-01-18 13:20:48	-->	mfenton_ (~mfenton@S0106c0c1c0ea4d73.tb.shawcable.net) has joined #blink
+2014-01-18 13:20:48	-->	cbiesinger__ (sid8099@gateway/web/irccloud.com/x-taawwisxkggeijak) has joined #blink
+2014-01-18 13:20:48	-->	babu (babu@nat/intel/x-aeyqeebcbprplnmj) has joined #blink
+2014-01-18 13:20:48	-->	harrow (~harrow@li125-242.members.linode.com) has joined #blink
+2014-01-18 13:20:48	-->	fmalita (~fmalita@c-76-97-183-159.hsd1.ga.comcast.net) has joined #blink
+2014-01-18 13:20:48	-->	kangil (~kangil@210.94.41.89) has joined #blink
+2014-01-18 13:20:48	-->	jinwoo (~jinwoo@210.94.41.89) has joined #blink
+2014-01-18 13:20:48	-->	molsson (~molsson@83.218.67.123) has joined #blink
+2014-01-18 13:20:48	-->	JakeSays (~quassel@chat.thatswhatjakesaid.com) has joined #blink
+2014-01-18 13:20:48	-->	yhirano (yhirano@nat/google/x-zgmnwtawswvosnbj) has joined #blink
+2014-01-18 13:20:48	-->	dcheng (dcheng@nat/google/x-mpgtpenlmujdooat) has joined #blink
+2014-01-18 13:20:48	--	Mode #blink [+vv yhirano dcheng] by dickson.freenode.net
+2014-01-18 13:25:27	<--	wilmoore (~wilmoore@c-67-190-17-108.hsd1.co.comcast.net) has quit (Ping timeout: 264 seconds)
+2014-01-18 13:31:00	-->	tonikitoo (~Antonio@187.2.147.195) has joined #blink
+2014-01-18 13:31:48	<--	stromsund (~stromsund@broadband-37-110-118-111.nationalcablenetworks.ru) has quit (Ping timeout: 252 seconds)
+2014-01-18 13:37:57	<--	jyasskin (~jyasskin@216.239.45.130) has quit (Read error: Connection reset by peer)
+2014-01-18 13:38:56	-->	a-ja (~Instantbi@70.230.155.124) has joined #blink
+2014-01-18 13:39:39	<--	nick_46_2 (~nick_46_2@mum.fw.natel.net) has quit (Ping timeout: 260 seconds)
+2014-01-18 13:43:48	-->	jyasskin (~jyasskin@173-228-80-34.dsl.static.sonic.net) has joined #blink
+2014-01-18 13:43:58	-->	brson (~brson@nat/mozilla/x-foixpumusdmrxulp) has joined #blink
+2014-01-18 13:46:20	-->	smaug____ (~chatzilla@cs78246079.pp.htv.fi) has joined #blink
+2014-01-18 14:02:19	-->	hansmuller1 (~HansMulle@c-67-169-100-209.hsd1.ca.comcast.net) has joined #blink
+2014-01-18 14:04:12	<--	rhogan (~robert@79.97.134.198) has quit (Ping timeout: 272 seconds)
+2014-01-18 14:07:01	<--	hansmuller1 (~HansMulle@c-67-169-100-209.hsd1.ca.comcast.net) has quit (Ping timeout: 272 seconds)
+2014-01-18 14:14:45	<--	thakis_ (~thakis@c-50-131-196-48.hsd1.ca.comcast.net) has quit (Quit: thakis_)
+2014-01-18 14:24:00	-->	wilmoore (~wilmoore@c-67-190-17-108.hsd1.co.comcast.net) has joined #blink
+2014-01-18 14:26:44	<--	a-ja (~Instantbi@70.230.155.124) has left #blink
+2014-01-18 14:29:47	-->	imjacobclark (~imjacobcl@88-104-33-80.dynamic.dsl.as9105.com) has joined #blink
+2014-01-18 14:34:15	-->	davedes (~davedes@72.15.63.157) has joined #blink
+2014-01-18 14:41:14	<--	xan_ (~xan@80.174.78.230.dyn.user.ono.com) has quit (Ping timeout: 252 seconds)
+2014-01-18 14:51:11	<--	wilmoore (~wilmoore@c-67-190-17-108.hsd1.co.comcast.net) has quit (Ping timeout: 252 seconds)
+2014-01-18 14:53:35	-->	wilmoore (~wilmoore@c-67-190-17-108.hsd1.co.comcast.net) has joined #blink
+2014-01-18 15:02:39	<--	vitalybuka (~vitalybuk@216.239.45.91) has quit (Ping timeout: 265 seconds)
+2014-01-18 15:03:32	-->	vitalybuka (~vitalybuk@216.239.45.66) has joined #blink
+2014-01-18 15:08:39	-->	thakis_ (~thakis@c-50-131-196-48.hsd1.ca.comcast.net) has joined #blink
+2014-01-18 15:19:33	<--	wilmoore (~wilmoore@c-67-190-17-108.hsd1.co.comcast.net) has quit (Ping timeout: 272 seconds)
+2014-01-18 15:27:43	<--	brson (~brson@nat/mozilla/x-foixpumusdmrxulp) has quit (Quit: Lost terminal)
+2014-01-18 15:28:14	-->	brson (~brson@nat/mozilla/x-xrogwmlprpfjlvjy) has joined #blink
+2014-01-18 15:42:22	-->	wilmoore (~wilmoore@c-67-190-17-108.hsd1.co.comcast.net) has joined #blink
+2014-01-18 15:49:39	<--	davedes (~davedes@72.15.63.157) has quit (Quit: davedes)
+2014-01-18 15:51:59	-->	nick_46_2 (~nick_46_2@thames.mum.edu) has joined #blink
+2014-01-18 16:15:39	--	irc: disconnected from server
+2014-01-18 16:16:34	-->	JSON_voorhees (~JSON_voor@c-71-237-213-89.hsd1.or.comcast.net) has joined #blink
+2014-01-18 16:16:34	--	Topic for #blink is "chromium.org/blink -- https://groups.google.com/a/chromium.org/group/blink-dev/ (blink-dev@chromium.org) -- Public logs: echelog.com/?blink""
+2014-01-18 16:16:34	--	Topic set by abarth (uid5294@gateway/web/irccloud.com/x-xnmijfmhathnkmyv) on Tue, 16 Apr 2013 21:41:32
+2014-01-18 16:16:34	--	Nicks #blink: [+abarth +abinader +achicu +alecf +alph +apavlov +beng__ +betravis +beverloo +bokan_ +brianderson +bryeung +cjhopman_ +danakj +davidben +dcheng +dglazkov +dstockwell +fsamuel +hartmanng +iannucci|trooper +ilevy +jochen__ +jorgelo +justincohen +jww__ +kenrb +krit +lazyboy_ +loislo +marja___ +mohsen +motownavi +mvanouwerkerk +paul_irish +piman_ +rbyers__ +rouslan +rsesek +rtoyg +sadrul +sadrulhc +scherkus +skyostil +slightlyoff +spang +tdresser +thakis +trungl-bot` +vegorov +vollick +wfh +wibling +wjia +wjmaclean +yhirano +yoichio +yurys_ +zeeshanq +zerny +Zoltan abucur ager ahf aklein alexg__ amtiskaw Ancil__ AndrewF anssik_ arielserafini arno_ arpitab__ arunprasadr arv astearns babu bauerb_ bbandix bdholt1 bemjb benvanik beverloo- bhthompson_ bratell brson c4milo_ cbiesinger__ cdumez__ changseok chrisdickinson ckocagil cks cmp commit-bot cwhong_ cying cysm danneh_ dant__ davve delvinj dfreedm dmazzoni___ dmikurube dominicc drott dshwang dturner dwim eae ebryn echelog-1 ed eddyb efidler elproxy enne epoc9 ericwilligers_ ErikCorry eroman eseidel eskimo espadrine esprehn falken flackr fmalita foolip fsod g_byers^ gavin__ gavinp gnanasekar_ greenspa groby__ gsnedders gyuyoung gyuyoung_home hansmuller haraken_ harrow hashimoto hayato Himanshu_ Hixie iamstef igoroliveira igrigorik ilevy__ imjacobclark ingemara jab416171 jacobg jadahl jaepark JakeSays jamesr__ janx japhet jbauman_ jbroman jgjeong_ jiangj_ jinwoo jkjiang_ jkjiang_desk jkomoros jl jleclanche joone JSON_voorhees junov jyasskin kangil kanzure Karliky kenneth_ kinuko kiyun_ kochi kochi1 Kolombiken kouhei kphanee kpiascik lamarque_away largenocream_ leoyang- leviw liyin1 llee lukegb maheshkk Martijnc mathiasbynens Mek mfenton_ mibrunin_ michou mihnea mike5w3c mikesherov mkwst molsson morrita mounir mpakula mrobinson mrunal mvujovic_ nasko_ nick_46_2 nitish__ nyquist ojan paracyst pavane pdr pilgrim_google pprabhu prashant__ pwnall qrwteyrutiyoup R2R_ rakuco rchl2 rego relix reveman rgabor ricea rjwright robbiet480 rperier rramachandra rschoen_ rsleevi rude rwlbuis ryuan_away sanjoy_ sanjoy___ scheib schenney scottmg seokju_ SeoZ-work[AWAY] sgkim sherlock shyamp Sikugu_ silverroots_ skobes slobo smaug____ sof sohan sosby spartha spenap suchit_ sudarshanCP_ suyash911 suzak szager__ TabAtkins tabbott tabbott- tanty thakis_ Tigge_ timloh1 timloh_ tnoleto tonikitoo toyoshiAw tullio tyoshino_ vanihegde_ vcarbune vitalybuka vivekg WanderingGlitch wibling_ wibling__ wilmoore wolanski wolenetz yhsiangCloud yoav yoz--_ YukiSeki_ yury`m yusukesuzuki yutak zeno zimmerle]
+2014-01-18 16:16:34	--	Channel #blink: 299 nicks (0 ops, 61 voices, 238 normals)
+2014-01-18 16:16:41	--	You are now known as Guest78498
+2014-01-18 16:16:56	--	Mode #blink [+nt]
+2014-01-18 16:16:56	--	Channel created on Tue, 02 Apr 2013 09:39:10
+2014-01-18 16:19:59	<--	thakis_ (~thakis@c-50-131-196-48.hsd1.ca.comcast.net) has quit (Quit: thakis_)
+2014-01-18 16:27:29	--	lamarque_away is now known as lamarque
+2014-01-18 16:31:45	<--	scottmg (~Scott@S01067cb21bc99134.vc.shawcable.net) has quit (Ping timeout: 272 seconds)
+2014-01-18 16:36:04	<--	relix (~relix@91.46.46.176.dyn.estpak.ee) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2014-01-18 16:36:43	<--	lamarque (~lamarque@177.19.33.147) has quit (Quit: Konversation terminated!)
+2014-01-18 16:41:10	<--	wilmoore (~wilmoore@c-67-190-17-108.hsd1.co.comcast.net) has quit (Ping timeout: 272 seconds)
+2014-01-18 16:41:12	-->	ryuan_home (~ryuan@121.168.62.38) has joined #blink
+2014-01-18 16:43:15	-->	relix (~relix@91.46.46.176.dyn.estpak.ee) has joined #blink
+2014-01-18 16:47:19	<--	c4milo_ (~c4milo@201.232.195.255) has quit (Remote host closed the connection)
+2014-01-18 16:53:55	<--	relix (~relix@91.46.46.176.dyn.estpak.ee) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2014-01-18 17:06:58	--	irc: disconnected from server
+2014-01-18 17:07:36	-->	Guest78498 (~JSON_voor@c-71-237-213-89.hsd1.or.comcast.net) has joined #blink
+2014-01-18 17:07:36	--	Topic for #blink is "chromium.org/blink -- https://groups.google.com/a/chromium.org/group/blink-dev/ (blink-dev@chromium.org) -- Public logs: echelog.com/?blink""
+2014-01-18 17:07:36	--	Topic set by abarth (uid5294@gateway/web/irccloud.com/x-xnmijfmhathnkmyv) on Tue, 16 Apr 2013 21:41:32
+2014-01-18 17:07:36	--	Nicks #blink: [+abarth +abinader +achicu +alecf +alph +apavlov +beng__ +betravis +beverloo +bokan_ +brianderson +bryeung +cjhopman_ +danakj +davidben +dcheng +dglazkov +dstockwell +fsamuel +hartmanng +iannucci|trooper +ilevy +jochen__ +jorgelo +justincohen +jww__ +kenrb +krit +lazyboy_ +loislo +marja___ +mohsen +motownavi +mvanouwerkerk +paul_irish +piman_ +rbyers__ +rouslan +rsesek +rtoyg +sadrul +sadrulhc +scherkus +skyostil +slightlyoff +spang +tdresser +thakis +trungl-bot` +vegorov +vollick +wfh +wibling +wjia +wjmaclean +yhirano +yoichio +yurys_ +zeeshanq +zerny +Zoltan abucur ager ahf aklein alexg__ amtiskaw Ancil__ AndrewF anssik_ arielserafini arno_ arpitab__ arunprasadr arv astearns babu bauerb_ bbandix bdholt1 bemjb benvanik beverloo- bhthompson_ bratell brson cbiesinger__ cdumez__ changseok chrisdickinson ckocagil cks cmp commit-bot cwhong_ cying cysm danneh_ dant__ davve delvinj dfreedm dmazzoni___ dmikurube dominicc drott dshwang dturner dwim eae ebryn echelog-1 ed eddyb efidler elproxy enne epoc9 ericwilligers_ ErikCorry eroman eseidel eskimo espadrine esprehn falken flackr fmalita foolip fsod g_byers^ gavin__ gavinp gnanasekar_ greenspa groby__ gsnedders Guest78498 gyuyoung gyuyoung_home hansmuller haraken_ harrow hashimoto hayato Himanshu_ Hixie iamstef igoroliveira igrigorik ilevy__ imjacobclark ingemara jab416171 jacobg jadahl jaepark JakeSays jamesr__ janx japhet jbauman_ jbroman jgjeong_ jiangj_ jinwoo jkjiang_ jkjiang_desk jkomoros jl jleclanche joone junov jyasskin kangil kanzure Karliky kenneth_ kinuko kiyun_ kochi kochi1 Kolombiken kouhei kphanee kpiascik largenocream_ leoyang- leviw liyin1 llee lukegb maheshkk Martijnc mathiasbynens Mek mfenton_ mibrunin_ michou mihnea mike5w3c mikesherov mkwst molsson morrita mounir mpakula mrobinson mrunal mvujovic_ nasko_ nick_46_2 nitish__ nyquist ojan paracyst pavane pdr pilgrim_google pprabhu prashant__ pwnall qrwteyrutiyoup R2R_ rakuco rchl2 rego reveman rgabor ricea rjwright robbiet480 rperier rramachandra rschoen_ rsleevi rude rwlbuis ryuan_away sanjoy_ sanjoy___ scheib schenney seokju_ SeoZ-work[AWAY] sgkim sherlock shyamp Sikugu_ silverroots_ skobes slobo smaug____ sof sohan sosby spartha spenap suchit_ sudarshanCP_ suyash911 suzak szager__ TabAtkins tabbott tabbott- tanty Tigge_ timloh1 timloh_ tnoleto tonikitoo toyoshiAw tullio tyoshino_ vanihegde_ vcarbune vitalybuka vivekg WanderingGlitch wibling_ wibling__ wolanski wolenetz yhsiangCloud yoav yoz--_ YukiSeki_ yury`m yusukesuzuki yutak zeno zimmerle]
+2014-01-18 17:07:36	--	Channel #blink: 293 nicks (0 ops, 61 voices, 232 normals)
+2014-01-18 17:08:00	--	Mode #blink [+nt]
+2014-01-18 17:08:00	--	Channel created on Tue, 02 Apr 2013 09:39:10
+2014-01-18 17:09:53	-->	c4milo (~c4milo@201.232.195.255) has joined #blink
+2014-01-18 17:13:34	<--	c4milo (~c4milo@201.232.195.255) has quit (Remote host closed the connection)
+2014-01-18 17:17:54	<--	jyasskin (~jyasskin@173-228-80-34.dsl.static.sonic.net) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2014-01-18 17:39:46	-->	vitalybuka_ (~vitalybuk@216.239.45.66) has joined #blink
+2014-01-18 17:39:53	<--	drott (~dominik@192.198.151.44) has quit (Read error: Connection reset by peer)
+2014-01-18 17:40:05	--	irc: disconnected from server
+2014-01-18 17:40:39	-->	JSON_voorhees (~JSON_voor@c-71-237-213-89.hsd1.or.comcast.net) has joined #blink
+2014-01-18 17:40:39	--	Topic for #blink is "chromium.org/blink -- https://groups.google.com/a/chromium.org/group/blink-dev/ (blink-dev@chromium.org) -- Public logs: echelog.com/?blink""
+2014-01-18 17:40:39	--	Topic set by abarth (uid5294@gateway/web/irccloud.com/x-xnmijfmhathnkmyv) on Tue, 16 Apr 2013 21:41:32
+2014-01-18 17:40:39	--	Nicks #blink: [+abarth +abinader +achicu +alecf +alph +apavlov +beng__ +betravis +beverloo +bokan_ +brianderson +bryeung +cjhopman_ +danakj +davidben +dcheng +dglazkov +dstockwell +fsamuel +hartmanng +iannucci|trooper +ilevy +jochen__ +jorgelo +justincohen +jww__ +kenrb +krit +lazyboy_ +loislo +marja___ +mohsen +motownavi +mvanouwerkerk +paul_irish +piman_ +rbyers__ +rouslan +rsesek +rtoyg +sadrul +sadrulhc +scherkus +skyostil +slightlyoff +spang +tdresser +thakis +trungl-bot` +vegorov +vollick +wfh +wibling +wjia +wjmaclean +yhirano +yoichio +yurys_ +zeeshanq +zerny +Zoltan abucur ager ahf aklein alexg__ amtiskaw Ancil__ AndrewF anssik_ arielserafini arno_ arpitab__ arunprasadr arv astearns babu bauerb_ bbandix bdholt1 bemjb benvanik beverloo- bhthompson_ bratell brson cbiesinger__ cdumez__ changseok chrisdickinson ckocagil cks cmp commit-bot cwhong_ cying cysm danneh_ dant__ davve delvinj dfreedm dmazzoni___ dmikurube dominicc dshwang dturner dwim eae ebryn echelog-1 ed eddyb efidler elproxy enne epoc9 ericwilligers_ ErikCorry eroman eseidel eskimo espadrine esprehn falken flackr fmalita foolip fsod g_byers^ gavin__ gavinp gnanasekar_ greenspa groby__ gsnedders gyuyoung gyuyoung_home hansmuller haraken_ harrow hashimoto hayato Himanshu_ Hixie iamstef igoroliveira igrigorik ilevy__ imjacobclark ingemara jab416171 jacobg jadahl jaepark JakeSays jamesr__ janx japhet jbauman_ jbroman jgjeong_ jiangj_ jinwoo jkjiang_ jkjiang_desk jkomoros jl jleclanche joone JSON_voorhees junov kangil kanzure Karliky kenneth_ kinuko kiyun_ kochi kochi1 Kolombiken kouhei kphanee kpiascik largenocream_ leoyang- leviw liyin1 llee lukegb maheshkk Martijnc mathiasbynens Mek mfenton_ mibrunin_ michou mihnea mike5w3c mikesherov mkwst molsson morrita mounir mpakula mrobinson mrunal mvujovic_ nasko_ nick_46_2 nitish__ nyquist ojan paracyst pavane pdr pilgrim_google pprabhu prashant__ pwnall qrwteyrutiyoup R2R_ rakuco rchl2 rego reveman rgabor ricea rjwright robbiet480 rperier rramachandra rschoen_ rsleevi rude rwlbuis ryuan_away sanjoy_ sanjoy___ scheib schenney seokju_ SeoZ-work[AWAY] sgkim sherlock shyamp Sikugu_ silverroots_ skobes slobo smaug____ sof sohan sosby spartha spenap suchit_ sudarshanCP_ suyash911 suzak szager__ TabAtkins tabbott tabbott- tanty Tigge_ timloh1 timloh_ tnoleto tonikitoo toyoshiAw tullio tyoshino_ vanihegde_ vcarbune vitalybuka vitalybuka_ vivekg WanderingGlitch wibling_ wibling__ wolanski wolenetz yhsiangCloud yoav yoz--_ YukiSeki_ yury`m yusukesuzuki yutak zeno zimmerle]
+2014-01-18 17:40:39	--	Channel #blink: 292 nicks (0 ops, 61 voices, 231 normals)
+2014-01-18 17:40:49	--	You are now known as Guest49675
+2014-01-18 17:40:59	--	irc: disconnected from server
+2014-01-18 17:41:31	-->	JSON_voorheez (~JSON_voor@c-71-237-213-89.hsd1.or.comcast.net) has joined #blink
+2014-01-18 17:41:31	--	Topic for #blink is "chromium.org/blink -- https://groups.google.com/a/chromium.org/group/blink-dev/ (blink-dev@chromium.org) -- Public logs: echelog.com/?blink""
+2014-01-18 17:41:31	--	Topic set by abarth (uid5294@gateway/web/irccloud.com/x-xnmijfmhathnkmyv) on Tue, 16 Apr 2013 21:41:32
+2014-01-18 17:41:31	--	Nicks #blink: [+abarth +abinader +achicu +alecf +alph +apavlov +beng__ +betravis +beverloo +bokan_ +brianderson +bryeung +cjhopman_ +danakj +davidben +dcheng +dglazkov +dstockwell +fsamuel +hartmanng +iannucci|trooper +ilevy +jochen__ +jorgelo +justincohen +jww__ +kenrb +krit +lazyboy_ +loislo +marja___ +mohsen +motownavi +mvanouwerkerk +paul_irish +piman_ +rbyers__ +rouslan +rsesek +rtoyg +sadrul +sadrulhc +scherkus +skyostil +slightlyoff +spang +tdresser +thakis +trungl-bot` +vegorov +vollick +wfh +wibling +wjia +wjmaclean +yhirano +yoichio +yurys_ +zeeshanq +zerny +Zoltan abucur ager ahf aklein alexg__ amtiskaw Ancil__ AndrewF anssik_ arielserafini arno_ arpitab__ arunprasadr arv astearns babu bauerb_ bbandix bdholt1 bemjb benvanik beverloo- bhthompson_ bratell brson cbiesinger__ cdumez__ changseok chrisdickinson ckocagil cks cmp commit-bot cwhong_ cying cysm danneh_ dant__ davve delvinj dfreedm dmazzoni___ dmikurube dominicc drott dshwang dturner dwim eae ebryn echelog-1 ed eddyb efidler elproxy enne epoc9 ericwilligers_ ErikCorry eroman eseidel eskimo espadrine esprehn falken flackr fmalita foolip fsod g_byers^ gavin__ gavinp gnanasekar_ greenspa groby__ gsnedders gyuyoung gyuyoung_home hansmuller haraken_ harrow hashimoto hayato Himanshu_ Hixie iamstef igoroliveira igrigorik ilevy__ imjacobclark ingemara jab416171 jacobg jadahl jaepark JakeSays jamesr__ janx japhet jbauman_ jbroman jgjeong_ jinwoo jkjiang_ jkjiang_desk jkomoros jl jleclanche joone JSON_voorheez junov kangil kanzure Karliky kenneth_ kinuko kiyun_ kochi kochi1 Kolombiken kouhei kphanee kpiascik largenocream_ leoyang- leviw liyin1 llee lukegb maheshkk Martijnc mathiasbynens Mek mfenton_ mibrunin_ michou mihnea mike5w3c mikesherov mkwst molsson morrita mounir mpakula mrobinson mrunal mvujovic_ nasko_ nick_46_2 nitish__ nyquist ojan paracyst pavane pdr pilgrim_google pprabhu prashant__ pwnall qrwteyrutiyoup R2R_ rakuco rchl2 rego reveman rgabor ricea rjwright robbiet480 rperier rramachandra rschoen_ rsleevi rude rwlbuis ryuan_away sanjoy_ sanjoy___ scheib schenney seokju_ SeoZ-work[AWAY] sgkim sherlock shyamp Sikugu_ silverroots_ skobes slobo smaug____ sof sohan sosby spartha spenap suchit_ sudarshanCP_ suyash911 suzak szager__ TabAtkins tabbott tabbott- tanty Tigge_ timloh1 timloh_ tnoleto tonikitoo toyoshiAw tullio tyoshino_ vanihegde_ vcarbune vitalybuka vitalybuka_ vivekg WanderingGlitch wibling_ wibling__ wolanski wolenetz yhsiangCloud yoav yoz--_ YukiSeki_ yury`m yusukesuzuki yutak zeno zimmerle]
+2014-01-18 17:41:31	--	Channel #blink: 292 nicks (0 ops, 61 voices, 231 normals)
+2014-01-18 17:41:37	-->	jiangj (~jiang@office.fw-osl.opera.com) has joined #blink
+2014-01-18 17:41:48	<--	vitalybuka (~vitalybuk@216.239.45.66) has quit (Ping timeout: 260 seconds)
+2014-01-18 17:41:57	--	Mode #blink [+nt]
+2014-01-18 17:41:57	--	Channel created on Tue, 02 Apr 2013 09:39:10
+2014-01-18 17:42:08	--	irc: disconnected from server

@@ -1,0 +1,471 @@
+2013-11-15 15:53:54	-->	JSON_voorhees (~JSON_voor@S0106c8fb26792456.vc.shawcable.net) has joined #cascadiajs
+2013-11-15 15:53:54	--	Topic for #cascadiajs is "WOOT cascadiaJS!"
+2013-11-15 15:53:54	--	Topic set by monteslu (~monteslu@ip68-109-175-67.ph.ph.cox.net) on Thu, 14 Nov 2013 16:07:19
+2013-11-15 15:53:54	--	Nicks #cascadiajs: [@monteslu andym chrisdickinson hackygolucky hallettj jden JSON_voorhees justinabrahms NotMyself terinjokes TheJF Wraithan yankhates ZenWraithBot]
+2013-11-15 15:53:54	--	Channel #cascadiajs: 14 nicks (1 op, 0 halfops, 0 voices, 13 normals)
+2013-11-15 15:53:55	--	Mode #cascadiajs [+ns]
+2013-11-15 15:53:55	--	Channel created on Tue, 12 Nov 2013 14:36:30
+2013-11-15 15:59:02	jden	justinabrahms: https://github.com/google/module-server
+2013-11-15 15:59:27	terinjokes	at CloudFlare we just finished migrating from RequireJS to browserify
+2013-11-15 15:59:46	terinjokes	i setup both and did the transition
+2013-11-15 16:33:41	--	irc: disconnected from server
+2013-11-15 16:34:23	-->	JSON_voorhees (~JSON_voor@S0106c8fb26792456.vc.shawcable.net) has joined #cascadiajs
+2013-11-15 16:34:24	--	Topic for #cascadiajs is "WOOT cascadiaJS!"
+2013-11-15 16:34:24	--	Topic set by monteslu (~monteslu@ip68-109-175-67.ph.ph.cox.net) on Thu, 14 Nov 2013 16:07:19
+2013-11-15 16:34:24	--	Nicks #cascadiajs: [@monteslu andym chrisdickinson hackygolucky hallettj jden JSON_voorhees NotMyself terinjokes TheJF Wraithan yankhates ZenWraithBot]
+2013-11-15 16:34:24	--	Channel #cascadiajs: 13 nicks (1 op, 0 halfops, 0 voices, 12 normals)
+2013-11-15 16:34:36	--	Mode #cascadiajs [+ns]
+2013-11-15 16:34:36	--	Channel created on Tue, 12 Nov 2013 14:36:30
+2013-11-15 16:54:07	<--	andym (~andym@plone/andym) has quit (Remote host closed the connection)
+2013-11-15 17:30:40	--	irc: disconnected from server
+2013-11-15 17:32:30	-->	JSON_voorhees (~JSON_voor@S0106c8fb26792456.vc.shawcable.net) has joined #cascadiajs
+2013-11-15 17:32:30	--	Topic for #cascadiajs is "WOOT cascadiaJS!"
+2013-11-15 17:32:30	--	Topic set by monteslu (~monteslu@ip68-109-175-67.ph.ph.cox.net) on Thu, 14 Nov 2013 16:07:19
+2013-11-15 17:32:30	--	Nicks #cascadiajs: [@monteslu chrisdickinson hackygolucky hallettj jden JSON_voorhees terinjokes TheJF Wraithan yankhates ZenWraithBot]
+2013-11-15 17:32:30	--	Channel #cascadiajs: 11 nicks (1 op, 0 halfops, 0 voices, 10 normals)
+2013-11-15 17:32:44	--	Mode #cascadiajs [+ns]
+2013-11-15 17:32:44	--	Channel created on Tue, 12 Nov 2013 14:36:30
+2013-11-16 12:05:42	--	irc: disconnected from server
+2013-11-16 12:06:13	-->	JSON_voorhees (~JSON_voor@S01067cb21bd82d75.vc.shawcable.net) has joined #cascadiajs
+2013-11-16 12:06:13	--	Topic for #cascadiajs is "WOOT cascadiaJS!"
+2013-11-16 12:06:13	--	Topic set by monteslu (~monteslu@ip68-109-175-67.ph.ph.cox.net) on Thu, 14 Nov 2013 16:04:01
+2013-11-16 12:06:13	--	Nicks #cascadiajs: [@monteslu chrisdickinson hackygolucky hallettj jden JSON_voorhees terinjokes TheJF Wraithan yankhates ZenWraithBot]
+2013-11-16 12:06:13	--	Channel #cascadiajs: 11 nicks (1 op, 0 halfops, 0 voices, 10 normals)
+2013-11-16 12:06:27	--	Mode #cascadiajs [+ns]
+2013-11-16 12:06:27	--	Channel created on Tue, 12 Nov 2013 14:36:30
+2013-11-16 12:10:02	-->	jarofghosts (~jarofghos@c-24-21-112-73.hsd1.or.comcast.net) has joined #cascadiajs
+2013-11-16 12:10:50	<--	jarofghosts (~jarofghos@c-24-21-112-73.hsd1.or.comcast.net) has left #cascadiajs ("/bye")
+2013-12-20 16:13:43	-->	JSON_voorhees (~JSON_voor@209.12.169.226) has joined #cascadiajs
+2013-12-20 16:13:43	--	Topic for #cascadiajs is "Long live Cascadia! | All things JavaScript with a lean towards artisanal coffee and passive drivers | Miss the conf but want to see the talks? Grab some popcorn: http://2013.cascadiajs.com/videos"
+2013-12-20 16:13:43	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Sun, 15 Dec 2013 23:50:06
+2013-12-20 16:13:43	--	Nicks #cascadiajs: [__love__ ancientmariner bret brycebaril CarterRabasa chancancode chrisdickinson contrahax dlmanning dpogue ericholscher hackygolucky html5cat jarofghosts jden jeffhorton jlembeck JSON_voorhees justinabrahms lakenen lumy monteslu notmatt NotMyself nrn paul_k phated simantel sudobangbang taterbase terinjokes TheJF Wraithan yankhates ZenWraithBot]
+2013-12-20 16:13:43	--	Channel #cascadiajs: 35 nicks (0 ops, 0 voices, 35 normals)
+2013-12-20 16:13:47	--	Mode #cascadiajs [+cn]
+2013-12-20 16:13:47	--	Channel created on Tue, 12 Nov 2013 14:36:30
+2013-12-20 16:13:53	JSON_voorhees	jden: better?
+2013-12-20 16:14:31	hackygolucky	\o
+2013-12-20 16:14:40	jden	ahoy
+2013-12-20 16:14:49	jden	much. add to your autojoin
+2013-12-20 16:15:09	JSON_voorhees	will do
+2013-12-20 16:33:36	<--	simantel (~simantel@50-198-170-174-static.hfc.comcastbusiness.net) has quit (Quit: simantel)
+2013-12-20 16:40:45	<--	notmatt (~notmatt@S01060026f31b7a98.vc.shawcable.net) has quit (Remote host closed the connection)
+2013-12-20 16:46:52	jden	if anyones down to grab tacos later let me know
+2013-12-20 16:47:04	jden	probably via text or twit
+2013-12-20 16:52:00	<--	jarofghosts (~jarofghos@67.131.102.78) has quit (Quit: zzzz)
+2013-12-20 17:04:52	-->	Maciek416 (~Maciek416@c-50-139-70-246.hsd1.or.comcast.net) has joined #cascadiajs
+2013-12-20 17:14:39	<--	Maciek416 (~Maciek416@c-50-139-70-246.hsd1.or.comcast.net) has quit (Remote host closed the connection)
+2013-12-20 17:15:06	-->	Maciek416 (~Maciek416@2601:7:780:520:3963:2aac:df01:e8be) has joined #cascadiajs
+2013-12-20 17:19:02	<--	Maciek416 (~Maciek416@2601:7:780:520:3963:2aac:df01:e8be) has quit (Ping timeout: 240 seconds)
+2013-12-20 17:26:56	-->	Maciek416 (~Maciek416@c-50-139-70-246.hsd1.or.comcast.net) has joined #cascadiajs
+2013-12-20 17:32:23	<--	Maciek416 (~Maciek416@c-50-139-70-246.hsd1.or.comcast.net) has quit (Remote host closed the connection)
+2013-12-20 17:33:36	<--	NotMyself (~NotMyself@c-76-104-208-159.hsd1.wa.comcast.net) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-12-20 17:45:36	<--	phated (~phated@c-24-21-53-221.hsd1.or.comcast.net) has quit (Remote host closed the connection)
+2013-12-20 17:46:02	-->	phated (~phated@c-24-21-53-221.hsd1.or.comcast.net) has joined #cascadiajs
+2013-12-20 17:50:49	<--	phated (~phated@c-24-21-53-221.hsd1.or.comcast.net) has quit (Ping timeout: 272 seconds)
+2013-12-20 17:51:18	-->	notmatt (~notmatt@S01060026f31b7a98.vc.shawcable.net) has joined #cascadiajs
+2013-12-20 17:53:20	-->	jarofghosts (~jarofghos@75-175-21-133.ptld.qwest.net) has joined #cascadiajs
+2013-12-20 17:58:51	<--	notmatt (~notmatt@S01060026f31b7a98.vc.shawcable.net) has quit (Ping timeout: 265 seconds)
+2013-12-20 18:14:40	<--	lakenen (~Adium@204.14.154.124) has quit (Quit: Leaving.)
+2013-12-20 18:17:02	-->	lakenen (~Adium@204.14.154.124) has joined #cascadiajs
+2013-12-20 18:21:59	<--	sudobangbang (~chatzilla@75-151-97-182-Washington.hfc.comcastbusiness.net) has quit (Ping timeout: 250 seconds)
+2013-12-20 18:33:20	<--	lakenen (~Adium@204.14.154.124) has quit (Quit: Leaving.)
+2013-12-21 11:01:54	--	irc: disconnected from server
+2013-12-21 11:02:21	-->	JSON_voorhees (~JSON_voor@c-76-102-64-172.hsd1.ca.comcast.net) has joined #cascadiajs
+2013-12-21 11:02:21	--	Topic for #cascadiajs is "Long live Cascadia! | All things JavaScript with a lean towards artisanal coffee and passive drivers | Miss the conf but want to see the talks? Grab some popcorn: http://2013.cascadiajs.com/videos"
+2013-12-21 11:02:21	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Sun, 15 Dec 2013 23:50:06
+2013-12-21 11:02:21	--	Nicks #cascadiajs: [__love__ ancientmariner bret brycebaril CarterRabasa chancancode chrisdickinson contrahax dlmanning dpogue ericholscher hackygolucky jarofghosts jden jeffhorton jlembeck JSON_voorhees justinabrahms lakenen lumy monteslu nrn paul_k taterbase terinjokes TheJF Wraithan yankhates ZenWraithBot]
+2013-12-21 11:02:21	--	Channel #cascadiajs: 29 nicks (0 ops, 0 voices, 29 normals)
+2013-12-21 11:02:35	--	Mode #cascadiajs [+cn]
+2013-12-21 11:02:35	--	Channel created on Tue, 12 Nov 2013 14:36:30
+2013-12-21 11:08:39	<--	lakenen (~Adium@204.14.154.124) has quit (Quit: Leaving.)
+2013-12-22 10:38:06	--	irc: disconnected from server
+2013-12-22 10:40:05	-->	JSON_voorhees (~JSON_voor@c-76-102-64-172.hsd1.ca.comcast.net) has joined #cascadiajs
+2013-12-22 10:40:05	--	Topic for #cascadiajs is "Long live Cascadia! | All things JavaScript with a lean towards artisanal coffee and passive drivers | Miss the conf but want to see the talks? Grab some popcorn: http://2013.cascadiajs.com/videos"
+2013-12-22 10:40:05	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Sun, 15 Dec 2013 23:50:06
+2013-12-22 10:40:05	--	Nicks #cascadiajs: [__love__ ancientmariner bret brycebaril CarterRabasa chancancode chrisdickinson contrahax dlmanning dpogue ericholscher hackygolucky jden jeffhorton jlembeck JSON_voorhees justinabrahms lumy monteslu nrn paul_k taterbase terinjokes TheJF Wraithan yankhates ZenWraithBot]
+2013-12-22 10:40:05	--	Channel #cascadiajs: 27 nicks (0 ops, 0 voices, 27 normals)
+2013-12-22 10:59:58	--	irc: disconnected from server
+2013-12-22 11:00:37	-->	JSON_voorhees (~JSON_voor@c-76-102-64-172.hsd1.ca.comcast.net) has joined #cascadiajs
+2013-12-22 11:00:37	--	Topic for #cascadiajs is "Long live Cascadia! | All things JavaScript with a lean towards artisanal coffee and passive drivers | Miss the conf but want to see the talks? Grab some popcorn: http://2013.cascadiajs.com/videos"
+2013-12-22 11:00:37	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Sun, 15 Dec 2013 23:50:06
+2013-12-22 11:00:37	--	Nicks #cascadiajs: [__love__ ancientmariner bret brycebaril CarterRabasa chancancode chrisdickinson contrahax dlmanning dpogue ericholscher hackygolucky jden jeffhorton jlembeck JSON_voorhees justinabrahms lakenen lumy monteslu nrn paul_k taterbase terinjokes TheJF Wraithan yankhates ZenWraithBot]
+2013-12-22 11:00:37	--	Channel #cascadiajs: 28 nicks (0 ops, 0 voices, 28 normals)
+2013-12-22 11:00:51	--	Mode #cascadiajs [+cn]
+2013-12-22 11:00:51	--	Channel created on Tue, 12 Nov 2013 14:36:30
+2013-12-22 11:15:52	<--	lakenen (~Adium@204.14.154.124) has quit (Quit: Leaving.)
+2013-12-22 11:26:19	<--	taterbase (sid17123@gateway/web/irccloud.com/x-ixmtvrzyybvngssi) has quit (Ping timeout: 240 seconds)
+2013-12-22 11:29:06	-->	taterbase (sid17123@gateway/web/irccloud.com/x-fjilzrcidwwgwwrj) has joined #cascadiajs
+2013-12-22 11:46:14	-->	lakenen (~Adium@204.14.154.124) has joined #cascadiajs
+2013-12-22 11:49:25	<--	hackygolucky (sid11034@gateway/web/irccloud.com/x-rhihnkujkgrbtxcr) has quit (Ping timeout: 252 seconds)
+2013-12-22 11:49:25	<--	chancancode (sid12859@gateway/web/irccloud.com/x-bzllyeqygxtbngby) has quit (Ping timeout: 245 seconds)
+2013-12-22 11:50:10	<--	CarterRabasa (uid15932@gateway/web/irccloud.com/x-lguadmhyorufyjym) has quit (Ping timeout: 240 seconds)
+2013-12-22 11:50:10	<--	taterbase (sid17123@gateway/web/irccloud.com/x-fjilzrcidwwgwwrj) has quit (Ping timeout: 264 seconds)
+2013-12-22 11:51:12	-->	lakenen1 (~Adium@204.14.154.124) has joined #cascadiajs
+2013-12-22 11:51:13	<--	lakenen (~Adium@204.14.154.124) has quit (Read error: Connection reset by peer)
+2013-12-22 11:51:55	-->	hackygolucky_ (sid11034@gateway/web/irccloud.com/x-ekswdgddflsdeveh) has joined #cascadiajs
+2013-12-22 11:52:58	-->	chancancode (sid12859@gateway/web/irccloud.com/x-pxwftsbydezmsfgf) has joined #cascadiajs
+2013-12-22 11:53:16	-->	CarterRabasa_ (uid15932@gateway/web/irccloud.com/x-anzvclmfkyagcyof) has joined #cascadiajs
+2013-12-22 11:56:16	-->	taterbase (sid17123@gateway/web/irccloud.com/x-osbbkogqtxjwkrzc) has joined #cascadiajs
+2013-12-23 09:48:05	--	irc: disconnected from server
+2013-12-23 09:48:37	-->	JSON_voorhees (~JSON_voor@c-98-210-178-243.hsd1.ca.comcast.net) has joined #cascadiajs
+2013-12-23 09:48:37	--	Topic for #cascadiajs is "Long live Cascadia! | All things JavaScript with a lean towards artisanal coffee and passive drivers | Miss the conf but want to see the talks? Grab some popcorn: http://2013.cascadiajs.com/videos"
+2013-12-23 09:48:37	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Sun, 15 Dec 2013 23:50:06
+2013-12-23 09:48:37	--	Nicks #cascadiajs: [__love__ ancientmariner bret brycebaril CarterRabasa_ chancancode chrisdickinson contrahax dlmanning dpogue ericholscher hackygolucky_ jden jlembeck JSON_voorhees justinabrahms lakenen lumy Maciek416 monteslu NotMyself nrn paul_k sudobangbang taterbase terinjokes TheJF Wraithan yankhates ZenWraithBot]
+2013-12-23 09:48:37	--	Channel #cascadiajs: 30 nicks (0 ops, 0 voices, 30 normals)
+2013-12-23 09:48:51	--	Mode #cascadiajs [+cn]
+2013-12-23 09:48:51	--	Channel created on Tue, 12 Nov 2013 14:36:30
+2013-12-23 09:51:41	terinjokes	brycebaril: ah, didn't know
+2013-12-23 09:51:45	terinjokes	probably a lot of interest
+2013-12-23 09:53:33	brycebaril	terinjokes yeah I started late and and if I wasn't in a pool I'd have nothing. It's almost doubled difficulty in the last week
+2013-12-23 09:53:40	terinjokes	:(
+2013-12-23 09:53:46	terinjokes	should have left my computer on then
+2013-12-23 09:54:04	brycebaril	<shrug> my own fault for not starting when jden told me to
+2013-12-23 09:54:18	terinjokes	yea, jden is wise
+2013-12-23 09:54:35	brycebaril	how much did you get when you were mining early?
+2013-12-23 09:54:37	terinjokes	brycebaril: you should come down to SF in january for SushiJS
+2013-12-23 09:54:44	terinjokes	i think I have over a million
+2013-12-23 09:54:48	terinjokes	i stopped checking
+2013-12-23 09:55:30	brycebaril	terinjokes: daaaaaaaamn
+2013-12-23 09:55:46	terinjokes	i might have been GPU mining
+2013-12-23 09:55:49	terinjokes	real early
+2013-12-23 09:55:58	brycebaril	A week of mining with 128 cores has netted me 40k, that's a bump in difficulty
+2013-12-23 09:56:13	terinjokes	yikes
+2013-12-23 09:56:18	terinjokes	logging in now
+2013-12-23 09:57:06	terinjokes	actually i over estimated
+2013-12-23 09:57:07	brycebaril	SushiJS sounds awesome, family makes it hard to travel on short notice though
+2013-12-23 09:57:16	terinjokes	213,573 DOGE
+2013-12-23 09:57:27	brycebaril	still, that's a pretty decent haul
+2013-12-23 09:57:36	terinjokes	that's like 12 hours i think
+2013-12-23 09:57:48	terinjokes	before my room got too warm that I turned off my computer and opened the window
+2013-12-23 09:57:56	brycebaril	any idea what your hash rate was?
+2013-12-23 09:58:22	terinjokes	i have 7141 DOGE sitting in my account on the pool
+2013-12-23 09:59:08	terinjokes	i think I was doing 300 KH/s
+2013-12-23 09:59:25	brycebaril	My setup was doing 800KH/s
+2013-12-23 09:59:26	JSON_voorhees	still waiting on jden to hook me up with some doge
+2013-12-23 09:59:42	terinjokes	yea, difficult looks to have jumped a ton
+2013-12-23 09:59:44	terinjokes	oh well
+2013-12-23 09:59:48	terinjokes	what's it worth?
+2013-12-23 10:00:08	brycebaril	yep, I'm an idiot for starting late. Yours is worth something like $20 maybe? Dunno
+2013-12-23 10:00:41	terinjokes	based on DOGE<->BTC<->USD 86.86851116
+2013-12-23 10:01:53	 *	brycebaril kicks himself
+2013-12-23 10:03:32	terinjokes	sorry
+2013-12-23 10:04:24	brycebaril	nah, whatever. we'll just start cascadiacoin and be in on the ground floor
+2013-12-23 10:04:57	terinjokes	no
+2013-12-23 10:05:20	terinjokes	cascadia doesn't have an official currency, we'd decided that while in Vancouver
+2013-12-23 10:06:00	brycebaril	why not?
+2013-12-23 10:06:28	terinjokes	idk, ask html5cat
+2013-12-23 10:11:16	<--	__love__ (~kennethlo@kennethlove.xen.prgmr.com) has quit (Excess Flood)
+2013-12-23 10:12:04	-->	__love__ (~kennethlo@71.19.148.115) has joined #cascadiajs
+2013-12-23 10:21:07	monteslu	brycebaril, just running stand alone
+2013-12-23 10:21:27	monteslu	was maxing cpu for a good chunk of weekend on an i7 mba, zero coins
+2013-12-23 10:21:42	brycebaril	monteslu: yeah, at 800KH/s my workers never actually found their own block, I got it all via pool shares
+2013-12-23 10:22:05	monteslu	guess i should set that up
+2013-12-23 10:22:33	brycebaril	monteslu: my pool: http://pool.chunky.ms  was easy enough to set up
+2013-12-23 10:23:44	<--	lakenen (~Adium@204.14.154.124) has quit (Quit: Leaving.)
+2013-12-23 10:32:41	-->	lakenen (~Adium@204.14.154.124) has joined #cascadiajs
+2013-12-23 10:50:52	jden	ericholscher: gleaming beardage
+2013-12-23 10:51:03	jden	JSON_voorhees: send me your doge addr again
+2013-12-23 10:51:40	jden	SushiJS++
+2013-12-23 10:51:50	-->	phated (~phated@c-24-21-53-221.hsd1.or.comcast.net) has joined #cascadiajs
+2013-12-23 10:52:40	jden	also, why isn
+2013-12-23 10:52:47	jden	isn't html5cat in this channel?
+2013-12-23 10:57:51	<--	phated (~phated@c-24-21-53-221.hsd1.or.comcast.net) has quit (Ping timeout: 240 seconds)
+2013-12-23 10:58:26	jden	two days to Portland :)
+2013-12-23 10:59:32	-->	phated (~phated@c-24-21-53-221.hsd1.or.comcast.net) has joined #cascadiajs
+2013-12-23 11:03:29	<--	phated (~phated@c-24-21-53-221.hsd1.or.comcast.net) has quit (Remote host closed the connection)
+2013-12-23 11:03:56	-->	phated (~phated@c-24-21-53-221.hsd1.or.comcast.net) has joined #cascadiajs
+2013-12-23 11:08:20	<--	phated (~phated@c-24-21-53-221.hsd1.or.comcast.net) has quit (Ping timeout: 252 seconds)
+2013-12-23 11:08:59	<--	sudobangbang (~chatzilla@75-151-97-182-Washington.hfc.comcastbusiness.net) has quit (Read error: No route to host)
+2013-12-23 11:10:37	hackygolucky_	mornin'
+2013-12-23 11:14:34	hackygolucky_	jden: plans for tomorrow evenin?
+2013-12-23 11:18:43	-->	contraha_ (~contrahax@ip24-251-13-101.ph.ph.cox.net) has joined #cascadiajs
+2013-12-23 11:21:02	-->	TheJF_ (~TheJF@jfarseneau.com) has joined #cascadiajs
+2013-12-23 11:24:17	<--	__love__ (~kennethlo@71.19.148.115) has quit (Ping timeout: 240 seconds)
+2013-12-23 11:25:47	-->	__love__ (~kennethlo@kennethlove.xen.prgmr.com) has joined #cascadiajs
+2013-12-23 11:26:47	<--	contrahax (~contrahax@ip24-251-13-101.ph.ph.cox.net) has quit (*.net *.split)
+2013-12-23 11:26:47	<--	TheJF (~TheJF@jfarseneau.com) has quit (*.net *.split)
+2013-12-23 11:26:47	<--	monteslu (~monteslu@ip68-109-175-67.ph.ph.cox.net) has quit (*.net *.split)
+2013-12-23 11:32:37	-->	sudobangbang (~chatzilla@75-151-97-182-Washington.hfc.comcastbusiness.net) has joined #cascadiajs
+2013-12-23 11:33:03	-->	monteslu (~monteslu@ip68-109-175-67.ph.ph.cox.net) has joined #cascadiajs
+2013-12-23 11:34:39	jden	hackygolucky_: I get in pretty late, probably airport -> house
+2013-12-23 11:51:44	hackygolucky_	okey dokey.
+2013-12-23 11:51:53	hackygolucky_	you coming to Friendsmas?
+2013-12-23 12:02:43	JSON_voorhees	hackygolucky_: when is friendsmas?
+2013-12-23 12:04:29	hackygolucky_	JSON_voorhees: on Christmas day, goofy. I sent you an invite.
+2013-12-23 12:05:47	JSON_voorhees	oh yeah i'm not gunna be back till the day after :(
+2013-12-23 12:06:08	hackygolucky_	:(
+2013-12-23 12:08:07	terinjokes	friexing day?
+2013-12-23 12:08:22	terinjokes	the day after friendsmas
+2013-12-23 12:08:30	jden	yeah i don't think i would be able to on christmas
+2013-12-23 12:08:39	jden	we should have a friendsmas redux soon after
+2013-12-23 12:08:53	hackygolucky_	heh
+2013-12-23 12:08:57	hackygolucky_	we gotta work :P
+2013-12-23 12:14:30	-->	phated (~phated@c-24-21-53-221.hsd1.or.comcast.net) has joined #cascadiajs
+2013-12-23 12:19:33	<--	phated (~phated@c-24-21-53-221.hsd1.or.comcast.net) has quit (Ping timeout: 272 seconds)
+2013-12-23 12:19:58	jden	yeah, but only during daylight hours, I'd imagine!
+2013-12-23 12:22:16	hackygolucky_	jden: true that. and not on the weekend of course.
+2013-12-23 12:30:58	--	hackygolucky_ is now known as hackygolucky
+2013-12-23 12:35:04	-->	phated (~phated@c-24-21-53-221.hsd1.or.comcast.net) has joined #cascadiajs
+2013-12-23 12:36:40	hackygolucky	jden: anything you'd like to do when you do have free time here?
+2013-12-23 12:38:58	<--	NotMyself (~NotMyself@c-76-104-208-159.hsd1.wa.comcast.net) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-12-23 13:03:51	phated	i published my blog post http://blog.iceddev.com/2013-12-23-beefy-workflow-with-requirejs.html
+2013-12-23 13:04:05	<--	lakenen (~Adium@204.14.154.124) has quit (Quit: Leaving.)
+2013-12-23 13:12:03	hackygolucky	!m phated
+2013-12-23 13:12:03	ZenWraithBot	You're doing great work phated!
+2013-12-23 13:18:07	-->	lakenen (~Adium@204.14.154.124) has joined #cascadiajs
+2013-12-23 13:21:34	--	contraha_ is now known as contrahax
+2013-12-23 13:21:46	-->	notmatt (~notmatt@S01060026f31b7a98.vc.shawcable.net) has joined #cascadiajs
+2013-12-23 13:23:57	<--	notmatt (~notmatt@S01060026f31b7a98.vc.shawcable.net) has quit (Client Quit)
+2013-12-23 15:16:05	--	irc: disconnected from server
+2013-12-23 15:16:34	-->	JSON_voorhees (~JSON_voor@c-76-102-64-172.hsd1.ca.comcast.net) has joined #cascadiajs
+2013-12-23 15:16:34	--	Topic for #cascadiajs is "Long live Cascadia! | All things JavaScript with a lean towards artisanal coffee and passive drivers | Miss the conf but want to see the talks? Grab some popcorn: http://2013.cascadiajs.com/videos"
+2013-12-23 15:16:34	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Sun, 15 Dec 2013 23:50:06
+2013-12-23 15:16:34	--	Nicks #cascadiajs: [__love__ ancientmariner bret brycebaril CarterRabasa_ chancancode chrisdickinson contrahax dlmanning dpogue ericholscher hackygolucky jarofghosts jden jlembeck JSON_voorhees justinabrahms lakenen1 lassam lumy monteslu nrn paul_k phated sudobangbang taterbase terinjokes TheJF_ Wraithan yankhates ZenWraithBot]
+2013-12-23 15:16:34	--	Channel #cascadiajs: 31 nicks (0 ops, 0 voices, 31 normals)
+2013-12-23 15:16:48	--	Mode #cascadiajs [+cn]
+2013-12-23 15:16:48	--	Channel created on Tue, 12 Nov 2013 14:36:30
+2013-12-23 15:54:20	--	irc: disconnected from server
+2013-12-23 15:54:53	-->	JSON_voorhees (~JSON_voor@ip-64-134-237-78.public.wayport.net) has joined #cascadiajs
+2013-12-23 15:54:54	--	Topic for #cascadiajs is "Long live Cascadia! | All things JavaScript with a lean towards artisanal coffee and passive drivers | Miss the conf but want to see the talks? Grab some popcorn: http://2013.cascadiajs.com/videos"
+2013-12-23 15:54:54	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Sun, 15 Dec 2013 23:50:06
+2013-12-23 15:54:54	--	Nicks #cascadiajs: [__love__ ancientmariner bret brycebaril CarterRabasa_ chancancode chrisdickinson contrahax dlmanning dpogue ericholscher hackygolucky jden jlembeck JSON_voorhees justinabrahms lakenen1 lassam lumy monteslu nrn paul_k phated sudobangbang taterbase terinjokes TheJF_ Wraithan yankhates ZenWraithBot]
+2013-12-23 15:54:54	--	Channel #cascadiajs: 30 nicks (0 ops, 0 voices, 30 normals)
+2013-12-23 15:55:07	--	Mode #cascadiajs [+cn]
+2013-12-23 15:55:08	--	Channel created on Tue, 12 Nov 2013 14:36:30
+2013-12-23 16:02:03	<--	phated (~phated@c-24-21-53-221.hsd1.or.comcast.net) has quit (Remote host closed the connection)
+2013-12-23 16:02:29	-->	phated (~phated@c-24-21-53-221.hsd1.or.comcast.net) has joined #cascadiajs
+2013-12-23 16:06:47	<--	phated (~phated@c-24-21-53-221.hsd1.or.comcast.net) has quit (Ping timeout: 252 seconds)
+2013-12-23 16:29:37	<--	contrahax (~contrahax@ip24-251-13-101.ph.ph.cox.net) has quit
+2013-12-23 16:49:29	jden	psst, wanna earn some DOGE? http://www.reddit.com/r/dogecoin/comments/1tk9cu/want_to_earn_50_doge_coins_just_send_me_a_photo/
+2013-12-23 16:49:45	jden	and/or see how white and male the doge coin community (somewhat predictably) is?
+2013-12-23 16:50:04	hackygolucky	ew
+2013-12-23 17:09:34	-->	contrahax (~contrahax@ip24-251-13-101.ph.ph.cox.net) has joined #cascadiajs
+2013-12-23 17:11:58	<--	contrahax (~contrahax@ip24-251-13-101.ph.ph.cox.net) has quit (Remote host closed the connection)
+2013-12-23 17:12:26	<--	lassam (~Curtis@S01060024d212e826.no.shawcable.net) has quit (Ping timeout: 272 seconds)
+2013-12-23 17:17:02	-->	lassam (~Curtis@S01060024d212e826.no.shawcable.net) has joined #cascadiajs
+2013-12-23 17:36:31	-->	contrahax (~contrahax@ip24-251-13-101.ph.ph.cox.net) has joined #cascadiajs
+2013-12-23 17:39:28	<--	contrahax (~contrahax@ip24-251-13-101.ph.ph.cox.net) has quit (Client Quit)
+2013-12-23 17:44:14	-->	contrahax (~contrahax@ip24-251-13-101.ph.ph.cox.net) has joined #cascadiajs
+2013-12-23 17:44:50	-->	phated (~phated@c-24-21-53-221.hsd1.or.comcast.net) has joined #cascadiajs
+2013-12-23 17:49:09	-->	phated_ (~phated@c-24-21-53-221.hsd1.or.comcast.net) has joined #cascadiajs
+2013-12-23 17:49:53	<--	phated (~phated@c-24-21-53-221.hsd1.or.comcast.net) has quit (Read error: Connection reset by peer)
+2013-12-23 17:50:06	-->	html5cat (uid20917@gateway/web/irccloud.com/x-bcafbtuodbqttaws) has joined #cascadiajs
+2013-12-23 17:57:57	-->	phated (~phated@c-24-21-53-221.hsd1.or.comcast.net) has joined #cascadiajs
+2013-12-23 17:57:57	<--	phated_ (~phated@c-24-21-53-221.hsd1.or.comcast.net) has quit (Read error: Connection reset by peer)
+2013-12-23 18:01:26	<--	contrahax (~contrahax@ip24-251-13-101.ph.ph.cox.net) has quit (Quit: Sleeping)
+2013-12-23 18:04:32	<--	phated (~phated@c-24-21-53-221.hsd1.or.comcast.net) has quit
+2013-12-23 18:15:39	-->	contrahax (~contrahax@199.254.116.104) has joined #cascadiajs
+2013-12-23 18:18:01	<--	lassam (~Curtis@S01060024d212e826.no.shawcable.net) has quit (Ping timeout: 272 seconds)
+2013-12-23 18:47:19	-->	lassam (~Curtis@S01060024d212e826.no.shawcable.net) has joined #cascadiajs
+2013-12-23 19:09:52	<--	lassam (~Curtis@S01060024d212e826.no.shawcable.net) has quit (Ping timeout: 240 seconds)
+2013-12-23 19:12:00	-->	phated (~phated@c-24-21-53-221.hsd1.or.comcast.net) has joined #cascadiajs
+2013-12-23 19:15:15	ericholscher	heh, "EDIT: If possible get your girlfriend in on the action too. Nice mixture of people would look better. "
+2013-12-24 09:41:17	--	irc: disconnected from server
+2013-12-24 09:41:53	-->	JSON_voorhees (~JSON_voor@c-76-102-64-172.hsd1.ca.comcast.net) has joined #cascadiajs
+2013-12-24 09:41:53	--	Topic for #cascadiajs is "Long live Cascadia! | All things JavaScript with a lean towards artisanal coffee and passive drivers | Miss the conf but want to see the talks? Grab some popcorn: http://2013.cascadiajs.com/videos"
+2013-12-24 09:41:53	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Sun, 15 Dec 2013 23:50:06
+2013-12-24 09:41:53	--	Nicks #cascadiajs: [__love__ ancientmariner bret brycebaril CarterRabasa_ chancancode_ chrisdickinson contraha_ dlmanning dpogue ericholscher hackygolucky html5cat jden jlembeck JSON_voorhees justinabrahms lakenen lumy monteslu nrn paul_k sudobangbang taterbase terinjokes TheJF_ Wraithan yankhates ZenWraithBot]
+2013-12-24 09:41:53	--	Channel #cascadiajs: 29 nicks (0 ops, 0 voices, 29 normals)
+2013-12-24 09:42:11	--	Mode #cascadiajs [+cn]
+2013-12-24 09:42:14	--	Channel created on Tue, 12 Nov 2013 14:36:30
+2013-12-24 10:04:19	--	irc: disconnected from server
+2013-12-24 10:04:50	-->	JSON_voorhees (~JSON_voor@c-76-102-64-172.hsd1.ca.comcast.net) has joined #cascadiajs
+2013-12-24 10:04:50	--	Topic for #cascadiajs is "Long live Cascadia! | All things JavaScript with a lean towards artisanal coffee and passive drivers | Miss the conf but want to see the talks? Grab some popcorn: http://2013.cascadiajs.com/videos"
+2013-12-24 10:04:50	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Sun, 15 Dec 2013 23:50:06
+2013-12-24 10:04:50	--	Nicks #cascadiajs: [__love__ ancientmariner bret brycebaril CarterRabasa_ chancancode_ chrisdickinson contraha_ dlmanning dpogue ericholscher hackygolucky html5cat jden jlembeck JSON_voorhees justinabrahms lakenen lumy monteslu nrn paul_k sudobangbang taterbase terinjokes TheJF_ Wraithan yankhates ZenWraithBot]
+2013-12-24 10:04:50	--	Channel #cascadiajs: 29 nicks (0 ops, 0 voices, 29 normals)
+2013-12-24 10:05:04	--	Mode #cascadiajs [+cn]
+2013-12-24 10:05:04	--	Channel created on Tue, 12 Nov 2013 14:36:30
+2013-12-24 10:06:26	--	irc: disconnected from server
+2013-12-24 10:06:59	-->	JSON_voorhees (~JSON_voor@c-76-102-64-172.hsd1.ca.comcast.net) has joined #cascadiajs
+2013-12-24 10:06:59	--	Topic for #cascadiajs is "Long live Cascadia! | All things JavaScript with a lean towards artisanal coffee and passive drivers | Miss the conf but want to see the talks? Grab some popcorn: http://2013.cascadiajs.com/videos"
+2013-12-24 10:06:59	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Sun, 15 Dec 2013 23:50:06
+2013-12-24 10:06:59	--	Nicks #cascadiajs: [__love__ ancientmariner bret brycebaril CarterRabasa_ chancancode_ chrisdickinson contraha_ dlmanning dpogue ericholscher hackygolucky html5cat jden jlembeck JSON_voorhees justinabrahms lakenen lumy monteslu nrn paul_k sudobangbang taterbase terinjokes TheJF_ Wraithan yankhates ZenWraithBot]
+2013-12-24 10:06:59	--	Channel #cascadiajs: 29 nicks (0 ops, 0 voices, 29 normals)
+2013-12-24 10:07:10	--	Mode #cascadiajs [+cn]
+2013-12-24 10:07:10	--	Channel created on Tue, 12 Nov 2013 14:36:30
+2013-12-24 10:08:45	<--	lakenen (~Adium@204.14.154.124) has quit (Quit: Leaving.)
+2013-12-25 21:57:11	--	irc: disconnected from server
+2013-12-25 21:57:43	-->	JSON_voorhees (~JSON_voor@c-76-102-64-172.hsd1.ca.comcast.net) has joined #cascadiajs
+2013-12-25 21:57:43	--	Topic for #cascadiajs is "Long live Cascadia! | All things JavaScript with a lean towards artisanal coffee and passive drivers | Miss the conf but want to see the talks? Grab some popcorn: http://2013.cascadiajs.com/videos"
+2013-12-25 21:57:43	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Sun, 15 Dec 2013 23:50:06
+2013-12-25 21:57:43	--	Nicks #cascadiajs: [__love__ ancientmariner bret brycebaril CarterRabasa_ chancancode_ chrisdickinson contraha_ dlmanning dpogue ericholscher hackygolucky html5cat jden jlembeck JSON_voorhees justinabrahms lumy monteslu nrn paul_k s5fs taterbase terinjokes TheJF_ Wraithan yankhates ZenWraithBot]
+2013-12-25 21:57:43	--	Channel #cascadiajs: 28 nicks (0 ops, 0 voices, 28 normals)
+2013-12-25 21:57:57	--	Mode #cascadiajs [+cn]
+2013-12-25 21:57:57	--	Channel created on Tue, 12 Nov 2013 14:36:30
+2013-12-25 22:34:38	-->	lakenen (~Adium@204.14.154.124) has joined #cascadiajs
+2013-12-25 22:43:26	<--	lakenen (~Adium@204.14.154.124) has quit (Ping timeout: 240 seconds)
+2013-12-25 22:56:42	-->	phated (~phated@c-24-21-53-221.hsd1.or.comcast.net) has joined #cascadiajs
+2013-12-25 23:35:37	-->	lakenen (~Adium@204.14.154.124) has joined #cascadiajs
+2013-12-25 23:44:35	<--	phated (~phated@c-24-21-53-221.hsd1.or.comcast.net) has quit (Remote host closed the connection)
+2013-12-25 23:45:01	-->	phated (~phated@c-24-21-53-221.hsd1.or.comcast.net) has joined #cascadiajs
+2013-12-25 23:50:49	--	irc: disconnected from server
+2013-12-25 23:51:20	-->	JSON_voorhees (~JSON_voor@c-76-102-64-172.hsd1.ca.comcast.net) has joined #cascadiajs
+2013-12-25 23:51:20	--	Topic for #cascadiajs is "Long live Cascadia! | All things JavaScript with a lean towards artisanal coffee and passive drivers | Miss the conf but want to see the talks? Grab some popcorn: http://2013.cascadiajs.com/videos"
+2013-12-25 23:51:20	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Sun, 15 Dec 2013 23:50:06
+2013-12-25 23:51:20	--	Nicks #cascadiajs: [__love__ ancientmariner bret brycebaril CarterRabasa_ chancancode_ chrisdickinson contraha_ dlmanning dpogue ericholscher hackygolucky html5cat jden jlembeck JSON_voorhees justinabrahms lakenen lumy monteslu nrn paul_k s5fs taterbase terinjokes TheJF_ Wraithan yankhates ZenWraithBot]
+2013-12-25 23:51:20	--	Channel #cascadiajs: 29 nicks (0 ops, 0 voices, 29 normals)
+2013-12-25 23:51:34	--	Mode #cascadiajs [+cn]
+2013-12-25 23:51:34	--	Channel created on Tue, 12 Nov 2013 14:36:30
+2013-12-27 10:13:53	--	irc: disconnected from server
+2013-12-27 10:14:22	-->	JSON_voorhees (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has joined #cascadiajs
+2013-12-27 10:14:22	--	Topic for #cascadiajs is "Long live Cascadia! | All things JavaScript with a lean towards artisanal coffee and passive drivers | Miss the conf but want to see the talks? Grab some popcorn: http://2013.cascadiajs.com/videos"
+2013-12-27 10:14:22	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Sun, 15 Dec 2013 23:50:06
+2013-12-27 10:14:22	--	Nicks #cascadiajs: [__love__ ancientmariner bret brycebaril CarterRabasa_ chancancode_ chrisdickinson contrahax dlmanning dpogue ericholscher hackygolucky html5cat jarofghosts jden jlembeck JSON_voorhees justinabrahms lakenen lumy monteslu nrn paul_k s5fs sudobangbang taterbase terinjokes TheJF_ Wraithan yankhates ZenWraithBot]
+2013-12-27 10:14:22	--	Channel #cascadiajs: 31 nicks (0 ops, 0 voices, 31 normals)
+2013-12-27 10:14:36	--	Mode #cascadiajs [+cn]
+2013-12-27 10:14:36	--	Channel created on Tue, 12 Nov 2013 14:36:30
+2013-12-27 10:23:59	<--	lakenen (~Adium@204.14.154.124) has quit (Quit: Leaving.)
+2013-12-27 10:35:07	-->	kennethormandy (~kennethor@S01060026f3083cc8.ed.shawcable.net) has joined #cascadiajs
+2013-12-27 10:35:31	-->	lakenen (~Adium@204.14.154.124) has joined #cascadiajs
+2013-12-27 11:23:45	--	irc: disconnected from server
+2013-12-27 11:24:16	-->	JSON_voorhees (~JSON_voor@174-25-78-200.ptld.qwest.net) has joined #cascadiajs
+2013-12-27 11:24:17	--	Topic for #cascadiajs is "Long live Cascadia! | All things JavaScript with a lean towards artisanal coffee and passive drivers | Miss the conf but want to see the talks? Grab some popcorn: http://2013.cascadiajs.com/videos"
+2013-12-27 11:24:17	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Sun, 15 Dec 2013 23:50:06
+2013-12-27 11:24:17	--	Nicks #cascadiajs: [__love__ ancientmariner bret brycebaril CarterRabasa_ chancancode_ chrisdickinson contrahax dlmanning dpogue ericholscher hackygolucky html5cat jarofghosts jden jlembeck JSON_voorhees justinabrahms kennethormandy lakenen lumy monteslu nrn paul_k s5fs sudobangbang taterbase terinjokes TheJF_ Wraithan yankhates ZenWraithBot]
+2013-12-27 11:24:17	--	Channel #cascadiajs: 32 nicks (0 ops, 0 voices, 32 normals)
+2013-12-27 11:24:30	--	Mode #cascadiajs [+cn]
+2013-12-27 11:24:30	--	Channel created on Tue, 12 Nov 2013 14:36:30
+2013-12-27 11:51:33	-->	phated (~phated@c-24-21-53-221.hsd1.or.comcast.net) has joined #cascadiajs
+2013-12-27 11:51:43	<--	jarofghosts (~jarofghos@67.131.102.78) has quit (Read error: Connection reset by peer)
+2013-12-27 11:52:18	-->	jarofghosts (~jarofghos@67.131.102.78) has joined #cascadiajs
+2013-12-27 11:55:20	<--	lakenen (~Adium@204.14.154.124) has quit (Quit: Leaving.)
+2013-12-27 12:01:15	-->	lakenen (~Adium@204.14.154.124) has joined #cascadiajs
+2013-12-27 12:30:24	<--	lakenen (~Adium@204.14.154.124) has quit (Quit: Leaving.)
+2013-12-27 13:00:49	-->	lakenen (~Adium@204.14.154.124) has joined #cascadiajs
+2013-12-27 13:05:10	<--	sudobangbang (~chatzilla@69.51.66.186) has quit (Quit: ChatZilla 0.9.90.1 [Firefox 26.0/20131205075310])
+2013-12-27 13:06:09	<--	phated (~phated@c-24-21-53-221.hsd1.or.comcast.net) has quit (Remote host closed the connection)
+2013-12-27 13:08:06	<--	lakenen (~Adium@204.14.154.124) has quit (Ping timeout: 252 seconds)
+2013-12-27 13:12:01	-->	phated (~phated@c-24-21-53-221.hsd1.or.comcast.net) has joined #cascadiajs
+2013-12-27 13:54:55	--	irc: disconnected from server
+2013-12-27 13:55:23	-->	JSON_voorhees (~JSON_voor@174-25-78-200.ptld.qwest.net) has joined #cascadiajs
+2013-12-27 13:55:23	--	Topic for #cascadiajs is "Long live Cascadia! | All things JavaScript with a lean towards artisanal coffee and passive drivers | Miss the conf but want to see the talks? Grab some popcorn: http://2013.cascadiajs.com/videos"
+2013-12-27 13:55:23	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Sun, 15 Dec 2013 23:50:06
+2013-12-27 13:55:23	--	Nicks #cascadiajs: [__love__ ancientmariner bret brycebaril CarterRabasa_ chancancode_ chrisdickinson contrahax dlmanning dpogue ericholscher hackygolucky html5cat jarofghosts jden jlembeck JSON_voorhees justinabrahms kennethormandy lumy monteslu nrn paul_k phated s5fs taterbase terinjokes TheJF_ Wraithan yankhates ZenWraithBot]
+2013-12-27 13:55:23	--	Channel #cascadiajs: 31 nicks (0 ops, 0 voices, 31 normals)
+2013-12-27 13:55:36	--	Mode #cascadiajs [+cn]
+2013-12-27 13:55:36	--	Channel created on Tue, 12 Nov 2013 14:36:30
+2013-12-27 14:05:45	-->	lakenen (~Adium@204.14.154.124) has joined #cascadiajs
+2013-12-27 14:14:17	<--	lakenen (~Adium@204.14.154.124) has quit (Ping timeout: 240 seconds)
+2013-12-27 14:46:50	hackygolucky	terinjokes: https://support.twitter.com/articles/15362-inactive-account-policy
+2013-12-27 14:47:04	hackygolucky	"you should consider..." but not "don't bother"
+2013-12-27 14:48:14	Wraithan	:/
+2013-12-27 14:57:37	<--	jarofghosts (~jarofghos@67.131.102.78) has quit (Remote host closed the connection)
+2013-12-27 14:58:05	-->	jarofghosts (~jarofghos@67.131.102.78) has joined #cascadiajs
+2013-12-27 15:09:43	<--	phated (~phated@c-24-21-53-221.hsd1.or.comcast.net) has quit (Remote host closed the connection)
+2013-12-27 15:10:48	-->	lakenen (~Adium@204.14.154.124) has joined #cascadiajs
+2013-12-27 15:20:00	-->	phated (~phated@c-24-21-53-221.hsd1.or.comcast.net) has joined #cascadiajs
+2014-01-16 13:17:16	-->	JSON_voorheez (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has joined #cascadiajs
+2014-01-16 13:17:16	--	Topic for #cascadiajs is "Long live Cascadia! | All things JavaScript with a lean towards artisanal coffee and passive drivers | Miss the conf but want to see the talks? Grab some popcorn: http://2013.cascadiajs.com/videos"
+2014-01-16 13:17:16	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Sun, 15 Dec 2013 23:50:06
+2014-01-16 13:17:16	--	Nicks #cascadiajs: [__love__ bret brycebaril CarterRabasa chancancode chrisdickinson classam dlmanning dpogue ericholscher hackygolucky html5cat jarofghosts jden jerrysv jlembeck JSON_voorheez justinabrahms kennethormandy kyledrake lakenen lassam Maciek416 monteslu mr7footmoustache notmatt nrn paul_k pdxstarburst phated s5fs simantel skgolden taterbase terinjokes TheJF voodootikigod Wraithan yankhates ZenWraithBot]
+2014-01-16 13:17:16	--	Channel #cascadiajs: 40 nicks (0 ops, 0 voices, 40 normals)
+2014-01-16 13:17:19	--	Mode #cascadiajs [+cn]
+2014-01-16 13:17:19	--	Channel created on Tue, 12 Nov 2013 14:36:30
+2014-01-16 13:40:55	-->	sole_ (~sole@46-65-7-97.zone16.bethere.co.uk) has joined #cascadiajs
+2014-01-16 13:55:32	<--	phated (~phated@72.44.240.228) has quit (Remote host closed the connection)
+2014-01-16 14:06:22	<--	notmatt (~notmatt@204.244.194.51) has quit (Remote host closed the connection)
+2014-01-16 14:35:26	<--	Maciek416 (~Maciek416@c-50-139-70-246.hsd1.or.comcast.net) has quit (Remote host closed the connection)
+2014-01-16 14:42:09	-->	phated (~phated@72.44.240.228) has joined #cascadiajs
+2014-01-16 15:02:51	<--	monteslu (~monteslu@ip68-109-175-67.ph.ph.cox.net) has quit (Ping timeout: 260 seconds)
+2014-01-16 15:04:23	-->	monteslu (~monteslu@ip68-109-175-67.ph.ph.cox.net) has joined #cascadiajs
+2014-01-16 15:12:16	<--	kennethormandy (~kennethor@64-46-23-103.dyn.novuscom.net) has quit
+2014-01-16 15:14:23	-->	hoobdeebla (~hoobdeebl@wsip-70-184-118-239.ph.ph.cox.net) has joined #cascadiajs
+2014-01-16 15:23:47	-->	contrahax (~contrahax@ip24-251-13-101.ph.ph.cox.net) has joined #cascadiajs
+2014-01-16 15:39:18	<--	hoobdeebla (~hoobdeebl@wsip-70-184-118-239.ph.ph.cox.net) has quit (Remote host closed the connection)
+2014-01-16 15:40:13	-->	hoobdeebla (~hoobdeebl@wsip-70-184-118-239.ph.ph.cox.net) has joined #cascadiajs
+2014-01-16 15:43:53	-->	kennethormandy (~kennethor@64-46-23-103.dyn.novuscom.net) has joined #cascadiajs
+2014-01-16 15:44:35	<--	hoobdeebla (~hoobdeebl@wsip-70-184-118-239.ph.ph.cox.net) has quit (Ping timeout: 245 seconds)
+2014-01-16 15:53:49	<--	sole_ (~sole@46-65-7-97.zone16.bethere.co.uk) has quit (Remote host closed the connection)
+2014-01-16 15:54:57	-->	hoobdeebla (~hoobdeebl@ip70-190-42-239.ph.ph.cox.net) has joined #cascadiajs
+2014-01-16 15:57:56	<--	lakenen (~Adium@67.218.117.3) has quit (Quit: Leaving.)
+2014-01-16 16:11:36	<--	contrahax (~contrahax@ip24-251-13-101.ph.ph.cox.net) has quit (Read error: Connection reset by peer)
+2014-01-16 16:12:15	-->	contrahax (~contrahax@ip24-251-13-101.ph.ph.cox.net) has joined #cascadiajs
+2014-01-16 16:18:39	-->	lakenen (~Adium@67.218.117.3) has joined #cascadiajs
+2014-01-16 16:22:44	-->	lakenen1 (~Adium@196.sub-70-197-9.myvzw.com) has joined #cascadiajs
+2014-01-16 16:22:59	<--	lakenen (~Adium@67.218.117.3) has quit (Ping timeout: 252 seconds)
+2014-01-16 16:27:26	<--	simantel (~simantel@50-198-170-174-static.hfc.comcastbusiness.net) has quit (Quit: simantel)
+2014-01-16 16:30:40	<--	jerrysv (~jerrysv@173-8-196-70-Oregon.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2014-01-16 16:31:35	-->	simantel (~simantel@50-198-170-174-static.hfc.comcastbusiness.net) has joined #cascadiajs
+2014-01-16 16:35:13	<--	lakenen1 (~Adium@196.sub-70-197-9.myvzw.com) has quit (Quit: Leaving.)
+2014-01-16 16:45:05	-->	lakenen (~Adium@237.sub-70-197-0.myvzw.com) has joined #cascadiajs
+2014-01-16 16:46:30	<--	simantel (~simantel@50-198-170-174-static.hfc.comcastbusiness.net) has quit (Quit: simantel)
+2014-01-16 16:46:50	<--	phated (~phated@72.44.240.228) has quit (Remote host closed the connection)
+2014-01-16 17:02:02	<--	pdxstarburst (~chatzilla@c126h037.wless.reed.edu) has quit (Ping timeout: 252 seconds)
+2014-01-16 17:04:17	<--	jarofghosts (~jarofghos@67.131.102.78) has quit (Quit: zzzz)
+2014-01-16 17:15:14	<--	lakenen (~Adium@237.sub-70-197-0.myvzw.com) has quit (Read error: Connection reset by peer)
+2014-01-16 17:25:20	terinjokes	jden: i'm heading over
+2014-01-16 17:40:09	-->	NotMyself (~NotMyself@c-76-104-208-159.hsd1.wa.comcast.net) has joined #cascadiajs
+2014-01-16 17:56:23	hackygolucky	have fun!
+2014-01-16 17:56:29	hackygolucky	hey brycebaril ....
+2014-01-16 17:56:33	hackygolucky	you going to jsfest?
+2014-01-16 17:57:21	-->	phated (~phated@wsip-70-184-100-194.ph.ph.cox.net) has joined #cascadiajs
+2014-01-16 18:02:50	<--	phated (~phated@wsip-70-184-100-194.ph.ph.cox.net) has quit (Ping timeout: 272 seconds)
+2014-01-16 18:07:26	-->	jarofghosts (~jarofghos@174-25-81-132.ptld.qwest.net) has joined #cascadiajs
+2014-01-16 18:07:42	<--	jarofghosts (~jarofghos@174-25-81-132.ptld.qwest.net) has quit (Client Quit)
+2014-01-16 18:39:28	--	irc: disconnected from server
+2014-01-16 18:40:03	-->	JSON_voorheez (~JSON_voor@71-20-35-93.war.clearwire-wmx.net) has joined #cascadiajs
+2014-01-16 18:40:04	--	Topic for #cascadiajs is "Long live Cascadia! | All things JavaScript with a lean towards artisanal coffee and passive drivers | Miss the conf but want to see the talks? Grab some popcorn: http://2013.cascadiajs.com/videos"
+2014-01-16 18:40:04	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Sun, 15 Dec 2013 23:50:06
+2014-01-16 18:40:04	--	Nicks #cascadiajs: [__love__ bret brycebaril CarterRabasa chancancode chrisdickinson classam contrahax dlmanning dpogue ericholscher hackygolucky hoobdeebla html5cat jden jlembeck JSON_voorheez justinabrahms kennethormandy kyledrake lassam monteslu mr7footmoustache NotMyself nrn paul_k s5fs skgolden taterbase terinjokes TheJF voodootikigod Wraithan yankhates ZenWraithBot]
+2014-01-16 18:40:04	--	Channel #cascadiajs: 35 nicks (0 ops, 0 voices, 35 normals)
+2014-01-16 18:40:25	--	Mode #cascadiajs [+cn]
+2014-01-16 18:40:26	--	Channel created on Tue, 12 Nov 2013 14:36:30
+2014-01-16 18:41:47	-->	curriedav (~curriedav@71-20-35-93.war.clearwire-wmx.net) has joined #cascadiajs
+2014-01-16 18:56:04	<--	lassam (~Curtis@205.250.230.57) has quit (Read error: Connection reset by peer)
+2014-01-16 18:56:28	-->	lassam (~Curtis@205.250.230.57) has joined #cascadiajs
+2014-01-16 19:07:20	<--	kennethormandy (~kennethor@64-46-23-103.dyn.novuscom.net) has quit
+2014-01-16 19:23:33	<--	curriedav (~curriedav@71-20-35-93.war.clearwire-wmx.net) has quit (Remote host closed the connection)
+2014-01-16 19:25:07	-->	phated (~phated@72.44.240.228) has joined #cascadiajs
+2014-01-16 19:25:52	-->	pdxstarburst (~chatzilla@c-76-27-237-147.hsd1.or.comcast.net) has joined #cascadiajs
+2014-01-16 19:32:12	<--	pdxstarburst (~chatzilla@c-76-27-237-147.hsd1.or.comcast.net) has quit (Ping timeout: 252 seconds)
+2014-01-16 19:45:10	<--	contrahax (~contrahax@ip24-251-13-101.ph.ph.cox.net) has quit (Quit: Sleeping)
+2014-01-16 19:45:55	-->	kennethormandy (~kennethor@64-46-23-103.dyn.novuscom.net) has joined #cascadiajs
+2014-01-16 20:16:30	--	irc: disconnected from server
+2014-01-16 20:17:04	-->	JSON_voorheez (~JSON_voor@71-20-35-93.war.clearwire-wmx.net) has joined #cascadiajs
+2014-01-16 20:17:05	--	Topic for #cascadiajs is "Long live Cascadia! | All things JavaScript with a lean towards artisanal coffee and passive drivers | Miss the conf but want to see the talks? Grab some popcorn: http://2013.cascadiajs.com/videos"
+2014-01-16 20:17:05	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Sun, 15 Dec 2013 23:50:06
+2014-01-16 20:17:05	--	Nicks #cascadiajs: [__love__ bret brycebaril CarterRabasa ceejbot chancancode chrisdickinson classam dlmanning dpogue ericholscher hackygolucky html5cat jden jlembeck JSON_voorheez justinabrahms kyledrake lassam monteslu mr7footmoustache nrn paul_k phated s5fs skgolden taterbase terinjokes TheJF voodootikigod Wraithan yankhates ZenWraithBot]
+2014-01-16 20:17:05	--	Channel #cascadiajs: 33 nicks (0 ops, 0 voices, 33 normals)
+2014-01-16 20:17:26	--	Mode #cascadiajs [+cn]
+2014-01-16 20:17:26	--	Channel created on Tue, 12 Nov 2013 14:36:30
+2014-01-16 20:32:57	--	irc: disconnected from server
+2014-01-16 20:33:34	-->	JSON_voorhees (~JSON_voor@75-92-170-26.war.clearwire-wmx.net) has joined #cascadiajs
+2014-01-16 20:33:34	--	Topic for #cascadiajs is "Long live Cascadia! | All things JavaScript with a lean towards artisanal coffee and passive drivers | Miss the conf but want to see the talks? Grab some popcorn: http://2013.cascadiajs.com/videos"
+2014-01-16 20:33:34	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Sun, 15 Dec 2013 23:50:06
+2014-01-16 20:33:35	--	Nicks #cascadiajs: [__love__ bret brycebaril CarterRabasa ceejbot chancancode chrisdickinson classam dlmanning dpogue ericholscher hackygolucky html5cat jden jlembeck JSON_voorhees JSON_voorheez justinabrahms kyledrake lassam monteslu mr7footmoustache nrn paul_k phated s5fs skgolden taterbase terinjokes TheJF voodootikigod Wraithan yankhates ZenWraithBot]
+2014-01-16 20:33:35	--	Channel #cascadiajs: 34 nicks (0 ops, 0 voices, 34 normals)
+2014-01-16 20:33:46	--	You are now known as Guest75624
+2014-01-16 20:33:53	<--	JSON_voorheez (~JSON_voor@71-20-35-93.war.clearwire-wmx.net) has quit (Ping timeout: 245 seconds)
+2014-01-16 20:33:56	--	Mode #cascadiajs [+cn]
+2014-01-16 20:33:57	--	Channel created on Tue, 12 Nov 2013 14:36:30
+2014-01-16 20:53:30	<--	ceejbot (~ceejbot@172-5-154-148.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2014-01-16 20:54:37	-->	ceejbot (~ceejbot@172-5-154-148.lightspeed.sntcca.sbcglobal.net) has joined #cascadiajs
+2014-01-16 20:55:29	-->	lakenen (~Adium@204.14.154.124) has joined #cascadiajs
+2014-01-16 20:56:44	<--	phated (~phated@72.44.240.228) has quit (Remote host closed the connection)
+2014-01-16 20:58:29	-->	phated (~phated@72.44.240.228) has joined #cascadiajs
+2014-01-16 21:00:11	<--	ceejbot (~ceejbot@172-5-154-148.lightspeed.sntcca.sbcglobal.net) has quit (Ping timeout: 265 seconds)
+2014-01-16 21:14:22	-->	NotMyself (~NotMyself@c-76-104-208-159.hsd1.wa.comcast.net) has joined #cascadiajs
+2014-01-16 21:14:44	<--	lassam (~Curtis@205.250.230.57) has quit (Ping timeout: 272 seconds)
+2014-01-16 21:17:35	-->	notmatt (~notmatt@S01060026f31b7a98.vc.shawcable.net) has joined #cascadiajs
+2014-01-16 21:24:30	-->	ceejbot (~ceejbot@172-5-154-148.lightspeed.sntcca.sbcglobal.net) has joined #cascadiajs
+2014-01-16 21:26:36	<--	ceejbot (~ceejbot@172-5-154-148.lightspeed.sntcca.sbcglobal.net) has quit (Read error: Connection reset by peer)
+2014-01-16 21:26:53	-->	ceejbot (~ceejbot@172-5-154-148.lightspeed.sntcca.sbcglobal.net) has joined #cascadiajs
+2014-01-16 23:38:16	--	irc: disconnected from server
+2014-01-16 23:38:56	-->	Guest75624 (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #cascadiajs
+2014-01-16 23:38:56	--	Topic for #cascadiajs is "Long live Cascadia! | All things JavaScript with a lean towards artisanal coffee and passive drivers | Miss the conf but want to see the talks? Grab some popcorn: http://2013.cascadiajs.com/videos"
+2014-01-16 23:38:56	--	Topic set by Wraithan (~wraithan@216.151.13.75) on Sun, 15 Dec 2013 23:50:06
+2014-01-16 23:38:56	--	Nicks #cascadiajs: [__love__ bret brycebaril CarterRabasa chancancode chrisdickinson classam contrahax dlmanning dpogue ericholscher Guest75624 hackygolucky html5cat jden jlembeck justinabrahms kyledrake lakenen monteslu mr7footmoustache notmatt nrn paul_k s5fs skgolden taterbase terinjokes TheJF voodootikigod Wraithan yankhates ZenWraithBot]
+2014-01-16 23:38:56	--	Channel #cascadiajs: 33 nicks (0 ops, 0 voices, 33 normals)
+2014-01-16 23:39:16	--	Mode #cascadiajs [+cn]
+2014-01-16 23:39:16	--	Channel created on Tue, 12 Nov 2013 14:36:30
+2014-01-16 23:57:20	-->	phated (~phated@ip72-208-140-83.ph.ph.cox.net) has joined #cascadiajs
+2014-01-17 00:02:33	<--	phated (~phated@ip72-208-140-83.ph.ph.cox.net) has quit (Ping timeout: 272 seconds)
+2014-01-17 00:15:28	<--	contrahax (~contrahax@ip24-251-13-101.ph.ph.cox.net) has quit (Quit: Sleeping)
+2014-01-17 00:25:01	-->	ceejbot (~ceejbot@172-5-154-148.lightspeed.sntcca.sbcglobal.net) has joined #cascadiajs
+2014-01-17 00:29:25	<--	ceejbot (~ceejbot@172-5-154-148.lightspeed.sntcca.sbcglobal.net) has quit (Ping timeout: 248 seconds)
+2014-01-17 00:29:43	-->	lassam (~Curtis@205.250.230.57) has joined #cascadiajs
+2014-01-17 01:00:39	<--	notmatt (~notmatt@S01060026f31b7a98.vc.shawcable.net) has quit (Remote host closed the connection)
+2014-01-17 01:04:21	<--	jden (~jden@ec2-54-241-125-37.us-west-1.compute.amazonaws.com) has quit (Ping timeout: 272 seconds)
+2014-01-17 01:04:44	-->	jden (~jden@ec2-54-241-125-37.us-west-1.compute.amazonaws.com) has joined #cascadiajs
+2014-01-17 01:05:02	--	jden is now known as Guest3684

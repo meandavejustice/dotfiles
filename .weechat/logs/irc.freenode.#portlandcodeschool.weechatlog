@@ -1,0 +1,1732 @@
+2013-09-24 15:38:24	-->	JSON_voorhees (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-09-24 15:38:24	--	Topic for #portlandcodeschool is "Fall Session Starting in Two Weeks!"
+2013-09-24 15:38:24	--	Topic set by criskelly (~criskelly@67.137.49.162) on Tue, 17 Sep 2013 12:38:30
+2013-09-24 15:38:24	--	Nicks #portlandcodeschool: [Auraelius badascii criskelly dlmanning dstark elauervose ericalthatcher hackygolucky_ johannhann1 JSON_voorhees pcs_hubot theoretick ThirdAndjel vosechu Wraithan]
+2013-09-24 15:38:24	--	Channel #portlandcodeschool: 15 nicks (0 ops, 0 halfops, 0 voices, 15 normals)
+2013-09-24 15:38:26	--	Mode #portlandcodeschool [+ns]
+2013-09-24 15:38:26	--	Channel created on Fri, 26 Apr 2013 12:36:26
+2013-09-24 15:39:49	--	johannhann1 is now known as JSON_and_the_arg
+2013-09-24 15:40:34	dlmanning	Oh know. It's spreading
+2013-09-24 15:40:51	<--	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has quit (Quit: Leaving.)
+2013-09-24 15:41:47	dlmanning	Also, s/know/no/g
+2013-09-24 15:42:08	Wraithan	haha
+2013-09-24 15:42:55	--	dlmanning has changed topic for #portlandcodeschool from "Fall Session Starting in Two Weeks!" to "Fall Session Starting in One Week!"
+2013-09-24 15:43:25	Wraithan	dlmanning: should toss a date in there too
+2013-09-24 15:43:39	Wraithan	relative time in a topic is hard :(
+2013-09-24 15:43:50	--	dlmanning has changed topic for #portlandcodeschool from "Fall Session Starting in One Week!" to "Fall Session Starting in One Week! (9/30/13)"
+2013-09-24 15:43:54	Wraithan	<3
+2013-09-24 15:44:14	--	JSON_and_the_arg is now known as Johann_the_vikin
+2013-09-24 15:44:41	--	Johann_the_vikin is now known as Johann_da_viking
+2013-09-24 15:45:15	-->	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-09-24 15:47:12	--	theoretick is now known as theoretick_
+2013-09-24 15:47:22	<--	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has quit (Client Quit)
+2013-09-24 15:48:06	Johann_da_viking	this is the busiest i've seen the irc in a while
+2013-09-24 15:48:42	<--	theoretick_ (~theoretic@207-170-205-178.static.twtelecom.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-09-24 15:50:52	-->	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-09-24 15:52:43	vosechu	hackygolucky_: you can get me at vosechu@gmail.com
+2013-09-24 15:53:02	vosechu	happy to chat anytime though please forgive me if I'm delayed, I'm starting a new job
+2013-09-24 15:53:11	Wraithan	vosechu: how dare you be busy
+2013-09-24 15:53:30	hackygolucky_	thanks vosechu!
+2013-09-24 15:53:31	Wraithan	Shame IRC is bad at async conversation... 
+2013-09-24 15:53:49	hackygolucky_	vosechu: New Relic?
+2013-09-24 15:54:04	vosechu	joh
+2013-09-24 15:54:14	vosechu	yes, nr
+2013-09-24 15:54:20	vosechu	pretty excited :)
+2013-09-24 15:54:23	hackygolucky_	This is a horribly small town. I think my friends ran into you on the way to trivia after work :)
+2013-09-24 15:54:29	vosechu	haha
+2013-09-24 15:54:31	vosechu	which friends?
+2013-09-24 15:54:40	hackygolucky_	Jim, Chris, and Ian
+2013-09-24 15:54:43	hackygolucky_	from UA
+2013-09-24 15:54:47	hackygolucky_	well, friends and coworkers
+2013-09-24 15:54:52	vosechu	oh hahaha, yeah
+2013-09-24 15:55:01	vosechu	that was a great conversation
+2013-09-24 15:55:12	Wraithan	vosechu: new relic is good people, if you see my friend Amjith tell him hi, he works on python profiling stuff
+2013-09-24 15:56:26	vosechu	oh rad, I'll try to find him on my person scavenger hunt :)
+2013-09-24 15:57:25	Wraithan	Yeah, I met Amjith at the airport on the way to djangocon last year, happened to be on the same flight
+2013-09-24 15:57:53	vosechu	hehe cool
+2013-09-24 15:58:15	Wraithan	He got RTD hooked up with NR which is super awesome
+2013-09-24 16:03:51	Wraithan	oh hmmm, that hack night is tonight
+2013-09-24 16:04:00	Wraithan	too many hack nights!
+2013-09-24 16:04:08	Wraithan	(that isn't true at all)
+2013-09-24 16:04:19	vosechu	hehe
+2013-09-24 16:04:50	Wraithan	I used to live about 1 block away from crowd compass
+2013-09-24 16:05:04	Wraithan	now I live like 5mi
+2013-09-24 16:08:19	Johann_da_viking	Thats within jogging distance if you don't know anything about your physical limitations
+2013-09-24 16:09:20	Wraithan	Johann_da_viking: I know my limitations very well, which is good and bad
+2013-09-24 16:09:22	Wraithan	:)
+2013-09-24 16:09:36	Johann_da_viking	:D
+2013-09-24 16:16:10	ThirdAndjel	Johann_da_viking: pooh Johann, have you finally started jogging?
+2013-09-24 16:16:48	ericalthatcher	johann_da_viking: you are always welcome to join rebecca and I
+2013-09-24 16:16:52	<--	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has quit (Quit: Leaving.)
+2013-09-24 16:17:24	Johann_da_viking	ericalthatcher: ThirdAndjel once i'm in good enough shape to be in only moderate shape I may join your fitness cabal
+2013-09-24 16:17:54	ThirdAndjel	JOIN US!
+2013-09-24 16:18:00	ericalthatcher	johann_da_viking: It's a plan :-)  Also, I love the word cabal
+2013-09-24 16:20:48	Wraithan	cycling is my cardio, I tend to end up doing damamge if I jog
+2013-09-24 16:21:16	Johann_da_viking	I need to jog to get fit enough to cycle, so I don't have to jog
+2013-09-24 16:21:21	Johann_da_viking	its a vicious cycle
+2013-09-24 16:21:24	Johann_da_viking	heh
+2013-09-24 16:21:26	Johann_da_viking	cycle
+2013-09-24 16:21:37	Johann_da_viking	i'll show myself out
+2013-09-24 16:21:57	Wraithan	it is so easy to build up lots of miles cycling
+2013-09-24 16:22:08	ericalthatcher	I've heard that it's easier to get into cycling first
+2013-09-24 16:22:12	ericalthatcher	but I don't know
+2013-09-24 16:22:18	ericalthatcher	easier on the joints at least
+2013-09-24 16:22:24	Wraithan	totally
+2013-09-24 16:22:28	Wraithan	and builds knee stability
+2013-09-24 16:22:29	ThirdAndjel	Just start doing something
+2013-09-24 16:22:36	Wraithan	Agreed
+2013-09-24 16:22:41	Wraithan	something > nothing
+2013-09-24 16:23:07	Wraithan	I see a trainer and cycle (the two are unrelated)
+2013-09-24 16:24:02	-->	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-09-24 16:24:22	ThirdAndjel	just love to jog
+2013-09-24 16:24:36	<--	ericalthatcher (~ericaltha@50.196.9.6) has left #portlandcodeschool
+2013-09-24 16:34:57	<--	Auraelius (~Auraelius@c-98-246-107-177.hsd1.or.comcast.net) has quit (Quit: Auraelius)
+2013-09-24 16:38:54	-->	Auraelius (~Auraelius@c-98-246-107-177.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-09-24 16:39:53	<--	criskelly (~criskelly@c-98-246-107-177.hsd1.or.comcast.net) has quit (Quit: criskelly)
+2013-09-24 16:41:42	<--	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has quit (Quit: Leaving.)
+2013-09-24 16:41:58	-->	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-09-24 16:45:25	-->	criskelly (~criskelly@c-98-246-107-177.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-09-24 16:45:36	<--	criskelly (~criskelly@c-98-246-107-177.hsd1.or.comcast.net) has quit (Client Quit)
+2013-09-24 16:47:23	<--	ThirdAndjel (~Vera@cable-178-148-137-20.dynamic.sbb.rs) has quit (*.net *.split)
+2013-09-24 16:47:24	<--	Wraithan (~wraithan@216.151.13.75) has quit (*.net *.split)
+2013-09-24 16:47:29	<--	badascii (~textual@falcon.darkhorse.com) has quit (*.net *.split)
+2013-09-24 16:47:31	<--	hackygolucky_ (uid11034@gateway/web/irccloud.com/x-uyeekbbdcizajznd) has quit (*.net *.split)
+2013-09-24 16:47:33	<--	dstark (~dstark@207-170-205-178.static.twtelecom.net) has quit (*.net *.split)
+2013-09-24 16:53:59	-->	dstark (~dstark@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-09-24 16:53:59	-->	badascii (~textual@falcon.darkhorse.com) has joined #portlandcodeschool
+2013-09-24 16:53:59	-->	Wraithan (~wraithan@216.151.13.75) has joined #portlandcodeschool
+2013-09-24 16:53:59	-->	hackygolucky_ (uid11034@gateway/web/irccloud.com/x-uyeekbbdcizajznd) has joined #portlandcodeschool
+2013-09-24 16:53:59	-->	ThirdAndjel (~Vera@cable-178-148-137-20.dynamic.sbb.rs) has joined #portlandcodeschool
+2013-09-24 17:00:20	-->	theoretick (~theoretic@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-09-24 17:00:23	--	theoretick is now known as theoretick_
+2013-09-24 17:01:34	<--	Johann_da_viking (~Adium@falcon.darkhorse.com) has quit (Quit: Leaving.)
+2013-09-24 17:01:53	<--	theoretick_ (~theoretic@207-170-205-178.static.twtelecom.net) has quit (Client Quit)
+2013-09-24 17:02:22	<--	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has quit (Quit: Leaving.)
+2013-09-24 17:02:31	-->	theoretick (~theoretic@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-09-24 17:02:37	--	theoretick is now known as theoretick_
+2013-09-24 17:02:52	<--	elauervose (~elauervos@207-170-205-178.static.twtelecom.net) has quit (Quit: elauervose)
+2013-09-24 17:04:40	<--	theoretick_ (~theoretic@207-170-205-178.static.twtelecom.net) has quit (Client Quit)
+2013-09-24 17:08:32	<--	badascii (~textual@falcon.darkhorse.com) has quit (Ping timeout: 268 seconds)
+2013-09-24 17:21:18	<--	dstark (~dstark@207-170-205-178.static.twtelecom.net) has quit (Quit: Leaving.)
+2013-09-24 20:36:21	--	irc: disconnected from server
+2013-09-24 20:37:09	-->	JSON_voorhees (~JSON_voor@c-98-246-113-149.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-09-24 20:37:10	--	Topic for #portlandcodeschool is "Fall Session Starting in One Week! (9/30/13)"
+2013-09-24 20:37:10	--	Topic set by dlmanning (~david@c-24-22-14-106.hsd1.or.comcast.net) on Tue, 24 Sep 2013 15:43:50
+2013-09-24 20:37:10	--	Nicks #portlandcodeschool: [Auraelius criskelly dlmanning ericalthatcher hackygolucky_ JSON_voorhees pcs_hubot ThirdAndjel Wraithan]
+2013-09-24 20:37:10	--	Channel #portlandcodeschool: 9 nicks (0 ops, 0 halfops, 0 voices, 9 normals)
+2013-09-24 20:37:21	--	Mode #portlandcodeschool [+ns]
+2013-09-24 20:37:21	--	Channel created on Fri, 26 Apr 2013 12:36:26
+2013-09-24 20:39:15	<--	ericalthatcher (~ericaltha@50-196-9-6-static.hfc.comcastbusiness.net) has quit (Quit: ericalthatcher)
+2013-09-24 20:56:31	-->	ShaneD (~Adium@c-67-168-212-192.hsd1.wa.comcast.net) has joined #portlandcodeschool
+2013-09-25 12:34:18	--	irc: disconnected from server
+2013-09-25 12:34:50	-->	JSON_voorhees (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-09-25 12:34:50	--	Topic for #portlandcodeschool is "Fall Session Starting in One Week! (9/30/13)"
+2013-09-25 12:34:50	--	Topic set by dlmanning (~david@c-24-22-14-106.hsd1.or.comcast.net) on Tue, 24 Sep 2013 15:43:50
+2013-09-25 12:34:50	--	Nicks #portlandcodeschool: [Auraelius dlmanning dstark hackygolucky_ hakimujackson johannhann JSON_voorhees pcs_hubot Wraithan]
+2013-09-25 12:34:50	--	Channel #portlandcodeschool: 9 nicks (0 ops, 0 halfops, 0 voices, 9 normals)
+2013-09-25 12:35:00	--	Mode #portlandcodeschool [+ns]
+2013-09-25 12:35:01	--	Channel created on Fri, 26 Apr 2013 12:36:26
+2013-09-25 12:41:46	-->	theoretick (~theoretic@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-09-25 12:46:41	Auraelius	cool. I've used adium. Haven't tried Limechat in a while.
+2013-09-25 12:46:48	Auraelius	thanks!
+2013-09-25 13:00:18	-->	badascii (~textual@falcon.darkhorse.com) has joined #portlandcodeschool
+2013-09-25 13:10:34	--	theoretick is now known as theoretick_
+2013-09-25 13:12:04	<--	theoretick_ (~theoretic@207-170-205-178.static.twtelecom.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-09-25 13:13:10	-->	theoretick (~theoretic@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-09-25 13:28:36	-->	elauervose (~elauervos@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-09-25 13:30:17	<--	elauervose (~elauervos@207-170-205-178.static.twtelecom.net) has quit (Client Quit)
+2013-09-25 13:32:37	--	theoretick is now known as theoretick_
+2013-09-25 13:33:45	--	theoretick_ is now known as theoretick
+2013-09-25 13:34:07	<--	theoretick (~theoretic@207-170-205-178.static.twtelecom.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-09-25 13:34:48	-->	theoretick (~theoretic@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-09-25 13:51:22	<--	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has quit (Quit: hakimujackson)
+2013-09-25 13:53:11	<--	Auraelius (~Auraelius@c-24-22-94-80.hsd1.or.comcast.net) has quit (Quit: Auraelius)
+2013-09-25 13:56:27	dstark	Anybody else coming to Baily's tonight after work for a drink?
+2013-09-25 13:56:52	badascii	god
+2013-09-25 13:56:55	badascii	fuck you
+2013-09-25 13:56:57	badascii	yes
+2013-09-25 13:56:58	badascii	haha
+2013-09-25 13:57:03	badascii	of course!
+2013-09-25 13:57:12	badascii	(still recovering from last night)
+2013-09-25 13:57:35	dstark	Yeah, I slept really well, for the few hours I was in bed. :p
+2013-09-25 13:57:42	badascii	haha
+2013-09-25 14:11:25	-->	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-09-25 14:11:34	-->	elauervose (~elauervos@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-09-25 14:22:05	johannhann	I will by all accounts be at bailey's if Jordan is going… on account of his ownership of a motorized vehicle and our shared departure point
+2013-09-25 14:22:24	<--	Wraithan (~wraithan@216.151.13.75) has left #portlandcodeschool ("WeeChat 0.4.2-dev")
+2013-09-25 14:22:55	-->	theoretick_away (~theoretic@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-09-25 14:23:03	<--	theoretick (~theoretic@207-170-205-178.static.twtelecom.net) has quit (Read error: Connection reset by peer)
+2013-09-25 14:34:57	-->	patrickmounts (~Adium@67.208.101.247) has joined #portlandcodeschool
+2013-09-25 14:35:12	johannhann	pcs_hubot: image me argon
+2013-09-25 14:35:13	pcs_hubot	http://www.chemicalelements.com/bohr/b0018.gif
+2013-09-25 14:35:22	patrickmounts	:)
+2013-09-25 14:35:27	johannhann	:D
+2013-09-25 14:35:39	patrickmounts	pcs_hubot: image me dark horse
+2013-09-25 14:35:40	pcs_hubot	http://free.wallpaperbackgrounds.com/animal/horse/dark-horse-1790.jpg
+2013-09-25 14:36:01	johannhann	thats a good one
+2013-09-25 14:36:03	patrickmounts	straight up bundlin over here
+2013-09-25 14:36:06	patrickmounts	hows the day
+2013-09-25 14:36:14	badascii	wow haha
+2013-09-25 14:36:16	badascii	that horse image
+2013-09-25 14:36:18	badascii	so epic
+2013-09-25 14:36:21	johannhann	writing a test plan for a legacy php site over here
+2013-09-25 14:36:51	patrickmounts	heck yes legacy php
+2013-09-25 14:36:53	patrickmounts	!
+2013-09-25 14:36:57	badascii	they just set us up with their SQL GUI browser
+2013-09-25 14:37:12	badascii	so we have been staring in awe at the ridiculous number of tables
+2013-09-25 14:37:40	patrickmounts	haha
+2013-09-25 14:37:59	patrickmounts	I have 5 different full ruby environments set up now...
+2013-09-25 14:38:11	patrickmounts	different local gem sets playing with my global set...
+2013-09-25 14:38:15	patrickmounts	its a whole new world
+2013-09-25 14:38:24	patrickmounts	i understand what rvm and rbenv are for now :)
+2013-09-25 14:38:55	johannhann	first you learn theory, then you learn applied
+2013-09-25 14:40:29	johannhann	we're not quite at that point yet with anything like python or the like
+2013-09-25 14:40:37	johannhann	we have some pretty cool boxen stuff setup now, though
+2013-09-25 14:45:00	patrickmounts	we are building these rails hosted CMS' here… pretty neat stuff using active admin.
+2013-09-25 14:45:29	patrickmounts	I could emulate what I was wanting ot build with Drupal… only in Rails...
+2013-09-25 14:46:16	johannhann	You will be the one to kill Drupal
+2013-09-25 14:46:19	johannhann	predicting it now
+2013-09-25 14:47:15	patrickmounts	lets not go too far my friend… I will start with a much smaller beast
+2013-09-25 14:47:20	patrickmounts	perhaps a dark horse
+2013-09-25 14:47:58	patrickmounts	http://www.garann.com/dev/2013/how-to-blog-about-code-and-give-zero-fucks/
+2013-09-25 14:48:11	badascii	i am gonna find some argonite
+2013-09-25 14:48:14	badascii	and kill you
+2013-09-25 14:48:16	patrickmounts	I think this is a great post that has been passed my way ~1000 times in the last week
+2013-09-25 14:50:28	johannhann	I will check it out
+2013-09-25 14:51:43	johannhann	havent blogged nearly enough, its a good exercise to push my learning along
+2013-09-25 14:51:52	patrickmounts	￼
+2013-09-25 14:52:53	patrickmounts	https://s3.amazonaws.com/uploads.hipchat.com/54402/468276/ainmvnuwmu240e7/upload.png
+2013-09-25 14:53:01	patrickmounts	that is how I knew it was meant to be...
+2013-09-25 14:53:05	patrickmounts	we love trees
+2013-09-25 14:54:20	johannhann	haha, nice
+2013-09-25 14:54:27	johannhann	primo schwag
+2013-09-25 14:56:25	badascii	slick
+2013-09-25 14:56:42	badascii	those are opposing concepts johann
+2013-09-25 14:59:03	johannhann	3 o clock walk time
+2013-09-25 14:59:14	patrickmounts	3 oclock foosball!
+2013-09-25 14:59:19	patrickmounts	pcs_hubot: image me foosball
+2013-09-25 14:59:20	pcs_hubot	http://allseasonsspa.com/assets/images/shelti/shelti-foosball-adversary-large.jpg
+2013-09-25 14:59:20	johannhann	!!
+2013-09-25 14:59:53	patrickmounts	how was gregs bday last night?? I was asleep by 9 otherwise I would have been there
+2013-09-25 15:00:34	<--	elauervose (~elauervos@207-170-205-178.static.twtelecom.net) has quit (Quit: elauervose)
+2013-09-25 15:01:02	johannhann	it was good
+2013-09-25 15:01:08	johannhann	quite a few people showed up
+2013-09-25 15:01:12	<--	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has quit (Quit: Leaving.)
+2013-09-25 15:01:35	johannhann	a little bit ambitious for a tuesday night, but we had a good time
+2013-09-25 15:01:44	johannhann	the kennedy school is a pretty cool spot
+2013-09-25 15:07:20	patrickmounts	it is one of my favs.
+2013-09-25 15:07:51	patrickmounts	I have never been to the detention bar but I am sure it was a pretty fitting spot for a bunch of school friends to get together at
+2013-09-25 15:09:17	-->	ThirdAndjel (~Vera@cable-178-148-137-20.dynamic.sbb.rs) has joined #portlandcodeschool
+2013-09-25 15:12:22	-->	ericalthatcher (~ericaltha@71-222-90-187.ptld.qwest.net) has joined #portlandcodeschool
+2013-09-25 15:14:16	-->	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has joined #portlandcodeschool
+2013-09-25 15:23:25	<--	patrickmounts (~Adium@67.208.101.247) has quit (Quit: Leaving.)
+2013-09-25 15:34:49	<--	ericalthatcher (~ericaltha@71-222-90-187.ptld.qwest.net) has left #portlandcodeschool
+2013-09-25 16:21:45	theoretick_away	johannhann awwww our little DB is all grown up
+2013-09-25 16:21:50	--	theoretick_away is now known as theoretick_
+2013-09-25 16:22:06	theoretick_	i just got a heroku warning email, we are approaching the free row limit for SlashdotAPI
+2013-09-25 16:22:21	theoretick_	7800 rows of delicious, delicious discussions
+2013-09-25 16:22:35	johannhann	things are getting serious
+2013-09-25 16:22:46	johannhann	bump it up to a paid tier?
+2013-09-25 16:25:54	johannhann	Its been a long time since I looked at discuss it now
+2013-09-25 16:25:59	johannhann	I need to take a dive back in
+2013-09-25 16:33:14	johannhann	though, if i'm honest I probably won't in the immediate future
+2013-09-25 16:33:24	dstark	Reminder: Bailey's this evening at 5:00.
+2013-09-25 16:34:10	johannhann	we'll leave at fiveish so expect us before or around 5:30
+2013-09-25 16:35:00	dstark	I'm kind of hoping Katie gets there early so, you know, we can actually have a place to sit. :D
+2013-09-25 16:36:27	badascii	tubular
+2013-09-25 16:56:13	badascii	daniel you need to buy a hang glider
+2013-09-25 16:57:18	-->	patrickmounts (~Adium@67.208.101.247) has joined #portlandcodeschool
+2013-09-25 16:58:21	<--	patrickmounts (~Adium@67.208.101.247) has quit (Client Quit)
+2013-09-25 16:59:21	<--	dstark (~dstark@207-170-205-178.static.twtelecom.net) has quit (Quit: Leaving.)
+2013-09-25 17:01:13	theoretick_	alright, dstark and I are headed to bailey's. see you all there.
+2013-09-25 17:01:14	<--	theoretick_ (~theoretic@207-170-205-178.static.twtelecom.net) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-09-25 17:05:40	<--	johannhann (~Adium@falcon.darkhorse.com) has quit (Read error: Connection reset by peer)
+2013-09-25 17:08:31	<--	badascii (~textual@falcon.darkhorse.com) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-09-25 17:24:38	<--	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has quit (Quit: hakimujackson)
+2013-09-25 17:29:39	-->	Auraelius (~Auraelius@c-24-22-94-80.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-09-25 17:56:53	<--	Auraelius (~Auraelius@c-24-22-94-80.hsd1.or.comcast.net) has quit (Quit: Auraelius)
+2013-09-25 19:09:29	-->	Patrickmnts (~Adium@2601:7:2280:44c:1d32:b2e8:af6b:c7cd) has joined #portlandcodeschool
+2013-09-25 19:09:45	<--	Patrickmnts (~Adium@2601:7:2280:44c:1d32:b2e8:af6b:c7cd) has quit (Client Quit)
+2013-09-25 20:16:48	--	irc: disconnected from server
+2013-09-25 20:17:18	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-09-25 20:17:18	--	Topic for #portlandcodeschool is "Fall Session Starting in One Week! (9/30/13)"
+2013-09-25 20:17:18	--	Topic set by dlmanning (~david@c-24-22-14-106.hsd1.or.comcast.net) on Tue, 24 Sep 2013 15:43:49
+2013-09-25 20:17:18	--	Nicks #portlandcodeschool: [dlmanning hackygolucky_ JSON_voorhees pcs_hubot ThirdAndjel]
+2013-09-25 20:17:18	--	Channel #portlandcodeschool: 5 nicks (0 ops, 0 halfops, 0 voices, 5 normals)
+2013-09-25 20:17:30	--	Mode #portlandcodeschool [+ns]
+2013-09-25 20:17:30	--	Channel created on Fri, 26 Apr 2013 12:36:26
+2013-09-25 20:55:51	-->	elauervose (~elauervos@c-76-115-48-29.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-09-25 21:00:36	-->	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has joined #portlandcodeschool
+2013-09-25 21:18:34	<--	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has quit (Quit: hakimujackson)
+2013-09-25 21:59:14	-->	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has joined #portlandcodeschool
+2013-09-25 22:04:43	-->	ericalthatcher (~ericaltha@50-196-9-6-static.hfc.comcastbusiness.net) has joined #portlandcodeschool
+2013-09-25 22:05:20	<--	ericalthatcher (~ericaltha@50-196-9-6-static.hfc.comcastbusiness.net) has left #portlandcodeschool
+2013-09-25 22:23:32	<--	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has quit (Quit: hakimujackson)
+2013-09-25 22:25:00	-->	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has joined #portlandcodeschool
+2013-09-25 22:47:03	<--	elauervose (~elauervos@c-76-115-48-29.hsd1.or.comcast.net) has quit (Quit: elauervose)
+2013-09-25 22:56:21	<--	ThirdAndjel (~Vera@cable-178-148-137-20.dynamic.sbb.rs) has quit (Quit: ThirdAndjel)
+2013-09-25 23:39:41	-->	ThirdAndjel (~Vera@cable-178-148-137-20.dynamic.sbb.rs) has joined #portlandcodeschool
+2013-09-25 23:54:50	<--	hackygolucky_ (uid11034@gateway/web/irccloud.com/x-uyeekbbdcizajznd) has quit (Ping timeout: 268 seconds)
+2013-09-25 23:58:49	<--	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has quit (Quit: hakimujackson)
+2013-09-26 00:14:00	<--	ThirdAndjel (~Vera@cable-178-148-137-20.dynamic.sbb.rs) has quit (Quit: ThirdAndjel)
+2013-09-26 10:46:32	--	irc: disconnected from server
+2013-09-26 10:47:05	-->	JSON_voorhees (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-09-26 10:47:05	--	Topic for #portlandcodeschool is "Fall Session Starting in One Week! (9/30/13)"
+2013-09-26 10:47:05	--	Topic set by dlmanning (~david@c-24-22-14-106.hsd1.or.comcast.net) on Tue, 24 Sep 2013 15:43:50
+2013-09-26 10:47:05	--	Nicks #portlandcodeschool: [badascii dlmanning dstark elauervose hackygolucky_ hakimujackson johannhann JSON_voorhees pcs_hubot theoretick vosechu]
+2013-09-26 10:47:05	--	Channel #portlandcodeschool: 11 nicks (0 ops, 0 halfops, 0 voices, 11 normals)
+2013-09-26 10:47:15	--	Mode #portlandcodeschool [+ns]
+2013-09-26 10:47:15	--	Channel created on Fri, 26 Apr 2013 12:36:26
+2013-09-26 10:50:54	<--	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has quit (Quit: hakimujackson)
+2013-09-26 11:00:44	-->	Auraelius (~Auraelius@67.137.49.162) has joined #portlandcodeschool
+2013-09-26 11:01:08	<--	Auraelius (~Auraelius@67.137.49.162) has quit (Client Quit)
+2013-09-26 11:05:07	--	theoretick is now known as theoretick_
+2013-09-26 11:06:27	-->	ThirdAndjel (~Vera@cable-178-148-137-20.dynamic.sbb.rs) has joined #portlandcodeschool
+2013-09-26 11:06:37	<--	theoretick_ (~theoretic@207-170-205-178.static.twtelecom.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-09-26 11:18:06	-->	keighty (~katherine@c-71-236-130-37.hsd1.wa.comcast.net) has joined #portlandcodeschool
+2013-09-26 11:18:21	-->	theoretick (~theoretic@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-09-26 11:20:14	dstark	Really awesome comic illustration kanban that Sam just sent us.
+2013-09-26 11:20:16	dstark	http://blog.crisp.se/2009/06/26/henrikkniberg/1246053060000
+2013-09-26 11:21:36	--	theoretick is now known as theoretick_
+2013-09-26 11:22:37	-->	Auraelius (~Auraelius@67.137.49.162) has joined #portlandcodeschool
+2013-09-26 11:23:05	badascii	howdy chaps
+2013-09-26 11:23:06	<--	theoretick_ (~theoretic@207-170-205-178.static.twtelecom.net) has quit (Client Quit)
+2013-09-26 11:25:51	johannhann	looks pretty cool dstark will have to look closer when i've got the time
+2013-09-26 11:26:55	-->	hakimujackson (~hakimujac@70-90-129-10-oregon.hfc.comcastbusiness.net) has joined #portlandcodeschool
+2013-09-26 11:38:55	-->	theoretick (~theoretic@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-09-26 11:39:04	<--	keighty (~katherine@c-71-236-130-37.hsd1.wa.comcast.net) has quit (Ping timeout: 268 seconds)
+2013-09-26 11:45:06	-->	keighty (~katherine@c-71-236-130-37.hsd1.wa.comcast.net) has joined #portlandcodeschool
+2013-09-26 11:45:51	badascii	omg actual code!!!
+2013-09-26 11:46:02	-->	zeisler (~zeisler@50.76.104.65) has joined #portlandcodeschool
+2013-09-26 11:46:13	badascii	…right when lunch comes around and my stomach launches a revolt
+2013-09-26 11:46:17	johannhann	pcs_hubot: image me code monkey
+2013-09-26 11:46:17	pcs_hubot	https://s3.amazonaws.com/ksr/assets/000/493/960/3713cce70e04338e0ced4f4f7d46e73d_large.jpg?1365139395
+2013-09-26 11:46:57	zeisler	good morning everyone!
+2013-09-26 11:46:57	pcs_hubot	Good morning, my little sex chupacabras of the internet. hahaha suffer 
+2013-09-26 11:47:21	badascii	just about afternoon now
+2013-09-26 11:47:24	badascii	but hello!
+2013-09-26 11:47:41	keighty	hello!
+2013-09-26 11:47:53	keighty	and yay badascii for seeing some code :P
+2013-09-26 11:47:56	zeisler	well when you don't get to work until 10 morning goes late
+2013-09-26 11:48:11	badascii	super excited
+2013-09-26 11:48:16	badascii	haha dustin
+2013-09-26 11:58:08	--	theoretick is now known as theoretick_
+2013-09-26 11:58:28	--	theoretick_ is now known as theoretick_away
+2013-09-26 12:01:21	<--	elauervose (~elauervos@207-170-205-178.static.twtelecom.net) has quit (Quit: elauervose)
+2013-09-26 12:02:16	<--	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has quit (Quit: Leaving.)
+2013-09-26 12:03:03	<--	theoretick_away (~theoretic@207-170-205-178.static.twtelecom.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-09-26 12:03:20	<--	Auraelius (~Auraelius@67.137.49.162) has quit (Quit: Auraelius)
+2013-09-26 12:16:25	<--	hakimujackson (~hakimujac@70-90-129-10-oregon.hfc.comcastbusiness.net) has quit (Quit: hakimujackson)
+2013-09-26 12:40:30	-->	elauervose (~elauervos@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-09-26 12:56:00	-->	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-09-26 13:07:40	-->	hakimujackson (~hakimujac@ip-64-134-134-1.public.wayport.net) has joined #portlandcodeschool
+2013-09-26 13:10:01	<--	elauervose (~elauervos@207-170-205-178.static.twtelecom.net) has quit (Quit: elauervose)
+2013-09-26 13:10:14	<--	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has quit (Quit: Leaving.)
+2013-09-26 13:12:05	-->	theoretick (~theoretic@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-09-26 13:13:53	-->	elauervose (~elauervos@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-09-26 13:20:59	-->	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-09-26 13:22:05	zeisler	is there any thing like bundler/Gemfile for home brew?
+2013-09-26 13:32:25	<--	hakimujackson (~hakimujac@ip-64-134-134-1.public.wayport.net) has quit (Quit: hakimujackson)
+2013-09-26 13:37:41	badascii	boxen
+2013-09-26 13:37:44	badascii	check it out dustin
+2013-09-26 13:37:54	badascii	we use it here at dark horse
+2013-09-26 13:38:10	badascii	BOXEN
+2013-09-26 13:38:21	badascii	lol
+2013-09-26 13:38:24	badascii	that was supposed to be a url
+2013-09-26 13:38:34	badascii	http://boxen.github.com/
+2013-09-26 13:41:40	zeisler	thanks I'm checking it out
+2013-09-26 13:46:15	-->	hakimujackson (~hakimujac@70-90-129-10-oregon.hfc.comcastbusiness.net) has joined #portlandcodeschool
+2013-09-26 13:59:05	vosechu	wow, boxen is cool
+2013-09-26 13:59:16	vosechu	new weekend project for sure
+2013-09-26 14:04:51	badascii	yeah it is pretty glorious
+2013-09-26 14:05:07	badascii	and we can customize our personal puppet files to add whatever utilities we personally want
+2013-09-26 14:07:51	badascii	they told us that if we are ever installing anything via homebrew that we are doing it wrong
+2013-09-26 14:08:10	badascii	we are instead supposed to add it to our boxen 
+2013-09-26 14:09:58	theoretick	unfortunately, one issue with boxen is you can't install it on top of a pre-existing system, you pretty much have to wipe everything and use it from teh beginning
+2013-09-26 14:12:37	badascii	we have separate partitions to solve that problem
+2013-09-26 14:12:44	badascii	and wait
+2013-09-26 14:12:51	badascii	johann says he set his up on his same laptop from pcs
+2013-09-26 14:13:13	keighty	this is a very cool tool!
+2013-09-26 14:20:43	johannhann	I am indeed running boxen on my pcs laptop
+2013-09-26 14:20:46	johannhann	I had to uninstall homebrew
+2013-09-26 14:20:56	johannhann	but that was really the only prerequisite to get it working
+2013-09-26 14:21:14	johannhann	and change some permissions for user accounts
+2013-09-26 14:21:25	johannhann	but yeah, I didn't need a fresh OSX install
+2013-09-26 14:32:39	<--	hakimujackson (~hakimujac@70-90-129-10-oregon.hfc.comcastbusiness.net) has quit (Quit: hakimujackson)
+2013-09-26 14:52:53	badascii	walk it out
+2013-09-26 14:53:01	badascii	I SAID WALK IT OUT
+2013-09-26 14:53:15	badascii	(the tradition carries on)
+2013-09-26 14:53:19	johannhann	3 o clock walk, wherever you are
+2013-09-26 14:53:23	johannhann	you're still in my heart
+2013-09-26 14:53:58	zeisler	I've transitioned to an after lunch walk
+2013-09-26 14:54:46	johannhann	not a bad time for it
+2013-09-26 14:55:47	johannhann	sometimes I 3 o clock walk at midnight
+2013-09-26 14:56:06	zeisler	On another note I finally have a valid copy of sublime text, no more bugging reminder to buy it. YES!
+2013-09-26 14:56:24	johannhann	pcs_hubot: image me money
+2013-09-26 14:56:24	pcs_hubot	http://www.opensecrets.org/news/bigstock_Falling_Money_669153.jpg
+2013-09-26 14:56:40	johannhann	thats how you pay for sublime
+2013-09-26 14:56:42	johannhann	:)
+2013-09-26 14:57:01	johannhann	i'll get a valid copy eventually if these guys don't convert me to vim
+2013-09-26 14:57:31	zeisler	Well that would be cool, but I just asked my boss to buy me a copy
+2013-09-26 14:57:47	johannhann	thats the trick right there
+2013-09-26 14:58:05	johannhann	alright, walk time
+2013-09-26 14:58:42	zeisler	My boss really likes ruby mine, which is ok for some stuff but it gets in my way most of the time
+2013-09-26 15:05:04	<--	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has quit (Quit: Leaving.)
+2013-09-26 15:05:24	-->	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-09-26 15:09:38	keighty	hey all.. just back from my 3:00 walk...
+2013-09-26 15:17:04	-->	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has joined #portlandcodeschool
+2013-09-26 15:17:47	<--	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has quit (Quit: Leaving.)
+2013-09-26 15:19:46	johannhann	badascii: and I are back
+2013-09-26 15:19:48	johannhann	all walked out
+2013-09-26 15:20:04	badascii	walked out and caffeined in
+2013-09-26 15:21:07	<--	elauervose (~elauervos@207-170-205-178.static.twtelecom.net) has quit (Quit: elauervose)
+2013-09-26 16:31:14	<--	keighty (~katherine@c-71-236-130-37.hsd1.wa.comcast.net) has quit (Ping timeout: 246 seconds)
+2013-09-26 16:38:01	<--	theoretick (~theoretic@207-170-205-178.static.twtelecom.net) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-09-26 16:40:34	<--	dstark (~dstark@207-170-205-178.static.twtelecom.net) has quit (Quit: Leaving.)
+2013-09-26 16:47:42	<--	badascii (~jordan@falcon.darkhorse.com) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-09-26 17:00:58	-->	badascii (~jordan@falcon.darkhorse.com) has joined #portlandcodeschool
+2013-09-26 17:06:32	<--	johannhann (~Adium@falcon.darkhorse.com) has quit (Read error: Connection reset by peer)
+2013-09-26 17:07:30	<--	badascii (~jordan@falcon.darkhorse.com) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-09-26 17:30:08	<--	zeisler (~zeisler@50.76.104.65) has quit (Ping timeout: 245 seconds)
+2013-09-26 18:06:36	--	irc: disconnected from server
+2013-09-26 18:07:09	-->	JSON_voorhees (~JSON_voor@71-20-35-93.war.clearwire-wmx.net) has joined #portlandcodeschool
+2013-09-26 18:07:10	--	Topic for #portlandcodeschool is "Fall Session Starting in One Week! (9/30/13)"
+2013-09-26 18:07:10	--	Topic set by dlmanning (~david@c-24-22-14-106.hsd1.or.comcast.net) on Tue, 24 Sep 2013 15:43:49
+2013-09-26 18:07:10	--	Nicks #portlandcodeschool: [dlmanning hackygolucky_ hakimujackson JSON_voorhees pcs_hubot ThirdAndjel]
+2013-09-26 18:07:10	--	Channel #portlandcodeschool: 6 nicks (0 ops, 0 halfops, 0 voices, 6 normals)
+2013-09-26 18:07:19	--	Mode #portlandcodeschool [+ns]
+2013-09-26 18:07:19	--	Channel created on Fri, 26 Apr 2013 12:36:26
+2013-09-26 18:07:26	<--	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has quit (Quit: hakimujackson)
+2013-09-26 18:11:46	-->	dstark (~dstark@drunk.beercow.net) has joined #portlandcodeschool
+2013-09-26 18:33:09	-->	vosechu (~Adium@c-76-115-48-29.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-09-26 18:34:30	<--	vosechu (~Adium@c-76-115-48-29.hsd1.or.comcast.net) has quit (Client Quit)
+2013-09-26 18:45:02	-->	elauervose (~elauervos@c-76-115-48-29.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-09-26 18:45:18	<--	elauervose (~elauervos@c-76-115-48-29.hsd1.or.comcast.net) has quit (Client Quit)
+2013-09-26 20:24:04	--	irc: disconnected from server
+2013-09-26 20:36:33	-->	JSON_voorhees (~JSON_voor@71-20-35-93.war.clearwire-wmx.net) has joined #portlandcodeschool
+2013-09-26 20:36:33	--	Topic for #portlandcodeschool is "Fall Session Starting in One Week! (9/30/13)"
+2013-09-26 20:36:33	--	Topic set by dlmanning (~david@c-24-22-14-106.hsd1.or.comcast.net) on Tue, 24 Sep 2013 15:43:49
+2013-09-26 20:36:33	--	Nicks #portlandcodeschool: [dlmanning dstark hackygolucky_ JSON_voorhees pcs_hubot ThirdAndjel]
+2013-09-26 20:36:33	--	Channel #portlandcodeschool: 6 nicks (0 ops, 0 halfops, 0 voices, 6 normals)
+2013-09-26 20:36:45	--	Mode #portlandcodeschool [+ns]
+2013-09-26 20:36:45	--	Channel created on Fri, 26 Apr 2013 12:36:26
+2013-09-26 21:36:13	--	irc: disconnected from server
+2013-09-26 21:36:41	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-09-26 21:36:41	--	Topic for #portlandcodeschool is "Fall Session Starting in One Week! (9/30/13)"
+2013-09-26 21:36:41	--	Topic set by dlmanning (~david@c-24-22-14-106.hsd1.or.comcast.net) on Tue, 24 Sep 2013 15:43:49
+2013-09-26 21:36:41	--	Nicks #portlandcodeschool: [dlmanning dstark hackygolucky_ JSON_voorhees pcs_hubot ThirdAndjel]
+2013-09-26 21:36:41	--	Channel #portlandcodeschool: 6 nicks (0 ops, 0 halfops, 0 voices, 6 normals)
+2013-09-26 21:36:55	--	Mode #portlandcodeschool [+ns]
+2013-09-26 21:36:55	--	Channel created on Fri, 26 Apr 2013 12:36:26
+2013-09-26 21:39:20	<--	dstark (~dstark@drunk.beercow.net) has quit (Quit: Leaving.)
+2013-09-27 02:13:28	--	irc: disconnected from server
+2013-09-27 02:13:58	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-09-27 02:13:58	--	Topic for #portlandcodeschool is "Fall Session Starting in One Week! (9/30/13)"
+2013-09-27 02:13:58	--	Topic set by dlmanning (~david@c-24-22-14-106.hsd1.or.comcast.net) on Tue, 24 Sep 2013 15:43:49
+2013-09-27 02:13:58	--	Nicks #portlandcodeschool: [dlmanning hackygolucky_ JSON_voorhees pcs_hubot ThirdAndjel]
+2013-09-27 02:13:58	--	Channel #portlandcodeschool: 5 nicks (0 ops, 0 halfops, 0 voices, 5 normals)
+2013-09-27 02:14:12	--	Mode #portlandcodeschool [+ns]
+2013-09-27 02:14:13	--	Channel created on Fri, 26 Apr 2013 12:36:26
+2013-09-27 11:15:03	--	irc: disconnected from server
+2013-09-27 11:15:34	-->	JSON_voorhees (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-09-27 11:15:34	--	Topic for #portlandcodeschool is "Fall Session Starting in One Week! (9/30/13)"
+2013-09-27 11:15:34	--	Topic set by dlmanning (~david@c-24-22-14-106.hsd1.or.comcast.net) on Tue, 24 Sep 2013 15:43:49
+2013-09-27 11:15:34	--	Nicks #portlandcodeschool: [badascii dlmanning dstark elauervose hackygolucky_ johannhann JSON_voorhees pcs_hubot theoretick ThirdAndjel_ vosechu1 zeisler]
+2013-09-27 11:15:34	--	Channel #portlandcodeschool: 12 nicks (0 ops, 0 halfops, 0 voices, 12 normals)
+2013-09-27 11:15:48	--	Mode #portlandcodeschool [+ns]
+2013-09-27 11:15:48	--	Channel created on Fri, 26 Apr 2013 12:36:26
+2013-09-27 11:16:52	<--	dstark (~dstark@207-170-205-178.static.twtelecom.net) has quit (Quit: Leaving.)
+2013-09-27 11:24:30	-->	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has joined #portlandcodeschool
+2013-09-27 11:41:06	<--	elauervose (~elauervos@207-170-205-178.static.twtelecom.net) has quit (Quit: elauervose)
+2013-09-27 11:42:02	<--	vosechu1 (~Adium@207-170-205-178.static.twtelecom.net) has quit (Quit: Leaving.)
+2013-09-27 11:43:54	<--	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has quit (Quit: hakimujackson)
+2013-09-27 12:02:43	<--	theoretick (~theoretic@207-170-205-178.static.twtelecom.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-09-27 12:02:47	-->	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-09-27 12:02:55	-->	elauervose (~elauervos@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-09-27 12:10:45	<--	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has quit (Quit: Leaving.)
+2013-09-27 12:12:15	<--	elauervose (~elauervos@207-170-205-178.static.twtelecom.net) has quit (Quit: elauervose)
+2013-09-27 12:23:48	<--	badascii (~jordan@falcon.darkhorse.com) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-09-27 12:24:08	<--	johannhann (~Adium@falcon.darkhorse.com) has quit (Ping timeout: 264 seconds)
+2013-09-27 12:41:41	-->	elauervose (~elauervos@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-09-27 12:52:31	-->	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has joined #portlandcodeschool
+2013-09-27 13:14:38	<--	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has quit (Quit: hakimujackson)
+2013-09-27 13:16:10	-->	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-09-27 13:32:28	-->	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has joined #portlandcodeschool
+2013-09-27 13:44:44	<--	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has quit (Quit: Leaving.)
+2013-09-27 13:47:59	-->	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-09-27 13:49:20	<--	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has quit (Quit: hakimujackson)
+2013-09-27 14:02:34	-->	badascii (~jordan@70.102.138.244) has joined #portlandcodeschool
+2013-09-27 14:06:58	-->	keighty (~katherine@c-71-236-130-37.hsd1.wa.comcast.net) has joined #portlandcodeschool
+2013-09-27 14:07:34	badascii	did you get an offer katie??
+2013-09-27 14:08:01	keighty	badascii: I just got a call -- 
+2013-09-27 14:08:21	keighty	badascii: I think we are going to do the negotiation over the phone
+2013-09-27 14:08:34	badascii	nice
+2013-09-27 14:08:34	 *	keighty is TRYING to keep her cool
+2013-09-27 14:08:36	badascii	give em hell
+2013-09-27 14:10:48	badascii	gonna have to rename this chat to #newrelic
+2013-09-27 14:11:01	keighty	:D
+2013-09-27 14:27:04	<--	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has quit (Quit: Leaving.)
+2013-09-27 14:34:17	<--	keighty (~katherine@c-71-236-130-37.hsd1.wa.comcast.net) has quit (Ping timeout: 240 seconds)
+2013-09-27 14:40:11	-->	patrickmounts (~Adium@67.208.101.247) has joined #portlandcodeschool
+2013-09-27 14:40:32	<--	patrickmounts (~Adium@67.208.101.247) has quit (Client Quit)
+2013-09-27 14:43:09	-->	theoretick (~theoretic@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-09-27 14:44:56	-->	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-09-27 14:47:12	-->	dstark (~dstark@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-09-27 14:52:31	-->	elauervose_ (~elauervos@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-09-27 14:55:02	<--	elauervose (~elauervos@207-170-205-178.static.twtelecom.net) has quit (Ping timeout: 245 seconds)
+2013-09-27 14:55:02	--	elauervose_ is now known as elauervose
+2013-09-27 15:00:49	<--	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has quit (Quit: Leaving.)
+2013-09-27 15:01:47	-->	keighty (~katherine@c-71-236-130-37.hsd1.wa.comcast.net) has joined #portlandcodeschool
+2013-09-27 15:02:04	-->	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has joined #portlandcodeschool
+2013-09-27 15:02:28	keighty	I guess I need to find an apartment!
+2013-09-27 15:07:09	theoretick	whaaat?
+2013-09-27 15:07:40	keighty	well, I will need to live in Portland
+2013-09-27 15:07:43	keighty	close to my job
+2013-09-27 15:07:45	theoretick	HERE? YAAAY
+2013-09-27 15:07:52	keighty	:D
+2013-09-27 15:08:08	zeisler	Awesome!
+2013-09-27 15:08:12	keighty	good bye, cruel Camas!
+2013-09-27 15:08:41	keighty	hello Portlanada!
+2013-09-27 15:11:43	<--	elauervose (~elauervos@207-170-205-178.static.twtelecom.net) has quit (Quit: elauervose)
+2013-09-27 15:11:44	theoretick	I'M GOING TO GO RUN AND TELL CHUCK RIGHT NOW
+2013-09-27 15:11:50	keighty	YAY!
+2013-09-27 15:12:06	keighty	wait!
+2013-09-27 15:12:12	keighty	not totally signed yet
+2013-09-27 15:12:19	keighty	just negotiated with People Ops
+2013-09-27 15:12:26	keighty	Victor doesn't know yet
+2013-09-27 15:12:26	dstark	er, Huzzah!
+2013-09-27 15:12:27	keighty	haha
+2013-09-27 15:12:31	zeisler	is chuck working at new relic?
+2013-09-27 15:12:33	keighty	lol
+2013-09-27 15:12:41	keighty	Chuck AND Erica are at NR
+2013-09-27 15:12:42	keighty	:D
+2013-09-27 15:12:55	<--	zeisler (~zeisler@50.76.104.65) has left #portlandcodeschool
+2013-09-27 15:13:04	keighty	Huzzah!
+2013-09-27 15:13:11	theoretick	whoa dustin is pissed he ran away :-/
+2013-09-27 15:13:16	keighty	LOL
+2013-09-27 15:13:22	keighty	was it something we said?
+2013-09-27 15:13:28	theoretick	"That makes me super happy" ~ Daniel
+2013-09-27 15:13:54	keighty	yay! I am kinda speechless right now
+2013-09-27 15:13:59	 *	keighty does happy dance
+2013-09-27 15:14:28	 *	theoretick and daniel do happy dance
+2013-09-27 15:14:33	keighty	awesome
+2013-09-27 15:14:43	dstark	drinks?
+2013-09-27 15:15:08	keighty	maybe this weekend.. we are in the Camas.. for now
+2013-09-27 15:15:22	keighty	can't wait!
+2013-09-27 15:15:26	keighty	so excited
+2013-09-27 15:15:30	theoretick	totes
+2013-09-27 15:15:32	theoretick	any idea on start?
+2013-09-27 15:15:35	keighty	not yet
+2013-09-27 15:15:45	keighty	that will depend on the visa sitch
+2013-09-27 15:16:04	keighty	likely not this monday.. probably the next..
+2013-09-27 15:16:07	keighty	HOPEFULLY the next
+2013-09-27 15:16:13	keighty	I can't wait to get to work
+2013-09-27 15:16:28	keighty	you guys can show me the ropes :D
+2013-09-27 15:16:35	dstark	I'm in Eugene Saturday, so no going out until I'm back.
+2013-09-27 15:16:42	theoretick	yeah we'll be old hands at that point
+2013-09-27 15:16:43	dstark	WE GOT CAKE TODAY!
+2013-09-27 15:16:53	keighty	CAKE?!
+2013-09-27 15:17:02	keighty	for being your awesome selves?
+2013-09-27 15:17:08	theoretick	yeah, like every friday
+2013-09-27 15:17:12	dstark	Yup, I'm sure that was it!
+2013-09-27 15:17:15	keighty	lol
+2013-09-27 15:17:17	keighty	nice
+2013-09-27 15:17:19	theoretick	it said 'you work at NR mothafucka' in frosting
+2013-09-27 15:17:34	keighty	did a lady jump out?
+2013-09-27 15:17:50	theoretick	wow keighty … inappropriate.  Keep a civil tone in this office.
+2013-09-27 15:17:55	keighty	LOL
+2013-09-27 15:18:04	keighty	sorry.. like I said, you have to show me the ropes
+2013-09-27 15:18:22	 *	keighty cannot control the volume of her voice
+2013-09-27 15:18:36	badascii	you took our jerbs!!!s
+2013-09-27 15:19:19	keighty	I don't understand the comment, so I cannot respond to it
+2013-09-27 15:19:20	theoretick	badascii.  um, what?
+2013-09-27 15:19:33	badascii	you took OUR JERBS!!!
+2013-09-27 15:20:07	 *	keighty checks knowyourmeme.com
+2013-09-27 15:20:20	badascii	:(
+2013-09-27 15:20:22	badascii	come on!
+2013-09-27 15:20:23	theoretick	meh, that links feels like work, i'll just ignore him
+2013-09-27 15:20:41	keighty	lol
+2013-09-27 15:20:47	theoretick	actually let me check the window, i can probably see your office from here :D
+2013-09-27 15:21:01	badascii	i can probably see your ego from here
+2013-09-27 15:24:25	--	dstark has changed topic for #portlandcodeschool from "Fall Session Starting in One Week! (9/30/13)" to "Katie gets to stay in the US!"
+2013-09-27 15:33:52	-->	johannhann (~Adium@70.102.138.244) has joined #portlandcodeschool
+2013-09-27 15:36:48	theoretick	yo, hanneson
+2013-09-27 15:37:22	johannhann	yo, charles
+2013-09-27 15:39:09	-->	zeisler (~zeisler@50.76.104.65) has joined #portlandcodeschool
+2013-09-27 15:39:32	theoretick	johannhann: want to haxor on some Discuss-It this weekend?
+2013-09-27 15:42:15	johannhann	theoretick: definitely
+2013-09-27 15:43:22	<--	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has quit (Quit: hakimujackson)
+2013-09-27 15:43:38	-->	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-09-27 15:46:05	-->	elauervose (~elauervos@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-09-27 15:48:08	-->	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has joined #portlandcodeschool
+2013-09-27 15:48:44	<--	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has quit (Client Quit)
+2013-09-27 15:49:06	johannhann	its been way too long since I looked at ruby now, so It will be good to get back into it
+2013-09-27 15:50:15	theoretick	super
+2013-09-27 15:50:17	theoretick	haha, yeah
+2013-09-27 16:02:35	vosechu	lol, badascii there's only two Relics talking in here
+2013-09-27 16:02:54	vosechu	keighty: how did it go?
+2013-09-27 16:03:37	badascii	vosechu: 2? i must be seeing double
+2013-09-27 16:03:46	badascii	+1 even
+2013-09-27 16:04:00	keighty	hey vosechu!
+2013-09-27 16:04:15	keighty	it went very well!
+2013-09-27 16:04:17	vosechu	heh
+2013-09-27 16:04:20	vosechu	yay!
+2013-09-27 16:04:22	vosechu	I'm so glad
+2013-09-27 16:04:31	theoretick	keighty++
+2013-09-27 16:04:32	pcs_hubot	keighty is on the rise! (Karma: 5)
+2013-09-27 16:04:35	keighty	they made me a super generous offer, and I am looking forward to working with you!
+2013-09-27 16:04:40	keighty	YEAH!
+2013-09-27 16:05:18	keighty	I am just waiting for people ops to chat to Victor, and for Victor to make it official
+2013-09-27 16:05:29	keighty	omg.. so excited!
+2013-09-27 16:06:01	badascii	what kind of position did they offer you?
+2013-09-27 16:06:17	keighty	I am going to be a Software Developer...
+2013-09-27 16:06:36	keighty	apparently the US government would not approve jr software engineer
+2013-09-27 16:06:46	badascii	haha what a tragedy :P
+2013-09-27 16:06:51	theoretick	thats kinda hilarious actually
+2013-09-27 16:06:56	keighty	yeah, I am really broken up about it
+2013-09-27 16:06:57	keighty	:D
+2013-09-27 16:06:58	vosechu	lol
+2013-09-27 16:07:00	vosechu	awesome
+2013-09-27 16:07:31	 *	keighty does canadian happy dance
+2013-09-27 16:07:42	vosechu	yayayay!
+2013-09-27 16:07:45	vosechu	well done Katie!
+2013-09-27 16:08:25	keighty	:D omg.. thanks, Chuck! I know I have you and Erica to thank
+2013-09-27 16:08:42	theoretick	COUGH COUGH
+2013-09-27 16:08:57	keighty	erm.. you too, Lucas
+2013-09-27 16:09:01	keighty	LOL
+2013-09-27 16:09:08	--	vosechu is now known as daniel
+2013-09-27 16:09:10	daniel	COUGH COUGH
+2013-09-27 16:09:13	--	daniel is now known as vosechu
+2013-09-27 16:09:30	keighty	zomg
+2013-09-27 16:09:37	dstark	Pfft, you don't have me to thank for anything. It's all you.
+2013-09-27 16:09:56	keighty	psh
+2013-09-27 16:10:18	keighty	you poop :D
+2013-09-27 16:10:36	-->	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has joined #portlandcodeschool
+2013-09-27 16:10:45	badascii	daniel is a poop?
+2013-09-27 16:10:50	badascii	i knew he smelled funny
+2013-09-27 16:11:00	keighty	yes.. yes he is
+2013-09-27 16:11:21	dstark	Well, you have to be something I suppose.
+2013-09-27 16:11:27	keighty	:D
+2013-09-27 16:16:42	badascii	INTEGRATION TESTINGGGGG
+2013-09-27 16:16:46	badascii	fuck
+2013-09-27 16:17:33	keighty	because it is so awesome
+2013-09-27 16:18:19	keighty	right?
+2013-09-27 16:18:48	badascii	i love it but
+2013-09-27 16:19:29	badascii	trying to fill in the same form on a legacy php site with two different search queries in the same casperjs test file
+2013-09-27 16:19:53	theoretick	wait, what's a php?
+2013-09-27 16:19:55	keighty	wow.. talk nerdy to me :D
+2013-09-27 16:19:56	badascii	thankfully it has an awesome screeenshotting function so i can see exactly what the headless phantomjs browser sees
+2013-09-27 16:20:25	theoretick	badascii also checkout https://github.com/BBC-News/wraith
+2013-09-27 16:20:39	theoretick	unless thats exactly what youre using :)
+2013-09-27 16:20:45	badascii	oh wow
+2013-09-27 16:20:48	badascii	that uses phantomjs
+2013-09-27 16:20:56	badascii	the native screenshot function it implements
+2013-09-27 16:21:13	badascii	but i am going to give that a go on monday for sure
+2013-09-27 16:23:14	badascii	phantom/casper are probably the coolest pieces of testing software i have ever seen
+2013-09-27 16:23:26	badascii	might be biased cause its javascript but
+2013-09-27 16:24:18	badascii	and using the native browser language to test…browser functionality just feels right
+2013-09-27 16:24:50	badascii	plus you can call .evaluate and plug in any javascript you want and fully access the dom
+2013-09-27 16:25:05	johannhann	badascii: you love javascript more than it has any right to be loved, Jordan
+2013-09-27 16:25:29	johannhann	also, I really need our damn code from this morning
+2013-09-27 16:25:29	badascii	i have seen things, maaaan
+2013-09-27 16:25:55	badascii	well tell them to set us up with reviewboard accounts!
+2013-09-27 16:25:57	badascii	or
+2013-09-27 16:26:06	badascii	tell them to fix the bug preventing us from logging in to our reviewboard acocunts
+2013-09-27 16:26:10	badascii	more accurately
+2013-09-27 16:26:13	johannhann	already have
+2013-09-27 16:26:16	badascii	haha
+2013-09-27 16:26:19	badascii	talk louder!!!
+2013-09-27 16:26:25	johannhann	i'm typing as loud as I can
+2013-09-27 16:26:26	badascii	LOOK ME IN THE EYES WHEN I SPEAK TO YOU
+2013-09-27 16:26:44	 *	johannhann gazes deeply into badascii's soul
+2013-09-27 16:26:48	 *	badascii makes johann very uncomfortable
+2013-09-27 16:27:04	 *	badascii instead is the one feeling uncomfortable
+2013-09-27 16:28:41	johannhann	vosechu: I finally switched away from the solarized light theme on sublime
+2013-09-27 16:29:02	badascii	solarized dark braj
+2013-09-27 16:30:24	vosechu	it's okay johann, let me know how it works for you. I only prefer it because the context switch from a white browser to a dark editor is really harsh for me
+2013-09-27 16:33:49	<--	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has quit (Quit: hakimujackson)
+2013-09-27 16:34:02	johannhann	I find its not as much of a problem for me now, possibly because of my giant work monitor
+2013-09-27 16:34:12	<--	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has quit (Quit: Leaving.)
+2013-09-27 16:34:16	keighty	smug!
+2013-09-27 16:34:40	johannhann	I'm sorry, I can't hear you over my ginormous work monitor
+2013-09-27 16:34:43	johannhann	:P
+2013-09-27 16:34:52	johannhann	giant compared to my 13" laptop anyway
+2013-09-27 16:34:59	keighty	why is it so loud?
+2013-09-27 16:35:30	johannhann	might the the air pump I use to inflate my ego
+2013-09-27 16:35:34	badascii	the giant gas generator
+2013-09-27 16:35:36	keighty	pssssshhhhhh
+2013-09-27 16:35:39	badascii	he uses to power it
+2013-09-27 16:36:00	badascii	it gets a little smoggy in the office
+2013-09-27 16:41:52	johannhann	pcs_hubot: image me tgif
+2013-09-27 16:41:53	pcs_hubot	http://lolsnaps.com/upload_pic/TGIF-53692.jpg
+2013-09-27 16:42:20	badascii	meh
+2013-09-27 16:42:36	badascii	getting this form test to work is gonna bug me all weekend!
+2013-09-27 16:44:36	johannhann	you are totally out of your form element
+2013-09-27 16:44:43	johannhann	i'll show myself out...
+2013-09-27 16:44:47	badascii	omg
+2013-09-27 16:44:49	badascii	all week with this
+2013-09-27 16:44:54	badascii	ALL WEEK
+2013-09-27 16:56:59	-->	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has joined #portlandcodeschool
+2013-09-27 16:57:32	keighty	:D
+2013-09-27 16:57:41	keighty	have a great weekend, everyone!
+2013-09-27 16:58:16	<--	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has quit (Client Quit)
+2013-09-27 17:00:40	johannhann	you too katie@newrelic.com!
+2013-09-27 17:01:52	<--	johannhann (~Adium@70.102.138.244) has quit (Quit: Leaving.)
+2013-09-27 17:02:14	<--	keighty (~katherine@c-71-236-130-37.hsd1.wa.comcast.net) has quit (Ping timeout: 240 seconds)
+2013-09-27 17:36:00	--	irc: disconnected from server
+2013-09-27 17:36:26	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-09-27 17:36:26	--	Topic for #portlandcodeschool is "Katie gets to stay in the US!"
+2013-09-27 17:36:26	--	Topic set by dstark (~dstark@207-170-205-178.static.twtelecom.net) on Fri, 27 Sep 2013 15:24:24
+2013-09-27 17:36:26	--	Nicks #portlandcodeschool: [dlmanning hackygolucky_ JSON_voorhees pcs_hubot ThirdAndjel_ zeisler]
+2013-09-27 17:36:26	--	Channel #portlandcodeschool: 6 nicks (0 ops, 0 halfops, 0 voices, 6 normals)
+2013-09-27 17:36:42	--	Mode #portlandcodeschool [+ns]
+2013-09-27 17:36:42	--	Channel created on Fri, 26 Apr 2013 12:36:26
+2013-09-27 17:48:05	<--	zeisler (~zeisler@50.76.104.65) has quit (Ping timeout: 248 seconds)
+2013-09-27 18:49:00	-->	dstark (~dstark@drunk.beercow.net) has joined #portlandcodeschool
+2013-09-28 01:11:37	--	irc: disconnected from server
+2013-09-28 01:12:03	-->	JSON_voorhees (~JSON_voor@c-24-18-228-15.hsd1.wa.comcast.net) has joined #portlandcodeschool
+2013-09-28 01:12:03	--	Topic for #portlandcodeschool is "Katie gets to stay in the US!"
+2013-09-28 01:12:03	--	Topic set by dstark (~dstark@207-170-205-178.static.twtelecom.net) on Fri, 27 Sep 2013 15:24:24
+2013-09-28 01:12:03	--	Nicks #portlandcodeschool: [dlmanning hackygolucky_ JSON_voorhees pcs_hubot ThirdAndjel]
+2013-09-28 01:12:03	--	Channel #portlandcodeschool: 5 nicks (0 ops, 0 halfops, 0 voices, 5 normals)
+2013-09-28 01:12:19	--	Mode #portlandcodeschool [+ns]
+2013-09-28 01:12:19	--	Channel created on Fri, 26 Apr 2013 12:36:26
+2013-09-28 13:02:44	--	irc: disconnected from server
+2013-09-28 13:03:15	-->	JSON_voorhees (~JSON_voor@c-24-18-228-15.hsd1.wa.comcast.net) has joined #portlandcodeschool
+2013-09-28 13:03:15	--	Topic for #portlandcodeschool is "Katie gets to stay in the US!"
+2013-09-28 13:03:15	--	Topic set by dstark (~dstark@207-170-205-178.static.twtelecom.net) on Fri, 27 Sep 2013 15:24:24
+2013-09-28 13:03:15	--	Nicks #portlandcodeschool: [dlmanning hackygolucky_ JSON_voorhees pcs_hubot]
+2013-09-28 13:03:15	--	Channel #portlandcodeschool: 4 nicks (0 ops, 0 halfops, 0 voices, 4 normals)
+2013-09-28 13:03:31	--	Mode #portlandcodeschool [+ns]
+2013-09-28 13:03:31	--	Channel created on Fri, 26 Apr 2013 12:36:26
+2013-09-28 13:14:30	--	irc: disconnected from server
+2013-09-28 13:15:01	-->	JSON_voorhees (~JSON_voor@c-24-18-228-15.hsd1.wa.comcast.net) has joined #portlandcodeschool
+2013-09-28 13:15:01	--	Topic for #portlandcodeschool is "Katie gets to stay in the US!"
+2013-09-28 13:15:01	--	Topic set by dstark (~dstark@207-170-205-178.static.twtelecom.net) on Fri, 27 Sep 2013 15:24:24
+2013-09-28 13:15:01	--	Nicks #portlandcodeschool: [dlmanning hackygolucky_ JSON_voorhees pcs_hubot]
+2013-09-28 13:15:01	--	Channel #portlandcodeschool: 4 nicks (0 ops, 0 halfops, 0 voices, 4 normals)
+2013-09-28 13:15:15	--	Mode #portlandcodeschool [+ns]
+2013-09-28 13:15:15	--	Channel created on Fri, 26 Apr 2013 12:36:26
+2013-09-29 16:58:40	--	irc: disconnected from server
+2013-09-29 16:59:09	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-09-29 16:59:09	--	Topic for #portlandcodeschool is "Katie gets to stay in the US!"
+2013-09-29 16:59:09	--	Topic set by dstark (~dstark@207-170-205-178.static.twtelecom.net) on Fri, 27 Sep 2013 15:24:24
+2013-09-29 16:59:09	--	Nicks #portlandcodeschool: [dlmanning dstark hackygolucky_ JSON_voorhees pcs_hubot ThirdAndjel]
+2013-09-29 16:59:09	--	Channel #portlandcodeschool: 6 nicks (0 ops, 0 halfops, 0 voices, 6 normals)
+2013-09-29 16:59:25	--	Mode #portlandcodeschool [+ns]
+2013-09-29 16:59:25	--	Channel created on Fri, 26 Apr 2013 12:36:26
+2013-09-29 17:05:39	<--	dstark (~dstark@drunk.beercow.net) has quit (Quit: Leaving.)
+2013-09-29 17:43:58	-->	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has joined #portlandcodeschool
+2013-09-29 17:57:59	-->	dstark (~dstark@2601:7:1b00:81:8e6:8a:6a7f:a8cc) has joined #portlandcodeschool
+2013-09-29 18:14:42	<--	dstark (~dstark@2601:7:1b00:81:8e6:8a:6a7f:a8cc) has quit (Quit: Leaving.)
+2013-09-29 18:17:14	-->	dstark (~dstark@drunk.beercow.net) has joined #portlandcodeschool
+2013-09-29 18:20:53	<--	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has quit (Quit: hakimujackson)
+2013-09-29 19:46:02	-->	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has joined #portlandcodeschool
+2013-09-29 20:00:49	<--	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has quit (Quit: hakimujackson)
+2013-09-29 21:43:54	-->	hackygolucky__ (uid11034@gateway/web/irccloud.com/x-bozqtgsepndomrnv) has joined #portlandcodeschool
+2013-09-29 21:49:36	<--	hackygolucky_ (uid11034@gateway/web/irccloud.com/x-ufxcmaxmboijjnzr) has quit (*.net *.split)
+2013-09-29 21:50:15	--	hackygolucky__ is now known as hackygolucky_
+2013-09-29 21:59:09	-->	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has joined #portlandcodeschool
+2013-09-29 22:42:38	<--	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has quit (Quit: hakimujackson)
+2013-09-29 23:22:21	<--	dstark (~dstark@drunk.beercow.net) has quit (Quit: Leaving.)
+2013-09-30 00:32:08	<--	ThirdAndjel (~Vera@cable-178-148-137-20.dynamic.sbb.rs) has quit (Quit: ThirdAndjel)
+2013-09-30 02:39:27	<--	pcs_hubot (~nodebot@ec2-50-19-15-242.compute-1.amazonaws.com) has quit (Remote host closed the connection)
+2013-09-30 02:39:45	-->	pcs_hubot (~nodebot@ec2-54-221-134-54.compute-1.amazonaws.com) has joined #portlandcodeschool
+2013-09-30 03:05:53	--	irc: disconnected from server
+2013-09-30 03:52:14	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-09-30 03:52:14	--	Topic for #portlandcodeschool is "Katie gets to stay in the US!"
+2013-09-30 03:52:14	--	Topic set by dstark (~dstark@207-170-205-178.static.twtelecom.net) on Fri, 27 Sep 2013 15:24:24
+2013-09-30 03:52:14	--	Nicks #portlandcodeschool: [dlmanning hackygolucky_ JSON_voorhees pcs_hubot]
+2013-09-30 03:52:14	--	Channel #portlandcodeschool: 4 nicks (0 ops, 0 halfops, 0 voices, 4 normals)
+2013-09-30 03:52:28	--	Mode #portlandcodeschool [+ns]
+2013-09-30 03:52:28	--	Channel created on Fri, 26 Apr 2013 12:36:26
+2013-09-30 08:04:51	-->	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has joined #portlandcodeschool
+2013-09-30 08:11:32	-->	dstark (~dstark@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-09-30 08:20:17	-->	Auraelius (~Auraelius@c-24-22-94-80.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-09-30 08:42:56	dstark	I really wish I knew Portland neighborhood names
+2013-09-30 08:43:07	dstark	"Lloyd District" means nothing to me unless I dig out a map.
+2013-09-30 09:39:29	--	irc: disconnected from server
+2013-09-30 09:39:56	-->	JSON_voorhees (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-09-30 09:39:56	--	Topic for #portlandcodeschool is "Katie gets to stay in the US!"
+2013-09-30 09:39:56	--	Topic set by dstark (~dstark@207-170-205-178.static.twtelecom.net) on Fri, 27 Sep 2013 15:24:24
+2013-09-30 09:39:56	--	Nicks #portlandcodeschool: [Auraelius badascii dlmanning dstark hackygolucky_ hakimujackson JohannHann johannhann1 JSON_voorhees keighty pcs_hubot theoretick]
+2013-09-30 09:39:56	--	Channel #portlandcodeschool: 12 nicks (0 ops, 0 halfops, 0 voices, 12 normals)
+2013-09-30 09:39:56	--	Notice(adams.freenode.net): [freenode-info] channel trolls and no channel staff around to help? please check with freenode support: http://freenode.net/faq.shtml#gettinghelp
+2013-09-30 09:40:12	--	Mode #portlandcodeschool [+ns]
+2013-09-30 09:40:12	--	Channel created on Fri, 26 Apr 2013 12:36:26
+2013-09-30 09:46:08	--	johannhann1 is now known as johann
+2013-09-30 09:53:13	-->	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-09-30 09:53:50	dstark	It's technical #pcs-alumni :D
+2013-09-30 09:53:56	dstark	technically
+2013-09-30 09:54:12	keighty	#pcsalumni seems to be working!
+2013-09-30 09:54:25	dstark	It does work, but I don't have it registered.
+2013-09-30 09:54:30	dstark	So anybody could come along and take it over
+2013-09-30 09:54:30	vosechu	I saw some new students right?
+2013-09-30 09:54:47	dstark	You can join any channel you want, and if it doesn't exist it will be created on the fly.
+2013-09-30 09:54:53	keighty	vosechu: I think they all start today
+2013-09-30 09:55:01	vosechu	cool
+2013-09-30 10:22:42	badascii	johann quit breaking my javascript!!!
+2013-09-30 10:23:40	hackygolucky_	ruby starts today, javascript starts tomorrow, I believe :)
+2013-09-30 10:32:21	-->	patrickmounts (~Adium@67.208.101.247) has joined #portlandcodeschool
+2013-09-30 10:32:31	patrickmounts	good morning hubot
+2013-09-30 10:32:31	pcs_hubot	Good night, my motile chupacabras  of the twitternet. BABY HEADS SPANNERS PLAGUE COCKS 
+2013-09-30 10:32:55	keighty	woah.. he has been saving that one up
+2013-09-30 10:33:13	patrickmounts	have you not been giving hubot the attention he deserves??
+2013-09-30 10:33:23	patrickmounts	pcs_hubot: pug bomb 5
+2013-09-30 10:33:23	pcs_hubot	http://27.media.tumblr.com/tumblr_lhtxzoe4lb1qb08qmo1_500.jpg
+2013-09-30 10:33:24	pcs_hubot	http://31.media.tumblr.com/tumblr_maxm4ecVNq1qjmqavo1_500.jpg
+2013-09-30 10:33:24	pcs_hubot	http://24.media.tumblr.com/tumblr_mblaw5jZ0v1qbbpjfo1_500.jpg
+2013-09-30 10:33:24	pcs_hubot	http://25.media.tumblr.com/tumblr_mcmthlSKeN1r0wqrdo1_500.gif
+2013-09-30 10:33:24	pcs_hubot	http://26.media.tumblr.com/tumblr_lswx4kiv5I1qaa50yo1_500.jpg
+2013-09-30 10:33:35	patrickmounts	he needs a good pug bomb from time to time
+2013-09-30 10:33:50	keighty	hello patrickmounts! where have you been?!
+2013-09-30 10:34:15	patrickmounts	i have been busy… at work… for real… with money… 
+2013-09-30 10:34:20	patrickmounts	...
+2013-09-30 10:34:39	keighty	well... more details, please
+2013-09-30 10:34:47	keighty	work.. real money.. fun?
+2013-09-30 10:34:54	patrickmounts	what is this i hear about you getting to stay in the GREATEST NATION IN THE WORRRRRRRLLLLLLDDDDD!
+2013-09-30 10:35:11	keighty	'Merica!
+2013-09-30 10:36:08	keighty	yes, it is true -- Canadian invasion continues
+2013-09-30 10:36:10	patrickmounts	i guess this means that we get to stay friends
+2013-09-30 10:36:13	patrickmounts	!!!
+2013-09-30 10:36:28	keighty	yes, thank goodness
+2013-09-30 10:36:48	keighty	I didn't realize just how much was riding on this work visa...
+2013-09-30 10:37:14	badascii	turns out people actually do like you
+2013-09-30 10:37:26	keighty	no one is more surprised than I
+2013-09-30 10:37:42	<--	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has quit (Quit: Leaving.)
+2013-09-30 10:37:56	keighty	vosechu left in protest, badascii
+2013-09-30 10:38:16	badascii	he never entertains our banter :(((
+2013-09-30 10:38:21	-->	ericalthatcher (~ericaltha@173-164-83-17-Oregon.hfc.comcastbusiness.net) has joined #portlandcodeschool
+2013-09-30 10:39:14	badascii	erica
+2013-09-30 10:39:17	badascii	long time no see
+2013-09-30 10:39:17	patrickmounts	it is not that we like her… it is that we enjoy the opportunities for banter that she provides :)
+2013-09-30 10:39:42	keighty	I will always provide fodder for banter
+2013-09-30 10:39:50	ericalthatcher	Heyyyy
+2013-09-30 10:39:59	ericalthatcher	I know!  I've been hibernating in my new apartment.
+2013-09-30 10:40:18	ericalthatcher	I'm at Brekken with Rebecca now though.
+2013-09-30 10:40:29	ericalthatcher	I loves me some banter
+2013-09-30 10:40:34	keighty	:D
+2013-09-30 10:40:35	badascii	nice
+2013-09-30 10:40:38	badascii	although
+2013-09-30 10:40:42	badascii	i do NOT miss the breken smell
+2013-09-30 10:40:50	keighty	there is a breken smell?
+2013-09-30 10:40:54	badascii	oh let me tell you
+2013-09-30 10:41:05	ericalthatcher	It's not too bad today
+2013-09-30 10:41:27	patrickmounts	grosssssss
+2013-09-30 10:41:40	patrickmounts	goodbye PCS I am gone for good
+2013-09-30 10:41:43	<--	patrickmounts (~Adium@67.208.101.247) has left #portlandcodeschool
+2013-09-30 10:41:50	-->	rloiselle (~Adium@173-164-83-17-Oregon.hfc.comcastbusiness.net) has joined #portlandcodeschool
+2013-09-30 10:42:28	badascii	join #pcs-alumni for a good time
+2013-09-30 10:42:40	badascii	$5.99 a minute, extra charges may apply
+2013-09-30 10:42:50	keighty	LOL
+2013-09-30 10:44:09	<--	ericalthatcher (~ericaltha@173-164-83-17-Oregon.hfc.comcastbusiness.net) has left #portlandcodeschool
+2013-09-30 10:48:12	johann	pcs alumns are now officially going into lurk mode, it seems
+2013-09-30 10:48:40	keighty	johann: why are there so many of you here?
+2013-09-30 10:48:47	-->	Auraelius_ (~Auraelius@c-24-22-94-80.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-09-30 10:48:47	keighty	you are the ultra-lurker
+2013-09-30 10:48:59	johann	I have eyes and ears everywhere
+2013-09-30 10:49:12	johann	i'm just still logged in from another account on this computer...
+2013-09-30 10:49:15	<--	Auraelius (~Auraelius@c-24-22-94-80.hsd1.or.comcast.net) has quit (Ping timeout: 252 seconds)
+2013-09-30 10:49:15	--	Auraelius_ is now known as Auraelius
+2013-09-30 10:56:50	--	theoretick is now known as theoretick_
+2013-09-30 10:58:16	<--	Auraelius (~Auraelius@c-24-22-94-80.hsd1.or.comcast.net) has quit (Quit: Auraelius)
+2013-09-30 11:01:22	<--	theoretick_ (~theoretic@207-170-205-178.static.twtelecom.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-09-30 11:12:22	-->	elauervose (~elauervos@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-09-30 11:13:49	-->	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-09-30 11:24:53	<--	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has quit (Quit: Leaving.)
+2013-09-30 11:31:45	-->	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-09-30 11:35:46	-->	theoretick (~theoretic@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-09-30 11:36:22	<--	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has quit (Quit: hakimujackson)
+2013-09-30 11:37:03	<--	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has quit (Quit: Leaving.)
+2013-09-30 12:00:41	<--	rloiselle (~Adium@173-164-83-17-Oregon.hfc.comcastbusiness.net) has quit (Quit: Leaving.)
+2013-09-30 12:08:42	<--	elauervose (~elauervos@207-170-205-178.static.twtelecom.net) has quit (Quit: elauervose)
+2013-09-30 12:11:15	<--	theoretick (~theoretic@207-170-205-178.static.twtelecom.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-09-30 12:20:09	-->	rloiselle (~Adium@c-67-168-196-131.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-09-30 12:40:35	-->	rloiselle1 (~Adium@c-67-168-196-131.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-09-30 12:40:43	<--	rloiselle (~Adium@c-67-168-196-131.hsd1.or.comcast.net) has quit (Ping timeout: 248 seconds)
+2013-09-30 12:43:32	-->	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has joined #portlandcodeschool
+2013-09-30 12:46:19	-->	theoretick (~theoretic@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-09-30 12:55:39	--	theoretick is now known as theoretick_
+2013-09-30 12:57:08	<--	theoretick_ (~theoretic@207-170-205-178.static.twtelecom.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-09-30 12:58:04	-->	theoretick (~theoretic@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-09-30 12:59:47	-->	zeisler (~zeisler@50.76.104.65) has joined #portlandcodeschool
+2013-09-30 13:07:14	<--	rloiselle1 (~Adium@c-67-168-196-131.hsd1.or.comcast.net) has quit (Ping timeout: 256 seconds)
+2013-09-30 13:09:50	<--	zeisler (~zeisler@50.76.104.65) has left #portlandcodeschool
+2013-09-30 13:13:30	-->	rloiselle (~Adium@c-67-168-196-131.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-09-30 13:16:30	-->	elauervose (~elauervos@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-09-30 13:24:46	-->	rloiselle1 (~Adium@c-67-168-196-131.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-09-30 13:25:01	<--	rloiselle (~Adium@c-67-168-196-131.hsd1.or.comcast.net) has quit (Ping timeout: 245 seconds)
+2013-09-30 13:28:09	-->	rloiselle (~Adium@c-67-168-196-131.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-09-30 13:29:00	<--	rloiselle (~Adium@c-67-168-196-131.hsd1.or.comcast.net) has left #portlandcodeschool
+2013-09-30 13:29:23	<--	rloiselle1 (~Adium@c-67-168-196-131.hsd1.or.comcast.net) has quit (Ping timeout: 260 seconds)
+2013-09-30 13:37:08	<--	elauervose (~elauervos@207-170-205-178.static.twtelecom.net) has quit (Quit: elauervose)
+2013-09-30 13:52:17	-->	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-09-30 14:11:48	<--	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has quit (Quit: Leaving.)
+2013-09-30 14:23:41	--	johann is now known as hivemind
+2013-09-30 14:25:47	--	hivemind is now known as Johann
+2013-09-30 14:47:49	<--	keighty (~katherine@c-71-236-130-37.hsd1.wa.comcast.net) has quit (Ping timeout: 248 seconds)
+2013-09-30 14:57:29	-->	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-09-30 15:02:57	-->	zeisler (~zeisler@50.76.104.65) has joined #portlandcodeschool
+2013-09-30 15:10:54	<--	JohannHann (~Adium@falcon.darkhorse.com) has quit (Read error: Connection reset by peer)
+2013-09-30 15:11:02	-->	JohannHann (~Adium@falcon.darkhorse.com) has joined #portlandcodeschool
+2013-09-30 15:32:53	<--	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has quit (Quit: Leaving.)
+2013-09-30 15:53:23	-->	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-09-30 16:14:29	-->	keighty (~katherine@c-71-236-130-37.hsd1.wa.comcast.net) has joined #portlandcodeschool
+2013-09-30 16:21:06	<--	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has quit (Quit: hakimujackson)
+2013-09-30 16:32:32	<--	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has quit (Quit: Leaving.)
+2013-09-30 16:46:18	<--	theoretick (~theoretic@207-170-205-178.static.twtelecom.net) has quit (Ping timeout: 264 seconds)
+2013-09-30 17:05:06	<--	dstark (~dstark@207-170-205-178.static.twtelecom.net) has quit (Quit: Leaving.)
+2013-09-30 17:05:29	-->	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has joined #portlandcodeschool
+2013-09-30 17:11:56	<--	Johann (~Adium@falcon.darkhorse.com) has quit (Quit: Leaving.)
+2013-09-30 17:13:20	<--	badascii (~jordan@falcon.darkhorse.com) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-09-30 17:18:06	<--	keighty (~katherine@c-71-236-130-37.hsd1.wa.comcast.net) has quit (Ping timeout: 252 seconds)
+2013-09-30 17:18:35	<--	JohannHann (~Adium@falcon.darkhorse.com) has quit (Ping timeout: 248 seconds)
+2013-09-30 17:22:50	<--	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has quit (Quit: hakimujackson)
+2013-09-30 18:46:43	--	irc: disconnected from server
+2013-09-30 18:47:13	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-09-30 18:47:13	--	Topic for #portlandcodeschool is "Katie gets to stay in the US!"
+2013-09-30 18:47:13	--	Topic set by dstark (~dstark@207-170-205-178.static.twtelecom.net) on Fri, 27 Sep 2013 15:24:25
+2013-09-30 18:47:13	--	Nicks #portlandcodeschool: [dlmanning dstark hackygolucky_ JSON_voorhees pcs_hubot theoretick zeisler]
+2013-09-30 18:47:13	--	Channel #portlandcodeschool: 7 nicks (0 ops, 0 halfops, 0 voices, 7 normals)
+2013-09-30 18:47:27	--	Mode #portlandcodeschool [+ns]
+2013-09-30 18:47:27	--	Channel created on Fri, 26 Apr 2013 12:36:26
+2013-09-30 18:57:31	<--	zeisler (~zeisler@50.76.104.65) has left #portlandcodeschool
+2013-09-30 19:21:26	-->	shawnacscott (~textual@67.137.49.162) has joined #portlandcodeschool
+2013-09-30 19:22:21	<--	shawnacscott (~textual@67.137.49.162) has quit (Client Quit)
+2013-09-30 19:33:18	<--	theoretick (~theoretic@c-24-21-208-35.hsd1.or.comcast.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-09-30 19:37:59	-->	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has joined #portlandcodeschool
+2013-09-30 19:39:29	<--	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has quit (Client Quit)
+2013-09-30 19:42:30	-->	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has joined #portlandcodeschool
+2013-09-30 19:48:34	<--	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has quit (Quit: hakimujackson)
+2013-09-30 19:53:44	-->	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has joined #portlandcodeschool
+2013-09-30 20:28:02	<--	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has quit (Quit: hakimujackson)
+2013-10-01 19:14:44	-->	JSON_voorhees (~JSON_voor@c-50-139-31-203.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-10-01 19:14:44	--	Topic for #portlandcodeschool is "Katie gets to stay in the US!"
+2013-10-01 19:14:44	--	Topic set by dstark (~dstark@207-170-205-178.static.twtelecom.net) on Fri, 27 Sep 2013 15:24:25
+2013-10-01 19:14:44	--	Nicks #portlandcodeschool: [dlmanning hackygolucky_ JSON_voorhees pcs_hubot]
+2013-10-01 19:14:44	--	Channel #portlandcodeschool: 4 nicks (0 ops, 0 halfops, 0 voices, 4 normals)
+2013-10-01 19:14:44	--	Notice(morgan.freenode.net): [freenode-info] if you're at a conference and other people are having trouble connecting, please mention it to staff: http://freenode.net/faq.shtml#gettinghelp
+2013-10-01 19:14:46	--	Mode #portlandcodeschool [+ns]
+2013-10-01 19:14:46	--	Channel created on Fri, 26 Apr 2013 12:36:26
+2013-10-01 19:14:59	-->	Wraithan (~wraithan@216.151.13.75) has joined #portlandcodeschool
+2013-10-01 19:15:12	Wraithan	dlmanning: hah, did they all leave?
+2013-10-01 19:16:46	-->	ZenWraithBot (~zenwraith@216.151.13.75) has joined #portlandcodeschool
+2013-10-01 22:09:26	--	irc: disconnected from server
+2013-10-01 22:09:58	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-10-01 22:09:58	--	Topic for #portlandcodeschool is "Katie gets to stay in the US!"
+2013-10-01 22:09:58	--	Topic set by dstark (~dstark@207-170-205-178.static.twtelecom.net) on Fri, 27 Sep 2013 15:24:25
+2013-10-01 22:09:58	--	Nicks #portlandcodeschool: [dlmanning hackygolucky_ hakimujackson JSON_voorhees pcs_hubot Wraithan ZenWraithBot]
+2013-10-01 22:09:58	--	Channel #portlandcodeschool: 7 nicks (0 ops, 0 halfops, 0 voices, 7 normals)
+2013-10-01 22:10:12	--	Mode #portlandcodeschool [+ns]
+2013-10-01 22:10:12	--	Channel created on Fri, 26 Apr 2013 12:36:26
+2013-10-01 23:01:15	-->	shawnacscott (~textual@c-76-115-50-172.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-10-01 23:04:21	-->	neilnorthrop (~neilnorth@c-98-246-142-162.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-10-01 23:18:17	<--	shawnacscott (~textual@c-76-115-50-172.hsd1.or.comcast.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-10-01 23:35:35	<--	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has quit (Quit: hakimujackson)
+2013-10-01 23:41:26	-->	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has joined #portlandcodeschool
+2013-10-01 23:41:57	<--	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has quit (Client Quit)
+2013-10-02 09:57:17	--	irc: disconnected from server
+2013-10-02 09:57:49	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-10-02 09:57:49	--	Topic for #portlandcodeschool is "Katie gets to stay in the US!"
+2013-10-02 09:57:49	--	Topic set by dstark (~dstark@207-170-205-178.static.twtelecom.net) on Fri, 27 Sep 2013 15:24:24
+2013-10-02 09:57:50	--	Nicks #portlandcodeschool: [badascii dlmanning dstark hackygolucky_ hakimujackson JohannHann johannhann1 JSON_voorhees keighty neilnorthrop pcs_hubot theoretick ThirdAndjel Wraithan ZenWraithBot]
+2013-10-02 09:57:50	--	Channel #portlandcodeschool: 15 nicks (0 ops, 0 halfops, 0 voices, 15 normals)
+2013-10-02 09:58:03	--	Mode #portlandcodeschool [+ns]
+2013-10-02 09:58:04	--	Channel created on Fri, 26 Apr 2013 12:36:26
+2013-10-02 10:07:12	<--	badascii (~jordan@falcon.darkhorse.com) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-10-02 10:11:53	<--	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has quit (Quit: hakimujackson)
+2013-10-02 10:48:12	--	irc: disconnected from server
+2013-10-02 10:48:44	-->	JSON_voorhees (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-10-02 10:48:44	--	Topic for #portlandcodeschool is "Katie gets to stay in the US!"
+2013-10-02 10:48:44	--	Topic set by dstark (~dstark@207-170-205-178.static.twtelecom.net) on Fri, 27 Sep 2013 15:24:24
+2013-10-02 10:48:44	--	Nicks #portlandcodeschool: [badascii dlmanning dstark ericalthatcher hackygolucky_ JohannHann johannhann1 JSON_voorhees keighty neilnorthrop pcs_hubot theoretick ThirdAndjel vosechu Wraithan ZenWraithBot]
+2013-10-02 10:48:44	--	Channel #portlandcodeschool: 16 nicks (0 ops, 0 halfops, 0 voices, 16 normals)
+2013-10-02 10:48:59	--	Mode #portlandcodeschool [+ns]
+2013-10-02 10:48:59	--	Channel created on Fri, 26 Apr 2013 12:36:26
+2013-10-02 10:52:13	<--	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has quit (Quit: Leaving.)
+2013-10-02 11:08:08	<--	theoretick (~theoretic@207-170-205-178.static.twtelecom.net) has quit (Ping timeout: 240 seconds)
+2013-10-02 11:41:29	-->	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-10-02 12:01:27	<--	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has quit (Quit: Leaving.)
+2013-10-02 12:01:52	-->	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-10-02 12:17:37	-->	neilnort_ (~neilnorth@74.85.255.17) has joined #portlandcodeschool
+2013-10-02 12:18:49	<--	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has quit (Quit: Leaving.)
+2013-10-02 12:20:14	<--	neilnorthrop (~neilnorth@74.85.255.17) has quit (Ping timeout: 240 seconds)
+2013-10-02 12:26:15	-->	ThirdAndjel_ (~Vera@BSN-182-178-12.dial-up.dsl.siol.net) has joined #portlandcodeschool
+2013-10-02 12:30:06	<--	ThirdAndjel (~Vera@BSN-182-178-12.dial-up.dsl.siol.net) has quit (Ping timeout: 264 seconds)
+2013-10-02 12:30:06	--	ThirdAndjel_ is now known as ThirdAndjel
+2013-10-02 12:53:16	-->	theoretick (~theoretic@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-10-02 13:06:01	-->	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-10-02 13:15:33	<--	ericalthatcher (~ericaltha@c-50-139-47-179.hsd1.or.comcast.net) has quit (Quit: ericalthatcher)
+2013-10-02 13:22:13	-->	ericalthatcher (~ericaltha@c-50-139-47-179.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-10-02 13:22:21	<--	ericalthatcher (~ericaltha@c-50-139-47-179.hsd1.or.comcast.net) has quit (Client Quit)
+2013-10-02 13:34:29	<--	johannhann1 (~Adium@falcon.darkhorse.com) has quit (Read error: Operation timed out)
+2013-10-02 13:35:30	<--	JohannHann (~Adium@falcon.darkhorse.com) has quit (Ping timeout: 264 seconds)
+2013-10-02 13:36:08	<--	badascii (~jordan@falcon.darkhorse.com) has quit (Ping timeout: 240 seconds)
+2013-10-02 13:40:50	<--	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has quit (Quit: Leaving.)
+2013-10-02 14:01:36	-->	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-10-02 14:12:06	<--	keighty (~katherine@c-71-236-130-37.hsd1.wa.comcast.net) has quit (Ping timeout: 264 seconds)
+2013-10-02 14:14:55	-->	badascii (~jordan@falcon.darkhorse.com) has joined #portlandcodeschool
+2013-10-02 14:15:09	-->	JohannHann (~Adium@falcon.darkhorse.com) has joined #portlandcodeschool
+2013-10-02 14:16:38	<--	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has quit (Quit: Leaving.)
+2013-10-02 14:17:45	-->	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has joined #portlandcodeschool
+2013-10-02 14:30:15	-->	Auraelius_ (~Auraelius@67.137.49.162) has joined #portlandcodeschool
+2013-10-02 14:31:32	-->	keighty (~katherine@c-71-236-130-37.hsd1.wa.comcast.net) has joined #portlandcodeschool
+2013-10-02 14:32:59	<--	neilnort_ (~neilnorth@74.85.255.17) has quit (Remote host closed the connection)
+2013-10-02 14:33:06	<--	JohannHann (~Adium@falcon.darkhorse.com) has quit (Read error: Connection reset by peer)
+2013-10-02 14:33:06	-->	JohannHann1 (~Adium@falcon.darkhorse.com) has joined #portlandcodeschool
+2013-10-02 14:33:40	-->	johannhann (~Adium@falcon.darkhorse.com) has joined #portlandcodeschool
+2013-10-02 14:33:41	-->	neilnorthrop (~neilnorth@74.85.255.17) has joined #portlandcodeschool
+2013-10-02 15:03:13	<--	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has quit (Quit: hakimujackson)
+2013-10-02 15:22:46	-->	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has joined #portlandcodeschool
+2013-10-02 15:31:57	johannhann	So who is a PCS instructor here, if anyone?
+2013-10-02 15:33:07	Wraithan	johannhann: dlmanning is the js instructor, not sure who the ruby one is
+2013-10-02 15:33:21	Wraithan	I'll be giving a talk on git in a week and a half to both classes
+2013-10-02 15:33:30	Wraithan	but I am not really an instructor, just a volunteer
+2013-10-02 15:34:07	johannhann	cool
+2013-10-02 15:34:22	johannhann	I haven't seen any new students in here yet
+2013-10-02 15:34:27	johannhann	at least that have announced themselves
+2013-10-02 15:34:39	johannhann	was wondering if they knew about the irc
+2013-10-02 15:34:58	<--	neilnorthrop (~neilnorth@74.85.255.17) has quit (Remote host closed the connection)
+2013-10-02 15:35:12	Wraithan	they'll likely get introduced to it in time, I know the js instructor is really big on irc usage
+2013-10-02 15:36:30	johannhann	awesome
+2013-10-02 15:36:56	johannhann	when we started on irc during the last session the prior students had pretty much cleared out, so i'm hoping we can build on the fact that most of my session is still online
+2013-10-02 15:36:59	johannhann	lurking at least
+2013-10-02 15:37:03	johannhann	good resources for newbies
+2013-10-02 15:38:41	-->	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-10-02 15:58:28	<--	dstark (~dstark@207-170-205-178.static.twtelecom.net) has quit (Quit: Leaving.)
+2013-10-02 16:01:36	theoretick	PSA: default `git push` will push every branch it can unless you specify a target (i.e. git push origin my-feature-branch). When you do `git push -f` without a target, it will FORCE push EVERY branch it can.
+2013-10-02 16:01:55	theoretick	to set default run: '$ git config --global push.default current'
+2013-10-02 16:02:23	theoretick	we just had a bit of a pickle in the office around this very thing...
+2013-10-02 16:03:56	Wraithan	Yup, one of the first things I get people to change in their environments
+2013-10-02 16:05:03	-->	dstark (~dstark@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-10-02 16:05:19	<--	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has quit (Quit: Leaving.)
+2013-10-02 16:06:50	<--	theoretick (~theoretic@207-170-205-178.static.twtelecom.net) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-10-02 16:07:14	hackygolucky_	anytime you're using -f, you should think thrice. Juuuust to make sure.
+2013-10-02 16:09:27	johannhann	theoretick has always been a fan of the force push
+2013-10-02 16:09:34	 *	johannhann speaks from personal experience
+2013-10-02 16:09:37	johannhann	:)
+2013-10-02 16:10:26	johannhann	we learned very quickly from that
+2013-10-02 16:14:15	hackygolucky_	heh
+2013-10-02 16:16:54	<--	keighty (~katherine@c-71-236-130-37.hsd1.wa.comcast.net) has quit (Ping timeout: 264 seconds)
+2013-10-02 16:20:20	<--	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has quit (Quit: hakimujackson)
+2013-10-02 16:28:39	-->	ericalthatcher (~ericaltha@50-196-9-6-static.hfc.comcastbusiness.net) has joined #portlandcodeschool
+2013-10-02 16:32:17	Auraelius_	Hey, sorry JohannHann, I wasn't paying attention. Yes, the next class is coming online this week.
+2013-10-02 16:33:23	johannhann	Cool, no worries Auraelius_ , I was just wondering when to expect the horde. :)
+2013-10-02 16:37:57	-->	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has joined #portlandcodeschool
+2013-10-02 16:39:51	-->	keighty (~katherine@c-71-236-130-37.hsd1.wa.comcast.net) has joined #portlandcodeschool
+2013-10-02 16:51:35	<--	dstark (~dstark@207-170-205-178.static.twtelecom.net) has quit (Quit: Leaving.)
+2013-10-02 16:52:28	<--	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has quit (Quit: hakimujackson)
+2013-10-02 16:56:51	<--	johannhann (~Adium@falcon.darkhorse.com) has quit (Quit: Leaving.)
+2013-10-02 17:04:15	<--	keighty (~katherine@c-71-236-130-37.hsd1.wa.comcast.net) has quit (Ping timeout: 240 seconds)
+2013-10-02 17:11:26	<--	ericalthatcher (~ericaltha@50-196-9-6-static.hfc.comcastbusiness.net) has left #portlandcodeschool
+2013-10-02 17:12:37	-->	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has joined #portlandcodeschool
+2013-10-02 17:12:43	<--	JohannHann1 (~Adium@falcon.darkhorse.com) has quit (Ping timeout: 248 seconds)
+2013-10-02 17:16:21	<--	badascii (~jordan@falcon.darkhorse.com) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-10-02 17:22:45	<--	Auraelius_ (~Auraelius@67.137.49.162) has quit (Quit: Auraelius_)
+2013-10-02 18:08:43	<--	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has quit (Quit: hakimujackson)
+2013-10-02 18:14:20	-->	hakimujackson_ (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has joined #portlandcodeschool
+2013-10-02 18:14:39	-->	neilnorthrop (~neilnorth@64.122.14.194) has joined #portlandcodeschool
+2013-10-02 18:19:36	-->	theoretick (~theoretic@50-78-180-90-static.hfc.comcastbusiness.net) has joined #portlandcodeschool
+2013-10-02 18:22:46	<--	hakimujackson_ (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has quit (Quit: hakimujackson_)
+2013-10-02 18:26:40	-->	ThirdAndjel_ (~Vera@BSN-182-178-12.dial-up.dsl.siol.net) has joined #portlandcodeschool
+2013-10-02 18:29:43	<--	ThirdAndjel (~Vera@BSN-182-178-12.dial-up.dsl.siol.net) has quit (Ping timeout: 260 seconds)
+2013-10-02 18:29:44	--	ThirdAndjel_ is now known as ThirdAndjel
+2013-10-02 18:50:47	<--	theoretick (~theoretic@50-78-180-90-static.hfc.comcastbusiness.net) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-10-02 19:18:54	-->	dstark (~dstark@2601:7:1b00:81:8905:c44c:18d1:3976) has joined #portlandcodeschool
+2013-10-02 19:19:15	-->	T_W (~timothy@67.137.49.162) has joined #portlandcodeschool
+2013-10-02 19:19:50	<--	T_W (~timothy@67.137.49.162) has quit (Client Quit)
+2013-10-02 19:20:56	-->	hakimujackson_ (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has joined #portlandcodeschool
+2013-10-02 19:29:32	<--	hakimujackson_ (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has quit (Quit: hakimujackson_)
+2013-10-02 19:36:39	-->	hakimujackson_ (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has joined #portlandcodeschool
+2013-10-02 19:43:43	<--	hakimujackson_ (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has quit (Quit: hakimujackson_)
+2013-10-02 19:52:00	-->	hakimujackson_ (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has joined #portlandcodeschool
+2013-10-02 19:53:21	<--	dstark (~dstark@2601:7:1b00:81:8905:c44c:18d1:3976) has quit (Quit: Leaving.)
+2013-10-02 19:56:53	-->	dstark (~dstark@2601:7:1b00:81:4939:799d:9fd7:3918) has joined #portlandcodeschool
+2013-10-02 19:57:01	<--	dstark (~dstark@2601:7:1b00:81:4939:799d:9fd7:3918) has quit (Client Quit)
+2013-10-02 20:03:34	-->	shawnacscott (~textual@67.137.49.162) has joined #portlandcodeschool
+2013-10-02 20:09:33	-->	nilesvm (438931a2@gateway/web/freenode/ip.67.137.49.162) has joined #portlandcodeschool
+2013-10-02 20:12:55	<--	hakimujackson_ (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has quit (Quit: hakimujackson_)
+2013-10-02 20:13:28	<--	neilnorthrop (~neilnorth@64.122.14.194) has quit (Remote host closed the connection)
+2013-10-02 20:20:49	-->	nilesvm_ (~nmcgiver@67.137.49.162) has joined #portlandcodeschool
+2013-10-02 20:20:58	<--	nilesvm (438931a2@gateway/web/freenode/ip.67.137.49.162) has quit (Quit: Page closed)
+2013-10-02 20:20:58	--	nilesvm_ is now known as nilesvm
+2013-10-02 20:21:28	<--	nilesvm (~nmcgiver@67.137.49.162) has quit (Client Quit)
+2013-10-02 20:21:45	-->	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has joined #portlandcodeschool
+2013-10-02 20:30:33	-->	nilesvm (~nmcgiver@67.137.49.162) has joined #portlandcodeschool
+2013-10-02 20:39:33	<--	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has quit (Quit: hakimujackson)
+2013-10-02 20:51:36	nilesvm	What up #portlandcodeschool?
+2013-10-02 20:58:36	<--	nilesvm (~nmcgiver@67.137.49.162) has quit (Quit: nilesvm)
+2013-10-02 20:59:57	<--	ThirdAndjel (~Vera@BSN-182-178-12.dial-up.dsl.siol.net) has left #portlandcodeschool
+2013-10-02 21:01:46	-->	nilesvm (~nmcgiver@67.137.49.162) has joined #portlandcodeschool
+2013-10-02 21:02:37	-->	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has joined #portlandcodeschool
+2013-10-02 21:07:33	<--	nilesvm (~nmcgiver@67.137.49.162) has quit (Quit: nilesvm)
+2013-10-02 21:10:37	<--	shawnacscott (~textual@67.137.49.162) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-10-02 21:16:35	-->	shawnacscott (~textual@67.137.49.162) has joined #portlandcodeschool
+2013-10-02 21:18:09	<--	shawnacscott (~textual@67.137.49.162) has quit (Client Quit)
+2013-10-02 21:22:28	-->	shawnacscott (~textual@67.137.49.162) has joined #portlandcodeschool
+2013-10-02 21:52:17	<--	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has quit (Quit: hakimujackson)
+2013-10-02 22:16:27	--	irc: disconnected from server
+2013-10-02 22:16:59	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-10-02 22:16:59	--	Topic for #portlandcodeschool is "Katie gets to stay in the US!"
+2013-10-02 22:16:59	--	Topic set by dstark (~dstark@207-170-205-178.static.twtelecom.net) on Fri, 27 Sep 2013 15:24:24
+2013-10-02 22:16:59	--	Nicks #portlandcodeschool: [dlmanning hackygolucky_ hakimujackson_ JSON_voorhees pcs_hubot Wraithan ZenWraithBot]
+2013-10-02 22:16:59	--	Channel #portlandcodeschool: 7 nicks (0 ops, 0 halfops, 0 voices, 7 normals)
+2013-10-02 22:17:13	--	Mode #portlandcodeschool [+ns]
+2013-10-02 22:17:13	--	Channel created on Fri, 26 Apr 2013 12:36:26
+2013-10-02 22:23:24	-->	ericalthatcher (~ericaltha@50-196-9-6-static.hfc.comcastbusiness.net) has joined #portlandcodeschool
+2013-10-02 22:26:07	<--	hakimujackson_ (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has quit (Quit: hakimujackson_)
+2013-10-02 22:31:38	-->	shawnacscott (~textual@c-76-115-50-172.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-10-02 22:31:52	shawnacscott	hi, ericalthatcher 
+2013-10-02 22:32:04	ericalthatcher	hi
+2013-10-02 22:32:18	shawnacscott	were you in last PCS session?
+2013-10-02 22:32:32	ericalthatcher	Yes, I was.
+2013-10-02 22:32:47	shawnacscott	huh, don't know how I missed that!
+2013-10-02 22:33:03	shawnacscott	Anyway, congrats again on Puppetlabs!
+2013-10-02 22:33:53	ericalthatcher	Thank you :-)
+2013-10-02 22:34:01	ericalthatcher	Are you liking the current session so far?
+2013-10-02 22:35:25	shawnacscott	I am. It's been a bit slower ramping up than I expected, but I think we're getting in the swing of things
+2013-10-02 22:37:52	Wraithan	You in the JS or ruby class?
+2013-10-02 22:39:47	shawnacscott	I think I may have to drag my cohort-mates kicking and screaming onto twitter and IRC, though. :)
+2013-10-02 22:40:32	shawnacscott	Wraithan Ruby.
+2013-10-02 22:40:40	shawnacscott	Have we met?
+2013-10-02 22:41:04	Wraithan	Likely not
+2013-10-02 22:41:20	Wraithan	I am in neither class, just going to be teaching one of the sessions
+2013-10-02 22:42:06	shawnacscott	ah, you're the Mozilla person?
+2013-10-02 22:42:21	Wraithan	I was, until last Friday
+2013-10-02 22:42:22	ericalthatcher	Ahh…you should get them on here!  It's a good time :-)
+2013-10-02 22:42:43	ericalthatcher	Well I'm off to bed, but I'll be back tomorrow most likely.
+2013-10-02 22:42:44	Wraithan	Now I am funemployed working on some side projects
+2013-10-02 22:43:00	<--	ericalthatcher (~ericaltha@50-196-9-6-static.hfc.comcastbusiness.net) has left #portlandcodeschool
+2013-10-02 22:43:09	-->	ThirdAndjel (~Vera@84.20.244.49) has joined #portlandcodeschool
+2013-10-02 22:44:05	<--	ThirdAndjel (~Vera@84.20.244.49) has left #portlandcodeschool
+2013-10-02 22:44:36	shawnacscott	Ah, cool. I know Christie Koehler and Selena. Work with them before at all?
+2013-10-02 22:47:23	Wraithan	I know both of htem
+2013-10-02 22:47:42	Wraithan	Selena and I both worked in webdev but we didn't really colaborate on any projects
+2013-10-02 22:48:48	shawnacscott	yeah, I don't know Selena well, but I've gone to a few Pyladies events. What are your fun side projects?
+2013-10-02 22:49:05	Wraithan	Readthedocs is the most known one probably
+2013-10-02 22:51:00	shawnacscott	cool.
+2013-10-02 22:54:19	Wraithan	I have plans and ideas for making hobbyist electronics work better, but that is just in the planning stage
+2013-10-02 22:59:31	shawnacscott	cool. What will you be teaching us?
+2013-10-02 22:59:36	Wraithan	git
+2013-10-02 23:00:40	Wraithan	from basics to common gotchas to a couple of the more advanced things that you'll occasionally need even if you shouldn't use them all the tim
+2013-10-02 23:01:11	shawnacscott	cool, that'll be helpful.
+2013-10-02 23:10:15	<--	shawnacscott (~textual@c-76-115-50-172.hsd1.or.comcast.net) has quit (Ping timeout: 240 seconds)
+2013-10-02 23:50:58	<--	Wraithan (~wraithan@216.151.13.75) has quit (Ping timeout: 245 seconds)
+2013-10-02 23:51:49	<--	ZenWraithBot (~zenwraith@216.151.13.75) has quit (Ping timeout: 248 seconds)
+2013-10-02 23:54:08	-->	Wraithan (~wraithan@216.151.13.75) has joined #portlandcodeschool
+2013-10-03 02:15:45	-->	Vera (~Vera@84.20.244.49) has joined #portlandcodeschool
+2013-10-03 02:16:10	<--	Vera (~Vera@84.20.244.49) has left #portlandcodeschool
+2013-10-03 02:16:21	-->	Vera (~Vera@84.20.244.49) has joined #portlandcodeschool
+2013-10-03 02:16:28	<--	Vera (~Vera@84.20.244.49) has left #portlandcodeschool
+2013-10-03 04:01:02	<--	pcs_hubot (~nodebot@ec2-23-20-172-27.compute-1.amazonaws.com) has quit (Remote host closed the connection)
+2013-10-03 04:01:21	-->	pcs_hubot (~nodebot@ec2-54-242-50-120.compute-1.amazonaws.com) has joined #portlandcodeschool
+2013-10-03 05:36:02	-->	ageoldpun (~paul@67.139.65.163) has joined #portlandcodeschool
+2013-10-03 05:38:01	<--	ageoldpun (~paul@67.139.65.163) has quit (Client Quit)
+2013-10-03 08:03:48	-->	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has joined #portlandcodeschool
+2013-10-03 08:28:56	-->	dstark (~dstark@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-10-03 08:48:46	<--	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has quit (Quit: hakimujackson)
+2013-10-03 08:50:40	-->	JohannHann (~Adium@falcon.darkhorse.com) has joined #portlandcodeschool
+2013-10-03 08:51:37	-->	johannhann1 (~Adium@falcon.darkhorse.com) has joined #portlandcodeschool
+2013-10-03 08:55:46	--	johannhann1 is now known as Hann_bot
+2013-10-03 08:56:22	--	Hann_bot is now known as the_hann
+2013-10-03 08:57:22	-->	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-10-03 09:03:36	-->	keighty (~katherine@c-71-236-130-37.hsd1.wa.comcast.net) has joined #portlandcodeschool
+2013-10-03 09:05:45	-->	theoretick (~theoretic@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-10-03 09:05:48	-->	hakimujackson (~hakimujac@12.108.22.186) has joined #portlandcodeschool
+2013-10-03 09:10:29	--	theoretick has changed topic for #portlandcodeschool from "Katie gets to stay in the US!" to "Anyone need a copy of Rails Tutorial, lucas (@theoretick) is getting rid of his"
+2013-10-03 09:15:05	-->	badascii (~jordan@falcon.darkhorse.com) has joined #portlandcodeschool
+2013-10-03 09:18:49	<--	hakimujackson (~hakimujac@12.108.22.186) has quit (Quit: hakimujackson)
+2013-10-03 10:04:15	--	irc: disconnected from server
+2013-10-03 10:04:45	-->	JSON_voorhees (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-10-03 10:04:45	--	Topic for #portlandcodeschool is "Anyone need a copy of Rails Tutorial, lucas (@theoretick) is getting rid of his"
+2013-10-03 10:04:45	--	Topic set by theoretick (~theoretic@207-170-205-178.static.twtelecom.net) on Thu, 03 Oct 2013 09:10:29
+2013-10-03 10:04:46	--	Nicks #portlandcodeschool: [badascii dlmanning dstark hackygolucky_ JohannHann JSON_voorhees keighty pcs_hubot the_hann theoretick ThirdAndjel vosechu Wraithan]
+2013-10-03 10:04:46	--	Channel #portlandcodeschool: 13 nicks (0 ops, 0 halfops, 0 voices, 13 normals)
+2013-10-03 10:04:59	--	Mode #portlandcodeschool [+ns]
+2013-10-03 10:05:01	--	Channel created on Fri, 26 Apr 2013 12:36:26
+2013-10-03 10:08:54	dlmanning	Wraithan: Oh, I missed that somehow
+2013-10-03 10:19:42	-->	ThirdAndjel_ (~Vera@BSN-182-204-1.dial-up.dsl.siol.net) has joined #portlandcodeschool
+2013-10-03 10:21:44	<--	ThirdAndjel (~Vera@BSN-182-178-12.dial-up.dsl.siol.net) has quit (Ping timeout: 260 seconds)
+2013-10-03 10:21:44	--	ThirdAndjel_ is now known as ThirdAndjel
+2013-10-03 10:25:18	<--	keighty (~katherine@c-71-236-130-37.hsd1.wa.comcast.net) has quit (Ping timeout: 264 seconds)
+2013-10-03 10:30:45	<--	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has quit (Quit: Leaving.)
+2013-10-03 10:43:50	-->	keighty (~katherine@c-71-236-130-37.hsd1.wa.comcast.net) has joined #portlandcodeschool
+2013-10-03 10:46:19	-->	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-10-03 11:06:09	-->	Auraelius (~Auraelius@c-24-22-94-80.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-10-03 11:10:27	<--	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has quit (Quit: Leaving.)
+2013-10-03 11:35:14	-->	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-10-03 12:03:48	--	irc: disconnected from server
+2013-10-03 13:24:04	-->	JSON_voorhees (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-10-03 13:24:04	--	Topic for #portlandcodeschool is "Anyone need a copy of Rails Tutorial, lucas (@theoretick) is getting rid of his"
+2013-10-03 13:24:04	--	Topic set by theoretick (~theoretic@207-170-205-178.static.twtelecom.net) on Thu, 03 Oct 2013 09:10:29
+2013-10-03 13:24:04	--	Nicks #portlandcodeschool: [Auraelius badascii dlmanning dstark hackygolucky_ JohannHann JSON_voorhees keighty neilnorthrop pcs_hubot T_W theoretick ThirdAndjel vosechu Wraithan]
+2013-10-03 13:24:04	--	Channel #portlandcodeschool: 15 nicks (0 ops, 0 halfops, 0 voices, 15 normals)
+2013-10-03 13:24:18	--	Mode #portlandcodeschool [+ns]
+2013-10-03 13:24:18	--	Channel created on Fri, 26 Apr 2013 12:36:26
+2013-10-03 13:25:45	<--	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has quit (Quit: Leaving.)
+2013-10-03 13:27:56	<--	T_W (~timothy@c-71-193-161-57.hsd1.or.comcast.net) has quit (Quit: Leaving)
+2013-10-03 13:38:12	-->	the_hann (~Adium@falcon.darkhorse.com) has joined #portlandcodeschool
+2013-10-03 13:38:19	<--	the_hann (~Adium@falcon.darkhorse.com) has left #portlandcodeschool
+2013-10-03 13:55:13	-->	nilesvm (~nmcgiver@c-24-21-102-91.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-10-03 13:55:53	dlmanning	Auraelius: How was class Monday night?
+2013-10-03 14:00:19	-->	the_hann (~Adium@falcon.darkhorse.com) has joined #portlandcodeschool
+2013-10-03 14:01:54	-->	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-10-03 14:04:09	<--	keighty (~katherine@c-71-236-130-37.hsd1.wa.comcast.net) has quit (Remote host closed the connection)
+2013-10-03 14:06:49	-->	keighty (~katherine@c-71-236-130-37.hsd1.wa.comcast.net) has joined #portlandcodeschool
+2013-10-03 14:12:54	<--	Auraelius (~Auraelius@c-24-22-94-80.hsd1.or.comcast.net) has quit (Quit: Auraelius)
+2013-10-03 14:17:53	--	theoretick has changed topic for #portlandcodeschool from "Anyone need a copy of Rails Tutorial, lucas (@theoretick) is getting rid of his" to "Welcome students"
+2013-10-03 14:25:23	<--	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has quit (Quit: Leaving.)
+2013-10-03 14:33:55	-->	ageoldpun (~paul@50.241.9.178) has joined #portlandcodeschool
+2013-10-03 14:44:48	-->	Auraelius (~Auraelius@c-24-22-94-80.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-10-03 14:46:09	Auraelius	dlmanning: it went very well. they're a sharp group of people.
+2013-10-03 14:46:10	<--	ageoldpun (~paul@50.241.9.178) has quit (Ping timeout: 256 seconds)
+2013-10-03 14:47:23	Auraelius	I can't get that old projector to work with the collection of adapters and cables they have there, tho.
+2013-10-03 14:54:43	<--	keighty (~katherine@c-71-236-130-37.hsd1.wa.comcast.net) has quit (Ping timeout: 260 seconds)
+2013-10-03 15:02:47	-->	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-10-03 15:14:44	dlmanning	Auraelius: Oh dear
+2013-10-03 15:25:57	--	the_hann is now known as Hanns_Gruber
+2013-10-03 15:27:08	<--	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has quit (Quit: Leaving.)
+2013-10-03 15:32:13	<--	Auraelius (~Auraelius@c-24-22-94-80.hsd1.or.comcast.net) has quit (Quit: Auraelius)
+2013-10-03 16:24:39	<--	neilnorthrop (~neilnorth@c-98-246-142-162.hsd1.or.comcast.net) has quit (Remote host closed the connection)
+2013-10-03 16:25:11	-->	neilnorthrop (~neilnorth@c-98-246-142-162.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-10-03 16:29:31	<--	neilnorthrop (~neilnorth@c-98-246-142-162.hsd1.or.comcast.net) has quit (Ping timeout: 248 seconds)
+2013-10-03 16:59:52	<--	dstark (~dstark@207-170-205-178.static.twtelecom.net) has quit (Quit: Leaving.)
+2013-10-03 17:02:16	-->	dstark (~dstark@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-10-03 17:09:01	<--	badascii (~jordan@falcon.darkhorse.com) has quit (Ping timeout: 246 seconds)
+2013-10-03 17:12:52	<--	JohannHann (~Adium@falcon.darkhorse.com) has quit (Ping timeout: 260 seconds)
+2013-10-03 17:13:53	<--	theoretick (~theoretic@207-170-205-178.static.twtelecom.net) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-10-03 17:14:16	-->	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-10-03 17:14:30	<--	Hanns_Gruber (~Adium@falcon.darkhorse.com) has quit (Ping timeout: 264 seconds)
+2013-10-03 17:18:49	<--	dstark (~dstark@207-170-205-178.static.twtelecom.net) has quit (Quit: Leaving.)
+2013-10-03 17:19:47	-->	ageoldpun (~paul@19.sub-70-193-138.myvzw.com) has joined #portlandcodeschool
+2013-10-03 17:20:41	ageoldpun	Hi everybody!
+2013-10-03 17:22:30	Wraithan	Howdy
+2013-10-03 17:36:24	hackygolucky_	Hi!
+2013-10-03 17:37:07	<--	nilesvm (~nmcgiver@c-24-21-102-91.hsd1.or.comcast.net) has quit (Quit: nilesvm)
+2013-10-03 17:39:20	<--	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has quit (Quit: Leaving.)
+2013-10-03 17:41:02	<--	ageoldpun (~paul@19.sub-70-193-138.myvzw.com) has quit (Remote host closed the connection)
+2013-10-04 10:12:16	--	irc: disconnected from server
+2013-10-04 10:12:46	-->	JSON_voorhees (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-10-04 10:12:47	--	Topic for #portlandcodeschool is "Welcome students"
+2013-10-04 10:12:47	--	Topic set by theoretick (~theoretic@207-170-205-178.static.twtelecom.net) on Thu, 03 Oct 2013 14:17:53
+2013-10-04 10:12:47	--	Nicks #portlandcodeschool: [badascii dlmanning dstark elauervose erkstyn hackygolucky_ JSON_voorhees pcs_hubot Son_of_Hann theoretick ThirdAndjel vosechu Wraithan]
+2013-10-04 10:12:47	--	Channel #portlandcodeschool: 13 nicks (0 ops, 0 halfops, 0 voices, 13 normals)
+2013-10-04 10:13:00	--	Mode #portlandcodeschool [+ns]
+2013-10-04 10:13:00	--	Channel created on Fri, 26 Apr 2013 12:36:26
+2013-10-04 10:18:14	-->	ageoldpun (~paul@20.sub-70-193-134.myvzw.com) has joined #portlandcodeschool
+2013-10-04 10:21:15	<--	Son_of_Hann (~Adium@falcon.darkhorse.com) has quit (Ping timeout: 264 seconds)
+2013-10-04 10:24:19	<--	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has quit (Quit: Leaving.)
+2013-10-04 10:27:35	<--	elauervose (~elauervos@207-170-205-178.static.twtelecom.net) has quit (Quit: elauervose)
+2013-10-04 10:33:58	--	theoretick is now known as theoretick_
+2013-10-04 10:35:28	<--	theoretick_ (~theoretic@207-170-205-178.static.twtelecom.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-10-04 10:37:39	-->	theoretick (~theoretic@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-10-04 10:37:45	--	theoretick is now known as theoretick_
+2013-10-04 10:38:54	--	theoretick_ is now known as theoretick
+2013-10-04 10:39:15	<--	theoretick (~theoretic@207-170-205-178.static.twtelecom.net) has quit (Client Quit)
+2013-10-04 10:44:51	-->	theoretick (~theoretic@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-10-04 10:51:20	--	theoretick is now known as theoretick_
+2013-10-04 10:52:50	<--	theoretick_ (~theoretic@207-170-205-178.static.twtelecom.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-10-04 10:53:38	-->	theoretick (~theoretic@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-10-04 11:17:52	<--	ageoldpun (~paul@20.sub-70-193-134.myvzw.com) has quit (Quit: Leaving)
+2013-10-04 11:46:46	-->	johannhann (~Adium@falcon.darkhorse.com) has joined #portlandcodeschool
+2013-10-04 11:49:11	<--	johannhann (~Adium@falcon.darkhorse.com) has quit (Client Quit)
+2013-10-04 12:12:49	<--	theoretick (~theoretic@207-170-205-178.static.twtelecom.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-10-04 12:15:06	-->	nilesvm (~nmcgiver@c-24-21-102-91.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-10-04 12:28:49	-->	ThirdAndjel_ (~Vera@BSN-182-204-1.dial-up.dsl.siol.net) has joined #portlandcodeschool
+2013-10-04 12:30:39	<--	ThirdAndjel (~Vera@BSN-182-204-1.dial-up.dsl.siol.net) has quit (Ping timeout: 260 seconds)
+2013-10-04 12:30:40	--	ThirdAndjel_ is now known as ThirdAndjel
+2013-10-04 12:38:45	-->	ThirdAndjel_ (~Vera@89.142.247.185) has joined #portlandcodeschool
+2013-10-04 12:40:51	<--	ThirdAndjel (~Vera@BSN-182-204-1.dial-up.dsl.siol.net) has quit (Ping timeout: 245 seconds)
+2013-10-04 12:40:51	--	ThirdAndjel_ is now known as ThirdAndjel
+2013-10-04 12:40:55	-->	johannhann (~Adium@falcon.darkhorse.com) has joined #portlandcodeschool
+2013-10-04 12:47:13	<--	nilesvm (~nmcgiver@c-24-21-102-91.hsd1.or.comcast.net) has quit (Quit: nilesvm)
+2013-10-04 12:52:35	-->	theoretick (~theoretic@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-10-04 12:57:32	--	theoretick is now known as theoretick_
+2013-10-04 12:58:25	--	theoretick_ is now known as theoretick
+2013-10-04 13:06:13	--	theoretick is now known as theoretick_
+2013-10-04 13:07:08	-->	nilesvm (~nmcgiver@c-24-21-102-91.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-10-04 13:07:43	<--	theoretick_ (~theoretic@207-170-205-178.static.twtelecom.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-10-04 13:10:22	-->	theoretick (~theoretic@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-10-04 13:24:18	-->	elauervose (~elauervos@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-10-04 13:32:20	-->	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-10-04 14:05:39	<--	elauervose (~elauervos@207-170-205-178.static.twtelecom.net) has quit (Quit: elauervose)
+2013-10-04 14:09:07	-->	elauervose (~elauervos@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-10-04 14:11:59	<--	nilesvm (~nmcgiver@c-24-21-102-91.hsd1.or.comcast.net) has left #portlandcodeschool
+2013-10-04 14:13:27	<--	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has quit (Quit: Leaving.)
+2013-10-04 14:22:30	<--	elauervose (~elauervos@207-170-205-178.static.twtelecom.net) has quit (Quit: elauervose)
+2013-10-04 14:28:50	-->	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-10-04 14:30:05	--	theoretick is now known as theoretick_
+2013-10-04 14:30:09	--	theoretick_ is now known as theoretick
+2013-10-04 14:30:34	<--	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has quit (Client Quit)
+2013-10-04 14:30:39	--	theoretick is now known as theoretick_
+2013-10-04 14:30:43	--	theoretick_ is now known as theoretick
+2013-10-04 14:31:24	-->	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-10-04 14:34:02	<--	vosechu (~Adium@207-170-205-178.static.twtelecom.net) has quit (Client Quit)
+2013-10-04 14:40:02	-->	neilnorthrop (~neilnorth@c-98-246-142-162.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-10-04 14:59:36	--	theoretick is now known as theoretick_
+2013-10-04 15:01:06	<--	theoretick_ (~theoretic@207-170-205-178.static.twtelecom.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-10-04 15:01:24	-->	ColinDabritz (~ColinDabr@50-198-165-105-static.hfc.comcastbusiness.net) has joined #portlandcodeschool
+2013-10-04 15:01:56	ColinDabritz	Hey all. Daniel mentioned you still hang out here sometimes. How is everyone?
+2013-10-04 15:03:26	-->	theoretick (~theoretic@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-10-04 15:04:43	dstark	Good!
+2013-10-04 15:04:51	dstark	There's typically a lag before people respond. :)
+2013-10-04 15:07:07	ColinDabritz	Yeah, that makes sense. Too busy being awesome.
+2013-10-04 15:07:27	ColinDabritz	Anyway, I'm going to mail folks, I have you all on Linked In it looks like, except for greg.
+2013-10-04 15:07:51	ColinDabritz	We're up and running at Http://PDXCodeGuild.com. We're doing a meet and greet on Wednesday the 23rd.
+2013-10-04 15:08:19	ColinDabritz	http://calagator.org/events/1250464975
+2013-10-04 15:08:27	ColinDabritz	RSVP if you plan to join us.
+2013-10-04 15:10:06	ColinDabritz	Heh, also, theoretick you messed up your profile somehow. It lists your current job as "I"
+2013-10-04 15:14:31	hackygolucky_	ColinDabritz: are you a former instructor?
+2013-10-04 15:14:48	ColinDabritz	Oh hey. :)
+2013-10-04 15:15:01	ColinDabritz	Yeah, I volunteered last term.
+2013-10-04 15:15:55	<--	theoretick (~theoretic@207-170-205-178.static.twtelecom.net) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-10-04 15:15:55	ColinDabritz	Are you having a go at it this term?
+2013-10-04 15:20:18	hackygolucky_	I'm going to be mentoring
+2013-10-04 15:20:46	hackygolucky_	I'm a big fan of alternative means to learning programming
+2013-10-04 15:20:59	hackygolucky_	career transitioner myself.
+2013-10-04 15:23:25	Wraithan	I am mostly just a career transition enabler
+2013-10-04 15:23:40	Wraithan	Though I am shifting directions in my career right now
+2013-10-04 15:24:08	ColinDabritz	Nice. It's quite an experience.
+2013-10-04 15:25:16	Wraithan	Yeah, I am a webdev who is transitioning toward hardware
+2013-10-04 15:31:03	-->	elauervose (~elauervos@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-10-04 15:36:21	hackygolucky_	Wraithan: you should hang with s5fs more :)
+2013-10-04 15:36:37	badascii	hey colin
+2013-10-04 15:36:50	badascii	best of luck with code guild!
+2013-10-04 15:37:26	ColinDabritz	Thanks :) See you folks around
+2013-10-04 15:37:47	<--	ColinDabritz (~ColinDabr@50-198-165-105-static.hfc.comcastbusiness.net) has quit (Quit: ColinDabritz)
+2013-10-04 15:50:44	-->	nilesvm (~nmcgiver@c-24-21-102-91.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-10-04 15:54:00	<--	nilesvm (~nmcgiver@c-24-21-102-91.hsd1.or.comcast.net) has quit (Quit: nilesvm)
+2013-10-04 15:58:07	<--	neilnorthrop (~neilnorth@c-98-246-142-162.hsd1.or.comcast.net) has quit (Remote host closed the connection)
+2013-10-04 16:02:18	<--	elauervose (~elauervos@207-170-205-178.static.twtelecom.net) has quit (Quit: elauervose)
+2013-10-04 16:15:35	-->	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has joined #portlandcodeschool
+2013-10-04 16:16:42	<--	hakimujackson (~hakimujac@c-71-236-129-93.hsd1.wa.comcast.net) has left #portlandcodeschool
+2013-10-04 16:59:04	<--	johannhann (~Adium@falcon.darkhorse.com) has quit (Quit: Leaving.)
+2013-10-04 17:03:11	<--	badascii (~jordan@falcon.darkhorse.com) has quit (Ping timeout: 260 seconds)
+2013-10-04 17:58:20	--	irc: disconnected from server
+2013-10-04 17:58:51	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-10-04 17:58:51	--	Topic for #portlandcodeschool is "Welcome students"
+2013-10-04 17:58:51	--	Topic set by theoretick (~theoretic@207-170-205-178.static.twtelecom.net) on Thu, 03 Oct 2013 14:17:53
+2013-10-04 17:58:51	--	Nicks #portlandcodeschool: [dlmanning erkstyn hackygolucky_ JSON_voorhees pcs_hubot ThirdAndjel Wraithan]
+2013-10-04 17:58:51	--	Channel #portlandcodeschool: 7 nicks (0 ops, 0 halfops, 0 voices, 7 normals)
+2013-10-04 17:59:05	--	Mode #portlandcodeschool [+ns]
+2013-10-04 17:59:05	--	Channel created on Fri, 26 Apr 2013 12:36:26
+2013-10-04 18:09:09	-->	nilesvm (~nilesvm@160.sub-70-210-128.myvzw.com) has joined #portlandcodeschool
+2013-10-04 18:12:21	<--	nilesvm (~nilesvm@160.sub-70-210-128.myvzw.com) has quit (Client Quit)
+2013-10-04 18:16:27	-->	nilesvm (~nilesvm@160.sub-70-210-128.myvzw.com) has joined #portlandcodeschool
+2013-10-04 18:19:05	<--	nilesvm (~nilesvm@160.sub-70-210-128.myvzw.com) has quit (Client Quit)
+2013-10-04 18:28:34	-->	ThirdAndjel_ (~Vera@89.142.247.185) has joined #portlandcodeschool
+2013-10-04 18:30:50	<--	ThirdAndjel (~Vera@89.142.247.185) has quit (Ping timeout: 246 seconds)
+2013-10-04 18:30:50	--	ThirdAndjel_ is now known as ThirdAndjel
+2013-10-04 18:36:30	-->	nilesvm (~nilesvm@160.sub-70-210-128.myvzw.com) has joined #portlandcodeschool
+2013-10-04 18:38:14	<--	nilesvm (~nilesvm@160.sub-70-210-128.myvzw.com) has quit (Client Quit)
+2013-10-04 19:01:14	-->	nilesvm (~nmcgiver@c-24-21-102-91.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-10-04 20:51:15	--	irc: disconnected from server
+2013-10-04 20:51:46	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-10-04 20:51:46	--	Topic for #portlandcodeschool is "Welcome students"
+2013-10-04 20:51:46	--	Topic set by theoretick (~theoretic@207-170-205-178.static.twtelecom.net) on Thu, 03 Oct 2013 14:17:53
+2013-10-04 20:51:46	--	Nicks #portlandcodeschool: [dlmanning erkstyn hackygolucky_ JSON_voorhees nilesvm pcs_hubot ThirdAndjel Wraithan]
+2013-10-04 20:51:46	--	Channel #portlandcodeschool: 8 nicks (0 ops, 0 halfops, 0 voices, 8 normals)
+2013-10-04 20:52:00	--	Mode #portlandcodeschool [+ns]
+2013-10-04 20:52:00	--	Channel created on Fri, 26 Apr 2013 12:36:26
+2013-10-05 20:03:09	--	irc: disconnected from server
+2013-10-05 20:03:56	-->	JSON_voorhees (~JSON_voor@c-76-27-213-74.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-10-05 20:03:56	--	Topic for #portlandcodeschool is "Welcome students"
+2013-10-05 20:03:56	--	Topic set by theoretick (~theoretic@207-170-205-178.static.twtelecom.net) on Thu, 03 Oct 2013 14:17:53
+2013-10-05 20:03:56	--	Nicks #portlandcodeschool: [ageoldpun ColinDabritz dlmanning erkstyn hackygolucky_ JSON_voorhees pcs_hubot shawnacscott Wraithan]
+2013-10-05 20:03:56	--	Channel #portlandcodeschool: 9 nicks (0 ops, 0 halfops, 0 voices, 9 normals)
+2013-10-05 20:04:10	--	Mode #portlandcodeschool [+ns]
+2013-10-05 20:04:10	--	Channel created on Fri, 26 Apr 2013 12:36:26
+2013-10-05 20:06:39	-->	kaijarayne (~kaijarayn@173-164-102-161-Oregon.hfc.comcastbusiness.net) has joined #portlandcodeschool
+2013-10-05 20:17:17	-->	Abby (~textual@216.110.201.104) has joined #portlandcodeschool
+2013-10-05 20:17:41	--	Abby is now known as Guest20880
+2013-10-06 00:03:54	--	irc: disconnected from server
+2013-10-06 00:04:26	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-10-06 00:04:26	--	Topic for #portlandcodeschool is "Welcome students"
+2013-10-06 00:04:26	--	Topic set by theoretick (~theoretic@207-170-205-178.static.twtelecom.net) on Thu, 03 Oct 2013 14:17:53
+2013-10-06 00:04:26	--	Nicks #portlandcodeschool: [dlmanning erkstyn hackygolucky_ JSON_voorhees pcs_hubot shawnacscott Wraithan]
+2013-10-06 00:04:26	--	Channel #portlandcodeschool: 7 nicks (0 ops, 0 halfops, 0 voices, 7 normals)
+2013-10-06 00:04:26	--	Notice(holmes.freenode.net): [freenode-info] if you're at a conference and other people are having trouble connecting, please mention it to staff: http://freenode.net/faq.shtml#gettinghelp
+2013-10-06 00:04:40	--	Mode #portlandcodeschool [+ns]
+2013-10-06 00:04:40	--	Channel created on Fri, 26 Apr 2013 12:36:26
+2013-10-06 00:31:50	-->	kaijarayne (~kaijarayn@173-164-102-161-Oregon.hfc.comcastbusiness.net) has joined #portlandcodeschool
+2013-10-06 01:04:02	<--	kaijarayne (~kaijarayn@173-164-102-161-Oregon.hfc.comcastbusiness.net) has quit (Ping timeout: 252 seconds)
+2013-10-06 09:29:30	--	irc: disconnected from server
+2013-10-06 09:29:58	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-10-06 09:29:58	--	Topic for #portlandcodeschool is "Welcome students"
+2013-10-06 09:29:58	--	Topic set by theoretick (~theoretic@207-170-205-178.static.twtelecom.net) on Thu, 03 Oct 2013 14:17:32
+2013-10-06 09:29:58	--	Nicks #portlandcodeschool: [ColinDabritz dlmanning erkstyn hackygolucky_ JSON_voorhees pcs_hubot shawnacscott Wraithan]
+2013-10-06 09:29:58	--	Channel #portlandcodeschool: 8 nicks (0 ops, 0 halfops, 0 voices, 8 normals)
+2013-10-06 09:30:12	--	Mode #portlandcodeschool [+ns]
+2013-10-06 09:30:12	--	Channel created on Fri, 26 Apr 2013 12:36:26
+2013-10-06 09:49:39	<--	ColinDabritz (~ColinDabr@c-67-160-136-70.hsd1.or.comcast.net) has quit (Quit: ColinDabritz)
+2013-11-08 11:05:11	-->	JSON_voorhees (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-11-08 11:05:11	--	Topic for #portlandcodeschool is "Saturday, Nov. 2 from 10am-4pm, Review time. Destroy those demons of JavaScript doubt at Burnside Digital. Mentors provided!"
+2013-11-08 11:05:11	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-zmivuiozwzvmgoxe) on Mon, 28 Oct 2013 15:51:00
+2013-11-08 11:05:11	--	Nicks #portlandcodeschool: [badascii benVerble chrisdickinson ColinDabritz curriedav dlmanning erkstyn faddah greg_ hackygolucky johannhann JSON_voorhees pandit_joshi pcs_hubot shawnacscott theoretick vosechu Wraithan ZenWraithBot]
+2013-11-08 11:05:11	--	Channel #portlandcodeschool: 19 nicks (0 ops, 0 halfops, 0 voices, 19 normals)
+2013-11-08 11:05:13	--	Mode #portlandcodeschool [+ns]
+2013-11-08 11:05:13	--	Channel created on Fri, 26 Apr 2013 12:36:26
+2013-11-08 11:08:08	<--	ColinDabritz (~ColinDabr@c-67-160-136-70.hsd1.or.comcast.net) has quit (Quit: ColinDabritz)
+2013-11-08 11:15:07	<--	greg_ (~greg@173-164-127-145-Oregon.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2013-11-08 11:15:34	-->	greg_ (~greg@173-164-127-145-Oregon.hfc.comcastbusiness.net) has joined #portlandcodeschool
+2013-11-08 11:20:15	<--	greg_ (~greg@173-164-127-145-Oregon.hfc.comcastbusiness.net) has quit (Ping timeout: 265 seconds)
+2013-11-08 11:35:19	-->	greg_ (~greg@173-164-127-145-Oregon.hfc.comcastbusiness.net) has joined #portlandcodeschool
+2013-11-08 11:35:40	-->	nilesvm (~nmcgiver@c-76-105-211-217.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-11-08 12:04:58	<--	nilesvm (~nmcgiver@c-76-105-211-217.hsd1.or.comcast.net) has quit (Quit: nilesvm)
+2013-11-08 12:08:06	-->	nilesvm (~nmcgiver@c-76-105-211-217.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-11-08 12:09:13	<--	nilesvm (~nmcgiver@c-76-105-211-217.hsd1.or.comcast.net) has quit (Client Quit)
+2013-11-08 12:12:03	<--	theoretick (~theoretic@207-170-205-178.static.twtelecom.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-11-08 12:15:33	<--	johannhann (~Adium@falcon.darkhorse.com) has quit (Ping timeout: 248 seconds)
+2013-11-08 12:19:49	<--	badascii (~jordan@falcon.darkhorse.com) has quit (Ping timeout: 252 seconds)
+2013-11-08 12:23:54	<--	pandit_joshi (~joshuafin@c-76-115-43-126.hsd1.or.comcast.net) has quit (Quit: pandit_joshi)
+2013-11-08 12:35:16	-->	pandit_joshi (~joshuafin@c-76-115-43-126.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-11-08 12:42:20	-->	theoretick (~theoretic@207-170-205-178.static.twtelecom.net) has joined #portlandcodeschool
+2013-11-08 12:43:42	-->	ColinDabritz (~ColinDabr@c-67-160-136-70.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-11-08 12:44:21	<--	ColinDabritz (~ColinDabr@c-67-160-136-70.hsd1.or.comcast.net) has quit (Client Quit)
+2013-11-08 12:47:00	-->	badascii (~jordan@c-24-21-189-50.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-11-08 12:50:53	<--	curriedav (~curriedav@c-76-105-145-86.hsd1.or.comcast.net) has quit (Remote host closed the connection)
+2013-11-08 12:51:27	-->	curriedav (~curriedav@c-76-105-145-86.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-11-08 12:55:50	<--	curriedav (~curriedav@c-76-105-145-86.hsd1.or.comcast.net) has quit (Ping timeout: 245 seconds)
+2013-11-08 12:56:23	-->	curriedav (~curriedav@c-76-105-145-86.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-11-08 12:59:07	<--	curriedav (~curriedav@c-76-105-145-86.hsd1.or.comcast.net) has quit (Remote host closed the connection)
+2013-11-08 12:59:40	-->	curriedav (~curriedav@c-76-105-145-86.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-11-08 13:04:11	<--	curriedav (~curriedav@c-76-105-145-86.hsd1.or.comcast.net) has quit (Ping timeout: 252 seconds)
+2013-11-08 13:12:24	<--	pandit_joshi (~joshuafin@c-76-115-43-126.hsd1.or.comcast.net) has quit (Quit: pandit_joshi)
+2013-11-08 13:25:53	-->	nilesvm (~nmcgiver@c-76-105-211-217.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-11-08 13:28:49	<--	benVerble (~benVerble@184-76-30-173.war.clearwire-wmx.net) has quit (Ping timeout: 265 seconds)
+2013-11-08 13:30:28	-->	curriedav (~curriedav@72.11.84.62) has joined #portlandcodeschool
+2013-11-08 13:31:48	-->	johannhann (~Adium@c-24-21-189-50.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-11-08 13:40:58	-->	ThirdAndjel (~Vera@89.142.33.180) has joined #portlandcodeschool
+2013-11-08 13:44:48	-->	neilnorthrop (~neilnorth@c-98-246-142-162.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-11-08 13:48:11	-->	ThirdAndjel_ (~Vera@89.142.33.180) has joined #portlandcodeschool
+2013-11-08 13:48:41	curriedav	Anyone here familiar with Docker and whether or not it is something you think will be useful in the future?
+2013-11-08 13:49:10	<--	ThirdAndjel (~Vera@89.142.33.180) has quit (Ping timeout: 245 seconds)
+2013-11-08 13:49:10	--	ThirdAndjel_ is now known as ThirdAndjel
+2013-11-08 13:50:04	curriedav	They are having a meet up at New Relic (http://www.meetup.com/Docker-Portland-OR/events/145128202/)
+2013-11-08 13:50:10	curriedav	Thinking about checking it out.
+2013-11-08 13:50:43	dlmanning	I've heard a lot of good things about it lately. Haven't played with it myself
+2013-11-08 13:52:29	-->	pandit_joshi (~joshuafin@c-76-115-43-126.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-11-08 13:52:59	curriedav	I may be completely off base but it sounds, in principle, a lot like a language such as java(write once run anywhere) but allows for any language to be packaged in a container. Is that the general idea?
+2013-11-08 13:55:06	-->	benVerble (~benVerble@184-76-30-173.war.clearwire-wmx.net) has joined #portlandcodeschool
+2013-11-08 13:55:18	dlmanning	yeah, that's basically what how I understand it
+2013-11-08 13:57:18	curriedav	There's a short, but interesting blog post by Gregory Szorc on it: http://gregoryszorc.com/blog/2013/05/19/using-docker-to-build-firefox/
+2013-11-08 14:00:19	<--	pandit_joshi (~joshuafin@c-76-115-43-126.hsd1.or.comcast.net) has quit (Quit: pandit_joshi)
+2013-11-08 14:03:14	<--	benVerble (~benVerble@184-76-30-173.war.clearwire-wmx.net) has quit (Ping timeout: 264 seconds)
+2013-11-08 14:04:37	-->	pandit_joshi (~joshuafin@c-76-115-43-126.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-11-08 14:06:14	<--	greg_ (~greg@173-164-127-145-Oregon.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2013-11-08 14:06:41	-->	greg_ (~greg@173-164-127-145-Oregon.hfc.comcastbusiness.net) has joined #portlandcodeschool
+2013-11-08 14:11:01	<--	greg_ (~greg@173-164-127-145-Oregon.hfc.comcastbusiness.net) has quit (Ping timeout: 245 seconds)
+2013-11-08 14:11:30	--	faddah is now known as faddah_mobile
+2013-11-08 14:12:09	--	faddah_mobile is now known as faddah
+2013-11-08 14:13:07	-->	greg_ (~greg@173-164-127-145-Oregon.hfc.comcastbusiness.net) has joined #portlandcodeschool
+2013-11-08 14:27:25	<--	neilnorthrop (~neilnorth@c-98-246-142-162.hsd1.or.comcast.net) has quit (Remote host closed the connection)
+2013-11-08 14:27:58	-->	neilnorthrop (~neilnorth@c-98-246-142-162.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-11-08 14:30:41	faddah	registered a new freenode channel for the AngularJS meet-up in portland and all things angular - #ngpdx. when ryan webber hops on irc next, i'll make him channel admin/op. please join if you wish, and read the topic. THAT IS ALL.
+2013-11-08 14:32:03	<--	neilnorthrop (~neilnorth@c-98-246-142-162.hsd1.or.comcast.net) has quit (Ping timeout: 240 seconds)
+2013-11-08 14:35:50	<--	pandit_joshi (~joshuafin@c-76-115-43-126.hsd1.or.comcast.net) has quit (Quit: pandit_joshi)
+2013-11-08 14:48:44	<--	badascii (~jordan@c-24-21-189-50.hsd1.or.comcast.net) has quit (Ping timeout: 240 seconds)
+2013-11-08 14:51:08	<--	curriedav (~curriedav@72.11.84.62) has quit (Remote host closed the connection)
+2013-11-08 14:51:45	-->	curriedav (~curriedav@2001:470:e962:2101:806:e663:8e08:b2f0) has joined #portlandcodeschool
+2013-11-08 14:54:52	-->	badascii (~jordan@c-24-21-189-50.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-11-08 14:56:38	<--	curriedav (~curriedav@2001:470:e962:2101:806:e663:8e08:b2f0) has quit (Ping timeout: 264 seconds)
+2013-11-08 14:57:25	-->	benVerble (~benVerble@184-76-30-173.war.clearwire-wmx.net) has joined #portlandcodeschool
+2013-11-08 15:02:02	<--	benVerble (~benVerble@184-76-30-173.war.clearwire-wmx.net) has quit (Ping timeout: 264 seconds)
+2013-11-08 15:06:18	<--	nilesvm (~nmcgiver@c-76-105-211-217.hsd1.or.comcast.net) has quit (Quit: nilesvm)
+2013-11-08 15:06:42	-->	neilnorthrop (~neilnorth@c-98-246-142-162.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-11-08 15:07:41	-->	neilnort_ (~neilnorth@c-98-246-142-162.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-11-08 15:08:18	-->	curriedav (~curriedav@67.137.49.162) has joined #portlandcodeschool
+2013-11-08 15:11:38	<--	neilnorthrop (~neilnorth@c-98-246-142-162.hsd1.or.comcast.net) has quit (Ping timeout: 264 seconds)
+2013-11-08 15:22:01	-->	ColinDabritz (~ColinDabr@c-67-160-136-70.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-11-08 15:56:05	-->	nilesvm (~nmcgiver@c-76-105-211-217.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-11-08 15:57:27	-->	benVerble (~benVerble@184-76-30-173.war.clearwire-wmx.net) has joined #portlandcodeschool
+2013-11-08 16:00:55	Wraithan	curriedav, dlmanning: that is kinda the idea behind it. 
+2013-11-08 16:01:30	-->	pandit_joshi (~joshuafin@c-76-115-43-126.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-11-08 16:01:37	Wraithan	it uses lxc under the hood to provide (effectively) a full linux system to the process it is starting
+2013-11-08 16:01:50	<--	benVerble (~benVerble@184-76-30-173.war.clearwire-wmx.net) has quit (Ping timeout: 245 seconds)
+2013-11-08 16:02:09	Wraithan	it has an emphemeral (by default, you can change that) filesystem so you can write to it and it just goes away when you close it down
+2013-11-08 16:02:42	Wraithan	docker is typically used to run jobs that you don't want to have access to other things on your system, nor be affected by
+2013-11-08 16:03:45	Wraithan	I use the underlying tech, lxc, to break my server apart in to many servers but all having the full power of the server (don't have to break it down to like 1gb of ram for htis one, 3 for another, 2 cpus for one, 1 for another etc) 
+2013-11-08 16:04:48	Wraithan	It also gets a virtual network device that ties to the host system one, so you can use tools like iptables to route your incoming traffic from the outside to specific containers on the inside of your server
+2013-11-08 16:06:16	Wraithan	i can explain any part of that in greater detail if needed, some of that might not be familiar to newer folks in the field or folks who haven't been a sysadmin
+2013-11-08 16:06:40	 *	Wraithan gets on a bus to go hack with friends for node knockout
+2013-11-08 16:07:33	shawnacscott	pcs_hubot pug bomb: 3
+2013-11-08 16:07:33	pcs_hubot	http://29.media.tumblr.com/tumblr_llaozyVqF41qb08qmo1_500.jpg
+2013-11-08 16:07:33	pcs_hubot	http://25.media.tumblr.com/tumblr_litk67P87K1qaa50yo1_500.jpg
+2013-11-08 16:07:34	pcs_hubot	http://25.media.tumblr.com/tumblr_mcqpch4QbC1qb08qmo1_500.jpg
+2013-11-08 16:07:34	pcs_hubot	http://25.media.tumblr.com/tumblr_lirbk7KDNc1qb166so1_500.jpg
+2013-11-08 16:07:34	pcs_hubot	http://25.media.tumblr.com/tumblr_mcgpapmE3I1qkoat7o1_400.jpg
+2013-11-08 16:10:45	curriedav	Thanks shawnacscott
+2013-11-08 16:11:02	shawnacscott	curriedav You're welcome! :) Not sure why I got 5, though.
+2013-11-08 16:11:09	shawnacscott	It's a good bug to have, though. 
+2013-11-08 16:13:41	<--	pandit_joshi (~joshuafin@c-76-115-43-126.hsd1.or.comcast.net) has quit (Quit: pandit_joshi)
+2013-11-08 16:31:34	-->	criskelly (~criskelly@67.137.49.162) has joined #portlandcodeschool
+2013-11-08 16:32:09	-->	pandit_joshi (~joshuafin@c-76-115-43-126.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-11-08 16:32:40	<--	neilnort_ (~neilnorth@c-98-246-142-162.hsd1.or.comcast.net) has quit (Remote host closed the connection)
+2013-11-08 16:33:58	criskelly	Pizza and beer (and wine and veggies and dip) at the PCS Meet and Greet tonight! 6-8pm. I know it's Friday, but you can still go out afterward :) 
+2013-11-08 16:34:26	<--	greg_ (~greg@173-164-127-145-Oregon.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2013-11-08 16:34:53	-->	greg_ (~greg@173-164-127-145-Oregon.hfc.comcastbusiness.net) has joined #portlandcodeschool
+2013-11-08 16:39:59	<--	greg_ (~greg@173-164-127-145-Oregon.hfc.comcastbusiness.net) has quit (Ping timeout: 272 seconds)
+2013-11-08 16:42:25	<--	badascii (~jordan@c-24-21-189-50.hsd1.or.comcast.net) has quit (Quit: zzz)
+2013-11-08 16:49:52	<--	theoretick (~theoretic@207-170-205-178.static.twtelecom.net) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-11-08 16:57:31	-->	benVerble (~benVerble@184-76-30-173.war.clearwire-wmx.net) has joined #portlandcodeschool
+2013-11-08 16:58:28	<--	johannhann (~Adium@c-24-21-189-50.hsd1.or.comcast.net) has quit (Quit: Leaving.)
+2013-11-08 16:59:26	<--	vosechu (~Adium@c-67-168-224-150.hsd1.or.comcast.net) has quit (Quit: Leaving.)
+2013-11-08 17:03:02	-->	vosechu (~Adium@c-67-168-224-150.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-11-08 17:08:49	-->	neilnorthrop (~neilnorth@c-98-246-142-162.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-11-08 17:12:48	<--	neilnorthrop (~neilnorth@c-98-246-142-162.hsd1.or.comcast.net) has quit (Ping timeout: 240 seconds)
+2013-11-08 17:14:32	<--	pandit_joshi (~joshuafin@c-76-115-43-126.hsd1.or.comcast.net) has quit (Quit: pandit_joshi)
+2013-11-08 17:24:01	<--	nilesvm (~nmcgiver@c-76-105-211-217.hsd1.or.comcast.net) has quit (Quit: nilesvm)
+2013-11-08 17:27:19	<--	criskelly (~criskelly@67.137.49.162) has quit (Quit: criskelly)
+2013-11-08 17:29:49	-->	criskelly (~criskelly@67.137.49.162) has joined #portlandcodeschool
+2013-11-08 17:30:01	-->	greg_ (~greg@173-164-127-145-Oregon.hfc.comcastbusiness.net) has joined #portlandcodeschool
+2013-11-08 17:30:51	<--	curriedav (~curriedav@67.137.49.162) has quit (Remote host closed the connection)
+2013-11-08 17:31:28	-->	curriedav (~curriedav@67.137.49.162) has joined #portlandcodeschool
+2013-11-08 17:31:46	criskelly	Any PCS mentors coming tonight?
+2013-11-08 17:35:42	greg_	Hey Chris. I might be able to come by. (did not know this was happening. I will be in the neighborhood.)
+2013-11-08 17:35:50	<--	curriedav (~curriedav@67.137.49.162) has quit (Ping timeout: 245 seconds)
+2013-11-08 17:38:28	criskelly	That would be awesome!
+2013-11-08 17:38:52	Wraithan	criskelly: couple of us are doing node knockout tonight at Side Door. 
+2013-11-08 17:40:55	-->	badascii (~jordan@173-164-127-145-Oregon.hfc.comcastbusiness.net) has joined #portlandcodeschool
+2013-11-08 17:42:01	-->	curriedav (~curriedav@67.137.49.162) has joined #portlandcodeschool
+2013-11-08 17:42:56	<--	greg_ (~greg@173-164-127-145-Oregon.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2013-11-08 17:43:06	criskelly	ah thanks, Wraithan
+2013-11-08 17:43:33	-->	greg_ (~greg@173-164-127-145-Oregon.hfc.comcastbusiness.net) has joined #portlandcodeschool
+2013-11-08 17:45:28	<--	badascii (~jordan@173-164-127-145-Oregon.hfc.comcastbusiness.net) has quit (Quit: zzz)
+2013-11-08 17:47:59	<--	greg_ (~greg@173-164-127-145-Oregon.hfc.comcastbusiness.net) has quit (Ping timeout: 252 seconds)
+2013-11-08 17:48:47	<--	curriedav (~curriedav@67.137.49.162) has quit
+2013-11-08 17:58:49	--	irc: disconnected from server
+2013-11-08 17:59:23	-->	JSON_voorhees (~JSON_voor@71-20-35-93.war.clearwire-wmx.net) has joined #portlandcodeschool
+2013-11-08 17:59:23	--	Topic for #portlandcodeschool is "Saturday, Nov. 2 from 10am-4pm, Review time. Destroy those demons of JavaScript doubt at Burnside Digital. Mentors provided!"
+2013-11-08 17:59:23	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-zmivuiozwzvmgoxe) on Mon, 28 Oct 2013 15:51:00
+2013-11-08 17:59:23	--	Nicks #portlandcodeschool: [benVerble chrisdickinson ColinDabritz criskelly dlmanning erkstyn faddah hackygolucky JSON_voorhees pcs_hubot shawnacscott ThirdAndjel vosechu Wraithan ZenWraithBot]
+2013-11-08 17:59:23	--	Channel #portlandcodeschool: 15 nicks (0 ops, 0 halfops, 0 voices, 15 normals)
+2013-11-08 17:59:41	--	Mode #portlandcodeschool [+ns]
+2013-11-08 17:59:41	--	Channel created on Fri, 26 Apr 2013 12:36:26
+2013-11-08 18:27:40	<--	ColinDabritz (~ColinDabr@c-67-160-136-70.hsd1.or.comcast.net) has quit (Quit: ColinDabritz)
+2013-11-08 18:33:46	<--	vosechu (~Adium@c-67-168-224-150.hsd1.or.comcast.net) has quit (Quit: Leaving.)
+2013-11-08 18:50:31	-->	vosechu (~Adium@c-67-168-224-150.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-11-08 18:54:16	<--	vosechu (~Adium@c-67-168-224-150.hsd1.or.comcast.net) has quit (Client Quit)
+2013-11-08 18:54:33	<--	criskelly (~criskelly@67.137.49.162) has quit (Quit: criskelly)
+2013-11-08 19:45:04	-->	pandit_joshi (~joshuafin@c-76-115-43-126.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-11-08 19:47:03	-->	ThirdAndjel_ (~Vera@89.142.33.180) has joined #portlandcodeschool
+2013-11-08 19:49:25	<--	ThirdAndjel (~Vera@89.142.33.180) has quit (Ping timeout: 248 seconds)
+2013-11-08 19:49:26	--	ThirdAndjel_ is now known as ThirdAndjel
+2013-11-08 19:55:26	-->	criskelly (~criskelly@67.137.49.162) has joined #portlandcodeschool
+2013-11-08 20:21:13	<--	pandit_joshi (~joshuafin@c-76-115-43-126.hsd1.or.comcast.net) has quit (Quit: pandit_joshi)
+2013-11-08 20:26:55	-->	pandit_joshi (~joshuafin@c-76-115-43-126.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-11-08 20:35:11	-->	ybba (~ybba@c-50-137-180-122.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-11-08 20:53:35	-->	nilesvm (~nmcgiver@c-76-105-211-217.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-11-08 20:57:48	<--	nilesvm (~nmcgiver@c-76-105-211-217.hsd1.or.comcast.net) has quit (Ping timeout: 244 seconds)
+2013-11-08 21:16:28	<--	criskelly (~criskelly@67.137.49.162) has quit (Quit: criskelly)
+2013-11-08 21:25:46	<--	pandit_joshi (~joshuafin@c-76-115-43-126.hsd1.or.comcast.net) has quit (Quit: pandit_joshi)
+2013-11-08 21:53:28	<--	ybba (~ybba@c-50-137-180-122.hsd1.or.comcast.net) has quit (Remote host closed the connection)
+2013-11-08 21:54:01	-->	ybba (~ybba@2601:7:1500:131:910f:af4c:d820:f726) has joined #portlandcodeschool
+2013-11-08 21:58:14	<--	ybba (~ybba@2601:7:1500:131:910f:af4c:d820:f726) has quit (Ping timeout: 240 seconds)
+2013-11-08 22:35:27	-->	nilesvm (~nmcgiver@c-76-105-211-217.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-11-08 22:40:26	<--	nilesvm (~nmcgiver@c-76-105-211-217.hsd1.or.comcast.net) has quit (Ping timeout: 264 seconds)
+2013-11-08 22:43:41	-->	nilesvm (~nmcgiver@c-76-105-211-217.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-11-08 22:43:55	<--	nilesvm (~nmcgiver@c-76-105-211-217.hsd1.or.comcast.net) has quit (Client Quit)
+2013-11-09 02:04:36	--	irc: disconnected from server
+2013-11-09 02:05:09	-->	JSON_voorhees (~JSON_voor@75-92-170-26.war.clearwire-wmx.net) has joined #portlandcodeschool
+2013-11-09 02:05:09	--	Topic for #portlandcodeschool is "Saturday, Nov. 2 from 10am-4pm, Review time. Destroy those demons of JavaScript doubt at Burnside Digital. Mentors provided!"
+2013-11-09 02:05:09	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-zmivuiozwzvmgoxe) on Mon, 28 Oct 2013 15:51:00
+2013-11-09 02:05:09	--	Nicks #portlandcodeschool: [benVerble chrisdickinson dlmanning erkstyn faddah hackygolucky JSON_voorhees pcs_hubot shawnacscott Wraithan ZenWraithBot]
+2013-11-09 02:05:09	--	Channel #portlandcodeschool: 11 nicks (0 ops, 0 halfops, 0 voices, 11 normals)
+2013-11-09 02:05:27	--	Mode #portlandcodeschool [+ns]
+2013-11-09 02:05:27	--	Channel created on Fri, 26 Apr 2013 12:36:26
+2013-11-09 02:22:17	--	irc: disconnected from server
+2013-11-09 02:22:51	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-11-09 02:22:51	--	Topic for #portlandcodeschool is "Saturday, Nov. 2 from 10am-4pm, Review time. Destroy those demons of JavaScript doubt at Burnside Digital. Mentors provided!"
+2013-11-09 02:22:51	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-zmivuiozwzvmgoxe) on Mon, 28 Oct 2013 15:51:00
+2013-11-09 02:22:51	--	Nicks #portlandcodeschool: [benVerble chrisdickinson dlmanning erkstyn faddah hackygolucky JSON_voorhees pcs_hubot shawnacscott Wraithan ZenWraithBot]
+2013-11-09 02:22:51	--	Channel #portlandcodeschool: 11 nicks (0 ops, 0 halfops, 0 voices, 11 normals)
+2013-11-09 02:23:09	--	Mode #portlandcodeschool [+ns]
+2013-11-09 02:23:09	--	Channel created on Fri, 26 Apr 2013 12:36:26
+2013-11-09 10:24:10	--	irc: disconnected from server
+2013-11-09 10:24:43	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-11-09 10:24:43	--	Topic for #portlandcodeschool is "Saturday, Nov. 2 from 10am-4pm, Review time. Destroy those demons of JavaScript doubt at Burnside Digital. Mentors provided!"
+2013-11-09 10:24:43	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-zmivuiozwzvmgoxe) on Mon, 28 Oct 2013 15:51:00
+2013-11-09 10:24:43	--	Nicks #portlandcodeschool: [chrisdickinson dlmanning erkstyn faddah hackygolucky JSON_voorhees nilesvm pcs_hubot shawnacscott ThirdAndjel Wraithan ybba ZenWraithBot]
+2013-11-09 10:24:43	--	Channel #portlandcodeschool: 13 nicks (0 ops, 0 halfops, 0 voices, 13 normals)
+2013-11-09 10:25:01	--	Mode #portlandcodeschool [+ns]
+2013-11-09 10:25:01	--	Channel created on Fri, 26 Apr 2013 12:36:26
+2013-11-09 10:26:55	-->	kaijarayne (~kaijarayn@67.137.49.162) has joined #portlandcodeschool
+2013-11-09 10:27:00	-->	curriedav (~curriedav@67.137.49.162) has joined #portlandcodeschool
+2013-11-09 10:27:21	-->	grumancik (~grumancik@67.137.49.162) has joined #portlandcodeschool
+2013-11-09 10:27:35	-->	pandit_joshi (~joshuafin@67.137.49.162) has joined #portlandcodeschool
+2013-11-09 10:31:00	-->	ageoldpun (~paul@67.137.49.162) has joined #portlandcodeschool
+2013-11-09 10:33:18	nilesvm	Here are 2 podcasts about pair programming they are useful for anyone who programs (not just ruby folks) 
+2013-11-09 10:33:19	nilesvm	http://rubyrogues.com/026-rr-pair-programming/
+2013-11-09 10:33:25	nilesvm	http://rubyrogues.com/126-rr-remote-pair-programming-with-sam-livingston-gray/
+2013-11-09 10:36:40	nilesvm	If you only watch one video on pair programming it should be this one: http://www.youtube.com/watch?v=dYBjVTMUQY0
+2013-11-09 10:37:14	nilesvm	"Spooning by bitbucket"
+2013-11-09 10:37:39	kaijarayne	thanks niles!
+2013-11-09 10:37:58	kaijarayne	nilesvm I should say
+2013-11-09 10:40:09	nilesvm	kaijarayne : You'll really thank me when you watch the youtube video
+2013-11-09 10:40:26	kaijarayne	aww geez
+2013-11-09 10:40:27	nilesvm	especially around 0:36
+2013-11-09 10:40:44	grumancik	:)
+2013-11-09 10:41:14	kaijarayne	hahaha
+2013-11-09 10:41:38	kaijarayne	oh nilesvm
+2013-11-09 10:41:43	kaijarayne	that's a gem
+2013-11-09 10:41:51	Wraithan	nilesvm: haven't listened to the podcast, but pairing is hard
+2013-11-09 10:42:22	nilesvm	It seems like it's a really intensive process. 
+2013-11-09 10:42:28	Wraithan	It takes a high level of compatability, and even then it is a learned skill and may lower productivity when you first start with a new person
+2013-11-09 10:42:34	nilesvm	I don't know how ppl do it for 8 hours a day.
+2013-11-09 10:44:02	Wraithan	A friend of mine at a couple companies ago, he and I pair programmed multiple times a week. We had a hard time getting past 5-6 hours
+2013-11-09 10:44:25	-->	Auraelius (~Auraelius@67.137.49.162) has joined #portlandcodeschool
+2013-11-09 10:44:30	-->	derekcerretani (~derekcerr@67.137.49.162) has joined #portlandcodeschool
+2013-11-09 10:44:32	nilesvm	Wraithan did you have the same editor and configuration?
+2013-11-09 10:44:36	Wraithan	nilesvm: no
+2013-11-09 10:45:30	Wraithan	The driver was on their own computer, the pilot sat next to them looking at the same screen
+2013-11-09 10:46:44	Wraithan	There are different takes on it
+2013-11-09 10:46:49	nilesvm	http://exercism.io/ - good site on how to build your pair programming chops
+2013-11-09 10:47:28	nilesvm	Wraithan What % of shops in pdx use pair programming
+2013-11-09 10:47:35	Wraithan	nilesvm: no clue
+2013-11-09 10:49:19	Wraithan	nilesvm: that site looks like it has nothing to do with pair programming
+2013-11-09 10:49:35	Wraithan	That is about code review and such
+2013-11-09 10:50:41	nilesvm	wraithan sorry its for practicing/receiving code review from another person
+2013-11-09 10:54:48	<--	pcs_hubot (~nodebot@ec2-54-234-188-48.compute-1.amazonaws.com) has quit (Remote host closed the connection)
+2013-11-09 10:55:03	-->	pcs_hubot (~nodebot@ec2-54-225-32-225.compute-1.amazonaws.com) has joined #portlandcodeschool
+2013-11-09 10:56:50	nilesvm	Wraithan how do you feel about pair programming in a hammock.
+2013-11-09 10:58:03	Wraithan	nilesvm: the bitbucket video is cute, was an april fools a couple years ago iirc
+2013-11-09 10:58:41	-->	andrewdu (~andrewdu@67.137.49.162) has joined #portlandcodeschool
+2013-11-09 11:16:29	<--	pandit_joshi (~joshuafin@67.137.49.162) has quit (Quit: pandit_joshi)
+2013-11-09 11:20:56	-->	pandit_joshi (~joshuafin@67.137.49.162) has joined #portlandcodeschool
+2013-11-09 11:22:32	<--	pandit_joshi (~joshuafin@67.137.49.162) has quit (Client Quit)
+2013-11-09 11:42:29	--	irc: disconnected from server
+2013-11-09 11:43:02	-->	JSON_voorhees (~JSON_voor@c-24-21-166-2.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-11-09 11:43:02	--	Topic for #portlandcodeschool is "Saturday, Nov. 2 from 10am-4pm, Review time. Destroy those demons of JavaScript doubt at Burnside Digital. Mentors provided!"
+2013-11-09 11:43:02	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-zmivuiozwzvmgoxe) on Mon, 28 Oct 2013 15:51:00
+2013-11-09 11:43:02	--	Nicks #portlandcodeschool: [ageoldpun Auraelius chrisdickinson curriedav derekcerretani dlmanning erkstyn faddah grumancik hackygolucky JSON_voorhees kaijarayne nilesvm pcs_hubot shawnacscott ThirdAndjel Wraithan ybba ZenWraithBot]
+2013-11-09 11:43:02	--	Channel #portlandcodeschool: 19 nicks (0 ops, 0 halfops, 0 voices, 19 normals)
+2013-11-09 11:43:20	--	Mode #portlandcodeschool [+ns]
+2013-11-09 11:43:20	--	Channel created on Fri, 26 Apr 2013 12:36:26
+2013-11-09 11:49:04	hackygolucky	mornin'
+2013-11-09 11:49:26	hackygolucky	Sorry I couldn't hang out in PCS today, felt like I was neglecting my pyladies
+2013-11-09 11:49:45	-->	andrewdu (~andrewdu@67.137.49.162) has joined #portlandcodeschool
+2013-11-09 11:50:21	hackygolucky	nilesvm Wraithan re: pair programming, we do it once in a while on our team when there's something -especially- hairy going on so that we'll learn from it for future prosperity
+2013-11-09 11:50:46	hackygolucky	it's wonderful in little spurts, but yeah, I can't imagine doing it all day every day.
+2013-11-09 11:57:20	<--	derekcerretani (~derekcerr@67.137.49.162) has quit (Quit: derekcerretani)
+2013-11-09 11:59:50	<--	andrewdu (~andrewdu@67.137.49.162) has quit (Quit: andrewdu)
+2013-11-09 12:01:31	-->	derekcerretani (~derekcerr@67.137.49.162) has joined #portlandcodeschool
+2013-11-09 12:04:58	kaijarayne	hackygolucky we miss you, but understand!
+2013-11-09 12:06:40	-->	andrewdu (~andrewdu@67.137.49.162) has joined #portlandcodeschool
+2013-11-09 12:12:10	-->	theoretick (~theoretic@c-98-246-155-212.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-11-09 12:16:31	<--	derekcerretani (~derekcerr@67.137.49.162) has quit (Quit: derekcerretani)
+2013-11-09 12:18:02	<--	andrewdu (~andrewdu@67.137.49.162) has quit (Quit: andrewdu)
+2013-11-09 12:18:47	-->	derekcerretani (~derekcerr@67.137.49.162) has joined #portlandcodeschool
+2013-11-09 12:19:29	<--	derekcerretani (~derekcerr@67.137.49.162) has quit (Client Quit)
+2013-11-09 12:32:30	<--	grumancik (~grumancik@67.137.49.162) has quit (Quit: grumancik)
+2013-11-09 12:35:50	-->	derekcerretani (~derekcerr@67.137.49.162) has joined #portlandcodeschool
+2013-11-09 12:38:53	<--	curriedav (~curriedav@67.137.49.162) has quit (Remote host closed the connection)
+2013-11-09 12:39:38	-->	curriedav (~curriedav@67.137.49.162) has joined #portlandcodeschool
+2013-11-09 12:41:31	-->	grumancik (~grumancik@67.137.49.162) has joined #portlandcodeschool
+2013-11-09 12:42:35	<--	theoretick (~theoretic@c-98-246-155-212.hsd1.or.comcast.net) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-11-09 13:15:59	--	irc: disconnected from server
+2013-11-09 13:16:33	-->	JSON_voorhees (~JSON_voor@75-92-170-26.war.clearwire-wmx.net) has joined #portlandcodeschool
+2013-11-09 13:16:33	--	Topic for #portlandcodeschool is "Saturday, Nov. 2 from 10am-4pm, Review time. Destroy those demons of JavaScript doubt at Burnside Digital. Mentors provided!"
+2013-11-09 13:16:33	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-zmivuiozwzvmgoxe) on Mon, 28 Oct 2013 15:51:00
+2013-11-09 13:16:33	--	Nicks #portlandcodeschool: [ageoldpun Auraelius benVerble chrisdickinson curriedav derekcerretani dlmanning erkstyn faddah grumancik hackygolucky JSON_voorhees kaijarayne pcs_hubot shawnacscott ThirdAndjel Wraithan ybba ZenWraithBot]
+2013-11-09 13:16:33	--	Channel #portlandcodeschool: 19 nicks (0 ops, 0 halfops, 0 voices, 19 normals)
+2013-11-09 13:16:36	<--	benVerble (~benVerble@184-76-30-173.war.clearwire-wmx.net) has quit (Ping timeout: 272 seconds)
+2013-11-09 13:16:51	--	Mode #portlandcodeschool [+ns]
+2013-11-09 13:16:51	--	Channel created on Fri, 26 Apr 2013 12:36:26
+2013-11-09 13:19:03	-->	nilesvm (~nmcgiver@67.137.49.162) has joined #portlandcodeschool
+2013-11-09 13:22:59	<--	curriedav (~curriedav@67.137.49.162) has quit (Remote host closed the connection)
+2013-11-09 13:23:34	-->	curriedav (~curriedav@67.137.49.162) has joined #portlandcodeschool
+2013-11-09 13:24:25	Wraithan	hackygolucky: i think that doing pair programming at least once a week, if not more, since you are all colocated
+2013-11-09 13:25:04	Wraithan	is ideal. it really gets code base knowledge spread out
+2013-11-09 13:27:40	<--	curriedav (~curriedav@67.137.49.162) has quit (Ping timeout: 245 seconds)
+2013-11-09 13:34:18	<--	derekcerretani (~derekcerr@67.137.49.162) has quit (Quit: derekcerretani)
+2013-11-09 13:38:17	-->	curriedav (~curriedav@67.137.49.162) has joined #portlandcodeschool
+2013-11-09 13:48:46	--	irc: disconnected from server
+2013-11-09 13:49:20	-->	JSON_voorhees (~JSON_voor@71-20-35-93.war.clearwire-wmx.net) has joined #portlandcodeschool
+2013-11-09 13:49:20	--	Topic for #portlandcodeschool is "Saturday, Nov. 2 from 10am-4pm, Review time. Destroy those demons of JavaScript doubt at Burnside Digital. Mentors provided!"
+2013-11-09 13:49:20	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-zmivuiozwzvmgoxe) on Mon, 28 Oct 2013 15:51:00
+2013-11-09 13:49:20	--	Nicks #portlandcodeschool: [ageoldpun andrewdu Auraelius chrisdickinson curriedav derekcerretani dlmanning erkstyn faddah grumancik hackygolucky JSON_voorhees kaijarayne nilesvm pcs_hubot shawnacscott ThirdAndjel ThirdAndjel_ Wraithan ybba ZenWraithBot]
+2013-11-09 13:49:20	--	Channel #portlandcodeschool: 21 nicks (0 ops, 0 halfops, 0 voices, 21 normals)
+2013-11-09 13:49:38	--	Mode #portlandcodeschool [+ns]
+2013-11-09 13:49:39	--	Channel created on Fri, 26 Apr 2013 12:36:26
+2013-11-09 13:50:51	<--	ThirdAndjel (~Vera@89.142.241.117) has quit (Ping timeout: 264 seconds)
+2013-11-09 13:50:52	--	ThirdAndjel_ is now known as ThirdAndjel
+2013-11-09 13:52:51	<--	grumancik (~grumancik@67.137.49.162) has quit (Quit: grumancik)
+2013-11-09 13:56:22	<--	andrewdu (~andrewdu@67.137.49.162) has quit (Quit: andrewdu)
+2013-11-09 14:07:59	-->	andrewdu (~andrewdu@67.137.49.162) has joined #portlandcodeschool
+2013-11-09 14:09:43	-->	grumancik (~grumancik@67.137.49.162) has joined #portlandcodeschool
+2013-11-09 14:13:55	<--	Auraelius (~Auraelius@67.137.49.162) has quit (Quit: Auraelius)
+2013-11-09 14:16:07	-->	Auraelius (~Auraelius@67.137.49.162) has joined #portlandcodeschool
+2013-11-09 14:16:22	-->	criskelly (~criskelly@67.137.49.162) has joined #portlandcodeschool
+2013-11-09 14:28:59	<--	criskelly (~criskelly@67.137.49.162) has quit (Quit: criskelly)
+2013-11-09 14:50:52	-->	benVerble (~benVerble@184-76-30-173.war.clearwire-wmx.net) has joined #portlandcodeschool
+2013-11-09 14:50:52	faddah	me: working on trying to figure recursion into coding problem that has too many nested if-else's + for loops.
+2013-11-09 15:26:16	<--	faddah (~faddah@c-98-246-204-27.hsd1.or.comcast.net) has left #portlandcodeschool
+2013-11-09 15:54:36	<--	grumancik (~grumancik@67.137.49.162) has quit (Quit: grumancik)
+2013-11-09 15:59:12	-->	grumancik (~grumancik@67.137.49.162) has joined #portlandcodeschool
+2013-11-09 15:59:42	nilesvm	Holy crap http://www.regexplained.co.uk/ is awesome
+2013-11-09 16:09:36	shawnacscott	I put this on Google+ for later reference, but her is ridiculous weirdness you can do with regex: http://sed.sourceforge.net/
+2013-11-09 16:10:34	Wraithan	sed is neat
+2013-11-09 16:11:53	<--	curriedav (~curriedav@67.137.49.162) has quit (Remote host closed the connection)
+2013-11-09 16:12:27	-->	curriedav (~curriedav@67.137.49.162) has joined #portlandcodeschool
+2013-11-09 16:13:18	<--	nilesvm (~nmcgiver@67.137.49.162) has quit (Quit: nilesvm)
+2013-11-09 16:13:53	<--	grumancik (~grumancik@67.137.49.162) has quit (Quit: grumancik)
+2013-11-09 16:13:56	<--	kaijarayne (~kaijarayn@67.137.49.162) has quit (Quit: kaijarayne)
+2013-11-09 16:13:56	<--	andrewdu (~andrewdu@67.137.49.162) has quit (Quit: andrewdu)
+2013-11-09 16:14:22	<--	ageoldpun (~paul@67.137.49.162) has quit (Quit: Leaving)
+2013-11-09 16:14:35	<--	ybba (~ybba@67.137.49.162) has quit (Remote host closed the connection)
+2013-11-09 16:16:28	<--	curriedav (~curriedav@67.137.49.162) has quit (Ping timeout: 240 seconds)
+2013-11-09 16:16:57	<--	derekcerretani (~derekcerr@67.137.49.162) has quit (Quit: derekcerretani)
+2013-11-09 16:24:40	<--	Auraelius (~Auraelius@67.137.49.162) has quit (Quit: Auraelius)
+2013-11-09 17:32:07	<--	benVerble (~benVerble@184-76-30-173.war.clearwire-wmx.net) has quit (Ping timeout: 252 seconds)
+2013-11-09 17:40:00	<--	ThirdAndjel (~Vera@89.142.241.117) has quit (Quit: ThirdAndjel)
+2013-11-09 17:49:12	-->	derekcerretani (~derekcerr@c-76-115-57-191.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-11-09 18:00:18	-->	benVerble (~benVerble@184-76-30-173.war.clearwire-wmx.net) has joined #portlandcodeschool
+2013-11-09 18:07:02	<--	benVerble (~benVerble@184-76-30-173.war.clearwire-wmx.net) has quit (Ping timeout: 265 seconds)
+2013-11-09 18:53:42	-->	vosechu (~Adium@c-67-168-224-150.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-11-09 19:37:20	<--	derekcerretani (~derekcerr@c-76-115-57-191.hsd1.or.comcast.net) has quit (Quit: derekcerretani)
+2013-11-09 19:47:09	<--	vosechu (~Adium@c-67-168-224-150.hsd1.or.comcast.net) has quit (Quit: Leaving.)
+2013-11-09 19:56:24	-->	vosechu (~Adium@c-67-168-224-150.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-11-09 20:05:33	-->	benVerble (~benVerble@184-76-30-173.war.clearwire-wmx.net) has joined #portlandcodeschool
+2013-11-09 20:11:05	<--	benVerble (~benVerble@184-76-30-173.war.clearwire-wmx.net) has quit (Ping timeout: 272 seconds)
+2013-11-09 21:10:17	-->	derekcerretani (~derekcerr@c-76-115-57-191.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-11-09 21:41:07	-->	andrewdu (~andrewdu@c-76-115-17-72.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-11-10 08:29:53	--	irc: disconnected from server
+2013-11-10 08:30:24	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-11-10 08:30:24	--	Topic for #portlandcodeschool is "Saturday, Nov. 2 from 10am-4pm, Review time. Destroy those demons of JavaScript doubt at Burnside Digital. Mentors provided!"
+2013-11-10 08:30:24	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-zmivuiozwzvmgoxe) on Mon, 28 Oct 2013 15:51:00
+2013-11-10 08:30:24	--	Nicks #portlandcodeschool: [chrisdickinson dlmanning erkstyn hackygolucky JSON_voorhees pcs_hubot shawnacscott Wraithan ZenWraithBot]
+2013-11-10 08:30:24	--	Channel #portlandcodeschool: 9 nicks (0 ops, 0 halfops, 0 voices, 9 normals)
+2013-11-10 08:30:42	--	Mode #portlandcodeschool [+ns]
+2013-11-10 08:30:42	--	Channel created on Fri, 26 Apr 2013 12:36:26
+2013-11-10 08:52:45	-->	vosechu (~Adium@c-67-168-224-150.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-11-10 09:00:31	<--	vosechu (~Adium@c-67-168-224-150.hsd1.or.comcast.net) has quit (Quit: Leaving.)
+2013-11-10 11:26:38	--	irc: disconnected from server
+2013-11-10 12:51:05	-->	JSON_voorhees (~JSON_voor@c-71-237-213-89.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-11-10 12:51:05	--	Topic for #portlandcodeschool is "Saturday, Nov. 2 from 10am-4pm, Review time. Destroy those demons of JavaScript doubt at Burnside Digital. Mentors provided!"
+2013-11-10 12:51:05	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-zmivuiozwzvmgoxe) on Mon, 28 Oct 2013 15:51:00
+2013-11-10 12:51:05	--	Nicks #portlandcodeschool: [andrewdu chrisdickinson dlmanning erkstyn hackygolucky johannhann JSON_voorhees nilesvm pcs_hubot shawnacscott vosechu Wraithan ZenWraithBot]
+2013-11-10 12:51:05	--	Channel #portlandcodeschool: 13 nicks (0 ops, 0 halfops, 0 voices, 13 normals)
+2013-11-10 12:51:23	--	Mode #portlandcodeschool [+ns]
+2013-11-10 12:51:23	--	Channel created on Fri, 26 Apr 2013 12:36:26
+2013-11-10 12:54:39	-->	pandit_joshi (~joshuafin@c-76-115-43-126.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-11-10 13:07:32	-->	ColinDabritz (~ColinDabr@c-67-160-136-70.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-11-10 13:58:58	<--	andrewdu (~andrewdu@c-76-115-17-72.hsd1.or.comcast.net) has quit (Quit: andrewdu)
+2013-11-10 13:59:45	-->	kaijarayne_ (~kaijarayn@c-24-20-194-177.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-11-10 14:05:48	-->	styger (~textual@107-1-105-38-ip-static.hfc.comcastbusiness.net) has joined #portlandcodeschool
+2013-11-10 14:07:28	<--	vosechu (~Adium@c-67-168-224-150.hsd1.or.comcast.net) has quit (Quit: Leaving.)
+2013-11-10 14:21:27	<--	pandit_joshi (~joshuafin@c-76-115-43-126.hsd1.or.comcast.net) has quit (Quit: pandit_joshi)
+2013-11-10 14:24:39	<--	nilesvm (~nmcgiver@c-76-105-211-217.hsd1.or.comcast.net) has quit (Quit: nilesvm)
+2013-11-10 14:29:16	<--	ColinDabritz (~ColinDabr@c-67-160-136-70.hsd1.or.comcast.net) has quit (Quit: ColinDabritz)
+2013-11-10 14:38:14	-->	nilesvm (~nmcgiver@c-76-105-211-217.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-11-10 14:51:40	--	irc: disconnected from server
+2013-11-10 14:52:11	-->	JSON_voorhees (~JSON_voor@c-71-237-213-89.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-11-10 14:52:11	--	Topic for #portlandcodeschool is "Saturday, Nov. 2 from 10am-4pm, Review time. Destroy those demons of JavaScript doubt at Burnside Digital. Mentors provided!"
+2013-11-10 14:52:11	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-zmivuiozwzvmgoxe) on Mon, 28 Oct 2013 15:51:00
+2013-11-10 14:52:11	--	Nicks #portlandcodeschool: [chrisdickinson dlmanning erkstyn hackygolucky johannhann JSON_voorhees kaijarayne_ pcs_hubot shawnacscott styger Wraithan ZenWraithBot]
+2013-11-10 14:52:11	--	Channel #portlandcodeschool: 12 nicks (0 ops, 0 halfops, 0 voices, 12 normals)
+2013-11-10 14:52:29	--	Mode #portlandcodeschool [+ns]
+2013-11-10 14:52:29	--	Channel created on Fri, 26 Apr 2013 12:36:26
+2013-11-10 15:00:30	-->	vosechu (~Adium@c-67-168-224-150.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-11-10 15:03:03	<--	vosechu (~Adium@c-67-168-224-150.hsd1.or.comcast.net) has quit (Client Quit)
+2013-11-10 15:07:13	-->	vosechu (~Adium@c-67-168-224-150.hsd1.or.comcast.net) has joined #portlandcodeschool
+2013-11-10 15:13:21	-->	badascii (~jordan@c-24-21-206-250.hsd1.or.comcast.net) has joined #portlandcodeschool

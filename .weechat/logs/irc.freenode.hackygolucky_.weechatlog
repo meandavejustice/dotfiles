@@ -1,0 +1,216 @@
+2013-07-26 14:39:58	hackygolucky_	I'll go bug him about the drawings
+2013-07-26 14:47:03	JSON_voorheez	sweet! and if you could get that gist link he did that would be dope...
+2013-07-26 14:47:20	JSON_voorheez	I'm gunna try to rework this color sensor to work with 6 different leds
+2013-07-26 14:47:32	JSON_voorheez	I'll probably just fork it, modify and put it on npm
+2013-07-26 14:52:19	JSON_voorheez	this sux
+2013-07-26 14:58:07	hackygolucky_	it sucks because we don't have the stuff ready? or that it's hard?
+2013-07-26 14:58:22	hackygolucky_	I should have asked adam to redo the frietzig diagram
+2013-07-26 14:58:27	hackygolucky_	he's the one who worked on it with nexxy
+2013-07-26 14:58:29	hackygolucky_	:-/
+2013-07-26 14:58:38	JSON_voorheez	that we don't have anything ready
+2013-07-26 14:58:48	JSON_voorheez	im fine with hard :)
+2013-07-26 14:59:03	JSON_voorheez	I just thought we had a beginners track _ready_
+2013-07-26 14:59:03	hackygolucky_	Sorry. Everyone's been busy...
+2013-07-26 14:59:09	hackygolucky_	yeah, we did too
+2013-07-26 14:59:15	JSON_voorheez	I know, but it is tomorrow
+2013-07-26 14:59:22	hackygolucky_	until that rgb led order discovery happened
+2013-07-26 14:59:34	hackygolucky_	yurp
+2013-07-26 14:59:36	hackygolucky_	so.
+2013-07-26 14:59:43	hackygolucky_	we COULD publish as is.
+2013-07-26 14:59:52	JSON_voorheez	i know, i'm hacking a new one together right now
+2013-07-26 14:59:56	JSON_voorheez	in dis coffeeshop
+2013-07-26 15:00:00	hackygolucky_	heh
+2013-07-26 15:00:09	hackygolucky_	well, if it gets too stressful, seriously don't worry about it.
+2013-07-26 15:00:12	hackygolucky_	just publish as-is.
+2013-07-26 15:00:19	JSON_voorheez	nah I can do it :)
+2013-07-26 15:00:31	hackygolucky_	alright...
+2013-07-26 15:00:42	JSON_voorheez	my roommate is in here with me and shit is super embarresed
+2013-07-26 15:00:43	JSON_voorheez	haha
+2013-07-26 15:00:45	hackygolucky_	Chris is almost out of a thing, and then I'll bug him about the drawings
+2013-07-26 15:00:46	hackygolucky_	cool?
+2013-07-26 15:00:53	JSON_voorheez	perf!
+2013-07-26 15:01:24	JSON_voorheez	I'm not angry with anyone just to make that clear 
+2013-07-26 15:03:05	hackygolucky_	I know, but there's a bunch of cooks in the kitchen. Or pigs in the pen. It's hard to wrangle a bunch of wily greasy pigs
+2013-07-26 15:03:08	hackygolucky_	:P
+2013-07-26 15:04:10	JSON_voorheez	haha indeed
+2013-07-26 15:36:56	--	irc: disconnected from server
+2013-07-26 18:09:19	--	irc: disconnected from server
+2013-07-27 01:12:21	--	irc: disconnected from server
+2013-07-27 01:45:09	--	irc: disconnected from server
+2013-08-01 20:13:34	hackygolucky_	hahahahahaha
+2013-08-01 20:13:47	hackygolucky_	 you're gonna make me bust out laughing in the middle of this.
+2013-09-25 13:19:39	hackygolucky_	So I'm trying to figure out whether this will be worth my time
+2013-09-25 13:19:56	hackygolucky_	is modifying wordpress sites a pain in the ass?
+2013-09-25 13:20:12	JSON_voorhees	depends on how it was built
+2013-09-25 13:20:18	hackygolucky_	the dude wants some plugins. I don't think I have to do a whole rewrite.
+2013-09-25 13:20:20	JSON_voorhees	but you shouldn't have much trouble
+2013-09-25 13:20:38	JSON_voorhees	what kind of stuff is he trying to add?
+2013-09-25 13:20:40	hackygolucky_	mind me asking how much you charged when you were doing wordprss work?
+2013-09-25 13:20:52	JSON_voorhees	hmm
+2013-09-25 13:20:53	hackygolucky_	all he's said so far is something regarding Instagram
+2013-09-25 13:21:04	JSON_voorhees	lemme think
+2013-09-25 13:21:05	hackygolucky_	assuming he just wants third party api stuff.
+2013-09-25 13:21:37	hackygolucky_	I'm also trying to assess whether I even care to do this. I'm looking for experience more than I'm looking for dollars.
+2013-09-25 13:21:49	JSON_voorhees	I probably wouldn't charge much to just add in somethings, I would probably do an hourly thing for that
+2013-09-25 13:22:43	JSON_voorhees	what are you looking for experience wise?
+2013-09-25 13:23:03	JSON_voorhees	to work with instagram api? or to work with a client?
+2013-09-25 13:24:02	hackygolucky_	to get general experience with contract work but really any web dev that isn't EXACTLY what I'm doing at UA. 
+2013-09-25 13:25:07	JSON_voorhees	i see
+2013-09-25 13:25:08	JSON_voorhees	cool
+2013-09-25 13:25:40	JSON_voorhees	probably wouldn't be bad to learn your way around wordpress sites
+2013-09-25 13:25:54	JSON_voorhees	it is a wordpress site and not a wordpress blog right?
+2013-09-25 13:26:06	JSON_voorhees	cus you have pretty much no control over the blogs
+2013-09-25 13:27:54	hackygolucky_	I think it's a site http://thebencarter.com/
+2013-09-25 13:28:23	hackygolucky_	I have never stepped foot near Wordpress, though I had been told it was a great way to get started moons ago.
+2013-09-25 13:30:56	JSON_voorhees	yeah u should do it
+2013-09-25 13:31:10	hackygolucky_	Most excellent.
+2013-09-25 13:31:12	hackygolucky_	thanks!
+2013-09-25 20:16:48	--	irc: disconnected from server
+2013-09-25 23:54:50	<--	hackygolucky_ (uid11034@gateway/web/irccloud.com/x-uyeekbbdcizajznd) has quit (Ping timeout: 268 seconds)
+2013-09-26 10:46:32	--	irc: disconnected from server
+2013-09-26 18:06:36	--	irc: disconnected from server
+2013-09-26 20:24:04	--	irc: disconnected from server
+2013-09-26 21:36:13	--	irc: disconnected from server
+2013-09-27 02:13:28	--	irc: disconnected from server
+2013-09-27 11:15:03	--	irc: disconnected from server
+2013-09-27 17:36:00	--	irc: disconnected from server
+2013-09-28 01:11:37	--	irc: disconnected from server
+2013-09-28 13:02:44	--	irc: disconnected from server
+2013-09-28 13:14:30	--	irc: disconnected from server
+2013-09-29 16:58:40	--	irc: disconnected from server
+2013-09-29 21:49:36	<--	hackygolucky_ (uid11034@gateway/web/irccloud.com/x-ufxcmaxmboijjnzr) has quit (*.net *.split)
+2013-09-29 21:50:15	-->	hackygolucky_ (uid11034@gateway/web/irccloud.com/x-bozqtgsepndomrnv) is back on server
+2013-09-30 03:05:53	--	irc: disconnected from server
+2013-09-30 09:39:29	--	irc: disconnected from server
+2013-09-30 18:46:43	--	irc: disconnected from server
+2013-10-01 17:49:00	hackygolucky_	hah, email son.
+2013-10-01 17:49:15	hackygolucky_	the pdxnode organizer lunch you never rsvped for :)
+2013-10-01 17:49:24	hackygolucky_	you don't have to come, but you are invited
+2013-10-01 17:51:18	JSON_voorhees	oh shit yeah I'm comin!
+2013-10-01 17:51:26	hackygolucky_	good good
+2013-10-01 17:51:30	JSON_voorhees	totally forgot ugh
+2013-10-01 17:51:33	hackygolucky_	chris dickinson isn't good with email
+2013-10-01 17:51:40	JSON_voorhees	we have that in common
+2013-10-01 17:51:41	hackygolucky_	so I was following up with everyone who didn't rsvp :)
+2013-10-01 17:51:56	hackygolucky_	also, you're in for the hacker train, yeah?
+2013-10-01 17:52:00	hackygolucky_	I'm trying to get a head count
+2013-10-01 17:52:34	JSON_voorhees	yeah if i get my passport!
+2013-10-01 17:52:42	hackygolucky_	my brother is in the same boat
+2013-10-01 17:52:45	hackygolucky_	you get it expedited?
+2013-10-01 17:52:50	JSON_voorhees	nope :(
+2013-10-01 17:52:54	hackygolucky_	:(
+2013-10-01 17:52:57	JSON_voorhees	yeah...
+2013-10-01 17:53:00	hackygolucky_	can you change that?
+2013-10-01 17:53:08	JSON_voorhees	don't think so, but I'll check
+2013-10-01 17:53:13	hackygolucky_	cool
+2013-10-01 17:53:28	JSON_voorhees	it was timed so that I would get it 1st of november at the latest
+2013-10-01 17:53:35	JSON_voorhees	but now who knows
+2013-10-01 17:53:44	hackygolucky_	hrm. I know they're talking crazy shit, but honestly I think it'll be fine.
+2013-10-01 17:54:01	hackygolucky_	what are you up to tonight?
+2013-10-01 17:54:14	hackygolucky_	a couple of us are hacking at swift lounge
+2013-10-01 17:54:31	JSON_voorhees	didn't have anything planned
+2013-10-01 17:54:34	hackygolucky_	it's loud as shit but the drinks are good. we==wraithan, chris, jim, and our coworker russell
+2013-10-01 17:54:47	JSON_voorhees	that sounds cool
+2013-10-01 17:54:50	JSON_voorhees	food?
+2013-10-01 17:54:59	hackygolucky_	fuckin tasty
+2013-10-01 17:55:04	JSON_voorhees	aww hell yeah
+2013-10-01 17:55:19	JSON_voorhees	flora did really great today
+2013-10-01 17:55:19	hackygolucky_	I just didn't want to say it in pdxnode because...faddah
+2013-10-01 17:55:22	hackygolucky_	I'm an asshole
+2013-10-01 17:55:23	JSON_voorhees	haha 
+2013-10-01 17:55:25	hackygolucky_	ooh!
+2013-10-01 17:55:26	hackygolucky_	yay!
+2013-10-01 17:55:28	JSON_voorhees	no hes an asshole
+2013-10-01 17:55:29	hackygolucky_	I'm so glad
+2013-10-01 17:55:44	hackygolucky_	I think justin was a little worried about her confidence
+2013-10-01 17:55:48	JSON_voorhees	yeah, I think she's gunna do awesome here
+2013-10-01 17:55:51	hackygolucky_	but she's way better when she's not freaking out
+2013-10-01 17:56:21	JSON_voorhees	i tried to make her feel as comfortable as possible
+2013-10-01 17:56:34	hackygolucky_	much appreciated, I'm sure.
+2013-10-01 17:56:36	JSON_voorhees	we all know she doesn't know know javascript
+2013-10-01 17:56:41	hackygolucky_	heh
+2013-10-01 17:56:46	hackygolucky_	she just knows old javascript
+2013-10-01 17:56:46	JSON_voorhees	she has nothing to worry about 
+2013-10-01 17:56:52	JSON_voorhees	hah yep
+2013-10-01 18:01:10	JSON_voorhees	what time are you going up to swift?
+2013-10-01 18:01:17	hackygolucky_	already here :)
+2013-10-01 18:01:24	JSON_voorhees	oh word
+2013-10-01 18:01:27	hackygolucky_	had to camp out to get a seat
+2013-10-01 18:01:29	JSON_voorhees	i'll be over soon
+2013-10-01 18:01:35	hackygolucky_	cool
+2013-10-01 18:01:35	JSON_voorhees	damn is there room for me!
+2013-10-01 18:32:59	--	irc: disconnected from server
+2013-10-01 22:09:26	--	irc: disconnected from server
+2013-10-02 09:57:17	--	irc: disconnected from server
+2013-10-02 10:48:12	--	irc: disconnected from server
+2013-10-02 12:47:12	hackygolucky_	 if you'd like to mentor for the JS program still, email cris.kelly@gmail.com and express interest. He wants to coordinate this soon :)
+2013-10-02 22:16:27	--	irc: disconnected from server
+2013-10-03 10:04:15	--	irc: disconnected from server
+2013-10-03 12:03:48	--	irc: disconnected from server
+2013-10-04 10:12:16	--	irc: disconnected from server
+2013-10-04 17:58:20	--	irc: disconnected from server
+2013-10-04 20:51:15	--	irc: disconnected from server
+2013-10-05 20:03:09	--	irc: disconnected from server
+2013-10-06 00:03:54	--	irc: disconnected from server
+2013-10-06 09:29:30	--	irc: disconnected from server
+2013-10-07 18:43:16	hackygolucky_	heh, what's up?
+2013-10-07 20:09:05	JSON_voorhees	what kind of issues are you having with require?
+2013-10-07 20:11:53	hackygolucky_	fucking error swallowing
+2013-10-07 20:12:05	hackygolucky_	so chris recommended I do a try/catch
+2013-10-07 20:12:26	hackygolucky_	but am I looking in the browser for the error then? on the command line?
+2013-10-07 20:12:39	hackygolucky_	I can't wrap the whole file in that
+2013-10-07 20:12:48	hackygolucky_	so do I wrap everything inside of it?
+2013-10-07 20:13:27	JSON_voorhees	do you know anything about the error? are these from some kind of logging like sentry?
+2013-10-07 20:13:56	hackygolucky_	it's from our test runner, Drive.js
+2013-10-07 20:14:00	hackygolucky_	modeled after mocha
+2013-10-07 20:14:02	JSON_voorhees	I assume the in browser stack trace is too long to hit any actual ua code?
+2013-10-07 20:14:13	JSON_voorhees	ahh
+2013-10-07 20:14:38	JSON_voorhees	so you are trying to catch an error with the test runner, or the actual test?
+2013-10-07 20:14:47	hackygolucky_	I've got the error
+2013-10-07 20:14:52	hackygolucky_	I can't make heads or tails of it
+2013-10-07 20:14:58	JSON_voorhees	ahh
+2013-10-07 20:15:11	hackygolucky_	I'll link the gist
+2013-10-07 20:15:15	JSON_voorhees	yeah
+2013-10-07 20:15:55	hackygolucky_	the test runner result https://gist.github.com/hackygolucky/ed3bfd03b8f217c803c2
+2013-10-07 20:16:15	hackygolucky_	the files are all where they are supposed to be
+2013-10-07 20:16:21	hackygolucky_	but requirejs is putzing out
+2013-10-07 20:16:48	hackygolucky_	also, the Error result is showing a weird url that doesn't exist. it almost looks like it is concatenating urls somehow.
+2013-10-07 20:17:14	JSON_voorhees	god that is weird
+2013-10-07 20:17:16	hackygolucky_	so chris then recommended I wrap the guts of the module in question in a try/catch
+2013-10-07 20:17:24	hackygolucky_	but I can't get anything to produce from that.
+2013-10-07 20:18:47	JSON_voorhees	can you link just the imports in authentication.js?
+2013-10-07 20:19:02	JSON_voorhees	that error is usually just a syntax thing
+2013-10-07 20:19:33	JSON_voorhees	oh just saw your comment
+2013-10-07 20:19:41	JSON_voorhees	you obv. looked at that
+2013-10-07 20:22:05	hackygolucky_	yeah
+2013-10-07 20:22:37	JSON_voorhees	what happens when you wrap that module?
+2013-10-07 20:22:55	hackygolucky_	it just gets angry because it doesn't know how to handle define/require
+2013-10-07 20:23:59	JSON_voorhees	throw a debugger in before that import
+2013-10-07 20:24:19	JSON_voorhees	then see if you can find out a little more in the console
+2013-10-07 20:24:47	JSON_voorhees	you will have to change the imports to lead with var instead of those silly commas for a second though.
+2013-10-07 20:25:54	hackygolucky_	hah
+2013-10-08 01:44:28	--	irc: disconnected from server
+2013-10-08 10:25:47	--	irc: disconnected from server
+2013-10-08 10:38:25	hackygolucky_	thanks for your help on this last night
+2013-10-08 10:38:54	hackygolucky_	I ended up looking at the requirejs docs after I got a requirejs timeout error
+2013-10-08 10:39:02	hackygolucky_	and the classic circular dependency issue came up
+2013-10-08 10:39:37	hackygolucky_	so Good!(that the surface of the problem was discovered) but FUCK ME because now I have to figure out what is circling
+2013-10-08 10:53:22	JSON_voorhees	haha that sucks man
+2013-10-08 10:53:57	hackygolucky_	no kiddin'
+2013-10-08 22:41:51	--	irc: disconnected from server
+2013-10-09 10:33:56	--	irc: disconnected from server
+2013-10-10 00:45:15	--	irc: disconnected from server
+2013-10-23 13:55:04	hackygolucky_	yessir
+2013-10-23 13:55:41	JSON_voorhees	02 OCT 2023
+2013-10-23 13:55:52	hackygolucky_	yay! thanks!
+2013-10-23 13:57:09	JSON_voorhees	yeah dude
+2013-12-13 15:29:10	hackygolucky_	yay! Thanks!
+2013-12-13 15:29:14	hackygolucky_	beer of choice?
+2013-12-13 17:04:58	JSON_voorhees	gunna be 9 o clock
+2013-12-13 17:05:34	hackygolucky_	that's when it starts?
+2013-12-13 17:09:00	JSON_voorhees	yeah
+2013-12-13 17:19:46	hackygolucky_	okey dokey
+2013-12-13 18:45:54	--	irc: disconnected from server
+2013-12-13 21:15:01	--	irc: disconnected from server
+2013-12-13 21:50:17	--	irc: disconnected from server
+2013-12-13 23:09:43	--	irc: disconnected from server

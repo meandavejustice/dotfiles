@@ -1,0 +1,172 @@
+2013-07-25 15:33:45	-->	JSON_voorheez (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-25 15:33:45	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-25 15:33:45	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-25 15:33:45	--	Nicks #pdxnodebots: [adamdicarlo chrisdickinson dlmanning emilyrose greh hackygolucky_ jden jondelamotte JSON_voorhees JSON_voorheez justinabrahms randallagordon s5fs scottjab thoward Wraithan ZenWraithBot]
+2013-07-25 15:33:45	--	Channel #pdxnodebots: 17 nicks (0 ops, 0 halfops, 0 voices, 17 normals)
+2013-07-25 15:33:47	--	Mode #pdxnodebots [+cnt]
+2013-07-25 15:33:47	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-25 15:54:49	emilyrose	fffffffuuuuuuuuuuuu
+2013-07-25 15:57:07	hackygolucky_	emilyrose: :-/
+2013-07-25 15:59:49	emilyrose	hackygolucky_, ^-^
+2013-07-25 15:59:51	emilyrose	kill me no
+2013-07-25 15:59:53	emilyrose	now*
+2013-07-25 16:02:38	hackygolucky_	emilyrose: wha, whyyyyy?
+2013-07-25 16:02:42	hackygolucky_	I don't want to.
+2013-07-25 16:02:45	hackygolucky_	You can't make me.
+2013-07-25 16:05:14	emilyrose	I totally could
+2013-07-25 16:05:58	emilyrose	the schozberries taste like schnozberries
+2013-07-25 21:33:11	--	irc: disconnected from server
+2013-07-25 21:33:42	-->	JSON_voorheez (~JSON_voor@c-24-20-20-150.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-25 21:33:43	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-25 21:33:43	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-25 21:33:43	--	Nicks #pdxnodebots: [chrisdickinson dlmanning emilyrose greh hackygolucky_ jden jondelamotte JSON_voorhees JSON_voorheez justinabrahms randallagordon ridicter s5fs scottjab thoward Wraithan ZenWraithBot]
+2013-07-25 21:33:43	--	Channel #pdxnodebots: 17 nicks (0 ops, 0 halfops, 0 voices, 17 normals)
+2013-07-25 21:33:58	--	Mode #pdxnodebots [+cnt]
+2013-07-25 21:33:58	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-26 14:13:05	-->	JSON_voorheez (~JSON_voor@c-24-20-145-95.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-26 14:13:06	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-26 14:13:06	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-26 14:13:06	--	Nicks #pdxnodebots: [adamdicarlo chrisdickinson dlmanning emilyrose greh hackygolucky_ jden jondelamotte JSON_voorhees JSON_voorheez justinabrahms randallagordon s5fs scottjab thoward Wraithan ZenWraithBot]
+2013-07-26 14:13:06	--	Channel #pdxnodebots: 17 nicks (0 ops, 0 halfops, 0 voices, 17 normals)
+2013-07-26 14:13:07	--	Mode #pdxnodebots [+cnt]
+2013-07-26 14:13:08	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-26 14:34:17	-->	xobbob (~xobbob@24.20.193.173) has joined #pdxnodebots
+2013-07-26 14:42:37	s5fs	scottjab: awesome!
+2013-07-26 14:42:57	s5fs	Wraithan: I think the pc term is "little people"
+2013-07-26 14:43:07	scottjab	npm is a shit show btw
+2013-07-26 14:43:18	scottjab	the backend needs some work
+2013-07-26 14:43:22	JSON_voorheez	scottjab: you got it working!
+2013-07-26 14:43:25	JSON_voorheez	yay!
+2013-07-26 14:44:24	JSON_voorheez	scottjab: do you have an address for the local file server so i can put it in this booklet?
+2013-07-26 14:44:33	scottjab	I wont until tomorrow
+2013-07-26 14:44:35	JSON_voorheez	(where we are going to store the html files and such)
+2013-07-26 14:44:38	JSON_voorheez	ahh okay
+2013-07-26 14:44:46	s5fs	JSON_voorheez: maybe just leave a place to write it in?
+2013-07-26 14:44:54	JSON_voorheez	yeah I can do that
+2013-07-26 14:45:20	s5fs	JSON_voorheez: super pumped to see what you've come up with!!
+2013-07-26 14:45:26	JSON_voorheez	also simple-color-sensor is not on npm yet.. are we just gunna put that on the server or have people clone it
+2013-07-26 14:45:35	JSON_voorheez	s5fs: me too :)
+2013-07-26 14:45:54	JSON_voorheez	haha It's coming along just need a couple more resources..
+2013-07-26 14:46:14	JSON_voorheez	also were gunna have to rework simple-color-sensor to work with 6 separate leds..
+2013-07-26 14:48:03	JSON_voorheez	I'm probably just gunna fork it, re work it, and publish to npm?
+2013-07-26 14:53:00	s5fs	UGH
+2013-07-26 14:53:49	JSON_voorheez	Yeah..
+2013-07-26 14:54:33	JSON_voorheez	s5fs: are u free at all this afternoon? maybe we could crank through this in like an hour?
+2013-07-26 15:36:56	--	irc: disconnected from server
+2013-07-26 15:37:30	-->	JSON_voorheez (~JSON_voor@c-67-189-34-0.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-26 15:37:30	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-26 15:37:30	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-26 15:37:30	--	Nicks #pdxnodebots: [adamdicarlo chrisdickinson dlmanning emilyrose greh hackygolucky_ jden jondelamotte JSON_voorhees JSON_voorheez justinabrahms randallagordon s5fs scottjab thoward Wraithan xobbob ZenWraithBot]
+2013-07-26 15:37:30	--	Channel #pdxnodebots: 18 nicks (0 ops, 0 halfops, 0 voices, 18 normals)
+2013-07-26 15:37:46	--	Mode #pdxnodebots [+cnt]
+2013-07-26 15:37:46	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-26 15:43:30	hackygolucky_	s5fs: only problem is that we have 35 kits with other lights, so it would be helpful to have the new instructions as well, though not absolutely necessary
+2013-07-26 15:57:48	s5fs	hackygolucky_: I don't expect everyone to want to do the color-sensor project
+2013-07-26 15:58:12	s5fs	we've got enough gear that folks should be able to just play with stuff using the J5 docs
+2013-07-26 15:58:31	s5fs	those who are totally down for the color sensor, we can either give them a sparkfun kit or just shuffle the tri-color leds around
+2013-07-26 15:58:56	s5fs	If anyone is in beaverton, they could prob hit Norvac and pick up LEDs as well, they're stupid expensive at ratshack
+2013-07-26 16:00:13	adamdicarlo	nice, i've never heard "ratshack" before. "shitshack" is what my dad would say
+2013-07-26 16:00:49	adamdicarlo	s5fs, "Yelpers report [norvac electronics inc] has closed"
+2013-07-26 16:00:53	adamdicarlo	http://www.yelp.com/biz/norvac-electronics-inc-beaverton
+2013-07-26 16:02:27	JSON_voorheez	s5fs: I think thats a swell plan :)
+2013-07-26 16:02:45	s5fs	adamdicarlo: well crap
+2013-07-26 16:02:52	s5fs	the next place I can think of would be fry's
+2013-07-26 16:02:59	JSON_voorheez	s5fs: is there a step by step document for the simple-color-thing?? 
+2013-07-26 16:03:02	adamdicarlo	s5fs, first review says there's a "replacement"
+2013-07-26 16:03:24	JSON_voorheez	its probably already been posted a dozen times in here, but I'm bad with statying connected
+2013-07-26 16:03:51	adamdicarlo	here we go: http://www.yelp.com/biz/oregon-electronics-beaverton < s5fs
+2013-07-26 16:04:03	adamdicarlo	fry's is far
+2013-07-26 16:04:11	adamdicarlo	oregon-electronics is only open til 5pm today
+2013-07-26 16:05:05	s5fs	anyone close by?
+2013-07-26 16:05:36	s5fs	JSON_voorheez: no, not that I'm aware of. just connect the wires as the illustration shows, then run the code. "works for me"
+2013-07-26 16:06:18	s5fs	hackygolucky_: how critical do you consider the LEDs? do I need to make a run?
+2013-07-26 16:08:20	hackygolucky_	No, we talked it out last night and thought the multiple lights would be fine
+2013-07-26 16:09:23	hackygolucky_	Really not a huge concern
+2013-07-26 16:09:26	JSON_voorheez	s5fs: so the issue is that i have to rework it with 6 leds
+2013-07-26 16:09:48	JSON_voorheez	but I'd like to do it with the OG one if possible
+2013-07-26 16:10:28	JSON_voorheez	i just dont have one of those multi leds
+2013-07-26 16:11:12	JSON_voorheez	but i'd really like to get a step by step document up
+2013-07-26 16:11:17	JSON_voorheez	for the uber newbiez
+2013-07-26 16:11:38	JSON_voorheez	and for the zine, since that was the main point of it
+2013-07-26 16:11:55	hackygolucky_	Yeah I thought we would have that too. If I had known sooner I would have done it myself
+2013-07-26 16:15:18	hackygolucky_	Right. Who was responsible for the content? Was that everyone?
+2013-07-26 16:15:46	hackygolucky_	( I don't have my notes on me)
+2013-07-26 16:16:05	JSON_voorheez	just realized there is a radioshack down the street from me, I'm gunna go pick up an rgb led and get this stuff up :)
+2013-07-26 16:17:36	hackygolucky_	Sigh. Owe you a drink, JSON_voorheez
+2013-07-26 16:19:59	s5fs	hackygolucky_: what documentation is necessary here? there's a simple schematic (connect these components) showing how to configure hte arduino. attendees should just clone the repo, populate their breadboard and then run the code.
+2013-07-26 16:20:54	s5fs	JSON_voorheez: uber noobs are going to need in-person hand-holding, we need to identify the quickly and put them in an area where 1-2 people can easily support them
+2013-07-26 16:21:15	hackygolucky_	THIS^^
+2013-07-26 16:21:19	s5fs	for most others, I expect this is a hackday, not an instructor-lead course, hence the lack of detailed material
+2013-07-26 16:21:40	s5fs	hackygolucky_: who's working the door?
+2013-07-26 16:22:17	hackygolucky_	Having instructions is helpful. Its like a full blown tutorial instead of squinting at an image and counting breadboard holes
+2013-07-26 16:23:02	s5fs	no way to get outta squinting at holes
+2013-07-26 16:24:01	s5fs	hackygolucky_: i gtg but I'll be back online this evening, around 7-8p
+2013-07-26 16:24:50	hackygolucky_	Cook
+2013-07-26 16:26:09	hackygolucky_	Also JSON_voorheez there's a gist with the instructions from when Chris and Adam ran through it
+2013-07-26 16:29:21	JSON_voorheez	can i get that link?
+2013-07-26 16:29:51	JSON_voorheez	I got three rbg leds(all they had)
+2013-07-26 16:30:06	hackygolucky_	JSON_voorheez: sorry. Almost have it
+2013-07-26 16:30:09	JSON_voorheez	sweet
+2013-07-26 16:30:13	JSON_voorheez	and the drawings?
+2013-07-26 16:30:29	JSON_voorheez	also I feel that having instructions is better than none
+2013-07-26 16:30:35	JSON_voorheez	there is no reason not to have them
+2013-07-26 16:31:26	chrisdickinson	hackygolucky_: https://gist.github.com/chrisdickinson/cd28448b92ce4f5c6da3
+2013-07-26 16:31:29	chrisdickinson	JSON_voorheez: ^^
+2013-07-26 16:31:35	chrisdickinson	they're not extensive
+2013-07-26 16:31:38	JSON_voorheez	thank YOUz!
+2013-07-26 16:31:56	chrisdickinson	also NB: i have run across materials online that stress "don't make hardware changes with the arduino USB hooked in"
+2013-07-26 16:31:58	hackygolucky_	YAY!
+2013-07-26 16:32:05	chrisdickinson	drawings are in a sketchbook at home
+2013-07-26 16:32:11	chrisdickinson	which is the worst
+2013-07-26 16:32:17	chrisdickinson	i am the worst
+2013-07-26 16:32:21	JSON_voorheez	i'm going through with pics anyays
+2013-07-26 16:32:23	chrisdickinson	!dm chrisdickinson
+2013-07-26 16:32:24	ZenWraithBot	You're doing horrible work chrisdickinson!
+2013-07-26 16:32:29	JSON_voorheez	haha
+2013-07-26 16:32:43	JSON_voorheez	chrisdickinson: no biggie, could you bring them to hackygolucky_ 's house tonight?
+2013-07-26 16:32:51	JSON_voorheez	I can add them in there :)
+2013-07-26 16:32:59	chrisdickinson	sure, i've just got like a page, and some random robot pics
+2013-07-26 16:33:04	JSON_voorheez	I'm also gunna put your node conf drawing in there if it fits
+2013-07-26 16:33:06	JSON_voorheez	perfect.
+2013-07-26 16:33:07	chrisdickinson	it's basically "intro to breadboards
+2013-07-26 16:33:10	chrisdickinson	"
+2013-07-26 16:33:13	chrisdickinson	awesome
+2013-07-26 16:45:57	<--	xobbob (~xobbob@24.20.193.173) has quit (Quit: xobbob)
+2013-07-26 16:53:47	Wraithan	chrisdickinson: by hardware changes do you mean putting in jumpers and stuff?
+2013-07-26 16:53:56	Wraithan	Because I do that all the time with my teensy :/
+2013-07-26 17:08:08	JSON_voorheez	chrisdickinson: these breadboards we got are v. tiny, I'm having to rework this from the diagram. just as a heads up for tomorrow
+2013-07-26 17:09:07	Wraithan	JSON_voorheez: yeah, they were a little smaller than I expected
+2013-07-26 17:09:22	Wraithan	Ended up only being able to build one of my media keyboards instead of 2 like I wanted
+2013-07-26 17:12:06	JSON_voorheez	Wraithan: ahh
+2013-07-26 17:12:12	JSON_voorheez	I cant wait to see those
+2013-07-26 17:12:23	Wraithan	Yeah, I'll be bringing it :)
+2013-07-26 17:12:31	JSON_voorheez	woohoo!
+2013-07-26 17:24:24	Wraithan	Oh sweet, sparkfun is sending me the right rotary encoders, spare breakouts for the ones that I already soldered and some extra breakaway headers
+2013-07-26 17:25:03	Wraithan	They even offered to solder it for me if I wanted.
+2013-07-26 17:26:10	Wraithan	I declined since I need the practice
+2013-07-26 17:26:19	Wraithan	but it is really great of them to offer
+2013-07-26 17:32:28	JSON_voorheez	very cool!
+2013-07-26 18:09:19	--	irc: disconnected from server
+2013-07-26 18:09:51	-->	JSON_voorheez (~JSON_voor@c-24-20-20-150.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-26 18:09:51	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-26 18:09:51	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-26 18:09:51	--	Nicks #pdxnodebots: [adamdicarlo chrisdickinson dlmanning emilyrose greh hackygolucky_ jden jondelamotte JSON_voorhees JSON_voorheez justinabrahms randallagordon s5fs scottjab thoward Wraithan ZenWraithBot]
+2013-07-26 18:09:51	--	Channel #pdxnodebots: 17 nicks (0 ops, 0 halfops, 0 voices, 17 normals)
+2013-07-26 18:10:07	--	Mode #pdxnodebots [+cnt]
+2013-07-26 18:10:07	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-27 01:12:21	--	irc: disconnected from server
+2013-07-27 01:12:53	-->	JSON_voorheez (~JSON_voor@c-67-189-34-0.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-27 01:12:53	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-27 01:12:53	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-27 01:12:53	--	Nicks #pdxnodebots: [chrisdickinson dlmanning emilyrose greh hackygolucky_ jden jondelamotte JSON_voorhees JSON_voorheez justinabrahms randallagordon s5fs scottjab thoward Wraithan xobbob ZenWraithBot]
+2013-07-27 01:12:53	--	Channel #pdxnodebots: 17 nicks (0 ops, 0 halfops, 0 voices, 17 normals)
+2013-07-27 01:13:09	--	Mode #pdxnodebots [+cnt]
+2013-07-27 01:13:09	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-27 01:45:09	--	irc: disconnected from server
+2013-07-27 01:45:40	-->	JSON_voorheez (~JSON_voor@c-67-189-34-0.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-27 01:45:40	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-27 01:45:40	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-27 01:45:40	--	Nicks #pdxnodebots: [chrisdickinson dlmanning emilyrose greh hackygolucky_ jden jondelamotte JSON_voorhees JSON_voorheez justinabrahms randallagordon s5fs scottjab thoward Wraithan xobbob ZenWraithBot]
+2013-07-27 01:45:40	--	Channel #pdxnodebots: 17 nicks (0 ops, 0 halfops, 0 voices, 17 normals)
+2013-07-27 01:45:56	--	Mode #pdxnodebots [+cnt]
+2013-07-27 01:45:57	--	Channel created on Wed, 03 Jul 2013 12:45:20

@@ -1,0 +1,259 @@
+2013-12-16 15:12:48	-->	JSON_voorhees (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has joined #jsconf
+2013-12-16 15:12:48	--	Topic for #jsconf is "(function(jsconf) { jsconf.discuss(); })(this.room);"
+2013-12-16 15:12:48	--	Topic set by binary42 on Wed, 27 Jan 2010 09:44:17
+2013-12-16 15:12:48	--	Nicks #jsconf: [ajpiano benschwarz boaz EvilPacket gseguin JSON_voorhees monteslu mreeder qmx roger_raymond Tobbe voodootikigod]
+2013-12-16 15:12:48	--	Channel #jsconf: 12 nicks (0 ops, 0 voices, 12 normals)
+2013-12-16 15:12:50	--	Mode #jsconf [+nst]
+2013-12-16 15:12:50	--	Channel created on Fri, 29 Jan 2010 23:48:24
+2013-12-17 00:18:04	--	irc: disconnected from server
+2013-12-17 00:18:40	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #jsconf
+2013-12-17 00:18:40	--	Topic for #jsconf is "(function(jsconf) { jsconf.discuss(); })(this.room);"
+2013-12-17 00:18:40	--	Topic set by binary42 on Wed, 27 Jan 2010 09:44:17
+2013-12-17 00:18:40	--	Nicks #jsconf: [ajpiano benschwarz boaz EvilPacket gseguin JSON_voorhees monteslu mreeder qmx roger_raymond Tobbe voodootikigod]
+2013-12-17 00:18:40	--	Channel #jsconf: 12 nicks (0 ops, 0 voices, 12 normals)
+2013-12-17 00:18:54	--	Mode #jsconf [+nst]
+2013-12-17 00:18:54	--	Channel created on Fri, 29 Jan 2010 23:48:24
+2013-12-17 02:28:44	--	irc: disconnected from server
+2013-12-17 11:03:59	-->	JSON_voorhees (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has joined #jsconf
+2013-12-17 11:03:59	--	Topic for #jsconf is "(function(jsconf) { jsconf.discuss(); })(this.room);"
+2013-12-17 11:03:59	--	Topic set by binary42 on Wed, 27 Jan 2010 09:44:17
+2013-12-17 11:03:59	--	Nicks #jsconf: [ajpiano benschwarz boaz EvilPacket gseguin JSON_voorhees monteslu mreeder norviller qmx roger_raymond Tobbe voodootikigod]
+2013-12-17 11:03:59	--	Channel #jsconf: 13 nicks (0 ops, 0 voices, 13 normals)
+2013-12-17 11:04:13	--	Mode #jsconf [+nst]
+2013-12-17 11:04:13	--	Channel created on Fri, 29 Jan 2010 23:48:24
+2013-12-17 11:58:59	<--	norviller (~norviller@17.202.31.130) has quit (Quit: Computer has gone to sleep.)
+2013-12-17 12:31:40	-->	norviller (~norviller@17.202.31.130) has joined #jsconf
+2013-12-17 12:41:04	<--	monteslu (~monteslu@ip68-109-175-67.ph.ph.cox.net) has quit (Ping timeout: 240 seconds)
+2013-12-17 12:45:35	-->	monteslu (~monteslu@ip68-109-175-67.ph.ph.cox.net) has joined #jsconf
+2013-12-17 15:14:05	<--	norviller (~norviller@17.202.31.130) has quit (Quit: Computer has gone to sleep.)
+2013-12-17 15:27:48	-->	norviller (~norviller@17.202.31.130) has joined #jsconf
+2013-12-17 16:00:08	<--	norviller (~norviller@17.202.31.130) has quit (Quit: Computer has gone to sleep.)
+2013-12-17 16:01:56	-->	norviller (~norviller@17.202.31.130) has joined #jsconf
+2013-12-17 16:52:07	<--	norviller (~norviller@17.202.31.130) has quit (Quit: Computer has gone to sleep.)
+2013-12-17 16:55:49	-->	norviller (~norviller@17.202.31.130) has joined #jsconf
+2013-12-17 17:07:21	<--	norviller (~norviller@17.202.31.130) has quit (Quit: Computer has gone to sleep.)
+2013-12-17 17:10:13	-->	norviller (~norviller@17.202.31.130) has joined #jsconf
+2013-12-17 17:21:18	<--	norviller (~norviller@17.202.31.130) has quit (Quit: Computer has gone to sleep.)
+2013-12-17 17:24:10	-->	norviller (~norviller@17.202.31.130) has joined #jsconf
+2013-12-17 17:35:59	--	gseguin is now known as gseguin|away
+2013-12-17 17:57:12	<--	norviller (~norviller@17.202.31.130) has quit (Quit: Computer has gone to sleep.)
+2013-12-17 18:17:53	-->	norviller (~norviller@17.202.31.130) has joined #jsconf
+2013-12-17 18:39:59	<--	norviller (~norviller@17.202.31.130) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-12-17 19:01:49	--	gseguin|away is now known as gseguin
+2013-12-17 19:11:29	--	gseguin is now known as gseguin|away
+2013-12-18 01:55:48	--	irc: disconnected from server
+2013-12-18 01:56:18	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #jsconf
+2013-12-18 01:56:18	--	Topic for #jsconf is "(function(jsconf) { jsconf.discuss(); })(this.room);"
+2013-12-18 01:56:18	--	Topic set by binary42 on Wed, 27 Jan 2010 09:44:17
+2013-12-18 01:56:18	--	Nicks #jsconf: [ajpiano benschwarz boaz EvilPacket gseguin|away JSON_voorhees monteslu mreeder qmx roger_raymond Tobbe voodootikigod]
+2013-12-18 01:56:18	--	Channel #jsconf: 12 nicks (0 ops, 0 voices, 12 normals)
+2013-12-18 01:56:32	--	Mode #jsconf [+nst]
+2013-12-18 01:56:32	--	Channel created on Fri, 29 Jan 2010 23:48:24
+2013-12-18 04:44:01	--	irc: disconnected from server
+2013-12-18 04:44:32	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #jsconf
+2013-12-18 04:44:32	--	Topic for #jsconf is "(function(jsconf) { jsconf.discuss(); })(this.room);"
+2013-12-18 04:44:32	--	Topic set by binary42 on Wed, 27 Jan 2010 09:44:17
+2013-12-18 04:44:32	--	Nicks #jsconf: [ajpiano benschwarz boaz EvilPacket gseguin|away JSON_voorhees monteslu mreeder qmx roger_raymond Tobbe voodootikigod]
+2013-12-18 04:44:32	--	Channel #jsconf: 12 nicks (0 ops, 0 voices, 12 normals)
+2013-12-18 04:44:46	--	Mode #jsconf [+nst]
+2013-12-18 04:44:46	--	Channel created on Fri, 29 Jan 2010 23:48:24
+2013-12-18 06:32:17	--	irc: disconnected from server
+2013-12-18 06:32:49	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #jsconf
+2013-12-18 06:32:49	--	Topic for #jsconf is "(function(jsconf) { jsconf.discuss(); })(this.room);"
+2013-12-18 06:32:49	--	Topic set by binary42 on Wed, 27 Jan 2010 09:44:17
+2013-12-18 06:32:49	--	Nicks #jsconf: [ajpiano benschwarz boaz EvilPacket gseguin|away JSON_voorhees monteslu mreeder qmx roger_raymond Tobbe voodootikigod]
+2013-12-18 06:32:49	--	Channel #jsconf: 12 nicks (0 ops, 0 voices, 12 normals)
+2013-12-18 06:33:03	--	Mode #jsconf [+nst]
+2013-12-18 06:33:03	--	Channel created on Fri, 29 Jan 2010 23:48:24
+2013-12-18 08:11:54	--	irc: disconnected from server
+2013-12-18 08:12:27	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #jsconf
+2013-12-18 08:12:27	--	Topic for #jsconf is "(function(jsconf) { jsconf.discuss(); })(this.room);"
+2013-12-18 08:12:27	--	Topic set by binary42 on Wed, 27 Jan 2010 09:44:17
+2013-12-18 08:12:27	--	Nicks #jsconf: [ajpiano benschwarz boaz EvilPacket gseguin JSON_voorhees monteslu mreeder qmx roger_raymond Tobbe voodootikigod]
+2013-12-18 08:12:27	--	Channel #jsconf: 12 nicks (0 ops, 0 voices, 12 normals)
+2013-12-18 08:12:41	--	Mode #jsconf [+nst]
+2013-12-18 08:12:41	--	Channel created on Fri, 29 Jan 2010 23:48:24
+2013-12-18 23:41:58	--	irc: disconnected from server
+2013-12-18 23:43:30	-->	JSON_voorhees (~JSON_voor@c-76-102-64-172.hsd1.ca.comcast.net) has joined #jsconf
+2013-12-18 23:43:30	--	Topic for #jsconf is "(function(jsconf) { jsconf.discuss(); })(this.room);"
+2013-12-18 23:43:30	--	Topic set by binary42 on Wed, 27 Jan 2010 09:44:17
+2013-12-18 23:43:30	--	Nicks #jsconf: [ajpiano benschwarz boaz EvilPacket gseguin JSON_voorhees monteslu mreeder qmx roger_raymond Tobbe voodootikigod]
+2013-12-18 23:43:30	--	Channel #jsconf: 12 nicks (0 ops, 0 voices, 12 normals)
+2013-12-18 23:43:44	--	Mode #jsconf [+nst]
+2013-12-18 23:43:44	--	Channel created on Fri, 29 Jan 2010 23:48:24
+2013-12-19 09:32:39	--	irc: disconnected from server
+2013-12-19 09:33:11	-->	JSON_voorhees (~JSON_voor@75-144-246-6-SFBA.hfc.comcastbusiness.net) has joined #jsconf
+2013-12-19 09:33:11	--	Topic for #jsconf is "(function(jsconf) { jsconf.discuss(); })(this.room);"
+2013-12-19 09:33:11	--	Topic set by binary42 on Wed, 27 Jan 2010 09:44:17
+2013-12-19 09:33:11	--	Nicks #jsconf: [ajpiano benschwarz boaz EvilPacket gseguin JSON_voorhees monteslu mreeder qmx roger_raymond Tobbe voodootikigod]
+2013-12-19 09:33:11	--	Channel #jsconf: 12 nicks (0 ops, 0 voices, 12 normals)
+2013-12-19 09:33:25	--	Mode #jsconf [+nst]
+2013-12-19 09:33:25	--	Channel created on Fri, 29 Jan 2010 23:48:24
+2013-12-19 10:29:08	<--	Tobbe (~Tobbe@130.235.35.101) has left #jsconf
+2013-12-19 14:35:24	--	irc: disconnected from server
+2013-12-19 14:46:09	-->	JSON_voorhees (~JSON_voor@199-241-200-68.PUBLIC.monkeybrains.net) has joined #jsconf
+2013-12-19 14:46:10	--	Topic for #jsconf is "(function(jsconf) { jsconf.discuss(); })(this.room);"
+2013-12-19 14:46:10	--	Topic set by binary42 on Wed, 27 Jan 2010 09:44:17
+2013-12-19 14:46:10	--	Nicks #jsconf: [ajpiano benschwarz boaz EvilPacket gseguin JSON_voorhees monteslu mreeder qmx roger_raymond voodootikigod]
+2013-12-19 14:46:10	--	Channel #jsconf: 11 nicks (0 ops, 0 voices, 11 normals)
+2013-12-19 14:46:21	--	Mode #jsconf [+nst]
+2013-12-19 14:46:22	--	Channel created on Fri, 29 Jan 2010 23:48:24
+2013-12-19 15:54:25	--	irc: disconnected from server
+2013-12-19 15:54:55	-->	JSON_voorhees (~JSON_voor@172-3-140-165.lightspeed.sntcca.sbcglobal.net) has joined #jsconf
+2013-12-19 15:54:55	--	Topic for #jsconf is "(function(jsconf) { jsconf.discuss(); })(this.room);"
+2013-12-19 15:54:55	--	Topic set by binary42 on Wed, 27 Jan 2010 09:44:17
+2013-12-19 15:54:55	--	Nicks #jsconf: [ajpiano benschwarz boaz EvilPacket gseguin JSON_voorhees monteslu mreeder qmx roger_raymond voodootikigod]
+2013-12-19 15:54:55	--	Channel #jsconf: 11 nicks (0 ops, 0 voices, 11 normals)
+2013-12-19 15:55:09	--	Mode #jsconf [+nst]
+2013-12-19 15:55:09	--	Channel created on Fri, 29 Jan 2010 23:48:24
+2013-12-19 17:55:29	--	irc: disconnected from server
+2013-12-19 17:56:01	-->	JSON_voorhees (~JSON_voor@152.179.69.246) has joined #jsconf
+2013-12-19 17:56:01	--	Topic for #jsconf is "(function(jsconf) { jsconf.discuss(); })(this.room);"
+2013-12-19 17:56:01	--	Topic set by binary42 on Wed, 27 Jan 2010 09:44:17
+2013-12-19 17:56:01	--	Nicks #jsconf: [ajpiano benschwarz boaz EvilPacket gseguin JSON_voorhees monteslu mreeder qmx roger_raymond voodootikigod]
+2013-12-19 17:56:01	--	Channel #jsconf: 11 nicks (0 ops, 0 voices, 11 normals)
+2013-12-19 17:56:15	--	Mode #jsconf [+nst]
+2013-12-19 17:56:15	--	Channel created on Fri, 29 Jan 2010 23:48:24
+2013-12-19 18:51:04	--	irc: disconnected from server
+2013-12-19 18:51:36	-->	JSON_voorhees (~JSON_voor@152.179.69.246) has joined #jsconf
+2013-12-19 18:51:36	--	Topic for #jsconf is "(function(jsconf) { jsconf.discuss(); })(this.room);"
+2013-12-19 18:51:36	--	Topic set by binary42 on Wed, 27 Jan 2010 09:44:17
+2013-12-19 18:51:36	--	Nicks #jsconf: [ajpiano benschwarz boaz EvilPacket gseguin JSON_voorhees monteslu mreeder qmx roger_raymond voodootikigod]
+2013-12-19 18:51:36	--	Channel #jsconf: 11 nicks (0 ops, 0 voices, 11 normals)
+2013-12-19 18:51:50	--	Mode #jsconf [+nst]
+2013-12-19 18:51:50	--	Channel created on Fri, 29 Jan 2010 23:48:24
+2013-12-20 10:45:30	--	irc: disconnected from server
+2013-12-20 10:48:36	-->	JSON_voorhees (~JSON_voor@209.12.169.226) has joined #jsconf
+2013-12-20 10:48:36	--	Topic for #jsconf is "(function(jsconf) { jsconf.discuss(); })(this.room);"
+2013-12-20 10:48:36	--	Topic set by binary42 on Wed, 27 Jan 2010 09:44:17
+2013-12-20 10:48:36	--	Nicks #jsconf: [ajpiano benschwarz boaz EvilPacket gseguin JSON_voorhees monteslu mreeder qmx roger_raymond voodootikigod]
+2013-12-20 10:48:36	--	Channel #jsconf: 11 nicks (0 ops, 0 voices, 11 normals)
+2013-12-20 10:48:50	--	Mode #jsconf [+nst]
+2013-12-20 10:48:50	--	Channel created on Fri, 29 Jan 2010 23:48:24
+2013-12-20 17:12:57	--	gseguin is now known as gseguin|away
+2013-12-20 17:21:03	--	gseguin|away is now known as gseguin
+2013-12-20 18:32:01	--	gseguin is now known as gseguin|away
+2013-12-21 11:01:54	--	irc: disconnected from server
+2013-12-21 11:02:19	-->	JSON_voorhees (~JSON_voor@c-76-102-64-172.hsd1.ca.comcast.net) has joined #jsconf
+2013-12-21 11:02:19	--	Topic for #jsconf is "(function(jsconf) { jsconf.discuss(); })(this.room);"
+2013-12-21 11:02:19	--	Topic set by binary42 on Wed, 27 Jan 2010 09:44:17
+2013-12-21 11:02:19	--	Nicks #jsconf: [ajpiano benschwarz boaz EvilPacket gseguin|away JSON_voorhees monteslu mreeder qmx roger_raymond voodootikigod]
+2013-12-21 11:02:19	--	Channel #jsconf: 11 nicks (0 ops, 0 voices, 11 normals)
+2013-12-21 11:02:33	--	Mode #jsconf [+nst]
+2013-12-21 11:02:33	--	Channel created on Fri, 29 Jan 2010 23:48:24
+2013-12-22 10:38:06	--	irc: disconnected from server
+2013-12-22 10:40:05	-->	JSON_voorhees (~JSON_voor@c-76-102-64-172.hsd1.ca.comcast.net) has joined #jsconf
+2013-12-22 10:40:05	--	Topic for #jsconf is "(function(jsconf) { jsconf.discuss(); })(this.room);"
+2013-12-22 10:40:05	--	Topic set by binary42 on Wed, 27 Jan 2010 09:44:17
+2013-12-22 10:40:05	--	Nicks #jsconf: [ajpiano benschwarz boaz EvilPacket gseguin JSON_voorhees monteslu mreeder qmx roger_raymond voodootikigod]
+2013-12-22 10:40:05	--	Channel #jsconf: 11 nicks (0 ops, 0 voices, 11 normals)
+2013-12-22 10:40:05	--	gseguin is now known as gseguin|away
+2013-12-22 10:59:58	--	irc: disconnected from server
+2013-12-22 11:00:32	-->	JSON_voorhees (~JSON_voor@c-76-102-64-172.hsd1.ca.comcast.net) has joined #jsconf
+2013-12-22 11:00:32	--	Topic for #jsconf is "(function(jsconf) { jsconf.discuss(); })(this.room);"
+2013-12-22 11:00:32	--	Topic set by binary42 on Wed, 27 Jan 2010 09:44:17
+2013-12-22 11:00:32	--	Nicks #jsconf: [ajpiano benschwarz boaz EvilPacket gseguin JSON_voorhees monteslu mreeder qmx roger_raymond voodootikigod]
+2013-12-22 11:00:32	--	Channel #jsconf: 11 nicks (0 ops, 0 voices, 11 normals)
+2013-12-22 11:00:46	--	Mode #jsconf [+nst]
+2013-12-22 11:00:49	--	Channel created on Fri, 29 Jan 2010 23:48:24
+2013-12-22 11:06:35	<--	mreeder (uid4425@gateway/web/irccloud.com/x-eewvamakyjrofpox) has quit (Ping timeout: 246 seconds)
+2013-12-22 11:07:55	-->	mreeder (uid4425@gateway/web/irccloud.com/x-fmugqydjsbluvdmj) has joined #jsconf
+2013-12-22 11:26:15	<--	mreeder (uid4425@gateway/web/irccloud.com/x-fmugqydjsbluvdmj) has quit (Ping timeout: 260 seconds)
+2013-12-22 11:27:28	-->	mreeder (uid4425@gateway/web/irccloud.com/x-dkwrqagoepcltpyf) has joined #jsconf
+2013-12-22 11:33:33	--	gseguin is now known as gseguin|away
+2013-12-22 11:48:39	<--	benschwarz (sid2121@gateway/web/irccloud.com/x-yzywbuprzgsgfpkt) has quit (Ping timeout: 246 seconds)
+2013-12-22 11:49:16	<--	mreeder (uid4425@gateway/web/irccloud.com/x-dkwrqagoepcltpyf) has quit (Ping timeout: 260 seconds)
+2013-12-22 11:49:25	<--	voodootikigod (uid1811@gateway/web/irccloud.com/x-jnnniaxugfcntqsy) has quit (Ping timeout: 252 seconds)
+2013-12-22 11:53:16	-->	benschwarz (sid2121@gateway/web/irccloud.com/x-kjshfvdwhasucjxh) has joined #jsconf
+2013-12-22 11:53:16	-->	voodootikigod (uid1811@gateway/web/irccloud.com/x-pxiuubmwiaolgzfv) has joined #jsconf
+2013-12-22 11:54:43	--	gseguin|away is now known as gseguin
+2013-12-22 11:54:43	-->	mreeder (uid4425@gateway/web/irccloud.com/x-qiujazwtdmluyxgb) has joined #jsconf
+2013-12-23 09:48:05	--	irc: disconnected from server
+2013-12-23 09:48:35	-->	JSON_voorhees (~JSON_voor@c-98-210-178-243.hsd1.ca.comcast.net) has joined #jsconf
+2013-12-23 09:48:35	--	Topic for #jsconf is "(function(jsconf) { jsconf.discuss(); })(this.room);"
+2013-12-23 09:48:35	--	Topic set by binary42 on Wed, 27 Jan 2010 09:44:17
+2013-12-23 09:48:35	--	Nicks #jsconf: [ajpiano benschwarz boaz EvilPacket gseguin JSON_voorhees monteslu mreeder norviller qmx roger_raymond voodootikigod]
+2013-12-23 09:48:35	--	Channel #jsconf: 12 nicks (0 ops, 0 voices, 12 normals)
+2013-12-23 09:48:49	--	Mode #jsconf [+nst]
+2013-12-23 09:48:49	--	Channel created on Fri, 29 Jan 2010 23:48:24
+2013-12-23 11:26:47	<--	monteslu (~monteslu@ip68-109-175-67.ph.ph.cox.net) has quit (*.net *.split)
+2013-12-23 11:33:02	-->	monteslu (~monteslu@ip68-109-175-67.ph.ph.cox.net) has joined #jsconf
+2013-12-23 15:16:05	--	irc: disconnected from server
+2013-12-23 15:16:32	-->	JSON_voorhees (~JSON_voor@c-76-102-64-172.hsd1.ca.comcast.net) has joined #jsconf
+2013-12-23 15:16:32	--	Topic for #jsconf is "(function(jsconf) { jsconf.discuss(); })(this.room);"
+2013-12-23 15:16:32	--	Topic set by binary42 on Wed, 27 Jan 2010 09:44:17
+2013-12-23 15:16:32	--	Nicks #jsconf: [ajpiano benschwarz boaz EvilPacket gseguin JSON_voorhees monteslu mreeder qmx roger_raymond voodootikigod]
+2013-12-23 15:16:32	--	Channel #jsconf: 11 nicks (0 ops, 0 voices, 11 normals)
+2013-12-23 15:16:46	--	Mode #jsconf [+nst]
+2013-12-23 15:16:46	--	Channel created on Fri, 29 Jan 2010 23:48:24
+2013-12-23 15:54:20	--	irc: disconnected from server
+2013-12-23 15:54:51	-->	JSON_voorhees (~JSON_voor@ip-64-134-237-78.public.wayport.net) has joined #jsconf
+2013-12-23 15:54:52	--	Topic for #jsconf is "(function(jsconf) { jsconf.discuss(); })(this.room);"
+2013-12-23 15:54:52	--	Topic set by binary42 on Wed, 27 Jan 2010 09:44:17
+2013-12-23 15:54:52	--	Nicks #jsconf: [ajpiano benschwarz boaz EvilPacket gseguin JSON_voorhees monteslu mreeder qmx roger_raymond voodootikigod]
+2013-12-23 15:54:52	--	Channel #jsconf: 11 nicks (0 ops, 0 voices, 11 normals)
+2013-12-23 15:55:05	--	Mode #jsconf [+nst]
+2013-12-23 15:55:06	--	Channel created on Fri, 29 Jan 2010 23:48:24
+2013-12-24 09:41:17	--	irc: disconnected from server
+2013-12-24 09:41:53	-->	JSON_voorhees (~JSON_voor@c-76-102-64-172.hsd1.ca.comcast.net) has joined #jsconf
+2013-12-24 09:41:53	--	Topic for #jsconf is "(function(jsconf) { jsconf.discuss(); })(this.room);"
+2013-12-24 09:41:53	--	Topic set by binary42 on Wed, 27 Jan 2010 09:44:17
+2013-12-24 09:41:53	--	Nicks #jsconf: [ajpiano benschwarz boaz EvilPacket gseguin|away JSON_voorhees monteslu mreeder qmx roger_raymond voodootikigod]
+2013-12-24 09:41:53	--	Channel #jsconf: 11 nicks (0 ops, 0 voices, 11 normals)
+2013-12-24 09:41:53	--	gseguin|away is now known as gseguin
+2013-12-24 09:42:01	--	Mode #jsconf [+nst]
+2013-12-24 09:42:02	--	Channel created on Fri, 29 Jan 2010 23:48:24
+2013-12-24 10:04:19	--	irc: disconnected from server
+2013-12-24 10:04:48	-->	JSON_voorhees (~JSON_voor@c-76-102-64-172.hsd1.ca.comcast.net) has joined #jsconf
+2013-12-24 10:04:48	--	Topic for #jsconf is "(function(jsconf) { jsconf.discuss(); })(this.room);"
+2013-12-24 10:04:48	--	Topic set by binary42 on Wed, 27 Jan 2010 09:44:17
+2013-12-24 10:04:48	--	Nicks #jsconf: [ajpiano benschwarz boaz EvilPacket gseguin|away JSON_voorhees monteslu mreeder qmx roger_raymond voodootikigod]
+2013-12-24 10:04:48	--	Channel #jsconf: 11 nicks (0 ops, 0 voices, 11 normals)
+2013-12-24 10:05:02	--	Mode #jsconf [+nst]
+2013-12-24 10:05:02	--	Channel created on Fri, 29 Jan 2010 23:48:24
+2013-12-24 10:06:26	--	irc: disconnected from server
+2013-12-24 10:06:56	-->	JSON_voorhees (~JSON_voor@c-76-102-64-172.hsd1.ca.comcast.net) has joined #jsconf
+2013-12-24 10:06:58	--	Topic for #jsconf is "(function(jsconf) { jsconf.discuss(); })(this.room);"
+2013-12-24 10:06:58	--	Topic set by binary42 on Wed, 27 Jan 2010 09:44:17
+2013-12-24 10:06:58	--	Nicks #jsconf: [ajpiano benschwarz boaz EvilPacket gseguin|away JSON_voorhees monteslu mreeder qmx roger_raymond voodootikigod]
+2013-12-24 10:06:58	--	Channel #jsconf: 11 nicks (0 ops, 0 voices, 11 normals)
+2013-12-24 10:07:08	--	Mode #jsconf [+nst]
+2013-12-24 10:07:09	--	Channel created on Fri, 29 Jan 2010 23:48:24
+2013-12-25 21:57:11	--	irc: disconnected from server
+2013-12-25 21:57:41	-->	JSON_voorhees (~JSON_voor@c-76-102-64-172.hsd1.ca.comcast.net) has joined #jsconf
+2013-12-25 21:57:41	--	Topic for #jsconf is "(function(jsconf) { jsconf.discuss(); })(this.room);"
+2013-12-25 21:57:41	--	Topic set by binary42 on Wed, 27 Jan 2010 09:44:17
+2013-12-25 21:57:41	--	Nicks #jsconf: [ajpiano benschwarz boaz EvilPacket gseguin|away JSON_voorhees monteslu mreeder qmx roger_raymond voodootikigod]
+2013-12-25 21:57:41	--	Channel #jsconf: 11 nicks (0 ops, 0 voices, 11 normals)
+2013-12-25 21:57:55	--	Mode #jsconf [+nst]
+2013-12-25 21:57:55	--	Channel created on Fri, 29 Jan 2010 23:48:24
+2013-12-25 22:02:45	--	gseguin|away is now known as gseguin
+2013-12-25 22:12:12	--	gseguin is now known as gseguin|away
+2013-12-25 23:03:07	--	gseguin|away is now known as gseguin
+2013-12-25 23:12:34	--	gseguin is now known as gseguin|away
+2013-12-25 23:50:49	--	irc: disconnected from server
+2013-12-25 23:51:18	-->	JSON_voorhees (~JSON_voor@c-76-102-64-172.hsd1.ca.comcast.net) has joined #jsconf
+2013-12-25 23:51:18	--	Topic for #jsconf is "(function(jsconf) { jsconf.discuss(); })(this.room);"
+2013-12-25 23:51:18	--	Topic set by binary42 on Wed, 27 Jan 2010 09:44:17
+2013-12-25 23:51:18	--	Nicks #jsconf: [ajpiano benschwarz boaz EvilPacket gseguin|away JSON_voorhees monteslu mreeder qmx roger_raymond voodootikigod]
+2013-12-25 23:51:18	--	Channel #jsconf: 11 nicks (0 ops, 0 voices, 11 normals)
+2013-12-25 23:51:32	--	Mode #jsconf [+nst]
+2013-12-25 23:51:32	--	Channel created on Fri, 29 Jan 2010 23:48:24
+2013-12-26 00:03:29	--	gseguin|away is now known as gseguin
+2013-12-26 00:12:57	--	gseguin is now known as gseguin|away
+2013-12-27 10:13:53	--	irc: disconnected from server
+2013-12-27 10:14:20	-->	JSON_voorhees (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has joined #jsconf
+2013-12-27 10:14:20	--	Topic for #jsconf is "(function(jsconf) { jsconf.discuss(); })(this.room);"
+2013-12-27 10:14:20	--	Topic set by binary42 on Wed, 27 Jan 2010 09:44:17
+2013-12-27 10:14:20	--	Nicks #jsconf: [ajpiano benschwarz boaz EvilPacket gseguin JSON_voorhees monteslu mreeder_ qmx roger_raymond voodootikigod]
+2013-12-27 10:14:20	--	Channel #jsconf: 11 nicks (0 ops, 0 voices, 11 normals)
+2013-12-27 10:14:34	--	Mode #jsconf [+nst]
+2013-12-27 10:14:34	--	Channel created on Fri, 29 Jan 2010 23:48:24
+2013-12-27 11:23:45	--	irc: disconnected from server
+2013-12-27 11:24:14	-->	JSON_voorhees (~JSON_voor@174-25-78-200.ptld.qwest.net) has joined #jsconf
+2013-12-27 11:24:14	--	Topic for #jsconf is "(function(jsconf) { jsconf.discuss(); })(this.room);"
+2013-12-27 11:24:14	--	Topic set by binary42 on Wed, 27 Jan 2010 09:44:17
+2013-12-27 11:24:14	--	Nicks #jsconf: [ajpiano benschwarz boaz EvilPacket gseguin JSON_voorhees monteslu mreeder_ qmx roger_raymond voodootikigod]
+2013-12-27 11:24:14	--	Channel #jsconf: 11 nicks (0 ops, 0 voices, 11 normals)
+2013-12-27 11:24:28	--	Mode #jsconf [+nst]
+2013-12-27 11:24:28	--	Channel created on Fri, 29 Jan 2010 23:48:24

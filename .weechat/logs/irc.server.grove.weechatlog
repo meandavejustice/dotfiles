@@ -1,0 +1,97 @@
+2014-01-15 17:21:07	--	irc: connecting to server sprintly.irc.grove.io/6667...
+2014-01-15 17:21:07	--	irc: connected to sprintly.irc.grove.io/6667 (184.106.113.202)
+2014-01-15 17:21:08	--	Welcome to grove JSON_voorhees
+2014-01-15 17:21:08	--	Your host is irc.grove.io, running version ircd-grove-0.1.0
+2014-01-15 17:21:08	--	This server was created 2014-01-15 17:21:08.007323
+2014-01-15 17:21:08	--	irc.grove.io ircd-grove-0.1.0 w n
+2014-01-15 17:21:08	--	- irc.grove.io Message of the Day -
+2014-01-15 17:21:08	--	- Welcome to irc.grove.io!
+2014-01-15 17:21:08	--	- Tip: Enable channel playback in your account settings: https://grove.io/accounts/settings
+2014-01-15 17:21:08	--	-      You can also playback history using the command: /history #channel_name
+2014-01-15 17:21:08	--	- Need help? Visit https://grove.io/help/
+2014-01-15 17:21:08	--	- Grove team (team@grove.io)
+2014-01-15 17:21:08	--	End of /MOTD command
+2014-01-15 17:21:08	--	NickServ (NickServ@services.): This nickname is registered. Please identify via /msg NickServ identify <password>...
+2014-01-15 17:21:45	--	MSG(NickServ): identify Newport13
+2014-01-15 17:21:45	--	NickServ (NickServ@services.): Server password is required for this organization.
+2014-01-15 17:21:45	--	NickServ (NickServ@services.): See https://grove.io/help/
+2014-01-15 17:22:02	--	MSG(NickServ): identify sprintly
+2014-01-15 17:22:02	--	NickServ (NickServ@services.): Your password does not match your nickname.
+2014-01-15 17:22:02	--	NickServ (NickServ@services.): No password? Forgot password? Visit https://grove.io/help/
+2014-01-15 17:24:27	--	irc: disconnected from server
+2014-01-15 17:24:33	--	irc: connecting to server sprintly.irc.grove.io/6667...
+2014-01-15 17:24:33	--	irc: connected to sprintly.irc.grove.io/6667 (184.106.113.202)
+2014-01-15 17:24:33	--	Welcome to grove JSON_voorhees
+2014-01-15 17:24:33	--	MSG(NickServ): identify Newport13
+2014-01-15 17:24:33	--	Your host is irc.grove.io, running version ircd-grove-0.1.0
+2014-01-15 17:24:33	--	This server was created 2014-01-15 17:24:33.236467
+2014-01-15 17:24:33	--	irc.grove.io ircd-grove-0.1.0 w n
+2014-01-15 17:24:33	--	- irc.grove.io Message of the Day -
+2014-01-15 17:24:33	--	- Welcome to irc.grove.io!
+2014-01-15 17:24:33	--	- Tip: Enable channel playback in your account settings: https://grove.io/accounts/settings
+2014-01-15 17:24:33	--	-      You can also playback history using the command: /history #channel_name
+2014-01-15 17:24:33	--	- Need help? Visit https://grove.io/help/
+2014-01-15 17:24:33	--	- Grove team (team@grove.io)
+2014-01-15 17:24:33	--	End of /MOTD command
+2014-01-15 17:24:33	--	NickServ (NickServ@services.): This nickname is registered. Please identify via /msg NickServ identify <password>...
+2014-01-15 17:24:33	--	NickServ (NickServ@services.): Access denied for this organization. Check your IRC server password.
+2014-01-15 17:24:33	--	NickServ (NickServ@services.): See https://grove.io/help/
+2014-01-15 17:25:37	--	MSG(NickServ): identify Newport13
+2014-01-15 17:25:37	--	NickServ (NickServ@services.): Access denied for this organization. Check your IRC server password.
+2014-01-15 17:25:37	--	NickServ (NickServ@services.): See https://grove.io/help/
+2014-01-15 17:28:10	--	irc: disconnected from server
+2014-01-15 17:31:12	--	irc: connecting to server sprintly.irc.grove.io/6697...
+2014-01-15 17:31:12	--	irc: connected to sprintly.irc.grove.io/6697 (184.106.113.202)
+2014-01-15 17:31:12	=!=	irc: reading data on socket: error 54 Connection reset by peer
+2014-01-15 17:31:12	--	irc: disconnecting from server...
+2014-01-15 17:31:12	--	irc: disconnected from server
+2014-01-15 17:31:12	--	irc: reconnecting to server in 10 seconds
+2014-01-15 17:31:22	--	irc: reconnecting to server...
+2014-01-15 17:31:22	--	irc: connecting to server sprintly.irc.grove.io/6697...
+2014-01-15 17:31:22	--	irc: connected to sprintly.irc.grove.io/6697 (184.106.113.202)
+2014-01-15 17:31:22	=!=	irc: reading data on socket: error 54 Connection reset by peer
+2014-01-15 17:31:22	--	irc: disconnecting from server...
+2014-01-15 17:31:22	--	irc: disconnected from server
+2014-01-15 17:31:22	--	irc: reconnecting to server in 20 seconds
+2014-01-15 17:31:42	--	irc: reconnecting to server...
+2014-01-15 17:31:42	--	irc: connecting to server sprintly.irc.grove.io/6697...
+2014-01-15 17:31:42	--	irc: connected to sprintly.irc.grove.io/6697 (184.106.113.202)
+2014-01-15 17:31:42	=!=	irc: reading data on socket: error 54 Connection reset by peer
+2014-01-15 17:31:42	--	irc: disconnecting from server...
+2014-01-15 17:31:42	--	irc: disconnected from server
+2014-01-15 17:31:42	--	irc: reconnecting to server in 40 seconds
+2014-01-15 17:32:21		irc: auto-reconnection is cancelled
+2014-01-15 17:32:21	--	irc: disconnected from server
+2014-01-15 17:32:33	--	irc: connecting to server sprintly.irc.grove.io/6697 (SSL)...
+2014-01-15 17:32:33	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2014-01-15 17:32:33	=!=	gnutls: peer's certificate is NOT trusted
+2014-01-15 17:32:33	=!=	gnutls: peer's certificate issuer is unknown
+2014-01-15 17:32:33	--	gnutls: receiving 3 certificates
+2014-01-15 17:32:33	--	 - certificate[1] info:
+2014-01-15 17:32:33	--	   - subject `serialNumber=ElAj38jPyGCu2z34fZOnezTFlYtNmv36,OU=GT75023887,OU=See www.rapidssl.com/resources/cps (c)13,OU=Domain Control Validated - RapidSSL(R),CN=*.grove.io', issuer `C=US,O=GeoTrust\, Inc.,CN=RapidSSL CA', RSA key 2048 bits, signed using RSA-SHA1, activated `2013-08-12 09:51:46 UTC', expires `2015-09-14 11:49:38 UTC', SHA-1 fingerprint `5d4c8507f23207551cdc39d53b7feef36ad7349a'
+2014-01-15 17:32:33	--	 - certificate[2] info:
+2014-01-15 17:32:33	--	   - subject `C=US,O=GeoTrust Inc.,CN=GeoTrust Global CA', issuer `C=US,O=Equifax,OU=Equifax Secure Certificate Authority', RSA key 2048 bits, signed using RSA-SHA1, activated `2002-05-21 04:00:00 UTC', expires `2018-08-21 04:00:00 UTC', SHA-1 fingerprint `7359755c6df9a0abc3060bce369564c8ec4542a3'
+2014-01-15 17:32:33	--	 - certificate[3] info:
+2014-01-15 17:32:33	--	   - subject `C=US,O=GeoTrust\, Inc.,CN=RapidSSL CA', issuer `C=US,O=GeoTrust Inc.,CN=GeoTrust Global CA', RSA key 2048 bits, signed using RSA-SHA1, activated `2010-02-19 22:45:05 UTC', expires `2020-02-18 22:45:05 UTC', SHA-1 fingerprint `c039a3269ee4b8e82d00c53fa797b5a19e836f47'
+2014-01-15 17:32:33	=!=	gnutls: the hostname in the certificate does NOT match "sprintly.irc.grove.io"
+2014-01-15 17:32:33	=!=	irc: TLS handshake failed
+2014-01-15 17:32:33	=!=	irc: error: Error in the certificate.
+2014-01-15 17:32:33	--	irc: reconnecting to server in 10 seconds
+2014-01-15 17:32:43	--	irc: reconnecting to server...
+2014-01-15 17:32:43	--	irc: connecting to server sprintly.irc.grove.io/6697 (SSL)...
+2014-01-15 17:32:43	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2014-01-15 17:32:43	=!=	gnutls: peer's certificate is NOT trusted
+2014-01-15 17:32:43	=!=	gnutls: peer's certificate issuer is unknown
+2014-01-15 17:32:43	--	gnutls: receiving 3 certificates
+2014-01-15 17:32:43	--	 - certificate[1] info:
+2014-01-15 17:32:43	--	   - subject `serialNumber=ElAj38jPyGCu2z34fZOnezTFlYtNmv36,OU=GT75023887,OU=See www.rapidssl.com/resources/cps (c)13,OU=Domain Control Validated - RapidSSL(R),CN=*.grove.io', issuer `C=US,O=GeoTrust\, Inc.,CN=RapidSSL CA', RSA key 2048 bits, signed using RSA-SHA1, activated `2013-08-12 09:51:46 UTC', expires `2015-09-14 11:49:38 UTC', SHA-1 fingerprint `5d4c8507f23207551cdc39d53b7feef36ad7349a'
+2014-01-15 17:32:43	--	 - certificate[2] info:
+2014-01-15 17:32:43	--	   - subject `C=US,O=GeoTrust Inc.,CN=GeoTrust Global CA', issuer `C=US,O=Equifax,OU=Equifax Secure Certificate Authority', RSA key 2048 bits, signed using RSA-SHA1, activated `2002-05-21 04:00:00 UTC', expires `2018-08-21 04:00:00 UTC', SHA-1 fingerprint `7359755c6df9a0abc3060bce369564c8ec4542a3'
+2014-01-15 17:32:43	--	 - certificate[3] info:
+2014-01-15 17:32:43	--	   - subject `C=US,O=GeoTrust\, Inc.,CN=RapidSSL CA', issuer `C=US,O=GeoTrust Inc.,CN=GeoTrust Global CA', RSA key 2048 bits, signed using RSA-SHA1, activated `2010-02-19 22:45:05 UTC', expires `2020-02-18 22:45:05 UTC', SHA-1 fingerprint `c039a3269ee4b8e82d00c53fa797b5a19e836f47'
+2014-01-15 17:32:43	=!=	gnutls: the hostname in the certificate does NOT match "sprintly.irc.grove.io"
+2014-01-15 17:32:43	=!=	irc: TLS handshake failed
+2014-01-15 17:32:43	=!=	irc: error: Error in the certificate.
+2014-01-15 17:32:43	--	irc: reconnecting to server in 20 seconds
+2014-01-15 17:32:57		irc: auto-reconnection is cancelled
+2014-01-15 17:32:57	--	irc: disconnected from server

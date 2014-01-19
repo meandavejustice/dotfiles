@@ -1,0 +1,1717 @@
+2013-05-17 22:13:38	-->	meandavejustice (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-05-17 22:13:39	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-05-17 22:13:39	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-05-17 22:13:39	--	Nicks #nodepdx: [aaronpk chrisdickinson ckknight cmeiklejohn cwarden dlmanning donpdonp edrex EvilPacket hackygolucky_ hydrawat Ibuprofen jden julianduque justinabrahms kenperkins Loqi meandavejustice Nexxy nightfly__ othiym23 randallagordon s5fs substack thoward wao Wraithan ZenWraithBot]
+2013-05-17 22:13:39	--	Channel #nodepdx: 28 nicks (0 ops, 0 halfops, 0 voices, 28 normals)
+2013-05-17 22:13:40	--	Mode #nodepdx [+cnt]
+2013-05-17 22:13:40	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-05-17 22:42:47	-->	esundahl (~esundahl@c-24-16-39-22.hsd1.wa.comcast.net) has joined #nodepdx
+2013-05-17 22:43:54	<--	Ibuprofen (tony@junglist.org) has quit (Ping timeout: 264 seconds)
+2013-05-17 22:47:00	-->	Ibuprofen (tony@junglist.org) has joined #nodepdx
+2013-05-17 22:47:05	<--	esundahl (~esundahl@c-24-16-39-22.hsd1.wa.comcast.net) has quit (Remote host closed the connection)
+2013-05-17 23:07:38	<--	julianduque (~baphomet@unaffiliated/xpider) has quit (Remote host closed the connection)
+2013-05-17 23:28:47	-->	julianduque (~baphomet@unaffiliated/xpider) has joined #nodepdx
+2013-05-17 23:37:16	<--	julianduque (~baphomet@unaffiliated/xpider) has quit (Ping timeout: 276 seconds)
+2013-05-18 00:20:04	-->	kevnls (~androirc@c-67-160-172-83.hsd1.or.comcast.net) has joined #nodepdx
+2013-05-18 01:11:41	-->	AWinterman (~AWinterma@c-24-21-242-122.hsd1.or.comcast.net) has joined #nodepdx
+2013-05-18 01:54:21	<--	kevnls (~androirc@c-67-160-172-83.hsd1.or.comcast.net) has quit (Remote host closed the connection)
+2013-05-18 01:55:31	<--	AWinterman (~AWinterma@c-24-21-242-122.hsd1.or.comcast.net) has quit (Remote host closed the connection)
+2013-05-18 03:02:03	-->	phated (~phated@74-93-184-209-Oregon.hfc.comcastbusiness.net) has joined #nodepdx
+2013-05-18 03:05:58	-->	AWinterman (~AWinterma@c-24-21-242-122.hsd1.or.comcast.net) has joined #nodepdx
+2013-05-18 03:06:23	<--	phated (~phated@74-93-184-209-Oregon.hfc.comcastbusiness.net) has quit (Ping timeout: 252 seconds)
+2013-05-18 03:10:41	<--	AWinterman (~AWinterma@c-24-21-242-122.hsd1.or.comcast.net) has quit (Ping timeout: 248 seconds)
+2013-05-18 04:49:00	-->	mhawash (~mhawash@c-98-246-210-122.hsd1.or.comcast.net) has joined #nodepdx
+2013-05-18 04:49:31	<--	mhawash (~mhawash@c-98-246-210-122.hsd1.or.comcast.net) has quit (Remote host closed the connection)
+2013-05-18 05:27:33	-->	mhawash (~mhawash@c-98-246-210-122.hsd1.or.comcast.net) has joined #nodepdx
+2013-05-18 11:09:38	--	irc: disconnected from server
+2013-05-18 11:10:01	-->	meandavejustice (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-05-18 11:10:01	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-05-18 11:10:01	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-05-18 11:10:01	--	Nicks #nodepdx: [aaronpk chrisdickinson ckknight cmeiklejohn dlmanning donpdonp edrex EvilPacket hackygolucky_ hydrawat Ibuprofen jarofghosts jden justinabrahms kenperkins Loqi meandavejustice Nexxy nightfly__ othiym23 randallagordon s5fs substack thoward wao Wraithan ZenWraithBot]
+2013-05-18 11:10:01	--	Channel #nodepdx: 27 nicks (0 ops, 0 halfops, 0 voices, 27 normals)
+2013-05-18 11:10:15	--	Mode #nodepdx [+cnt]
+2013-05-18 11:10:15	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-05-22 09:03:48	-->	meandave (~meandave@c-71-56-139-32.hsd1.or.comcast.net) has joined #nodepdx
+2013-05-22 09:03:48	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-05-22 09:03:48	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-05-22 09:03:48	--	Nicks #nodepdx: [AWinterman chrisdickinson ckknight cmeiklejohn dlmanning esundahl EvilPacket faddah hackygolucky_ hobson hydrawat jden justinabrahms kenperkins leofseige Loqi meandave Nexxy ngoldman nightfly NotMyself othiym23 randalla1ordon s5fs thl0 thoward wao ZenWraithBot]
+2013-05-22 09:03:48	--	Channel #nodepdx: 28 nicks (0 ops, 0 halfops, 0 voices, 28 normals)
+2013-05-22 09:03:50	--	Mode #nodepdx [+cnt]
+2013-05-22 09:03:50	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-05-22 09:33:18	<--	thl0 (~thl0@106.sub-70-192-64.myvzw.com) has quit (Remote host closed the connection)
+2013-05-22 10:27:27	-->	thl0 (~thl0@251.sub-70-192-77.myvzw.com) has joined #nodepdx
+2013-05-22 12:19:48	<--	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-05-22 12:24:13	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Remote host closed the connection)
+2013-05-22 12:28:00	<--	kenperkins (~textual@50-47-18-37.evrt.wa.frontiernet.net) has quit (Quit: Computer has gone to sleep.)
+2013-05-22 12:30:39	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-05-22 12:38:04	-->	jden_ (~jden@ec2-54-241-125-37.us-west-1.compute.amazonaws.com) has joined #nodepdx
+2013-05-22 12:41:22	faddah	s5fs: i have not yet given up the ghost! it shan't defeat me! {<— ahab}
+2013-05-22 12:41:31	-->	_hobson (~hobson@ec2-54-244-123-240.us-west-2.compute.amazonaws.com) has joined #nodepdx
+2013-05-22 12:42:44	<--	hobson (~hobson@ec2-54-244-123-240.us-west-2.compute.amazonaws.com) has quit (*.net *.split)
+2013-05-22 12:42:45	<--	jden (~jden@ec2-54-241-125-37.us-west-1.compute.amazonaws.com) has quit (*.net *.split)
+2013-05-22 12:42:46	--	_hobson is now known as hobson
+2013-05-22 12:44:01	<--	hobson (~hobson@ec2-54-244-123-240.us-west-2.compute.amazonaws.com) has left #nodepdx
+2013-05-22 12:51:23	--	hackygolucky_ is now known as hackygolucky
+2013-05-22 12:53:12	s5fs	faddah: that's crazy
+2013-05-22 12:53:41	faddah	i stab at thee! i stab at thee! from the heart of hell i stab at thee ...!!
+2013-05-22 12:53:43	s5fs	i'm playing with streams and having a blast, really neat stuff. i'm trying to see if i can fold this into my current project, but i'd need to upgrade node as well
+2013-05-22 12:54:10	faddah	i think i just need to reinstall node as my last step.
+2013-05-22 12:57:25	-->	bfoote (~bfoote@97-93-18-121.dhcp.snlo.ca.charter.com) has joined #nodepdx
+2013-05-22 12:57:55	s5fs	faddah: what is your ultimate goal? it looks to me like you fell down a rabbit-hole
+2013-05-22 12:58:26	s5fs	i mean, if your goal is to wander down the learning path, then you're doing a fine job. if the goal was to build express site in 48hrs i think you've missed the mark ;-)
+2013-05-22 12:58:28	<--	esundahl (~esundahl@70-89-113-177-BusName-wa.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2013-05-22 12:58:38	faddah	s5fs: i like it down here. lotsa lettuce. {munch, munch, munch…}
+2013-05-22 12:58:54	s5fs	faddah: haha, good to go :)
+2013-05-22 12:59:00	Loqi	rofl
+2013-05-22 12:59:01	<--	thl0 (~thl0@251.sub-70-192-77.myvzw.com) has quit (Ping timeout: 276 seconds)
+2013-05-22 12:59:06	s5fs	haha
+2013-05-22 12:59:11	faddah	s5fs: wait… i have to build express too, after this? d'oh! {*facepalm!*}
+2013-05-22 13:00:10	s5fs	if you actually get node and npm working you should be in fine shape and can move to the next challenge in line
+2013-05-22 13:06:57	<--	bfoote (~bfoote@97-93-18-121.dhcp.snlo.ca.charter.com) has quit (Ping timeout: 256 seconds)
+2013-05-22 13:07:35	-->	thl0 (~thl0@57.sub-70-192-66.myvzw.com) has joined #nodepdx
+2013-05-22 13:13:24	-->	esundahl (~esundahl@70-89-113-177-BusName-wa.hfc.comcastbusiness.net) has joined #nodepdx
+2013-05-22 13:21:05	-->	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has joined #nodepdx
+2013-05-22 13:21:56	faddah	s5fs: what's that *nix command again to remove a directory and everything, recursively, in it?
+2013-05-22 13:22:09	s5fs	rm -rf /my/dir/name
+2013-05-22 13:22:37	s5fs	rm.. the -r flag means 'recursive' and -f means 'force' (ie, don't propmt)
+2013-05-22 13:35:50	faddah	s5fs: right, thank you!
+2013-05-22 13:59:28	-->	kenperkins (~textual@50-47-18-37.evrt.wa.frontiernet.net) has joined #nodepdx
+2013-05-22 14:20:04	--	irc: disconnected from server
+2013-05-22 14:20:30	-->	meandave (~meandave@c-71-56-139-32.hsd1.or.comcast.net) has joined #nodepdx
+2013-05-22 14:20:30	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-05-22 14:20:30	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-05-22 14:20:30	--	Nicks #nodepdx: [AWinterman chrisdickinson ckknight cmeiklejohn dlmanning esundahl EvilPacket faddah hackygolucky hydrawat jden_ justinabrahms kenperkins leofseige Loqi meandave Nexxy ngoldman nightfly NotMyself othiym23 randalla1ordon s5fs thl0 thoward wao ZenWraithBot]
+2013-05-22 14:20:30	--	Channel #nodepdx: 27 nicks (0 ops, 0 halfops, 0 voices, 27 normals)
+2013-05-22 14:20:36	--	Mode #nodepdx [+cnt]
+2013-05-22 14:20:36	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-05-22 14:55:54	<--	thl0 (~thl0@57.sub-70-192-66.myvzw.com) has quit (Remote host closed the connection)
+2013-05-22 17:12:14	--	irc: disconnected from server
+2013-05-22 17:12:41	-->	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-05-22 17:12:41	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-05-22 17:12:41	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-05-22 17:12:41	--	Nicks #nodepdx: [AWinterman chrisdickinson ckknight cmeiklejohn dlmanning EvilPacket faddah hackygolucky hydrawat jden_ justinabrahms kenperkins leofseige Loqi meandave Nexxy ngoldman nightfly NotMyself othiym23 randalla1ordon ridicter s5fs thoward wao ZenWraithBot]
+2013-05-22 17:12:41	--	Channel #nodepdx: 26 nicks (0 ops, 0 halfops, 0 voices, 26 normals)
+2013-05-22 17:12:41	--	Notice(hobana.freenode.net): [freenode-info] why register and identify? your IRC nick is how people know you. http://freenode.net/faq.shtml#nicksetup
+2013-05-22 17:12:47	--	Mode #nodepdx [+cnt]
+2013-05-22 17:12:47	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-05-22 17:15:52	<--	ngoldman (~ngoldman@198.102.43.49) has quit (Remote host closed the connection)
+2013-05-22 18:02:04	--	irc: disconnected from server
+2013-05-22 18:02:28	-->	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-05-22 18:02:28	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-05-22 18:02:28	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-05-22 18:02:28	--	Nicks #nodepdx: [AWinterman chrisdickinson ckknight cmeiklejohn dlmanning EvilPacket faddah hackygolucky hydrawat jden_ justinabrahms kenperkins leofseige Loqi meandave Nexxy nightfly othiym23 randalla1ordon ridicter s5fs thoward wao ZenWraithBot]
+2013-05-22 18:02:28	--	Channel #nodepdx: 24 nicks (0 ops, 0 halfops, 0 voices, 24 normals)
+2013-05-22 18:02:34	--	Mode #nodepdx [+cnt]
+2013-05-22 18:02:34	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-05-22 18:10:17	-->	phated (~phated@72.44.240.228) has joined #nodepdx
+2013-05-22 18:23:20	-->	thl0 (~thl0@cpe-67-247-31-169.nyc.res.rr.com) has joined #nodepdx
+2013-05-22 18:25:28	<--	phated (~phated@72.44.240.228) has quit (Remote host closed the connection)
+2013-05-22 18:35:59	-->	esundahl (~esundahl@c-24-16-39-22.hsd1.wa.comcast.net) has joined #nodepdx
+2013-05-22 18:58:57	--	irc: disconnected from server
+2013-05-22 18:59:24	-->	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-05-22 18:59:24	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-05-22 18:59:24	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-05-22 18:59:24	--	Nicks #nodepdx: [AWinterman chrisdickinson ckknight cmeiklejohn dlmanning esundahl EvilPacket faddah hackygolucky hydrawat jden_ justinabrahms kenperkins leofseige Loqi meandave Nexxy nightfly othiym23 randalla1ordon s5fs thl0 thoward wao ZenWraithBot]
+2013-05-22 18:59:24	--	Channel #nodepdx: 25 nicks (0 ops, 0 halfops, 0 voices, 25 normals)
+2013-05-22 18:59:29	--	Mode #nodepdx [+cnt]
+2013-05-22 18:59:29	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-05-22 19:51:29	-->	ridicter (~ridicter@c-67-171-134-180.hsd1.or.comcast.net) has joined #nodepdx
+2013-05-22 20:02:19	-->	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has joined #nodepdx
+2013-05-22 20:03:13	<--	thl0 (~thl0@cpe-67-247-31-169.nyc.res.rr.com) has quit (Remote host closed the connection)
+2013-05-22 20:17:11	-->	hobson (~hobson@ec2-54-244-123-240.us-west-2.compute.amazonaws.com) has joined #nodepdx
+2013-05-22 20:34:43	<--	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-05-22 21:51:15	<--	ridicter (~ridicter@c-67-171-134-180.hsd1.or.comcast.net) has quit (Quit: ["Textual IRC Client: www.textualapp.com"])
+2013-05-22 23:26:45	<--	esundahl (~esundahl@c-24-16-39-22.hsd1.wa.comcast.net) has quit (Remote host closed the connection)
+2013-05-23 11:20:46	--	irc: disconnected from server
+2013-05-23 11:21:11	-->	meandave (~meandave@c-71-56-139-32.hsd1.or.comcast.net) has joined #nodepdx
+2013-05-23 11:21:11	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-05-23 11:21:11	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-05-23 11:21:11	--	Nicks #nodepdx: [chrisdickinson ckknight cmeiklejohn dlmanning esundahl EvilPacket faddah hackygolucky hobson hydrawat jden_ justinabrahms kenperkins leofseige Loqi meandave Nexxy ngoldman_ nightfly NotMyself othiym23 randalla1ordon s5fs thoward wao ZenWraithBot]
+2013-05-23 11:21:11	--	Channel #nodepdx: 26 nicks (0 ops, 0 halfops, 0 voices, 26 normals)
+2013-05-23 11:21:17	--	Mode #nodepdx [+cnt]
+2013-05-23 11:21:18	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-05-23 11:36:52	<--	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-05-23 11:38:54	-->	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has joined #nodepdx
+2013-05-23 11:44:06	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-05-23 11:50:39	<--	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-05-23 11:52:02	-->	thl0 (~thl0@179.sub-70-192-69.myvzw.com) has joined #nodepdx
+2013-05-23 12:05:00	--	hobson is now known as zz_hobson
+2013-05-23 12:06:12	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Remote host closed the connection)
+2013-05-23 12:07:20	<--	thl0 (~thl0@179.sub-70-192-69.myvzw.com) has quit (Remote host closed the connection)
+2013-05-23 12:10:50	-->	thl0 (~thl0@179.sub-70-192-69.myvzw.com) has joined #nodepdx
+2013-05-23 12:16:14	<--	thl0 (~thl0@179.sub-70-192-69.myvzw.com) has quit (Remote host closed the connection)
+2013-05-23 12:16:23	--	zz_hobson is now known as hobson
+2013-05-23 12:21:20	--	hobson is now known as zz_hobson
+2013-05-23 12:33:56	-->	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has joined #nodepdx
+2013-05-23 12:36:46	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-05-23 12:42:21	-->	thl0 (~thl0@170.sub-70-192-74.myvzw.com) has joined #nodepdx
+2013-05-23 12:46:01	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Read error: Connection reset by peer)
+2013-05-23 12:46:24	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-05-23 12:51:04	-->	bfoote (~bfoote@c-50-139-64-44.hsd1.or.comcast.net) has joined #nodepdx
+2013-05-23 12:55:57	<--	bfoote (~bfoote@c-50-139-64-44.hsd1.or.comcast.net) has quit (Ping timeout: 256 seconds)
+2013-05-23 12:58:24	-->	bfoote (~bfoote@c-50-139-64-44.hsd1.or.comcast.net) has joined #nodepdx
+2013-05-23 13:13:32	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Remote host closed the connection)
+2013-05-23 13:16:21	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-05-23 13:20:49	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Ping timeout: 248 seconds)
+2013-05-23 13:24:56	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-05-23 13:39:51	--	zz_hobson is now known as hobson
+2013-05-23 13:44:08	--	hobson is now known as zz_hobson
+2013-05-23 13:53:04	--	zz_hobson is now known as hobson
+2013-05-23 13:58:33	--	hobson is now known as zz_hobson
+2013-05-23 15:10:37	<--	thl0 (~thl0@170.sub-70-192-74.myvzw.com) has quit (Remote host closed the connection)
+2013-05-23 15:21:15	<--	bfoote (~bfoote@c-50-139-64-44.hsd1.or.comcast.net) has quit (Ping timeout: 260 seconds)
+2013-05-23 16:13:38	--	ngoldman_ is now known as ngoldman
+2013-05-23 16:17:12	-->	n8ji (~ngoldman@173-8-196-70-Oregon.hfc.comcastbusiness.net) has joined #nodepdx
+2013-05-23 16:20:55	<--	ngoldman (~ngoldman@173-8-196-70-Oregon.hfc.comcastbusiness.net) has quit (Ping timeout: 276 seconds)
+2013-05-23 16:32:23	--	n8ji is now known as ngoldman
+2013-05-23 16:41:01	-->	mhawash (~mhawash@host-240-174.pubnet.pdx.edu) has joined #nodepdx
+2013-05-23 16:43:39	<--	mhawash (~mhawash@host-240-174.pubnet.pdx.edu) has quit (Remote host closed the connection)
+2013-05-23 16:43:55	-->	mhawash (~mhawash@host-240-174.pubnet.pdx.edu) has joined #nodepdx
+2013-05-23 16:51:33	<--	esundahl (~esundahl@70-89-113-177-BusName-wa.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2013-05-23 17:28:08	<--	mhawash (~mhawash@host-240-174.pubnet.pdx.edu) has quit (Remote host closed the connection)
+2013-05-23 17:32:12	ngoldman	anyone interested in reimplementing this in voxel.js and with perhaps more metal? http://www.youtube.com/watch?v=0mQP9O1-4lc
+2013-05-23 17:32:57	<--	kenperkins (~textual@50-47-18-37.evrt.wa.frontiernet.net) has left #nodepdx ("Textual IRC Client: http://www.textualapp.com/")
+2013-05-23 17:34:56	<--	ngoldman (~ngoldman@173-8-196-70-Oregon.hfc.comcastbusiness.net) has quit (Quit: http://meme.loqi.me/4Q7BBWSU.jpg)
+2013-05-23 17:36:21	-->	mhawash (~mhawash@host-240-174.pubnet.pdx.edu) has joined #nodepdx
+2013-05-23 18:10:34	<--	mhawash (~mhawash@host-240-174.pubnet.pdx.edu) has quit (Remote host closed the connection)
+2013-05-23 18:19:51	-->	bfoote (~bfoote@c-50-139-64-44.hsd1.or.comcast.net) has joined #nodepdx
+2013-05-23 18:35:44	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Remote host closed the connection)
+2013-05-23 18:56:56	-->	esundahl (~esundahl@c-24-16-39-22.hsd1.wa.comcast.net) has joined #nodepdx
+2013-05-23 18:57:38	faddah	ngoldman - nice, but it reminds me a bit too much of old second life
+2013-05-23 18:59:45	-->	esundahl_ (~esundahl@c-24-16-39-22.hsd1.wa.comcast.net) has joined #nodepdx
+2013-05-23 19:06:18	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-05-23 19:07:22	<--	esundahl (~esundahl@c-24-16-39-22.hsd1.wa.comcast.net) has quit (Remote host closed the connection)
+2013-05-23 19:07:22	--	esundahl_ is now known as esundahl
+2013-05-23 19:08:23	-->	esundahl_ (~esundahl@c-24-16-39-22.hsd1.wa.comcast.net) has joined #nodepdx
+2013-05-23 19:17:29	<--	esundahl_ (~esundahl@c-24-16-39-22.hsd1.wa.comcast.net) has quit (Remote host closed the connection)
+2013-05-23 19:17:37	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Ping timeout: 248 seconds)
+2013-05-23 19:17:55	<--	esundahl (~esundahl@c-24-16-39-22.hsd1.wa.comcast.net) has quit (Quit: esundahl)
+2013-05-23 19:44:40	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-05-23 19:56:01	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Ping timeout: 248 seconds)
+2013-05-23 20:23:04	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-05-23 20:26:06	-->	esundahl (~esundahl@c-24-16-39-22.hsd1.wa.comcast.net) has joined #nodepdx
+2013-05-23 20:35:29	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Ping timeout: 248 seconds)
+2013-05-23 21:01:37	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-05-23 21:12:49	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Ping timeout: 248 seconds)
+2013-05-23 21:25:35	<--	esundahl (~esundahl@c-24-16-39-22.hsd1.wa.comcast.net) has quit (Remote host closed the connection)
+2013-05-23 23:28:04	--	irc: disconnected from server
+2013-05-23 23:28:27	-->	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-05-23 23:28:27	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-05-23 23:28:27	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-05-23 23:28:27	--	Nicks #nodepdx: [bfoote chrisdickinson ckknight cmeiklejohn dlmanning EvilPacket faddah hackygolucky hydrawat jden_ justinabrahms leofseige Loqi meandave Nexxy nightfly NotMyself othiym23 randalla1ordon s5fs thoward wao ZenWraithBot zz_hobson]
+2013-05-23 23:28:27	--	Channel #nodepdx: 24 nicks (0 ops, 0 halfops, 0 voices, 24 normals)
+2013-05-23 23:28:35	--	Mode #nodepdx [+cnt]
+2013-05-23 23:28:35	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-05-23 23:31:29	<--	bfoote (~bfoote@c-50-139-64-44.hsd1.or.comcast.net) has quit (Ping timeout: 248 seconds)
+2013-05-23 23:35:12	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-05-23 23:47:29	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Ping timeout: 248 seconds)
+2013-05-24 00:13:49	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-05-24 00:25:53	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Ping timeout: 248 seconds)
+2013-05-24 00:27:04	<--	EvilPacket (~EvilPacke@2605:f700:80:800::2e41:e2ea) has quit (Read error: Operation timed out)
+2013-05-24 00:27:39	-->	EvilPacket (~EvilPacke@2605:f700:80:800::2e41:e2ea) has joined #nodepdx
+2013-05-24 00:52:42	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-05-24 01:05:16	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Ping timeout: 256 seconds)
+2013-05-24 01:31:39	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-05-24 01:43:49	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Ping timeout: 248 seconds)
+2013-05-24 10:20:49	--	irc: disconnected from server
+2013-05-24 10:21:16	-->	meandave (~meandave@c-71-56-139-32.hsd1.or.comcast.net) has joined #nodepdx
+2013-05-24 10:21:16	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-05-24 10:21:16	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-05-24 10:21:16	--	Nicks #nodepdx: [AWinterman bfoote chrisdickinson ckknight cmeiklejohn dlmanning esundahl EvilPacket faddah hackygolucky hackygolucky_ hobson hydrawat jden_ justinabrahms leofseige Loqi meandave mhawash Nexxy nightfly NotMyself othiym23 randallagordon s5fs thl0 thoward wao ZenWraithBot]
+2013-05-24 10:21:16	--	Channel #nodepdx: 29 nicks (0 ops, 0 halfops, 0 voices, 29 normals)
+2013-05-24 10:21:23	--	Mode #nodepdx [+cnt]
+2013-05-24 10:21:23	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-05-24 10:32:13	<--	hackygolucky_ (~hackygolu@67.131.102.78) has quit (Remote host closed the connection)
+2013-05-24 10:33:35	-->	hackygol_ (~hackygolu@67.131.102.78) has joined #nodepdx
+2013-05-24 10:48:28	--	hackygol_ is now known as hackygolucky_
+2013-05-24 11:18:13	s5fs	th	th	[B[B[A
+2013-05-24 11:18:16	s5fs	wow
+2013-05-24 11:18:34	s5fs	thl0: I've found the videos although they don't appear to be released for real:  http://video.nodepdx.org/video/1
+2013-05-24 11:18:44	s5fs	gotta increment the number in the url to find the video you want
+2013-05-24 11:30:26	thl0	s5fs: thanks
+2013-05-24 11:30:40	s5fs	thl0: no prob, enjoy!
+2013-05-24 11:42:17	<--	esundahl (~esundahl@70-89-113-177-BusName-wa.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2013-05-24 11:55:44	wao	lol https://zenircbot.readthedocs.org/en/latest/services.html#troll
+2013-05-24 12:02:49	<--	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-05-24 12:11:05	<--	thl0 (~thl0@251.sub-70-192-86.myvzw.com) has quit (Remote host closed the connection)
+2013-05-24 12:12:39	-->	esundahl (~esundahl@70-89-113-177-BusName-wa.hfc.comcastbusiness.net) has joined #nodepdx
+2013-05-24 12:12:43	<--	esundahl (~esundahl@70-89-113-177-BusName-wa.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2013-05-24 12:12:49	-->	esundahl (~esundahl@70-89-113-177-BusName-wa.hfc.comcastbusiness.net) has joined #nodepdx
+2013-05-24 12:18:06	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Remote host closed the connection)
+2013-05-24 12:22:51	thoward	thl0 s5fs
+2013-05-24 12:22:58	thoward	dang. trigger happy
+2013-05-24 12:23:47	-->	thl0 (~thl0@251.sub-70-192-86.myvzw.com) has joined #nodepdx
+2013-05-24 12:23:51	thoward	videos will be ready soon.. we haven't published the url because a) we haven't offically released the vids (need sign off from speakers), and b) haven't configured richard (the video cataloging app that is hosting them).
+2013-05-24 12:26:11	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-05-24 12:27:58	s5fs	thoward: haha sorry man, hope I didn't let the cat outta the bag
+2013-05-24 12:28:00	Loqi	rofl
+2013-05-24 12:28:04	s5fs	no idea how I found the url either
+2013-05-24 13:02:26	<--	thl0 (~thl0@251.sub-70-192-86.myvzw.com) has quit (Ping timeout: 264 seconds)
+2013-05-24 13:08:04	-->	thl0 (~thl0@5.sub-70-192-77.myvzw.com) has joined #nodepdx
+2013-05-24 13:30:53	-->	andru (~andru@38.100.211.123) has joined #nodepdx
+2013-05-24 13:42:10	<--	mhawash (~mhawash@c-98-246-210-122.hsd1.or.comcast.net) has quit (Remote host closed the connection)
+2013-05-24 13:48:16	-->	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has joined #nodepdx
+2013-05-24 13:56:32	NotMyself	sudo make me a sammic
+2013-05-24 13:56:35	NotMyself	h
+2013-05-24 14:14:24	 *	thoward makes NotMyself a sandwich despite their better judgement
+2013-05-24 14:14:38	ckknight	thoward: you need to fix your sudoers file
+2013-05-24 14:15:10	thoward	lol
+2013-05-24 14:21:45	-->	mhawash (~mhawash@c-98-246-210-122.hsd1.or.comcast.net) has joined #nodepdx
+2013-05-24 14:33:18	<--	andru (~andru@38.100.211.123) has quit (Remote host closed the connection)
+2013-05-24 14:52:13	<--	esundahl (~esundahl@70-89-113-177-BusName-wa.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2013-05-24 15:01:09	<--	thl0 (~thl0@5.sub-70-192-77.myvzw.com) has quit (Remote host closed the connection)
+2013-05-24 15:04:13	-->	andru (~andru@c-50-139-89-1.hsd1.or.comcast.net) has joined #nodepdx
+2013-05-24 15:45:10	--	hobson is now known as zz_hobson
+2013-05-24 16:14:51	--	zz_hobson is now known as hobson
+2013-05-24 16:17:09	<--	bfoote (~bfoote@c-50-139-64-44.hsd1.or.comcast.net) has quit (Read error: No route to host)
+2013-05-24 16:17:20	-->	bfoote (~bfoote@c-50-139-64-44.hsd1.or.comcast.net) has joined #nodepdx
+2013-05-24 16:19:47	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Remote host closed the connection)
+2013-05-24 16:29:09	--	hobson is now known as zz_hobson
+2013-05-24 16:33:01	<--	bfoote (~bfoote@c-50-139-64-44.hsd1.or.comcast.net) has quit (Ping timeout: 256 seconds)
+2013-05-24 16:48:25	<--	andru (~andru@c-50-139-89-1.hsd1.or.comcast.net) has quit (Remote host closed the connection)
+2013-05-24 16:50:27	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-05-24 16:56:08	<--	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-05-24 16:57:10	-->	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has joined #nodepdx
+2013-05-24 17:00:47	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Ping timeout: 256 seconds)
+2013-05-24 17:01:14	<--	ckknight (~ckknight@WoWUIDev/WoWAce/CurseStaff/CurseForge/ckknight) has quit (Quit: Bye!)
+2013-05-24 17:03:31	-->	andru (~andru@c-67-189-32-61.hsd1.or.comcast.net) has joined #nodepdx
+2013-05-24 17:04:29	<--	andru (~andru@c-67-189-32-61.hsd1.or.comcast.net) has quit (Remote host closed the connection)
+2013-05-24 17:05:42	-->	ckknight (~ckknight@c-67-160-187-29.hsd1.wa.comcast.net) has joined #nodepdx
+2013-05-24 17:07:00	<--	ckknight (~ckknight@c-67-160-187-29.hsd1.wa.comcast.net) has quit (Changing host)
+2013-05-24 17:07:02	-->	ckknight (~ckknight@WoWUIDev/WoWAce/CurseStaff/CurseForge/ckknight) has joined #nodepdx
+2013-05-24 17:27:32	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-05-24 17:38:12	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Ping timeout: 256 seconds)
+2013-05-24 17:38:47	<--	hackygolucky_ (~hackygolu@67.131.102.78) has quit (Remote host closed the connection)
+2013-05-24 17:47:32	<--	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-05-24 18:24:19	--	irc: disconnected from server
+2013-05-24 18:24:44	-->	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-05-24 18:24:44	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-05-24 18:24:44	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-05-24 18:24:44	--	Nicks #nodepdx: [chrisdickinson ckknight cmeiklejohn dlmanning EvilPacket faddah hackygolucky hobson hydrawat jden_ justinabrahms leofseige Loqi meandave mhawash Nexxy nightfly othiym23 randallagordon s5fs thoward wao ZenWraithBot]
+2013-05-24 18:24:44	--	Channel #nodepdx: 23 nicks (0 ops, 0 halfops, 0 voices, 23 normals)
+2013-05-24 18:24:52	--	Mode #nodepdx [+cnt]
+2013-05-24 18:24:52	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-05-24 18:29:53	--	hobson is now known as zz_hobson
+2013-05-24 18:41:29	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-05-24 18:51:30	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Ping timeout: 240 seconds)
+2013-05-24 19:00:45	<--	ZenWraithBot (~zenwraith@216.151.13.75) has quit (Remote host closed the connection)
+2013-05-24 19:00:59	-->	ZenWraithBot (~zenwraith@216.151.13.75) has joined #nodepdx
+2013-05-24 19:06:57	<--	mhawash (~mhawash@c-98-246-210-122.hsd1.or.comcast.net) has quit (Remote host closed the connection)
+2013-05-24 19:10:24	-->	bfoote (~bfoote@c-50-139-64-44.hsd1.or.comcast.net) has joined #nodepdx
+2013-05-24 19:18:45	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-05-24 19:20:35	--	zz_hobson is now known as hobson
+2013-05-24 19:29:15	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Ping timeout: 256 seconds)
+2013-05-24 19:30:09	--	hobson is now known as zz_hobson
+2013-05-24 19:34:17	-->	esundahl (~esundahl@c-24-16-39-22.hsd1.wa.comcast.net) has joined #nodepdx
+2013-05-24 19:35:28	-->	mhawash (~mhawash@c-98-246-210-122.hsd1.or.comcast.net) has joined #nodepdx
+2013-05-24 19:56:06	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-05-24 20:07:13	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Ping timeout: 241 seconds)
+2013-05-24 23:37:18	--	irc: disconnected from server
+2013-05-24 23:38:15	-->	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-05-24 23:38:15	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-05-24 23:38:15	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-05-24 23:38:15	--	Nicks #nodepdx: [bfoote chrisdickinson ckknight cmeiklejohn dlmanning EvilPacket faddah hackygolucky hydrawat jden_ justinabrahms leofseige Loqi meandave Nexxy nightfly othiym23 randallagordon s5fs thoward wao ZenWraithBot zz_hobson]
+2013-05-24 23:38:15	--	Channel #nodepdx: 23 nicks (0 ops, 0 halfops, 0 voices, 23 normals)
+2013-05-24 23:38:18	--	Mode #nodepdx [+cnt]
+2013-05-24 23:38:18	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-05-24 23:43:49	<--	bfoote (~bfoote@c-50-139-64-44.hsd1.or.comcast.net) has quit (Ping timeout: 248 seconds)
+2013-05-25 00:52:14	--	irc: disconnected from server
+2013-05-25 00:52:40	-->	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-05-25 00:52:40	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-05-25 00:52:40	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-05-25 00:52:40	--	Nicks #nodepdx: [chrisdickinson ckknight cmeiklejohn dlmanning EvilPacket faddah hackygolucky hydrawat jden_ justinabrahms leofseige Loqi meandave Nexxy nightfly othiym23 randallagordon s5fs thoward wao ZenWraithBot zz_hobson]
+2013-05-25 00:52:40	--	Channel #nodepdx: 22 nicks (0 ops, 0 halfops, 0 voices, 22 normals)
+2013-05-25 00:52:49	--	Mode #nodepdx [+cnt]
+2013-05-25 00:52:49	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-05-25 01:22:36	--	zz_hobson is now known as hobson
+2013-05-25 10:32:44	--	irc: disconnected from server
+2013-05-25 10:33:08	-->	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-05-25 10:33:08	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-05-25 10:33:08	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-05-25 10:33:08	--	Nicks #nodepdx: [chrisdickinson ckknight cmeiklejohn dlmanning EvilPacket faddah hackygolucky hobson hydrawat jden_ justinabrahms leofseige Loqi meandave Nexxy nightfly othiym23 randallagordon s5fs thoward wao ZenWraithBot]
+2013-05-25 10:33:08	--	Channel #nodepdx: 22 nicks (0 ops, 0 halfops, 0 voices, 22 normals)
+2013-05-25 10:33:16	--	Mode #nodepdx [+cnt]
+2013-05-25 10:33:16	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-05-25 10:39:56	--	hobson is now known as zz_hobson
+2013-05-25 12:00:51	--	zz_hobson is now known as hobson
+2013-05-25 12:10:29	--	hobson is now known as zz_hobson
+2013-05-25 13:01:08	--	zz_hobson is now known as hobson
+2013-05-25 13:10:52	--	hobson is now known as zz_hobson
+2013-05-25 14:01:30	--	zz_hobson is now known as hobson
+2013-05-25 14:11:08	--	hobson is now known as zz_hobson
+2013-05-25 15:43:34	<--	ZenWraithBot (~zenwraith@216.151.13.75) has quit (Remote host closed the connection)
+2013-05-25 15:43:51	-->	ZenWraithBot (~zenwraith@216.151.13.75) has joined #nodepdx
+2013-05-25 16:02:06	--	zz_hobson is now known as hobson
+2013-05-25 16:11:36	--	hobson is now known as zz_hobson
+2013-05-25 17:13:20	--	irc: disconnected from server
+2013-05-26 01:27:18	-->	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-05-26 01:27:18	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-05-26 01:27:18	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-05-26 01:27:18	--	Nicks #nodepdx: [chrisdico ckknight cmeiklejohn dlmanning EvilPacket faddah hackygolucky hobson hydrawat jden_ justinabrahms leofseige Loqi meandave Nexxy nightfly othiym23 randallagordon s5fs thoward wao ZenWraithBot]
+2013-05-26 01:27:18	--	Channel #nodepdx: 22 nicks (0 ops, 0 halfops, 0 voices, 22 normals)
+2013-05-26 01:27:27	--	Mode #nodepdx [+cnt]
+2013-05-26 01:27:27	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-05-26 13:30:52	--	irc: disconnected from server
+2013-06-03 11:20:34	-->	meandave (~meandave@c-71-56-139-32.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-03 11:20:34	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-03 11:20:34	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-03 11:20:34	--	Nicks #nodepdx: [AWinterman bfoote chrisdickinson ckknight cmeiklejohn dlmanning dukesam giorgo hackygolucky hobson hydrawat jden_ justinabrahms leofseige Loqi meandave mghayes ngoldman NotMyself othiym23 randallagordon s5fs thoward ZenWraithBot]
+2013-06-03 11:20:34	--	Channel #nodepdx: 24 nicks (0 ops, 0 halfops, 0 voices, 24 normals)
+2013-06-03 11:20:35	--	Mode #nodepdx [+cnt]
+2013-06-03 11:20:35	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-03 11:25:25	-->	toddwprice (6cf0f8a7@gateway/web/freenode/ip.108.240.248.167) has joined #nodepdx
+2013-06-03 11:25:45	<--	toddwprice (6cf0f8a7@gateway/web/freenode/ip.108.240.248.167) has quit (Client Quit)
+2013-06-03 11:40:23	<--	mghayes (~mghayes@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-03 11:55:45	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-03 11:57:06	<--	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-06-03 12:08:53	--	hobson is now known as zz_hobson
+2013-06-03 12:11:08	-->	mghayes (~mghayes@67.131.102.78) has joined #nodepdx
+2013-06-03 12:16:46	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-03 12:18:04	--	zz_hobson is now known as hobson
+2013-06-03 12:19:42	<--	mghayes (~mghayes@67.131.102.78) has quit (Ping timeout: 256 seconds)
+2013-06-03 12:21:41	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Ping timeout: 256 seconds)
+2013-06-03 12:22:58	-->	mghayes (~mghayes@67.131.102.78) has joined #nodepdx
+2013-06-03 12:38:03	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-03 12:42:56	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Ping timeout: 256 seconds)
+2013-06-03 12:45:13	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-03 12:49:32	-->	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has joined #nodepdx
+2013-06-03 13:50:21	<--	randallagordon (~randall@75-164-226-12.ptld.qwest.net) has quit (Ping timeout: 248 seconds)
+2013-06-03 13:50:54	-->	randallagordon (~randall@75-164-222-73.ptld.qwest.net) has joined #nodepdx
+2013-06-03 14:00:36	<--	ZenWraithBot (~zenwraith@216.151.13.75) has quit (Remote host closed the connection)
+2013-06-03 14:03:12	-->	ZenWraithBot (~zenwraith@216.151.13.75) has joined #nodepdx
+2013-06-03 16:01:39	<--	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-06-03 16:02:31	-->	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has joined #nodepdx
+2013-06-03 17:34:22	--	hobson is now known as zz_hobson
+2013-06-03 17:42:23	<--	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-06-03 17:47:03	<--	dukesam (~dukesam@67.131.102.78) has quit (Ping timeout: 260 seconds)
+2013-06-03 17:50:07	<--	ngoldman (~ngoldman@198.102.43.49) has quit (Remote host closed the connection)
+2013-06-03 18:03:58	--	zz_hobson is now known as hobson
+2013-06-03 18:12:02	<--	mghayes (~mghayes@67.131.102.78) has quit (Ping timeout: 276 seconds)
+2013-06-03 18:25:58	--	irc: disconnected from server
+2013-06-03 18:57:47	-->	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-03 18:57:47	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-03 18:57:47	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-03 18:57:47	--	Nicks #nodepdx: [bfoote chrisdickinson ckknight cmeiklejohn dlmanning giorgo hackygolucky hydrawat jden_ justinabrahms leofseige Loqi meandave ngoldman othiym23 randallagordon s5fs thoward ZenWraithBot zz_hobson]
+2013-06-03 18:57:47	--	Channel #nodepdx: 20 nicks (0 ops, 0 halfops, 0 voices, 20 normals)
+2013-06-03 18:57:53	--	Mode #nodepdx [+cnt]
+2013-06-03 18:57:53	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-03 19:00:20	<--	ngoldman (~ngoldman@198.102.43.49) has quit (Ping timeout: 256 seconds)
+2013-06-03 19:03:46	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-03 19:03:48	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-03 19:04:21	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-03 19:04:41	<--	bfoote (~bfoote@c-50-139-64-44.hsd1.or.comcast.net) has quit (Ping timeout: 276 seconds)
+2013-06-03 19:09:08	--	zz_hobson is now known as hobson
+2013-06-03 19:13:56	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Ping timeout: 256 seconds)
+2013-06-03 19:18:37	--	hobson is now known as zz_hobson
+2013-06-03 19:40:53	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-03 19:44:06	--	irc: disconnected from server
+2013-06-03 19:45:24	-->	meandave1 (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-03 19:45:24	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-03 19:45:24	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-03 19:45:24	--	Nicks #nodepdx: [AWinterman chrisdickinson ckknight cmeiklejohn dlmanning giorgo hackygolucky hydrawat jden_ justinabrahms leofseige Loqi meandave meandave1 othiym23 randallagordon s5fs thoward ZenWraithBot zz_hobson]
+2013-06-03 19:45:24	--	Channel #nodepdx: 20 nicks (0 ops, 0 halfops, 0 voices, 20 normals)
+2013-06-03 19:45:29	--	Mode #nodepdx [+cnt]
+2013-06-03 19:45:29	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-03 19:46:03	<--	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has quit (Ping timeout: 256 seconds)
+2013-06-03 19:50:12	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Ping timeout: 256 seconds)
+2013-06-03 20:09:24	--	zz_hobson is now known as hobson
+2013-06-03 20:17:34	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-03 20:18:56	--	hobson is now known as zz_hobson
+2013-06-03 20:23:48	--	You are now known as meandave
+2013-06-03 20:27:02	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Ping timeout: 256 seconds)
+2013-06-03 21:02:53	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-03 21:07:33	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Ping timeout: 256 seconds)
+2013-06-03 21:09:43	--	zz_hobson is now known as hobson
+2013-06-03 21:19:32	--	hobson is now known as zz_hobson
+2013-06-03 21:19:49	-->	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has joined #nodepdx
+2013-06-03 21:21:25	<--	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has quit (Client Quit)
+2013-06-03 21:34:04	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-03 22:00:19	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Quit: Leaving...)
+2013-06-03 22:11:45	--	zz_hobson is now known as hobson
+2013-06-03 22:21:35	--	hobson is now known as zz_hobson
+2013-06-03 22:35:35	-->	bfoote (~bfoote@c-50-139-64-44.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-03 23:13:44	--	zz_hobson is now known as hobson
+2013-06-03 23:23:44	--	hobson is now known as zz_hobson
+2013-06-03 23:29:20	--	irc: disconnected from server
+2013-06-03 23:36:47	-->	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-03 23:36:47	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-03 23:36:47	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-03 23:36:47	--	Nicks #nodepdx: [bfoote chrisdickinson ckknight cmeiklejohn dlmanning giorgo hackygolucky hydrawat jden_ justinabrahms leofseige Loqi meandave othiym23 randallagordon s5fs thoward ZenWraithBot zz_hobson]
+2013-06-03 23:36:47	--	Channel #nodepdx: 19 nicks (0 ops, 0 halfops, 0 voices, 19 normals)
+2013-06-03 23:36:53	--	Mode #nodepdx [+cnt]
+2013-06-03 23:36:53	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-04 00:15:49	--	zz_hobson is now known as hobson
+2013-06-04 00:25:27	--	hobson is now known as zz_hobson
+2013-06-04 09:25:36	--	irc: disconnected from server
+2013-06-04 09:26:00	-->	meandave (~meandave@c-71-56-139-32.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-04 09:26:00	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-04 09:26:00	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-04 09:26:00	--	Nicks #nodepdx: [bfoote chrisdickinson ckknight cmeiklejohn dlmanning dukesam giorgo hackygolucky hydrawat jden_ justinabrahms leofseige Loqi meandave mghayes ngoldman NotMyself othiym23 randallagordon s5fs thoward ZenWraithBot zz_hobson]
+2013-06-04 09:26:00	--	Channel #nodepdx: 23 nicks (0 ops, 0 halfops, 0 voices, 23 normals)
+2013-06-04 09:26:06	--	Mode #nodepdx [+cnt]
+2013-06-04 09:26:06	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-04 09:31:52	--	zz_hobson is now known as hobson
+2013-06-04 09:41:28	--	hobson is now known as zz_hobson
+2013-06-04 09:46:35	<--	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-06-04 09:48:09	-->	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has joined #nodepdx
+2013-06-04 10:00:30	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-04 10:23:38	<--	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-06-04 10:25:13	-->	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has joined #nodepdx
+2013-06-04 10:32:09	--	zz_hobson is now known as hobson
+2013-06-04 10:36:34	-->	jerrysv (~jerrysv@173-8-196-70-Oregon.hfc.comcastbusiness.net) has joined #nodepdx
+2013-06-04 10:41:55	--	hobson is now known as zz_hobson
+2013-06-04 10:56:37	-->	ZenWraithBot1 (~zenwraith@216.151.13.75) has joined #nodepdx
+2013-06-04 10:58:11	-->	jden (~jden@54.241.125.37) has joined #nodepdx
+2013-06-04 10:58:35	--	jden is now known as Guest86498
+2013-06-04 10:59:34	<--	jden_ (~jden@ec2-54-241-125-37.us-west-1.compute.amazonaws.com) has quit (Ping timeout: 264 seconds)
+2013-06-04 10:59:34	<--	ZenWraithBot (~zenwraith@216.151.13.75) has quit (Ping timeout: 264 seconds)
+2013-06-04 10:59:34	<--	hackygolucky (uid11034@gateway/web/irccloud.com/x-nokhobhmffardvxj) has quit (Ping timeout: 264 seconds)
+2013-06-04 11:04:50	-->	AWinterm_ (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-04 11:07:01	-->	n8ji (~ngoldman@198.102.43.49) has joined #nodepdx
+2013-06-04 11:07:05	-->	randalla1ordon (~randall@75-164-222-73.ptld.qwest.net) has joined #nodepdx
+2013-06-04 11:07:52	<--	dukesam (~dukesam@67.131.102.78) has quit (Ping timeout: 252 seconds)
+2013-06-04 11:08:05	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Ping timeout: 252 seconds)
+2013-06-04 11:08:05	<--	ngoldman (~ngoldman@198.102.43.49) has quit (Ping timeout: 252 seconds)
+2013-06-04 11:08:06	<--	randallagordon (~randall@75-164-222-73.ptld.qwest.net) has quit (Ping timeout: 252 seconds)
+2013-06-04 11:28:50	-->	dlmannin1 (~david@c-24-22-14-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-04 11:29:26	-->	bfoote_ (~bfoote@c-50-139-64-44.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-04 11:29:32	--	leofseige is now known as mrmoto
+2013-06-04 11:30:21	--	mrmoto is now known as leofseige
+2013-06-04 11:30:36	<--	cmeiklejohn (cmeiklejoh@pdpc/supporter/active/cmeiklejohn) has quit (Ping timeout: 256 seconds)
+2013-06-04 11:30:36	<--	bfoote (~bfoote@c-50-139-64-44.hsd1.or.comcast.net) has quit (Ping timeout: 256 seconds)
+2013-06-04 11:31:22	-->	cmeiklejohn (~cmeiklejo@pdpc/supporter/active/cmeiklejohn) has joined #nodepdx
+2013-06-04 11:35:20	<--	mghayes (~mghayes@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-04 11:35:28	-->	jden_ (~jden@ec2-54-241-125-37.us-west-1.compute.amazonaws.com) has joined #nodepdx
+2013-06-04 11:37:33	<--	AWinterm_ (~AWinterma@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-04 11:38:20	<--	Guest86498 (~jden@54.241.125.37) has quit (Write error: Broken pipe)
+2013-06-04 11:40:30	<--	dlmanning (~david@c-24-22-14-106.hsd1.or.comcast.net) has quit (Ping timeout: 257 seconds)
+2013-06-04 11:44:15	<--	jerrysv (~jerrysv@173-8-196-70-Oregon.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2013-06-04 12:03:36	-->	ngoldman (~ngoldman@198.102.43.49) has joined #nodepdx
+2013-06-04 12:04:04	--	zz_hobson is now known as hobson
+2013-06-04 12:05:51	<--	n8ji (~ngoldman@198.102.43.49) has quit (Ping timeout: 245 seconds)
+2013-06-04 12:06:04	-->	mghayes (~mghayes@67.131.102.78) has joined #nodepdx
+2013-06-04 12:08:04	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-04 12:08:05	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-04 12:08:39	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-04 12:11:32	<--	mghayes (~mghayes@67.131.102.78) has quit (Ping timeout: 256 seconds)
+2013-06-04 12:14:10	--	hobson is now known as zz_hobson
+2013-06-04 12:19:00	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Ping timeout: 260 seconds)
+2013-06-04 12:20:39	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-04 12:21:08	-->	dukesam (~dukesam@67.131.102.78) has joined #nodepdx
+2013-06-04 12:21:34	-->	mghayes (~mghayes@67.131.102.78) has joined #nodepdx
+2013-06-04 12:23:26	<--	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-06-04 12:24:45	<--	dukesam (~dukesam@67.131.102.78) has quit (Client Quit)
+2013-06-04 12:25:02	-->	dukesam (~dukesam@67.131.102.78) has joined #nodepdx
+2013-06-04 12:57:19	-->	hackygolucky (uid11034@gateway/web/irccloud.com/x-ywrbpavqsvxngwfg) has joined #nodepdx
+2013-06-04 13:06:40	--	zz_hobson is now known as hobson
+2013-06-04 13:06:52	-->	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has joined #nodepdx
+2013-06-04 13:10:09	<--	bfoote_ (~bfoote@c-50-139-64-44.hsd1.or.comcast.net) has quit (Read error: Operation timed out)
+2013-06-04 13:14:59	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-04 13:16:35	--	hobson is now known as zz_hobson
+2013-06-04 13:18:58	<--	ngoldman (~ngoldman@198.102.43.49) has quit (*.net *.split)
+2013-06-04 13:22:18	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-04 13:22:18	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Read error: Connection reset by peer)
+2013-06-04 13:22:46	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-04 13:26:42	--	dlmannin1 is now known as dlmanning
+2013-06-04 13:27:32	-->	bfoote_ (~bfoote@c-50-139-64-44.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-04 13:28:47	-->	ngoldman (~ngoldman@198.102.43.49) has joined #nodepdx
+2013-06-04 14:01:24	<--	bfoote_ (~bfoote@c-50-139-64-44.hsd1.or.comcast.net) has quit (Ping timeout: 252 seconds)
+2013-06-04 14:10:13	--	zz_hobson is now known as hobson
+2013-06-04 14:19:41	--	hobson is now known as zz_hobson
+2013-06-04 14:43:49	-->	n8ji (~ngoldman@198.102.43.49) has joined #nodepdx
+2013-06-04 14:43:49	<--	ngoldman (~ngoldman@198.102.43.49) has quit (Read error: Connection reset by peer)
+2013-06-04 14:50:54	<--	dlmanning (~david@c-24-22-14-106.hsd1.or.comcast.net) has quit (Read error: Operation timed out)
+2013-06-04 14:56:34	--	zz_hobson is now known as hobson
+2013-06-04 14:58:36	-->	dlmanning (~david@c-24-22-14-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-04 16:15:38	--	hobson is now known as zz_hobson
+2013-06-04 16:30:14	-->	ngoldman (~ngoldman@173-8-196-70-Oregon.hfc.comcastbusiness.net) has joined #nodepdx
+2013-06-04 16:33:08	<--	n8ji (~ngoldman@198.102.43.49) has quit (Ping timeout: 245 seconds)
+2013-06-04 16:36:25	-->	faddah (~faddah@c-98-246-204-27.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-04 16:36:45	faddah	hi all. back from o'reilly fluent conf. last week.
+2013-06-04 16:39:25	hackygolucky	welcome back!
+2013-06-04 16:41:33	faddah	i owe it all to you, hackygolucky. had a blast and much to share. thank you so much, again. i should take you & your hubby out to drinks some time to say thanx.
+2013-06-04 16:51:57	hackygolucky	That would be lovely as well, but it certainly is payment enough you really had fun!
+2013-06-04 17:02:44	faddah	well, let me know when might be good for you two.
+2013-06-04 17:08:25	<--	faddah (~faddah@c-98-246-204-27.hsd1.or.comcast.net) has quit (Quit: faddah)
+2013-06-04 17:27:06	--	zz_hobson is now known as hobson
+2013-06-04 17:29:16	<--	mghayes (~mghayes@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-04 17:40:39	<--	ngoldman (~ngoldman@173-8-196-70-Oregon.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2013-06-04 17:41:03	--	hobson is now known as zz_hobson
+2013-06-04 17:41:21	-->	ngoldman (~ngoldman@198.102.43.49) has joined #nodepdx
+2013-06-04 17:42:00	<--	ngoldman (~ngoldman@198.102.43.49) has quit (Remote host closed the connection)
+2013-06-04 17:51:32	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-04 17:55:14	<--	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-06-04 18:00:29	<--	dukesam (~dukesam@67.131.102.78) has quit (Quit: Computer has gone to sleep.)
+2013-06-04 18:01:21	-->	faddah (~faddah@c-98-246-204-27.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-04 18:19:42	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-04 18:21:53	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Read error: Connection reset by peer)
+2013-06-04 18:22:15	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-04 18:29:47	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Read error: Operation timed out)
+2013-06-04 19:25:19	--	irc: disconnected from server
+2013-06-04 19:25:43	-->	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-04 19:25:43	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-04 19:25:43	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-04 19:25:43	--	Nicks #nodepdx: [chrisdickinson ckknight cmeiklejohn dlmanning faddah giorgo hackygolucky hydrawat jden_ justinabrahms leofseige Loqi meandave othiym23 randalla1ordon s5fs thoward ZenWraithBot1 zz_hobson]
+2013-06-04 19:25:43	--	Channel #nodepdx: 19 nicks (0 ops, 0 halfops, 0 voices, 19 normals)
+2013-06-04 19:25:49	--	Mode #nodepdx [+cnt]
+2013-06-04 19:25:49	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-04 19:33:43	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-04 19:43:17	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Ping timeout: 248 seconds)
+2013-06-04 20:10:23	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-04 20:19:33	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Ping timeout: 248 seconds)
+2013-06-04 20:38:55	-->	jden (~jden@ec2-54-241-125-37.us-west-1.compute.amazonaws.com) has joined #nodepdx
+2013-06-04 20:39:19	--	jden is now known as Guest28371
+2013-06-04 20:41:40	<--	jden_ (~jden@ec2-54-241-125-37.us-west-1.compute.amazonaws.com) has quit (Remote host closed the connection)
+2013-06-04 20:47:03	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-04 20:53:39	--	irc: disconnected from server
+2013-06-04 20:54:05	-->	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-04 20:54:05	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-04 20:54:05	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-04 20:54:05	--	Nicks #nodepdx: [AWinterman chrisdickinson ckknight cmeiklejohn dlmanning faddah giorgo Guest28371 hackygolucky hydrawat justinabrahms leofseige Loqi meandave othiym23 randalla1ordon s5fs thoward ZenWraithBot1 zz_hobson]
+2013-06-04 20:54:05	--	Channel #nodepdx: 20 nicks (0 ops, 0 halfops, 0 voices, 20 normals)
+2013-06-04 20:54:11	--	Mode #nodepdx [+cnt]
+2013-06-04 20:54:11	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-04 20:54:14	<--	leofseige (~leofseige@simandala.com) has quit (Remote host closed the connection)
+2013-06-04 20:56:20	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Ping timeout: 248 seconds)
+2013-06-04 21:23:53	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-04 21:38:58	--	irc: disconnected from server
+2013-06-04 21:39:23	-->	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-04 21:39:23	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-04 21:39:23	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-04 21:39:23	--	Nicks #nodepdx: [chrisdickinson ckknight cmeiklejohn dlmanning faddah giorgo Guest28371 hackygolucky hydrawat justinabrahms Loqi meandave othiym23 randalla1ordon s5fs thoward ZenWraithBot1 zz_hobson]
+2013-06-04 21:39:23	--	Channel #nodepdx: 18 nicks (0 ops, 0 halfops, 0 voices, 18 normals)
+2013-06-04 21:39:29	--	Mode #nodepdx [+cnt]
+2013-06-04 21:39:30	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-04 22:00:44	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-04 22:11:01	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Ping timeout: 248 seconds)
+2013-06-04 22:37:42	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-04 22:47:43	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Ping timeout: 245 seconds)
+2013-06-04 22:59:15	--	zz_hobson is now known as hobson
+2013-06-04 23:10:05	--	hobson is now known as zz_hobson
+2013-06-04 23:14:17	<--	ckknight (~ckknight@WoWUIDev/WoWAce/CurseStaff/CurseForge/ckknight) has quit (Remote host closed the connection)
+2013-06-04 23:14:45	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-04 23:15:38	-->	ckknight (~ckknight@WoWUIDev/WoWAce/CurseStaff/CurseForge/ckknight) has joined #nodepdx
+2013-06-04 23:25:09	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Ping timeout: 248 seconds)
+2013-06-04 23:34:13	--	irc: disconnected from server
+2013-06-04 23:34:37	-->	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-04 23:34:37	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-04 23:34:37	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-04 23:34:37	--	Nicks #nodepdx: [chrisdickinson ckknight cmeiklejohn dlmanning faddah giorgo Guest28371 hackygolucky hydrawat justinabrahms Loqi meandave othiym23 randalla1ordon s5fs thoward ZenWraithBot1 zz_hobson]
+2013-06-04 23:34:37	--	Channel #nodepdx: 18 nicks (0 ops, 0 halfops, 0 voices, 18 normals)
+2013-06-04 23:34:43	--	Mode #nodepdx [+cnt]
+2013-06-04 23:34:43	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-04 23:51:23	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-05 00:01:56	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Ping timeout: 248 seconds)
+2013-06-05 00:04:33	--	zz_hobson is now known as hobson
+2013-06-05 00:14:05	--	hobson is now known as zz_hobson
+2013-06-05 00:28:59	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-05 00:39:17	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Ping timeout: 248 seconds)
+2013-06-05 01:04:54	--	zz_hobson is now known as hobson
+2013-06-05 01:06:14	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-05 01:14:38	--	hobson is now known as zz_hobson
+2013-06-05 01:16:37	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Ping timeout: 248 seconds)
+2013-06-05 09:05:56	--	irc: disconnected from server
+2013-06-05 09:06:20	-->	meandave (~meandave@c-71-56-139-32.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-05 09:06:20	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-05 09:06:20	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-05 09:06:20	--	Nicks #nodepdx: [chrisdickinson ckknight cmeiklejohn dlmanning faddah giorgo Guest28371 hackygolucky hobson hydrawat Loqi meandave othiym23 randalla1ordon s5fs thoward ZenWraithBot]
+2013-06-05 09:06:20	--	Channel #nodepdx: 17 nicks (0 ops, 0 halfops, 0 voices, 17 normals)
+2013-06-05 09:06:26	--	Mode #nodepdx [+cnt]
+2013-06-05 09:06:27	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-05 09:10:45	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-05 09:13:25	-->	justinabrahms (uid11033@gateway/web/irccloud.com/x-uuwoededoxlyyvlr) has joined #nodepdx
+2013-06-05 09:20:36	-->	ngoldman (~ngoldman@198.102.43.49) has joined #nodepdx
+2013-06-05 09:24:37	-->	mghayes (~mghayes@67.131.102.78) has joined #nodepdx
+2013-06-05 09:27:11	-->	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has joined #nodepdx
+2013-06-05 09:37:50	-->	busticated (~textual@c-50-139-15-236.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-05 10:05:33	<--	ngoldman (~ngoldman@198.102.43.49) has quit (*.net *.split)
+2013-06-05 10:05:35	<--	randalla1ordon (~randall@75-164-222-73.ptld.qwest.net) has quit (*.net *.split)
+2013-06-05 10:05:36	<--	hydrawat (~tom@huptwo34.com) has quit (*.net *.split)
+2013-06-05 10:08:07	-->	ngoldman (~ngoldman@198.102.43.49) has joined #nodepdx
+2013-06-05 10:08:07	-->	randalla1ordon (~randall@75-164-222-73.ptld.qwest.net) has joined #nodepdx
+2013-06-05 10:08:07	-->	hydrawat (~tom@huptwo34.com) has joined #nodepdx
+2013-06-05 10:26:03	-->	bfoote_ (~bfoote@c-50-139-64-44.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-05 10:48:11	-->	andru (~andru@38.100.211.123) has joined #nodepdx
+2013-06-05 11:34:43	<--	s5fs (s5fs@gateway/shell/jquery.com/x-qnltqvatndgqlsmr) has left #nodepdx
+2013-06-05 11:48:37	<--	bfoote_ (~bfoote@c-50-139-64-44.hsd1.or.comcast.net) has quit (Read error: Operation timed out)
+2013-06-05 11:51:05	<--	mghayes (~mghayes@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-05 11:53:30	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-05 12:01:36	--	hobson is now known as zz_hobson
+2013-06-05 12:16:18	<--	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-06-05 12:16:26	-->	andru_ (~andru@38.100.211.123) has joined #nodepdx
+2013-06-05 12:16:26	<--	andru (~andru@38.100.211.123) has quit (Ping timeout: 245 seconds)
+2013-06-05 12:39:04	--	irc: disconnected from server
+2013-06-05 12:39:31	-->	meandave (~meandave@c-71-56-139-32.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-05 12:39:31	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-05 12:39:31	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-05 12:39:31	--	Nicks #nodepdx: [andru_ chrisdickinson ckknight cmeiklejohn dlmanning faddah giorgo Guest28371 hackygolucky hydrawat justinabrahms Loqi meandave ngoldman othiym23 randalla1ordon thoward zz_hobson]
+2013-06-05 12:39:31	--	Channel #nodepdx: 18 nicks (0 ops, 0 halfops, 0 voices, 18 normals)
+2013-06-05 12:39:37	--	Mode #nodepdx [+cnt]
+2013-06-05 12:39:37	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-05 12:48:04	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-05 12:50:35	-->	mghayes (~mghayes@67.131.102.78) has joined #nodepdx
+2013-06-05 13:04:37	-->	busticated (~textual@c-50-139-15-236.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-05 13:28:32	-->	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has joined #nodepdx
+2013-06-05 13:37:42	<--	mghayes (~mghayes@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-05 13:42:26	-->	n8ji (~ngoldman@198.102.43.49) has joined #nodepdx
+2013-06-05 13:42:26	<--	ngoldman (~ngoldman@198.102.43.49) has quit (Read error: Connection reset by peer)
+2013-06-05 13:49:08	-->	mghayes (~mghayes@67.131.102.78) has joined #nodepdx
+2013-06-05 14:01:51	faddah	hi all
+2013-06-05 14:02:10	faddah	anyone seen s5fs?
+2013-06-05 14:21:55	-->	AWinterm_ (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-05 14:25:13	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Ping timeout: 276 seconds)
+2013-06-05 14:29:46	<--	mghayes (~mghayes@67.131.102.78) has quit (Read error: Connection reset by peer)
+2013-06-05 14:30:22	-->	mghayes (~mghayes@67.131.102.78) has joined #nodepdx
+2013-06-05 14:30:45	-->	AWinter__ (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-05 14:30:52	<--	andru_ (~andru@38.100.211.123) has quit (Read error: Connection reset by peer)
+2013-06-05 14:30:55	<--	AWinterm_ (~AWinterma@67.131.102.78) has quit (Ping timeout: 246 seconds)
+2013-06-05 14:31:25	-->	andru (~andru@38.100.211.123) has joined #nodepdx
+2013-06-05 15:06:29	<--	AWinter__ (~AWinterma@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-05 15:08:10	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-05 15:09:01	--	zz_hobson is now known as hobson
+2013-06-05 15:12:57	-->	ngoldman (~ngoldman@173-8-196-70-Oregon.hfc.comcastbusiness.net) has joined #nodepdx
+2013-06-05 15:15:33	<--	n8ji (~ngoldman@198.102.43.49) has quit (Ping timeout: 245 seconds)
+2013-06-05 15:22:30	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-05 15:23:02	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-05 15:51:26	-->	dukesam (~dukesam@67.131.102.78) has joined #nodepdx
+2013-06-05 16:17:36	--	hobson is now known as zz_hobson
+2013-06-05 16:23:20	--	zz_hobson is now known as hobson
+2013-06-05 16:40:58	-->	bfoote_ (~bfoote@c-50-139-64-44.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-05 16:48:29	<--	andru (~andru@38.100.211.123) has quit (Remote host closed the connection)
+2013-06-05 17:09:59	faddah	so anyone going to the jQuery conf. here on june 13?
+2013-06-05 17:11:55	<--	dukesam (~dukesam@67.131.102.78) has quit (Ping timeout: 246 seconds)
+2013-06-05 17:13:53	-->	mghayes_ (~mghayes@67.131.102.78) has joined #nodepdx
+2013-06-05 17:15:33	<--	mghayes (~mghayes@67.131.102.78) has quit (Ping timeout: 245 seconds)
+2013-06-05 17:16:34	<--	mghayes_ (~mghayes@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-05 17:17:44	-->	AWinterm_ (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-05 17:19:17	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Ping timeout: 248 seconds)
+2013-06-05 17:23:58	<--	bfoote_ (~bfoote@c-50-139-64-44.hsd1.or.comcast.net) has quit (Ping timeout: 276 seconds)
+2013-06-05 17:26:52	<--	ngoldman (~ngoldman@173-8-196-70-Oregon.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2013-06-05 17:27:32	<--	AWinterm_ (~AWinterma@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-05 17:29:21	--	hobson is now known as zz_hobson
+2013-06-05 18:13:11	--	irc: disconnected from server
+2013-06-05 18:13:37	-->	meandave (~meandave@c-71-56-139-32.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-05 18:13:37	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-05 18:13:37	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-05 18:13:38	--	Nicks #nodepdx: [chrisdickinson ckknight cmeiklejohn dlmanning faddah giorgo Guest28371 hackygolucky hydrawat justinabrahms Loqi meandave NotMyself othiym23 randalla1ordon thoward zz_hobson]
+2013-06-05 18:13:38	--	Channel #nodepdx: 17 nicks (0 ops, 0 halfops, 0 voices, 17 normals)
+2013-06-05 18:13:44	--	Mode #nodepdx [+cnt]
+2013-06-05 18:13:44	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-05 19:08:09	--	irc: disconnected from server
+2013-06-05 22:06:46	-->	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-05 22:06:46	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-05 22:06:46	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-05 22:06:46	--	Nicks #nodepdx: [bfoote_ chrisdickinson ckknight cmeiklejohn dlmanning faddah giorgo Guest28371 hackygolucky hydrawat justinabrahms Loqi meandave othiym23 randalla1ordon thoward zz_hobson]
+2013-06-05 22:06:46	--	Channel #nodepdx: 17 nicks (0 ops, 0 halfops, 0 voices, 17 normals)
+2013-06-05 22:06:52	--	Mode #nodepdx [+cnt]
+2013-06-05 22:06:52	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-05 22:15:19	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-05 22:24:55	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Ping timeout: 276 seconds)
+2013-06-05 22:51:38	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-05 23:02:37	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Ping timeout: 276 seconds)
+2013-06-05 23:28:50	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-05 23:38:22	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Ping timeout: 276 seconds)
+2013-06-05 23:39:33	<--	bfoote_ (~bfoote@c-50-139-64-44.hsd1.or.comcast.net) has quit (Ping timeout: 248 seconds)
+2013-06-06 00:09:02	--	irc: disconnected from server
+2013-06-06 00:09:26	-->	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-06 00:09:26	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-06 00:09:26	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-06 00:09:26	--	Nicks #nodepdx: [AWinterman chrisdickinson ckknight cmeiklejohn dlmanning faddah giorgo Guest28371 hackygolucky hydrawat justinabrahms Loqi meandave othiym23 randalla1ordon thoward zz_hobson]
+2013-06-06 00:09:26	--	Channel #nodepdx: 17 nicks (0 ops, 0 halfops, 0 voices, 17 normals)
+2013-06-06 00:09:32	--	Mode #nodepdx [+cnt]
+2013-06-06 00:09:32	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-06 00:15:55	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Ping timeout: 256 seconds)
+2013-06-06 00:42:42	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-06 10:20:40	--	irc: disconnected from server
+2013-06-06 10:21:04	-->	meandave (~meandave@c-71-56-139-32.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-06 10:21:04	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-06 10:21:04	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-06 10:21:04	--	Nicks #nodepdx: [AWinterm_ busticated chrisdickinson ckknight cmeiklejohn dlmanning dukesam faddah giorgo Guest28371 hackygol_ hackygolucky hobson hydrawat Loqi meandave mghayes NotMyself othiym23 randallagordon thoward]
+2013-06-06 10:21:04	--	Channel #nodepdx: 21 nicks (0 ops, 0 halfops, 0 voices, 21 normals)
+2013-06-06 10:21:09	--	Mode #nodepdx [+cnt]
+2013-06-06 10:21:09	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-06 10:43:03	<--	hackygol_ (~hackygolu@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-06 10:50:32	-->	n8ji (~ngoldman@198.102.43.49) has joined #nodepdx
+2013-06-06 11:04:49	<--	n8ji (~ngoldman@198.102.43.49) has quit (Ping timeout: 248 seconds)
+2013-06-06 11:53:06	-->	justinabrahms (uid11033@gateway/web/irccloud.com/x-cxouyxecoxgbyxon) has joined #nodepdx
+2013-06-06 11:53:06	-->	bfoote_ (~bfoote@c-50-139-64-44.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-06 11:58:49	<--	mghayes (~mghayes@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-06 12:04:04	<--	AWinterm_ (~AWinterma@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-06 12:29:35	-->	mghayes (~mghayes@67.131.102.78) has joined #nodepdx
+2013-06-06 12:34:36	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-06 12:34:36	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-06 12:35:07	<--	mghayes (~mghayes@67.131.102.78) has quit (Ping timeout: 260 seconds)
+2013-06-06 12:35:17	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-06 12:38:41	-->	ngoldman (~ngoldman@198.102.43.49) has joined #nodepdx
+2013-06-06 12:44:52	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Ping timeout: 276 seconds)
+2013-06-06 12:46:49	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-06 12:48:10	-->	mghayes (~mghayes@67.131.102.78) has joined #nodepdx
+2013-06-06 13:00:50	<--	bfoote_ (~bfoote@c-50-139-64-44.hsd1.or.comcast.net) has quit (Ping timeout: 242 seconds)
+2013-06-06 13:01:54	-->	AWinterm_ (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-06 13:04:17	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Ping timeout: 248 seconds)
+2013-06-06 13:32:35	<--	AWinterm_ (~AWinterma@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-06 13:33:12	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-06 13:53:55	-->	bfoote_ (~bfoote@c-50-139-64-44.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-06 14:07:40	<--	bfoote_ (~bfoote@c-50-139-64-44.hsd1.or.comcast.net) has quit (Read error: Connection reset by peer)
+2013-06-06 14:07:47	-->	bfoote__ (~bfoote@c-50-139-64-44.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-06 15:09:42	<--	ngoldman (~ngoldman@198.102.43.49) has quit (Remote host closed the connection)
+2013-06-06 15:16:12	NotMyself	this just in still listening to get lucky
+2013-06-06 15:16:36	busticated	currently: Sparks
+2013-06-06 16:03:55	--	irc: disconnected from server
+2013-06-06 16:04:18	-->	meandave (~meandave@c-71-56-139-32.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-06 16:04:18	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-06 16:04:18	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-06 16:04:18	--	Nicks #nodepdx: [AWinterm_ bfoote__ busticated chrisdickinson ckknight cmeiklejohn dlmanning dukesam faddah giorgo Guest28371 hackygolucky hobson hydrawat justinabrahms Loqi meandave mghayes NotMyself othiym23 randallagordon thoward]
+2013-06-06 16:04:18	--	Channel #nodepdx: 22 nicks (0 ops, 0 halfops, 0 voices, 22 normals)
+2013-06-06 16:04:25	--	Mode #nodepdx [+cnt]
+2013-06-06 16:04:25	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-06 16:29:54	<--	mghayes (~mghayes@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-06 16:30:02	<--	AWinterm_ (~AWinterma@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-06 16:40:02	faddah	hackygolucky: sorry, just seeing this now. june 13th & 14th, next thursday & friday. http://events.jquery.org/2013/portland/
+2013-06-06 16:40:32	ckknight	whew, too pricy for me
+2013-06-06 16:41:25	ckknight	it would be nice to ask when jQuery plans to have its promises conform to Promises/A+
+2013-06-06 16:43:05	busticated	+1 what's missing at this point? i haven't been tracking it closely… once I could chain .then()s properly I sorta stopped caring
+2013-06-06 16:45:18	ckknight	jQuery mutates its promises rather than returning new ones, making it so you can only have a single chain rather than a divergent chain
+2013-06-06 16:45:39	ckknight	https://github.com/promises-aplus/promises-spec/blob/master/differences-from-promises-a.md
+2013-06-06 16:59:49	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-06 17:00:21	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Read error: Connection reset by peer)
+2013-06-06 17:00:51	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-06 17:01:34	faddah	i don't know about that. here's a nice slide presentation i saw a guy from appendTo do at fluentconf last week, though, on the current state of jQuery mobile:  https://speakerdeck.com/rwhitbeck/state-of-jquery-mobile-fluent-conf-2013
+2013-06-06 17:04:41	faddah	also, this woman, estelle weyl (written a number of books for site point & o'reilly on html5 & css), did this great presentation on using selectors in CSS, such that a lot of stuff we give to ruby or js/jQuery, including fancy slides, transformations & animations, can actually be handled in css, which is always faster in the browser than controller code on top of it interpreting the DOM:  http://estelle.github.io/selectors/
+2013-06-06 17:04:59	ckknight	oh, cool
+2013-06-06 17:08:57	ckknight	I wrote a templating library recently, if anyone has a minute or two to look at it: http://ckknight.github.io/egs/
+2013-06-06 17:12:01	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Ping timeout: 276 seconds)
+2013-06-06 17:18:01	faddah	ckknight - is this using angular.js at all? syntax looks very similar, in some aspects, to angular.js
+2013-06-06 17:18:23	ckknight	no, angular js works by adding attributes to HTML and is HTML-specific
+2013-06-06 17:18:42	ckknight	and it has a system to update the nodes and everything
+2013-06-06 17:19:02	ckknight	EGS works more like a traditional renderer
+2013-06-06 17:19:21	ckknight	taking a chunk of template text and some data (a JS Object) and producing a chunk of rendered text.
+2013-06-06 17:19:54	faddah	o.k.
+2013-06-06 17:20:08	ckknight	And according to https://github.com/ckknight/template-benchmark/tree/with-egs - it's currently the fastest in that list
+2013-06-06 17:20:34	ckknight	well, on the unescaped benchmark it ties with the top two. On the escaped benchmark, it wins significantly.
+2013-06-06 17:20:36	faddah	i understand the functioning is different, just saying all them there curly braces and percentage sign, could be mistaken for angular.js notation.
+2013-06-06 17:20:54	ckknight	faddah: you mean ASP notation from the 90s?
+2013-06-06 17:21:33	faddah	ckknight: yes, and if we continue the discussion, we trace all modern languages back to smalltalk.
+2013-06-06 17:21:59	ckknight	but what of LISP or Algol?
+2013-06-06 17:22:54	faddah	next you'll be trying to impress us with your ancient COBOL-fu on Wang systems
+2013-06-06 17:24:10	ckknight	that's a bit before my time
+2013-06-06 17:24:22	ckknight	I thankfully have never had to work in COBOL
+2013-06-06 17:25:03	faddah	some… still are. {shudder!}
+2013-06-06 17:25:21	faddah	{chilling wolf howl from off}
+2013-06-06 17:25:42	ckknight	yeah, my older brother used to work for Caterpillar doing COBOL work
+2013-06-06 17:25:56	ckknight	that was only 10 years ago or so
+2013-06-06 17:30:21	-->	mghayes (~mghayes@67.131.102.78) has joined #nodepdx
+2013-06-06 17:34:06	ckknight	faddah: also I'd appreciate it if you checked out http://ckknight.github.io/gorillascript/ as well
+2013-06-06 17:37:46	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-06 17:38:32	faddah	ckknight: some of the stuff in JS you're writing around with gorilla script to fix might be answered in ECMAScript 6. see here => http://cdn.oreillystatic.com/en/assets/1/event/93/An%20Overview%20of%20ECMAScript%206%20Presentation.pdf
+2013-06-06 17:38:44	ckknight	I'm well aware.
+2013-06-06 17:38:55	<--	mghayes (~mghayes@67.131.102.78) has quit (Ping timeout: 264 seconds)
+2013-06-06 17:38:56	ckknight	I took a lot of ES6 features and provide them in GorillaScript
+2013-06-06 17:39:07	ckknight	everything compiles to valid ES3, though
+2013-06-06 17:39:42	faddah	o.k. - just liked axel presentations. there's already a lot of browser support of some features in ECMAScript 6.
+2013-06-06 17:40:34	ckknight	for some things, and often you need a shim anyway
+2013-06-06 17:41:14	ckknight	but often for some more complex features, such as generators, there's no good way to use them in modern browsers
+2013-06-06 17:41:28	ckknight	due to compatibility concerns
+2013-06-06 17:46:23	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Read error: Operation timed out)
+2013-06-06 17:53:00	<--	bfoote__ (~bfoote@c-50-139-64-44.hsd1.or.comcast.net) has quit (Remote host closed the connection)
+2013-06-06 17:53:18	-->	bfoote__ (~bfoote@c-50-139-64-44.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-06 18:03:18	<--	busticated (~textual@c-50-139-15-236.hsd1.or.comcast.net) has quit (Quit: …)
+2013-06-06 18:08:20	<--	randallagordon (~randall@71-222-94-116.ptld.qwest.net) has quit (Ping timeout: 260 seconds)
+2013-06-06 19:27:11	--	irc: disconnected from server
+2013-06-06 19:27:35	-->	meandave (~meandave@67-133-40-251.dia.static.qwest.net) has joined #nodepdx
+2013-06-06 19:27:35	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-06 19:27:35	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-06 19:27:35	--	Nicks #nodepdx: [chrisdickinson ckknight cmeiklejohn dlmanning dukesam faddah giorgo Guest28371 hackygolucky hobson hydrawat justinabrahms Loqi meandave othiym23 randallagordon thoward]
+2013-06-06 19:27:35	--	Channel #nodepdx: 17 nicks (0 ops, 0 halfops, 0 voices, 17 normals)
+2013-06-06 19:27:41	--	Mode #nodepdx [+cnt]
+2013-06-06 19:27:41	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-06 21:49:48	--	irc: disconnected from server
+2013-06-06 21:50:17	-->	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-06 21:50:17	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-06 21:50:17	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-06 21:50:17	--	Nicks #nodepdx: [chrisdickinson ckknight cmeiklejohn dlmanning dukesam faddah giorgo Guest28371 hackygolucky hobson hydrawat justinabrahms Loqi meandave othiym23 randallagordon thoward]
+2013-06-06 21:50:17	--	Channel #nodepdx: 17 nicks (0 ops, 0 halfops, 0 voices, 17 normals)
+2013-06-06 21:50:22	--	Mode #nodepdx [+cnt]
+2013-06-06 21:50:22	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-06 21:57:52	-->	mghayes (~mghayes@c-67-168-199-143.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-06 22:24:43	<--	mghayes (~mghayes@c-67-168-199-143.hsd1.or.comcast.net) has quit (Remote host closed the connection)
+2013-06-06 22:25:53	-->	mghayes (~mghayes@c-67-168-199-143.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-06 23:15:35	--	irc: disconnected from server
+2013-06-06 23:16:02	-->	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-06 23:16:02	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-06 23:16:02	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-06 23:16:02	--	Nicks #nodepdx: [chrisdickinson ckknight cmeiklejohn dlmanning dukesam faddah giorgo Guest28371 hackygolucky hobson hydrawat justinabrahms Loqi meandave mghayes othiym23 randallagordon thoward]
+2013-06-06 23:16:02	--	Channel #nodepdx: 18 nicks (0 ops, 0 halfops, 0 voices, 18 normals)
+2013-06-06 23:16:08	--	Mode #nodepdx [+cnt]
+2013-06-06 23:16:08	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-06 23:20:19	-->	bfoote__ (~bfoote@c-50-139-64-44.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-06 23:49:08	<--	mghayes (~mghayes@c-67-168-199-143.hsd1.or.comcast.net) has quit (Remote host closed the connection)
+2013-06-06 23:58:19	--	irc: disconnected from server
+2013-06-06 23:58:46	-->	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-06 23:58:46	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-06 23:58:46	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-06 23:58:47	--	Nicks #nodepdx: [bfoote__ chrisdickinson ckknight cmeiklejohn dlmanning dukesam faddah giorgo Guest28371 hackygolucky hobson hydrawat justinabrahms Loqi meandave mghayes othiym23 randallagordon thoward]
+2013-06-06 23:58:47	--	Channel #nodepdx: 19 nicks (0 ops, 0 halfops, 0 voices, 19 normals)
+2013-06-06 23:58:52	--	Mode #nodepdx [+cnt]
+2013-06-06 23:58:53	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-07 00:09:13	<--	mghayes (~mghayes@c-67-168-199-143.hsd1.or.comcast.net) has quit (Remote host closed the connection)
+2013-06-07 00:39:31	<--	bfoote__ (~bfoote@c-50-139-64-44.hsd1.or.comcast.net) has quit (Ping timeout: 264 seconds)
+2013-06-07 01:19:49	-->	mghayes (~mghayes@c-67-168-199-143.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-07 01:24:31	<--	mghayes (~mghayes@c-67-168-199-143.hsd1.or.comcast.net) has quit (Ping timeout: 264 seconds)
+2013-06-07 02:54:30	--	irc: disconnected from server
+2013-06-07 02:54:52	-->	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-07 02:54:52	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-07 02:54:52	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-07 02:54:52	--	Nicks #nodepdx: [chrisdickinson ckknight cmeiklejohn dlmanning dukesam faddah giorgo Guest28371 hackygolucky hydrawat justinabrahms Loqi meandave othiym23 randallagordon thoward zz_hobson]
+2013-06-07 02:54:52	--	Channel #nodepdx: 17 nicks (0 ops, 0 halfops, 0 voices, 17 normals)
+2013-06-07 02:54:58	--	Mode #nodepdx [+cnt]
+2013-06-07 02:54:58	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-07 03:18:29	--	zz_hobson is now known as hobson
+2013-06-07 03:32:49	--	hobson is now known as zz_hobson
+2013-06-07 10:03:49	--	irc: disconnected from server
+2013-06-07 10:04:15	-->	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-07 10:04:15	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-07 10:04:15	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-07 10:04:15	--	Nicks #nodepdx: [AWinterman bfoote__ busticated chrisdickinson ckknight cmeiklejohn dlmanning dukesam faddah giorgo Guest28371 hackygolucky hobson hydrawat justinabrahms Loqi meandave mghayes NotMyself othiym23 randallagordon thoward]
+2013-06-07 10:04:15	--	Channel #nodepdx: 22 nicks (0 ops, 0 halfops, 0 voices, 22 normals)
+2013-06-07 10:04:22	--	Mode #nodepdx [+cnt]
+2013-06-07 10:04:23	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-07 10:31:36	--	irc: disconnected from server
+2013-06-07 10:32:01	-->	meandave (~meandave@c-71-56-139-32.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-07 10:32:01	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-07 10:32:01	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-07 10:32:01	--	Nicks #nodepdx: [AWinterman bfoote__ busticated chrisdickinson ckknight cmeiklejohn dlmanning dukesam faddah giorgo Guest28371 hackygolucky hobson hydrawat justinabrahms Loqi meandave mghayes NotMyself othiym23 randallagordon thoward]
+2013-06-07 10:32:01	--	Channel #nodepdx: 22 nicks (0 ops, 0 halfops, 0 voices, 22 normals)
+2013-06-07 10:32:07	--	Mode #nodepdx [+cnt]
+2013-06-07 10:32:08	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-07 10:45:02	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-07 10:52:49	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-07 10:52:50	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-07 10:53:27	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-07 11:12:21	<--	hydrawat (~tom@huptwo34.com) has quit (Read error: Operation timed out)
+2013-06-07 11:15:59	-->	hydrawat (~tom@huptwo34.com) has joined #nodepdx
+2013-06-07 11:26:44	<--	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-06-07 11:35:10	-->	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has joined #nodepdx
+2013-06-07 11:46:43	<--	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-06-07 11:48:04	<--	hydrawat (~tom@huptwo34.com) has quit (Read error: Operation timed out)
+2013-06-07 11:52:37	-->	hydrawat (~tom@huptwo34.com) has joined #nodepdx
+2013-06-07 13:11:25	--	irc: disconnected from server
+2013-06-07 13:11:47	-->	meandave (~meandave@c-71-56-139-32.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-07 13:11:47	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-07 13:11:47	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-07 13:11:47	--	Nicks #nodepdx: [AWinterman bfoote__ chrisdickinson ckknight cmeiklejohn dlmanning dukesam faddah giorgo Guest28371 hackygolucky hobson hydrawat justinabrahms Loqi meandave mghayes NotMyself othiym23 randallagordon thoward]
+2013-06-07 13:11:47	--	Channel #nodepdx: 21 nicks (0 ops, 0 halfops, 0 voices, 21 normals)
+2013-06-07 13:11:53	--	Mode #nodepdx [+cnt]
+2013-06-07 13:11:53	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-07 13:17:19	-->	busticated (~textual@c-50-139-15-236.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-07 13:29:46	-->	mghayes_ (~mghayes@67.131.102.78) has joined #nodepdx
+2013-06-07 13:30:05	<--	mghayes_ (~mghayes@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-07 13:30:51	<--	mghayes (~mghayes@67.131.102.78) has quit (Read error: Operation timed out)
+2013-06-07 14:07:49	<--	bfoote__ (~bfoote@c-50-139-64-44.hsd1.or.comcast.net) has quit (Ping timeout: 248 seconds)
+2013-06-07 14:33:10	-->	mghayes (~mghayes@67.131.102.78) has joined #nodepdx
+2013-06-07 16:27:59	<--	mghayes (~mghayes@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-07 16:41:35	-->	mghayes (~mghayes@67.131.102.78) has joined #nodepdx
+2013-06-07 16:41:40	<--	mghayes (~mghayes@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-07 16:46:15	-->	mghayes (~mghayes@67.131.102.78) has joined #nodepdx
+2013-06-07 17:16:50	-->	bfoote__ (~bfoote@c-50-139-64-44.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-07 17:27:50	<--	mghayes (~mghayes@67.131.102.78) has quit (Ping timeout: 248 seconds)
+2013-06-07 17:28:28	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-07 17:29:04	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-07 17:29:09	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-07 17:29:45	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-07 17:55:30	<--	bfoote__ (~bfoote@c-50-139-64-44.hsd1.or.comcast.net) has quit (Ping timeout: 256 seconds)
+2013-06-07 19:08:52	--	irc: disconnected from server
+2013-06-07 19:09:17	-->	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-07 19:09:17	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-07 19:09:17	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-07 19:09:17	--	Nicks #nodepdx: [chrisdickinson ckknight cmeiklejohn dlmanning faddah giorgo Guest28371 hackygolucky hobson hydrawat justinabrahms Loqi meandave othiym23 randallagordon thoward]
+2013-06-07 19:09:17	--	Channel #nodepdx: 16 nicks (0 ops, 0 halfops, 0 voices, 16 normals)
+2013-06-07 19:09:23	--	Mode #nodepdx [+cnt]
+2013-06-07 19:09:23	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-07 19:30:36	<--	ckknight (~ckknight@WoWUIDev/WoWAce/CurseStaff/CurseForge/ckknight) has quit (Read error: Connection reset by peer)
+2013-06-07 19:31:41	-->	ckknight (~ckknight@WoWUIDev/WoWAce/CurseStaff/CurseForge/ckknight) has joined #nodepdx
+2013-06-07 19:38:27	--	irc: disconnected from server
+2013-06-07 19:38:49	-->	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-07 19:38:49	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-07 19:38:49	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-07 19:38:49	--	Nicks #nodepdx: [AWinterman chrisdickinson ckknight cmeiklejohn dlmanning faddah giorgo Guest28371 hackygolucky hobson hydrawat justinabrahms Loqi meandave othiym23 randallagordon thoward]
+2013-06-07 19:38:49	--	Channel #nodepdx: 17 nicks (0 ops, 0 halfops, 0 voices, 17 normals)
+2013-06-07 19:38:55	--	Mode #nodepdx [+cnt]
+2013-06-07 19:38:55	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-07 19:42:34	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Ping timeout: 276 seconds)
+2013-06-07 20:08:45	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-07 20:18:19	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Ping timeout: 276 seconds)
+2013-06-07 20:45:35	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-07 20:45:49	-->	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has joined #nodepdx
+2013-06-07 21:02:46	--	irc: disconnected from server
+2013-06-07 21:03:12	-->	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-07 21:03:12	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-07 21:03:12	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-07 21:03:12	--	Nicks #nodepdx: [chrisdickinson ckknight cmeiklejohn dlmanning faddah giorgo Guest28371 hackygolucky hobson hydrawat justinabrahms Loqi meandave othiym23 randallagordon thoward]
+2013-06-07 21:03:12	--	Channel #nodepdx: 16 nicks (0 ops, 0 halfops, 0 voices, 16 normals)
+2013-06-07 21:03:19	--	Mode #nodepdx [+cnt]
+2013-06-07 21:03:19	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-07 21:07:23	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-07 21:07:48	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Read error: Connection reset by peer)
+2013-06-10 10:18:33	-->	meandave (~meandave@c-71-56-139-32.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-10 10:18:33	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-10 10:18:33	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-10 10:18:33	--	Nicks #nodepdx: [AWinterman bfoote chrisdickinson ckknight cmeiklejohn dukesam faddah Guest28371 gyovanni hackygolucky hobson hydrawat justinabrahms Loqi meandave mghayes ngoldman NotMyself othiym23 randallagordon thoward]
+2013-06-10 10:18:33	--	Channel #nodepdx: 21 nicks (0 ops, 0 halfops, 0 voices, 21 normals)
+2013-06-10 10:18:35	--	Mode #nodepdx [+cnt]
+2013-06-10 10:18:35	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-10 10:35:32	--	hobson is now known as zz_hobson
+2013-06-10 10:42:26	<--	dukesam (~dukesam@67.131.102.78) has quit (*.net *.split)
+2013-06-10 10:42:26	<--	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has quit (*.net *.split)
+2013-06-10 10:52:11	--	zz_hobson is now known as hobson
+2013-06-10 11:00:00	-->	andru (~andru@38.100.211.123) has joined #nodepdx
+2013-06-10 11:05:31	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-10 11:10:07	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-10 11:10:12	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-10 11:10:48	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-10 11:28:02	<--	ngoldman (~ngoldman@198.102.43.49) has quit (Remote host closed the connection)
+2013-06-10 11:31:45	-->	ngoldman (~ngoldman@198.102.43.49) has joined #nodepdx
+2013-06-10 12:35:04	--	irc: disconnected from server
+2013-06-10 12:35:27	-->	meandave (~meandave@c-71-56-139-32.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-10 12:35:27	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-10 12:35:27	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-10 12:35:27	--	Nicks #nodepdx: [andru bfoote busticated chrisdickinson ckknight cmeiklejohn faddah Guest28371 gyovanni hackygolucky hobson hydrawat justinabrahms Loqi meandave mghayes ngoldman othiym23 randallagordon thoward]
+2013-06-10 12:35:27	--	Channel #nodepdx: 20 nicks (0 ops, 0 halfops, 0 voices, 20 normals)
+2013-06-10 12:35:31	--	Mode #nodepdx [+cnt]
+2013-06-10 12:35:31	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-10 12:36:19	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-10 12:38:59	-->	dukesam (~dukesam@67.131.102.78) has joined #nodepdx
+2013-06-10 12:57:09	<--	andru (~andru@173-11-24-50-oregon.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2013-06-10 13:04:59	<--	ngoldman (~ngoldman@198.102.43.49) has quit (Remote host closed the connection)
+2013-06-10 13:09:31	-->	andru (~andru@38.100.211.123) has joined #nodepdx
+2013-06-10 13:30:52	<--	mghayes (~mghayes@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-10 13:32:31	-->	mghayes (~mghayes@67.131.102.78) has joined #nodepdx
+2013-06-10 13:32:41	<--	mghayes (~mghayes@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-10 13:33:16	-->	mghayes (~mghayes@67.131.102.78) has joined #nodepdx
+2013-06-10 13:47:41	-->	ngoldman (~ngoldman@68.178.19.17) has joined #nodepdx
+2013-06-10 13:58:36	<--	othiym23 (ogd@aglaia.aoaioxxysz.net) has quit (*.net *.split)
+2013-06-10 13:59:30	-->	othiym23 (ogd@aglaia.aoaioxxysz.net) has joined #nodepdx
+2013-06-10 14:12:07	<--	mghayes (~mghayes@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-10 14:14:56	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-10 14:28:00	-->	mghayes (~mghayes@67.131.102.78) has joined #nodepdx
+2013-06-10 14:28:04	<--	mghayes (~mghayes@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-10 14:28:11	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-10 14:28:36	-->	mghayes (~mghayes@67.131.102.78) has joined #nodepdx
+2013-06-10 14:31:13	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Read error: Operation timed out)
+2013-06-10 14:31:33	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-10 14:33:29	--	hobson is now known as zz_hobson
+2013-06-10 14:34:11	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-10 14:34:33	<--	ngoldman (~ngoldman@68.178.19.17) has quit (Remote host closed the connection)
+2013-06-10 14:35:01	-->	ngoldman (~ngoldman@2001:470:e962:7c1:61da:8495:cf88:aa55) has joined #nodepdx
+2013-06-10 14:36:09	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-10 14:37:29	--	zz_hobson is now known as hobson
+2013-06-10 15:34:57	<--	dukesam (~dukesam@67.131.102.78) has quit (Ping timeout: 245 seconds)
+2013-06-10 15:36:58	-->	dukesam (~dukesam@67.131.102.78) has joined #nodepdx
+2013-06-10 16:18:42	<--	bfoote (~bfoote@c-50-139-64-44.hsd1.or.comcast.net) has quit (Ping timeout: 264 seconds)
+2013-06-10 16:40:34	--	hobson is now known as zz_hobson
+2013-06-10 16:40:55	<--	ngoldman (~ngoldman@2001:470:e962:7c1:61da:8495:cf88:aa55) has quit (Remote host closed the connection)
+2013-06-10 16:48:28	--	zz_hobson is now known as hobson
+2013-06-10 16:58:04	--	hobson is now known as zz_hobson
+2013-06-10 17:19:34	-->	bfoote (~bfoote@c-50-139-64-44.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-10 17:30:27	<--	mghayes (~mghayes@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-10 18:29:30	--	irc: disconnected from server
+2013-06-10 18:29:52	-->	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-10 18:29:52	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-10 18:29:52	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-10 18:29:52	--	Nicks #nodepdx: [andru AWinterman bfoote chrisdickinson ckknight cmeiklejohn faddah Guest28371 gyovanni hackygolucky hydrawat justinabrahms Loqi meandave NotMyself othiym23 phated randallagordon thoward zz_hobson]
+2013-06-10 18:29:52	--	Channel #nodepdx: 20 nicks (0 ops, 0 halfops, 0 voices, 20 normals)
+2013-06-10 18:29:56	--	Mode #nodepdx [+cnt]
+2013-06-10 18:29:56	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-10 18:30:29	<--	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-06-10 19:46:48	--	irc: disconnected from server
+2013-06-10 19:47:13	-->	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-10 19:47:13	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-10 19:47:13	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-10 19:47:13	--	Nicks #nodepdx: [AWinterman bfoote chrisdickinson ckknight cmeiklejohn faddah Guest28371 gyovanni hackygolucky hydrawat justinabrahms Loqi meandave othiym23 phated randallagordon thoward zz_hobson]
+2013-06-10 19:47:13	--	Channel #nodepdx: 18 nicks (0 ops, 0 halfops, 0 voices, 18 normals)
+2013-06-10 19:47:17	--	Mode #nodepdx [+cnt]
+2013-06-10 19:47:17	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-10 21:09:07	-->	dukesam (~dukesam@c-67-189-90-71.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-10 21:14:31	<--	phated (~phated@72.44.240.228) has quit (Remote host closed the connection)
+2013-06-10 21:50:08	-->	mghayes (~mghayes@67.131.102.78) has joined #nodepdx
+2013-06-10 21:55:32	<--	mghayes (~mghayes@67.131.102.78) has quit (Ping timeout: 256 seconds)
+2013-06-10 22:27:29	--	irc: disconnected from server
+2013-06-10 22:27:53	-->	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-10 22:27:53	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-10 22:27:53	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-10 22:27:53	--	Nicks #nodepdx: [AWinterman bfoote chrisdickinson ckknight cmeiklejohn dukesam faddah Guest28371 gyovanni hackygolucky hydrawat justinabrahms Loqi meandave othiym23 randallagordon thoward zz_hobson]
+2013-06-10 22:27:53	--	Channel #nodepdx: 18 nicks (0 ops, 0 halfops, 0 voices, 18 normals)
+2013-06-10 22:27:57	--	Mode #nodepdx [+cnt]
+2013-06-10 22:27:57	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-10 22:35:09	--	You are now known as JSONvoorhees
+2013-06-11 00:19:21	--	irc: disconnected from server
+2013-06-11 00:19:46	-->	JSONvoorhees (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-11 00:19:46	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-11 00:19:46	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-11 00:19:46	--	Nicks #nodepdx: [AWinterman bfoote chrisdickinson ckknight cmeiklejohn dukesam faddah Guest28371 gyovanni hackygolucky hydrawat JSONvoorhees justinabrahms Loqi othiym23 randallagordon thoward zz_hobson]
+2013-06-11 00:19:46	--	Channel #nodepdx: 18 nicks (0 ops, 0 halfops, 0 voices, 18 normals)
+2013-06-11 00:19:52	--	Mode #nodepdx [+cnt]
+2013-06-11 00:19:52	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-11 00:44:39	-->	mghayes (~mghayes@67.131.102.78) has joined #nodepdx
+2013-06-11 00:48:52	<--	mghayes (~mghayes@67.131.102.78) has quit (Ping timeout: 248 seconds)
+2013-06-11 01:25:39	<--	bfoote (~bfoote@c-50-139-64-44.hsd1.or.comcast.net) has quit (Read error: Operation timed out)
+2013-06-11 10:49:01	--	irc: disconnected from server
+2013-06-11 10:49:24	-->	JSONvoorhees (~meandave@c-71-56-139-32.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-11 10:49:24	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-11 10:49:24	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-11 10:49:25	--	Nicks #nodepdx: [AWinterman bfoote chrisdickinson ckknight cmeiklejohn dukesam faddah Guest28371 gyovanni hackygolucky hobson hydrawat JSONvoorhees justinabrahms Loqi mghayes ngoldman NotMyself othiym23 randallagordon thoward]
+2013-06-11 10:49:25	--	Channel #nodepdx: 21 nicks (0 ops, 0 halfops, 0 voices, 21 normals)
+2013-06-11 10:49:31	--	Mode #nodepdx [+cnt]
+2013-06-11 10:49:31	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-11 11:14:10	<--	ngoldman (~ngoldman@c-76-105-165-156.hsd1.or.comcast.net) has quit (Remote host closed the connection)
+2013-06-11 11:15:02	-->	ngoldman (~ngoldman@c-76-105-165-156.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-11 11:42:40	<--	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-06-11 11:43:36	-->	phated (~phated@72.44.240.228) has joined #nodepdx
+2013-06-11 12:52:30	-->	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has joined #nodepdx
+2013-06-11 13:00:33	-->	AWinterm_ (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-11 13:01:43	<--	dukesam (~dukesam@67.131.102.78) has quit (Ping timeout: 264 seconds)
+2013-06-11 13:03:50	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Ping timeout: 256 seconds)
+2013-06-11 13:19:15	<--	AWinterm_ (~AWinterma@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-11 13:23:44	-->	dukesam (~dukesam@67.131.102.78) has joined #nodepdx
+2013-06-11 13:29:18	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-11 13:59:19	<--	ngoldman (~ngoldman@c-76-105-165-156.hsd1.or.comcast.net) has quit (Read error: Connection reset by peer)
+2013-06-11 14:00:29	-->	ngoldman (~ngoldman@c-76-105-165-156.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-11 14:50:26	<--	ngoldman (~ngoldman@c-76-105-165-156.hsd1.or.comcast.net) has quit (Read error: Connection reset by peer)
+2013-06-11 14:53:34	-->	ngoldman (~ngoldman@c-76-105-165-156.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-11 15:51:53	<--	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-06-11 16:10:45	-->	toulon (~toulon@nat037.mxim.com) has joined #nodepdx
+2013-06-11 17:01:12	<--	toulon (~toulon@nat037.mxim.com) has quit (Quit: This computer has gone to sleep)
+2013-06-11 17:02:20	-->	toulon (~toulon@nat037.mxim.com) has joined #nodepdx
+2013-06-11 17:06:09	<--	toulon (~toulon@nat037.mxim.com) has quit (Client Quit)
+2013-06-11 17:15:59	<--	mghayes (~mghayes@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-11 17:16:11	<--	ngoldman (~ngoldman@c-76-105-165-156.hsd1.or.comcast.net) has quit (Remote host closed the connection)
+2013-06-11 17:18:50	-->	mghayes (~mghayes@67.131.102.78) has joined #nodepdx
+2013-06-11 17:18:59	<--	mghayes (~mghayes@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-11 17:19:32	-->	mghayes (~mghayes@67.131.102.78) has joined #nodepdx
+2013-06-11 17:33:01	<--	mghayes (~mghayes@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-11 17:46:53	-->	ngoldman (~ngoldman@c-76-105-165-156.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-11 17:55:29	<--	ngoldman (~ngoldman@c-76-105-165-156.hsd1.or.comcast.net) has quit (Ping timeout: 248 seconds)
+2013-06-11 18:41:31	--	irc: disconnected from server
+2013-06-11 18:42:00	-->	JSONvoorhees (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-11 18:42:00	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-11 18:42:00	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-11 18:42:00	--	Nicks #nodepdx: [AWinterman chrisdickinson ckknight cmeiklejohn faddah Guest28371 gyovanni hackygolucky hobson hydrawat JSONvoorhees justinabrahms Loqi othiym23 phated randallagordon thoward]
+2013-06-11 18:42:00	--	Channel #nodepdx: 17 nicks (0 ops, 0 halfops, 0 voices, 17 normals)
+2013-06-11 18:42:06	--	Mode #nodepdx [+cnt]
+2013-06-11 18:42:06	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-11 20:00:55	--	hobson is now known as zz_hobson
+2013-06-11 20:05:54	-->	toulon (~toulon@static-50-53-157-34.bvtn.or.frontiernet.net) has joined #nodepdx
+2013-06-13 08:54:34	-->	JSONvoorhees (~meandave@67.23.197.94) has joined #nodepdx
+2013-06-13 08:54:35	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-13 08:54:35	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-13 08:54:35	--	Nicks #nodepdx: [AWinterman chrisdickinson ckknight cmeiklejohn faddah Guest28371 gyovanni hackygolucky hydrawat JSONvoorhees justinabrahms Loqi NotMyself othiym23 randallagordon thoward ZenWraithBot]
+2013-06-13 08:54:35	--	Channel #nodepdx: 17 nicks (0 ops, 0 halfops, 0 voices, 17 normals)
+2013-06-13 08:54:35	--	Notice(wolfe.freenode.net): [freenode-info] if you're at a conference and other people are having trouble connecting, please mention it to staff: http://freenode.net/faq.shtml#gettinghelp
+2013-06-13 08:54:36	--	Mode #nodepdx [+cnt]
+2013-06-13 08:54:37	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-13 09:46:12	--	irc: disconnected from server
+2013-06-13 09:46:39	-->	JSONvoorhees (~meandave@67.23.197.94) has joined #nodepdx
+2013-06-13 09:46:39	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-13 09:46:39	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-13 09:46:39	--	Nicks #nodepdx: [AWinterman chrisdickinson ckknight cmeiklejohn dukesam faddah Guest28371 gyovanni hackygolucky hydrawat JSONvoorhees justinabrahms Loqi mghayes ngoldman NotMyself othiym23 randallagordon thoward ZenWraithBot]
+2013-06-13 09:46:39	--	Channel #nodepdx: 20 nicks (0 ops, 0 halfops, 0 voices, 20 normals)
+2013-06-13 09:46:47	--	Mode #nodepdx [+cnt]
+2013-06-13 09:46:47	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-13 09:54:52	--	irc: disconnected from server
+2013-06-13 09:55:16	-->	JSONvoorhees (~meandave@67.23.197.94) has joined #nodepdx
+2013-06-13 09:55:17	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-13 09:55:17	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-13 09:55:17	--	Nicks #nodepdx: [AWinterman chrisdickinson ckknight cmeiklejohn dukesam faddah Guest28371 gyovanni hackygolucky hydrawat JSONvoorhees justinabrahms Loqi mghayes ngoldman NotMyself othiym23 randallagordon thoward ZenWraithBot]
+2013-06-13 09:55:17	--	Channel #nodepdx: 20 nicks (0 ops, 0 halfops, 0 voices, 20 normals)
+2013-06-13 09:55:24	--	Mode #nodepdx [+cnt]
+2013-06-13 09:55:25	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-13 10:42:50	--	irc: disconnected from server
+2013-06-13 10:43:15	-->	JSONvoorhees (~meandave@67.23.197.94) has joined #nodepdx
+2013-06-13 10:43:15	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-13 10:43:15	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-13 10:43:15	--	Nicks #nodepdx: [AWinterman chrisdickinson ckknight cmeiklejohn dukesam faddah Guest28371 gyovanni hackygolucky hydrawat JSONvoorhees justinabrahms Loqi mghayes ngoldman NotMyself othiym23 randallagordon thoward ZenWraithBot]
+2013-06-13 10:43:15	--	Channel #nodepdx: 20 nicks (0 ops, 0 halfops, 0 voices, 20 normals)
+2013-06-13 10:43:25	--	Mode #nodepdx [+cnt]
+2013-06-13 10:43:25	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-13 10:53:31	-->	toulon (~toulon@68-26-46-165.pools.spcsdns.net) has joined #nodepdx
+2013-06-13 10:53:31	<--	toulon (~toulon@68-26-46-165.pools.spcsdns.net) has quit (Client Quit)
+2013-06-13 10:57:25	<--	dukesam (~dukesam@67.131.102.78) has quit (Ping timeout: 240 seconds)
+2013-06-13 11:26:58	--	irc: disconnected from server
+2013-06-13 11:27:25	-->	JSONvoorhees (~meandave@67.23.197.94) has joined #nodepdx
+2013-06-13 11:27:25	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-13 11:27:25	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-13 11:27:25	--	Nicks #nodepdx: [AWinterman chrisdickinson ckknight cmeiklejohn faddah Guest28371 gyovanni hackygolucky hydrawat JSONvoorhees justinabrahms Loqi mghayes ngoldman NotMyself othiym23 randallagordon thoward ZenWraithBot]
+2013-06-13 11:27:25	--	Channel #nodepdx: 19 nicks (0 ops, 0 halfops, 0 voices, 19 normals)
+2013-06-13 11:27:33	--	Mode #nodepdx [+cnt]
+2013-06-13 11:27:33	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-13 12:56:47	--	irc: disconnected from server
+2013-06-13 12:57:12	-->	JSONvoorhees (~meandave@67.23.197.94) has joined #nodepdx
+2013-06-13 12:57:13	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-13 12:57:13	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-13 12:57:13	--	Nicks #nodepdx: [AWinterman bfoote chrisdickinson ckknight cmeiklejohn faddah Guest28371 gyovanni hackygolucky hydrawat JSONvoorhees justinabrahms Loqi mghayes n8ji NotMyself othiym23 randallagordon thoward ZenWraithBot]
+2013-06-13 12:57:13	--	Channel #nodepdx: 20 nicks (0 ops, 0 halfops, 0 voices, 20 normals)
+2013-06-13 12:57:20	--	Mode #nodepdx [+cnt]
+2013-06-13 12:57:20	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-13 13:20:49	--	irc: disconnected from server
+2013-06-13 13:21:13	-->	JSONvoorhees (~meandave@c-71-56-139-32.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-13 13:21:13	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-13 13:21:13	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-13 13:21:13	--	Nicks #nodepdx: [bfoote chrisdickinson ckknight cmeiklejohn faddah Guest28371 gyovanni hackygolucky hydrawat JSONvoorhees justinabrahms Loqi mghayes n8ji NotMyself othiym23 randallagordon thoward ZenWraithBot]
+2013-06-13 13:21:13	--	Channel #nodepdx: 19 nicks (0 ops, 0 halfops, 0 voices, 19 normals)
+2013-06-13 13:21:23	--	Mode #nodepdx [+cnt]
+2013-06-13 13:21:23	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-13 13:21:49	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-13 14:59:22	--	irc: disconnected from server
+2013-06-13 14:59:49	-->	JSONvoorhees (~meandave@67.23.197.94) has joined #nodepdx
+2013-06-13 14:59:49	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-13 14:59:49	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-13 14:59:49	--	Nicks #nodepdx: [AWinterman bfoote chrisdickinson ckknight cmeiklejohn faddah Guest28371 gyovanni hackygolucky hydrawat JSONvoorhees justinabrahms Loqi mghayes ngoldman NotMyself othiym23 randallagordon thoward ZenWraithBot]
+2013-06-13 14:59:49	--	Channel #nodepdx: 20 nicks (0 ops, 0 halfops, 0 voices, 20 normals)
+2013-06-13 15:00:13	--	Mode #nodepdx [+cnt]
+2013-06-13 15:00:13	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-13 15:27:03	--	irc: disconnected from server
+2013-06-13 15:27:31	-->	JSONvoorhees (~meandave@67.23.197.94) has joined #nodepdx
+2013-06-13 15:27:31	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-13 15:27:31	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-13 15:27:31	--	Nicks #nodepdx: [AWinterman bfoote chrisdickinson ckknight cmeiklejohn faddah Guest28371 gyovanni hackygolucky hydrawat JSONvoorhees justinabrahms kevnls Loqi mghayes ngoldman NotMyself othiym23 randallagordon thoward ZenWraithBot]
+2013-06-13 15:27:31	--	Channel #nodepdx: 21 nicks (0 ops, 0 halfops, 0 voices, 21 normals)
+2013-06-13 15:27:39	--	Mode #nodepdx [+cnt]
+2013-06-13 15:27:39	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-13 15:29:08	<--	kevnls (~androirc@67.23.197.94) has quit (Remote host closed the connection)
+2013-06-13 15:29:23	-->	kevnls (~androirc@67.23.197.94) has joined #nodepdx
+2013-06-13 15:34:52	<--	kevnls (~androirc@67.23.197.94) has quit (Quit: http://kevnls.com)
+2013-06-13 15:44:24	--	irc: disconnected from server
+2013-06-13 15:44:54	-->	JSONvoorhees (~meandave@67.23.197.94) has joined #nodepdx
+2013-06-13 15:44:54	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-13 15:44:54	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-13 15:44:54	--	Nicks #nodepdx: [AWinterman bfoote chrisdickinson ckknight cmeiklejohn faddah Guest28371 gyovanni hackygolucky hydrawat JSONvoorhees justinabrahms Loqi mghayes ngoldman NotMyself othiym23 randallagordon thoward ZenWraithBot]
+2013-06-13 15:44:54	--	Channel #nodepdx: 20 nicks (0 ops, 0 halfops, 0 voices, 20 normals)
+2013-06-13 15:45:02	--	Mode #nodepdx [+cnt]
+2013-06-13 15:45:02	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-13 16:14:41	--	irc: disconnected from server
+2013-06-13 16:15:07	-->	JSONvoorhees (~meandave@67.23.197.94) has joined #nodepdx
+2013-06-13 16:15:07	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-13 16:15:07	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-13 16:15:07	--	Nicks #nodepdx: [AWinterman bfoote chrisdickinson ckknight cmeiklejohn faddah Guest28371 gyovanni hackygolucky hydrawat JSONvoorhees justinabrahms Loqi mghayes ngoldman NotMyself othiym23 randallagordon thoward ZenWraithBot]
+2013-06-13 16:15:07	--	Channel #nodepdx: 20 nicks (0 ops, 0 halfops, 0 voices, 20 normals)
+2013-06-13 16:15:17	--	Mode #nodepdx [+cnt]
+2013-06-13 16:15:17	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-13 16:30:53	<--	mghayes (~mghayes@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-13 16:32:55	-->	mghayes (~mghayes@67.131.102.78) has joined #nodepdx
+2013-06-13 16:37:48	-->	AWinterm_ (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-13 16:38:31	<--	AWinterm_ (~AWinterma@67.131.102.78) has quit (Read error: Connection reset by peer)
+2013-06-13 16:38:38	-->	AWinterm_ (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-13 16:40:49	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Ping timeout: 252 seconds)
+2013-06-13 17:00:58	--	irc: disconnected from server
+2013-06-13 17:01:21	-->	JSONvoorhees (~meandave@67.23.197.94) has joined #nodepdx
+2013-06-13 17:01:21	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-13 17:01:21	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-13 17:01:21	--	Nicks #nodepdx: [AWinterm_ bfoote chrisdickinson ckknight cmeiklejohn faddah Guest28371 gyovanni hackygolucky hydrawat JSONvoorhees justinabrahms Loqi mghayes_ ngoldman NotMyself othiym23 randallagordon thoward ZenWraithBot]
+2013-06-13 17:01:21	--	Channel #nodepdx: 20 nicks (0 ops, 0 halfops, 0 voices, 20 normals)
+2013-06-13 17:01:31	--	Mode #nodepdx [+cnt]
+2013-06-13 17:01:31	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-13 17:02:21	<--	mghayes_ (~mghayes@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-14 13:24:28	--	irc: disconnected from server
+2013-06-14 13:24:50	-->	JSONvoorhees (~meandave@67.23.197.94) has joined #nodepdx
+2013-06-14 13:24:50	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-14 13:24:50	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-14 13:24:50	--	Nicks #nodepdx: [AWinterman busticated chrisdickinson ckknight cmeiklejohn dlmanning dukesam faddah Guest28371 gyovanni hackygolucky hydrawat JSONvoorhees justinabrahms Loqi mghayes ngoldman othiym23 randalla1ordon thoward ZenWraithBot]
+2013-06-14 13:24:50	--	Channel #nodepdx: 21 nicks (0 ops, 0 halfops, 0 voices, 21 normals)
+2013-06-14 13:25:00	--	Mode #nodepdx [+cnt]
+2013-06-14 13:25:00	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-14 13:39:43	-->	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has joined #nodepdx
+2013-06-14 14:15:11	--	irc: disconnected from server
+2013-06-14 14:15:36	-->	JSONvoorhees (~meandave@67.23.197.94) has joined #nodepdx
+2013-06-14 14:15:36	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-14 14:15:36	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-14 14:15:36	--	Nicks #nodepdx: [AWinterman busticated chrisdickinson ckknight cmeiklejohn dlmanning dukesam faddah Guest28371 gyovanni hackygolucky hydrawat JSONvoorhees justinabrahms Loqi mghayes ngoldman NotMyself othiym23 randalla1ordon thoward ZenWraithBot]
+2013-06-14 14:15:36	--	Channel #nodepdx: 22 nicks (0 ops, 0 halfops, 0 voices, 22 normals)
+2013-06-14 14:15:44	--	Mode #nodepdx [+cnt]
+2013-06-14 14:15:44	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-14 15:10:42	--	irc: disconnected from server
+2013-06-14 15:11:13	-->	JSONvoorhees (~meandave@67.23.197.94) has joined #nodepdx
+2013-06-14 15:11:13	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-14 15:11:13	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-14 15:11:13	--	Nicks #nodepdx: [AWinterman busticated chrisdickinson ckknight cmeiklejohn dlmanning dukesam faddah Guest28371 gyovanni hackygolucky hydrawat JSONvoorhees justinabrahms Loqi mghayes_ ngoldman NotMyself othiym23 randalla1ordon thoward ZenWraithBot]
+2013-06-14 15:11:13	--	Channel #nodepdx: 22 nicks (0 ops, 0 halfops, 0 voices, 22 normals)
+2013-06-14 15:11:20	--	Mode #nodepdx [+cnt]
+2013-06-14 15:11:20	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-14 15:14:39	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-14 15:24:21	<--	mghayes_ (~mghayes@67.131.102.78) has quit (Read error: Connection reset by peer)
+2013-06-14 15:24:48	-->	mghayes (~mghayes@67.131.102.78) has joined #nodepdx
+2013-06-14 15:28:53	<--	mghayes (~mghayes@67.131.102.78) has quit (Ping timeout: 245 seconds)
+2013-06-14 15:38:21	-->	n8ji (~ngoldman@198.102.43.49) has joined #nodepdx
+2013-06-14 15:38:22	<--	ngoldman (~ngoldman@198.102.43.49) has quit (Read error: Connection reset by peer)
+2013-06-14 15:45:08	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-14 15:45:12	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Read error: Connection reset by peer)
+2013-06-14 15:45:49	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-14 16:02:05	--	irc: disconnected from server
+2013-06-14 16:02:29	-->	JSONvoorhees (~meandave@67.23.197.94) has joined #nodepdx
+2013-06-14 16:02:29	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-14 16:02:29	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-14 16:02:29	--	Nicks #nodepdx: [busticated chrisdickinson ckknight cmeiklejohn dlmanning dukesam faddah Guest28371 gyovanni hackygolucky hydrawat JSONvoorhees justinabrahms Loqi n8ji NotMyself othiym23 randalla1ordon thoward ZenWraithBot]
+2013-06-14 16:02:29	--	Channel #nodepdx: 20 nicks (0 ops, 0 halfops, 0 voices, 20 normals)
+2013-06-14 16:02:39	--	Mode #nodepdx [+cnt]
+2013-06-14 16:02:39	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-14 16:05:23	-->	mghayes (~mghayes@67.131.102.78) has joined #nodepdx
+2013-06-14 16:07:06	-->	AWinterman (~AWinterma@67.131.102.78) has joined #nodepdx
+2013-06-14 16:14:52	-->	phated (~phated@72.44.240.228) has joined #nodepdx
+2013-06-14 16:20:01	<--	AWinterman (~AWinterma@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-14 16:21:43	<--	mghayes (~mghayes@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-14 16:28:36	<--	dukesam (~dukesam@67.131.102.78) has quit (Ping timeout: 252 seconds)
+2013-06-14 16:37:10	--	randalla1ordon is now known as randallagordon
+2013-06-14 22:30:48	--	irc: disconnected from server
+2013-06-14 23:07:02	-->	JSONvoorhees (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-14 23:07:02	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-14 23:07:02	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-14 23:07:02	--	Nicks #nodepdx: [chrisdickinson ckknight cmeiklejohn dlmanning faddah Guest28371 gyovanni hackygolucky hydrawat JSONvoorhees justinabrahms Loqi othiym23 randallagordon thoward ZenWraithBot]
+2013-06-14 23:07:02	--	Channel #nodepdx: 16 nicks (0 ops, 0 halfops, 0 voices, 16 normals)
+2013-06-14 23:07:11	--	Mode #nodepdx [+cnt]
+2013-06-14 23:07:12	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-15 04:11:49	--	irc: disconnected from server
+2013-06-15 04:12:15	-->	JSONvoorhees (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-15 04:12:16	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-15 04:12:16	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-15 04:12:16	--	Nicks #nodepdx: [chrisdickinson cmeiklejohn dlmanning faddah Guest28371 gyovanni hackygolucky hydrawat JSONvoorhees justinabrahms Loqi othiym23 randallagordon thoward ZenWraithBot]
+2013-06-15 04:12:16	--	Channel #nodepdx: 15 nicks (0 ops, 0 halfops, 0 voices, 15 normals)
+2013-06-15 04:12:23	--	Mode #nodepdx [+cnt]
+2013-06-15 04:12:24	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-15 20:27:35	--	irc: disconnected from server
+2013-06-15 20:28:00	-->	JSONvoorhees (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-15 20:28:00	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-15 20:28:00	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-15 20:28:00	--	Nicks #nodepdx: [chrisdickinson ckknight cmeiklejohn dlmanning EvilPacket faddah Guest28371 gyovanni hackygolucky hydrawat JSONvoorhees justinabrahms Loqi othiym23 randallagordon ridicter thoward ZenWraithBot]
+2013-06-15 20:28:00	--	Channel #nodepdx: 18 nicks (0 ops, 0 halfops, 0 voices, 18 normals)
+2013-06-15 20:28:09	--	Mode #nodepdx [+cnt]
+2013-06-15 20:28:09	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-15 21:28:54	<--	gyovanni (wao@v6.syx.sk) has left #nodepdx
+2013-06-15 21:32:23	<--	ridicter (~ridicter@c-67-189-109-68.hsd1.or.comcast.net) has quit (Quit: ["Textual IRC Client: www.textualapp.com"])
+2013-06-15 22:46:52	--	irc: disconnected from server
+2013-06-15 22:47:17	-->	JSONvoorhees (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-15 22:47:18	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-15 22:47:18	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-15 22:47:18	--	Nicks #nodepdx: [chrisdickinson ckknight cmeiklejohn dlmanning EvilPacket faddah Guest28371 hackygolucky hydrawat JSONvoorhees justinabrahms Loqi othiym23 randallagordon thoward ZenWraithBot]
+2013-06-15 22:47:18	--	Channel #nodepdx: 16 nicks (0 ops, 0 halfops, 0 voices, 16 normals)
+2013-06-15 22:47:25	--	Mode #nodepdx [+cnt]
+2013-06-15 22:47:26	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-15 23:22:50	-->	ridicter (~ridicter@c-71-236-206-53.hsd1.wa.comcast.net) has joined #nodepdx
+2013-06-16 18:12:57	--	irc: disconnected from server
+2013-06-16 18:13:23	-->	JSONvoorhees (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-16 18:13:23	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-16 18:13:23	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-16 18:13:23	--	Nicks #nodepdx: [chrisdickinson ckknight cmeiklejohn dlmanning EvilPacket faddah Guest28371 hackygolucky hydrawat JSONvoorhees justinabrahms Loqi othiym23 randallagordon thoward ZenWraithBot]
+2013-06-16 18:13:23	--	Channel #nodepdx: 16 nicks (0 ops, 0 halfops, 0 voices, 16 normals)
+2013-06-16 18:13:33	--	Mode #nodepdx [+cnt]
+2013-06-16 18:13:33	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-17 11:15:36	--	irc: disconnected from server
+2013-06-17 11:16:02	-->	JSONvoorhees (~meandave@c-71-56-139-32.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-17 11:16:03	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-17 11:16:03	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-17 11:16:03	--	Nicks #nodepdx: [chrisdickinson ckknight cmeiklejohn dlmanning dukesam EvilPacket faddah Guest24648 hackygolucky hydrawat JSONvoorhees justinabrahms Loqi mghayes ngoldman NotMyself othiym23 randallagordon thoward ZenWraithBot]
+2013-06-17 11:16:03	--	Channel #nodepdx: 20 nicks (0 ops, 0 halfops, 0 voices, 20 normals)
+2013-06-17 11:16:12	--	Mode #nodepdx [+cnt]
+2013-06-17 11:16:12	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-17 11:46:17	<--	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-06-17 11:48:20	-->	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has joined #nodepdx
+2013-06-17 11:57:01	<--	justinabrahms (uid11033@gateway/web/irccloud.com/x-aqofwzhhtwkdnlfa) has quit (Ping timeout: 264 seconds)
+2013-06-17 11:58:13	<--	hackygolucky (uid11034@gateway/web/irccloud.com/x-tgmxweychonyssvk) has quit (Ping timeout: 264 seconds)
+2013-06-17 12:02:55	<--	mghayes (~mghayes@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-17 12:09:51	<--	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-06-17 12:10:26	-->	hackygolucky (uid11034@gateway/web/irccloud.com/x-plzdnawksjqnvmqx) has joined #nodepdx
+2013-06-17 12:31:29	-->	n8ji (~ngoldman@198.102.43.49) has joined #nodepdx
+2013-06-17 12:31:29	<--	ngoldman (~ngoldman@198.102.43.49) has quit (Read error: Connection reset by peer)
+2013-06-17 12:31:58	-->	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has joined #nodepdx
+2013-06-17 12:32:30	-->	mghayes (~mghayes@67.131.102.78) has joined #nodepdx
+2013-06-17 12:32:37	<--	mghayes (~mghayes@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-17 12:33:11	-->	mghayes (~mghayes@67.131.102.78) has joined #nodepdx
+2013-06-17 12:48:13	-->	justinabrahms (uid11033@gateway/web/irccloud.com/x-bpgwppnyhswiowtr) has joined #nodepdx
+2013-06-17 16:49:26	--	irc: disconnected from server
+2013-06-17 16:49:55	-->	JSONvoorhees (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-17 16:49:55	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-17 16:49:55	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-17 16:49:55	--	Nicks #nodepdx: [busticated chrisdickinson ckknight cmeiklejohn dlmanning dukesam EvilPacket faddah Guest24648 hackygolucky hydrawat JSONvoorhees justinabrahms Loqi mghayes ngoldman othiym23 randallagordon rapter87772000 ridicter thoward ZenWraithBot]
+2013-06-17 16:49:55	--	Channel #nodepdx: 22 nicks (0 ops, 0 halfops, 0 voices, 22 normals)
+2013-06-17 16:50:03	--	Mode #nodepdx [+cnt]
+2013-06-17 16:50:03	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-17 17:42:58	--	irc: disconnected from server
+2013-06-17 17:43:24	-->	JSONvoorhees (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-17 17:43:24	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-17 17:43:24	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-17 17:43:24	--	Nicks #nodepdx: [chrisdickinson ckknight cmeiklejohn dlmanning EvilPacket faddah Guest24648 hackygolucky hydrawat JSONvoorhees justinabrahms Loqi ngoldman NotMyself othiym23 randallagordon ridicter thoward ZenWraithBot]
+2013-06-17 17:43:24	--	Channel #nodepdx: 19 nicks (0 ops, 0 halfops, 0 voices, 19 normals)
+2013-06-17 17:43:32	--	Mode #nodepdx [+cnt]
+2013-06-17 17:43:32	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-17 17:45:21	<--	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-06-17 17:51:10	<--	ngoldman (~ngoldman@198.102.43.49) has quit (Remote host closed the connection)
+2013-06-17 17:55:06	<--	ridicter (~ridicter@66.96.79.211) has quit (Quit: Computer has gone to sleep.)
+2013-06-17 17:57:55	-->	ridicter (~ridicter@66.96.79.211) has joined #nodepdx
+2013-06-17 18:41:11	-->	mghayes (~mghayes@67.131.102.78) has joined #nodepdx
+2013-06-17 18:50:01	<--	mghayes (~mghayes@67.131.102.78) has quit (Ping timeout: 268 seconds)
+2013-06-17 18:50:04	-->	rapter87772000 (~justin@c-24-21-176-227.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-17 18:55:58	-->	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has joined #nodepdx
+2013-06-17 18:57:39	<--	ridicter (~ridicter@66.96.79.211) has quit (Quit: Computer has gone to sleep.)
+2013-06-17 19:08:07	<--	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-06-17 19:17:10	<--	rapter87772000 (~justin@c-24-21-176-227.hsd1.or.comcast.net) has quit (Quit: rapter87772000)
+2013-06-17 19:27:56	-->	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has joined #nodepdx
+2013-06-17 19:40:22	<--	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-06-17 22:32:35	--	irc: disconnected from server
+2013-06-17 22:33:00	-->	JSONvoorhees (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-17 22:33:00	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-17 22:33:00	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-17 22:33:00	--	Nicks #nodepdx: [chrisdickinson ckknight cmeiklejohn dlmanning EvilPacket faddah Guest24648 hackygolucky hydrawat JSONvoorhees justinabrahms Loqi othiym23 randallagordon thoward ZenWraithBot]
+2013-06-17 22:33:00	--	Channel #nodepdx: 16 nicks (0 ops, 0 halfops, 0 voices, 16 normals)
+2013-06-17 22:33:08	--	Mode #nodepdx [+cnt]
+2013-06-17 22:33:08	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-18 00:17:23	--	irc: disconnected from server
+2013-06-18 00:36:44	-->	JSONvoorhees (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-18 00:36:44	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-18 00:36:44	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-18 00:36:44	--	Nicks #nodepdx: [chrisdickinson ckknight cmeiklejohn dlmanning EvilPacket faddah Guest24648 hackygolucky hydrawat JSONvoorhees justinabrahms Loqi othiym23 randallagordon thoward ZenWraithBot]
+2013-06-18 00:36:44	--	Channel #nodepdx: 16 nicks (0 ops, 0 halfops, 0 voices, 16 normals)
+2013-06-18 00:36:54	--	Mode #nodepdx [+cnt]
+2013-06-18 00:36:54	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-18 08:50:55	--	irc: disconnected from server
+2013-06-18 08:51:21	-->	JSONvoorhees (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-18 08:51:21	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-18 08:51:21	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-18 08:51:21	--	Nicks #nodepdx: [chrisdickinson ckknight cmeiklejohn dlmanning dukesam EvilPacket faddah Guest24648 hackygolucky hydrawat JSONvoorhees justinabrahms Loqi NotMyself othiym23 randallagordon ZenWraithBot]
+2013-06-18 08:51:21	--	Channel #nodepdx: 17 nicks (0 ops, 0 halfops, 0 voices, 17 normals)
+2013-06-18 08:51:31	--	Mode #nodepdx [+cnt]
+2013-06-18 08:51:31	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-18 09:04:21	-->	busticated (~textual@c-50-139-15-236.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-18 09:27:25	--	irc: disconnected from server
+2013-06-18 09:28:55	-->	JSONvoorhees (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-18 09:28:55	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-18 09:28:55	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-18 09:28:55	--	Nicks #nodepdx: [busticated chrisdickinson ckknight cmeiklejohn dlmanning dukesam EvilPacket faddah Guest24648 hackygolucky hydrawat JSONvoorhees justinabrahms Loqi NotMyself othiym23 randallagordon ZenWraithBot]
+2013-06-18 09:28:55	--	Channel #nodepdx: 18 nicks (0 ops, 0 halfops, 0 voices, 18 normals)
+2013-06-18 09:29:03	--	Mode #nodepdx [+cnt]
+2013-06-18 09:29:03	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-18 10:02:47	--	irc: disconnected from server
+2013-06-18 10:03:13	-->	JSONvoorhees (~meandave@c-71-56-139-32.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-18 10:03:13	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-18 10:03:13	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-18 10:03:13	--	Nicks #nodepdx: [busticated chrisdickinson ckknight cmeiklejohn dlmanning dukesam EvilPacket faddah Guest24648 hackygolucky hydrawat JSONvoorhees justinabrahms Loqi NotMyself othiym23 randallagordon ZenWraithBot]
+2013-06-18 10:03:13	--	Channel #nodepdx: 18 nicks (0 ops, 0 halfops, 0 voices, 18 normals)
+2013-06-18 10:03:23	--	Mode #nodepdx [+cnt]
+2013-06-18 10:03:23	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-18 10:20:29	<--	ckknight (~ckknight@WoWUIDev/WoWAce/CurseStaff/CurseForge/ckknight) has quit (Quit: Leaving...)
+2013-06-18 10:21:34	-->	ckknight (~ckknight@WoWUIDev/WoWAce/CurseStaff/CurseForge/ckknight) has joined #nodepdx
+2013-06-18 10:54:20	-->	mghayes (~mghayes@67.131.102.78) has joined #nodepdx
+2013-06-18 11:27:31	<--	dukesam (~dukesam@67.131.102.78) has quit (Ping timeout: 240 seconds)
+2013-06-18 11:35:22	<--	mghayes (~mghayes@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-18 11:52:44	-->	ridicter (~ridicter@66.96.79.211) has joined #nodepdx
+2013-06-18 12:06:25	-->	mghayes (~mghayes@67.131.102.78) has joined #nodepdx
+2013-06-18 12:10:29	-->	dukesam (~dukesam@67.131.102.78) has joined #nodepdx
+2013-06-18 12:11:46	<--	mghayes (~mghayes@67.131.102.78) has quit (Ping timeout: 252 seconds)
+2013-06-18 13:27:46	--	irc: disconnected from server
+2013-06-18 13:28:10	-->	JSONvoorhees (~meandave@c-71-56-139-32.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-18 13:28:10	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-18 13:28:10	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-18 13:28:10	--	Nicks #nodepdx: [busticated chrisdickinson ckknight cmeiklejohn dlmanning dukesam EvilPacket faddah Guest24648 hackygolucky hydrawat JSONvoorhees justinabrahms Loqi mghayes NotMyself othiym23 randallagordon ridicter ZenWraithBot]
+2013-06-18 13:28:10	--	Channel #nodepdx: 20 nicks (0 ops, 0 halfops, 0 voices, 20 normals)
+2013-06-18 13:28:18	--	Mode #nodepdx [+cnt]
+2013-06-18 13:28:18	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-18 13:35:50	<--	ridicter (~ridicter@66.96.79.211) has quit (Quit: Computer has gone to sleep.)
+2013-06-18 13:38:20	-->	ridicter (~ridicter@66.96.79.211) has joined #nodepdx
+2013-06-18 14:04:36	--	Guest24648 is now known as jden
+2013-06-18 14:05:05	--	jden is now known as Guest42699
+2013-06-18 14:05:44	--	Guest42699 is now known as jden_
+2013-06-18 14:17:01	<--	ridicter (~ridicter@66.96.79.211) has quit (Quit: ["Textual IRC Client: www.textualapp.com"])
+2013-06-18 15:37:23	<--	mghayes (~mghayes@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-18 15:41:03	-->	mghayes (~mghayes@67.131.102.78) has joined #nodepdx
+2013-06-18 15:41:14	<--	mghayes (~mghayes@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-18 15:41:49	-->	mghayes (~mghayes@67.131.102.78) has joined #nodepdx
+2013-06-18 16:50:36	<--	mghayes (~mghayes@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-18 16:57:29	-->	mghayes (~mghayes@67.131.102.78) has joined #nodepdx
+2013-06-18 17:01:20	<--	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-06-18 17:02:23	-->	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has joined #nodepdx
+2013-06-18 17:08:04	<--	mghayes (~mghayes@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-18 17:16:17	-->	mghayes (~mghayes@67.131.102.78) has joined #nodepdx
+2013-06-18 17:16:27	<--	mghayes (~mghayes@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-18 17:17:03	-->	mghayes (~mghayes@67.131.102.78) has joined #nodepdx
+2013-06-18 17:24:12	<--	dukesam (~dukesam@67.131.102.78) has quit (Quit: Computer has gone to sleep.)
+2013-06-18 17:24:38	<--	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-06-18 17:32:10	<--	mghayes (~mghayes@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-18 17:42:02	-->	mghayes (~mghayes@67.131.102.78) has joined #nodepdx
+2013-06-18 17:46:24	<--	mghayes (~mghayes@67.131.102.78) has quit (Ping timeout: 256 seconds)
+2013-06-18 17:57:23	<--	busticated (~textual@c-50-139-15-236.hsd1.or.comcast.net) has quit (Quit: …)
+2013-06-18 19:03:14	--	irc: disconnected from server
+2013-06-18 19:03:40	-->	JSONvoorhees (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-18 19:03:41	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-18 19:03:41	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-18 19:03:41	--	Nicks #nodepdx: [chrisdickinson ckknight cmeiklejohn dlmanning EvilPacket faddah hackygolucky hydrawat jden_ JSONvoorhees justinabrahms Loqi othiym23 randallagordon ZenWraithBot]
+2013-06-18 19:03:41	--	Channel #nodepdx: 15 nicks (0 ops, 0 halfops, 0 voices, 15 normals)
+2013-06-18 19:03:50	--	Mode #nodepdx [+cnt]
+2013-06-18 19:03:51	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-18 19:14:45	--	irc: disconnected from server
+2013-06-18 19:22:11	-->	JSONvoorhees (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-18 19:22:12	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-18 19:22:12	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-18 19:22:12	--	Nicks #nodepdx: [chrisdickinson ckknight cmeiklejohn dlmanning EvilPacket faddah hackygolucky hydrawat jden_ JSONvoorhees justinabrahms Loqi othiym23 randallagordon ZenWraithBot]
+2013-06-18 19:22:12	--	Channel #nodepdx: 15 nicks (0 ops, 0 halfops, 0 voices, 15 normals)
+2013-06-18 19:22:21	--	Mode #nodepdx [+cnt]
+2013-06-18 19:22:22	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-18 20:13:48	--	irc: disconnected from server
+2013-06-18 20:50:42	-->	JSONvoorhees (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-18 20:50:42	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-18 20:50:42	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-18 20:50:42	--	Nicks #nodepdx: [chrisdickinson ckknight cmeiklejohn dlmanning EvilPacket faddah hackygolucky hydrawat jden_ JSONvoorhees justinabrahms Loqi othiym23 randallagordon ZenWraithBot]
+2013-06-18 20:50:42	--	Channel #nodepdx: 15 nicks (0 ops, 0 halfops, 0 voices, 15 normals)
+2013-06-18 20:50:46	<--	cmeiklejohn (~cmeiklejo@pdpc/supporter/active/cmeiklejohn) has quit (*.net *.split)
+2013-06-18 20:50:52	--	Mode #nodepdx [+cnt]
+2013-06-18 20:50:52	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-18 20:52:46	-->	cmeiklejohn (~cmeiklejo@pdpc/supporter/active/cmeiklejohn) has joined #nodepdx
+2013-06-18 20:53:59	<--	cmeiklejohn (~cmeiklejo@pdpc/supporter/active/cmeiklejohn) has quit (*.net *.split)
+2013-06-18 20:55:48	-->	cmeiklejohn (~cmeiklejo@pdpc/supporter/active/cmeiklejohn) has joined #nodepdx
+2013-06-18 21:16:12	--	irc: disconnected from server
+2013-06-18 21:46:55	-->	JSONvoorhees (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-18 21:46:55	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-18 21:46:55	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-18 21:46:55	--	Nicks #nodepdx: [chrisdickinson ckknight cmeiklejohn dlmanning EvilPacket faddah hackygolucky hydrawat jden_ JSONvoorhees justinabrahms Loqi othiym23 randallagordon ZenWraithBot]
+2013-06-18 21:46:55	--	Channel #nodepdx: 15 nicks (0 ops, 0 halfops, 0 voices, 15 normals)
+2013-06-18 21:47:05	--	Mode #nodepdx [+cnt]
+2013-06-18 21:47:05	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-18 22:36:08	-->	dre (43b71428@gateway/web/freenode/ip.67.183.20.40) has joined #nodepdx
+2013-06-18 22:36:38	<--	dre (43b71428@gateway/web/freenode/ip.67.183.20.40) has quit (Client Quit)
+2013-06-19 08:00:16	--	irc: disconnected from server
+2013-06-19 08:00:42	-->	JSONvoorhees (~meandave@c-71-56-139-32.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-19 08:00:42	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-19 08:00:42	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-19 08:00:42	--	Nicks #nodepdx: [chrisdickinson ckknight cmeiklejohn dlmanning EvilPacket faddah hackygolucky hydrawat jden_ JSONvoorhees justinabrahms Loqi othiym23 randallagordon ZenWraithBot]
+2013-06-19 08:00:42	--	Channel #nodepdx: 15 nicks (0 ops, 0 halfops, 0 voices, 15 normals)
+2013-06-19 08:00:52	--	Mode #nodepdx [+cnt]
+2013-06-19 08:00:52	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-19 08:27:46	-->	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has joined #nodepdx
+2013-06-19 08:50:08	-->	busticated (~textual@c-50-139-15-236.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-19 09:38:27	<--	jden_ (~jden@ec2-54-241-125-37.us-west-1.compute.amazonaws.com) has left #nodepdx
+2013-06-19 09:41:34	-->	mghayes (~mghayes@67.131.102.78) has joined #nodepdx
+2013-06-19 11:00:07	<--	dlmanning (~david@c-24-22-14-106.hsd1.or.comcast.net) has quit (*.net *.split)
+2013-06-19 11:07:39	-->	dlmanning (~david@c-24-22-14-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-19 11:12:04	-->	gr4yscale (~gr4yscale@c-24-22-9-25.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-19 11:21:03	<--	gr4yscale (~gr4yscale@c-24-22-9-25.hsd1.or.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2013-06-19 11:44:53	-->	gr4yscale (~gr4yscale@c-24-22-9-25.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-19 12:06:54	<--	gr4yscale (~gr4yscale@c-24-22-9-25.hsd1.or.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2013-06-19 12:07:17	<--	mghayes (~mghayes@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-19 12:09:32	-->	gr4yscale (~gr4yscale@c-24-22-9-25.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-19 12:10:14	<--	busticated (~textual@c-50-139-15-236.hsd1.or.comcast.net) has quit (Quit: gone to sleep. ZZZzzz…)
+2013-06-19 12:57:26	--	irc: disconnected from server
+2013-06-19 12:57:55	-->	JSONvoorhees (~meandave@c-71-56-139-32.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-19 12:57:55	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-19 12:57:55	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-19 12:57:55	--	Nicks #nodepdx: [busticated chrisdickinson ckknight cmeiklejohn dlmanning EvilPacket faddah gr4yscale hackygolucky hydrawat JSONvoorhees justinabrahms Loqi mghayes othiym23 randallagordon ZenWraithBot]
+2013-06-19 12:57:55	--	Channel #nodepdx: 17 nicks (0 ops, 0 halfops, 0 voices, 17 normals)
+2013-06-19 12:58:07	--	Mode #nodepdx [+cnt]
+2013-06-19 12:58:07	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-19 13:03:34	-->	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has joined #nodepdx
+2013-06-19 13:18:38	<--	gr4yscale (~gr4yscale@c-24-22-9-25.hsd1.or.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2013-06-19 13:23:09	-->	gr4yscale (~gr4yscale@c-24-22-9-25.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-19 13:25:50	<--	gr4yscale (~gr4yscale@c-24-22-9-25.hsd1.or.comcast.net) has quit (Client Quit)
+2013-06-19 13:59:27	-->	gr4yscale (~gr4yscale@c-24-21-188-95.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-19 14:09:27	<--	gr4yscale (~gr4yscale@c-24-21-188-95.hsd1.or.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2013-06-19 14:11:05	-->	gr4yscale (~gr4yscale@c-24-21-188-95.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-19 14:11:18	<--	gr4yscale (~gr4yscale@c-24-21-188-95.hsd1.or.comcast.net) has quit (Client Quit)
+2013-06-19 14:25:42	-->	gr4yscale (~gr4yscale@c-67-189-109-68.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-19 17:19:37	<--	mghayes (~mghayes@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-19 18:02:15	--	irc: disconnected from server
+2013-06-19 18:02:38	-->	JSONvoorhees (~meandave@c-71-56-139-32.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-19 18:02:38	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-19 18:02:38	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-19 18:02:38	--	Nicks #nodepdx: [chrisdickinson ckknight cmeiklejohn dlmanning EvilPacket faddah gr4yscale hackygolucky hydrawat JSONvoorhees justinabrahms Loqi othiym23 randallagordon ZenWraithBot]
+2013-06-19 18:02:38	--	Channel #nodepdx: 15 nicks (0 ops, 0 halfops, 0 voices, 15 normals)
+2013-06-19 18:02:50	--	Mode #nodepdx [+cnt]
+2013-06-19 18:02:50	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-19 18:09:49	-->	mghayes (~mghayes@67.131.102.78) has joined #nodepdx
+2013-06-19 18:09:52	<--	mghayes (~mghayes@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-19 18:10:24	-->	mghayes (~mghayes@67.131.102.78) has joined #nodepdx
+2013-06-19 18:17:48	<--	mghayes (~mghayes@67.131.102.78) has quit (Ping timeout: 255 seconds)
+2013-06-19 18:31:03	<--	gr4yscale (~gr4yscale@c-67-189-109-68.hsd1.or.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2013-06-19 18:33:06	-->	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has joined #nodepdx
+2013-06-19 19:27:01	--	irc: disconnected from server
+2013-06-19 19:27:28	-->	JSONvoorhees (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-19 19:27:28	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-19 19:27:28	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-19 19:27:28	--	Nicks #nodepdx: [chrisdickinson ckknight cmeiklejohn dlmanning EvilPacket faddah hackygolucky hydrawat JSONvoorhees justinabrahms Loqi NotMyself othiym23 randallagordon ZenWraithBot]
+2013-06-19 19:27:28	--	Channel #nodepdx: 15 nicks (0 ops, 0 halfops, 0 voices, 15 normals)
+2013-06-19 19:27:40	--	Mode #nodepdx [+cnt]
+2013-06-19 19:27:40	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-19 19:41:47	-->	NotMysel_ (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has joined #nodepdx
+2013-06-19 19:42:51	<--	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has quit (Ping timeout: 255 seconds)
+2013-06-19 19:43:20	-->	gr4yscale (~gr4yscale@173-164-74-214-Oregon.hfc.comcastbusiness.net) has joined #nodepdx
+2013-06-19 20:08:14	<--	gr4yscale (~gr4yscale@173-164-74-214-Oregon.hfc.comcastbusiness.net) has quit (Quit: Computer has gone to sleep.)
+2013-06-19 20:56:41	-->	gr4yscale (~gr4yscale@173-164-74-214-Oregon.hfc.comcastbusiness.net) has joined #nodepdx
+2013-06-19 21:05:21	-->	mghayes (~mghayes@67.131.102.78) has joined #nodepdx
+2013-06-19 21:05:56	<--	gr4yscale (~gr4yscale@173-164-74-214-Oregon.hfc.comcastbusiness.net) has quit (Quit: Computer has gone to sleep.)
+2013-06-19 21:09:41	<--	mghayes (~mghayes@67.131.102.78) has quit (Ping timeout: 256 seconds)
+2013-06-19 21:15:02	-->	gr4yscale (~gr4yscale@173-164-74-214-Oregon.hfc.comcastbusiness.net) has joined #nodepdx
+2013-06-19 21:15:25	<--	gr4yscale (~gr4yscale@173-164-74-214-Oregon.hfc.comcastbusiness.net) has quit (Client Quit)
+2013-06-19 22:56:37	--	irc: disconnected from server
+2013-06-19 22:57:02	-->	JSONvoorhees (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-19 22:57:02	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-19 22:57:02	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-19 22:57:02	--	Nicks #nodepdx: [chrisdickinson ckknight cmeiklejohn dlmanning EvilPacket faddah gr4yscale hackygolucky hydrawat JSONvoorhees justinabrahms Loqi mghayes othiym23 randalla1ordon ZenWraithBot]
+2013-06-19 22:57:02	--	Channel #nodepdx: 16 nicks (0 ops, 0 halfops, 0 voices, 16 normals)
+2013-06-19 22:57:14	--	Mode #nodepdx [+cnt]
+2013-06-19 22:57:14	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-19 22:58:09	<--	mghayes (~mghayes@67.131.102.78) has quit (Ping timeout: 264 seconds)
+2013-06-20 01:41:35	--	irc: disconnected from server
+2013-06-20 01:41:59	-->	JSONvoorhees (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-20 01:41:59	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-20 01:41:59	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-20 01:41:59	--	Nicks #nodepdx: [chrisdickinson ckknight cmeiklejohn dlmanning EvilPacket faddah gr4yscale hackygolucky hydrawat JSONvoorhees justinabrahms Loqi othiym23 randalla1ordon ZenWraithBot]
+2013-06-20 01:41:59	--	Channel #nodepdx: 15 nicks (0 ops, 0 halfops, 0 voices, 15 normals)
+2013-06-20 01:42:11	--	Mode #nodepdx [+cnt]
+2013-06-20 01:42:11	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-20 01:48:05	-->	mghayes (~mghayes@67.131.102.78) has joined #nodepdx
+2013-06-20 01:52:17	<--	mghayes (~mghayes@67.131.102.78) has quit (Ping timeout: 248 seconds)
+2013-06-20 03:07:34	<--	gr4yscale (~gr4yscale@c-24-21-188-95.hsd1.or.comcast.net) has quit (Ping timeout: 246 seconds)
+2013-06-20 08:47:51	--	irc: disconnected from server
+2013-06-20 08:48:14	-->	JSONvoorhees (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-20 08:48:14	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-20 08:48:14	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-20 08:48:14	--	Nicks #nodepdx: [chrisdickinson ckknight cmeiklejohn dlmanning EvilPacket faddah hackygolucky hydrawat JSONvoorhees justinabrahms Loqi NotMyself othiym23 randalla1ordon ZenWraithBot]
+2013-06-20 08:48:14	--	Channel #nodepdx: 15 nicks (0 ops, 0 halfops, 0 voices, 15 normals)
+2013-06-20 08:48:26	--	Mode #nodepdx [+cnt]
+2013-06-20 08:48:26	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-20 09:54:14	--	irc: disconnected from server
+2013-06-20 09:54:39	-->	JSONvoorhees (~meandave@c-71-56-139-32.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-20 09:54:39	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-20 09:54:39	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-20 09:54:39	--	Nicks #nodepdx: [chrisdickinson ckknight cmeiklejohn dlmanning EvilPacket faddah hackygolucky hydrawat JSONvoorhees justinabrahms Loqi mghayes ngoldman NotMyself othiym23 randalla1ordon ZenWraithBot]
+2013-06-20 09:54:39	--	Channel #nodepdx: 17 nicks (0 ops, 0 halfops, 0 voices, 17 normals)
+2013-06-20 09:54:51	--	Mode #nodepdx [+cnt]
+2013-06-20 09:54:51	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-20 10:23:29	-->	busticated (~textual@c-50-139-15-236.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-20 10:36:20	-->	gr4yscale (~gr4yscale@c-24-21-188-95.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-20 10:36:57	<--	gr4yscale (~gr4yscale@c-24-21-188-95.hsd1.or.comcast.net) has quit (Client Quit)
+2013-06-20 10:47:58	<--	ngoldman (~ngoldman@c-24-21-101-216.hsd1.or.comcast.net) has quit (Remote host closed the connection)
+2013-06-20 11:09:00	-->	gr4yscale (~gr4yscale@65.102.45.247) has joined #nodepdx
+2013-06-20 11:14:04	-->	ngoldman (~ngoldman@198.102.43.49) has joined #nodepdx
+2013-06-20 11:17:35	<--	gr4yscale (~gr4yscale@65.102.45.247) has quit (Ping timeout: 246 seconds)
+2013-06-20 11:55:47	<--	ngoldman (~ngoldman@198.102.43.49) has quit (Remote host closed the connection)
+2013-06-20 11:57:45	-->	gr4yscale (~gr4yscale@c-67-189-109-68.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-20 12:03:13	<--	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-06-20 12:05:20	-->	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has joined #nodepdx
+2013-06-20 12:12:48	-->	ngoldman (~ngoldman@199.223.125.130) has joined #nodepdx
+2013-06-20 12:20:56	<--	ngoldman (~ngoldman@199.223.125.130) has quit (Remote host closed the connection)
+2013-06-20 12:23:26	<--	busticated (~textual@c-50-139-15-236.hsd1.or.comcast.net) has quit (Quit: gone to sleep. ZZZzzz…)
+2013-06-20 12:59:13	<--	gr4yscale (~gr4yscale@c-67-189-109-68.hsd1.or.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2013-06-20 14:12:02	--	irc: disconnected from server
+2013-06-20 14:12:25	-->	JSONvoorhees (~meandave@c-71-56-139-32.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-20 14:12:25	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-20 14:12:25	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-20 14:12:25	--	Nicks #nodepdx: [busticated chrisdickinson ckknight cmeiklejohn dlmanning EvilPacket faddah hackygolucky hydrawat JSONvoorhees justinabrahms Loqi mghayes ngoldman NotMyself othiym23 randallagordon ZenWraithBot]
+2013-06-20 14:12:25	--	Channel #nodepdx: 18 nicks (0 ops, 0 halfops, 0 voices, 18 normals)
+2013-06-20 14:12:37	--	Mode #nodepdx [+cnt]
+2013-06-20 14:12:37	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-20 14:12:49	<--	ckknight (~ckknight@WoWUIDev/WoWAce/CurseStaff/CurseForge/ckknight) has quit (Quit: Bye!)
+2013-06-20 14:13:54	<--	ngoldman (~ngoldman@199.223.125.130) has quit (Remote host closed the connection)
+2013-06-20 14:17:53	-->	gr4yscale (~gr4yscale@c-24-21-188-95.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-20 14:18:38	-->	ngoldman (~ngoldman@199.223.125.130) has joined #nodepdx
+2013-06-20 14:22:42	<--	mghayes (~mghayes@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-20 14:23:33	-->	ckknight (~ckknight@WoWUIDev/WoWAce/CurseStaff/CurseForge/ckknight) has joined #nodepdx
+2013-06-20 14:33:26	--	irc: disconnected from server
+2013-06-20 14:33:52	-->	JSONvoorhees (~meandave@c-71-56-139-32.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-20 14:33:53	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-20 14:33:53	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-20 14:33:53	--	Nicks #nodepdx: [busticated chrisdickinson ckknight cmeiklejohn dlmanning EvilPacket faddah gr4yscale hackygolucky hydrawat JSONvoorhees justinabrahms Loqi mghayes ngoldman NotMyself othiym23 randallagordon ZenWraithBot]
+2013-06-20 14:33:53	--	Channel #nodepdx: 19 nicks (0 ops, 0 halfops, 0 voices, 19 normals)
+2013-06-20 14:34:02	--	Mode #nodepdx [+cnt]
+2013-06-20 14:34:03	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-20 15:18:55	<--	ngoldman (~ngoldman@199.223.125.130) has quit (Remote host closed the connection)
+2013-06-20 15:40:57	-->	ngoldman (~ngoldman@198.102.43.49) has joined #nodepdx
+2013-06-20 17:14:50	<--	mghayes (~mghayes@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-20 18:26:29	--	irc: disconnected from server
+2013-06-20 18:26:52	-->	JSONvoorhees (~meandave@75-164-216-219.ptld.qwest.net) has joined #nodepdx
+2013-06-20 18:26:52	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-20 18:26:52	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-20 18:26:52	--	Nicks #nodepdx: [chrisdickinson ckknight cmeiklejohn dlmanning EvilPacket faddah hackygolucky hydrawat JSONvoorhees justinabrahms Loqi othiym23 randallagordon ZenWraithBot]
+2013-06-20 18:26:52	--	Channel #nodepdx: 14 nicks (0 ops, 0 halfops, 0 voices, 14 normals)
+2013-06-20 18:26:52	--	Notice(cameron.freenode.net): [freenode-info] please register your nickname...don't forget to auto-identify! http://freenode.net/faq.shtml#nicksetup
+2013-06-20 18:27:03	--	Mode #nodepdx [+cnt]
+2013-06-20 18:27:04	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-20 20:55:51	--	irc: disconnected from server
+2013-06-20 20:56:16	-->	JSONvoorhees (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-20 20:56:17	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-20 20:56:17	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-20 20:56:17	--	Nicks #nodepdx: [bfoote chrisdickinson ckknight cmeiklejohn dlmanning EvilPacket faddah gr4yscale hackygolucky hydrawat JSONvoorhees justinabrahms Loqi othiym23 randallagordon ZenWraithBot]
+2013-06-20 20:56:17	--	Channel #nodepdx: 16 nicks (0 ops, 0 halfops, 0 voices, 16 normals)
+2013-06-20 20:56:26	--	Mode #nodepdx [+cnt]
+2013-06-20 20:56:27	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-20 20:59:47	-->	bfoote_ (~bfoote@174-19-24-74.hlna.qwest.net) has joined #nodepdx
+2013-06-20 21:02:03	<--	bfoote (~bfoote@97-119-215-71.hlna.qwest.net) has quit (Ping timeout: 255 seconds)
+2013-06-20 21:46:04	<--	bfoote_ (~bfoote@174-19-24-74.hlna.qwest.net) has quit (Ping timeout: 252 seconds)
+2013-06-20 21:53:09	-->	mghayes (~mghayes@67.131.102.78) has joined #nodepdx
+2013-06-20 21:53:18	<--	mghayes (~mghayes@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-20 22:47:42	-->	mghayes (~mghayes@67.131.102.78) has joined #nodepdx
+2013-06-20 22:52:05	<--	mghayes (~mghayes@67.131.102.78) has quit (Ping timeout: 248 seconds)
+2013-06-20 23:11:36	<--	gr4yscale (~gr4yscale@c-67-189-109-68.hsd1.or.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2013-06-21 05:25:42	--	irc: disconnected from server
+2013-06-21 05:26:05	-->	JSONvoorhees (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-21 05:26:05	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-21 05:26:05	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-21 05:26:05	--	Nicks #nodepdx: [chrisdickinson ckknight cmeiklejohn dlmanning EvilPacket faddah hackygolucky hydrawat JSONvoorhees justinabrahms Loqi othiym23 randallagordon ZenWraithBot]
+2013-06-21 05:26:05	--	Channel #nodepdx: 14 nicks (0 ops, 0 halfops, 0 voices, 14 normals)
+2013-06-21 05:26:17	--	Mode #nodepdx [+cnt]
+2013-06-21 05:26:17	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-21 07:31:05	-->	mghayes (~mghayes@67.131.102.78) has joined #nodepdx
+2013-06-21 07:35:23	<--	mghayes (~mghayes@67.131.102.78) has quit (Ping timeout: 240 seconds)
+2013-06-21 07:39:20	-->	bfoote_ (~bfoote@70-57-196-20.hlna.qwest.net) has joined #nodepdx
+2013-06-26 10:42:19	-->	meandave (~meandave@c-71-56-139-32.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-26 10:42:19	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-26 10:42:19	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-26 10:42:19	--	Nicks #nodepdx: [chrisdickinson ckknight cmeiklejohn dlmanning dukesam EvilPacket faddah hackygolucky hydrawat justinabrahms Loqi meandave mghayes ngoldman NotMyself othiym23 randalla1ordon thoward ZenWraithBot]
+2013-06-26 10:42:19	--	Channel #nodepdx: 19 nicks (0 ops, 0 halfops, 0 voices, 19 normals)
+2013-06-26 10:42:21	--	Mode #nodepdx [+cnt]
+2013-06-26 10:42:21	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-26 10:42:38	<--	mghayes (~mghayes@67.131.102.78) has quit (Ping timeout: 256 seconds)
+2013-06-26 11:21:37	-->	mghayes (~mghayes@67.131.102.78) has joined #nodepdx
+2013-06-26 12:11:46	<--	mghayes (~mghayes@67.131.102.78) has quit (Remote host closed the connection)
+2013-06-26 12:19:13	-->	mghayes (~mghayes@67.131.102.78) has joined #nodepdx
+2013-06-26 12:25:07	<--	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-06-26 12:38:34	--	irc: disconnected from server
+2013-06-26 12:39:03	-->	meandave (~meandave@c-71-56-139-32.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-26 12:39:03	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-26 12:39:03	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-26 12:39:03	--	Nicks #nodepdx: [chrisdickinson ckknight cmeiklejohn dlmanning dukesam EvilPacket faddah hackygolucky hydrawat justinabrahms Loqi meandave mghayes ngoldman othiym23 randalla1ordon thoward ZenWraithBot]
+2013-06-26 12:39:03	--	Channel #nodepdx: 18 nicks (0 ops, 0 halfops, 0 voices, 18 normals)
+2013-06-26 12:39:15	--	Mode #nodepdx [+cnt]
+2013-06-26 12:39:15	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-26 12:59:54	-->	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has joined #nodepdx
+2013-06-26 13:52:14	-->	n8ji (~ngoldman@198.102.43.49) has joined #nodepdx
+2013-06-26 13:52:14	<--	ngoldman (~ngoldman@198.102.43.49) has quit (Read error: Connection reset by peer)
+2013-06-26 14:01:13	<--	n8ji (~ngoldman@198.102.43.49) has quit (Remote host closed the connection)
+2013-06-26 14:02:00	-->	ngoldman (~ngoldman@198.102.43.49) has joined #nodepdx
+2013-06-26 14:13:27	<--	justinabrahms (uid11033@gateway/web/irccloud.com/x-ypcilrluhkxrqtsf) has quit (Read error: Operation timed out)
+2013-06-26 15:02:46	--	randalla1ordon is now known as randallagordon
+2013-06-26 18:17:26	--	irc: disconnected from server
+2013-06-26 18:17:58	-->	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-26 18:17:58	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-26 18:17:58	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-26 18:17:58	--	Nicks #nodepdx: [chrisdickinson cmeiklejohn dlmanning EvilPacket faddah hackygolucky hydrawat Loqi meandave n8ji othiym23 randallagordon thoward ZenWraithBot]
+2013-06-26 18:17:58	--	Channel #nodepdx: 14 nicks (0 ops, 0 halfops, 0 voices, 14 normals)
+2013-06-26 18:18:10	--	Mode #nodepdx [+cnt]
+2013-06-26 18:18:10	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-26 18:28:11	<--	n8ji (~ngoldman@198.102.43.49) has quit (Remote host closed the connection)
+2013-06-26 18:48:19	-->	mghayes (~mghayes@c-67-168-199-143.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-26 19:13:49	-->	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has joined #nodepdx
+2013-06-26 19:23:53	<--	mghayes (~mghayes@c-67-168-199-143.hsd1.or.comcast.net) has quit (Remote host closed the connection)
+2013-06-26 19:28:49	-->	ngoldman (~ngoldman@198.102.43.49) has joined #nodepdx
+2013-06-26 19:33:20	<--	ngoldman (~ngoldman@198.102.43.49) has quit (Ping timeout: 256 seconds)
+2013-06-26 19:38:06	--	irc: disconnected from server
+2013-06-26 19:38:35	-->	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-26 19:38:35	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-26 19:38:35	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-26 19:38:35	--	Nicks #nodepdx: [chrisdickinson cmeiklejohn dlmanning EvilPacket faddah hackygolucky hydrawat Loqi meandave NotMyself othiym23 randallagordon thoward ZenWraithBot]
+2013-06-26 19:38:35	--	Channel #nodepdx: 14 nicks (0 ops, 0 halfops, 0 voices, 14 normals)
+2013-06-26 19:38:49	--	Mode #nodepdx [+cnt]
+2013-06-26 19:38:49	--	Channel created on Sat, 23 Mar 2013 18:54:22
+2013-06-26 19:54:13	<--	NotMyself (~NotMyself@c-71-227-228-250.hsd1.wa.comcast.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-06-26 20:20:14	--	irc: disconnected from server
+2013-06-26 20:20:42	-->	meandave (~meandave@c-24-20-145-106.hsd1.or.comcast.net) has joined #nodepdx
+2013-06-26 20:20:42	--	Topic for #nodepdx is "NodePDX 2013, May 16-17 http://nodepdx.org"
+2013-06-26 20:20:42	--	Topic set by thoward (~thoward@minotaur.apache.org) on Sat, 23 Mar 2013 18:56:28
+2013-06-26 20:20:42	--	Nicks #nodepdx: [chrisdickinson cmeiklejohn dlmanning EvilPacket faddah hackygolucky hydrawat Loqi meandave othiym23 randallagordon thoward ZenWraithBot]
+2013-06-26 20:20:42	--	Channel #nodepdx: 13 nicks (0 ops, 0 halfops, 0 voices, 13 normals)
+2013-06-26 20:20:56	--	Mode #nodepdx [+cnt]
+2013-06-26 20:20:56	--	Channel created on Sat, 23 Mar 2013 18:54:22

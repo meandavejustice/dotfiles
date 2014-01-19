@@ -1,0 +1,9 @@
+2014-01-16 13:22:15	florapdx	Hey, do you know if it is possible to reach a permalink page via the browser back button (after navigating away from it)? I feel like the answer must be yes, but I can't figure out how....
+2014-01-16 13:33:54	meandavejustice	programmatically or just by hitting the back button?
+2014-01-16 13:35:47	florapdx	I don't quite understand what you're asking, but right now, if a user navigates to organizer from a permalink page, and then wants to go back to the perma page by hitting the browser's back button, nothing happens
+2014-01-16 13:37:32	meandavejustice	that is a bug
+2014-01-16 13:38:20	meandavejustice	something must be I would look to see what is happening in the navigate functions in application controller
+2014-01-16 18:39:31	--	irc: disconnected from server
+2014-01-16 20:16:44	--	irc: disconnected from server
+2014-01-16 20:31:52	--	irc: disconnected from server
+2014-01-16 23:37:30	--	irc: disconnected from server

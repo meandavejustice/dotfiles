@@ -1,0 +1,1657 @@
+2013-07-11 19:59:19	-->	JSON_voorhees (~JSON_voor@70.98.39.245) has joined #pdxnodebots
+2013-07-11 19:59:19	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-11 19:59:19	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-11 19:59:19	--	Nicks #pdxnodebots: [chrisdickinson dlmanning hackygolucky_ jden JSON_voorhees justinabrahms randallagordon s5fs thoward Wraithan xyxne ZenWraithBot]
+2013-07-11 19:59:19	--	Channel #pdxnodebots: 12 nicks (0 ops, 0 halfops, 0 voices, 12 normals)
+2013-07-11 19:59:21	--	Mode #pdxnodebots [+cnt]
+2013-07-11 19:59:21	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-11 20:05:07	s5fs	Wraithan: hai
+2013-07-11 20:07:16	hackygolucky_	hullo
+2013-07-11 22:09:50	--	irc: disconnected from server
+2013-07-11 22:11:22	-->	JSON_voorhees (~JSON_voor@c-24-20-145-106.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-11 22:11:23	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-11 22:11:23	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-11 22:11:23	--	Nicks #pdxnodebots: [chrisdickinson dlmanning hackygolucky_ jden JSON_voorhees justinabrahms randallagordon ridicter s5fs thoward Wraithan xyxne ZenWraithBot]
+2013-07-11 22:11:23	--	Channel #pdxnodebots: 13 nicks (0 ops, 0 halfops, 0 voices, 13 normals)
+2013-07-11 22:11:32	--	Mode #pdxnodebots [+cnt]
+2013-07-11 22:11:33	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-11 22:27:32	JSON_voorhees	robots
+2013-07-11 23:35:53	justinabrahms	xyxne: ohai. I think Holiday Extras is always looking for node contractors. They're UK based.
+2013-07-11 23:41:53	<--	ridicter (~ridicter@c-67-189-109-68.hsd1.or.comcast.net) has quit (Quit: ["Textual IRC Client: www.textualapp.com"])
+2013-07-12 10:34:00	--	irc: disconnected from server
+2013-07-12 10:34:28	-->	JSON_voorhees (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-12 10:34:28	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-12 10:34:28	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-12 10:34:28	--	Nicks #pdxnodebots: [adamdicarlo chrisdickinson dlmanning hackygolucky_ jden JSON_voorhees justinabrahms randallagordon ridicter s5fs thoward Wraithan xyxne ZenWraithBot]
+2013-07-12 10:34:28	--	Channel #pdxnodebots: 14 nicks (0 ops, 0 halfops, 0 voices, 14 normals)
+2013-07-12 10:34:40	--	Mode #pdxnodebots [+cnt]
+2013-07-12 10:34:40	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-12 10:47:37	<--	ridicter (~ridicter@c-71-236-206-53.hsd1.wa.comcast.net) has quit (Quit: ["Textual IRC Client: www.textualapp.com"])
+2013-07-12 11:14:44	hackygolucky_	hey #pdxnodebots organizers--how does  Bridgeport Brewery(NW) at 6pm on Tuesday sound for the planning meeting?
+2013-07-12 11:22:11	JSON_voorhees	good 4 me
+2013-07-12 11:22:22	dlmanning	sounds good
+2013-07-12 11:27:24	hackygolucky_	cool cool.
+2013-07-12 11:41:23	<--	adamdicarlo (~adamdicar@c-24-22-38-73.hsd1.or.comcast.net) has quit (Ping timeout: 256 seconds)
+2013-07-12 11:52:42	s5fs	hackygolucky_: i can do that
+2013-07-12 11:53:11	hackygolucky_	sweet!
+2013-07-12 11:54:39	-->	JSON_voorhees (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-12 11:54:40	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-12 11:54:40	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-12 11:54:40	--	Nicks #pdxnodebots: [chrisdickinson dlmanning hackygolucky_ jden JSON_voorhees justinabrahms randallagordon s5fs thoward Wraithan xyxne ZenWraithBot]
+2013-07-12 11:54:40	--	Channel #pdxnodebots: 12 nicks (0 ops, 0 halfops, 0 voices, 12 normals)
+2013-07-12 11:54:41	--	Mode #pdxnodebots [+cnt]
+2013-07-12 11:54:42	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-12 12:14:25	-->	ridicter (~ridicter@63.227.221.188) has joined #pdxnodebots
+2013-07-12 12:23:24	s5fs	hackygolucky_: do we have tables and chairs for the event space?
+2013-07-12 12:28:12	hackygolucky_	s5fs: I think all our stuff like that got left in the old building. But good question! I'll confirm.
+2013-07-12 12:37:11	-->	JSON_voorhees (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-12 12:37:11	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-12 12:37:11	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-12 12:37:11	--	Nicks #pdxnodebots: [chrisdickinson dlmanning hackygolucky_ jden JSON_voorhees justinabrahms randallagordon ridicter s5fs thoward Wraithan xyxne ZenWraithBot]
+2013-07-12 12:37:11	--	Channel #pdxnodebots: 13 nicks (0 ops, 0 halfops, 0 voices, 13 normals)
+2013-07-12 12:37:13	--	Mode #pdxnodebots [+cnt]
+2013-07-12 12:37:13	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-12 12:39:11	s5fs	hackygolucky_: yeah, i was thinking about it on the way to work. also, when can we access the space and when do we need to have it cleared out?
+2013-07-12 12:39:41	s5fs	also, is it possible to survey the space ahead of time? we'll need to identify # of power outlets and find/buy enough power strips to make the space livable
+2013-07-12 12:43:27	hackygolucky_	s5fs: I will talk to our facilities coordinator and see what she can do. I might have to go during work hours with her to get that done.
+2013-07-12 12:46:03	s5fs	hackygolucky_: cool, i'm here to help if you need an extra body
+2013-07-12 12:46:20	hackygolucky_	excellent.
+2013-07-12 12:46:58	s5fs	hackygolucky_: also, we need to nail down the kits we're buying asap, esp if we expect to source parts from china. we're two weeks out and still no concrete plan, makes me a bit nervous.
+2013-07-12 12:47:42	s5fs	hackygolucky_: if you know the budget for the gear i can begin assembling kit suggestions and project ideas
+2013-07-12 12:48:36	hackygolucky_	s5fs: I thought that's what we'd nail down on Tuesday :-/
+2013-07-12 12:48:53	hackygolucky_	when I asked nexxy about deadlines before she said that would be plenty of time.
+2013-07-12 12:48:55	hackygolucky_	hrm.
+2013-07-12 12:49:02	s5fs	hackygolucky_: okay sounds good, i wasn't certain if we  had a budget already
+2013-07-12 12:50:59	s5fs	hackygolucky_: thats well and good but i'm concerned about the timeline. assuming we agree upon a budget on tues, how much time will it take to select a kit and project ideas? i'm guessing another 1-2 days, so lets say we can place an order next thurs/fri. that's cutting it extremely close and we're going to have to ship from within the US.
+2013-07-12 12:51:46	s5fs	someone has to receive the gear and build out the projects, hone instructions, etc. there's still a great deal of work to do, assuming we wish to tackle these items :)
+2013-07-12 12:52:32	hackygolucky_	oh I think we already have budget. Or just need to lock it down.. Tuesday was for getting the hardware list SET so nexxy can order.
+2013-07-12 12:52:42	hackygolucky_	and also to work on the day-of-event happenings.
+2013-07-12 12:53:26	s5fs	perfecto
+2013-07-12 12:54:05	hackygolucky_	s5fs: I think we've got a total budget of $2000 for the event thanks to sponsors.
+2013-07-12 12:54:21	hackygolucky_	so basically just hardware, snack, and drinks
+2013-07-12 12:54:53	JSON_voorhees	+ goat
+2013-07-12 12:55:08	hackygolucky_	ah yes.
+2013-07-12 13:07:02	s5fs	hackygolucky_: right, i wish to understand how much of that $2k is available for hw. we can rough estimate drinks/snacks pretty easily but other things like stickers, raffle cards or furniture rentals will eat into the budget.
+2013-07-12 13:07:26	s5fs	hackygolucky_: i belive we're thinking along the same lines :)
+2013-07-12 13:07:33	hackygolucky_	ahl so I can't take a look at the building until next week, but we have a ton of tables and chairs
+2013-07-12 13:07:42	hackygolucky_	just confirmed.
+2013-07-12 13:08:01	hackygolucky_	s5fs: stickers are on the way unless we want to custom make some for PDX
+2013-07-12 13:08:13	hackygolucky_	from NodeBots organizers and jden(I think)
+2013-07-12 13:08:29	s5fs	hackygolucky_: awesome!
+2013-07-12 13:08:39	hackygolucky_	The NodeBots peeps just asked for an organizers address for each city, so I gave them mine.
+2013-07-12 13:19:12	s5fs	cool
+2013-07-12 13:34:00	<--	ridicter (~ridicter@63.227.221.188) has quit (Quit: Computer has gone to sleep.)
+2013-07-12 13:47:18	-->	adamdicarlo (~adamdicar@75-150-34-209-Oregon.hfc.comcastbusiness.net) has joined #pdxnodebots
+2013-07-12 13:47:33	thoward	regarding sponsorships, i need to invoice them still, and we need conirmation from wraithan regarding the moz contributions
+2013-07-12 13:49:20	thoward	i'll kick out invoices to UA, Basho, and Twilio right now.
+2013-07-12 13:49:48	hackygolucky_	!m thoward
+2013-07-12 13:49:50	ZenWraithBot	You're doing great work thoward!
+2013-07-12 13:51:01	-->	ridicter (~ridicter@c-71-236-206-53.hsd1.wa.comcast.net) has joined #pdxnodebots
+2013-07-12 14:02:48	s5fs	thoward: awesome
+2013-07-12 14:07:15	thoward	hackygolucky_: is laura foltyn still the right person to bill for sponsorship monies?
+2013-07-12 14:07:18	thoward	at UA
+2013-07-12 14:07:32	thoward	who approved it, and do you have their email?
+2013-07-12 15:07:10	--	irc: disconnected from server
+2013-07-12 15:07:36	-->	JSON_voorhees (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-12 15:07:36	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-12 15:07:36	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-12 15:07:36	--	Nicks #pdxnodebots: [adamdicarlo chrisdickinson dlmanning hackygolucky_ jden JSON_voorhees justinabrahms randallagordon ridicter s5fs thoward Wraithan xyxne ZenWraithBot]
+2013-07-12 15:07:36	--	Channel #pdxnodebots: 14 nicks (0 ops, 0 halfops, 0 voices, 14 normals)
+2013-07-12 15:07:42	--	Mode #pdxnodebots [+cnt]
+2013-07-12 15:07:42	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-12 15:08:00	thoward	they might be able to contribute in other ways as well.. hardware resources, hands-on mentorship during the event, etc.
+2013-07-12 15:13:43	s5fs	thoward: more hands on deck wouldn't hurt
+2013-07-12 15:14:59	s5fs	also, smartmocha looks super cool
+2013-07-12 15:15:03	s5fs	wish their site had more detail
+2013-07-12 15:15:13	thoward	s5fs: they are pretty early stage
+2013-07-12 15:15:20	thoward	like really really early
+2013-07-12 15:15:52	s5fs	yup, looks like three dudes in a garage still
+2013-07-12 15:18:38	thoward	s5fs: i don't think they even have a garage
+2013-07-12 15:18:40	s5fs	man their products look awesome
+2013-07-12 15:18:52	s5fs	feels a bit like industrial ninjablocks
+2013-07-12 15:19:05	thoward	last time i talked to jake he was hiring a contractor to pour concrete for his garage rebuild. :) :)
+2013-07-12 15:19:22	s5fs	i've worked with industrial lighting controls and stuff, the industry could use some real help (esp in terms of software)
+2013-07-12 15:19:30	thoward	s5fs: basically, they are trying to simplify m2m communication, json everywhere, etc.
+2013-07-12 15:19:31	s5fs	haha! pre-garage
+2013-07-12 15:19:41	s5fs	thoward: i'm totally down for htat
+2013-07-12 15:20:37	thoward	it will be a good fit. they have prototypes now, so hopefully, they can bring some and show us some cool shit, and we can show them how javascript makes it better. both of them are python people, so we need to influence them for great good.
+2013-07-12 15:26:49	s5fs	abso
+2013-07-12 15:27:09	s5fs	hackygolucky_: you pushing nodebots day at pyladies?
+2013-07-12 15:27:59	hackygolucky_	Oh heck yeah
+2013-07-12 15:28:14	hackygolucky_	And thoward can hold me to it tomorrow as well
+2013-07-12 15:28:37	hackygolucky_	Wait
+2013-07-12 15:28:55	hackygolucky_	Is smart mocha Steve Osborn???
+2013-07-12 15:28:55	hackygolucky_	Heh
+2013-07-12 15:29:19	hackygolucky_	One of the UA founders. :)
+2013-07-12 15:29:22	thoward	yup!
+2013-07-12 15:29:39	thoward	it's a power trio... Surj from GigaOhm, Steve from UA, and Jake from AppFog
+2013-07-12 15:29:51	hackygolucky_	Aw that's wonderful.
+2013-07-12 15:31:03	s5fs	"supergroup"
+2013-07-12 15:34:57	thoward	osborn is apparently the "hardware guy"
+2013-07-12 15:50:51	<--	ridicter (~ridicter@c-71-236-206-53.hsd1.wa.comcast.net) has quit (Quit: ["Textual IRC Client: www.textualapp.com"])
+2013-07-12 16:48:12	-->	ridicter (~ridicter@c-71-236-206-53.hsd1.wa.comcast.net) has joined #pdxnodebots
+2013-07-12 16:55:09	<--	ridicter (~ridicter@c-71-236-206-53.hsd1.wa.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2013-07-12 17:04:06	-->	ridicter (~ridicter@c-71-236-206-53.hsd1.wa.comcast.net) has joined #pdxnodebots
+2013-07-12 17:13:52	<--	ridicter (~ridicter@c-71-236-206-53.hsd1.wa.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2013-07-12 17:15:13	-->	ridicter (~ridicter@c-71-236-206-53.hsd1.wa.comcast.net) has joined #pdxnodebots
+2013-07-12 17:36:34	<--	ridicter (~ridicter@c-71-236-206-53.hsd1.wa.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2013-07-12 17:38:11	-->	ridicter (~ridicter@c-71-236-206-53.hsd1.wa.comcast.net) has joined #pdxnodebots
+2013-07-12 17:42:00	<--	ridicter (~ridicter@c-71-236-206-53.hsd1.wa.comcast.net) has quit (Client Quit)
+2013-07-12 23:39:59	--	irc: disconnected from server
+2013-07-12 23:40:22	-->	JSON_voorhees (~JSON_voor@c-24-20-145-106.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-12 23:40:22	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-12 23:40:22	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:20:50
+2013-07-12 23:40:22	--	Nicks #pdxnodebots: [chrisdickinson dlmanning hackygolucky_ jden JSON_voorhees justinabrahms randallagordon s5fs thoward Wraithan xyxne ZenWraithBot]
+2013-07-12 23:40:22	--	Channel #pdxnodebots: 12 nicks (0 ops, 0 halfops, 0 voices, 12 normals)
+2013-07-12 23:40:27	--	Mode #pdxnodebots [+cnt]
+2013-07-12 23:40:28	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-12 23:44:19	s5fs	thoward: thanks for the update :)
+2013-07-13 07:42:39	--	irc: disconnected from server
+2013-07-13 07:43:10	-->	JSON_voorhees (~JSON_voor@c-24-20-145-106.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-13 07:43:10	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-13 07:43:10	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-13 07:43:10	--	Nicks #pdxnodebots: [chrisdickinson dlmanning hackygolucky_ jden JSON_voorhees justinabrahms randallagordon s5fs thoward Wraithan xyxne ZenWraithBot]
+2013-07-13 07:43:10	--	Channel #pdxnodebots: 12 nicks (0 ops, 0 halfops, 0 voices, 12 normals)
+2013-07-13 07:43:16	--	Mode #pdxnodebots [+cnt]
+2013-07-13 07:43:16	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-13 09:21:15	-->	xobxob (~robertgal@c-24-20-193-173.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-14 15:40:03	-->	JSON_voorhees (~JSON_voor@c-24-20-145-95.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-14 15:40:03	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-14 15:40:03	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-14 15:40:03	--	Nicks #pdxnodebots: [chrisdickinson dlmanning hackygolucky_ jden JSON_voorhees justinabrahms nexxy randalla1ordon ridicter s5fs thoward Wraithan ZenWraithBot]
+2013-07-14 15:40:03	--	Channel #pdxnodebots: 13 nicks (0 ops, 0 halfops, 0 voices, 13 normals)
+2013-07-14 15:40:04	--	Mode #pdxnodebots [+cnt]
+2013-07-14 15:40:04	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-14 15:43:43	<--	ridicter (~ridicter@66.96.79.211) has quit (Quit: Computer has gone to sleep.)
+2013-07-14 15:46:34	-->	ridicter (~ridicter@66.96.79.211) has joined #pdxnodebots
+2013-07-14 15:50:21	thoward	i have an idea. :)
+2013-07-14 15:51:12	thoward	so in the urban airship space, there's a couple extra conference room areas which are fairly large, and separate from the main meeting room.
+2013-07-14 15:51:49	thoward	someone on twitter was talking about how they thought it would be a good idea to offer childcare at conferences to enable more parents to attend who might otherwise not.
+2013-07-14 15:51:57	thoward	i was thinking it would be cool to setup a kids room for this.
+2013-07-14 15:52:31	thoward	when i go to events at UA i always stick my kids in the conference room with a bunch of dry erase markers and let them play with the whiteboards in there. that keeps them in a quiet place so they aren't disturbing the presentations and keeps them busy.
+2013-07-14 15:52:39	thoward	they can do that mostly unattended.
+2013-07-14 15:54:29	<--	ridicter (~ridicter@66.96.79.211) has quit (Quit: Computer has gone to sleep.)
+2013-07-14 15:57:06	thoward	i was thiking we couldl get some robot-related projects for them to do as well. even if it's just some snapcircuits, or a model of R2D2 they can glue together, or whatever.
+2013-07-14 15:57:19	-->	ridicter (~ridicter@66.96.79.211) has joined #pdxnodebots
+2013-07-14 15:57:22	thoward	and i could find one or two people to hang out in the kids room all day (non-tech folks)
+2013-07-14 15:57:51	thoward	i think that would be pretty awesome.
+2013-07-14 15:57:57	thoward	i know my kids would love it
+2013-07-14 15:58:08	thoward	and probably jake's as wlel
+2013-07-14 15:58:12	Wraithan	thoward: offering child care is a bit tricky
+2013-07-14 15:58:23	thoward	it's not exactly "offering childcare"
+2013-07-14 15:58:27	thoward	just making a kids room
+2013-07-14 15:59:34	thoward	anyhow -- my wife actually has a certification for professional childcare, and we know a couple other people who do as well (at one time we were considering doing a childcare/chinese tutoring thing at our house, never happened, but she did get the cert)
+2013-07-14 16:00:49	thoward	it's up the parents how they want to deal with their kids, basically. if they want to be int he room w/ them they can, or if the kids are indpendent enough, they can leave them be.
+2013-07-14 16:01:05	thoward	the adults that are in there would be there to facilitate the kid projects
+2013-07-14 16:01:12	thoward	not to provide "chlidcare"
+2013-07-14 16:01:27	Wraithan	Ah, then yea, you know the diff if she has the cert
+2013-07-14 16:01:31	thoward	(an important distinction w/ the law)
+2013-07-14 16:01:36	Wraithan	Exactly
+2013-07-14 16:03:14	thoward	anyhow.. i think it would fun, and i'd be willing to organize that bit. i have some snap circuits i could bring in
+2013-07-14 16:03:56	thoward	anyone have any lego robots stuff?
+2013-07-14 16:09:41	thoward	we can make our own R2D2 popsicles with this: http://www.amazon.com/Kotobukiya-Star-Wars-R2D2-Silicone/dp/B004UB73FK/ref=sr_1_1?ie=UTF8&qid=1373843345&sr=8-1&keywords=r2d2+star+wars
+2013-07-14 16:24:32	<--	ridicter (~ridicter@66.96.79.211) has quit (Ping timeout: 256 seconds)
+2013-07-14 16:36:46	-->	ridicter (~ridicter@c-71-236-206-53.hsd1.wa.comcast.net) has joined #pdxnodebots
+2013-07-14 16:47:04	<--	ridicter (~ridicter@c-71-236-206-53.hsd1.wa.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2013-07-14 17:22:00	-->	xobbob (~xobbob@c-24-20-193-173.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-14 18:19:18	--	irc: disconnected from server
+2013-07-14 18:19:41	-->	JSON_voorhees (~JSON_voor@c-67-189-34-0.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-14 18:19:41	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-14 18:19:41	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-14 18:19:41	--	Nicks #pdxnodebots: [adamdicarlo chrisdickinson dlmanning hackygolucky_ jden JSON_voorhees justinabrahms nexxy randalla1ordon ridicter s5fs thoward Wraithan xobbob ZenWraithBot]
+2013-07-14 18:19:41	--	Channel #pdxnodebots: 15 nicks (0 ops, 0 halfops, 0 voices, 15 normals)
+2013-07-14 18:19:45	--	Mode #pdxnodebots [+cnt]
+2013-07-14 18:19:45	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-14 18:43:41	<--	xobbob (~xobbob@c-24-20-193-173.hsd1.or.comcast.net) has quit (Quit: xobbob)
+2013-07-14 19:42:38	<--	ridicter (~ridicter@c-71-236-206-53.hsd1.wa.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2013-07-14 20:03:20	thoward	hackygolucky_: it will be at 6 next time. we talked about how 3pm was a bad idea. :)
+2013-07-14 20:05:02	thoward	hackygolucky_: to the end of having some cool robot projects for the kids, i'm thinking about picking up some of these simple 4M kits that make "robots"
+2013-07-14 20:05:22	thoward	http://www.amazon.com/s/ref=nb_sb_noss_1?url=search-alias%3Dtoys-and-games&field-keywords=4M%20robot
+2013-07-14 20:05:29	thoward	they run around $10 each
+2013-07-14 21:39:28	--	irc: disconnected from server
+2013-07-14 21:40:14	-->	JSON_voorhees (~JSON_voor@c-76-115-14-93.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-14 21:40:14	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-14 21:40:14	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-14 21:40:14	--	Nicks #pdxnodebots: [chrisdickinson dlmanning hackygolucky_ jden JSON_voorhees justinabrahms nexxy randallagordon ridicter s5fs thoward Wraithan ZenWraithBot]
+2013-07-14 21:40:14	--	Channel #pdxnodebots: 13 nicks (0 ops, 0 halfops, 0 voices, 13 normals)
+2013-07-14 21:40:18	--	Mode #pdxnodebots [+cnt]
+2013-07-14 21:40:18	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-14 22:40:45	<--	ridicter (~ridicter@c-67-189-109-68.hsd1.or.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2013-07-14 23:52:38	--	irc: disconnected from server
+2013-07-14 23:53:01	-->	JSON_voorhees (~JSON_voor@c-67-189-34-0.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-14 23:53:01	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-14 23:53:01	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-14 23:53:02	--	Nicks #pdxnodebots: [chrisdickinson dlmanning hackygolucky_ jden JSON_voorhees justinabrahms nexxy randallagordon ridicter s5fs thoward Wraithan ZenWraithBot]
+2013-07-14 23:53:02	--	Channel #pdxnodebots: 13 nicks (0 ops, 0 halfops, 0 voices, 13 normals)
+2013-07-14 23:53:05	--	Mode #pdxnodebots [+cnt]
+2013-07-14 23:53:06	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-14 23:58:52	-->	xobbob (~xobbob@c-24-20-193-173.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-15 00:02:27	<--	chrisdickinson (~chrisdick@173-45-225-63.slicehost.net) has quit (Quit: ZNC - http://znc.sourceforge.net)
+2013-07-15 00:03:26	-->	chrisdickinson (~chrisdick@173-45-225-63.slicehost.net) has joined #pdxnodebots
+2013-07-15 00:54:28	<--	ridicter (~ridicter@c-71-236-206-53.hsd1.wa.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2013-07-15 10:25:50	--	irc: disconnected from server
+2013-07-15 10:26:14	-->	JSON_voorhees (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-15 10:26:14	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-15 10:26:14	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-15 10:26:15	--	Nicks #pdxnodebots: [chrisdickinson dlmanning hackygolucky_ jden JSON_voorhees justinabrahms nexxy randalla1ordon s5fs thoward Wraithan xobbob ZenWraithBot]
+2013-07-15 10:26:15	--	Channel #pdxnodebots: 13 nicks (0 ops, 0 halfops, 0 voices, 13 normals)
+2013-07-15 10:26:19	--	Mode #pdxnodebots [+cnt]
+2013-07-15 10:26:19	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-15 10:32:47	-->	ridicter (~ridicter@c-71-236-206-53.hsd1.wa.comcast.net) has joined #pdxnodebots
+2013-07-15 10:39:22	<--	ridicter (~ridicter@c-71-236-206-53.hsd1.wa.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2013-07-15 11:03:45	s5fs	haha, so it seems there is interest in general robotics
+2013-07-15 11:04:33	hackygolucky_	s5fs: in what sense?
+2013-07-15 11:04:37	hackygolucky_	also, happy Monday!
+2013-07-15 11:04:44	s5fs	happy monday to you as well!
+2013-07-15 11:04:52	s5fs	well, i recall an earlier ask about using python and i'
+2013-07-15 11:05:00	s5fs	and i'm seeing reference to kids kits in the scrollback
+2013-07-15 11:05:49	s5fs	also, is there a weekly (sunday) google hangout? i know i attended one but wasn't sure if it was regularly scheduled and therefore watched shitty westerns and coded instead of engaging :)
+2013-07-15 11:27:30	hackygolucky_	s5fs: I think there is and I missed it again this weekend.
+2013-07-15 11:27:32	hackygolucky_	:(
+2013-07-15 11:28:12	hackygolucky_	so I can get into the building this week to check on outlets, but apparently UA has a big box of extension cords and surge protectors at our disposal as well.
+2013-07-15 11:28:58	s5fs	hackygolucky_: haha i'll put it on my calendar
+2013-07-15 11:29:26	s5fs	hackygolucky_: great news re: the power strips, I figure we'll need 15-25/ od
+2013-07-15 11:29:29	hackygolucky_	maybe jden was in on it?
+2013-07-15 11:29:35	hackygolucky_	he was the one that messaged about it.
+2013-07-15 11:29:37	s5fs	i can ping nexxy too
+2013-07-15 11:29:54	s5fs	jden: who all was on the hangout last night? did we miss anything?
+2013-07-15 11:30:23	hackygolucky_	maybe he's like beetleguise and we need to say his name a third time.
+2013-07-15 11:39:25	-->	ridicter (~ridicter@c-71-236-206-53.hsd1.wa.comcast.net) has joined #pdxnodebots
+2013-07-15 11:41:35	s5fs	i'm not doing that!
+2013-07-15 11:58:33	jden	s5fs: you didn't miss much. thoward, Cassandra, dshaw and I were the only ones there
+2013-07-15 12:11:02	<--	ridicter (~ridicter@c-71-236-206-53.hsd1.wa.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2013-07-15 12:22:58	--	randalla1ordon is now known as randallagordon
+2013-07-15 12:28:50	hackygolucky_	jden: any news or just updating on what different locations were doing?
+2013-07-15 12:36:49	-->	ridicter (~ridicter@c-71-236-206-53.hsd1.wa.comcast.net) has joined #pdxnodebots
+2013-07-15 12:37:58	<--	ridicter (~ridicter@c-71-236-206-53.hsd1.wa.comcast.net) has quit (Client Quit)
+2013-07-15 12:47:09	--	chrisdickinson is now known as erkstyn
+2013-07-15 12:47:15	--	erkstyn is now known as chrisdickinson
+2013-07-15 12:53:38	s5fs	jden: dshaw land any other sponsorships for pdx?
+2013-07-15 13:01:56	nexxy	whaaaat
+2013-07-15 13:05:43	hackygolucky_	heh. I didn't know he was trying to do that :P
+2013-07-15 13:06:57	s5fs	hackygolucky_: dshaw mentioned that he would seek sponsons for pdx, two weeks ago on sunday iirc
+2013-07-15 13:07:38	s5fs	of course, last week we had a few sponsors land, so it's less imperative
+2013-07-15 13:08:50	s5fs	nexxy: how goes the parts list work? anything I can help with?
+2013-07-15 13:08:52	hackygolucky_	s5fs: that's awesome. Either way.
+2013-07-15 13:09:02	s5fs	hackygolucky_: right, i can't imagine having more sponsors would be a bad thing
+2013-07-15 13:09:11	hackygolucky_	yup yup.
+2013-07-15 13:40:04	<--	xobbob (~xobbob@c-24-20-193-173.hsd1.or.comcast.net) has quit (Ping timeout: 260 seconds)
+2013-07-15 13:41:47	-->	xobbob (~xobbob@c-24-20-193-173.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-15 14:07:26	<--	xobbob (~xobbob@c-24-20-193-173.hsd1.or.comcast.net) has quit (Quit: xobbob)
+2013-07-15 14:11:49	jden	hackygolucky_: no real news - I sent out a summary on the google groups mailing list
+2013-07-15 14:12:00	hackygolucky_	ah
+2013-07-15 14:12:03	jden	s5fs: no, but PDX is kicking ass in terms of sponsorships
+2013-07-15 14:13:09	hackygolucky_	s5fs: Sunday 7/21 at 6:30pm PT
+2013-07-15 14:13:21	hackygolucky_	that's the next hangout meeting.
+2013-07-15 14:19:52	s5fs	jden: second only to south bay from what i can tell
+2013-07-15 14:20:18	jden	ha, well PDX has much more liquid cash.
+2013-07-15 14:20:33	jden	South Bay is all in-kind
+2013-07-15 15:15:30	-->	ridicter (~ridicter@66.96.79.211) has joined #pdxnodebots
+2013-07-15 15:18:20	nexxy	hackygolucky_, hai
+2013-07-15 15:18:49	nexxy	s5fs, heyyyyyyyy
+2013-07-15 15:19:00	hackygolucky_	howdy nexxy!
+2013-07-15 15:19:41	nexxy	howdy howdy howdy
+2013-07-15 15:20:23	nexxy	hackygolucky_, http://i.imgur.com/yyNMooT.gif
+2013-07-15 15:20:49	hackygolucky_	oh, nexxy did you get Justin's message regarding some contract work?
+2013-07-15 15:21:07	hackygolucky_	heh
+2013-07-15 15:21:10	nexxy	what! no!
+2013-07-15 15:21:12	nexxy	but now I want to
+2013-07-15 15:25:02	hackygolucky_	so Justin's company did some contract work for Holiday Extras, a UK company. Said they are always looking for node.js
+2013-07-15 15:25:40	hackygolucky_	if you email Joe joe@joestump.net he should be able to point you in the right direction.
+2013-07-15 15:26:03	hackygolucky_	the Holiday Extras website only has career positions for contact info.
+2013-07-15 15:32:19	-->	xobbob (~xobbob@c-24-20-193-173.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-15 16:54:30	<--	xobbob (~xobbob@c-24-20-193-173.hsd1.or.comcast.net) has quit (Quit: xobbob)
+2013-07-15 17:15:15	<--	ridicter (~ridicter@66.96.79.211) has quit (Quit: ["Textual IRC Client: www.textualapp.com"])
+2013-07-15 17:26:56	s5fs	jden: it's funny you say that, south bay has all the tech giants, i'm certain they use js as well
+2013-07-15 17:30:54	jden	s5fs: PDX has soul power
+2013-07-15 17:31:47	s5fs	indeed!
+2013-07-15 17:32:55	nexxy	well I'm dumb
+2013-07-15 17:33:19	hackygolucky_	nexxy: how so?
+2013-07-15 17:33:21	nexxy	I uh
+2013-07-15 17:33:24	nexxy	thought we were all meeting today
+2013-07-15 17:33:30	nexxy	so I'm sitting @ bridgeport brewery :D
+2013-07-15 17:33:37	hackygolucky_	oh no!
+2013-07-15 17:33:44	nexxy	then after I sent an email to EVERYONE
+2013-07-15 17:33:54	nexxy	letting you all know that I'm here and reserved a table
+2013-07-15 17:33:58	nexxy	I read the date on the email
+2013-07-15 17:34:29	nexxy	I should pay more attention
+2013-07-15 17:34:35	hackygolucky_	if I didn't already have plans I would have just met up with you today :-/
+2013-07-15 17:35:16	nexxy	no worries
+2013-07-15 17:57:46	s5fs	nexxy: haha!!
+2013-07-15 23:41:25	-->	JSON_voorhees (~JSON_voor@c-67-189-34-0.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-15 23:41:25	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-15 23:41:25	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-15 23:41:25	--	Nicks #pdxnodebots: [chrisdickinson dlmanning hackygolucky_ jden JSON_voorhees justinabrahms nexxy randallagordon s5fs thoward Wraithan ZenWraithBot]
+2013-07-15 23:41:25	--	Channel #pdxnodebots: 12 nicks (0 ops, 0 halfops, 0 voices, 12 normals)
+2013-07-15 23:41:26	--	Mode #pdxnodebots [+cnt]
+2013-07-15 23:41:27	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-15 23:53:09	-->	xobbob (~xobbob@c-24-20-193-173.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-16 00:14:49	hackygolucky_	this is for nexxy http://i.imgur.com/X3OQOXG.jpg
+2013-07-16 01:11:35	nexxy	hackygolucky_, hahaha
+2013-07-16 09:25:55	-->	JSON_voorhees (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-16 09:25:55	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-16 09:25:55	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-16 09:25:55	--	Nicks #pdxnodebots: [chrisdickinson dlmanning hackygolucky_ jden JSON_voorhees justinabrahms nexxy randallagordon s5fs thoward Wraithan ZenWraithBot]
+2013-07-16 09:25:55	--	Channel #pdxnodebots: 12 nicks (0 ops, 0 halfops, 0 voices, 12 normals)
+2013-07-16 09:25:56	--	Mode #pdxnodebots [+cnt]
+2013-07-16 09:25:57	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-16 09:57:41	s5fs	hackygolucky_: confirming, bridgeport tonight yes? 6:30p?
+2013-07-16 09:57:49	s5fs	nexxy: you survive the night?
+2013-07-16 09:58:28	hackygolucky_	s5fs: 6pm but whenever you can make it is good.
+2013-07-16 09:59:47	s5fs	hackygolucky_: on 13th or so, right?
+2013-07-16 09:59:56	hackygolucky_	I think happy hour ends at 6
+2013-07-16 10:00:01	hackygolucky_	and Marshall
+2013-07-16 10:00:07	hackygolucky_	yup yup
+2013-07-16 10:00:37	s5fs	okay i'll shoot for a bit earlier so i can get a cheap burger, haha
+2013-07-16 10:02:21	hackygolucky_	yup yup.
+2013-07-16 10:02:25	hackygolucky_	good portions.
+2013-07-16 10:07:29	<--	justinabrahms (~Justin@108.166.56.224) has quit (*.net *.split)
+2013-07-16 10:07:29	<--	dlmanning (~david@c-24-22-14-106.hsd1.or.comcast.net) has quit (*.net *.split)
+2013-07-16 10:10:00	-->	justinabrahms (~Justin@108.166.56.224) has joined #pdxnodebots
+2013-07-16 10:10:00	-->	dlmanning (~david@c-24-22-14-106.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-16 11:41:20	nexxy	s5fs, yeah just barely
+2013-07-16 11:41:47	nexxy	;<
+2013-07-16 11:41:52	nexxy	s5fs, thanks for taking care of me
+2013-07-16 11:41:58	nexxy	and tell Aisha I said thank you also please
+2013-07-16 11:56:40	s5fs	nexxy: no worries. i'll pass along your kind words, glad to hear you're feeling a bit better.
+2013-07-16 11:56:58	s5fs	nexxy: still on for tonight? you know how to get there ;-)
+2013-07-16 12:00:44	nexxy	lol yes
+2013-07-16 12:00:45	nexxy	AND
+2013-07-16 12:00:50	nexxy	I know the server that will be working
+2013-07-16 12:01:03	nexxy	she is going to help us get a nice table in the dining room if we desire
+2013-07-16 12:01:13	nexxy	little less noisy in there it seems
+2013-07-16 12:01:18	nexxy	ALSO
+2013-07-16 12:01:19	nexxy	word of advie
+2013-07-16 12:01:22	nexxy	advice*
+2013-07-16 12:01:35	nexxy	if you plan on using the restroom while @ bridgeport brewery (which is on the second floor)
+2013-07-16 12:01:39	nexxy	don't wear a skirt
+2013-07-16 12:01:58	nexxy	the platform you have to walk across to get there is just metal grating that people below you can see right through
+2013-07-16 12:02:22	thoward	!m nexxy
+2013-07-16 12:02:23	ZenWraithBot	You're doing great work nexxy!
+2013-07-16 12:02:35	thoward	we should send you in to do recon before every meeting. :)
+2013-07-16 12:02:54	nexxy	lol
+2013-07-16 12:02:59	nexxy	oh yeahhhh
+2013-07-16 12:03:47	nexxy	thoward, did I tell you that I spoke with Mark?
+2013-07-16 12:03:51	nexxy	no I don't think I did
+2013-07-16 12:03:55	s5fs	nexxy: shit, of course today is the day I chose to wear a skirt
+2013-07-16 12:04:19	nexxy	s5fs, good call
+2013-07-16 12:04:22	nexxy	it's nice and breezy today
+2013-07-16 12:04:49	s5fs	i prefer a nice cottony summer dress over a utilikilt
+2013-07-16 12:04:55	nexxy	for sure
+2013-07-16 12:04:58	nexxy	way more breathable
+2013-07-16 12:04:59	s5fs	but let's be honest, who doesn't?
+2013-07-16 12:05:04	thoward	nexxy: you told me it was a-coming. how'd it go? my guess is "You're awesome, but they don't need another TE in the PacNW."
+2013-07-16 12:05:15	nexxy	yes but
+2013-07-16 12:05:23	nexxy	I am mostly interested in engineering anyway
+2013-07-16 12:05:33	s5fs	same, but mostly for the hats and boots
+2013-07-16 12:05:44	nexxy	thoward, but I did mention to him that
+2013-07-16 12:05:52	nexxy	they should hire you as well
+2013-07-16 12:05:53	thoward	s5fs: layering is key. don't prefer the dress over the kilt, WEAR the dress over the kilt. duh.
+2013-07-16 12:05:54	nexxy	FWIW
+2013-07-16 12:05:58	nexxy	(probably nothing)
+2013-07-16 12:06:07	nexxy	thoward, hahaha
+2013-07-16 12:06:23	s5fs	thoward: and top the whole thing with a poncho
+2013-07-16 12:06:34	thoward	nexxy: awesome! i have a 2nd interview tomorrow
+2013-07-16 12:06:42	s5fs	thoward: hey good luck!!
+2013-07-16 12:06:56	thoward	are you going to do a interview loop w/ engineering?
+2013-07-16 12:07:18	thoward	s5fs: and one of those hats made out of fruit
+2013-07-16 12:07:31	thoward	portable food ftw.
+2013-07-16 12:08:15	nexxy	thoward, well mark did say he was going to forward my resume to engineering, but chris already has it too so we'll see
+2013-07-16 12:08:24	s5fs	thoward: now you're just being silly
+2013-07-16 12:09:20	thoward	nexxy: fingers crossed!
+2013-07-16 12:09:42	nexxy	BUT
+2013-07-16 12:09:43	thoward	s5fs: look at my face. does my face look silly to you? answer honestly.
+2013-07-16 12:10:00	nexxy	I'm also going to SF to interview w/ twilio
+2013-07-16 12:10:04	nexxy	before the month is up
+2013-07-16 12:10:22	thoward	nexxy: too cool.
+2013-07-16 12:10:38	nexxy	I get to do a live coding demo
+2013-07-16 12:10:44	nexxy	it's going to be johnny-five
+2013-07-16 12:10:56	thoward	nexxy: nice!
+2013-07-16 12:13:22	s5fs	nexxy: that's a slick demo
+2013-07-16 12:13:42	nexxy	jah
+2013-07-16 12:14:28	s5fs	nexxy: can i get you to drive me home after bridgeport? i offer you a hamburger sandwich as compensation.
+2013-07-16 12:14:38	nexxy	DEAL
+2013-07-16 12:14:52	nexxy	but only if we refer to it as
+2013-07-16 12:14:54	s5fs	still got it </hutz>
+2013-07-16 12:15:02	nexxy	bwidgepoaht bwewawee
+2013-07-16 12:15:05	nexxy	from now on
+2013-07-16 12:15:27	nexxy	BWEWAWEE
+2013-07-16 12:15:38	s5fs	fuck it i'll walk
+2013-07-16 12:17:05	s5fs	haha
+2013-07-16 12:17:10	s5fs	okay but just once
+2013-07-16 12:17:17	nexxy	lmao
+2013-07-16 12:18:41	Wraithan	hah
+2013-07-16 12:30:55	hackygolucky_	<3 you guys.
+2013-07-16 12:50:29	nexxy	<3
+2013-07-16 12:51:15	nexxy	hackygolucky_, I mentioned you (among others) that might be interested in speaking @ CascadiaJS
+2013-07-16 12:51:21	nexxy	as someone^
+2013-07-16 12:52:09	nexxy	if anyone else is interested, https://github.com/cascadiajs/2013.cascadiajs.com
+2013-07-16 12:52:41	nexxy	Vancouver BC in November!
+2013-07-16 12:55:37	chrisdickinson	i'm thinking of submitting a talk too, though i'm not sure about what yet :|
+2013-07-16 12:57:00	nexxy	chrisdickinson, stuff
+2013-07-16 12:57:02	nexxy	talk about stuff
+2013-07-16 12:57:05	nexxy	do some things
+2013-07-16 12:57:07	chrisdickinson	"things"
+2013-07-16 12:57:11	nexxy	yep
+2013-07-16 12:57:16	chrisdickinson	softshoe.js
+2013-07-16 12:57:28	nexxy	the title could be "Things n stuff, such and so on therefore..."
+2013-07-16 12:58:17	chrisdickinson	the body of the submission will be "a starfleet officer's first duty is to the truth, whether it be scientific truth, historical truth, or personal truth"
+2013-07-16 12:58:26	chrisdickinson	an estimated 20 minutes of berating wil wheaton follows
+2013-07-16 12:58:43	nexxy	I think you should do it
+2013-07-16 13:48:42	--	irc: disconnected from server
+2013-07-16 13:49:04	-->	JSON_voorhees (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-16 13:49:04	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-16 13:49:04	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-16 13:49:05	--	Nicks #pdxnodebots: [chrisdickinson dlmanning hackygolucky_ jden JSON_voorhees justinabrahms nexxy randallagordon s5fs thoward Wraithan ZenWraithBot]
+2013-07-16 13:49:05	--	Channel #pdxnodebots: 12 nicks (0 ops, 0 halfops, 0 voices, 12 normals)
+2013-07-16 13:49:11	--	Mode #pdxnodebots [+cnt]
+2013-07-16 13:49:11	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-16 14:49:10	-->	xobbob (~xobbob@c-24-20-193-173.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-16 15:42:14	<--	jden (~jden@ec2-54-241-125-37.us-west-1.compute.amazonaws.com) has quit (*.net *.split)
+2013-07-16 15:42:14	<--	justinabrahms (~Justin@108.166.56.224) has quit (*.net *.split)
+2013-07-16 15:42:14	<--	dlmanning (~david@c-24-22-14-106.hsd1.or.comcast.net) has quit (*.net *.split)
+2013-07-16 15:42:14	<--	nexxy (~emily@unaffiliated/nexxy) has quit (*.net *.split)
+2013-07-16 15:44:35	-->	dlmanning (~david@c-24-22-14-106.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-16 15:44:35	-->	justinabrahms (~Justin@108.166.56.224) has joined #pdxnodebots
+2013-07-16 15:44:35	-->	nexxy (~emily@unaffiliated/nexxy) has joined #pdxnodebots
+2013-07-16 15:45:23	-->	jden (~jden@ec2-54-241-125-37.us-west-1.compute.amazonaws.com) has joined #pdxnodebots
+2013-07-16 16:52:50	dlmanning	Bridgeport Brewpub on Marshall?
+2013-07-16 16:54:14	hackygolucky_	dlmanning: yah!
+2013-07-16 16:54:20	hackygolucky_	JSON_voorhees: you still coming?
+2013-07-16 16:55:18	JSON_voorhees	hackygolucky_: fo sho
+2013-07-16 16:55:30	JSON_voorhees	got a bunch of ideas I wanna run by you guys
+2013-07-16 16:55:48	hackygolucky_	JSON_voorhees: sweet!
+2013-07-16 21:05:57	--	irc: disconnected from server
+2013-07-16 21:06:19	-->	JSON_voorhees (~JSON_voor@c-67-189-34-0.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-16 21:06:19	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-16 21:06:19	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-16 21:06:19	--	Nicks #pdxnodebots: [chrisdickinson dlmanning hackygolucky_ jden JSON_voorhees justinabrahms nexxy randallagordon s5fs thoward Wraithan xobbob ZenWraithBot]
+2013-07-16 21:06:19	--	Channel #pdxnodebots: 13 nicks (0 ops, 0 halfops, 0 voices, 13 normals)
+2013-07-16 21:06:25	--	Mode #pdxnodebots [+cnt]
+2013-07-16 21:06:25	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-16 21:21:15	--	irc: disconnected from server
+2013-07-16 21:21:41	-->	JSON_voorhees (~JSON_voor@c-67-189-34-0.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-16 21:21:41	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-16 21:21:41	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-16 21:21:41	--	Nicks #pdxnodebots: [chrisdickinson dlmanning hackygolucky_ jden JSON_voorhees justinabrahms nexxy randallagordon s5fs thoward Wraithan xobbob ZenWraithBot]
+2013-07-16 21:21:41	--	Channel #pdxnodebots: 13 nicks (0 ops, 0 halfops, 0 voices, 13 normals)
+2013-07-16 21:21:49	--	Mode #pdxnodebots [+cnt]
+2013-07-16 21:21:49	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-16 22:05:52	--	irc: disconnected from server
+2013-07-16 22:06:17	-->	JSON_voorhees (~JSON_voor@c-67-189-34-0.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-16 22:06:17	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-16 22:06:18	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-16 22:06:18	--	Nicks #pdxnodebots: [chrisdickinson dlmanning hackygolucky_ jden JSON_voorhees justinabrahms nexxy randallagordon s5fs thoward Wraithan xobbob ZenWraithBot]
+2013-07-16 22:06:18	--	Channel #pdxnodebots: 13 nicks (0 ops, 0 halfops, 0 voices, 13 normals)
+2013-07-16 22:06:23	--	Mode #pdxnodebots [+cnt]
+2013-07-16 22:06:24	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-16 22:50:14	thoward	nexxy: go into the light
+2013-07-16 23:20:33	nexxy	thoward, oh why thank you.
+2013-07-17 00:00:36	-->	JSON_voorhees (~JSON_voor@c-67-189-34-0.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-17 00:00:36	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-17 00:00:36	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-17 00:00:36	--	Nicks #pdxnodebots: [chrisdickinson dlmanning hackygolucky_ jden JSON_voorhees justinabrahms nexxy randallagordon s5fs thoward Wraithan xobbob ZenWraithBot]
+2013-07-17 00:00:36	--	Channel #pdxnodebots: 13 nicks (0 ops, 0 halfops, 0 voices, 13 normals)
+2013-07-17 00:00:39	--	Mode #pdxnodebots [+cnt]
+2013-07-17 00:00:39	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-17 00:10:01	-->	jden_ (~jden@ec2-54-241-125-37.us-west-1.compute.amazonaws.com) has joined #pdxnodebots
+2013-07-17 00:10:25	--	jden_ is now known as Guest72038
+2013-07-17 00:14:09	<--	jden (~jden@ec2-54-241-125-37.us-west-1.compute.amazonaws.com) has quit (*.net *.split)
+2013-07-17 11:22:28	--	irc: disconnected from server
+2013-07-17 11:22:50	-->	JSON_voorhees (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-17 11:22:50	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-17 11:22:50	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-17 11:22:50	--	Nicks #pdxnodebots: [adamdicarlo chrisdickinson dlmanning hackygolucky_ jden JSON_voorhees justinabrahms nexxy randallagordon s5fs thoward Wraithan ZenWraithBot]
+2013-07-17 11:22:50	--	Channel #pdxnodebots: 13 nicks (0 ops, 0 halfops, 0 voices, 13 normals)
+2013-07-17 11:22:52	--	Mode #pdxnodebots [+cnt]
+2013-07-17 11:22:52	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-17 11:23:14	hackygolucky_	oooh. have fun!
+2013-07-17 11:33:59	s5fs	hi everyone
+2013-07-17 11:34:37	hackygolucky_	s5fs: hey hey hey
+2013-07-17 13:31:22	<--	ZenWraithBot (~zenwraith@216.151.13.75) has quit (Remote host closed the connection)
+2013-07-17 14:15:33	hackygolucky_	nexxy: this is the wishlist.  http://sfe.io/w66734
+2013-07-17 14:15:38	hackygolucky_	already shared it with thoward
+2013-07-17 14:15:51	hackygolucky_	I guess we need to coordinate when/how/what is officially being purchased.
+2013-07-17 14:16:07	hackygolucky_	Ambitiously, that would be today. Post-interviews for you guys, I guess?
+2013-07-17 14:16:25	s5fs	hackygolucky_: i'll review it right meow
+2013-07-17 14:16:44	hackygolucky_	s5fs: thanks!
+2013-07-17 14:16:53	hackygolucky_	even with the discount, it is still overbudget.
+2013-07-17 14:17:02	hackygolucky_	so if you can think of ways to trim it down, PLEASE do.
+2013-07-17 14:17:16	hackygolucky_	we could get more cool stuff that way i.e. servos, sensors, what-not
+2013-07-17 14:17:40	s5fs	hackygolucky_: is this price after the 20% discount?
+2013-07-17 14:17:43	hackygolucky_	as it stands that was essentially basic kits for 40 people plus a very few fun add-ons to play with.
+2013-07-17 14:17:49	hackygolucky_	s5fs: nope, before.
+2013-07-17 14:17:57	hackygolucky_	you can't put the discount in until you are checking out.
+2013-07-17 14:18:01	s5fs	ok
+2013-07-17 14:18:13	hackygolucky_	yeah, heart attack central.
+2013-07-17 14:18:49	s5fs	right off the top we can reduce the # of wire kits we need by half. 30 wires is more than enough for one simple project, we could probably even do 1 wire kit for three arduinos
+2013-07-17 14:19:18	s5fs	i'd also order a bunch of LEDs and the correct resistors, those tend to get killed easily
+2013-07-17 14:20:25	hackygolucky_	s5fs: I think math-wise I calculated 6 wires per arduino for the order.
+2013-07-17 14:20:35	hackygolucky_	oh, nope. 10
+2013-07-17 14:21:57	s5fs	hackygolucky_: nice! i like your planning style, yo
+2013-07-17 14:22:31	hackygolucky_	ditto.
+2013-07-17 14:22:59	hackygolucky_	I think thoward and I talked about maybe pushing the number of kits down a little more so more people would have to pair, but we'd stay under budget and have a few cool bits.
+2013-07-17 14:27:09	s5fs	i'm okay with pairing up
+2013-07-17 14:29:49	hackygolucky_	okay. So maybe drop it down to 35 kits and see where that lands us?
+2013-07-17 14:29:55	 *	hackygolucky_ goes to adjust the list
+2013-07-17 14:30:09	adamdicarlo	i'm guessing I'll need to pair up... I don't know so much about putting together resistors and such...
+2013-07-17 14:30:49	hackygolucky_	aw, darn it. I didn't realize the total counts were wipe when I moved it over to wishlist from cart.
+2013-07-17 14:30:56	hackygolucky_	well fart on sparkfun.
+2013-07-17 14:31:46	s5fs	hackygolucky_: that's okay, we can source some of the parts cheaper elsewhere (like bare arduinos)
+2013-07-17 14:33:41	hackygolucky_	s5fs: so knocking it down to 35 kits but keeping the fun bits brings us right at budget.
+2013-07-17 14:33:48	hackygolucky_	on Sparkfun.
+2013-07-17 14:43:24	s5fs	hackygolucky_: awesome, that's getting way closer
+2013-07-17 14:46:41	hackygolucky_	yup yup
+2013-07-17 14:47:12	hackygolucky_	we could drop it *just* a few more and get some REALLY fun toys, like a few chassis or servos or whatever you guys dream up.
+2013-07-17 14:50:42	randallagordon	GymnastBot, anyone? http://www.youtube.com/watch?v=4M0jhAuAuJI
+2013-07-17 14:52:08	JSON_voorhees	randallagordon: omg
+2013-07-17 14:52:17	chrisdickinson	awesome
+2013-07-17 14:52:25	randallagordon	Even better, about a minute in: http://www.youtube.com/watch?v=NJU6hcUtK0I
+2013-07-17 14:53:55	JSON_voorhees	hahah yess
+2013-07-17 14:54:17	randallagordon	Check out the dude's channel, there are a bunch of awesome moves :)
+2013-07-17 14:57:14	JSON_voorhees	hey guys I was able to find a spare harddrive for that extra minimac last night. I gunna set it up as a file server and our local npm tonight.
+2013-07-17 14:57:42	chrisdickinson	sweet
+2013-07-17 14:58:35	hackygolucky_	!m JSON_voorhees
+2013-07-17 14:58:58	adamdicarlo	that robot absolutely stuck that landing
+2013-07-17 15:00:30	s5fs	JSON_voorhees: good luck, holler if you get stuck with the npm stuff. i struggled and never got it working, make sure you have the right version of couch)
+2013-07-17 15:01:37	JSON_voorhees	s5fs: will do
+2013-07-17 15:01:40	chrisdickinson	also: npm.im/npmd
+2013-07-17 15:01:49	JSON_voorhees	for sure
+2013-07-17 15:02:10	JSON_voorhees	started putting together a list of modules to post for people to have before hand...
+2013-07-17 15:02:46	JSON_voorhees	I kind of assume that most people attending will already have most of them tho
+2013-07-17 15:04:39	s5fs	hard to say. if you can get the private npm repo working, it'll be nbd. if not, we should try to get npmd working.
+2013-07-17 15:04:43	s5fs	chrisdickinson: have you used npmd before? i know you mentioned it and i hadn't heard of it before
+2013-07-17 15:04:54	s5fs	randallagordon: hey man!
+2013-07-17 15:05:00	chrisdickinson	i haven't really used it, just heard a lot about it at nodeconf
+2013-07-17 15:05:13	chrisdickinson	wow, only a few billions deps
+2013-07-17 15:05:24	chrisdickinson	s/ns d/n d/g
+2013-07-17 15:05:32	s5fs	gotcha
+2013-07-17 15:05:52	chrisdickinson	installing now
+2013-07-17 15:05:55	chrisdickinson	and syncing
+2013-07-17 15:05:56	s5fs	cool
+2013-07-17 15:06:25	s5fs	chrisdickinson: so, when we install npmd do we point clients at the npmd host (similar to using a private repo?)
+2013-07-17 15:06:59	chrisdickinson	i think it might be a matter of running `--sync` beforehand -- and then it'll quickly install things out of cache
+2013-07-17 15:07:19	chrisdickinson	so you can do `npmd install browserify --greedy` and it'll install browserify from cache without making any network connection
+2013-07-17 15:07:30	chrisdickinson	i might have been mistaken about him using crdt/scuttlebutt
+2013-07-17 15:07:36	chrisdickinson	this seems like more of a leveldb project
+2013-07-17 15:09:21	s5fs	chrisdickinson: hm. so npmd is really better to install on each client than on a single server? the readme isn't super descriptive.
+2013-07-17 15:10:03	chrisdickinson	i think in the "accelerating the heat death of the universe" sense, it's probably better to have a single server
+2013-07-17 15:10:18	chrisdickinson	as i'm not sure if you can sync from peers
+2013-07-17 15:12:45	s5fs	okay, so assuming JSON_voorhees can get the private npm repo working, we should be good to go. i also hope/expect wifi to be fairly solid
+2013-07-17 15:25:40	adamdicarlo	s5fs, hackygolucky_, did you guys check element14?
+2013-07-17 15:25:53	hackygolucky_	oh, nope.
+2013-07-17 15:25:55	adamdicarlo	i asked my arduino nerd friend about places that sell robotics stuff.
+2013-07-17 15:26:03	adamdicarlo	that was his suggestion. not sure if they'd be cheaper.
+2013-07-17 15:27:08	hackygolucky_	they don't look too far off in price, but this is great to keep in mind. Thanks adamdicarlo !
+2013-07-17 15:27:31	adamdicarlo	sure.
+2013-07-17 19:48:15	--	irc: disconnected from server
+2013-07-17 19:48:40	-->	JSON_voorhees (~JSON_voor@67.189.34.0) has joined #pdxnodebots
+2013-07-17 19:48:40	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-17 19:48:40	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-17 19:48:40	--	Nicks #pdxnodebots: [adamdicarlo chrisdickinson dlmanning hackygolucky_ jden JSON_voorhees justinabrahms nexxy randallagordon s5fs thoward Wraithan ZenWraithBot]
+2013-07-17 19:48:40	--	Channel #pdxnodebots: 13 nicks (0 ops, 0 halfops, 0 voices, 13 normals)
+2013-07-17 19:48:40	ZenWraithBot	You're doing horrible work Wraithan!
+2013-07-17 19:48:42	--	Mode #pdxnodebots [+cnt]
+2013-07-17 19:48:43	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-17 19:48:44	thoward	lol
+2013-07-17 19:48:46	nexxy	awee
+2013-07-17 19:49:46	thoward	Wraithan: any word on Moz sponsor?  hackygolucky_ said you were confirmed "one way or the other" but. upfront check-in-hand sponsorship is mo-better than deferred re-imbursement sponsorships.
+2013-07-17 19:51:02	Wraithan	thoward: no confirmation, waiting to hear back on something I sent today, either way I plan on buying it on my card then expensing, WAY easier than getting a check
+2013-07-17 19:51:25	thoward	Wraithan: you da man
+2013-07-17 19:51:53	thoward	hackygolucky_: did you get the check from UA today?
+2013-07-17 19:53:24	thoward	slow internet is slow
+2013-07-17 19:53:48	thoward	!dm internet
+2013-07-17 19:53:49	ZenWraithBot	You're doing horrible work internet!
+2013-07-17 20:04:46	nexxy	._.
+2013-07-17 20:06:51	nexxy	omg
+2013-07-17 20:07:03	nexxy	looking @ sparkfun's prices kinda makes me a little bit mad
+2013-07-17 20:07:13	nexxy	some of these are ridiculous
+2013-07-17 20:07:20	nexxy	$1.50 per photoresistor
+2013-07-17 20:07:21	nexxy	wtf
+2013-07-17 20:07:56	nexxy	the arduinos are also ridiculously overpriced
+2013-07-17 20:09:04	nexxy	sainsmart SMD arduino uno R3 WITH CABLE on amazon -- $17.50
+2013-07-17 20:09:10	nexxy	no 20% discount necessary.
+2013-07-17 20:09:19	nexxy	WITH CABLE
+2013-07-17 20:09:25	nexxy	half the price
+2013-07-17 20:09:30	 *	nexxy shakes fist
+2013-07-17 20:09:48	nexxy	also free shipping cuz amazon prime
+2013-07-17 20:09:52	nexxy	so WTF sparkfun
+2013-07-17 20:09:53	nexxy	wtf
+2013-07-17 20:09:58	hackygolucky_	nexxy if we can source enough of thembwhy not just get the sainsmart?
+2013-07-17 20:10:04	nexxy	we can
+2013-07-17 20:10:05	nexxy	and we shall
+2013-07-17 20:10:28	nexxy	http://amzn.to/13SRAPN
+2013-07-17 20:11:04	nexxy	and I have 9-10 of these exact units already
+2013-07-17 20:11:16	hackygolucky_	Nice! How'd the interview go?
+2013-07-17 20:11:18	nexxy	so so if we order 30 we will have 40+
+2013-07-17 20:11:23	nexxy	it was quite involved
+2013-07-17 20:11:31	nexxy	got there @ 8:50, left @ 5:40
+2013-07-17 20:11:41	nexxy	interviewed with 9 people
+2013-07-17 20:12:19	hackygolucky_	Also thoward they didn't give me the check. Everyone able to approve the check was out :( but they were ready to cut it. They'll have it tomorrow. Sigh.
+2013-07-17 20:12:54	hackygolucky_	nexxy: yeah. That's horribly normal now I think.
+2013-07-17 20:13:08	nexxy	it was pretty cool
+2013-07-17 20:13:11	nexxy	everyone was great
+2013-07-17 20:13:18	nexxy	the feedback I got was pretty positive
+2013-07-17 20:14:28	thoward	nexxy: awesome. did you get to talk to ward?
+2013-07-17 20:14:38	thoward	or am i crossing wires on your schedule? :)
+2013-07-17 20:16:35	nexxy	thoward, yep!
+2013-07-17 20:16:53	nexxy	he was the easiest interview :D we just talked about some of my projects and about how amazing node is
+2013-07-17 20:17:17	thoward	did you encourage him to come be part of nodebots day? :)
+2013-07-17 20:17:25	nexxy	yes!
+2013-07-17 20:17:29	thoward	awesome!
+2013-07-17 20:17:31	nexxy	but he is going to be in Washington
+2013-07-17 20:17:32	nexxy	:(
+2013-07-17 20:17:34	nexxy	or he would come
+2013-07-17 20:17:42	nexxy	it was already on his schedule
+2013-07-17 20:17:44	thoward	i've been sitting here listening to him talk about hardware for awhile
+2013-07-17 20:17:48	nexxy	there are some new relic people signed up
+2013-07-17 20:17:53	nexxy	and I talked to a gentleman that is very excited
+2013-07-17 20:17:55	thoward	http://www.youtube.com/watch?v=vo4VWQGlx1Q
+2013-07-17 20:18:00	nexxy	and coming with a raspberry pi
+2013-07-17 20:18:14	nexxy	oh yeah
+2013-07-17 20:18:17	nexxy	txtzyme is cool
+2013-07-17 20:18:19	thoward	ward in the background, misc CS papers in the fore-ground. i mostly just like to listen to his voice. it's really relaxing
+2013-07-17 20:18:22	Wraithan	I have a rpi and a teensy
+2013-07-17 20:18:32	Wraithan	I should buy the parts for the little media keyboard I wanna build
+2013-07-17 20:18:57	nexxy	ooh Wraithan ty for reminding me about the teensy
+2013-07-17 20:19:26	thoward	nexxy: did oyu ever get teensy working for johnny5 ?
+2013-07-17 20:19:38	thoward	i thought there wa some prob w/ usb->serial or something
+2013-07-17 20:19:44	Wraithan	http://pad.wraithan.net/p/media-keys
+2013-07-17 20:19:49	nexxy	thoward, no :(
+2013-07-17 20:19:54	nexxy	yeah that's the issue
+2013-07-17 20:19:59	nexxy	it's liek, real USB
+2013-07-17 20:20:01	nexxy	not just
+2013-07-17 20:20:01	thoward	if so, then fuck we should buy that for the meetup
+2013-07-17 20:20:03	nexxy	serial over USB
+2013-07-17 20:20:21	nexxy	but there are some problems with the teensy
+2013-07-17 20:20:30	nexxy	1) not as proto friendly (no headers)
+2013-07-17 20:20:38	nexxy	2) tiny & a little awkward for fat fingers
+2013-07-17 20:20:47	nexxy	3) same cost as sainsmart R3 but w/o cable
+2013-07-18 01:02:30	--	irc: disconnected from server
+2013-07-18 01:02:56	-->	JSON_voorhees (~JSON_voor@c-67-189-34-0.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-18 01:02:56	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-18 01:02:56	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-18 01:02:56	--	Nicks #pdxnodebots: [adamdicarlo chrisdickinson dlmanning hackygolucky_ jden JSON_voorhees justinabrahms nexxy randallagordon s5fs thoward Wraithan xobbob ZenWraithBot]
+2013-07-18 01:02:56	--	Channel #pdxnodebots: 14 nicks (0 ops, 0 halfops, 0 voices, 14 normals)
+2013-07-18 01:02:59	--	Mode #pdxnodebots [+cnt]
+2013-07-18 01:03:00	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-18 04:00:09	--	irc: disconnected from server
+2013-07-18 04:00:34	-->	JSON_voorhees (~JSON_voor@c-67-189-34-0.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-18 04:00:34	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-18 04:00:34	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-18 04:00:34	--	Nicks #pdxnodebots: [adamdicarlo chrisdickinson dlmanning hackygolucky_ jden JSON_voorhees justinabrahms nexxy randallagordon s5fs thoward Wraithan ZenWraithBot]
+2013-07-18 04:00:34	--	Channel #pdxnodebots: 13 nicks (0 ops, 0 halfops, 0 voices, 13 normals)
+2013-07-18 04:00:36	--	Mode #pdxnodebots [+cnt]
+2013-07-18 04:00:36	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-18 04:43:10	--	irc: disconnected from server
+2013-07-18 04:43:34	-->	JSON_voorhees (~JSON_voor@c-67-189-34-0.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-18 04:43:34	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-18 04:43:34	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-18 04:43:34	--	Nicks #pdxnodebots: [adamdicarlo chrisdickinson dlmanning hackygolucky_ jden JSON_voorhees justinabrahms nexxy randallagordon s5fs thoward Wraithan ZenWraithBot]
+2013-07-18 04:43:34	--	Channel #pdxnodebots: 13 nicks (0 ops, 0 halfops, 0 voices, 13 normals)
+2013-07-18 04:43:36	--	Mode #pdxnodebots [+cnt]
+2013-07-18 04:43:36	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-18 05:19:34	--	irc: disconnected from server
+2013-07-18 05:19:57	-->	JSON_voorhees (~JSON_voor@c-67-189-34-0.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-18 05:19:57	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-18 05:19:57	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-18 05:19:57	--	Nicks #pdxnodebots: [adamdicarlo chrisdickinson dlmanning hackygolucky_ jden JSON_voorhees justinabrahms nexxy randallagordon s5fs thoward Wraithan ZenWraithBot]
+2013-07-18 05:19:57	--	Channel #pdxnodebots: 13 nicks (0 ops, 0 halfops, 0 voices, 13 normals)
+2013-07-18 05:19:59	--	Mode #pdxnodebots [+cnt]
+2013-07-18 05:19:59	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-18 06:00:36	--	irc: disconnected from server
+2013-07-18 06:01:01	-->	JSON_voorhees (~JSON_voor@c-67-189-34-0.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-18 06:01:01	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-18 06:01:01	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-18 06:01:01	--	Nicks #pdxnodebots: [adamdicarlo chrisdickinson dlmanning hackygolucky_ jden JSON_voorhees justinabrahms nexxy randallagordon s5fs thoward Wraithan ZenWraithBot]
+2013-07-18 06:01:01	--	Channel #pdxnodebots: 13 nicks (0 ops, 0 halfops, 0 voices, 13 normals)
+2013-07-18 06:01:03	--	Mode #pdxnodebots [+cnt]
+2013-07-18 06:01:03	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-18 08:02:23	--	irc: disconnected from server
+2013-07-18 08:02:51	-->	JSON_voorhees (~JSON_voor@c-67-189-34-0.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-18 08:02:51	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-18 08:02:51	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-18 08:02:52	--	Nicks #pdxnodebots: [adamdicarlo chrisdickinson dlmanning hackygolucky_ jden JSON_voorhees justinabrahms nexxy randallagordon s5fs thoward Wraithan ZenWraithBot]
+2013-07-18 08:02:52	--	Channel #pdxnodebots: 13 nicks (0 ops, 0 halfops, 0 voices, 13 normals)
+2013-07-18 08:02:52	--	Notice(banks.freenode.net): [freenode-info] channel flooding and no channel staff around to help? Please check with freenode support: http://freenode.net/faq.shtml#gettinghelp
+2013-07-18 08:02:54	--	Mode #pdxnodebots [+cnt]
+2013-07-18 08:02:54	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-18 08:34:43	--	irc: disconnected from server
+2013-07-18 08:35:05	-->	JSON_voorhees (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-18 08:35:05	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-18 08:35:05	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-18 08:35:05	--	Nicks #pdxnodebots: [adamdicarlo chrisdickinson dlmanning hackygolucky_ jden JSON_voorhees justinabrahms nexxy randallagordon s5fs thoward Wraithan ZenWraithBot]
+2013-07-18 08:35:05	--	Channel #pdxnodebots: 13 nicks (0 ops, 0 halfops, 0 voices, 13 normals)
+2013-07-18 08:35:07	--	Mode #pdxnodebots [+cnt]
+2013-07-18 08:35:07	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-18 10:19:44	hackygolucky_	morning!
+2013-07-18 11:17:30	hackygolucky_	thoward s5fs nexxy how'd the purchase party go? :P
+2013-07-18 11:20:40	thoward	hackygolucky_: we got tired and aborted mission.
+2013-07-18 11:20:52	thoward	but we got the list ready to roll for today
+2013-07-18 11:20:59	hackygolucky_	well that's fair. I couldn't stay awake.
+2013-07-18 11:21:14	hackygolucky_	sooo much going on right now.
+2013-07-18 11:21:28	hackygolucky_	you guys both had to do the interview stuff too. Whew.
+2013-07-18 11:21:31	hackygolucky_	Brain drain.
+2013-07-18 11:23:20	thoward	yup
+2013-07-18 11:23:41	thoward	also, i misplaced my debit card for the account. :)
+2013-07-18 11:24:15	thoward	which shouldn't have been a problem since it was already on the aws account, but then it wanted to confirm it and i couldn't find the thing to punch the number in..
+2013-07-18 11:24:23	thoward	so now i need to find the damned card to finish it up.
+2013-07-18 11:25:00	thoward	amazon used to let you pay by echeck/bank account as well, but even though that option is avaiable on my personal account, it's not on the nodepdx amazon account. dunno why. discontinued that payment method?
+2013-07-18 11:25:02	hackygolucky_	oof.
+2013-07-18 11:25:08	thoward	also, i have paypal setup, but amazon doesn't take that.
+2013-07-18 11:25:22	thoward	so i need to either find the card, or go to the bank and get a new one this morning.
+2013-07-18 11:25:27	hackygolucky_	of course not. Amazon.
+2013-07-18 11:25:31	thoward	grumble grumble
+2013-07-18 11:25:41	thoward	i just used it like, last week too.
+2013-07-18 11:49:07	Wraithan	Ok, all of the parts are ordered for my media keyboard
+2013-07-18 11:49:16	Wraithan	looking forward to playing with ti
+2013-07-18 11:49:29	Wraithan	got multiple of all the parts
+2013-07-18 11:49:47	Wraithan	partially because I want to end up with 2 of them, partially so I can accidently destroy things
+2013-07-18 11:50:22	Wraithan	I have enough to build 3 of them
+2013-07-18 13:46:04	--	irc: disconnected from server
+2013-07-18 13:46:29	-->	JSON_voorhees (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-18 13:46:29	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-18 13:46:29	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-18 13:46:30	--	Nicks #pdxnodebots: [adamdicarlo chrisdickinson dlmanning hackygolucky_ jden JSON_voorhees justinabrahms nexxy randallagordon s5fs thoward Wraithan ZenWraithBot]
+2013-07-18 13:46:30	--	Channel #pdxnodebots: 13 nicks (0 ops, 0 halfops, 0 voices, 13 normals)
+2013-07-18 13:46:33	--	Mode #pdxnodebots [+cnt]
+2013-07-18 13:46:34	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-18 13:54:28	JSON_voorhees	Can I get a copy of that hardware list after you guys get place the order? I'd like to start working on that section of the zine
+2013-07-18 13:55:25	chrisdickinson	s5fs: we still down to run through the color sensor stuff at pyladies on saturday?
+2013-07-18 14:09:57	s5fs	chrisdickinson: what time is pyladies on saturday?
+2013-07-18 14:10:35	chrisdickinson	11-2pm
+2013-07-18 14:10:35	chrisdickinson	11am
+2013-07-18 14:10:37	s5fs	JSON_voorhees: not a chance. no. no way.
+2013-07-18 14:11:05	s5fs	chrisdickinson: i assume it's up on calagator?
+2013-07-18 14:11:13	hackygolucky_	s5fs: should be...
+2013-07-18 14:11:15	hackygolucky_	hrm
+2013-07-18 14:11:23	hackygolucky_	I forget calagator sometimes...
+2013-07-18 14:11:37	s5fs	hackygolucky_: okay well where is the meetup saturday? i can remember things sometimes.
+2013-07-18 14:11:48	hackygolucky_	it's also on meetup
+2013-07-18 14:11:52	hackygolucky_	but 26 cafe.
+2013-07-18 14:11:57	hackygolucky_	I'll post it on calagator anyway.
+2013-07-18 14:11:59	hackygolucky_	I should be doing that.
+2013-07-18 14:12:09	s5fs	nexxy: is your color sensor business up on github? is that part of the schematic you were showing me last night?
+2013-07-18 14:12:18	s5fs	hackygolucky_: okay cool, thanks
+2013-07-18 14:16:26	nexxy	s5fs, yeah
+2013-07-18 14:16:42	nexxy	https://github.com/nexxy/color-sensor
+2013-07-18 14:17:13	s5fs	chrisdickinson: are you wanting to build the solution on saturday or just review the work to date?
+2013-07-18 14:17:58	chrisdickinson	i was hoping to run through the solution and get an idea of how it all worked so i could draw up some instructions
+2013-07-18 14:18:53	s5fs	nexxy: i'll see how much gear i have but may ping you for enough crap to build the color-sensor. i have momentary switches i can use in lieu of the ultrasonic as well
+2013-07-18 14:18:59	s5fs	chrisdickinson: ^^
+2013-07-18 14:19:42	s5fs	chrisdickinson: i haven't built this solution before either so it'll be a good experiment. if time allows i wanna whip out a simple led hello world too.
+2013-07-18 14:19:48	chrisdickinson	sounds great
+2013-07-18 14:20:33	s5fs	chrisdickinson: worst case, we have coffee and hang with the pyladies
+2013-07-18 14:21:08	chrisdickinson	sounds great-EPSILON
+2013-07-18 14:21:32	nexxy	s5fs, we will need to make a fork o the code too
+2013-07-18 14:21:53	nexxy	and a different wiring diagram
+2013-07-18 14:22:27	s5fs	nexxy: no worries
+2013-07-18 14:43:24	JSON_voorhees	nexxy: is this going to be the beginner track? looks coool
+2013-07-18 15:00:36	s5fs	JSON_voorhees: no, i don't think we bought tricolor leds for the 'basic kit'.
+2013-07-18 15:01:54	s5fs	nexxy: what more would we need to build your color-sensor on the basic kit?
+2013-07-18 15:27:46	nexxy	just the ultrasonic sensor
+2013-07-18 15:27:48	nexxy	s5fs,
+2013-07-18 15:57:31	hackygolucky_	heeeeey organizers--is it cool if I boot you all off of the rsvp list on tito?
+2013-07-18 15:57:47	JSON_voorhees	yup
+2013-07-18 15:58:09	JSON_voorhees	also that person that commented on the meetup page I'm assuming...
+2013-07-18 15:58:15	hackygolucky_	done!
+2013-07-18 16:19:33	JSON_voorhees	hackygoluck_: how many do we have now?
+2013-07-18 16:19:52	JSON_voorhees	hackygolucky_
+2013-07-18 16:20:05	hackygolucky_	JSON_voorhees: yyyyyyeeeeeeeessss?
+2013-07-18 16:20:54	hackygolucky_	oh!
+2013-07-18 16:21:07	hackygolucky_	um, 44 once I knocked off all the organizers and a duplicate.
+2013-07-18 16:27:24	JSON_voorhees	nice
+2013-07-18 16:28:36	hackygolucky_	 so still--tell your friends!
+2013-07-18 16:28:41	hackygolucky_	tell people at hacknight!
+2013-07-18 16:28:45	JSON_voorhees	fo sho
+2013-07-18 16:29:20	JSON_voorhees	got a dude thats coming for oscon too!
+2013-07-18 16:31:53	randallagordon	What's the limit on attendance?
+2013-07-18 16:33:25	hackygolucky_	65
+2013-07-18 16:33:44	hackygolucky_	unless it gets crazy, I can't imagine we'd turn people away.
+2013-07-18 16:38:10	randallagordon	righto
+2013-07-18 16:50:31	thoward	hackygolucky_: i imagine once we get into OSCON week, things will pick up on RSVP
+2013-07-18 16:52:29	hackygolucky_	it has been pretty steady as well.
+2013-07-18 16:52:37	hackygolucky_	Prob a good idea to tweet again.
+2013-07-18 18:07:24	--	irc: disconnected from server
+2013-07-18 18:07:50	-->	JSON_voorhees (~JSON_voor@71-20-35-93.war.clearwire-wmx.net) has joined #pdxnodebots
+2013-07-18 18:07:50	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-18 18:07:50	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-18 18:07:50	--	Nicks #pdxnodebots: [adamdicarlo chrisdickinson dlmanning hackygolucky_ jden JSON_voorhees justinabrahms nexxy randallagordon s5fs thoward Wraithan ZenWraithBot]
+2013-07-18 18:07:50	--	Channel #pdxnodebots: 13 nicks (0 ops, 0 halfops, 0 voices, 13 normals)
+2013-07-18 18:07:54	--	Mode #pdxnodebots [+cnt]
+2013-07-18 18:07:54	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-18 18:14:12	thoward	nexxy  s5fs: around? need to finish up the order. I've got everything in there we've discussed, but now we're in the "buy extra cool stuff" part, so need to know what folks want.
+2013-07-18 18:19:11	<--	adamdicarlo (~adamdicar@75-150-34-209-Oregon.hfc.comcastbusiness.net) has quit (Ping timeout: 240 seconds)
+2013-07-18 18:21:31	nexxy	thoward, I'm here
+2013-07-18 18:22:02	nexxy	thoward, do we have breadboards taken care of?
+2013-07-18 18:44:06	thoward	nexxy: yup
+2013-07-18 18:45:22	nexxy	oki cool
+2013-07-18 18:45:22	nexxy	so
+2013-07-18 18:45:32	nexxy	thoward, PM I suppose
+2013-07-18 19:45:02	JSON_voorhees	nexxy: was your interview today? 
+2013-07-18 19:50:08	nexxy	JSON_voorhees, yesterday
+2013-07-18 19:52:12	JSON_voorhees	cool I hope it went well!
+2013-07-18 19:53:57	nexxy	I think it went pretty well
+2013-07-18 19:53:59	nexxy	fingers crossed
+2013-07-19 11:35:52	--	irc: disconnected from server
+2013-07-19 11:36:16	-->	JSON_voorhees (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-19 11:36:16	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-19 11:36:16	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-19 11:36:16	--	Nicks #pdxnodebots: [adamdicarlo chrisdickinson dlmanning hackygolucky_ jden JSON_voorhees justinabrahms nexxy randallagordon s5fs thoward Wraithan xobbob ZenWraithBot]
+2013-07-19 11:36:16	--	Channel #pdxnodebots: 14 nicks (0 ops, 0 halfops, 0 voices, 14 normals)
+2013-07-19 11:36:20	--	Mode #pdxnodebots [+cnt]
+2013-07-19 11:36:20	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-19 12:38:07	Wraithan	Playing with fritzing
+2013-07-19 12:38:23	Wraithan	so I can kinda see how I'll lay things out for my keyboard
+2013-07-19 13:17:37	--	irc: disconnected from server
+2013-07-19 13:18:03	-->	JSON_voorhees (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-19 13:18:03	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-19 13:18:03	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-19 13:18:03	--	Nicks #pdxnodebots: [adamdicarlo chrisdickinson dlmanning hackygolucky_ jden JSON_voorhees justinabrahms nexxy randallagordon s5fs thoward Wraithan xobbob ZenWraithBot]
+2013-07-19 13:18:03	--	Channel #pdxnodebots: 14 nicks (0 ops, 0 halfops, 0 voices, 14 normals)
+2013-07-19 13:18:07	--	Mode #pdxnodebots [+cnt]
+2013-07-19 13:18:07	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-19 13:36:24	 *	Wraithan talks to himself for a while
+2013-07-19 13:37:01	adamdicarlo	Rotary encoder?
+2013-07-19 13:37:24	Wraithan	adamdicarlo: dial thing you can spin infinitely in either direction
+2013-07-19 13:37:33	Wraithan	https://www.sparkfun.com/products/10982
+2013-07-19 13:37:35	Wraithan	adamdicarlo: ^
+2013-07-19 13:38:01	adamdicarlo	Wraithan, thanks. interesting.
+2013-07-19 13:38:10	adamdicarlo	so the outputs are relative, I'd take it?
+2013-07-19 13:38:21	Wraithan	relative to what?
+2013-07-19 13:38:42	adamdicarlo	just my way of thinking about it."outputs gray code so you can tell how much and in which direction it has turned"
+2013-07-19 13:38:49	Wraithan	adamdicarlo: one output for one direction, one output for the other direction
+2013-07-19 13:38:56	adamdicarlo	ah.
+2013-07-19 13:39:16	adamdicarlo	am I going to have any idea how to do anything at nodebotsday?
+2013-07-19 13:39:28	Wraithan	adamdicarlo: I don't have any clue as to what I am doing
+2013-07-19 13:39:43	Wraithan	hardware hacking is something I've never really done
+2013-07-19 13:39:55	Wraithan	adamdicarlo: that rotary encoder is actually quadrature
+2013-07-19 13:40:05	adamdicarlo	same here...
+2013-07-19 13:40:26	Wraithan	not grey code
+2013-07-19 13:40:53	Wraithan	They emit a pattern that you can use to debounce and see how much it moved
+2013-07-19 13:41:18	adamdicarlo	okay
+2013-07-19 13:41:23	adamdicarlo	i was going off the sparkfun description though
+2013-07-19 13:41:31	Wraithan	yea
+2013-07-19 13:41:44	Wraithan	the comments clairify a bit because the description isn't quite right
+2013-07-19 13:41:45	adamdicarlo	but i see correction in comments. interesting
+2013-07-19 13:42:21	adamdicarlo	ah okay. quadrature makes sense. interesting.
+2013-07-19 15:46:52	hackygolucky_	thoward: suggestions on type of food/drinks to grab from costco? also, quantities you normally allot per partcipant?
+2013-07-19 15:49:26	s5fs	hackygolucky_: bottled water for sure, don't screw us by only getting coconut water and such ;-)
+2013-07-19 15:51:18	hackygolucky_	erp. No prob bob.
+2013-07-19 15:51:27	hackygolucky_	water is a good thing.
+2013-07-19 15:51:48	s5fs	hackygolucky_: thanks :) lack of water nearly killed me at nodeconf haha!
+2013-07-19 15:52:50	hackygolucky_	oh no kidding. It was WAY easier to find beer. Which is not ideal for people aren't drinking it.
+2013-07-19 15:53:02	hackygolucky_	I wasn't planning on purchasing alcohol. Is that okay?
+2013-07-19 15:53:54	s5fs	yeah, i'd pass on beer for a one-day event.
+2013-07-19 15:58:52	s5fs	as for snacks, i'd aim for some easy to eat foods, stuff that doesn't make a mess. those chocolate muffins, for example, are super messy.
+2013-07-19 16:03:08	hackygolucky_	hah
+2013-07-19 16:03:12	hackygolucky_	but... chocolate muffins!
+2013-07-19 16:03:18	hackygolucky_	makes sense.
+2013-07-19 16:05:03	JSON_voorhees	hackygolucky_: we get hardware ordered yet?
+2013-07-19 16:05:21	JSON_voorhees	don't wanna nag, just eager to let my roommate know about the PA deal
+2013-07-19 16:05:39	hackygolucky_	JSON_voorhees: I believe so. I need to confirm the total though.
+2013-07-19 16:05:57	hackygolucky_	s5fs: did you help get the order in?
+2013-07-19 16:07:05	JSON_voorhees	niiice
+2013-07-19 16:08:17	hackygolucky_	oh shit. JSON_voorhees I think we may already have a PA setup from UA.
+2013-07-19 16:08:20	hackygolucky_	Just thought about that.
+2013-07-19 16:11:53	s5fs	hackygolucky_: beats me
+2013-07-19 16:12:49	s5fs	hackygolucky_: haha, i can't say i recall you swearing much, too funny. i have sailor-mouth as you know.
+2013-07-19 16:12:54	<--	xobbob (~xobbob@c-24-20-193-173.hsd1.or.comcast.net) has quit (Quit: xobbob)
+2013-07-19 16:14:41	JSON_voorhees	hackygoluck_: even better! let me know
+2013-07-19 16:15:05	JSON_voorhees	hackygolucky_: i always be leavin off that y
+2013-07-19 16:15:21	s5fs	JSON_voorhees: no tab completion?
+2013-07-19 16:16:03	JSON_voorhees	shit
+2013-07-19 16:16:28	nexxy	so
+2013-07-19 16:16:29	nexxy	uhm
+2013-07-19 16:16:44	nexxy	apparently I'ma be at the SF nodebotsday
+2013-07-19 16:16:52	s5fs	nexxy: AWW YEAH!
+2013-07-19 16:17:06	nexxy	well I feel bad
+2013-07-19 16:17:13	nexxy	planning & running away
+2013-07-19 16:17:33	nexxy	but Mr. Williams sent me some Robotsconf promo stuff
+2013-07-19 16:17:44	s5fs	don't feel bad, you've been a HUGE help
+2013-07-19 16:17:51	nexxy	stickers & coupon codes for $150 off tickets
+2013-07-19 16:18:08	hackygolucky_	yeah, we'll just use your module-y goodness!
+2013-07-19 16:18:39	hackygolucky_	s5fs: oh I have a horrible potty-mouth.
+2013-07-19 16:19:03	hackygolucky_	but I also say ridiculous things like 'fudge' and 'grumpapatomus'
+2013-07-19 16:19:49	s5fs	hackygolucky_: okay, either you're a profanity amateur or i am totally desensitized
+2013-07-19 16:20:34	hackygolucky_	hah!
+2013-07-19 16:21:16	hackygolucky_	Oh I sometimes feel very un-lady-like in how much I swear.
+2013-07-19 16:21:32	s5fs	you have to meet my lady, she makes mechanics blush. she shocks me on occasion!
+2013-07-19 16:22:09	nexxy	LOL
+2013-07-19 16:22:11	nexxy	I like her.
+2013-07-19 16:22:17	s5fs	everyone likes her
+2013-07-19 16:24:34	hackygolucky_	:D
+2013-07-19 16:24:56	hackygolucky_	when I swear it sounds really mean. Other people sound funny.
+2013-07-19 16:26:10	nexxy	meanie
+2013-07-19 16:28:24	hackygolucky_	indeed.
+2013-07-19 16:33:10	 *	nexxy wipes away a tear
+2013-07-19 18:58:18	--	irc: disconnected from server
+2013-07-19 18:58:42	-->	JSON_voorhees (~JSON_voor@c-24-20-145-95.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-19 18:58:42	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-19 18:58:42	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-19 18:58:42	--	Nicks #pdxnodebots: [adamdicarlo chrisdickinson dlmanning hackygolucky_ jden JSON_voorhees justinabrahms nexxy randallagordon s5fs thoward Wraithan ZenWraithBot]
+2013-07-19 18:58:42	--	Channel #pdxnodebots: 13 nicks (0 ops, 0 halfops, 0 voices, 13 normals)
+2013-07-19 18:58:49	--	Mode #pdxnodebots [+cnt]
+2013-07-19 18:58:49	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-19 19:44:25	--	irc: disconnected from server
+2013-07-19 19:44:48	-->	JSON_voorhees (~JSON_voor@c-67-189-34-0.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-19 19:44:48	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-19 19:44:48	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-19 19:44:48	--	Nicks #pdxnodebots: [chrisdickinson dlmanning hackygolucky_ jden JSON_voorhees justinabrahms nexxy randallagordon s5fs thoward Wraithan ZenWraithBot]
+2013-07-19 19:44:48	--	Channel #pdxnodebots: 12 nicks (0 ops, 0 halfops, 0 voices, 12 normals)
+2013-07-19 19:44:54	--	Mode #pdxnodebots [+cnt]
+2013-07-19 19:44:54	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-19 20:34:09	--	irc: disconnected from server
+2013-07-19 20:34:35	-->	JSON_voorhees (~JSON_voor@c-67-189-34-0.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-19 20:34:35	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-19 20:34:35	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-19 20:34:35	--	Nicks #pdxnodebots: [chrisdickinson dlmanning hackygolucky_ jden JSON_voorhees justinabrahms nexxy randallagordon s5fs thoward Wraithan ZenWraithBot]
+2013-07-19 20:34:35	--	Channel #pdxnodebots: 12 nicks (0 ops, 0 halfops, 0 voices, 12 normals)
+2013-07-19 20:34:41	--	Mode #pdxnodebots [+cnt]
+2013-07-19 20:34:41	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-19 21:42:15	hackygolucky_	thoward: how much did they main order take?
+2013-07-19 21:42:52	hackygolucky_	also: 1. Awesome you got the main order in! 2. I've got a check in-hand from UA. Just let me know what to do with it.
+2013-07-20 01:12:23	--	irc: disconnected from server
+2013-07-20 01:20:10	-->	JSON_voorhees (~JSON_voor@c-67-189-34-0.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-20 01:20:10	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-20 01:20:10	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-20 01:20:10	--	Nicks #pdxnodebots: [chrisdickinson dlmanning hackygolucky_ jden JSON_voorhees justinabrahms nexxy randallagordon s5fs thoward Wraithan ZenWraithBot]
+2013-07-20 01:20:10	--	Channel #pdxnodebots: 12 nicks (0 ops, 0 halfops, 0 voices, 12 normals)
+2013-07-20 01:20:16	--	Mode #pdxnodebots [+cnt]
+2013-07-20 01:20:16	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-20 01:28:27	-->	chrisdico (~chrisdick@173-45-225-63.slicehost.net) has joined #pdxnodebots
+2013-07-20 01:30:44	<--	chrisdickinson (~chrisdick@173-45-225-63.slicehost.net) has quit (*.net *.split)
+2013-07-20 01:46:31	--	irc: disconnected from server
+2013-07-20 01:46:55	-->	JSON_voorheez (~JSON_voor@c-67-189-34-0.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-20 01:46:55	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-20 01:46:55	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-20 01:46:55	--	Nicks #pdxnodebots: [chrisdico dlmanning hackygolucky_ jden JSON_voorheez justinabrahms nexxy randallagordon s5fs thoward Wraithan ZenWraithBot]
+2013-07-20 01:46:55	--	Channel #pdxnodebots: 12 nicks (0 ops, 0 halfops, 0 voices, 12 normals)
+2013-07-20 01:46:59	--	Mode #pdxnodebots [+cnt]
+2013-07-20 01:46:59	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-20 01:47:47	-->	chrisdickinson (~chrisdick@173-45-225-63.slicehost.net) has joined #pdxnodebots
+2013-07-20 01:51:08	<--	ZenWraithBot (~zenwraith@216.151.13.75) has quit (Remote host closed the connection)
+2013-07-20 01:54:48	<--	chrisdico (~chrisdick@173-45-225-63.slicehost.net) has quit (*.net *.split)
+2013-07-20 02:06:25	<--	s5fs (s5fs@gateway/shell/jquery.com/x-logtzrlkfublzvln) has quit (*.net *.split)
+2013-07-20 02:06:26	<--	jden (~jden@ec2-54-241-125-37.us-west-1.compute.amazonaws.com) has quit (*.net *.split)
+2013-07-20 02:06:26	<--	thoward (~thoward@minotaur.apache.org) has quit (*.net *.split)
+2013-07-20 02:06:27	<--	randallagordon (~randall@75-175-51-244.ptld.qwest.net) has quit (*.net *.split)
+2013-07-20 02:06:28	<--	chrisdickinson (~chrisdick@173-45-225-63.slicehost.net) has quit (*.net *.split)
+2013-07-20 02:06:30	<--	Wraithan (~wraithan@216.151.13.75) has quit (*.net *.split)
+2013-07-20 02:06:30	<--	hackygolucky_ (uid11034@gateway/web/irccloud.com/x-wgcflndktfzqojcb) has quit (*.net *.split)
+2013-07-20 02:07:58	-->	chrisdickinson (~chrisdick@173-45-225-63.slicehost.net) has joined #pdxnodebots
+2013-07-20 02:07:58	-->	jden (~jden@ec2-54-241-125-37.us-west-1.compute.amazonaws.com) has joined #pdxnodebots
+2013-07-20 02:07:58	-->	randallagordon (~randall@75-175-51-244.ptld.qwest.net) has joined #pdxnodebots
+2013-07-20 02:07:58	-->	Wraithan (~wraithan@216.151.13.75) has joined #pdxnodebots
+2013-07-20 02:07:58	-->	thoward (~thoward@minotaur.apache.org) has joined #pdxnodebots
+2013-07-20 02:07:58	-->	s5fs (s5fs@gateway/shell/jquery.com/x-logtzrlkfublzvln) has joined #pdxnodebots
+2013-07-20 02:07:58	-->	hackygolucky_ (uid11034@gateway/web/irccloud.com/x-wgcflndktfzqojcb) has joined #pdxnodebots
+2013-07-20 02:08:54	<--	justinabrahms (~Justin@108.166.56.224) has quit (*.net *.split)
+2013-07-20 02:08:54	<--	dlmanning (~david@c-24-22-14-106.hsd1.or.comcast.net) has quit (*.net *.split)
+2013-07-20 02:10:29	-->	justinabrahms (~Justin@108.166.56.224) has joined #pdxnodebots
+2013-07-20 02:10:29	-->	dlmanning (~david@c-24-22-14-106.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-20 12:08:51	--	irc: disconnected from server
+2013-07-20 12:09:16	-->	JSON_voorheez (~JSON_voor@c-67-189-34-0.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-20 12:09:16	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-20 12:09:16	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-20 12:09:16	--	Nicks #pdxnodebots: [chrisdickinson dlmanning hackygolucky_ jden JSON_voorheez justinabrahms nexxy randallagordon s5fs thoward Wraithan xobbob]
+2013-07-20 12:09:16	--	Channel #pdxnodebots: 12 nicks (0 ops, 0 halfops, 0 voices, 12 normals)
+2013-07-20 12:09:21	--	Mode #pdxnodebots [+cnt]
+2013-07-20 12:09:21	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-20 12:11:25	hackygolucky_	ooooooh Wraithan.... :)
+2013-07-20 12:12:51	Wraithan	hackygolucky_: hey, I just woke up
+2013-07-20 12:13:13	hackygolucky_	no worries, man. It's Saturday :D
+2013-07-20 12:13:22	hackygolucky_	just making sure you're still kickin'
+2013-07-20 12:13:45	hackygolucky_	hey JSON_voorheez are you still workin' out the private npm?
+2013-07-20 12:25:27	hackygolucky_	thoward: ping
+2013-07-20 12:29:03	nexxy	I would love to hear how that goes for JSON_voorheez
+2013-07-20 12:38:36	--	irc: disconnected from server
+2013-07-20 12:38:59	-->	JSON_voorheez (~JSON_voor@c-67-189-34-0.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-20 12:38:59	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-20 12:38:59	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-20 12:38:59	--	Nicks #pdxnodebots: [chrisdickinson dlmanning hackygolucky_ jden JSON_voorheez justinabrahms nexxy randallagordon s5fs thoward Wraithan xobbob]
+2013-07-20 12:38:59	--	Channel #pdxnodebots: 12 nicks (0 ops, 0 halfops, 0 voices, 12 normals)
+2013-07-20 12:38:59	--	Notice(adams.freenode.net): [freenode-info] channel flooding and no channel staff around to help? Please check with freenode support: http://freenode.net/faq.shtml#gettinghelp
+2013-07-20 12:39:03	--	Mode #pdxnodebots [+cnt]
+2013-07-20 12:39:04	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-20 12:39:46	JSON_voorheez	hackygolucky_: havent touched it since installing ubuntu... probably gunna work on it all day tomorrow
+2013-07-20 12:40:45	JSON_voorheez	things i need to the zine still include: beginners track tutorial, list of parts, and sick drawings from chrisdickinson. 
+2013-07-20 12:40:54	hackygolucky_	JSON_voorheez: cool. I think Jim is working on it now as well. Might want to check in with him
+2013-07-20 12:40:58	-->	scottjab (~scottjab@ec2-107-20-0-233.compute-1.amazonaws.com) has joined #pdxnodebots
+2013-07-20 12:40:59	chrisdickinson	i prefer sicc, but yes i will oblidge
+2013-07-20 12:41:01	scottjab	oh hey
+2013-07-20 12:41:02	chrisdickinson	*oblige, even
+2013-07-20 12:41:02	hackygolucky_	JSON_voorheez: what about the zine?
+2013-07-20 12:41:19	JSON_voorheez	see previous post
+2013-07-20 12:41:21	chrisdickinson	and we just ran through color-sensor and i'm pretty excited
+2013-07-20 12:41:27	JSON_voorheez	awesome!
+2013-07-20 12:41:56	JSON_voorheez	hackygolucky_: jim is working on private npm? or beginners track?
+2013-07-20 12:42:11	scottjab	hey
+2013-07-20 12:42:14	scottjab	<- jim
+2013-07-20 12:42:24	JSON_voorheez	hey scottjab (jim)
+2013-07-20 12:42:31	hackygolucky_	JSON_voorheez: messing with Couch and the private npm. s5fs was concerned that it can be problematic so he thought we should mess with it if we weren't already.
+2013-07-20 12:42:36	scottjab	I don't have hardware for a private npm, but I can get it set up
+2013-07-20 12:42:47	scottjab	I gotta do this for work anyway ;-)
+2013-07-20 12:43:01	JSON_voorheez	scottjab: awesome! I've got a minimac that I was planning on using for that
+2013-07-20 12:43:11	scottjab	oh cool
+2013-07-20 12:43:17	JSON_voorheez	If youd like to set it up on there that'd be dope
+2013-07-20 12:43:37	scottjab	my plan is to just chef/puppet it up
+2013-07-20 12:43:48	JSON_voorheez	that would be awesome!
+2013-07-20 12:44:17	scottjab	I am going to hack at it for a little bit before commiting totally, but yeah it shouldn't be that terribad
+2013-07-20 12:44:17	JSON_voorheez	i'll be eager to see that, I havent been able to do anything with chef/puppet still
+2013-07-20 12:44:41	JSON_voorheez	sweet
+2013-07-20 12:45:21	JSON_voorheez	also me and carter are probably gunna checkout that beer festival downtown if anyone wants to join
+2013-07-20 12:45:43	JSON_voorheez	still planning on branch tonight hackygolucky_ ?
+2013-07-20 12:46:20	Wraithan	hackygolucky_: I still gotta make breakfast and head that way.
+2013-07-20 12:46:25	Wraithan	Not quite feeling tip top :/
+2013-07-20 12:46:38	hackygolucky_	JSON_voorheez: that might not be a bad idea. :)
+2013-07-20 12:47:03	hackygolucky_	Wraithan: no hurry. thinking about heading out around 2pm, but again, no rush.
+2013-07-20 12:47:16	hackygolucky_	we COULD always just pick you up from your place?
+2013-07-20 12:47:37	chrisdickinson	hackygolucky_: https://gist.github.com/chrisdickinson/d0c2bf17821963fc4286
+2013-07-20 12:48:06	hackygolucky_	!m chrisdickinson
+2013-07-20 12:48:10	Wraithan	hackygolucky_: I've just been trying to wait out this headache I have
+2013-07-20 12:48:26	hackygolucky_	:(
+2013-07-20 12:48:35	JSON_voorheez	woohoo! I'm gunna workup some diagrams and put that in the zine
+2013-07-20 12:48:48	Wraithan	It's been about 12-13 hours
+2013-07-20 12:48:50	Wraithan	:/
+2013-07-20 12:48:59	Wraithan	asprin doesn't seem to be beating it
+2013-07-20 12:51:07	chrisdickinson	JSON_voorheez: i've got notes on how to wire up that simple-color-sensor project
+2013-07-20 12:51:18	chrisdickinson	s5fs walked me through it and we came up with some really helpful notes i think
+2013-07-20 12:52:48	JSON_voorheez	chrisdickinson: perfect
+2013-07-20 12:53:27	JSON_voorheez	ima go look at this house on hawthorne, maybe I'll see some of you at the beer festival?
+2013-07-20 12:53:50	hackygolucky_	JSON_voorheez: prob not :P
+2013-07-20 12:53:51	hackygolucky_	heh
+2013-07-20 12:53:59	JSON_voorheez	FINE
+2013-07-20 12:54:37	JSON_voorheez	if its lame Ima go code in that tree justinabrahms showed me
+2013-07-20 14:15:32	--	irc: disconnected from server
+2013-07-20 14:15:50	-->	JSON_voorheez (~JSON_voor@199.223.122.34) has joined #pdxnodebots
+2013-07-20 14:15:50	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-20 14:15:50	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-20 14:15:50	--	Nicks #pdxnodebots: [chrisdickinson dlmanning hackygolucky_ jden JSON_voorheez justinabrahms nexxy randallagordon s5fs scottjab thoward Wraithan xobbob]
+2013-07-20 14:15:50	--	Channel #pdxnodebots: 13 nicks (0 ops, 0 halfops, 0 voices, 13 normals)
+2013-07-20 14:15:57	--	Mode #pdxnodebots [+cnt]
+2013-07-20 14:15:57	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-20 14:47:31	--	irc: disconnected from server
+2013-07-20 15:00:41	-->	JSON_voorheez (~JSON_voor@199.223.122.34) has joined #pdxnodebots
+2013-07-20 15:00:41	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-20 15:00:41	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-20 15:00:41	--	Nicks #pdxnodebots: [chrisdickinson dlmanning hackygolucky_ jden JSON_voorheez justinabrahms nexxy randallagordon s5fs scottjab thoward Wraithan xobbob]
+2013-07-20 15:00:41	--	Channel #pdxnodebots: 13 nicks (0 ops, 0 halfops, 0 voices, 13 normals)
+2013-07-20 15:00:48	--	Mode #pdxnodebots [+cnt]
+2013-07-20 15:00:50	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-21 00:19:20	--	irc: disconnected from server
+2013-07-21 00:19:44	-->	JSON_voorheez (~JSON_voor@c-67-189-34-0.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-21 00:19:44	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-21 00:19:44	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-21 00:19:44	--	Nicks #pdxnodebots: [chrisdickinson dlmanning greh hackygolucky_ jden JSON_voorheez justinabrahms nexxy randallagordon s5fs scottjab thoward Wraithan]
+2013-07-21 00:19:44	--	Channel #pdxnodebots: 13 nicks (0 ops, 0 halfops, 0 voices, 13 normals)
+2013-07-21 00:19:48	--	Mode #pdxnodebots [+cnt]
+2013-07-21 00:19:49	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-21 01:22:01	--	irc: disconnected from server
+2013-07-21 11:45:10	-->	JSON_voorheez (~JSON_voor@c-67-189-34-0.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-21 11:45:10	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-21 11:45:10	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-21 11:45:10	--	Nicks #pdxnodebots: [chrisdickinson greh hackygolucky_ jden JSON_voorheez nexxy randallagordon s5fs scottjab thoward Wraithan]
+2013-07-21 11:45:10	--	Channel #pdxnodebots: 11 nicks (0 ops, 0 halfops, 0 voices, 11 normals)
+2013-07-21 11:45:15	--	Mode #pdxnodebots [+cnt]
+2013-07-21 11:45:15	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-21 11:47:49	-->	adamdicarlo (~adamdicar@c-24-22-38-73.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-21 11:49:00	-->	dlmanning (~david@c-24-22-14-106.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-21 11:49:39	-->	justinlilly (~Justin@108.166.56.224) has joined #pdxnodebots
+2013-07-21 12:42:15	<--	hackygolucky_ (uid11034@gateway/web/irccloud.com/x-wgcflndktfzqojcb) has quit (Ping timeout: 264 seconds)
+2013-07-21 12:48:49	<--	scottjab (~scottjab@ec2-107-20-0-233.compute-1.amazonaws.com) has quit (Ping timeout: 264 seconds)
+2013-07-21 12:50:01	<--	justinlilly (~Justin@108.166.56.224) has quit (Ping timeout: 264 seconds)
+2013-07-21 12:54:14	<--	Wraithan (~wraithan@216.151.13.75) has quit (Ping timeout: 264 seconds)
+2013-07-21 12:58:46	-->	Wraithan (~wraithan@216.151.13.75) has joined #pdxnodebots
+2013-07-21 12:59:02	<--	nexxy (~emily@unaffiliated/nexxy) has quit (*.net *.split)
+2013-07-21 12:59:02	<--	s5fs (s5fs@gateway/shell/jquery.com/x-logtzrlkfublzvln) has quit (*.net *.split)
+2013-07-21 12:59:02	<--	dlmanning (~david@c-24-22-14-106.hsd1.or.comcast.net) has quit (*.net *.split)
+2013-07-21 12:59:02	<--	adamdicarlo (~adamdicar@c-24-22-38-73.hsd1.or.comcast.net) has quit (*.net *.split)
+2013-07-21 12:59:02	<--	jden (~jden@ec2-54-241-125-37.us-west-1.compute.amazonaws.com) has quit (*.net *.split)
+2013-07-21 12:59:02	<--	thoward (~thoward@minotaur.apache.org) has quit (*.net *.split)
+2013-07-21 12:59:02	<--	greh (~gmreh@freke.odin.pdx.edu) has quit (*.net *.split)
+2013-07-21 12:59:02	<--	randallagordon (~randall@75-175-51-244.ptld.qwest.net) has quit (*.net *.split)
+2013-07-21 12:59:02	<--	chrisdickinson (~chrisdick@173-45-225-63.slicehost.net) has quit (*.net *.split)
+2013-07-21 13:03:57	--	irc: disconnected from server
+2013-07-21 13:19:46	-->	JSON_voorheez (~JSON_voor@c-67-189-34-0.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-21 13:19:46	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-21 13:19:46	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-21 13:19:46	--	Nicks #pdxnodebots: [adamdicarlo chrisdickinson dlmanning greh hackygolucky_ jden JSON_voorheez justinlilly nexxy randallagordon s5fs scottjab thoward Wraithan]
+2013-07-21 13:19:46	--	Channel #pdxnodebots: 14 nicks (0 ops, 0 halfops, 0 voices, 14 normals)
+2013-07-21 13:19:50	--	Mode #pdxnodebots [+cnt]
+2013-07-21 13:19:50	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-21 13:44:03	<--	adamdicarlo (~adamdicar@c-24-22-38-73.hsd1.or.comcast.net) has quit (Ping timeout: 264 seconds)
+2013-07-21 18:43:28	thoward	hola
+2013-07-21 18:43:33	thoward	looks like nexxy is on call
+2013-07-21 18:44:06	nexxy	I was but I dropped it so hackygolucky_ could get on
+2013-07-21 18:44:17	nexxy	I hope that worked
+2013-07-21 18:44:27	thoward	hackygolucky_: mute your mic. :)
+2013-07-21 18:44:52	hackygolucky_	Thanks :)
+2013-07-21 18:51:59	thoward	lost you
+2013-07-21 18:54:08	thoward	hangout is suffering hard
+2013-07-21 18:55:15	thoward	tell them i'll be at oscon next week promoting it
+2013-07-21 18:55:36	hackygolucky_	i hate hangout sometimes :(
+2013-07-21 19:10:01	hackygolucky_	!m thoward
+2013-07-21 19:10:04	hackygolucky_	awesome screen
+2013-07-21 19:10:07	hackygolucky_	woohoo!
+2013-07-21 19:12:34	thoward	yeah!
+2013-07-21 19:12:37	thoward	it worked
+2013-07-21 19:12:43	thoward	i'm going to make a better one though
+2013-07-21 19:13:05	thoward	that one i did with the vinyl sheet method, which kind of sucks because the adhesive on the vinyl isn't that strong.
+2013-07-21 19:13:07	hackygolucky_	wondering when we need to have our soldering party...
+2013-07-21 19:13:21	thoward	next one will be a proper photo emulsion
+2013-07-21 19:14:06	thoward	not sure about solder party.. the gear will be arriving in waves.
+2013-07-21 19:14:20	thoward	i'd schedule it for as late as possible.. pershaps thursday or friday night?
+2013-07-21 19:16:43	hackygolucky_	I can't do Friday night. That's my housewarming party.
+2013-07-21 19:16:50	hackygolucky_	Which you guys are invited to, of course.
+2013-07-21 19:18:47	thoward	hackygolucky_: duh. forgot about that -- ok, let's say thursday and hope we have enough of the gear in hand by then. actually. if we don't have it in hand by then.. well that's scary anyway
+2013-07-21 19:19:39	hackygolucky_	sounds good. We COULD have the soldering fun at my house... it'll be Last Thursday and the neighborhood will be hoppin' anyway. Chill on the front or back porch and burn shit.
+2013-07-21 19:25:04	thoward	hackygolucky_: sounds good to me. bonfire?
+2013-07-21 19:25:18	thoward	well, small, managed, well contained firepit.
+2013-07-21 19:26:31	nexxy	so
+2013-07-21 19:26:40	nexxy	what is it that we need to solder at this point?
+2013-07-21 19:26:58	nexxy	the only things I can think of would be the robot body stuff
+2013-07-21 19:28:34	thoward	nexxy: no freaking idea. i a n00b
+2013-07-21 19:28:52	hackygolucky_	thoward: we will have a small firepit
+2013-07-21 19:28:57	nexxy	so my uess is unless there are a lot of robot parts to solder
+2013-07-21 19:29:03	nexxy	there won't be need for an assembly/soldering party
+2013-07-21 19:29:10	nexxy	guess*
+2013-07-21 19:30:18	thoward	nexxy: good point
+2013-07-21 19:30:56	thoward	but things! solder! you know. robot.
+2013-07-21 19:31:16	thoward	we can at least turn on the soldering iron, drink beer and look at all our cool stuff. :)
+2013-07-21 19:33:28	thoward	nexxy: still in town on thu night?
+2013-07-21 19:33:38	nexxy	not sure yet
+2013-07-21 19:33:43	nexxy	trying to figure out my actual itinerary
+2013-07-21 19:33:57	nexxy	probably leaving mid-late on 26th
+2013-07-21 19:37:41	thoward	gotcha.
+2013-07-21 21:07:21	<--	JSON_voorheez (~JSON_voor@c-67-189-34-0.hsd1.or.comcast.net) has quit (Ping timeout: 264 seconds)
+2013-07-21 21:07:21	--	irc: disconnected from server
+2013-07-21 21:16:46	-->	JSON_voorhees (~JSON_voor@c-67-189-34-0.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-21 21:16:46	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-21 21:16:46	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-21 21:16:47	--	Nicks #pdxnodebots: [chrisdickinson dlmanning greh hackygolucky_ jden JSON_voorhees JSON_voorheez justinlilly nexxy randallagordon s5fs scottjab thoward Wraithan]
+2013-07-21 21:16:47	--	Channel #pdxnodebots: 14 nicks (0 ops, 0 halfops, 0 voices, 14 normals)
+2013-07-21 21:16:51	--	Mode #pdxnodebots [+cnt]
+2013-07-21 21:16:51	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-21 21:18:28	<--	JSON_voorheez (~JSON_voor@c-67-189-34-0.hsd1.or.comcast.net) has quit (*.net *.split)
+2013-07-22 09:48:14	--	irc: disconnected from server
+2013-07-22 09:49:59	-->	JSON_voorhees (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-22 09:49:59	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-22 09:49:59	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-22 09:49:59	--	Nicks #pdxnodebots: [chrisdickinson dlmanning greh hackygolucky_ jden JSON_voorhees justinlilly nexxy randallagordon s5fs scottjab thoward Wraithan]
+2013-07-22 09:49:59	--	Channel #pdxnodebots: 13 nicks (0 ops, 0 halfops, 0 voices, 13 normals)
+2013-07-22 09:50:04	--	Mode #pdxnodebots [+cnt]
+2013-07-22 09:50:04	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-22 09:58:43	-->	adamdicarlo (~adamdicar@a-129-196-228-5.ext.fluke.com) has joined #pdxnodebots
+2013-07-22 10:46:46	-->	xobbob (~xobbob@c-24-20-193-173.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-22 11:17:58	s5fs	dlmanning: nah, was going to do so today/tonight. chris and I worked on nexxy's color sensor on saturday so now i've got code to test with.
+2013-07-22 11:18:12	s5fs	dlmanning: if you are free, we could meet up and bang out the work together
+2013-07-22 11:18:38	hackygolucky_	s5fs: sounds like a party then :)
+2013-07-22 11:18:43	dlmanning	s5fs: Sure, when?
+2013-07-22 11:27:41	--	justinlilly is now known as justinabrahms
+2013-07-22 11:38:10	s5fs	dlmanning: not certain yet, i gotta check with my so. maybe tomm evening after I get off work?
+2013-07-22 11:38:25	dlmanning	think I have plans then
+2013-07-22 11:44:52	s5fs	dlmanning: no worries. do you have enough hw to complete the testing on your own? i am hoping my win7 work will also be 'good enough' for win8.
+2013-07-22 11:45:20	s5fs	hackygolucky_: how many registered attendees do we have on tito now?
+2013-07-22 11:47:00	hackygolucky_	52
+2013-07-22 11:47:01	dlmanning	s5fs: Well, I don't have any hardware, other than my actual windows 8 machine, but I can test the johnny-five module
+2013-07-22 11:47:31	dlmanning	hackygolucky_: Is it possible for me to register my friend who's coming from out of town?
+2013-07-22 11:48:01	hackygolucky_	dlmanning: sure. It actually allows you to register yourself more than once. So, there's that. :-/
+2013-07-22 11:48:10	hackygolucky_	I have to delete a duplicate earlier this week.
+2013-07-22 11:48:17	hackygolucky_	s/have/had
+2013-07-22 11:48:59	dlmanning	cool
+2013-07-22 13:09:46	<--	xobbob (~xobbob@c-24-20-193-173.hsd1.or.comcast.net) has quit (Quit: xobbob)
+2013-07-22 13:12:06	s5fs	dlmanning: good plan, lemme go snag a windows box right meow and i'll get node installed. which version are you using?
+2013-07-22 13:16:36	dlmanning	of node? 0.10.13
+2013-07-22 13:21:54	chrisdickinson	s5fs: here's the gist i sent hackygolucky_ of "getting started": https://gist.github.com/chrisdickinson/d0c2bf17821963fc4286
+2013-07-22 13:24:38	hackygolucky_	!m chrisdickinson
+2013-07-22 13:32:03	thoward	good news, first three packages arrived safely
+2013-07-22 13:34:38	hackygolucky_	!m thoward
+2013-07-22 13:34:44	hackygolucky_	sweeeet.
+2013-07-22 13:38:06	chrisdickinson	!m packages
+2013-07-22 13:38:16	chrisdickinson	Wraithan: where did zenwraithbot go?
+2013-07-22 13:38:20	 *	chrisdickinson misses him.
+2013-07-22 13:38:21	Wraithan	oi
+2013-07-22 13:38:23	Wraithan	what
+2013-07-22 13:38:24	chrisdickinson	her? it?
+2013-07-22 13:38:26	Wraithan	fucker
+2013-07-22 13:38:31	Wraithan	keeps wondering off
+2013-07-22 13:38:33	chrisdickinson	haha
+2013-07-22 13:38:52	s5fs	thoward: awesome!
+2013-07-22 13:39:19	s5fs	also, I heard from mikeal, he fedex'd the 10 kits this morning, they are expected here by weds. i'll confirm when they are in mah hands.
+2013-07-22 13:39:45	-->	ZenWraithBot (~zenwraith@216.151.13.75) has joined #pdxnodebots
+2013-07-22 13:39:54	Wraithan	!dm ZenWraithBot
+2013-07-22 13:39:55	ZenWraithBot	You're doing horrible work ZenWraithBot!
+2013-07-22 13:39:55	s5fs	chrisdickinson: nice gist, thank you.
+2013-07-22 13:40:01	chrisdickinson	no prob!
+2013-07-22 13:40:06	s5fs	!dammit ZenWraithBot
+2013-07-22 13:40:28	chrisdickinson	s5fs: i'm going to try and get https://gist.github.com/chrisdickinson/cd28448b92ce4f5c6da3 illustrated tonight / tomorrow night
+2013-07-22 13:40:39	s5fs	chrisdickinson: does JSON_voorhees need it for the zine?
+2013-07-22 13:41:07	s5fs	JSON_voorhees: dude, whats status on: 1) zine  2) private npm repo. need any help with anything?
+2013-07-22 13:41:23	chrisdickinson	iou illustrations
+2013-07-22 13:41:54	s5fs	gocha
+2013-07-22 13:42:06	s5fs	here, forgot your 't'
+2013-07-22 13:45:12	hackygolucky_	s5fs: I think scottjab had started messing with the private npm on Saturday but the wifi at the cafe was poopin' out.
+2013-07-22 13:46:01	scottjab	I did start on it, and played a bit more with it last night before I passed out
+2013-07-22 14:12:24	s5fs	scottjab: where are you in the process?
+2013-07-22 14:12:53	scottjab	mirroring the database, then I fell asleep
+2013-07-22 14:12:57	scottjab	I was going to start tooling it up
+2013-07-22 14:14:55	s5fs	scottjab: ah cool, sounds like you're moving in the right direction. i got stuck on couchdb last time, wrong version etc haha
+2013-07-22 14:15:13	scottjab	oh I got past that, I got to schema replication
+2013-07-22 14:15:23	scottjab	I should have some time late tonight and tomorrow to work on it more
+2013-07-22 14:16:17	s5fs	scottjab: best of luck!
+2013-07-22 14:16:40	scottjab	I don't think I need luck, I need whiskey
+2013-07-22 14:19:51	s5fs	scottjab: i think a decent 90 proof bourbon pairs well with database replication
+2013-07-22 14:19:59	scottjab	it does!
+2013-07-22 14:20:16	s5fs	for smaller datasets i usually just rock an 80 proof with a mixer of some sort, nothing crazy
+2013-07-22 14:20:36	scottjab	what about bigdata?
+2013-07-22 14:21:09	s5fs	moderate drinking, but make sure you have snacks on hand in case it takes a while
+2013-07-22 14:21:44	scottjab	I try to kick the keg before Cassandra is done replicating
+2013-07-22 14:46:11	randallagordon	On the "getting started" front, chrisdickinson have you seen this article? http://blog.safaribooksonline.com/2013/07/16/javascript-powered-arduino-with-johnny-five/
+2013-07-22 14:46:26	chrisdickinson	nope!
+2013-07-22 14:46:29	-->	xobbob (~xobbob@c-24-20-193-173.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-22 14:46:34	randallagordon	take a peek, methinks you'll like
+2013-07-22 14:46:39	chrisdickinson	thanks!
+2013-07-22 14:47:03	randallagordon	Happened to remember there was an excellent breadboard internal wiring graphic
+2013-07-22 14:49:13	randallagordon	And for folks wrangling J5 in Windows, give 0.10.8 a shot if you encounter...ghosts... I've had various issues with both J5 and node-midi using 0.10.13
+2013-07-22 14:51:56	dlmanning	That's discouraging
+2013-07-22 14:52:42	randallagordon	I've yet to attempt to track down what's up. Basically decided getting to work on something functional was more fun than debugging something that wasn't ;)
+2013-07-22 14:53:56	randallagordon	versions in between may be fine, too, I just jumped to 0.10.8 because it also solved some node-midi issues I was having with my Ubuntu VM
+2013-07-22 14:54:00	dlmanning	means we might conceivably need to have instructions ready on how to roll back your node installation
+2013-07-22 14:55:49	hackygolucky_	whoa.
+2013-07-22 14:55:52	hackygolucky_	!m randallagordon
+2013-07-22 14:55:53	ZenWraithBot	You're doing great work randallagordon!
+2013-07-22 14:56:26	dlmanning	randallagordon: What do you mean by 'ghosts'?
+2013-07-22 14:57:31	randallagordon	Intermittent connection problems for the most part board would have about a 50/50 shot of connecting on any given run
+2013-07-22 14:58:28	dlmanning	lovely
+2013-07-22 14:58:40	randallagordon	...there's also a chance it might be my 'duino. I'm running an older version of Firmata that I tweaked to enable pullup resistors and I've yet to rule that out
+2013-07-22 15:01:05	dlmanning	Well, thanks for the heads up, in any event
+2013-07-22 15:02:17	s5fs	randallagordon: is there a node version manager for windows?
+2013-07-22 15:02:41	randallagordon	Not that I'm aware of :/
+2013-07-22 15:02:53	randallagordon	Good ol' Uninstall/reinstall
+2013-07-22 15:03:06	s5fs	ugh, windows
+2013-07-22 15:03:29	randallagordon	I think you can install it via Chocolatey...does that support specific versions perhaps?
+2013-07-22 15:03:34	 *	randallagordon hits the Googles...
+2013-07-22 15:04:16	s5fs	randallagordon: does chocolately manage your path too, or just wrap nuget?
+2013-07-22 15:04:16	randallagordon	BOOM! `cinst nodejs.install -Version 0.10.08`
+2013-07-22 15:04:36	randallagordon	Of course, then you've gotta involve installing Chocolatey...
+2013-07-22 15:05:01	s5fs	i only know nuget via VS, is it a stand-alone install somewhere?
+2013-07-22 15:05:08	s5fs	i assume most are just installing node from msi or whatever
+2013-07-22 15:07:39	randallagordon	chocolatey just snags the msi and does a quiet install
+2013-07-22 15:08:36	s5fs	right, so it's not managing the path, it's probably uninstalling/reinstalling to the correct version
+2013-07-22 15:08:59	s5fs	sounds like an opportunity to create a windows version manager (WinNVM)
+2013-07-22 15:09:44	randallagordon	There may well be one, I've just never looked. Johnny-Five is the only reason I do anything with Node in Windows at all lol
+2013-07-22 15:10:05	s5fs	randallagordon: you a windows guy, i take it?
+2013-07-22 15:10:52	randallagordon	Reluctantly
+2013-07-22 15:11:51	s5fs	it's crazy, i have a solid windows background (nt4-win7) but my interest has been eroding steadily since server 2008. i'm now almost completely off the platform professionally.
+2013-07-22 15:12:34	randallagordon	Some of the music stuff I tinker with forces me to keep Windows as a host
+2013-07-22 15:13:18	randallagordon	Otherwise I'd probably just be running Ubuntu on everything
+2013-07-22 15:14:33	Wraithan	windows on my gaming PC
+2013-07-22 15:14:37	Wraithan	osx on my laptops
+2013-07-22 15:14:41	Wraithan	linux on my servers
+2013-07-22 15:14:48	Wraithan	iOS tablet
+2013-07-22 15:14:54	Wraithan	firefoxos and android phones
+2013-07-22 15:15:06	randallagordon	https://github.com/hakobera/nvmw
+2013-07-22 15:15:07	Wraithan	kindle for my ereader
+2013-07-22 15:15:20	randallagordon	That looks like it may be worth giving a shot
+2013-07-22 15:16:28	randallagordon	scratch that, this claims to improve upon nvmw: https://github.com/marcelklehr/nodist
+2013-07-22 15:17:00	 *	randallagordon cowers in fear at `nodist + all`
+2013-07-22 15:17:12	Wraithan	I like to follow path of "this is a better version of X" then go back one level and call it good
+2013-07-22 15:20:06	randallagordon	Might be a safer bet ;)
+2013-07-22 15:20:29	randallagordon	They both look to be fairly faithful recreations of their non-Windows counterparts in nvm and n
+2013-07-22 15:53:01	--	irc: disconnected from server
+2013-07-22 15:53:24	-->	JSON_voorheez (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-22 15:53:24	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-22 15:53:24	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-22 15:53:24	--	Nicks #pdxnodebots: [adamdicarlo chrisdickinson dlmanning greh hackygolucky_ jden JSON_voorhees JSON_voorheez justinabrahms nexxy randallagordon s5fs scottjab thoward Wraithan xobbob ZenWraithBot]
+2013-07-22 15:53:24	--	Channel #pdxnodebots: 17 nicks (0 ops, 0 halfops, 0 voices, 17 normals)
+2013-07-22 15:53:30	--	Mode #pdxnodebots [+cnt]
+2013-07-22 15:53:30	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-22 16:00:38	<--	JSON_voorhees (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has quit (*.net *.split)
+2013-07-22 22:27:21	--	irc: disconnected from server
+2013-07-22 22:28:04	-->	JSON_voorheez (~JSON_voor@67.189.34.0) has joined #pdxnodebots
+2013-07-22 22:28:04	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-22 22:28:04	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-22 22:28:04	--	Nicks #pdxnodebots: [chrisdickinson dlmanning greh hackygolucky_ jden JSON_voorheez justinabrahms nexxy randallagordon s5fs scottjab thoward Wraithan xobbob ZenWraithBot]
+2013-07-22 22:28:04	--	Channel #pdxnodebots: 15 nicks (0 ops, 0 halfops, 0 voices, 15 normals)
+2013-07-22 22:28:10	--	Mode #pdxnodebots [+cnt]
+2013-07-22 22:28:10	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-22 23:18:46	--	irc: disconnected from server
+2013-07-22 23:19:10	-->	JSON_voorheez (~JSON_voor@c-67-189-34-0.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-22 23:19:10	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-22 23:19:10	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-22 23:19:10	--	Nicks #pdxnodebots: [chrisdickinson dlmanning greh hackygolucky_ jden JSON_voorheez justinabrahms nexxy randallagordon s5fs scottjab thoward Wraithan xobbob ZenWraithBot]
+2013-07-22 23:19:10	--	Channel #pdxnodebots: 15 nicks (0 ops, 0 halfops, 0 voices, 15 normals)
+2013-07-22 23:19:17	--	Mode #pdxnodebots [+cnt]
+2013-07-22 23:19:17	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-23 07:03:35	--	irc: disconnected from server
+2013-07-23 07:04:17	-->	JSON_voorheez (~JSON_voor@c-67-189-34-0.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-23 07:04:17	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-23 07:04:17	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-23 07:04:17	--	Nicks #pdxnodebots: [chrisdickinson dlmanning emilyrose greh hackygolucky_ jden JSON_voorheez justinabrahms randallagordon s5fs scottjab thoward Wraithan ZenWraithBot]
+2013-07-23 07:04:17	--	Channel #pdxnodebots: 14 nicks (0 ops, 0 halfops, 0 voices, 14 normals)
+2013-07-23 07:04:23	--	Mode #pdxnodebots [+cnt]
+2013-07-23 07:04:23	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-23 08:46:36	--	irc: disconnected from server
+2013-07-23 08:46:57	-->	JSON_voorheez (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-23 08:46:57	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-23 08:46:57	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-23 08:46:57	--	Nicks #pdxnodebots: [chrisdickinson dlmanning emilyrose greh hackygolucky_ jden JSON_voorheez justinabrahms randallagordon s5fs scottjab thoward Wraithan ZenWraithBot]
+2013-07-23 08:46:57	--	Channel #pdxnodebots: 14 nicks (0 ops, 0 halfops, 0 voices, 14 normals)
+2013-07-23 08:47:04	--	Mode #pdxnodebots [+cnt]
+2013-07-23 08:47:04	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-23 09:16:04	-->	adamdicarlo (~adamdicar@a-129-196-226-153.ext.fluke.com) has joined #pdxnodebots
+2013-07-23 09:49:06	hackygolucky_	oh darn it. I missed nexxy.
+2013-07-23 09:49:33	hackygolucky_	Anybody with a bouncer--heads up! I'm working on rounding up the NodeBots shenanigans this evening and tying together loose ends
+2013-07-23 09:49:58	hackygolucky_	so hopefully I'm preparing everyone for my nag-o-meter kicking in.
+2013-07-23 10:00:06	dlmanning	a bouncer?
+2013-07-23 10:01:36	hackygolucky_	irc bouncer
+2013-07-23 10:01:52	hackygolucky_	so they would see my message even if they weren't currently active on irc.
+2013-07-23 10:01:59	dlmanning	Ah
+2013-07-23 11:01:36	JSON_voorheez	nag-o-meter
+2013-07-23 11:38:44	emilyrose	hackygolucky_, hai
+2013-07-23 12:12:07	--	irc: disconnected from server
+2013-07-23 12:12:30	-->	JSON_voorheez (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-23 12:12:30	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-23 12:12:30	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-23 12:12:30	--	Nicks #pdxnodebots: [adamdicarlo chrisdickinson dlmanning emilyrose greh hackygolucky_ jden JSON_voorheez justinabrahms randallagordon s5fs scottjab thoward Wraithan ZenWraithBot]
+2013-07-23 12:12:30	--	Channel #pdxnodebots: 15 nicks (0 ops, 0 halfops, 0 voices, 15 normals)
+2013-07-23 12:12:36	--	Mode #pdxnodebots [+cnt]
+2013-07-23 12:12:36	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-23 12:15:45	hackygolucky_	emilyrose: hi!
+2013-07-23 12:15:54	hackygolucky_	how goes thing?
+2013-07-23 13:00:45	--	Wraithan is now known as __wraith__
+2013-07-23 13:01:33	--	__wraith__ is now known as Wraithan
+2013-07-23 13:07:11	emilyrose	hackygolucky_, gooood
+2013-07-23 13:08:37	hackygolucky_	excellent!
+2013-07-23 13:09:09	hackygolucky_	emilyrose: admittedly, I haven't gotten to look at NodeBots stuff the last day or two. I was going to run through checklists tonight and start messaging everyone regarding loose ends.
+2013-07-23 13:09:33	hackygolucky_	I DID get the NodeBots stickers in the mail last night. <3 SO MUCH.
+2013-07-23 13:14:51	emilyrose	ooh fancy
+2013-07-23 13:14:58	-->	ridicter (~ridicter@66.96.79.211) has joined #pdxnodebots
+2013-07-23 13:15:01	emilyrose	hackygolucky_, s5fs has the robotsconf stickers and postcards
+2013-07-23 13:17:45	Wraithan	hackygolucky_: want so bad!
+2013-07-23 13:17:56	scottjab	oh hey, so I think I have a ghettoed mirror of npm in a VM
+2013-07-23 13:18:00	scottjab	cc s5fs
+2013-07-23 13:18:32	Wraithan	doesn't substack do this all the time, have we tried pinging him to see if he has any tips?
+2013-07-23 13:18:37	hackygolucky_	!m scottjab
+2013-07-23 13:18:38	ZenWraithBot	You're doing great work scottjab!
+2013-07-23 13:18:52	scottjab	I think it is working
+2013-07-23 13:18:53	scottjab	I dono
+2013-07-23 13:18:58	hackygolucky_	emilyrose: ah, we're gonna have so many awesome stickers. Kinda love it!
+2013-07-23 13:19:41	hackygolucky_	I'll be sending out an email tomorrow to participants with installfest prep(just in case) and to let them know about bringing something to screenprint on. Because thoward is awesome.
+2013-07-23 13:21:27	hackygolucky_	emilyrose: are you bringing all your hardware-y goodness of projects down to SF?
+2013-07-23 13:26:02	chrisdickinson	scottjab: how are you testing it?
+2013-07-23 13:26:32	scottjab	npm config set registry http://localhost:5984/registry/_design/app/_rewrite
+2013-07-23 13:26:35	scottjab	from my vm
+2013-07-23 13:26:42	chrisdickinson	ah, nice
+2013-07-23 13:26:44	scottjab	it isn't quite done mirroring, but what has been mirroed works
+2013-07-23 13:26:49	chrisdickinson	!m scottjab
+2013-07-23 13:26:50	ZenWraithBot	You're doing great work scottjab!
+2013-07-23 13:26:50	scottjab	I am opsing the shit out of this
+2013-07-23 13:27:13	scottjab	I will write some quick and dirty puppet modules tonight
+2013-07-23 13:27:37	scottjab	http://www.idimmu.net/2013/06/20/how-to-create-an-npm-repository-mirror/  p much just followed this
+2013-07-23 13:28:47	scottjab	hah I ran my VM out of space
+2013-07-23 13:28:55	scottjab	!mm scottjab
+2013-07-23 13:28:56	ZenWraithBot	You're doing great work m scottjab!
+2013-07-23 13:29:00	scottjab	wut
+2013-07-23 13:52:54	thoward	hardware keeps rolling in!
+2013-07-23 13:53:21	thoward	got all the arduinos, breadboards, jumpers, some sensors, pots, etc.
+2013-07-23 13:53:27	scottjab	rad!
+2013-07-23 13:53:56	thoward	there's a lot of packages showing up on my doorstep past couple days. i gotta say, i don't understand amazon's delivery system.
+2013-07-23 13:54:36	hackygolucky_	yeah I don't either. And it is still so wasteful...
+2013-07-23 13:54:40	thoward	probably got a few bits here a few bits there, but i'll get like a whole 8x10x4 box with like one little thing in.
+2013-07-23 13:55:17	thoward	so far i've gotten 8 boxes, and it all fits into two
+2013-07-23 13:55:25	chrisdickinson	https://en.wikipedia.org/wiki/Bin_packing_problem
+2013-07-23 13:55:54	dlmanning	box sizes are determined by the necessity of creating stable pallet loads in trucks
+2013-07-23 13:56:21	thoward	haha, fine, i'm sure there's a bunch of reasons for it, but it's bewildering.
+2013-07-23 14:01:40	scottjab	JSON_voorheez: ping
+2013-07-23 14:05:44	Wraithan	Also there is the padding thing, people get all up in arms about chip companies, but that air is there for two reasons: 1) So you don't end up with a bag of crumbs 2) contents settle during shipping
+2013-07-23 14:06:44	thoward	Wraithan: true that. i'm happy that amazon, through whatever level of efficiency, got our stuff here in one piece, on time, and for free (amazon prime trials, booyah!)
+2013-07-23 14:07:33	 *	thoward feels like the positive python attitude needs to spill over into more channels.
+2013-07-23 14:09:23	thoward	for fun, here's a sneak peek at the new cascadiajs website/logo design: http://stage.steamclock.com/cjs2013/
+2013-07-23 14:09:33	thoward	we're iterating on design right now. opinions?
+2013-07-23 14:19:55	dlmanning	thoward: one more color?
+2013-07-23 14:20:14	thoward	yeah, like brown?
+2013-07-23 14:20:31	dlmanning	burnt butterscotch
+2013-07-23 14:21:08	Wraithan	thoward: that green is a bit harsh on my eyes
+2013-07-23 14:21:23	thoward	i find the whole thing a bit too bright, personally.
+2013-07-23 14:21:29	Wraithan	yea
+2013-07-23 14:24:28	hackygolucky_	thoward: I think I like the colors thus far but agree that another color is needed. The white with the bright colors seems a bit too light.
+2013-07-23 14:38:28	JSON_voorheez	scottjab: any luck with the npm repo?
+2013-07-23 14:38:34	scottjab	read up ;-)
+2013-07-23 14:38:47	scottjab	I need hardware, but I got a vm mirroring and workingish
+2013-07-23 14:38:55	Wraithan	scottjab: how much hardware?
+2013-07-23 14:39:07	scottjab	60ish gigs of space
+2013-07-23 14:39:08	scottjab	http://www.idimmu.net/2013/06/20/how-to-create-an-npm-repository-mirror/
+2013-07-23 14:39:09	JSON_voorheez	great, I can get you that mac mini tonight
+2013-07-23 14:39:11	Wraithan	oh
+2013-07-23 14:39:11	scottjab	I jsut followed that
+2013-07-23 14:39:21	Wraithan	that is tiny
+2013-07-23 14:39:39	Wraithan	scottjab: I can provide that in a usb enclosure or just the drive, whichever you want
+2013-07-23 14:40:01	Wraithan	have a 1tb drive doing basically nothing right now
+2013-07-23 14:43:20	JSON_voorheez	hackygolucky_: I still need a hardware list for the zine
+2013-07-23 14:43:47	Wraithan	I wonder if my sparkfun hardware will arrive at my house soon
+2013-07-23 14:43:55	JSON_voorheez	scottjab: let me know whether or not you want to use that minimac
+2013-07-23 14:44:22	Wraithan	oh look at that: https://www.fedex.com/fedextrack/?tracknumbers=236132115316288&cntry_code=us
+2013-07-23 14:44:37	Wraithan	it arrived at my house after I left for work this morning
+2013-07-23 14:45:27	scottjab	JSON_voorheez: can I wipe it and throw linux on it
+2013-07-23 14:45:32	scottjab	it looks like couch sucks on OS X
+2013-07-23 14:45:33	JSON_voorheez	sure thing
+2013-07-23 14:45:48	JSON_voorheez	yeah I was planning on running linux in a vm but wiping it is fine too
+2013-07-23 14:45:50	scottjab	I don't know how late I will be at UA today
+2013-07-23 14:45:54	scottjab	ether way
+2013-07-23 14:46:30	JSON_voorheez	we also wanna use it as a file server for tutorial files, etc...
+2013-07-23 14:46:52	scottjab	yeah I can throw it in a VM
+2013-07-23 14:46:54	scottjab	that will be asier
+2013-07-23 14:46:56	scottjab	easier
+2013-07-23 14:47:00	JSON_voorheez	awesome.
+2013-07-23 14:47:36	JSON_voorheez	wanna just send me a text when you wanna meet up for it? 434.944.1440.
+2013-07-23 14:53:09	<--	ridicter (~ridicter@66.96.79.211) has quit (Quit: Computer has gone to sleep.)
+2013-07-23 14:53:22	hackygolucky_	JSON_voorheez: do you mean what we are providing hardware-wise?
+2013-07-23 14:53:54	hackygolucky_	if so, I think s5fs has the list. I actually need it as well for the email I'm sending out tomorrow.
+2013-07-23 14:56:02	JSON_voorheez	hackygolucky_: Yeah, s5fs I'm going to need that as soon as possible. I don't want to be doing everything friday night.
+2013-07-23 14:57:38	hackygolucky_	JSON_voorheez: absolutely. I'll try and get a hold of Adam this evening. I should have asked for that list sooner.
+2013-07-23 15:06:30	-->	ridicter (~ridicter@c-71-236-206-53.hsd1.wa.comcast.net) has joined #pdxnodebots
+2013-07-23 15:07:13	JSON_voorheez	sound good :)
+2013-07-23 15:17:08	emilyrose	hackygolucky_, JSON_voorheez hardware list?
+2013-07-23 15:17:41	emilyrose	software requirements = 0.10.x (preferably 0.10.13) and johnny-five installed in a project directory
+2013-07-23 15:19:37	hackygolucky_	emilyrose: I think we were just talking about listing out what we're providing in the kits...
+2013-07-23 15:19:54	emilyrose	oh
+2013-07-23 15:20:00	emilyrose	do we need a hard count? or a general idea?
+2013-07-23 15:20:22	thoward	yeah, now that i've got some of the gear here, i'd like to start assembling the kits from the various parts.
+2013-07-23 15:20:46	thoward	obviously, arduino, breadboard, jumpers (count per kit?)
+2013-07-23 15:20:55	emilyrose	arduino uno R3, buttons, photoresistors, LEDs, potentiometers, and all the jumpers, resistors, etc you need for that
+2013-07-23 15:21:45	emilyrose	s5fs, and I planned on having kits assembled with a modest amount of components
+2013-07-23 15:21:55	emilyrose	so we have extra on-hand
+2013-07-23 15:22:17	emilyrose	I think he has the notebook with the list of the actual count for everything
+2013-07-23 15:22:20	Wraithan	Oh I should get a potentiometer. I have no idea what my potential is.
+2013-07-23 15:22:26	emilyrose	Wraithan, lol
+2013-07-23 15:22:37	Wraithan	Teachers always said I have a lot of it though
+2013-07-23 15:22:46	Wraithan	and that I am not living up to it
+2013-07-23 15:22:48	Wraithan	...
+2013-07-23 15:22:48	hackygolucky_	emilyrose: if you guys need help bagging, let me know :)
+2013-07-23 15:23:28	emilyrose	if it happens before friday I can help!
+2013-07-23 15:25:38	thoward	if only it was that easy to measure input/output
+2013-07-23 15:26:13	thoward	Wraithan: i need the same thing for calories. this whole "assume what you've burned, guestimate your input from FDA standards and eye ball measurements".
+2013-07-23 15:26:16	thoward	ugh
+2013-07-23 15:26:59	thoward	in other news, i've upgraded my terminal experience dramatically. i'm now using terminology with fish. wow, modern world, here we come.
+2013-07-23 15:27:00	Wraithan	So I don't want to seem like a dolt, but what happens to the kits at the end of the event? we planning on giving them away in some rewarding and/or random way
+2013-07-23 15:27:16	thoward	Wraithan: good question. i have no idea.
+2013-07-23 15:27:20	hackygolucky_	So.
+2013-07-23 15:27:23	thoward	we don't have enough to give one to everyone.
+2013-07-23 15:27:24	Wraithan	So.
+2013-07-23 15:27:28	hackygolucky_	This is something we still needed to talk about.
+2013-07-23 15:27:37	thoward	we could jut hang on to all/most of them for future events.
+2013-07-23 15:27:38	Wraithan	Oh.
+2013-07-23 15:27:42	hackygolucky_	I had thought, like NodeConf, we as organizers identify people who are SUPER excited
+2013-07-23 15:27:45	hackygolucky_	(a few)
+2013-07-23 15:27:53	hackygolucky_	and make sure they walk with one.
+2013-07-23 15:28:16	emilyrose	PUBLIC SERVICE ANNOUNCEMENT! http://www.youtube.com/watch?v=7uUlOAyQsn4
+2013-07-23 15:28:18	hackygolucky_	Otherwise, being able to hold onto these kits for future events would be AMAZING.
+2013-07-23 15:29:01	hackygolucky_	chrisdickinson and I had talked about storing them here at UA because it is a sponsor and a decent location and we have 24 hour access.
+2013-07-23 15:29:03	hackygolucky_	BUT
+2013-07-23 15:29:08	hackygolucky_	input is welcome.
+2013-07-23 15:29:16	hackygolucky_	It does not have to be that way.
+2013-07-23 15:29:16	thoward	hackygolucky_: agreed. only prob with that is that it's a bit arbitrary who gets to keep a kit.
+2013-07-23 15:29:43	thoward	which might rub some folks the wrong way if they notice and disagree with our opinions.
+2013-07-23 15:29:49	hackygolucky_	thoward: right. Alternatively it could be a prize for a challenge? But that's difficult for newbs.
+2013-07-23 15:33:23	thoward	yeah, it could also just be completely random.
+2013-07-23 15:33:35	thoward	like, draw a name out of a hat
+2013-07-23 15:33:43	thoward	but i like rewarding enthusiasm
+2013-07-23 15:35:11	thoward	that resonates w/ me, considering a similar gift is what let me, a poor poor boy in one of the worst ghettos of st. louis, get a computer at age 7 and start what would become a life-long relationship to this art of hacking. without someone rewarding my enthusiasm with a simple gift, i'd probably be selling drugs, or dead, or a starving painter/writer/musician.
+2013-07-23 15:35:44	thoward	we might not be doing anything that dramatic for anyone, but the methodology is sound.
+2013-07-23 15:36:18	hackygolucky_	so...
+2013-07-23 15:36:21	hackygolucky_	:)
+2013-07-23 15:36:52	hackygolucky_	enthusiasm prize?
+2013-07-23 15:36:54	JSON_voorheez	so looking forward to the point when I no longer want a cigarette
+2013-07-23 15:41:01	hackygolucky_	emilyrose: have you given out kits in past hackdays?
+2013-07-23 15:41:08	thoward	JSON_voorheez: it happens. i used to smoke 2 packs a day. now i could give a shit less.
+2013-07-23 15:41:35	thoward	hackygolucky_: yup enthusiasm prize, ftw!
+2013-07-23 15:42:21	hackygolucky_	cool.
+2013-07-23 15:47:07	emilyrose	hackygolucky_, I've given out kits at conferences
+2013-07-23 15:47:31	emilyrose	hackygolucky_, and I believe a few people may have been gifted with some things @ last year's version of nodebotsday
+2013-07-23 15:47:39	emilyrose	hackygolucky_, basically same criteria
+2013-07-23 15:47:49	emilyrose	"you are really into this stuff"
+2013-07-23 15:47:50	hackygolucky_	cool.
+2013-07-23 15:48:05	emilyrose	when I give stuff out personally
+2013-07-23 15:48:15	emilyrose	I just ask them to pay it forward when/if they keep going
+2013-07-23 15:48:30	hackygolucky_	awesome. Good call.
+2013-07-23 16:39:31	--	irc: disconnected from server
+2013-07-23 16:39:55	-->	JSON_voorheez (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-23 16:39:55	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-23 16:39:55	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-23 16:39:55	--	Nicks #pdxnodebots: [adamdicarlo chrisdickinson dlmanning emilyrose greh hackygolucky_ jden JSON_voorheez justinabrahms randallagordon ridicter s5fs scottjab thoward Wraithan ZenWraithBot]
+2013-07-23 16:39:55	--	Channel #pdxnodebots: 16 nicks (0 ops, 0 halfops, 0 voices, 16 normals)
+2013-07-23 16:40:01	--	Mode #pdxnodebots [+cnt]
+2013-07-23 16:40:01	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-23 17:06:19	<--	ridicter (~ridicter@c-71-236-206-53.hsd1.wa.comcast.net) has quit (Quit: ["Textual IRC Client: www.textualapp.com"])
+2013-07-23 18:47:38	--	irc: disconnected from server
+2013-07-23 18:48:03	-->	JSON_voorheez (~JSON_voor@c-67-189-34-0.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-23 18:48:03	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-23 18:48:03	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-23 18:48:03	--	Nicks #pdxnodebots: [adamdicarlo chrisdickinson dlmanning emilyrose greh hackygolucky_ jden JSON_voorheez justinabrahms randallagordon ridicter s5fs scottjab thoward Wraithan ZenWraithBot]
+2013-07-23 18:48:03	--	Channel #pdxnodebots: 16 nicks (0 ops, 0 halfops, 0 voices, 16 normals)
+2013-07-23 18:48:09	--	Mode #pdxnodebots [+cnt]
+2013-07-23 18:48:09	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-23 20:33:28	<--	adamdicarlo (~adamdicar@a-129-196-226-153.ext.fluke.com) has quit (Ping timeout: 256 seconds)
+2013-07-23 20:41:00	<--	ridicter (~ridicter@c-67-189-109-68.hsd1.or.comcast.net) has quit (Quit: ["Textual IRC Client: www.textualapp.com"])
+2013-07-23 22:47:12	--	irc: disconnected from server
+2013-07-24 00:42:35	-->	JSON_voorheez (~JSON_voor@c-67-189-34-0.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-24 00:42:35	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-24 00:42:35	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-24 00:42:35	--	Nicks #pdxnodebots: [chrisdickinson dlmanning emilyrose greh hackygolucky_ jden JSON_voorheez justinabrahms randallagordon s5fs scottjab thoward Wraithan ZenWraithBot]
+2013-07-24 00:42:35	--	Channel #pdxnodebots: 14 nicks (0 ops, 0 halfops, 0 voices, 14 normals)
+2013-07-24 00:42:41	--	Mode #pdxnodebots [+cnt]
+2013-07-24 00:42:42	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-24 03:17:19	--	irc: disconnected from server
+2013-07-24 10:36:14	-->	JSON_voorheez (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-24 10:36:14	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-24 10:36:14	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-24 10:36:15	--	Nicks #pdxnodebots: [adamdicarlo chrisdickinson dlmanning emilyrose greh hackygolucky_ jden JSON_voorheez justinabrahms randallagordon s5fs scottjab thoward Wraithan ZenWraithBot]
+2013-07-24 10:36:15	--	Channel #pdxnodebots: 15 nicks (0 ops, 0 halfops, 0 voices, 15 normals)
+2013-07-24 10:36:15	--	Notice(cameron.freenode.net): [freenode-info] channel flooding and no channel staff around to help? Please check with freenode support: http://freenode.net/faq.shtml#gettinghelp
+2013-07-24 10:36:20	--	Mode #pdxnodebots [+cnt]
+2013-07-24 10:36:21	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-24 10:39:04	thoward	hackygolucky_: hrm. one mifi is not enough internets for 50+ people.
+2013-07-24 12:26:41	--	irc: disconnected from server
+2013-07-24 12:27:03	-->	JSON_voorheez (~JSON_voor@71.56.139.32) has joined #pdxnodebots
+2013-07-24 12:27:03	--	Topic for #pdxnodebots is "International NodeBots in PDX https://tito.io/pdxnode/nodebotsday July 27th http://i.qkme.me/3tsf1l.jpg | Upcoming events http://www.meetup.com/nodepdx/"
+2013-07-24 12:27:03	--	Topic set by hackygolucky (uid11034@gateway/web/irccloud.com/x-ljsijskezupvukne) on Sat, 06 Jul 2013 14:21:00
+2013-07-24 12:27:03	--	Nicks #pdxnodebots: [adamdicarlo chrisdickinson dlmanning emilyrose greh hackygolucky_ jden JSON_voorheez justinabrahms randallagordon s5fs scottjab thoward Wraithan ZenWraithBot]
+2013-07-24 12:27:03	--	Channel #pdxnodebots: 15 nicks (0 ops, 0 halfops, 0 voices, 15 normals)
+2013-07-24 12:27:09	--	Mode #pdxnodebots [+cnt]
+2013-07-24 12:27:09	--	Channel created on Wed, 03 Jul 2013 12:45:20
+2013-07-24 12:27:13	hackygolucky_	dlmanning: oh no! but ahnks :)
+2013-07-24 12:27:24	hackygolucky_	s/ahnks/thanks
+2013-07-24 12:59:47	JSON_voorheez	hackygolucky_: we have a hardware list yet?
+2013-07-24 13:00:20	hackygolucky_	JSON_voorheez: you need a bouncer :P
+2013-07-24 13:00:45	chrisdickinson	JSON_voorheez: you got a server running anyplace?
+2013-07-24 13:00:54	hackygolucky_	it's on the README for simple-color-sensor www.github.com/nexxy/simple-color-sensor
+2013-07-24 13:01:08	hackygolucky_	JSON_voorheez: ^^
+2013-07-24 13:01:33	hackygolucky_	I also should be posting this info elsewhere. So that's my bad.
+2013-07-24 13:01:37	chrisdickinson	(if so -- and if you've got it running ubuntu, running a bouncer is as easy as `aptitude install znc; znc --makeconf; znc znc.conf`)
+2013-07-24 13:05:11	JSON_voorheez	hackygolucky_ chrisdickinson definitely need to set one up!
+2013-07-24 13:05:15	JSON_voorheez	sry guisee
+2013-07-24 13:05:29	hackygolucky_	I do too.
+2013-07-24 13:05:36	hackygolucky_	 I haven't yet. Just use irccloud
+2013-07-24 13:05:44	hackygolucky_	which is the pits.
+2013-07-24 13:06:11	JSON_voorheez	thanks! I'm gunna try and knock out the zine tonight then maybe chrisdickinson will want to meet up tomorrow night before I get them printed?
+2013-07-24 13:06:32	chrisdickinson	yes, +1
+2013-07-24 13:06:36	JSON_voorheez	yay!
+2013-07-24 13:09:11	hackygolucky_	JSON_voorheez: so did scottjab already get the mac mini from you?
+2013-07-24 13:09:15	hackygolucky_	(for the private npm)
+2013-07-24 13:09:24	scottjab	I didn't have time last night
+2013-07-24 13:09:46	scottjab	I am not in the office today, so It will be a little harder
+2013-07-24 13:10:02	chrisdickinson	oh man, $35 for ec2 micro for 3 years. perfect for irc bouncers.
+2013-07-24 13:10:11	hackygolucky_	whoa. Nice!
+2013-07-24 13:10:39	scottjab	yeah, that is how I do it chrisdickinson
+2013-07-24 13:10:55	JSON_voorheez	chrisdickinson: sounds like a deal
+2013-07-24 13:10:59	chrisdickinson	i need to decommission my slicehost server
+2013-07-24 13:11:04	hackygolucky_	JSON_voorheez: could you bring the mac mini to work tomorrow and justinabrahms could bring it home?
+2013-07-24 13:11:05	JSON_voorheez	scottjab: if you'd like I can meet you somewhere tonight
+2013-07-24 13:11:17	JSON_voorheez	hackygolucky_: scottjab that works as well :)
+2013-07-24 13:11:27	scottjab	that is easier
+2013-07-24 13:11:42	JSON_voorheez	scottjab: thanks again for getting that working
+2013-07-24 13:11:52	hackygolucky_	scottjab: that would just mean you won't have the mini until Friday unless I have time Thursday night to deliver it. Is that okay?
+2013-07-24 13:11:52	JSON_voorheez	did you make a recipe for it?
+2013-07-24 13:11:56	scottjab	sure, I ops
+2013-07-24 13:12:19	scottjab	hackygolucky_: yeah it should be fine, I will just have it mirror over night at UA
+2013-07-24 13:12:24	scottjab	faster internets
+2013-07-24 13:12:34	hackygolucky_	cool.
+2013-07-24 13:12:34	JSON_voorheez	awesome, you should think about putting it up on gh, lots of people would be into that
+2013-07-24 13:12:46	hackygolucky_	also, getting donuts and coffee for Saturday morning. It will be glorious.
+2013-07-24 13:12:54	JSON_voorheez	woohoo
+2013-07-24 13:12:56	hackygolucky_	already put the donut order in at Tonalli's
+2013-07-24 13:13:12	hackygolucky_	<3 mom & pop donuts.
+2013-07-24 13:13:32	JSON_voorheez	hackygolucky_: are we still planning for all the organizers to run through the beginners track before saturday?
+2013-07-24 13:14:10	hackygolucky_	JSON_voorheez: it would be VERY useful for us to do that, yes.
+2013-07-24 13:14:46	hackygolucky_	s5fs emilyrose are you all available Thursday evening to mess around with hardware at my house? I know it is crunch time...
+2013-07-24 13:15:10	hackygolucky_	thoward cc^^
+2013-07-24 13:15:54	hackygolucky_	dang. 56 people registered thus far.
+2013-07-24 13:35:15	thoward	hackygolucky_: yup. can do hacking tomorrow. more packages arrived today. still waiting on some important stuff, but hopefully will be here by tomorrow.
+2013-07-24 13:35:33	hackygolucky_	cool.
+2013-07-24 13:40:30	JSON_voorheez	sounds great!
+2013-07-24 13:40:53	hackygolucky_	hacking funtime at my place tomorrow evening then?
+2013-07-24 13:49:25	<--	adamdicarlo (~adamdicar@a-129-196-228-254.ext.fluke.com) has quit (Quit: foo)
+2013-07-24 13:50:58	hackygolucky_	also, all you people should be at my house Friday evening.
+2013-07-24 13:51:22	hackygolucky_	Food, drinks, pets, cards, FUN. Cascadia Carter. It'll be funtimes.
+2013-07-24 13:55:57	justinabrahms	I'm not going to be there thursday, but I'll be there friday. :)
+2013-07-24 13:56:06	 *	justinabrahms skips out on the work, enjoys the friday beers.
+2013-07-24 14:16:08	hackygolucky_	alright. Sending out the participant email...
+2013-07-24 14:19:32	-->	adamdicarlo (~adamdicar@a-129-196-226-239.ext.fluke.com) has joined #pdxnodebots
+2013-07-24 15:12:15	randallagordon	say whaaaat? DIY screenprinting area!? score!
+2013-07-24 15:13:08	hackygolucky_	randallagordon: you can thanks the awesome thoward for that.
+2013-07-24 15:13:17	hackygolucky_	s/thanks/thank
+2013-07-24 15:13:47	randallagordon	!m thoward
+2013-07-24 15:13:47	ZenWraithBot	You're doing great work thoward!
+2013-07-24 15:16:31	randallagordon	I'm planning on BYOHing some of my goodies...including a Vex robotics kit (unfortunately retired RadioShack gear) which can be frakenstined to be controlled by J5
+2013-07-24 15:17:28	hackygolucky_	ooooh
+2013-07-24 15:24:09	randallagordon	whoa. Vex is still around, just selling direct now. epic! And here I was thinking I was sitting on gear I couldn't get new parts for, hah
+2013-07-24 15:38:08	<--	adamdicarlo (~adamdicar@a-129-196-226-239.ext.fluke.com) has quit (Read error: Connection reset by peer)
+2013-07-24 15:58:56	-->	adamdicarlo (~adamdicar@75-150-34-209-Oregon.hfc.comcastbusiness.net) has joined #pdxnodebots
+2013-07-24 16:19:22	-->	jondelamotte (~jondelamo@li91-204.members.linode.com) has joined #pdxnodebots
+2013-07-24 17:15:44	Wraithan	I learned a bit about electricity last night
+2013-07-24 17:15:48	Wraithan	burned out a couple LEDs
+2013-07-24 17:15:59	Wraithan	including the red LED in two of my rotary encoders
+2013-07-24 17:16:11	hackygolucky_	oh no!
+2013-07-24 17:16:14	Wraithan	Also they sent me the wrong ones, I ordered the RGB ones and they sent me the RG ones
+2013-07-24 17:16:42	Wraithan	I'm going to take a picture of them and email them to see if I can't get the right ones from them
+2013-07-24 17:35:45	-->	xobbob (~xobbob@c-24-20-193-173.hsd1.or.comcast.net) has joined #pdxnodebots
+2013-07-24 17:36:32	JSON_voorheez	got the logo for the front of the zine done if you wanna check it out http://i.imgur.com/ortb98D.png
+2013-07-24 17:36:39	JSON_voorheez	still gotta clean up the font and stuff but ehh...
+2013-07-24 17:36:52	JSON_voorheez	its like old crass covers :)
+2013-07-24 17:49:30	xobbob	Hi. I'm looking forward to coming to nodebots day. Just got the reminder mail. Can anyone tell me what's up with the starter kit?
+2013-07-24 17:55:20	adamdicarlo	xobbob, they've been buying up hardware for the event... so if your question is "do i have to bring this stuff", nope, I don't think so
+2013-07-24 17:56:13	xobbob	Cool. So, it's stuff we use while we're there so we don't all have to bring our own?
+2013-07-24 17:58:12	Wraithan	xobbob: you are welcome to bring your own, but you don't have
+2013-07-24 17:59:21	xobbob	Wraithan: OK. Thanks.
+2013-07-24 18:02:57	Wraithan	I'll be bringing the gear I'm working on, which is more hardware problem than node probems
+2013-07-24 18:03:07	Wraithan	Also I am bad at electricity
+2013-07-24 18:08:59	xobbob	I'm new to this, so looking forward to seeing what everyone is up to ...
+2013-07-24 18:25:24	emilyrose	wow 56 people
+2013-07-24 18:46:28	hackygolucky_	!m JSON_voorheez
+2013-07-24 18:46:29	ZenWraithBot	You're doing great work JSON_voorheez!
+2013-07-24 18:46:31	hackygolucky_	dude, awesome.
+2013-07-24 18:46:45	hackygolucky_	also emilyrose YUH. lots o' people.
+2013-07-24 18:46:48	hackygolucky_	should be interesting.
+2013-07-24 18:57:09	adamdicarlo	hackygolucky_, i've seen references to it being held at the "old" UA offices -- did you guys move?

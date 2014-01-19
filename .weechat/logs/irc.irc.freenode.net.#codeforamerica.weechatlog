@@ -1,0 +1,515 @@
+2013-07-11 23:13:53	-->	JSON_voorhees (~JSON_voor@c-24-20-145-106.hsd1.or.comcast.net) has joined #codeforamerica
+2013-07-11 23:13:53	--	Topic for #codeforamerica is "cfa_dog hello - Welcome to Code for America - make sure you Code for America today"
+2013-07-11 23:13:53	--	Topic set by ryanresella (~ryanresel@76-217-165-117.lightspeed.irvnca.sbcglobal.net) on Tue, 26 Feb 2013 10:59:13
+2013-07-11 23:13:53	--	Nicks #codeforamerica: [ahhrrr cfa_dog chrismetcalf devin_s fgregg_ fsargent jden jlord JSON_voorhees kaen meatballhat natebenes rch rresella tdfischer thschee thschee_ timfreund waltz_]
+2013-07-11 23:13:53	--	Channel #codeforamerica: 19 nicks (0 ops, 0 halfops, 0 voices, 19 normals)
+2013-07-11 23:13:54	--	Mode #codeforamerica [+cnt]
+2013-07-11 23:13:55	--	Channel created on Sat, 11 Feb 2012 19:53:26
+2013-07-11 23:16:33	JSON_voorhees	Is anybody here working on the howtocity project? https://github.com/codeforamerica/howtocity-web
+2013-07-11 23:17:14	JSON_voorhees	I'd like to do one of the landing pages but it the issues seems to be missing the screenshot/wireframes?
+2013-07-11 23:21:40	--	chrismetcalf is now known as zz_chrismetcalf
+2013-07-11 23:27:51	--	zz_chrismetcalf is now known as chrismetcalf
+2013-07-11 23:35:24	<--	devin_s (~devin_s@c-67-170-218-70.hsd1.ca.comcast.net) has quit (Ping timeout: 246 seconds)
+2013-07-11 23:37:00	-->	devin_s (~devin_s@c-67-170-218-70.hsd1.ca.comcast.net) has joined #codeforamerica
+2013-07-11 23:37:22	<--	devin_s (~devin_s@c-67-170-218-70.hsd1.ca.comcast.net) has quit (Client Quit)
+2013-07-12 00:03:47	-->	philipashlock (~philipash@199-117-24-167.dia.static.qwest.net) has joined #codeforamerica
+2013-07-12 00:41:13	<--	philipashlock (~philipash@199-117-24-167.dia.static.qwest.net) has quit (Quit: philipashlock)
+2013-07-12 00:47:31	--	chrismetcalf is now known as zz_chrismetcalf
+2013-07-12 10:34:00	--	irc: disconnected from server
+2013-07-12 10:34:29	-->	JSON_voorhees (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has joined #codeforamerica
+2013-07-12 10:34:29	--	Topic for #codeforamerica is "cfa_dog hello - Welcome to Code for America - make sure you Code for America today"
+2013-07-12 10:34:29	--	Topic set by ryanresella (~ryanresel@76-217-165-117.lightspeed.irvnca.sbcglobal.net) on Tue, 26 Feb 2013 10:59:13
+2013-07-12 10:34:30	--	Nicks #codeforamerica: [ahhrrr atogle cfa_dog copelco1 fgregg fsargent jden jlord JSON_voorhees kaen meatballhat natebenes nickyg philipashlock rch rresella ryanresella tdfischer thschee thschee_ timfreund waltz_ zz_chrismetcalf]
+2013-07-12 10:34:30	--	Channel #codeforamerica: 23 nicks (0 ops, 0 halfops, 0 voices, 23 normals)
+2013-07-12 10:34:41	--	Mode #codeforamerica [+cnt]
+2013-07-12 10:34:42	--	Channel created on Sat, 11 Feb 2012 19:53:26
+2013-07-12 10:46:37	-->	groovecoder (~groovecod@wsip-70-184-255-220.ok.ok.cox.net) has joined #codeforamerica
+2013-07-12 10:55:29	<--	groovecoder (~groovecod@wsip-70-184-255-220.ok.ok.cox.net) has quit (Ping timeout: 256 seconds)
+2013-07-12 11:03:39	-->	slifty (~slifty@pool-96-238-52-69.prvdri.fios.verizon.net) has joined #codeforamerica
+2013-07-12 11:04:21	<--	nickyg (~nick@2600:1000:b000:2dd:fd51:912c:ef3:4833) has quit (Ping timeout: 264 seconds)
+2013-07-12 11:09:43	-->	nickyg (~nick@2600:1000:b000:2dd:fd51:912c:ef3:4833) has joined #codeforamerica
+2013-07-12 11:10:36	<--	nickyg (~nick@2600:1000:b000:2dd:fd51:912c:ef3:4833) has quit (Client Quit)
+2013-07-12 11:12:47	-->	dthompson (~Adium@69-12-169-82.dedicated.static.sonic.net) has joined #codeforamerica
+2013-07-12 11:22:14	ahhrrr	JSON_voorhees: you could put a comment in the GH issues or email kansascity@codeforamerica.org for more info!
+2013-07-12 11:32:57	<--	philipashlock (~philipash@199-117-24-190.dia.static.qwest.net) has quit (Quit: philipashlock)
+2013-07-12 11:38:44	--	zz_chrismetcalf is now known as chrismetcalf
+2013-07-12 11:44:56	-->	kfogel (~Karl@74-92-190-113-Illinois.hfc.comcastbusiness.net) has joined #codeforamerica
+2013-07-21 22:38:26	-->	JSON_voorhees (~JSON_voor@c-67-189-34-0.hsd1.or.comcast.net) has joined #codeforamerica
+2013-07-21 22:38:26	--	Topic for #codeforamerica is "cfa_dog hello - Welcome to Code for America - make sure you Code for America today"
+2013-07-21 22:38:26	--	Topic set by ryanresella (~ryanresel@76-217-165-117.lightspeed.irvnca.sbcglobal.net) on Tue, 26 Feb 2013 10:59:13
+2013-07-21 22:38:26	--	Nicks #codeforamerica: [a2n ahhrrr cfa_dog copelco fgregg_ fsargent ghelleks jalbertbowdenii jden jlord_ JSON_voorhees kaen meatball2at meatballhat natebenes philipashlock rch rresella tdfischer thschee_ timfreund waltz zz_chrismetcalf]
+2013-07-21 22:38:26	--	Channel #codeforamerica: 23 nicks (0 ops, 0 halfops, 0 voices, 23 normals)
+2013-07-21 22:38:28	--	Mode #codeforamerica [+cnt]
+2013-07-21 22:38:28	--	Channel created on Sat, 11 Feb 2012 19:53:26
+2013-07-21 22:40:15	-->	dthompson (~Adium@99-36-160-116.lightspeed.sntcca.sbcglobal.net) has joined #codeforamerica
+2013-07-21 22:44:23	<--	dthompson (~Adium@99-36-160-116.lightspeed.sntcca.sbcglobal.net) has quit (Ping timeout: 240 seconds)
+2013-07-21 22:49:59	-->	slifty (~slifty@76.124.247.47) has joined #codeforamerica
+2013-07-21 22:58:53	<--	slifty (~slifty@76.124.247.47) has quit (Ping timeout: 240 seconds)
+2013-07-21 23:41:19	-->	dthompson (~Adium@2602:306:324a:740:45fa:c6bb:d5c1:2bd3) has joined #codeforamerica
+2013-07-21 23:45:26	<--	dthompson (~Adium@2602:306:324a:740:45fa:c6bb:d5c1:2bd3) has quit (Ping timeout: 240 seconds)
+2013-07-21 23:45:38	<--	jalbertbowdenii (~albert@ip98-183-217-12.hr.hr.cox.net) has quit (Quit: Leaving.)
+2013-07-21 23:46:59	-->	MarkBrenig (~Adium@c-98-210-129-145.hsd1.ca.comcast.net) has joined #codeforamerica
+2013-07-21 23:55:28	-->	slifty|avoiding_ (~slifty@76.124.247.47) has joined #codeforamerica
+2013-07-22 00:00:20	<--	slifty|avoiding_ (~slifty@76.124.247.47) has quit (Ping timeout: 268 seconds)
+2013-07-22 00:34:42	<--	MarkBrenig (~Adium@c-98-210-129-145.hsd1.ca.comcast.net) has quit (Quit: Leaving.)
+2013-07-22 00:41:42	-->	dthompson (~Adium@99-36-160-116.lightspeed.sntcca.sbcglobal.net) has joined #codeforamerica
+2013-07-22 00:46:18	<--	dthompson (~Adium@99-36-160-116.lightspeed.sntcca.sbcglobal.net) has quit (Ping timeout: 264 seconds)
+2013-07-22 00:55:45	-->	slifty (~slifty@76.124.247.47) has joined #codeforamerica
+2013-07-22 01:00:08	<--	slifty (~slifty@76.124.247.47) has quit (Ping timeout: 245 seconds)
+2013-07-22 01:56:04	-->	slifty (~slifty@76.124.247.47) has joined #codeforamerica
+2013-07-22 02:00:34	<--	slifty (~slifty@76.124.247.47) has quit (Ping timeout: 268 seconds)
+2013-07-22 02:22:27	-->	nickyg (~nick@209.117.47.248) has joined #codeforamerica
+2013-07-22 02:34:53	<--	nickyg (~nick@209.117.47.248) has quit (Quit: nickyg)
+2013-07-22 02:42:18	-->	dthompson (~Adium@99-36-160-116.lightspeed.sntcca.sbcglobal.net) has joined #codeforamerica
+2013-07-22 02:46:49	<--	dthompson (~Adium@99-36-160-116.lightspeed.sntcca.sbcglobal.net) has quit (Ping timeout: 268 seconds)
+2013-07-22 02:56:30	-->	slifty (~slifty@76.124.247.47) has joined #codeforamerica
+2013-07-22 03:01:22	<--	slifty (~slifty@76.124.247.47) has quit (Ping timeout: 276 seconds)
+2013-07-22 03:10:46	-->	nickyg (~nick@12.130.125.77) has joined #codeforamerica
+2013-07-22 03:18:06	-->	derekeder (~derekeder@c-69-245-247-229.hsd1.il.comcast.net) has joined #codeforamerica
+2013-07-22 03:22:16	<--	derekeder (~derekeder@c-69-245-247-229.hsd1.il.comcast.net) has quit (Ping timeout: 246 seconds)
+2013-07-22 03:33:54	<--	nickyg (~nick@12.130.125.77) has quit (Quit: nickyg)
+2013-07-22 03:42:41	-->	dthompson (~Adium@99-36-160-116.lightspeed.sntcca.sbcglobal.net) has joined #codeforamerica
+2013-07-22 03:47:31	<--	dthompson (~Adium@99-36-160-116.lightspeed.sntcca.sbcglobal.net) has quit (Ping timeout: 276 seconds)
+2013-07-22 03:56:56	-->	slifty (~slifty@76.124.247.47) has joined #codeforamerica
+2013-07-22 04:01:21	<--	slifty (~slifty@76.124.247.47) has quit (Ping timeout: 264 seconds)
+2013-07-22 04:11:09	-->	nickyg (~nick@2600:1001:b108:1af:5de4:2c84:12ce:3f56) has joined #codeforamerica
+2013-07-22 04:21:19	<--	nickyg (~nick@2600:1001:b108:1af:5de4:2c84:12ce:3f56) has quit (Read error: Connection reset by peer)
+2013-07-22 04:21:34	-->	nickyg (~nick@2600:1001:b108:1af:5de4:2c84:12ce:3f56) has joined #codeforamerica
+2013-07-22 04:28:31	<--	nickyg (~nick@2600:1001:b108:1af:5de4:2c84:12ce:3f56) has quit (Quit: nickyg)
+2013-07-22 04:37:50	-->	nickyg (~nick@208.185.18.90) has joined #codeforamerica
+2013-07-22 04:43:04	-->	dthompson (~Adium@99-36-160-116.lightspeed.sntcca.sbcglobal.net) has joined #codeforamerica
+2013-07-22 04:47:17	<--	dthompson (~Adium@99-36-160-116.lightspeed.sntcca.sbcglobal.net) has quit (Ping timeout: 248 seconds)
+2013-07-22 09:48:14	--	irc: disconnected from server
+2013-07-22 09:50:00	-->	JSON_voorhees (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has joined #codeforamerica
+2013-07-22 09:50:00	--	Topic for #codeforamerica is "cfa_dog hello - Welcome to Code for America - make sure you Code for America today"
+2013-07-22 09:50:00	--	Topic set by ryanresella (~ryanresel@76-217-165-117.lightspeed.irvnca.sbcglobal.net) on Tue, 26 Feb 2013 10:59:13
+2013-07-22 09:50:00	--	Nicks #codeforamerica: [a2n ahhrrr atogle cfa_dog copelco dthompson fgregg_ fkh fsargent ghelleks jden jlord_ JSON_voorhees kaen kfogel kmcurry meatball2at meatballhat mjumbewu_ natebenes philipashlock rch rresella thschee_ timfreund waltz zz_chrismetcalf zzolo]
+2013-07-22 09:50:00	--	Channel #codeforamerica: 28 nicks (0 ops, 0 halfops, 0 voices, 28 normals)
+2013-07-22 09:50:10	--	Mode #codeforamerica [+cnt]
+2013-07-22 09:50:10	--	Channel created on Sat, 11 Feb 2012 19:53:26
+2013-07-22 09:52:54	-->	tdfischer (~quassel@kde/tdfischer) has joined #codeforamerica
+2013-07-22 10:02:40	-->	nickyg (~nick@208.185.18.90) has joined #codeforamerica
+2013-07-22 10:11:17	--	zz_chrismetcalf is now known as chrismetcalf
+2013-07-22 10:13:23	-->	dthompson1 (~Adium@69-12-169-82.dedicated.static.sonic.net) has joined #codeforamerica
+2013-07-22 10:13:23	<--	dthompson (~Adium@69-12-169-82.dedicated.static.sonic.net) has quit (Read error: Connection reset by peer)
+2013-07-22 10:18:06	<--	mjumbewu_ (~mjumbewu@173-12-5-73-Philadelphia.hfc.comcastbusiness.net) has quit (Ping timeout: 240 seconds)
+2013-07-22 10:31:51	--	chrismetcalf is now known as zz_chrismetcalf
+2013-07-22 10:35:44	 *	kfogel is away: Alas, missing OSCON this year, http://www.rants.org/2013/07/22/missing-oscon-this-year/
+2013-07-22 10:42:39	-->	jj0hns0n (~jj0hns0n@ip68-6-252-34.sd.sd.cox.net) has joined #codeforamerica
+2013-07-22 10:42:45	natebenes	Current MS access status: https://nben.es/temp/access.png
+2013-07-22 10:44:25	-->	ryanresella (~ryanresel@216.55.31.130) has joined #codeforamerica
+2013-07-22 10:53:23	--	zz_chrismetcalf is now known as chrismetcalf
+2013-07-22 10:56:23	<--	ryanresella (~ryanresel@216.55.31.130) has quit (Quit: ryanresella)
+2013-07-22 10:56:34	<--	kmcurry (~Adium@pool-173-50-79-113.nrflva.fios.verizon.net) has quit (Quit: Leaving.)
+2013-07-22 11:00:38	<--	zzolo (~zzolo@c-75-72-229-64.hsd1.mn.comcast.net) has quit (Quit: zzolo)
+2013-07-22 11:03:33	-->	BretFisher (~BretFishe@ip72-218-1-58.hr.hr.cox.net) has joined #codeforamerica
+2013-07-22 11:10:16	-->	mjumbewu_ (~mjumbewu@184.77.160.118) has joined #codeforamerica
+2013-07-22 11:14:31	--	jlord_ is now known as jlord
+2013-07-22 11:15:12	<--	nickyg (~nick@208.185.18.90) has quit (Quit: nickyg)
+2013-07-22 11:19:35	-->	nickyg (~nick@208.185.18.90) has joined #codeforamerica
+2013-07-22 11:23:05	<--	nickyg (~nick@208.185.18.90) has quit (Client Quit)
+2013-07-22 11:45:33	<--	fkh (fkh@nat/openplans.org/x-xonnvpochmpnsmdy) has quit (Quit: fkh)
+2013-07-22 11:47:30	-->	fkh (fkh@nat/openplans.org/x-jojuvygsaoyuqchc) has joined #codeforamerica
+2013-07-22 11:53:13	-->	zzolo (~zzolo@64.122.82.106) has joined #codeforamerica
+2013-07-22 12:10:51	--	chrismetcalf is now known as zz_chrismetcalf
+2013-07-22 12:23:39	--	zz_chrismetcalf is now known as chrismetcalf
+2013-07-22 12:30:19	<--	atogle (~textual@173-12-5-73-Philadelphia.hfc.comcastbusiness.net) has quit (Quit: Computer has gone to sleep.)
+2013-07-22 12:35:43	-->	nickyg (~nick@208.185.18.90) has joined #codeforamerica
+2013-07-22 12:56:10	-->	nickyg_ (~nick@208.185.18.90) has joined #codeforamerica
+2013-07-22 13:00:14	<--	nickyg (~nick@208.185.18.90) has quit (Ping timeout: 256 seconds)
+2013-07-22 13:00:14	--	nickyg_ is now known as nickyg
+2013-07-22 13:03:06	<--	nickyg (~nick@208.185.18.90) has quit (Quit: nickyg)
+2013-07-22 13:03:24	<--	fkh (fkh@nat/openplans.org/x-jojuvygsaoyuqchc) has quit (Quit: fkh)
+2013-07-22 13:05:17	-->	nickyg (~nick@208.185.18.90) has joined #codeforamerica
+2013-07-22 13:07:05	-->	fkh (fkh@nat/openplans.org/x-vvmejkysyrsfjzrr) has joined #codeforamerica
+2013-07-22 13:10:13	<--	fkh (fkh@nat/openplans.org/x-vvmejkysyrsfjzrr) has quit (Client Quit)
+2013-07-22 13:16:45	-->	fkh (fkh@nat/openplans.org/x-msyqopqcehqxjfwj) has joined #codeforamerica
+2013-07-22 13:34:29	<--	timfreund (~tim@50-192-3-201-static.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2013-07-22 13:45:03	-->	timfreund (~tim@50-192-3-201-static.hfc.comcastbusiness.net) has joined #codeforamerica
+2013-07-22 13:45:12	<--	nickyg (~nick@208.185.18.90) has quit (Quit: nickyg)
+2013-07-22 13:57:06	--	ghelleks is now known as ghelleks_afk
+2013-07-22 13:57:20	-->	nickyg (~nick@208.185.18.90) has joined #codeforamerica
+2013-07-22 13:59:13	<--	nickyg (~nick@208.185.18.90) has quit (Client Quit)
+2013-07-22 14:10:01	--	ghelleks_afk is now known as ghelleks
+2013-07-22 14:14:14	-->	ryanresella (~ryanresel@67.23.204.2) has joined #codeforamerica
+2013-07-22 14:25:56	-->	nickyg (~nick@208.185.18.90) has joined #codeforamerica
+2013-07-22 14:26:00	-->	groovecoder (~groovecod@4.31.68.69) has joined #codeforamerica
+2013-07-22 14:26:29	--	ghelleks is now known as ghelleks_afk
+2013-07-22 14:29:32	<--	nickyg (~nick@208.185.18.90) has quit (Client Quit)
+2013-07-22 14:36:49	<--	copelco (~copelco@rrcs-108-169-138-218.midsouth.biz.rr.com) has quit (Quit: Leaving.)
+2013-07-22 14:39:13	-->	nickyg (~nick@208.185.18.90) has joined #codeforamerica
+2013-07-22 14:52:39	<--	groovecoder (~groovecod@4.31.68.69) has quit (Ping timeout: 268 seconds)
+2013-07-22 14:56:17	<--	nickyg (~nick@208.185.18.90) has quit (Quit: nickyg)
+2013-07-22 14:57:18	-->	nickyg (~nick@208.185.18.90) has joined #codeforamerica
+2013-07-22 15:00:43	<--	zzolo (~zzolo@64.122.82.106) has quit (Quit: zzolo)
+2013-07-22 15:07:46	<--	kfogel (~Karl@74-92-190-113-Illinois.hfc.comcastbusiness.net) has quit (Quit: Off to the Big Room.)
+2013-07-22 15:17:29	<--	nickyg (~nick@208.185.18.90) has quit (Quit: nickyg)
+2013-07-22 15:20:04	-->	groovecoder (~groovecod@c-68-49-70-108.hsd1.dc.comcast.net) has joined #codeforamerica
+2013-07-22 15:29:02	<--	groovecoder (~groovecod@c-68-49-70-108.hsd1.dc.comcast.net) has quit (Ping timeout: 268 seconds)
+2013-07-22 15:42:17	<--	ryanresella (~ryanresel@67.23.204.2) has quit (Quit: ryanresella)
+2013-07-22 15:53:01	--	irc: disconnected from server
+2013-07-22 15:53:26	-->	JSON_voorheez (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has joined #codeforamerica
+2013-07-22 15:53:26	--	Topic for #codeforamerica is "cfa_dog hello - Welcome to Code for America - make sure you Code for America today"
+2013-07-22 15:53:26	--	Topic set by ryanresella (~ryanresel@76-217-165-117.lightspeed.irvnca.sbcglobal.net) on Tue, 26 Feb 2013 10:59:13
+2013-07-22 15:53:26	--	Nicks #codeforamerica: [a2n ahhrrr BretFisher cfa_dog chrismetcalf dthompson1 fgregg_ fkh fsargent ghelleks_afk jden jj0hns0n jlord JSON_voorhees JSON_voorheez kaen meatball2at meatballhat mjumbewu_ natebenes philipashlock rch rresella tdfischer thschee_ timfreund waltz zzolo]
+2013-07-22 15:53:26	--	Channel #codeforamerica: 28 nicks (0 ops, 0 halfops, 0 voices, 28 normals)
+2013-07-22 15:53:36	--	Mode #codeforamerica [+cnt]
+2013-07-22 15:53:36	--	Channel created on Sat, 11 Feb 2012 19:53:26
+2013-07-22 15:56:08	-->	rresella_ (rresella@angel.dopeman.org) has joined #codeforamerica
+2013-07-22 16:00:12	-->	tylerstalder (~tylerstal@184.23.0.5) has joined #codeforamerica
+2013-07-22 16:00:38	<--	JSON_voorhees (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has quit (*.net *.split)
+2013-07-22 16:00:39	<--	rresella (rresella@angel.dopeman.org) has quit (*.net *.split)
+2013-07-22 16:10:03	--	chrismetcalf is now known as zz_chrismetcalf
+2013-07-22 16:10:39	<--	tylerstalder (~tylerstal@184.23.0.5) has quit (Quit: Computer has gone to sleep.)
+2013-07-22 16:12:40	--	zz_chrismetcalf is now known as chrismetcalf
+2013-07-22 16:20:02	-->	tylerstalder (~tylerstal@184.23.0.5) has joined #codeforamerica
+2013-07-22 16:21:58	<--	dthompson1 (~Adium@69-12-169-82.dedicated.static.sonic.net) has quit (Quit: Leaving.)
+2013-07-22 16:24:19	-->	dthompson (~Adium@69-12-169-82.dedicated.static.sonic.net) has joined #codeforamerica
+2013-07-22 16:28:56	<--	mjumbewu_ (~mjumbewu@184.77.160.118) has quit (Ping timeout: 240 seconds)
+2013-07-22 16:40:46	-->	ryanresella (~ryanresel@161.sub-70-199-225.myvzw.com) has joined #codeforamerica
+2013-07-22 16:54:48	<--	philipashlock (~philipash@c-68-48-250-101.hsd1.dc.comcast.net) has quit (Quit: philipashlock)
+2013-07-22 17:07:00	<--	zzolo (~zzolo@c-75-72-229-64.hsd1.mn.comcast.net) has quit (Quit: zzolo)
+2013-07-22 17:08:20	<--	dthompson (~Adium@69-12-169-82.dedicated.static.sonic.net) has quit (Quit: Leaving.)
+2013-07-22 17:21:21	<--	jj0hns0n (~jj0hns0n@ip68-6-252-34.sd.sd.cox.net) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2013-07-22 17:23:28	-->	copelco (~copelco@cpe-098-122-181-082.nc.res.rr.com) has joined #codeforamerica
+2013-07-22 17:31:02	<--	cfa_dog (~nodebot@ec2-54-226-129-225.compute-1.amazonaws.com) has quit (Remote host closed the connection)
+2013-07-22 17:31:32	-->	cfa_dog (~nodebot@ec2-23-20-170-238.compute-1.amazonaws.com) has joined #codeforamerica
+2013-07-22 17:33:04	-->	mjumbewu_ (~mjumbewu@174.141.134.80) has joined #codeforamerica
+2013-07-22 17:36:46	<--	copelco (~copelco@cpe-098-122-181-082.nc.res.rr.com) has quit (Ping timeout: 256 seconds)
+2013-07-22 17:39:15	-->	copelco (~copelco@cpe-098-122-181-082.nc.res.rr.com) has joined #codeforamerica
+2013-07-22 17:50:58	<--	ryanresella (~ryanresel@161.sub-70-199-225.myvzw.com) has quit (Ping timeout: 245 seconds)
+2013-07-22 22:27:21	--	irc: disconnected from server
+2013-07-22 22:28:06	-->	JSON_voorheez (~JSON_voor@67.189.34.0) has joined #codeforamerica
+2013-07-22 22:28:06	--	Topic for #codeforamerica is "cfa_dog hello - Welcome to Code for America - make sure you Code for America today"
+2013-07-22 22:28:06	--	Topic set by ryanresella (~ryanresel@76-217-165-117.lightspeed.irvnca.sbcglobal.net) on Tue, 26 Feb 2013 10:59:13
+2013-07-22 22:28:06	--	Nicks #codeforamerica: [a2n ahhrrr cfa_dog fgregg_ fsargent ghelleks_afk jden jlord JSON_voorheez kaen meatball2at meatballhat natebenes philipashlock rch rresella_ tdfischer thschee_ timfreund tylerstalder waltz zz_chrismetcalf]
+2013-07-22 22:28:06	--	Channel #codeforamerica: 22 nicks (0 ops, 0 halfops, 0 voices, 22 normals)
+2013-07-22 22:28:16	--	Mode #codeforamerica [+cnt]
+2013-07-22 22:28:16	--	Channel created on Sat, 11 Feb 2012 19:53:26
+2013-07-22 22:32:54	-->	slifty (~slifty@pool-96-238-52-69.prvdri.fios.verizon.net) has joined #codeforamerica
+2013-07-22 23:02:23	<--	slifty (~slifty@pool-96-238-52-69.prvdri.fios.verizon.net) has quit (Quit: Leaving...)
+2013-07-22 23:10:37	-->	MarkBrenig (~Adium@c-98-210-129-145.hsd1.ca.comcast.net) has joined #codeforamerica
+2013-07-22 23:18:46	--	irc: disconnected from server
+2013-07-22 23:19:13	-->	JSON_voorheez (~JSON_voor@c-67-189-34-0.hsd1.or.comcast.net) has joined #codeforamerica
+2013-07-22 23:19:13	--	Topic for #codeforamerica is "cfa_dog hello - Welcome to Code for America - make sure you Code for America today"
+2013-07-22 23:19:13	--	Topic set by ryanresella (~ryanresel@76-217-165-117.lightspeed.irvnca.sbcglobal.net) on Tue, 26 Feb 2013 10:59:13
+2013-07-22 23:19:13	--	Nicks #codeforamerica: [a2n ahhrrr cfa_dog fgregg_ fsargent ghelleks_afk jden jlord JSON_voorheez kaen MarkBrenig meatball2at meatballhat natebenes philipashlock rch rresella_ tdfischer thschee_ timfreund tylerstalder waltz zz_chrismetcalf]
+2013-07-22 23:19:13	--	Channel #codeforamerica: 23 nicks (0 ops, 0 halfops, 0 voices, 23 normals)
+2013-07-22 23:19:23	--	Mode #codeforamerica [+cnt]
+2013-07-22 23:19:23	--	Channel created on Sat, 11 Feb 2012 19:53:26
+2013-07-23 07:03:35	--	irc: disconnected from server
+2013-07-23 07:04:21	-->	JSON_voorheez (~JSON_voor@c-67-189-34-0.hsd1.or.comcast.net) has joined #codeforamerica
+2013-07-23 07:04:21	--	Topic for #codeforamerica is "cfa_dog hello - Welcome to Code for America - make sure you Code for America today"
+2013-07-23 07:04:21	--	Topic set by ryanresella (~ryanresel@76-217-165-117.lightspeed.irvnca.sbcglobal.net) on Tue, 26 Feb 2013 10:59:13
+2013-07-23 07:04:21	--	Nicks #codeforamerica: [a2n ahhrrr atogle BretFisher cfa_dog chrismetcalf copelco fgregg_ fkh fsargent ghelleks_afk jden jlord JSON_voorheez kaen meatball2at meatballhat natebenes philipashlock rch rresella_ slifty tdfischer thschee_ timfreund waltz zzolo]
+2013-07-23 07:04:21	--	Channel #codeforamerica: 27 nicks (0 ops, 0 halfops, 0 voices, 27 normals)
+2013-07-23 07:04:29	--	Mode #codeforamerica [+cnt]
+2013-07-23 07:04:29	--	Channel created on Sat, 11 Feb 2012 19:53:26
+2013-07-23 07:11:48	--	chrismetcalf is now known as zz_chrismetcalf
+2013-07-23 07:14:15	<--	philipashlock (~philipash@c-68-48-250-101.hsd1.dc.comcast.net) has quit (Quit: philipashlock)
+2013-07-23 07:16:29	-->	MarkBrenig (~Adium@c-98-210-129-145.hsd1.ca.comcast.net) has joined #codeforamerica
+2013-07-23 07:17:10	<--	MarkBrenig (~Adium@c-98-210-129-145.hsd1.ca.comcast.net) has quit (Read error: Connection reset by peer)
+2013-07-23 07:17:19	-->	MarkBrenig (~Adium@c-98-210-129-145.hsd1.ca.comcast.net) has joined #codeforamerica
+2013-07-23 07:19:11	-->	philipashlock (~philipash@c-68-48-250-101.hsd1.dc.comcast.net) has joined #codeforamerica
+2013-07-23 07:32:41	--	zz_chrismetcalf is now known as chrismetcalf
+2013-07-23 07:33:41	-->	kfogel (~Karl@74-92-190-113-Illinois.hfc.comcastbusiness.net) has joined #codeforamerica
+2013-07-23 07:43:34	<--	MarkBrenig (~Adium@c-98-210-129-145.hsd1.ca.comcast.net) has quit (Quit: Leaving.)
+2013-07-23 07:46:08	--	chrismetcalf is now known as zz_chrismetcalf
+2013-07-23 07:48:45	-->	MarkBrenig (~Adium@c-98-210-129-145.hsd1.ca.comcast.net) has joined #codeforamerica
+2013-07-23 08:46:36	--	irc: disconnected from server
+2013-07-23 08:47:00	-->	JSON_voorheez (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has joined #codeforamerica
+2013-07-23 08:47:00	--	Topic for #codeforamerica is "cfa_dog hello - Welcome to Code for America - make sure you Code for America today"
+2013-07-23 08:47:00	--	Topic set by ryanresella (~ryanresel@76-217-165-117.lightspeed.irvnca.sbcglobal.net) on Tue, 26 Feb 2013 10:59:13
+2013-07-23 08:47:00	--	Nicks #codeforamerica: [a2n ahhrrr atogle BretFisher cfa_dog chrismetcalf copelco fgregg_ fkh fsargent ghelleks_afk jalbertbowdenii jden jj0hns0n jlord JSON_voorheez kaen kfogel meatball2at meatballhat natebenes nickyg rch rresella_ slifty tdfischer thschee_ timfreund waltz zzolo]
+2013-07-23 08:47:00	--	Channel #codeforamerica: 30 nicks (0 ops, 0 halfops, 0 voices, 30 normals)
+2013-07-23 08:47:10	--	Mode #codeforamerica [+cnt]
+2013-07-23 08:47:10	--	Channel created on Sat, 11 Feb 2012 19:53:26
+2013-07-23 09:17:23	jj0hns0n	hi all, is there someway I can generate a short url using the c4a.me?
+2013-07-23 09:22:10	 *	kfogel is away: Neither hunting nor gathering.
+2013-07-23 09:28:57	-->	ryanresella (~ryanresel@c-67-168-227-108.hsd1.or.comcast.net) has joined #codeforamerica
+2013-07-23 09:38:26	-->	tylerstalder (~tylerstal@184.23.0.5) has joined #codeforamerica
+2013-07-23 09:44:13	<--	BretFisher (~BretFishe@ip72-218-1-58.hr.hr.cox.net) has quit
+2013-07-23 09:48:37	-->	BretFisher (~BretFishe@ip72-218-1-58.hr.hr.cox.net) has joined #codeforamerica
+2013-07-23 09:51:02	<--	atogle (textual@nat/openplans.org/x-uzpfretncujkgajb) has quit (Quit: Computer has gone to sleep.)
+2013-07-23 09:51:10	-->	mchung (~mchung@64.125.69.200) has joined #codeforamerica
+2013-07-23 09:57:55	<--	mchung (~mchung@64.125.69.200) has quit (Quit: mchung)
+2013-07-23 09:58:18	natebenes	jj0hns0n: It's powered by bit.ly, I don't know who controls it though.
+2013-07-23 10:00:17	jj0hns0n	okie dokie, I will just use bitly for now unless someone knows
+2013-07-23 10:00:40	-->	mchung (~mchung@64.125.69.200) has joined #codeforamerica
+2013-07-23 10:02:30	ryanresella	it uses bit.ly enterprise ..so technically and codeforamerica.org link should change it to a c4a.me link
+2013-07-23 10:03:05	jj0hns0n	ah, ok, no way to generate another link for another site then I guess
+2013-07-23 10:17:37	-->	atogle (textual@nat/openplans.org/x-hbpuhywfrywruedx) has joined #codeforamerica
+2013-07-23 10:22:52	<--	ryanresella (~ryanresel@c-67-168-227-108.hsd1.or.comcast.net) has quit (Quit: ryanresella)
+2013-07-23 10:26:25	-->	dthompson (~Adium@69-12-169-82.dedicated.static.sonic.net) has joined #codeforamerica
+2013-07-23 10:28:44	-->	devin_s (~devin_s@8.18.203.252) has joined #codeforamerica
+2013-07-23 10:34:45	-->	ryanresella (~ryanresel@c-50-139-45-17.hsd1.or.comcast.net) has joined #codeforamerica
+2013-07-23 10:37:13	<--	slifty (~slifty@pool-96-238-52-69.prvdri.fios.verizon.net) has quit (Quit: Leaving...)
+2013-07-23 10:38:37	ryanresella	i don't think so, but you can ask someone that has access to it .. might work
+2013-07-23 10:47:24	<--	mchung (~mchung@64.125.69.200) has quit (Remote host closed the connection)
+2013-07-23 10:57:41	-->	slifty (~slifty@96.238.52.69) has joined #codeforamerica
+2013-07-23 11:09:12	-->	philipashlock (~philipash@c-68-48-250-101.hsd1.dc.comcast.net) has joined #codeforamerica
+2013-07-23 11:12:56	<--	philipashlock (~philipash@c-68-48-250-101.hsd1.dc.comcast.net) has quit (Read error: No route to host)
+2013-07-23 11:16:49	-->	philipashlock (~philipash@c-68-48-250-101.hsd1.dc.comcast.net) has joined #codeforamerica
+2013-07-23 11:26:55	--	chrismetcalf is now known as zz_chrismetcalf
+2013-07-23 11:26:56	<--	philipashlock (~philipash@c-68-48-250-101.hsd1.dc.comcast.net) has quit (Quit: philipashlock)
+2013-07-23 11:33:29	<--	devin_s (~devin_s@8.18.203.252) has quit (Ping timeout: 245 seconds)
+2013-07-23 11:35:29	--	zz_chrismetcalf is now known as chrismetcalf
+2013-07-23 11:38:44	<--	dthompson (~Adium@69-12-169-82.dedicated.static.sonic.net) has quit (Quit: Leaving.)
+2013-07-23 11:47:30	<--	zzolo (~zzolo@c-75-72-229-64.hsd1.mn.comcast.net) has quit (Quit: zzolo)
+2013-07-23 11:47:40	<--	ryanresella (~ryanresel@c-50-139-45-17.hsd1.or.comcast.net) has quit (Quit: ryanresella)
+2013-07-23 11:51:26	<--	slifty (~slifty@96.238.52.69) has quit (Quit: Leaving...)
+2013-07-23 12:00:07	--	chrismetcalf is now known as zz_chrismetcalf
+2013-07-23 12:01:16	<--	fkh (fkh@nat/openplans.org/x-gsolquzbhdqdsjsv) has quit (Quit: fkh)
+2013-07-23 12:01:22	-->	dthompson (~Adium@69-12-169-82.dedicated.static.sonic.net) has joined #codeforamerica
+2013-07-23 12:12:07	--	irc: disconnected from server
+2013-07-23 12:12:32	-->	JSON_voorheez (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has joined #codeforamerica
+2013-07-23 12:12:32	--	Topic for #codeforamerica is "cfa_dog hello - Welcome to Code for America - make sure you Code for America today"
+2013-07-23 12:12:32	--	Topic set by ryanresella (~ryanresel@76-217-165-117.lightspeed.irvnca.sbcglobal.net) on Tue, 26 Feb 2013 10:59:13
+2013-07-23 12:12:32	--	Nicks #codeforamerica: [a2n ahhrrr atogle BretFisher cfa_dog chrismetcalf copelco dthompson fgregg_ fsargent ghelleks_afk jalbertbowdenii jden jj0hns0n jlord JSON_voorheez kaen kfogel meatball2at meatballhat natebenes nickyg rch rresella_ tdfischer thschee_ timfreund tylerstalder waltz zzolo]
+2013-07-23 12:12:32	--	Channel #codeforamerica: 30 nicks (0 ops, 0 halfops, 0 voices, 30 normals)
+2013-07-23 12:12:42	--	Mode #codeforamerica [+cnt]
+2013-07-23 12:12:42	--	Channel created on Sat, 11 Feb 2012 19:53:26
+2013-07-23 12:16:06	-->	ryanresella (~ryanresel@67.23.204.2) has joined #codeforamerica
+2013-07-23 12:19:07	-->	slifty (~slifty@pool-96-238-52-69.prvdri.fios.verizon.net) has joined #codeforamerica
+2013-07-23 12:19:55	<--	jj0hns0n (~jj0hns0n@ip68-6-252-34.sd.sd.cox.net) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2013-07-23 12:22:45	-->	philipashlock (~philipash@c-68-48-250-101.hsd1.dc.comcast.net) has joined #codeforamerica
+2013-07-23 12:36:45	<--	slifty (~slifty@pool-96-238-52-69.prvdri.fios.verizon.net) has quit (Quit: Leaving...)
+2013-07-23 12:37:38	--	chrismetcalf is now known as zz_chrismetcalf
+2013-07-23 12:40:48	-->	slifty (~slifty@pool-96-238-52-69.prvdri.fios.verizon.net) has joined #codeforamerica
+2013-07-23 12:44:57	<--	jalbertbowdenii (~albert@ip98-183-210-51.hr.hr.cox.net) has quit (Quit: Leaving.)
+2013-07-23 12:48:44	--	zz_chrismetcalf is now known as chrismetcalf
+2013-07-23 12:54:34	<--	dthompson (~Adium@69-12-169-82.dedicated.static.sonic.net) has quit (Quit: Leaving.)
+2013-07-23 12:59:11	--	chrismetcalf is now known as zz_chrismetcalf
+2013-07-23 13:02:54	<--	nickyg (~nick@pool-108-49-223-206.bstnma.fios.verizon.net) has quit (Quit: nickyg)
+2013-07-23 13:03:07	-->	fkh (fkh@nat/openplans.org/x-wjomgpxbwxtuvnsl) has joined #codeforamerica
+2013-07-23 13:05:56	<--	fkh (fkh@nat/openplans.org/x-wjomgpxbwxtuvnsl) has quit (Client Quit)
+2013-07-23 13:05:59	--	zz_chrismetcalf is now known as chrismetcalf
+2013-07-23 13:06:38	-->	fkh (fkh@nat/openplans.org/x-mpflydmpayculshf) has joined #codeforamerica
+2013-07-23 13:08:54	-->	jj0hns0n (~jj0hns0n@ip68-6-252-34.sd.sd.cox.net) has joined #codeforamerica
+2013-07-23 13:10:41	<--	zzolo (~zzolo@63.231.245.97) has quit (Quit: zzolo)
+2013-07-23 13:12:13	<--	ryanresella (~ryanresel@67.23.204.2) has quit (Quit: ryanresella)
+2013-07-23 13:12:35	-->	zzolo (~zzolo@63.231.245.97) has joined #codeforamerica
+2013-07-23 13:18:41	-->	jalbertbowdenii (~albert@ip98-183-210-51.hr.hr.cox.net) has joined #codeforamerica
+2013-07-23 13:24:57	-->	dthompson (~Adium@69-12-169-82.dedicated.static.sonic.net) has joined #codeforamerica
+2013-07-23 13:27:27	<--	jalbertbowdenii (~albert@ip98-183-210-51.hr.hr.cox.net) has quit (Quit: Leaving.)
+2013-07-23 13:33:00	<--	dthompson (~Adium@69-12-169-82.dedicated.static.sonic.net) has quit (Ping timeout: 256 seconds)
+2013-07-23 13:35:26	--	chrismetcalf is now known as zz_chrismetcalf
+2013-07-23 13:44:01	<--	fkh (fkh@nat/openplans.org/x-mpflydmpayculshf) has quit (Quit: fkh)
+2013-07-23 13:58:19	-->	nickyg (~nick@pool-108-49-223-206.bstnma.fios.verizon.net) has joined #codeforamerica
+2013-07-23 13:58:32	<--	nickyg (~nick@pool-108-49-223-206.bstnma.fios.verizon.net) has quit (Client Quit)
+2013-07-23 14:12:21	-->	dthompson (~Adium@69-12-169-82.dedicated.static.sonic.net) has joined #codeforamerica
+2013-07-23 14:13:42	--	zz_chrismetcalf is now known as chrismetcalf
+2013-07-23 14:20:28	-->	fkh (fkh@nat/openplans.org/x-etcnigfadvdhfsjt) has joined #codeforamerica
+2013-07-23 14:24:14	<--	zzolo (~zzolo@63.231.245.97) has quit (Quit: zzolo)
+2013-07-23 14:27:40	<--	fkh (fkh@nat/openplans.org/x-etcnigfadvdhfsjt) has quit (Quit: fkh)
+2013-07-23 14:31:11	--	chrismetcalf is now known as zz_chrismetcalf
+2013-07-23 14:34:31	-->	fkh (fkh@nat/openplans.org/x-lprtabbrygjfhnbg) has joined #codeforamerica
+2013-07-23 14:34:41	-->	devin_s (~devin_s@8.18.203.252) has joined #codeforamerica
+2013-07-23 14:44:22	--	zz_chrismetcalf is now known as chrismetcalf
+2013-07-23 14:45:01	-->	zzolo (~zzolo@c-75-72-229-64.hsd1.mn.comcast.net) has joined #codeforamerica
+2013-07-23 14:54:53	<--	kfogel (~Karl@74-92-190-113-Illinois.hfc.comcastbusiness.net) has quit (Quit: Off to the Big Room.)
+2013-07-23 14:55:39	-->	jalbertbowdenii (~albert@ip98-183-210-51.hr.hr.cox.net) has joined #codeforamerica
+2013-07-23 14:57:48	-->	nickyg (~nick@pool-108-49-223-206.bstnma.fios.verizon.net) has joined #codeforamerica
+2013-07-23 14:59:19	<--	fkh (fkh@nat/openplans.org/x-lprtabbrygjfhnbg) has quit (Quit: fkh)
+2013-07-23 15:00:30	<--	zzolo (~zzolo@c-75-72-229-64.hsd1.mn.comcast.net) has quit (Quit: zzolo)
+2013-07-23 15:15:33	<--	nickyg (~nick@pool-108-49-223-206.bstnma.fios.verizon.net) has quit (Quit: nickyg)
+2013-07-23 15:18:20	-->	fkh (fkh@nat/openplans.org/x-aqwhabkobqaqemqo) has joined #codeforamerica
+2013-07-23 15:23:46	<--	atogle (textual@nat/openplans.org/x-hbpuhywfrywruedx) has quit (Quit: Computer has gone to sleep.)
+2013-07-23 15:35:21	-->	zzolo (~zzolo@c-75-72-215-115.hsd1.mn.comcast.net) has joined #codeforamerica
+2013-07-23 15:52:09	<--	jj0hns0n (~jj0hns0n@ip68-6-252-34.sd.sd.cox.net) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2013-07-23 15:53:19	-->	jj0hns0n (~jj0hns0n@ip68-6-252-34.sd.sd.cox.net) has joined #codeforamerica
+2013-07-23 15:54:01	<--	philipashlock (~philipash@c-68-48-250-101.hsd1.dc.comcast.net) has quit (Quit: philipashlock)
+2013-07-23 15:54:32	<--	fkh (fkh@nat/openplans.org/x-aqwhabkobqaqemqo) has quit (Quit: fkh)
+2013-07-23 15:55:53	<--	copelco (~copelco@rrcs-108-169-138-218.midsouth.biz.rr.com) has quit (Quit: Leaving.)
+2013-07-23 16:07:31	<--	dthompson (~Adium@69-12-169-82.dedicated.static.sonic.net) has quit (Quit: Leaving.)
+2013-07-23 16:39:31	--	irc: disconnected from server
+2013-07-23 16:39:57	-->	JSON_voorheez (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has joined #codeforamerica
+2013-07-23 16:39:57	--	Topic for #codeforamerica is "cfa_dog hello - Welcome to Code for America - make sure you Code for America today"
+2013-07-23 16:39:57	--	Topic set by ryanresella (~ryanresel@76-217-165-117.lightspeed.irvnca.sbcglobal.net) on Tue, 26 Feb 2013 10:59:13
+2013-07-23 16:39:57	--	Nicks #codeforamerica: [a2n ahhrrr BretFisher cfa_dog chrismetcalf devin_s dthompson fgregg_ fsargent ghelleks_afk jalbertbowdenii jden jj0hns0n jlord JSON_voorheez kaen meatball2at meatballhat natebenes rch rresella_ slifty tdfischer thschee_ timfreund tylerstalder waltz zzolo]
+2013-07-23 16:39:57	--	Channel #codeforamerica: 28 nicks (0 ops, 0 halfops, 0 voices, 28 normals)
+2013-07-23 16:40:07	--	Mode #codeforamerica [+cnt]
+2013-07-23 16:40:07	--	Channel created on Sat, 11 Feb 2012 19:53:26
+2013-07-23 16:42:34	<--	jj0hns0n (~jj0hns0n@ip68-6-252-34.sd.sd.cox.net) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2013-07-23 16:56:39	<--	jalbertbowdenii (~albert@ip98-183-210-51.hr.hr.cox.net) has quit (Quit: Leaving.)
+2013-07-23 17:09:24	<--	slifty (~slifty@pool-96-238-52-69.prvdri.fios.verizon.net) has quit (Quit: Leaving...)
+2013-07-23 17:10:11	-->	copelco (~copelco@cpe-098-122-181-082.nc.res.rr.com) has joined #codeforamerica
+2013-07-23 17:22:46	<--	devin_s (~devin_s@8.18.203.252) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-07-23 17:44:00	<--	dthompson (~Adium@69-12-169-82.dedicated.static.sonic.net) has quit (Quit: Leaving.)
+2013-07-23 17:47:10	-->	slifty (~slifty@pool-96-238-52-69.prvdri.fios.verizon.net) has joined #codeforamerica
+2013-07-23 17:49:15	-->	dthompson (~Adium@69-12-169-82.dedicated.static.sonic.net) has joined #codeforamerica
+2013-07-23 17:53:09	--	chrismetcalf is now known as zz_chrismetcalf
+2013-07-23 17:54:13	<--	slifty (~slifty@pool-96-238-52-69.prvdri.fios.verizon.net) has quit (Ping timeout: 276 seconds)
+2013-07-23 18:47:38	--	irc: disconnected from server
+2013-07-23 18:48:05	-->	JSON_voorheez (~JSON_voor@c-67-189-34-0.hsd1.or.comcast.net) has joined #codeforamerica
+2013-07-23 18:48:05	--	Topic for #codeforamerica is "cfa_dog hello - Welcome to Code for America - make sure you Code for America today"
+2013-07-23 18:48:05	--	Topic set by ryanresella (~ryanresel@76-217-165-117.lightspeed.irvnca.sbcglobal.net) on Tue, 26 Feb 2013 10:59:13
+2013-07-23 18:48:05	--	Nicks #codeforamerica: [a2n ahhrrr BretFisher cfa_dog copelco dthompson fgregg_ fsargent ghelleks_afk jden jlord JSON_voorheez kaen MarkBrenig meatball2at meatballhat natebenes rch rresella_ tdfischer thschee_ timfreund tylerstalder waltz zz_chrismetcalf]
+2013-07-23 18:48:05	--	Channel #codeforamerica: 25 nicks (0 ops, 0 halfops, 0 voices, 25 normals)
+2013-07-23 18:48:15	--	Mode #codeforamerica [+cnt]
+2013-07-23 18:48:15	--	Channel created on Sat, 11 Feb 2012 19:53:26
+2013-07-23 18:55:08	<--	MarkBrenig (~Adium@c-98-210-129-145.hsd1.ca.comcast.net) has left #codeforamerica
+2013-07-23 19:08:43	-->	atogle (~textual@c-71-224-194-13.hsd1.pa.comcast.net) has joined #codeforamerica
+2013-07-23 19:14:52	-->	kmcurry (~Adium@pool-173-50-79-113.nrflva.fios.verizon.net) has joined #codeforamerica
+2013-07-23 19:16:23	<--	atogle (~textual@c-71-224-194-13.hsd1.pa.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2013-07-23 19:20:02	<--	dthompson (~Adium@69-12-169-82.dedicated.static.sonic.net) has quit (Quit: Leaving.)
+2013-07-23 19:22:24	-->	slifty (~slifty@pool-96-238-52-69.prvdri.fios.verizon.net) has joined #codeforamerica
+2013-07-23 19:26:58	<--	slifty (~slifty@pool-96-238-52-69.prvdri.fios.verizon.net) has quit (Ping timeout: 268 seconds)
+2013-07-23 19:38:00	<--	kmcurry (~Adium@pool-173-50-79-113.nrflva.fios.verizon.net) has quit (Quit: Leaving.)
+2013-07-23 19:45:31	-->	philipashlock (~philipash@c-68-48-250-101.hsd1.dc.comcast.net) has joined #codeforamerica
+2013-07-23 19:49:42	-->	MarkBrenig (~Adium@c-98-210-129-145.hsd1.ca.comcast.net) has joined #codeforamerica
+2013-07-23 19:50:18	--	ghelleks_afk is now known as ghelleks
+2013-07-23 20:02:11	<--	ghelleks (~gunnar@2001:4800:7812:514:7385:4b0f:ff04:ae71) has quit (Quit: Coyote finally caught me)
+2013-07-23 20:02:38	-->	ghelleks_afk (~gunnar@2001:4800:7812:514:7385:4b0f:ff04:ae71) has joined #codeforamerica
+2013-07-23 20:02:40	<--	ghelleks_afk (~gunnar@2001:4800:7812:514:7385:4b0f:ff04:ae71) has quit (Excess Flood)
+2013-07-23 20:02:47	-->	ghelleks (~gunnar@2001:4800:7812:514:7385:4b0f:ff04:ae71) has joined #codeforamerica
+2013-07-23 20:02:48	--	ghelleks is now known as ghelleks_afk
+2013-07-23 20:02:48	--	ghelleks_afk is now known as ghelleks
+2013-07-23 20:22:46	-->	slifty (~slifty@pool-96-238-52-69.prvdri.fios.verizon.net) has joined #codeforamerica
+2013-07-23 20:24:02	-->	dthompson (~Adium@70-36-227-135.dsl.dynamic.sonic.net) has joined #codeforamerica
+2013-07-23 20:27:14	<--	slifty (~slifty@pool-96-238-52-69.prvdri.fios.verizon.net) has quit (Ping timeout: 256 seconds)
+2013-07-23 20:27:55	-->	fkh (~fkh@ool-18e45f8d.dyn.optonline.net) has joined #codeforamerica
+2013-07-23 20:30:05	--	ghelleks is now known as ghelleks_afk
+2013-07-23 20:30:15	-->	jj0hns0n (~jj0hns0n@ip68-6-252-34.sd.sd.cox.net) has joined #codeforamerica
+2013-07-23 20:31:33	--	ghelleks_afk is now known as ghelleks
+2013-07-23 22:47:12	--	irc: disconnected from server
+2013-07-24 00:42:39	-->	JSON_voorheez (~JSON_voor@c-67-189-34-0.hsd1.or.comcast.net) has joined #codeforamerica
+2013-07-24 00:42:40	--	Topic for #codeforamerica is "cfa_dog hello - Welcome to Code for America - make sure you Code for America today"
+2013-07-24 00:42:40	--	Topic set by ryanresella (~ryanresel@76-217-165-117.lightspeed.irvnca.sbcglobal.net) on Tue, 26 Feb 2013 10:59:13
+2013-07-24 00:42:40	--	Nicks #codeforamerica: [a2n ahhrrr cfa_dog copelco fgregg_ fsargent ghelleks_afk jden jlord JSON_voorheez kaen meatball2at meatballhat natebenes philipashlock rch rresella_ tdfischer thschee_ timfreund waltz zz_chrismetcalf]
+2013-07-24 00:42:40	--	Channel #codeforamerica: 22 nicks (0 ops, 0 halfops, 0 voices, 22 normals)
+2013-07-24 00:42:47	--	Mode #codeforamerica [+cnt]
+2013-07-24 00:42:48	--	Channel created on Sat, 11 Feb 2012 19:53:26
+2013-07-24 00:57:47	-->	jalbertbowdenii (~albert@ip98-183-210-51.hr.hr.cox.net) has joined #codeforamerica
+2013-07-24 00:57:52	<--	jalbertbowdenii (~albert@ip98-183-210-51.hr.hr.cox.net) has quit (Client Quit)
+2013-07-24 03:17:19	--	irc: disconnected from server
+2013-07-24 10:36:16	-->	JSON_voorheez (~JSON_voor@c-71-56-139-32.hsd1.or.comcast.net) has joined #codeforamerica
+2013-07-24 10:36:17	--	Topic for #codeforamerica is "cfa_dog hello - Welcome to Code for America - make sure you Code for America today"
+2013-07-24 10:36:17	--	Topic set by ryanresella (~ryanresel@76-217-165-117.lightspeed.irvnca.sbcglobal.net) on Tue, 26 Feb 2013 10:59:13
+2013-07-24 10:36:17	--	Nicks #codeforamerica: [a2n ahhrrr atogle BretFisher cfa_dog chrismetcalf copelco devin_s dthompson fgregg_ fkh fsargent ghelleks jden jj0hns0n jlord JSON_voorheez meatball2at meatballhat mjumbewu_ natebenes rch rresella_ tdfischer thschee_ timfreund waltz zzolo]
+2013-07-24 10:36:17	--	Channel #codeforamerica: 28 nicks (0 ops, 0 halfops, 0 voices, 28 normals)
+2013-07-24 10:36:17	<--	atogle (~textual@173-12-5-73-Philadelphia.hfc.comcastbusiness.net) has quit (Quit: Computer has gone to sleep.)
+2013-07-24 10:36:27	--	Mode #codeforamerica [+cnt]
+2013-07-24 10:36:27	--	Channel created on Sat, 11 Feb 2012 19:53:26
+2013-07-24 10:38:15	-->	nickyg (~nick@2600:1000:b028:8f10:d516:db0a:8eb5:d898) has joined #codeforamerica
+2013-07-24 10:40:09	-->	dthompson1 (~Adium@69-12-169-82.dedicated.static.sonic.net) has joined #codeforamerica
+2013-07-24 10:40:09	<--	dthompson (~Adium@69-12-169-82.dedicated.static.sonic.net) has quit (Read error: Connection reset by peer)
+2013-07-24 10:42:31	<--	mjumbewu_ (~mjumbewu@173-12-5-73-Philadelphia.hfc.comcastbusiness.net) has quit (Ping timeout: 248 seconds)
+2013-07-24 10:58:15	<--	fkh (fkh@nat/openplans.org/x-jaxkzvunlbfovmqa) has quit (Quit: fkh)
+2013-07-24 11:02:05	--	ghelleks is now known as ghelleks_afk
+2013-07-24 11:02:40	-->	mjumbewu_ (~mjumbewu@184.77.160.118) has joined #codeforamerica
+2013-07-24 11:07:34	-->	slifty (~slifty@pool-96-238-52-69.prvdri.fios.verizon.net) has joined #codeforamerica
+2013-07-24 11:36:29	<--	BretFisher (~BretFishe@ip72-218-1-58.hr.hr.cox.net) has quit
+2013-07-24 11:39:35	--	ghelleks_afk is now known as ghelleks
+2013-07-24 11:51:20	-->	kfogel (~Karl@c-98-212-140-226.hsd1.il.comcast.net) has joined #codeforamerica
+2013-07-24 11:55:12	--	ghelleks is now known as ghelleks_afk
+2013-07-24 11:56:15	<--	nickyg (~nick@2600:1000:b028:8f10:d516:db0a:8eb5:d898) has quit (Ping timeout: 245 seconds)
+2013-07-24 11:57:24	<--	zzolo (~zzolo@c-75-72-229-64.hsd1.mn.comcast.net) has quit (Quit: zzolo)
+2013-07-24 11:59:41	-->	fkh (fkh@nat/openplans.org/x-yhxjkqjuryubycnr) has joined #codeforamerica
+2013-07-24 12:05:06	--	chrismetcalf is now known as zz_chrismetcalf
+2013-07-24 12:09:35	<--	jj0hns0n (~jj0hns0n@ip68-6-252-34.sd.sd.cox.net) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2013-07-24 12:10:01	--	ghelleks_afk is now known as ghelleks
+2013-07-24 12:12:56	-->	philipashlock (~philipash@c-68-48-250-101.hsd1.dc.comcast.net) has joined #codeforamerica
+2013-07-24 12:12:57	-->	zzolo (~zzolo@63.231.245.97) has joined #codeforamerica
+2013-07-24 12:26:41	--	irc: disconnected from server
+2013-07-24 12:27:05	-->	JSON_voorheez (~JSON_voor@71.56.139.32) has joined #codeforamerica
+2013-07-24 12:27:05	--	Topic for #codeforamerica is "cfa_dog hello - Welcome to Code for America - make sure you Code for America today"
+2013-07-24 12:27:05	--	Topic set by ryanresella (~ryanresel@76-217-165-117.lightspeed.irvnca.sbcglobal.net) on Tue, 26 Feb 2013 10:59:13
+2013-07-24 12:27:05	--	Nicks #codeforamerica: [a2n ahhrrr cfa_dog copelco fgregg_ fkh fsargent ghelleks jden jlord JSON_voorheez kfogel meatball2at meatballhat mjumbewu_ natebenes philipashlock rch rresella_ slifty tdfischer thschee_ timfreund waltz zz_chrismetcalf zzolo]
+2013-07-24 12:27:05	--	Channel #codeforamerica: 26 nicks (0 ops, 0 halfops, 0 voices, 26 normals)
+2013-07-24 12:27:15	--	Mode #codeforamerica [+cnt]
+2013-07-24 12:27:15	--	Channel created on Sat, 11 Feb 2012 19:53:26
+2013-07-24 12:31:10	<--	copelco (~copelco@rrcs-108-169-138-218.midsouth.biz.rr.com) has quit (Quit: Leaving.)
+2013-07-24 12:32:57	-->	copelco (~copelco@rrcs-108-169-138-218.midsouth.biz.rr.com) has joined #codeforamerica
+2013-07-24 12:33:14	<--	philipashlock (~philipash@c-68-48-250-101.hsd1.dc.comcast.net) has quit (Quit: philipashlock)
+2013-07-24 12:41:57	<--	mjumbewu_ (~mjumbewu@184.77.160.118) has quit (Ping timeout: 248 seconds)
+2013-07-24 12:53:26	-->	nickyg (~nick@2600:1000:b027:8af8:8d57:4abe:e965:5d5f) has joined #codeforamerica
+2013-07-24 12:54:23	-->	jj0hns0n (~jj0hns0n@ip68-6-252-34.sd.sd.cox.net) has joined #codeforamerica
+2013-07-24 12:56:57	-->	devin_s (~devin_s@8.18.203.252) has joined #codeforamerica
+2013-07-24 12:57:18	-->	mjumbewu_ (~mjumbewu@71.23.214.76) has joined #codeforamerica
+2013-07-24 13:03:47	-->	jalbertbowdenii (~albert@ip98-183-210-51.hr.hr.cox.net) has joined #codeforamerica
+2013-07-24 13:03:54	-->	atogle (~textual@71.23.214.76) has joined #codeforamerica
+2013-07-24 13:04:18	<--	devin_s (~devin_s@8.18.203.252) has quit (Ping timeout: 264 seconds)
+2013-07-24 13:05:54	--	zz_chrismetcalf is now known as chrismetcalf
+2013-07-24 13:07:23	<--	zzolo (~zzolo@63.231.245.97) has quit (Quit: zzolo)
+2013-07-24 13:10:10	-->	philipashlock (~philipash@c-68-48-250-101.hsd1.dc.comcast.net) has joined #codeforamerica
+2013-07-24 13:14:45	-->	zzolo (~zzolo@63.231.245.97) has joined #codeforamerica
+2013-07-24 13:21:08	<--	jj0hns0n (~jj0hns0n@ip68-6-252-34.sd.sd.cox.net) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2013-07-24 13:23:19	<--	nickyg (~nick@2600:1000:b027:8af8:8d57:4abe:e965:5d5f) has quit (Ping timeout: 245 seconds)
+2013-07-24 13:28:07	<--	atogle (~textual@71.23.214.76) has quit (Ping timeout: 276 seconds)
+2013-07-24 13:32:05	<--	mjumbewu_ (~mjumbewu@71.23.214.76) has quit (Ping timeout: 248 seconds)
+2013-07-24 13:43:39	-->	dthompson (~Adium@69-12-169-82.dedicated.static.sonic.net) has joined #codeforamerica
+2013-07-24 13:45:21	-->	mjumbewu_ (~mjumbewu@184.77.160.118) has joined #codeforamerica
+2013-07-24 13:48:51	<--	slifty (~slifty@pool-96-238-52-69.prvdri.fios.verizon.net) has quit (Quit: Leaving...)
+2013-07-24 13:50:35	-->	slifty (~slifty@pool-96-238-52-69.prvdri.fios.verizon.net) has joined #codeforamerica
+2013-07-24 14:04:22	--	chrismetcalf is now known as zz_chrismetcalf
+2013-07-24 14:06:47	--	zz_chrismetcalf is now known as chrismetcalf
+2013-07-24 14:16:54	<--	dthompson (~Adium@69-12-169-82.dedicated.static.sonic.net) has quit (Quit: Leaving.)
+2013-07-24 14:17:14	--	chrismetcalf is now known as zz_chrismetcalf
+2013-07-24 14:18:21	--	zz_chrismetcalf is now known as chrismetcalf
+2013-07-24 14:24:24	-->	dthompson (~Adium@69-12-169-82.dedicated.static.sonic.net) has joined #codeforamerica
+2013-07-24 14:25:04	--	ghelleks is now known as ghelleks_afk
+2013-07-24 14:25:50	<--	zzolo (~zzolo@63.231.245.97) has quit (Ping timeout: 240 seconds)
+2013-07-24 14:33:48	-->	zzolo (~zzolo@63.231.245.97) has joined #codeforamerica
+2013-07-24 14:36:58	<--	copelco (~copelco@rrcs-108-169-138-218.midsouth.biz.rr.com) has quit (Quit: Leaving.)
+2013-07-24 14:50:54	-->	jj0hns0n (~jj0hns0n@wsip-70-166-28-71.sd.sd.cox.net) has joined #codeforamerica
+2013-07-24 14:51:34	natebenes	Thoughts on .io domain names?  Our brigade is looking.
+2013-07-24 14:54:00	-->	philipashlock_ (~philipash@c-68-48-250-101.hsd1.dc.comcast.net) has joined #codeforamerica
+2013-07-24 14:54:32	<--	philipashlock_ (~philipash@c-68-48-250-101.hsd1.dc.comcast.net) has quit (Client Quit)
+2013-07-24 14:56:49	--	chrismetcalf is now known as zz_chrismetcalf
+2013-07-24 14:56:55	<--	philipashlock (~philipash@c-68-48-250-101.hsd1.dc.comcast.net) has quit (Ping timeout: 256 seconds)
+2013-07-24 15:23:04	-->	philipashlock (~philipash@199.230.118.66) has joined #codeforamerica
+2013-07-24 15:26:12	<--	fkh (fkh@nat/openplans.org/x-yhxjkqjuryubycnr) has quit (Quit: fkh)
+2013-07-24 15:28:42	-->	fkh (fkh@nat/openplans.org/x-iiuytlxwumhqxqbs) has joined #codeforamerica
+2013-07-24 15:29:18	<--	zzolo (~zzolo@63.231.245.97) has quit (Quit: zzolo)
+2013-07-24 15:32:23	-->	BretFisher (~BretFishe@wsip-72-214-82-253.hr.hr.cox.net) has joined #codeforamerica
+2013-07-24 15:33:37	-->	tealmage (~tealmage@wsip-72-214-82-253.hr.hr.cox.net) has joined #codeforamerica
+2013-07-24 15:39:13	<--	philipashlock (~philipash@199.230.118.66) has quit (Quit: philipashlock)
+2013-07-24 15:43:54	-->	philipashlock (~philipash@199.230.118.66) has joined #codeforamerica
+2013-07-24 15:46:33	<--	fkh (fkh@nat/openplans.org/x-iiuytlxwumhqxqbs) has quit (Quit: fkh)
+2013-07-24 15:47:10	-->	fkh (fkh@nat/openplans.org/x-amdqfrfbkclzeadf) has joined #codeforamerica
+2013-07-24 15:47:23	--	ghelleks_afk is now known as ghelleks
+2013-07-24 15:47:45	<--	fkh (fkh@nat/openplans.org/x-amdqfrfbkclzeadf) has quit (Client Quit)
+2013-07-24 15:53:25	<--	mjumbewu_ (~mjumbewu@184.77.160.118) has quit (Ping timeout: 248 seconds)
+2013-07-24 15:55:24	<--	philipashlock (~philipash@199.230.118.66) has quit (Quit: philipashlock)
+2013-07-24 15:57:40	-->	tylerstalder (~tylerstal@184.23.0.5) has joined #codeforamerica
+2013-07-24 16:05:54	-->	fkh (fkh@nat/openplans.org/x-jvkfzkgibqdqmtzd) has joined #codeforamerica
+2013-07-24 16:06:39	-->	philipashlock (~philipash@199.230.118.66) has joined #codeforamerica
+2013-07-24 16:15:26	<--	tealmage (~tealmage@wsip-72-214-82-253.hr.hr.cox.net) has quit (Remote host closed the connection)
+2013-07-24 16:19:28	-->	tealmage (~tealmage@wsip-72-214-82-253.hr.hr.cox.net) has joined #codeforamerica
+2013-07-24 16:21:01	<--	philipashlock (~philipash@199.230.118.66) has quit (Quit: philipashlock)
+2013-07-24 16:23:18	-->	philipashlock (~philipash@199.230.118.66) has joined #codeforamerica
+2013-07-24 16:24:56	<--	jj0hns0n (~jj0hns0n@wsip-70-166-28-71.sd.sd.cox.net) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2013-07-24 16:31:04	<--	BretFisher (~BretFishe@wsip-72-214-82-253.hr.hr.cox.net) has quit
+2013-07-24 16:32:01	--	zz_chrismetcalf is now known as chrismetcalf
+2013-07-24 16:39:27	<--	philipashlock (~philipash@199.230.118.66) has quit (Quit: philipashlock)
+2013-07-24 16:41:52	--	ghelleks is now known as ghelleks_afk
+2013-07-24 16:54:03	-->	BretFisher (~BretFishe@wsip-72-214-82-253.hr.hr.cox.net) has joined #codeforamerica
+2013-07-24 16:55:29	--	chrismetcalf is now known as zz_chrismetcalf
+2013-07-24 17:06:40	-->	atogle (~textual@c-71-224-194-13.hsd1.pa.comcast.net) has joined #codeforamerica
+2013-07-24 17:07:46	--	zz_chrismetcalf is now known as chrismetcalf
+2013-07-24 17:11:06	<--	BretFisher (~BretFishe@wsip-72-214-82-253.hr.hr.cox.net) has quit
+2013-07-24 17:13:39	-->	BretFisher (~BretFishe@wsip-72-214-82-253.hr.hr.cox.net) has joined #codeforamerica
+2013-07-24 17:16:30	-->	kmcurry (~Adium@pool-96-225-163-253.nrflva.fios.verizon.net) has joined #codeforamerica
+2013-07-24 17:22:49	--	ghelleks_afk is now known as ghelleks
+2013-07-24 17:34:15	<--	kmcurry (~Adium@pool-96-225-163-253.nrflva.fios.verizon.net) has quit (Quit: Leaving.)
+2013-07-24 17:36:29	<--	BretFisher (~BretFishe@wsip-72-214-82-253.hr.hr.cox.net) has quit
+2013-07-24 17:39:13	-->	BretFisher (~BretFishe@wsip-72-214-82-253.hr.hr.cox.net) has joined #codeforamerica
+2013-07-24 17:47:53	<--	tealmage (~tealmage@wsip-72-214-82-253.hr.hr.cox.net) has quit (Remote host closed the connection)
+2013-07-24 17:49:03	<--	BretFisher (~BretFishe@wsip-72-214-82-253.hr.hr.cox.net) has quit
+2013-07-24 17:52:14	-->	BretFisher (~BretFishe@wsip-72-214-82-253.hr.hr.cox.net) has joined #codeforamerica
+2013-07-24 17:52:18	<--	tylerstalder (~tylerstal@184.23.0.5) has quit (Quit: Computer has gone to sleep.)
+2013-07-24 17:53:13	-->	tylerstalder (~tylerstal@184.23.0.5) has joined #codeforamerica
+2013-07-24 17:55:17	<--	dthompson (~Adium@69-12-169-82.dedicated.static.sonic.net) has quit (Quit: Leaving.)
+2013-07-24 17:56:48	<--	BretFisher (~BretFishe@wsip-72-214-82-253.hr.hr.cox.net) has quit (Ping timeout: 245 seconds)
+2013-07-24 18:04:33	-->	dthompson (~Adium@69-12-169-82.dedicated.static.sonic.net) has joined #codeforamerica
+2013-07-24 18:05:58	<--	tylerstalder (~tylerstal@184.23.0.5) has quit (Quit: Textual IRC Client: http://www.textualapp.com/)
+2013-07-24 18:21:07	<--	dthompson (~Adium@69-12-169-82.dedicated.static.sonic.net) has quit (Quit: Leaving.)
+2013-07-24 18:29:07	-->	jj0hns0n (~jj0hns0n@rrcs-67-52-155-130.west.biz.rr.com) has joined #codeforamerica
+2013-07-24 18:37:43	<--	jj0hns0n (~jj0hns0n@rrcs-67-52-155-130.west.biz.rr.com) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-07-24 18:37:46	-->	MarkBrenig (~Adium@69-12-169-82.dedicated.static.sonic.net) has joined #codeforamerica
+2013-07-24 18:39:05	--	chrismetcalf is now known as zz_chrismetcalf
+2013-07-24 18:46:59	<--	atogle (~textual@c-71-224-194-13.hsd1.pa.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2013-07-24 18:49:41	-->	tealmage_ (~tealmage@ip70-160-31-87.hr.hr.cox.net) has joined #codeforamerica
+2013-07-24 18:59:23	-->	JSONvoorhees (~JSONvoorh@192.241.221.28) has joined #codeforamerica
+2013-07-24 19:00:52	-->	dthompson (~Adium@69-12-169-82.dedicated.static.sonic.net) has joined #codeforamerica
