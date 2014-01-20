@@ -1,5 +1,0 @@
-# Author: Johan Tibell <johan.tibell@gmail.com>
-# name: language pragma
-# key: lang
-# --
-{-# LANGUAGE $1 #-}$0

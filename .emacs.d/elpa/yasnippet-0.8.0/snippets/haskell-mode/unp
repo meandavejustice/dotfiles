@@ -1,5 +1,0 @@
-# Author: Johan Tibell <johan.tibell@gmail.com>
-# name: unpack pragma
-# key: unp
-# --
-{-# UNPACK #-}$0
