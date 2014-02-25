@@ -15,7 +15,10 @@ alias spotify="osascript ~/Code/Projects/SpotifyControl/SpotifyControl.scpt"
 alias itunes="~/Code/Projects/bash-itunes/itunes"
 alias docs="~/docs.zsh"
 alias vimrc="vim ~/.vimrc"
-
+alias maiServer="ssh 192.241.221.28"
+alias spark="./spark"
+# alias mopidy = "PYTHONPATH=$(brew --prefix)/lib/python2.7/site-packages mopidy"
+# alias emacs="nohup /Applications/Emacs.app/Contents/MacOS/Emacs &"
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
 
