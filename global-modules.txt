@@ -7,3 +7,5 @@ marked-man
 n
 node-inspector
 json
+altcaps
+butts
