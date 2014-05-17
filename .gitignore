@@ -1,8 +1,5 @@
-node_modules
-dist
 .tmp
 .sass-cache
-app/bower_components
 auto-save-list
 custom.el
 url/
@@ -13,7 +10,6 @@ org-mode-config.el
 .#*
 \#*\#
 *.log
-.DS_Store
 org-clock-save.el
 emacs-config.el
 .dir-locals.el

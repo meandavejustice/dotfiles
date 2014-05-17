@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo $1
+
+if [ -f $1 ]; then
+    filename=$1
+else
+    filename="capture.png"
+fi
+echo $filename
+sleep 5; xwd -root | convert - $filename

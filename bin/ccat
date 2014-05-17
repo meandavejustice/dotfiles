@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# http://scott.sherrillmix.com/blog/programmer/syntax-highlighting-in-terminal/
+if [ ! -t 0 ]; then
+    file=/dev/stdin
+elif [ -f $1 ]; then
+    file=$1
+else
+    # this block doesn't run if no file :/
+    echo "Usage: $0 code.js"
+    echo "or e.g. head code.js|$0"
+    exit 1
+fi
+
+if [ ${file: -3} == ".md" ] || [ ${file: -3} == ".mkd" ]; then
+    marked $file | lynx -stdin
+else
+    pygmentize -f terminal -g $file
+fi

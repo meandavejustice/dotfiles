@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# get external monitor to work with mini-display port
+# add arg parsing for other display options
+
+# mirror
+xrandr --output LVDS --auto DP1 --auto --same-as LVDS

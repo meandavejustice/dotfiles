@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo "starting lock screen"
+
+source ~/.bashrc || source /etc/profile
+export DISPLAY=:0
+
+xscreensaver-command -lock
+# gnome-screensaver-command -l
