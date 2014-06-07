@@ -1,7 +1,9 @@
 Config { font = "-misc-fixed-*-*-*-*-10-*-*-*-*-*-*-*"
        , bgColor = "black"
-       , fgColor = "grey"
+       , fgColor = "green"
        , position = Top
+       , border = FullB
+       , borderColor = "pink"
        , lowerOnStart = True
        , commands = [ Run Weather "KPDX" ["-t","<station>: <tempF>F","-L","45","-H","65","--normal","green","--high","red","--low","lightblue"] 36000
                     -- , Run Network "eth0" ["-L","0","-H","32","--normal","green","--high","red"] 10
@@ -11,7 +13,7 @@ Config { font = "-misc-fixed-*-*-*-*-10-*-*-*-*-*-*-*"
                     , Run Swap [] 10
                     , Run Com "uname" ["-s","-r"] "" 36000
                     , Run Date "%a %b %_d %Y %H:%M:%S" "date" 10
-                    , Run BatteryP ["BAT0"] ["--", "-c", "energy_full", "<left>% / <timeleft>","-L","50","-H","75","-h","green", "-l","red"] 10
+                    , Run BatteryP ["BAT0"] ["--", "energy_full", "<left>% / <timeleft>","-L","50","-H","75","-h","green", "-l","red"] 10
                     ]
        , sepChar = "%"
        , alignSep = "}{"

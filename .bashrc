@@ -2,6 +2,21 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
+asd() {
+cat <<EOF
+
+####################################
+#                                  #
+#      Welcome to Mean Dave's      #
+#          Mainframe!              #
+#                                  #
+####################################
+                                                                 
+EOF
+}
+
+asd
+
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;
@@ -108,3 +123,5 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+export PATH=$PATH:/home/meandave/bin/
