@@ -1,13 +1,13 @@
 #!/bin/sh
 
 # animate ~/bin/init/nothing_matters.gif &
-# mpg123 ~/bin/init/real_trap_shit.mp3 &
-
-# source ~/.profile
+mpg123 ~/bin/init/real_trap_shit.mp3 &
 
 xrdb ~/.xDefaults
 
 xbindkeys
+
+# detect_displays
 
 # fix caps lock => ctrl
 setxkbmap -option ctrl:nocaps
@@ -16,11 +16,13 @@ setxkbmap -option ctrl:nocaps
 feh --bg-scale /home/meandave/bin/init/days_of_rage.jpg
 
 #utils
-# unclutter -idle 1 &
+unclutter -idle 1 &
 
-firefox-nightly &
+xmobar &
+
+# firefox-nightly &
+chromium &
 xterm &
 
 xscreensaver &
-xmobar &
 dbus-launch --exit-with-session xmonad

@@ -14,3 +14,13 @@ org-clock-save.el
 emacs-config.el
 .dir-locals.el
 .emacs.d/
+.Xauthority
+.bash_history
+.bash_logout
+.dmrc
+.gtkrc-2.0
+.netrc
+.notify-osd
+.pentadactyl
+.python_history
+.recentf

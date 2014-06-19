@@ -2,26 +2,16 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
-asd() {
-cat <<EOF
-
-####################################
-#                                  #
-#      Welcome to Mean Dave's      #
-#          Mainframe!              #
-#                                  #
-####################################
-                                                                 
-EOF
-}
-
-asd
-
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;
       *) return;;
 esac
+
+if [ `/usr/bin/whoami` = "root" ] ; then
+  # root has a red prompt
+  export PS1="\[\033[1;31m\]\u@\h \w \$ \[\033[0m\]"
+fi
 
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options
@@ -125,3 +115,4 @@ if ! shopt -oq posix; then
 fi
 
 export PATH=$PATH:/home/meandave/bin/
+PATH="`ruby -e 'puts Gem.user_dir'`/bin:$PATH"
