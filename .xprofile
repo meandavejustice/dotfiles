@@ -15,6 +15,9 @@ setxkbmap -option ctrl:nocaps
 # set desktop background
 feh --bg-scale /home/meandave/bin/init/days_of_rage.jpg
 
+# diable trackpad until 1 second after keypress
+syndaemon -t -k -i 1 &
+
 #utils
 unclutter -idle 1 &
 
@@ -22,7 +25,7 @@ xmobar &
 
 # firefox-nightly &
 chromium &
-xterm &
+urxvt -bg black -fg white +sb &
 
 xscreensaver &
 dbus-launch --exit-with-session xmonad

@@ -8,7 +8,7 @@ main = xmonad $ gnomeConfig {
      , normalBorderColor = "#0FEC8B"
      , focusedBorderColor = "#EC820F"
      , modMask = mod4Mask
-     , terminal = "xterm"
+     , terminal = "urxvt -bg black -fg white +sb"
      , layoutHook = smartBorders (layoutHook gnomeConfig)
   }
   `additionalKeys` [ ((mod4Mask, xK_p), spawn "dmenu_run") ]

@@ -7,3 +7,7 @@
   XF86MonBrightnessDown
 "xbacklight -inc 5"
   XF86MonBrightnessUp
+
+"~/bin/trackpad-toggle"
+    m:0x5 + c:65
+    Control+Shift + space

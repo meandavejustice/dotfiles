@@ -1,0 +1,30 @@
+#!/bin/bash
+
+if [ ! -t 0 ]; then
+    user=/dev/stdin
+elif [ $1 ]; then
+    user=$1
+else
+    echo "Usage: $1 [username <string>] $2 [-m msg <string>]" 1>&2; exit 1;
+fi
+
+if [ $2 ]; then
+    msg=$2
+else
+    msg="yo" # your username here
+fi
+
+if [ $3 ]; then
+    i=$3
+else
+    i=1
+fi
+
+x=1
+while [ $x -le $i ]
+do
+    curl -X POST http://yofor.me/$user/$msg
+    echo "Welcome $x times"
+#    sleep 1
+    x=$(( $x + 1 ))
+done

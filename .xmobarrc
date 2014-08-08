@@ -1,23 +1,23 @@
-Config { font = "-misc-fixed-*-*-*-*-10-*-*-*-*-*-*-*"
+Config { font = "xft:inconsolata:size=10:antialias=true"
        , bgColor = "black"
-       , fgColor = "green"
+       , fgColor = "#13FFB4"
        , position = Top
+       , lowerOnStart = True
        , border = FullB
        , borderColor = "pink"
-       , lowerOnStart = True
+       -- , lowerOnStart = True
        , commands = [ Run Weather "KPDX" ["-t","<station>: <tempF>F","-L","45","-H","65","--normal","green","--high","red","--low","lightblue"] 36000
                     -- , Run Network "eth0" ["-L","0","-H","32","--normal","green","--high","red"] 10
                     -- , Run Network "eth1" ["-L","0","-H","32","--normal","green","--high","red"] 10
                     , Run Cpu ["-L","3","-H","50","--normal","green","--high","red"] 10
                     , Run Memory ["-t","Mem: <usedratio>%"] 10
-                    , Run Swap [] 10
                     , Run Com "uname" ["-s","-r"] "" 36000
+                    , Run DiskIO [("/", "IO: <total>"), ("sda4", "<total>")] [] 10
                     , Run Date "%a %b %_d %Y %H:%M:%S" "date" 10
                     , Run BatteryP ["BAT0"] ["--", "energy_full", "<left>% / <timeleft>","-L","50","-H","75","-h","green", "-l","red"] 10
                     ]
        , sepChar = "%"
        , alignSep = "}{"
-       -- , template = "%cpu% | %memory% * %swap% | %eth0% - %eth1% | %battery% }{ <fc=#ee9a00>%date%</fc>| %EGPF% | %uname%"
-       , template = "%cpu% | %memory% * %swap% | %battery% }{ <fc=#ee9a00>%date%</fc>| %KPDX% | %uname%"
+       -- , template = "%cpu% | %memory% | %diskio% | %eth0% - %eth1% | %battery% }{ <fc=#93a1a1>%gmail%</fc> }{ <fc=#ee9a00>%date%</fc>| %EGPF% | %uname%"
+       , template = "%cpu% | %memory% | %battery% }{ <fc=#ee9a00>%date%</fc>| %KPDX% | %uname%"
        }
-       
